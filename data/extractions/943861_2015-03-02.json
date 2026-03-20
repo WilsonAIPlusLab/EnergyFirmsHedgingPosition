@@ -1,0 +1,108 @@
+{
+  "cik": "943861",
+  "company": "GOODRICH PETROLEUM CORP",
+  "filing_date": "2015-03-02",
+  "accession_number": "0001564590-15-001123",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 5.055,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": "Royal Bank of Canada, Bank of Montreal, JPMorgan Chase Bank, N.A., Merrill Lynch Commodities, Inc., Wells Fargo Bank, N.A.",
+        "fair_value_mm": -0.102,
+        "notes": "Sold calls with strike range $5.05-5.06"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 7320000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 5.055,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": "Royal Bank of Canada, Bank of Montreal, JPMorgan Chase Bank, N.A., Merrill Lynch Commodities, Inc., Wells Fargo Bank, N.A.",
+        "fair_value_mm": -0.464,
+        "notes": "Sold calls with strike range $5.05-5.06"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3500,
+        "volume_total": 1277500,
+        "volume_unit": "Bbls",
+        "fixed_price": 95.66,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": "Royal Bank of Canada, Bank of Montreal, JPMorgan Chase Bank, N.A., Merrill Lynch Commodities, Inc., Wells Fargo Bank, N.A.",
+        "fair_value_mm": 47.444,
+        "notes": "Fixed price range $94.55-98.10; referenced to Argus LLS; approximately 70% of projected 2015 oil production hedged"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Derivatives managed under Board-approved policy to manage commodity price risk. Not designated as hedges for accounting. Approximately 70% of 2015 oil production hedged."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1692000,
+      "oil_production_bpd": 4635,
+      "gas_production_mcf": 14980000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 27000,
+      "proved_gas_reserves_mmcf": 105000,
+      "proved_ngl_reserves_mbbls": 1000,
+      "total_proved_reserves_mboe": 45667,
+      "proved_developed_reserves_mboe": 21007,
+      "proved_undeveloped_reserves_mboe": 24660,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 644.7,
+      "pv10_mm": 651,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 1.17,
+      "production_tax_per_boe": 0.39,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.36,
+      "dd_and_a_per_boe": 5.4,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.977226",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "cik": "1581552",
+  "company": "Energy 11, L.P.",
+  "filing_date": "2025-03-14",
+  "accession_number": "0001185185-25-000180",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Must hedge 50% of 12-month prod if facility util >20% of PV-9; 50% of 24-month prod if >30%. No hedging req'd if util \u226420%. No derivatives outstanding at Dec 31, 2024."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1010751,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1542402,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 265272,
+      "total_production_boe": 1533090,
+      "total_production_boepd": null,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 74.72,
+      "gas_price_used": 1.57,
+      "lease_operating_expense_per_boe": 14.34,
+      "production_tax_per_boe": 4.46,
+      "total_production_cost_per_boe": 18.8,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 18.9,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.072908",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

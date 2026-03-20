@@ -1,0 +1,125 @@
+{
+  "cik": "945764",
+  "company": "DENBURY INC",
+  "filing_date": "2022-02-25",
+  "accession_number": "0000945764-22-000013",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 15500,
+        "volume_total": 2805500,
+        "volume_unit": "Bbls",
+        "fixed_price": 49.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX indexed fixed-price swaps, price range $42.65-$58.15"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 9000,
+        "volume_total": 1656000,
+        "volume_unit": "Bbls",
+        "fixed_price": 56.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-07",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX indexed fixed-price swaps, price range $50.13-$60.35"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 11000,
+        "volume_total": 1991000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 49.77,
+        "ceiling_price": 64.31,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX indexed collars, floor range $47.50-$70.75"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10000,
+        "volume_total": 1840000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 49.75,
+        "ceiling_price": 64.18,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-07",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX indexed collars, floor range $47.50-$70.75"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedge exposure to commodity price risk for future production. Do not hold or issue derivatives for trading. Counterparties are lenders under Bank Credit Agreement."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 17255565,
+      "oil_production_bpd": 47281,
+      "gas_production_mcf": 3260545,
+      "gas_production_mmcf_per_day": 8.933,
+      "ngl_production_bbls": null,
+      "total_production_boe": 17799165,
+      "total_production_boepd": 48770,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 63.86,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 23.85,
+      "production_tax_per_boe": 4.97,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.62,
+      "dd_and_a_per_boe": 8.46,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.979585",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

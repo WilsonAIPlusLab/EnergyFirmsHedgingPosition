@@ -1,0 +1,156 @@
+{
+  "cik": "1433270",
+  "company": "ANTERO RESOURCES Corp",
+  "filing_date": "2025-02-12",
+  "accession_number": "0001558370-25-000864",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 100000,
+        "volume_total": 36500000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Fixed price swap, Henry Hub, Antero Resources excluding Martica VIE"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 30000,
+        "volume_total": 10950000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.25,
+        "ceiling_price": 4.27,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "notes": "Collar, Henry Hub, Antero Resources excluding Martica VIE"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 44000,
+        "volume_total": 16060000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.564,
+        "ceiling_price": 2.564,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Call option and embedded put option (VPP retained interest), Henry Hub, strike $2.564/MMBtu for both call and put; Antero Resources excluding Martica VIE"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 32000,
+        "volume_total": 11680000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.629,
+        "ceiling_price": 2.629,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "notes": "Call option and embedded put option (VPP retained interest), Henry Hub, strike $2.629/MMBtu for both call and put; Antero Resources excluding Martica VIE"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 18021,
+        "volume_total": 1621890,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-03",
+        "notes": "Fixed price swap, Henry Hub, Martica VIE (all gains/losses attributable to noncontrolling interests)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 39,
+        "volume_total": 3510,
+        "volume_unit": "Bbls",
+        "fixed_price": 45.06,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-03",
+        "notes": "Fixed price swap, West Texas Intermediate, Martica VIE (all gains/losses attributable to noncontrolling interests)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "May hedge when warranted to mitigate price risk. For 2023-2024, substantially all production unhedged. Improved liquidity reduced hedging percentage vs historical."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3693000,
+      "oil_production_bpd": 10090,
+      "gas_production_mcf": 793000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 72825000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 23000,
+      "proved_gas_reserves_mmcf": 10600000,
+      "proved_ngl_reserves_mbbls": 1193000,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.09,
+      "production_tax_per_boe": 0.17,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.31,
+      "dd_and_a_per_boe": 0.61,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.348405",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "cik": "1509589",
+  "company": "Bonanza Creek Energy, Inc.",
+  "filing_date": "2012-03-22",
+  "accession_number": "0001047469-12-003080",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1856.72,
+        "volume_total": 679560,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90.0,
+        "ceiling_price": 106.45,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": -4.600114,
+        "notes": "Average floor and ceiling prices for 2012 oil collar"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 264.8,
+        "volume_total": 96917,
+        "volume_unit": "Bbls",
+        "fixed_price": 63.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": -4.339442,
+        "notes": "2012 oil swap"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1124.98,
+        "volume_total": 410616,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 92.1,
+        "ceiling_price": 108.91,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": -1.294425,
+        "notes": "Average floor and ceiling prices for 2013 oil collar"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 206.62,
+        "volume_total": 75417,
+        "volume_unit": "Bbls",
+        "fixed_price": 61.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": -3.280439,
+        "notes": "2013 oil swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 459.24,
+        "volume_total": 168081,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": 0.651976,
+        "notes": "2012 gas swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 424.13,
+        "volume_total": 154806,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": 0.436028,
+        "notes": "2013 gas swap"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Primary objective is to reduce volatility in cash flows. Board approves hedges. Uses NYMEX futures or OTC derivatives with well-capitalized counterparties."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 953000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2776400,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 183800,
+      "total_production_boe": 1599500,
+      "total_production_boepd": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 13.43,
+      "production_tax_per_boe": 3.81,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 19.7,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.193223",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

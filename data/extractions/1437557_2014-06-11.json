@@ -1,0 +1,73 @@
+{
+  "cik": "1437557",
+  "company": "LILIS ENERGY, INC.",
+  "filing_date": "2014-06-11",
+  "accession_number": "0001213900-14-004138",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 100,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 99.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-12",
+        "period_end": "2014-01",
+        "counterparty": null,
+        "fair_value_mm": 0.007,
+        "notes": "Active commodity crude oil swap as of December 31, 2013: 100 Bbl/day through January 31, 2014 at $99.25/Bbl. Fair value shown as asset in Level 2 measurement. Total volume set to null — source states only 'through January 31, 2014' with no start date or total quantity."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company utilizes swaps to reduce effect of price changes on portion of future oil production; achieve more predictable cash flows in volatile oil and gas price environment. Previously removed 7 instruments (indices 1-7) as false positives: expired 2012-2013 instruments and fabricated collar/forward/call/futures entries from prior filings and non-commodity accounting items."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 51705,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 64845,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 62512,
+      "total_production_boepd": 171,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 843,
+      "proved_gas_reserves_mmcf": 2564,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1270,
+      "proved_developed_reserves_mboe": 223,
+      "proved_undeveloped_reserves_mboe": 1047,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 23.342,
+      "pv10_mm": null,
+      "oil_price_used": 89.56,
+      "gas_price_used": 4.31,
+      "lease_operating_expense_per_boe": 19.48,
+      "production_tax_per_boe": 4.21,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 38.21,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.350468",
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

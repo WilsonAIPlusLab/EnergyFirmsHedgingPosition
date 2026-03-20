@@ -1,0 +1,74 @@
+{
+  "cik": "894627",
+  "company": "VAALCO ENERGY INC /DE/",
+  "filing_date": "2017-03-13",
+  "accession_number": "0000894627-17-000017",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 2169.86,
+        "volume_total": 792000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 48.46,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": 1.2,
+        "notes": "Unexpired oil puts as of December 31, 2016. Premiums totaling $2.9 million were paid during 2016. Not designated as hedges for accounting purposes, measured at fair value with changes in value flowing through net income."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Executed crude oil put contracts to economically hedge anticipated cash flows from crude oil producing activities. Do not enter into derivative instruments for speculative or trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1515000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 124000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1536000,
+      "total_production_boepd": null,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2600,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 2600,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.958344",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

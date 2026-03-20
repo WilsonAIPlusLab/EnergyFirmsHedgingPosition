@@ -1,0 +1,74 @@
+{
+  "cik": "77159",
+  "company": "PENN VIRGINIA CORP",
+  "filing_date": "2016-03-15",
+  "accession_number": "0000077159-16-000064",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 6000.0,
+        "volume_total": 2196000,
+        "volume_unit": "Bbls",
+        "fixed_price": 80.41,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": 85.107,
+        "notes": "Fair value is asset position | Consolidated from 4 sub-period entries | FV: Q1=+$22.894M + Q2=+$21.509M + Q3=+$20.767M + Q4=+$19.937M"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Price risk management programs permit use of derivative instruments (collars, swaps, swaptions) to mitigate price risks on portion of anticipated production. No derivatives for NGLs."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4923000,
+      "oil_production_bpd": 13523,
+      "gas_production_mcf": 9713000,
+      "gas_production_mmcf_per_day": 29,
+      "ngl_production_bbls": 1381000,
+      "total_production_boe": 7923000,
+      "total_production_boepd": 22323,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 44000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 44.81,
+      "gas_price_used": 2.62,
+      "lease_operating_expense_per_boe": 5.36,
+      "production_tax_per_boe": 2.06,
+      "total_production_cost_per_boe": 15.42,
+      "gathering_transport_per_boe": 3.01,
+      "dd_and_a_per_boe": 42.22,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.059307",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

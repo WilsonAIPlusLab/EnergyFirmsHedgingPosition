@@ -1,0 +1,108 @@
+{
+  "cik": "1001614",
+  "company": "TENGASCO INC",
+  "filing_date": "2013-03-29",
+  "accession_number": "0001001614-13-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 18.34,
+        "volume_total": 9500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": 81.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2009-08",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar agreement on WTI NYMEX; monthly volume of 9,500 barrels; constituted approximately two-thirds of Company's daily production at inception; company receives Kansas Common plus bonus price approximately $7/bbl less than WTI NYMEX; expired as of August 1, 2011"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 34.79,
+        "volume_total": 7375,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": 81.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar agreement on WTI NYMEX; monthly volume reduced from 9,500 to 7,375 barrels; constituted less than half of Company's average daily production at July 31, 2011; expired as of August 1, 2011"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 19.27,
+        "volume_total": 10000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 65.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-08",
+        "period_end": "2012-12",
+        "counterparty": "Cargill Incorporated",
+        "fair_value_mm": null,
+        "notes": "Put option providing $65/bbl floor on 10,000 barrels per month (approximately half of current production); cost $2.20/bbl/month or total of $374,000 paid June 27, 2011; no price cap unlike previous costless collar; agreement ended December 31, 2012"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Mitigate commodity price risk and maintain/stabilize cash flow if lower oil prices return; participated in derivative agreements 2010-2012; no open derivative contracts at Dec 31, 2012 [Note: Atmos Energy fixed-price landfill gas sales contract removed - physical supply agreement for Carter Valley Landfill methane, not a financial derivative on E&P production.]",
+      "total_instruments": 3
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 226600,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 78800,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 22.77,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "extraction_timestamp": "2026-02-21T05:50:44.677876",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

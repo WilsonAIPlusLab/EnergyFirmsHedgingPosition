@@ -1,0 +1,124 @@
+{
+  "cik": "1621434",
+  "company": "Black Stone Minerals, L.P.",
+  "filing_date": "2016-03-08",
+  "accession_number": "0001564590-16-014218",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5487.67,
+        "volume_total": 2003000,
+        "volume_unit": "Bbls",
+        "fixed_price": 54.99,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Oil swaps; Dec31-2015 table: Q1=502k@$55.88, Q2=455k@$57.30, Q3=424k@$58.38, Q4=398k@$59.43 (1,779,000 Bbls); subsequent: Q1=28k@$29.56, Q2=81k@$32.60, Q3=65k@$35.20, Q4=50k@$37.00 (224,000 Bbls); combined total 2,003,000 Bbls, wtd avg $54.99/Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1926.03,
+        "volume_total": 703000,
+        "volume_unit": "Bbls",
+        "fixed_price": 58.50,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Oil swaps; full year 2017 from Dec31,2015 table; 703,000 Bbls @$58.50/Bbl, range $52.73-$63.65"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 73671.23,
+        "volume_total": 26890000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.08,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Natural gas swaps; Dec31-2015 table: Q1=6,780k@$3.26, Q2=6,240k@$3.07, Q3=5,830k@$3.13, Q4=5,400k@$3.25 (24,250,000 MMBtu); subsequent: Q1=340k@$1.98, Q2=970k@$2.10, Q3=780k@$2.26, Q4=550k@$2.42 (2,640,000 MMBtu); combined total 26,890,000 MMBtu, wtd avg $3.08/MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 26438.36,
+        "volume_total": 9650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.33,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Natural gas swaps; full year 2017 from Dec31,2015 table; 9,650,000 MMBtu @$3.33/MMBtu, range $3.14-$3.52"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivative instruments to reduce exposure to oil and gas price risk; no hedge accounting designation; generally hedges proved developed producing reserves 18-24 months forward"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10 | Volumes and prices fixed 2026-03-19"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3565000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 41389000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 10463000,
+      "total_production_boepd": null,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 2.06,
+      "production_tax_per_boe": 3.42,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 9.97,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.085953",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

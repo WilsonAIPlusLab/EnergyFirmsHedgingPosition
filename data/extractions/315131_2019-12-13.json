@@ -1,0 +1,153 @@
+{
+  "cik": "315131",
+  "company": "PANHANDLE OIL & GAS INC",
+  "filing_date": "2019-12-13",
+  "accession_number": "0001564590-19-045877",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.97,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2019-07",
+        "period_end": "2019-12",
+        "counterparty": "Bank of Oklahoma, Koch Supply and Trading LP",
+        "fair_value_mm": null,
+        "notes": "Natural gas fixed price swaps for Jul-Dec 2019. Source Note 1 (in full_text): 5 contracts: 100,000 MMBtu/month @ $2.960; 100,000 MMBtu/month @ $2.950; 100,000 MMBtu/month @ $2.995; 100,000 MMBtu/month (Jul 2019-Mar 2020) @ $2.982; 100,000 MMBtu/month (Aug-Dec 2019) @ $3.004. Weighted avg ~$2.978/MMBtu. Also Jan-Dec 2020 contract: 80,000 MMBtu/month @ $2.750. Data recovered from Note 1 in source full_text."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": "Bank of Oklahoma, Koch Supply and Trading LP",
+        "fair_value_mm": null,
+        "notes": "Natural gas fixed price swap for Jan-Dec 2020. Source Note 1: 80,000 MMBtu/month @ $2.750. Also includes extended Jul 2019-Mar 2020 contract above. Data recovered from Note 1 in source full_text."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 57.56,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": "Bank of Oklahoma, Koch Supply and Trading LP",
+        "fair_value_mm": null,
+        "notes": "Oil fixed price swaps for 2019. Source Note 1: Jan-Dec 2019: 1,000 Bbls @ $56.15; 2,000 Bbls @ $56.71; 1,000 Bbls @ $58.56. Jul-Dec 2019: 2,000 Bbls @ $56.85; 5,000 Bbls @ $58.50; 1,000 Bbls @ $60.60. Weighted avg ~$57.56/Bbl. Data recovered from Note 1 in source full_text."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 57.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": "Bank of Oklahoma, Koch Supply and Trading LP",
+        "fair_value_mm": null,
+        "notes": "Oil fixed price swaps for 2020. Source Note 1: Jan-Dec 2020: 2,000 Bbls @ $55.28; 2,000 Bbls @ $58.65; 2,000 Bbls @ $60.00. Weighted avg ~$57.98/Bbl. Data recovered from Note 1 in source full_text."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 57.5,
+        "ceiling_price": 67.63,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2020-12",
+        "counterparty": "Bank of Oklahoma, Koch Supply and Trading LP",
+        "fair_value_mm": null,
+        "notes": "Oil costless collars 2019-2020. Source Note 1: Jan-Dec 2019: 1,000 Bbls @ $50/$60; 2,000 Bbls @ $60/$69.25; Jul-Dec 2019: 3,000 Bbls @ $60/$70.75; Jul 2019-Jun 2020: 2,000 Bbls @ $65/$76.15; Jan-Jun 2020: 2,000 Bbls @ $60/$67; Jan-Dec 2020: 2,000 Bbls @ $55/$62. Weighted avg floor ~$57.50/ceil ~$67.63. Data recovered from Note 1 in source full_text."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically utilizes derivatives to reduce exposure to unfavorable oil and gas price changes. Does not enter for speculative/trading purposes. Covers portion of production.",
+      "total_instruments": 5,
+      "by_commodity": {
+        "natural_gas": 2,
+        "crude_oil": 3
+      },
+      "by_type": {
+        "swap": 4,
+        "collar": 1
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 329199,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 7086761,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 216259,
+      "total_production_boe": 1726585,
+      "total_production_boepd": null,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 17733,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2019-09-30"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 1.21,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.59,
+      "dd_and_a_per_boe": 1.76,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.071080",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "All 5 instruments updated with data recovered from Note 1 in full_text.txt. Note 1 contains detailed derivative contract table listing specific volumes, periods and prices for all gas swaps, oil swaps, and oil costless collars outstanding at September 30, 2019."
+  }
+}

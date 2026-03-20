@@ -1,0 +1,108 @@
+{
+  "cik": "1527709",
+  "company": "Mid-Con Energy Partners, LP",
+  "filing_date": "2014-03-05",
+  "accession_number": "0001527709-14-000018",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1973,
+        "volume_total": 720145,
+        "volume_unit": "Bbls",
+        "fixed_price": 93.56,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": -1.4,
+        "notes": "NYMEX WTI crude oil swap [FIXED volumes+periods 2026-03-19]"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 164,
+        "volume_total": 59860,
+        "volume_unit": "Bbls",
+        "fixed_price": 90.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI crude oil swap [ADDED 2026-03-19]"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 123,
+        "volume_total": 44895,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 85.0,
+        "ceiling_price": 95.13,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI crude oil collar [ADDED 2026-03-19]"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enter into commodity derivative contracts to reduce impact of oil price fluctuations, protect economics of acquisitions. Hedges portion of production. Contracts only with investment grade counterparties."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 907000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 128000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 928000,
+      "total_production_boepd": 2542,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 13900,
+      "proved_developed_reserves_mboe": 10564,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 17.64,
+      "production_tax_per_boe": 4.11,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 15.54,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.218879",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

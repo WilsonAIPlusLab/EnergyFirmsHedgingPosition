@@ -1,0 +1,124 @@
+{
+  "cik": "1724965",
+  "company": "TALOS ENERGY INC.",
+  "filing_date": "2022-02-25",
+  "accession_number": "0000950170-22-002013",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 23523,
+        "volume_total": 8585895,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.42,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Crude oil swaps, NYMEX WTI CMA, 23,523 Bbls/day @$52.42/Bbl. Total ~8,585,895 Bbls."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 7463,
+        "volume_total": 2723995,
+        "volume_unit": "Bbls",
+        "fixed_price": 63.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Crude oil swaps, NYMEX WTI CMA, 7,463 Bbls/day @$63.13/Bbl. Total ~2,723,995 Bbls."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 43392,
+        "volume_total": 15838080,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.77,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Natural gas swaps, NYMEX Henry Hub, 43,392 MMBtu/day @$2.77/MMBtu. Total ~15,838,080 MMBtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 16408,
+        "volume_total": 5988920,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.29,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Natural gas swaps, NYMEX Henry Hub, 16,408 MMBtu/day @$3.29/MMBtu. Total ~5,988,920 MMBtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Subject to Bank Credit Facility min. hedging: 60% of proved developed producing reserves for Q1-Q4 (adjusted for hurricane months), 30% for Q5-Q6. Permits additional hedging per policy."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 16159000,
+      "oil_production_bpd": 44300,
+      "gas_production_mcf": 32795000,
+      "gas_production_mmcf_per_day": 89.8,
+      "ngl_production_bbls": 1875000,
+      "total_production_boe": 23500000,
+      "total_production_boepd": 64400,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 67.14,
+      "gas_price_used": 3.71,
+      "lease_operating_expense_per_boe": 12.07,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 16.85,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.106373",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

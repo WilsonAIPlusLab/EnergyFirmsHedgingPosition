@@ -1,0 +1,56 @@
+{
+  "cik": "1841666",
+  "company": "APA Corp",
+  "filing_date": "2025-02-28",
+  "accession_number": "0002040266-25-000007",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Periodically enters into derivatives on projected oil/gas production to manage cash flow fluctuations. No trading purposes. As of Dec 31, 2024, no open commodity derivative positions."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 89027000,
+      "oil_production_bpd": 243898,
+      "gas_production_mcf": 297373695,
+      "gas_production_mmcf_per_day": 814.443,
+      "ngl_production_bbls": 27403470,
+      "total_production_boe": 166171445,
+      "total_production_boepd": 454716,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 300000,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 10.16,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 13.44,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.114613",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

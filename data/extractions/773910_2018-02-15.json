@@ -1,0 +1,108 @@
+{
+  "cik": "773910",
+  "company": "ANADARKO PETROLEUM CORP",
+  "filing_date": "2018-02-15",
+  "accession_number": "0000773910-18-000012",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "two_way_collar",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 108000,
+        "volume_total": 39420000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": 60.48,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Source: 'Two-Way Collars (MBbls/d)' = 108"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 84000,
+        "volume_total": 30660000,
+        "volume_unit": "Bbls",
+        "fixed_price": 61.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Source: 'Fixed-Price Contracts (MBbls/d)' = 84 @ $61.45/Bbl"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 250000,
+        "volume_total": 91250000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 3.54,
+        "sub_floor_price": 2.00,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Source: 'Three-Way Collars (thousand MMBtu/d)' = 250; sub_floor (sold put) = $2.00/MMBtu"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses futures, swaps, options, fixed-price contracts to manage commodity price & interest rate risks. Volumes vary by year per risk-mgmt policy. [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 129000000,
+      "oil_production_bpd": 355000,
+      "gas_production_mcf": 478000000,
+      "gas_production_mmcf_per_day": 1309,
+      "ngl_production_bbls": 36000000,
+      "total_production_boe": 245000000,
+      "total_production_boepd": 672000,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.08,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 3.73,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.063632",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

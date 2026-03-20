@@ -1,0 +1,74 @@
+{
+  "cik": "23194",
+  "company": "COMSTOCK RESOURCES INC",
+  "filing_date": "2023-02-17",
+  "accession_number": "0000023194-23-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 479178.08,
+        "volume_total": 174900000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.99,
+        "ceiling_price": 9.96,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas price collars outstanding as of December 31, 2022. A 10% increase in natural gas prices would decrease fair value by $9.9 million. A 10% decrease would increase fair value by $11.6 million."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Maintain an active natural gas price hedging program to mitigate volatility in natural gas prices and protect expected future cash flows."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 82000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 500616000,
+      "gas_production_mmcf_per_day": 1400,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2022
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 549,
+      "proved_gas_reserves_mmcf": 6697570,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2022-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 12609.636,
+      "pv10_mm": 15517.044,
+      "oil_price_used": 91.21,
+      "gas_price_used": 6.03,
+      "lease_operating_expense_per_boe": 0.22,
+      "production_tax_per_boe": 0.16,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.31,
+      "dd_and_a_per_boe": 0.98,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.059889",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

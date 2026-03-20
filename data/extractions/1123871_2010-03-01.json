@@ -1,0 +1,108 @@
+{
+  "cik": "1123871",
+  "company": "ARENA RESOURCES INC",
+  "filing_date": "2010-03-01",
+  "accession_number": "0001026608-10-000020",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000.0,
+        "volume_total": 730000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 65.0,
+        "ceiling_price": 93.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI Crude Oil collar"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000.0,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70.0,
+        "ceiling_price": 92.85,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI Crude Oil collar"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 5000.0,
+        "volume_total": 1825000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.0,
+        "ceiling_price": 7.87,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "El Paso Permian Gas collar"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enter into hedging arrangements to reduce commodity price uncertainty and increase cash flow predictability for a portion of expected production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2004498,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2172790,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 2366630,
+      "total_production_boepd": 6484,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 59716,
+      "proved_gas_reserves_mmcf": 57215,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 69251,
+      "proved_developed_reserves_mboe": 25862,
+      "proved_undeveloped_reserves_mboe": 43389,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 754.2,
+      "pv10_mm": 1121.4,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 6.57,
+      "production_tax_per_boe": 2.73,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.593957",
+    "item7_merge_timestamp": "2026-02-28T07:00:10.788853+00:00",
+    "item7_instruments_added": 0
+  }
+}

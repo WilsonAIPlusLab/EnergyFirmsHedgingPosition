@@ -1,0 +1,132 @@
+{
+  "cik": "943861",
+  "company": "GOODRICH PETROLEUM CORP",
+  "filing_date": "2013-02-22",
+  "accession_number": "0001193125-13-071627",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3500,
+        "volume_total": 1277500,
+        "volume_unit": "Bbls",
+        "fixed_price": 94.49,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": "BNP Paribas | Royal Bank of Canada | JPMorgan Chase Bank, N.A. | Merrill Lynch Commodities, Inc. | Wells Fargo Bank, N.A.",
+        "fair_value_mm": null,
+        "notes": "Oil swaps for 2013; 3,500 Bbls/day x 365 days = 1,277,500 Bbls total; prices range $92.25-$103.15 (seven 500 Bbl/day contracts), wtd avg $94.49. Individual contracts: $103.15, $92.50, $95.85, $92.25, $92.50, $92.64, $92.55 each at 500 Bbls/day"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 500,
+        "volume_total": 15500,
+        "volume_unit": "Bbls",
+        "fixed_price": 101.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-01",
+        "counterparty": "BNP Paribas | Royal Bank of Canada | JPMorgan Chase Bank, N.A. | Merrill Lynch Commodities, Inc. | Wells Fargo Bank, N.A.",
+        "fair_value_mm": 1.774,
+        "notes": "Oil swap for January 2013 only; 500 Bbls/day x 31 days = 15,500 Bbls at $101.50; fair value $1,774K is aggregate for 2013 oil swap entries"
+      },
+      {
+        "instrument_type": "swaption_sold",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1500,
+        "volume_total": 547500,
+        "volume_unit": "Bbls",
+        "fixed_price": 99.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": "BNP Paribas | Royal Bank of Canada | JPMorgan Chase Bank, N.A. | Merrill Lynch Commodities, Inc. | Wells Fargo Bank, N.A.",
+        "fair_value_mm": -3.328,
+        "notes": "Oil swaptions for 2014; counterparty has option to enter swaps; 1,500 Bbls/day x 365 = 547,500 Bbls; price range $97.30-$101.00 (multiple contracts), approximate midpoint avg $99.15"
+      },
+      {
+        "instrument_type": "swaption_sold",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": "BNP Paribas | Royal Bank of Canada | JPMorgan Chase Bank, N.A. | Merrill Lynch Commodities, Inc. | Wells Fargo Bank, N.A.",
+        "fair_value_mm": -0.659,
+        "notes": "Natural gas swaptions for 2014; counterparty has option to enter swap; 20,000 MMBtu/day x 365 = 7,300,000 MMBtu at $5.35"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Use derivatives including futures, swaps, options and fixed-price contracts to manage commodity price and interest rate risks. Volumes vary per year, governed by board policies. All hedges approved by Hedging Committee of Board of Directors."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10 | Periods and hedging_summary fixed 2026-03-19 (verification)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1095000,
+      "oil_production_bpd": 2992,
+      "gas_production_mcf": 24844000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 8100,
+      "proved_gas_reserves_mmcf": 254000,
+      "proved_ngl_reserves_mbbls": 5100,
+      "total_proved_reserves_mboe": 55517,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 357.4,
+      "pv10_mm": 359.1,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.83,
+      "production_tax_per_boe": 0.26,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.44,
+      "dd_and_a_per_boe": 4.5,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.976619",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

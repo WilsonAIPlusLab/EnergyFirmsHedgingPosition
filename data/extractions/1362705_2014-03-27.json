@@ -1,0 +1,172 @@
+{
+  "cik": "1362705",
+  "company": "Constellation Energy Partners LLC",
+  "filing_date": "2014-03-27",
+  "accession_number": "0001362705-14-000012",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 17500.0,
+        "volume_total": 6387500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "MTM Fixed Price Swap - NYMEX (Henry Hub); Q1 1,575,000 + Q2 1,592,500 + Q3 1,610,000 + Q4 1,610,000 = 6,387,500 MMBtu @ $5.75"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 12370.27,
+        "volume_total": 4515149,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.26,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "MTM Fixed Price Swap - NYMEX (Henry Hub); Q1 1,215,420 @$4.25 + Q2 1,153,487 @$4.25 + Q3 1,096,023 @$4.26 + Q4 1,050,219 @$4.26 = 4,515,149 MMBtu @ avg $4.26"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10397.35,
+        "volume_total": 3795032,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.21,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "MTM Fixed Price Swap - NYMEX (Henry Hub); Q1 1,010,633 @$4.21 + Q2 967,290 @$4.21 + Q3 923,541 @$4.21 + Q4 893,568 @$4.22 = 3,795,032 MMBtu @ avg $4.21"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 12174.46,
+        "volume_total": 4443677,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.39,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "MTM Fixed Price Basis Swap - Enable Gas Transmission/ONEOK/Southern Star; Q1 1,178,422 + Q2 1,133,022 + Q3 1,084,270 + Q4 1,047,963 = 4,443,677 MMBtu @ $0.39"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 609.25,
+        "volume_total": 222476,
+        "volume_unit": "Bbls",
+        "fixed_price": 94.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "MTM Fixed Price Basis Swap - WTI; Q1 60,928 @$94.64 + Q2 57,154 @$94.67 + Q3 53,797 @$94.72 + Q4 50,597 @$94.80 = 222,476 Bbls @ avg $94.70"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 481.68,
+        "volume_total": 175813,
+        "volume_unit": "Bbls",
+        "fixed_price": 91.02,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "MTM Fixed Price Basis Swap - WTI; Q1 47,747 @$90.95 + Q2 45,065 @$91.00 + Q3 42,672 @$91.04 + Q4 40,329 @$91.10 = 175,813 Bbls @ avg $91.02"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 181.14,
+        "volume_total": 66117,
+        "volume_unit": "Bbls",
+        "fixed_price": 85.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "MTM Fixed Price Basis Swap - WTI; Q1 17,957 + Q2 16,985 + Q3 16,048 + Q4 15,127 = 66,117 Bbls @ $85.50"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enter derivative contracts to reduce impact of price fluctuations on revenues, fixing or modifying future prices through swaps and other transactions."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10 | Volumes and prices corrected 2026-03-19 (were all null)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 221000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 6862000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1364667,
+      "total_production_boepd": null,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2200,
+      "proved_gas_reserves_mmcf": 91300,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 15217,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": 3.71,
+      "lease_operating_expense_per_boe": 13.8,
+      "production_tax_per_boe": 1.92,
+      "total_production_cost_per_boe": 15.72,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 13.92,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.294168",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

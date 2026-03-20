@@ -1,0 +1,124 @@
+{
+  "cik": "1685715",
+  "company": "Jagged Peak Energy Inc.",
+  "filing_date": "2019-02-28",
+  "accession_number": "0001685715-19-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 7665000,
+        "volume_unit": "Bbls",
+        "fixed_price": 59.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Quarterly: Q1=1,890,000, Q2=1,911,000, Q3=1,932,000, Q4=1,932,000 Bbls all @ $59.95/Bbl - consolidated annual"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 2928000,
+        "volume_unit": "Bbls",
+        "fixed_price": 60.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Oil swap year ending December 31, 2020"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 8763000,
+        "volume_unit": "Bbls",
+        "fixed_price": -5.92,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Crude oil basis swap: Cushing WTI vs Midland WTI. Quarterly: Q1=2,070,000@-$7.17, Q2=2,093,000@-$7.17, Q3=2,300,000@-$4.79, Q4=2,300,000@-$4.79. Wtd avg -$5.92"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 9516000,
+        "volume_unit": "Bbls",
+        "fixed_price": -1.31,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Crude oil basis swap: Cushing WTI vs Midland WTI, year ending December 31, 2020"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity derivatives to hedge price risk. Can hedge up to 85% of forecasted production for 36 months, and up to 75% of proved reserves for 37-60 months under credit facility. [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 9620000,
+      "oil_production_bpd": 26355,
+      "gas_production_mcf": 7992000,
+      "gas_production_mmcf_per_day": 21.897,
+      "ngl_production_bbls": 1534000,
+      "total_production_boe": 12486000,
+      "total_production_boepd": 34207,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 118900,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 3.4,
+      "production_tax_per_boe": 2.77,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0,
+      "dd_and_a_per_boe": 17.81,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.099738",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

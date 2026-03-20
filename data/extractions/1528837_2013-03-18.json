@@ -1,0 +1,163 @@
+{
+  "cik": "1528837",
+  "company": "Sanchez Energy Corp",
+  "filing_date": "2013-03-18",
+  "accession_number": "0001047469-13-002954",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 500,
+        "volume_total": 182500,
+        "volume_unit": "Bbls",
+        "fixed_price": 97.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": 88.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI swap"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 95,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put spread: long $95 WTI put (floor) and short $75 WTI put (sub_floor)",
+        "sub_floor_price": 75
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 184000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-07",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put spread for second half of 2013: long $90 WTI put (floor) and short $75 WTI put (sub_floor)",
+        "sub_floor_price": 75
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1500,
+        "volume_total": 547500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 85,
+        "ceiling_price": 102.25,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered January 2013; three-way costless collar: long $85 WTI put (floor), short $102.25 WTI call (ceiling), short $65 WTI put (sub_floor)",
+        "sub_floor_price": 65
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 95,
+        "ceiling_price": 107.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered February 2013; three-way costless collar: long $95 LLS put (floor), short $107.50 LLS call (ceiling), short $75 LLS put (sub_floor)",
+        "sub_floor_price": 75
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enter derivative contracts on projected oil/gas production to reduce price fluctuation impact and protect property acquisition economics; no speculative trading"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 417900,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 301200,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 700,
+      "total_production_boe": 468800,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 101.4,
+      "gas_price_used": 2.54,
+      "lease_operating_expense_per_boe": 7.26,
+      "production_tax_per_boe": 4.53,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 33.94,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.225586",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

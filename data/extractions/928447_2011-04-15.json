@@ -1,0 +1,56 @@
+{
+  "cik": "928447",
+  "company": "RADIANT OIL & GAS INC",
+  "filing_date": "2011-04-15",
+  "accession_number": "0001078782-11-001053",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity derivative hedging disclosed. Company has derivative liabilities related to warrants and convertible debt, not commodity hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 60,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 38965,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 152.274,
+      "proved_gas_reserves_mmcf": 6298.687,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1202.055,
+      "proved_developed_reserves_mboe": 66.202,
+      "proved_undeveloped_reserves_mboe": 1135.853,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 17.338197,
+      "pv10_mm": null,
+      "oil_price_used": 79.43,
+      "gas_price_used": 4.38,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 2.12,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.975427",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "cik": "101778",
+  "company": "MARATHON OIL CORP",
+  "filing_date": "2024-02-22",
+  "accession_number": "0000101778-24-000023",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 40000,
+        "volume_total": 7280000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "sub_floor_price": 51.25,
+        "floor_price": 66.25,
+        "ceiling_price": 101.01,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI Three-Way Collar Q1-Q2 2024. Volume 40,000 Bbls/day. Ceiling $101.01, Floor $66.25, Sold Put $51.25. Source: Note 12 item8_notes."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 20000,
+        "volume_total": 3680000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "sub_floor_price": 50.0,
+        "floor_price": 65.0,
+        "ceiling_price": 101.95,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-07",
+        "period_end": "2024-12",
+        "counterparty": null,
+        "fair_value_mm": 24,
+        "notes": "NYMEX WTI Three-Way Collar Q3-Q4 2024. Volume 20,000 Bbls/day. Ceiling $101.95, Floor $65.00, Sold Put $50.00. Aggregate fair value $24M asset as of 12/31/2023. Source: Note 12 item8_notes."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Strategy to obtain competitive prices; periodically protect prices on forecasted sales to support cash flow & liquidity using futures, forwards, swaps & options."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 66401500,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 32776250,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 31390000,
+      "total_production_boe": 147917000,
+      "total_production_boepd": 405000,
+      "production_year": 2023
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2023-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 77.6,
+      "gas_price_used": 2.74,
+      "lease_operating_expense_per_boe": 5.81,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 16.66,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.553519",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "cik": "1483496",
+  "company": "RED MOUNTAIN RESOURCES, INC.",
+  "filing_date": "2014-09-30",
+  "accession_number": "0001387131-14-003359",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 47.2,
+        "volume_total": 2874,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": 100.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-07",
+        "period_end": "2014-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Monthly volume 1437 Bbl/month, 2 months Jul-Aug 2014"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 65.7,
+        "volume_total": 10000,
+        "volume_unit": "Bbls",
+        "fixed_price": 93.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-07",
+        "period_end": "2014-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Monthly volume 2000 Bbl/month, 5 months Jul-Nov 2014"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 168,
+        "volume_total": 30927,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 97.5,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-07",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Range 1979-8330 Bbl/month Jul-Dec 2014; midpoint 5154.5/month x 6 months = 30927 total; floor range 5-100/Bbl midpoint 7.5"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 197.1,
+        "volume_total": 42000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 95.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-07",
+        "period_end": "2015-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Monthly volume 6000 Bbl/month, 7 months Jul 2014-Jan 2015; entered July 2014"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Credit Agreement requires at least 50% of oil volumes hedged. Company uses swaps, collars, and puts to hedge oil price risk. Not designated as hedges for accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 185522,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 882606,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 27278,
+      "total_production_boe": 359901,
+      "total_production_boepd": 986,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2961,
+      "proved_gas_reserves_mmcf": 6948,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 4119,
+      "proved_developed_reserves_mboe": 2095,
+      "proved_undeveloped_reserves_mboe": 2025,
+      "reserves_year_end": "2014-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 79,
+      "pv10_mm": null,
+      "oil_price_used": 92.83,
+      "gas_price_used": 5.06,
+      "lease_operating_expense_per_boe": 8.96,
+      "production_tax_per_boe": 5.88,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.51,
+      "dd_and_a_per_boe": 26.94,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.177908",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

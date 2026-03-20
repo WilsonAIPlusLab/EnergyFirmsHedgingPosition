@@ -1,0 +1,169 @@
+{
+  "cik": "1609253",
+  "company": "California Resources Corp",
+  "filing_date": "2024-02-28",
+  "accession_number": "0001609253-24-000043",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 28105.19,
+        "volume_total": 10286500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 90.05,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Sold calls, Brent-based, as of Dec 31 2023. Q1 23,650 @$90.00, Q2 30,000 @$90.07, Q3 30,000 @$90.07, Q4 29,000 @$90.07. Volume-weighted avg price shown."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 29810.27,
+        "volume_total": 10910560,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 65.7,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Purchased puts, Brent-based, as of Dec 31 2023. Q1 30,584 @$67.27, Q2 30,000 @$65.17, Q3 30,000 @$65.17, Q4 29,000 @$65.17. Volume-weighted avg price shown."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 7873.29,
+        "volume_total": 2881625,
+        "volume_unit": "Bbls",
+        "fixed_price": 79.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Swaps, Brent-based, as of Dec 31 2023. Q1 9,500 @$79.81, Q2 8,875 @$79.28, Q3 7,750 @$79.64, Q4 5,500 @$77.45. Volume-weighted avg price shown."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.65,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Natural gas swaps to hedge fuel consumption at steamflood operations, as of Dec 31 2023. 10,000 MMBtu/d for all 4 quarters of 2024 @$5.65/MMBtu."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 19748,
+        "volume_total": 7208020,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 85.63,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Sold calls, Brent-based, as of Dec 31 2023. 19,748 Bbl/d for 2025 @$85.63."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 19748,
+        "volume_total": 7208020,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Purchased puts, Brent-based, as of Dec 31 2023. 19,748 Bbl/d for 2025 @$60.00."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3374,
+        "volume_total": 1231510,
+        "volume_unit": "Bbls",
+        "fixed_price": 72.66,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Swaps, Brent-based, as of Dec 31 2023. 3,374 Bbl/d for 2025 @$72.66."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Commodity hedging program to protect cash flows and capital program from commodity price volatility; uses Brent-based crude oil collars (sold calls + purchased puts), swaps, and natural gas fuel swaps.",
+      "total_instruments": 7,
+      "by_commodity": {},
+      "by_type": {}
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 18980000,
+      "gas_production_mcf": 49275000,
+      "ngl_production_bbls": 4015000,
+      "production_year": 2023
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.085487"
+  }
+}

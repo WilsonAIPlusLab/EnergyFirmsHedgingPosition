@@ -1,0 +1,56 @@
+{
+  "cik": "1482075",
+  "company": "Citadel Exploration, Inc.",
+  "filing_date": "2017-03-31",
+  "accession_number": "0001520138-17-000121",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3000,
+      "oil_production_bpd": 8.2,
+      "gas_production_mcf": 0,
+      "gas_production_mmcf_per_day": 0,
+      "ngl_production_bbls": null,
+      "total_production_boe": 3000,
+      "total_production_boepd": 8.2,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1160.0,
+      "proved_gas_reserves_mmcf": 0,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1160.0,
+      "proved_developed_reserves_mboe": 240.0,
+      "proved_undeveloped_reserves_mboe": 920.0,
+      "reserves_year_end": 2016
+    },
+    "economics": {
+      "standardized_measure_mm": 3.081,
+      "pv10_mm": 3.64,
+      "oil_price_used": 35.53,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "notes": "Reserves decreased from 1,414 to 1,160 MBbls due to 251 MBbl downward revision and 3 MBbl production. WTI 12-mo average $42.75/bbl, adjusted to $35.53/bbl for quality/transport (15 API gravity crude). MHA Petroleum Consultants prepared independent reserve report. PV10 of $3.640MM from reserve engineer report (before income tax). Total proved: PDP 80.2 MBbls, PDNP 159.5 MBbls, PUD 920.4 MBbls. Development plan includes 15 idle well workovers and 30 new infill wells over 5 years.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

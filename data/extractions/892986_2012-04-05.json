@@ -1,0 +1,106 @@
+{
+  "cik": "892986",
+  "company": "WARREN RESOURCES INC",
+  "filing_date": "2012-04-05",
+  "accession_number": "0001047469-12-003958",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1818,
+        "volume_total": 499950,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-04",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "BRENT Oil put option"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1000,
+        "volume_total": 366000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Oil put option"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3000,
+        "volume_total": 1098000,
+        "volume_unit": "Mcf",
+        "fixed_price": -0.51,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural Gas Differential swap. Differential spread between NYMEX Natural Gas and CIG pricing"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Entered into commodity derivative contracts to hedge exposure to commodity price risk associated with anticipated future oil and gas production for more predictable revenues."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.127901"
+  }
+}

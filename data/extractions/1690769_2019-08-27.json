@@ -1,0 +1,153 @@
+{
+  "cik": "1690769",
+  "company": "Alta Mesa Resources, Inc. /DE",
+  "filing_date": "2019-08-27",
+  "accession_number": "0001690769-19-000059",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 500,
+        "volume_total": 182500,
+        "volume_unit": "Bbls",
+        "fixed_price": 63.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil price swap contracts for 2019. Source Note 12: 182,500 Bbl, weighted avg price=$63.03/Bbl (range: $63.03-$63.03). Data recovered from source Note 12."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 7399,
+        "volume_total": 2701000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 53.8,
+        "ceiling_price": 66.31,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil three-way collar contracts for 2019. Source Note 12: Short call 2,701,000 Bbl@$66.31 avg; Long put 2,883,500 Bbl@$53.80 avg; Short put 2,883,500 Bbl@$42.72 avg. Represents a three-way collar with long put (floor=$53.80) and short put (lower floor=$42.72). Data recovered from source Note 12."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1604,
+        "volume_total": 585600,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.54,
+        "ceiling_price": 64.32,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil three-way collar contracts for 2020. Source Note 12: Short call 585,600 Bbl@$64.32 avg; Long put 1,537,200 Bbl@$55.54 avg; Short put 1,537,200 Bbl@$44.64 avg. Data recovered from source Note 12."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 29877,
+        "volume_total": 10905000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.69,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas price swap contracts for 2019. Source Note 12: 10,905,000 MMBtu, weighted avg price=$2.69/MMBtu (range: $2.64-$3.09). Data recovered from source Note 12."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 10959,
+        "volume_total": 4000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.81,
+        "ceiling_price": 3.31,
+        "price_unit": "$/MMBtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas three-way collar contracts for 2019. Source Note 12: Short call 4,000,000 MMBtu@$3.31 avg; Long put 3,550,000 MMBtu@$2.81 avg; Short put 2,425,000 MMBtu@$2.27 avg. Data recovered from source Note 12."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enter derivatives to manage/reduce market risk, not for speculation. Alta Mesa RBL has mandatory minimum hedging requirements. Do not designate as hedges for accounting.",
+      "total_instruments": 5,
+      "by_commodity": {
+        "crude_oil": 3,
+        "natural_gas": 2
+      },
+      "by_type": {
+        "swap": 2,
+        "collar": 3
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5053000,
+      "oil_production_bpd": 15400,
+      "gas_production_mcf": 16913000,
+      "gas_production_mmcf_per_day": 51.9,
+      "ngl_production_bbls": 2268000,
+      "total_production_boe": 10140000,
+      "total_production_boepd": 31100,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 25272,
+      "proved_gas_reserves_mmcf": 144148,
+      "proved_ngl_reserves_mbbls": 19792,
+      "total_proved_reserves_mboe": 69089,
+      "proved_developed_reserves_mboe": 69089,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 714.283,
+      "pv10_mm": null,
+      "oil_price_used": 65.56,
+      "gas_price_used": 3.1,
+      "lease_operating_expense_per_boe": 5.97,
+      "production_tax_per_boe": 1.66,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 4.93,
+      "dd_and_a_per_boe": 13.17,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.100296",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instrument [0] (formerly 'other/crude_oil' aggregate) replaced with 5 structured instruments. Data recovered from Note 12 in item8_notes.txt which contains full commodity derivative table showing oil price swaps, oil three-way collars, gas price swaps, and gas three-way collars with specific volumes and prices for 2019 and 2020."
+  }
+}

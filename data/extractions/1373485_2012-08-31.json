@@ -1,0 +1,122 @@
+{
+  "cik": "1373485",
+  "company": "CROSS BORDER RESOURCES, INC.",
+  "filing_date": "2012-08-31",
+  "accession_number": "0001387131-12-002887",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 32.85,
+        "volume_total": 23000,
+        "volume_unit": "Bbls",
+        "fixed_price": 104.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-04",
+        "period_end": "2013-02",
+        "counterparty": null,
+        "fair_value_mm": 0.083594,
+        "notes": "NYMEX-WTI; 1,000 Bbls/month; through Feb 28, 2013; period_end corrected to 2013-02"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 65.71,
+        "volume_total": 72000,
+        "volume_unit": "Bbls",
+        "fixed_price": 93.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-12",
+        "period_end": "2014-11",
+        "counterparty": null,
+        "fair_value_mm": -0.168588,
+        "notes": "NYMEX-WTI; 2,000 Bbls/month; through Nov 30, 2014"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 32.85,
+        "volume_total": 24000,
+        "volume_unit": "Bbls",
+        "fixed_price": 106.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-03",
+        "period_end": "2014-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX-WTI; 1,000 Bbls/month; Mar 1, 2012 through Feb 28, 2014"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into swaps, collars and floors for portion of production to achieve predictable cash flow and reduce exposure from price fluctuations. Instruments not designated as hedges.",
+      "total_instruments": 3,
+      "by_commodity": {
+        "crude_oil": 3
+      },
+      "by_type": {
+        "swap": 3
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 56740,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 252690,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 98855,
+      "total_production_boepd": 270.8,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 86.7,
+      "gas_price_used": 6.03,
+      "lease_operating_expense_per_boe": 12.69,
+      "production_tax_per_boe": 5.41,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.301769"
+  },
+  "hedging_summary": {
+    "total_instruments": 3,
+    "by_type": {
+      "swap": 3
+    },
+    "by_commodity": {
+      "crude_oil": 3
+    }
+  }
+}

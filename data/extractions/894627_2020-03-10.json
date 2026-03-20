@@ -1,0 +1,76 @@
+{
+  "cik": "894627",
+  "company": "VAALCO ENERGY INC /DE/",
+  "filing_date": "2020-03-10",
+  "accession_number": "0000894627-20-000014",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1503.66,
+        "volume_total": 274870,
+        "volume_unit": "Bbls",
+        "fixed_price": 66.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-06",
+        "counterparty": null,
+        "fair_value_mm": 0.6,
+        "notes": "Dated Brent swap at $66.70; 274,870 Bbls unexpired as of Dec 31, 2019 (remaining from May 6, 2019 swap totaling 500,000 Bbls for Jul 2019-Jun 2020); fair value asset $0.6 million"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives to achieve more predictable cash flow from crude oil production by reducing price exposure. Not designated as hedges for accounting purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1269000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5000,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.959430",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instrument [2] removed as FALSE POSITIVE. Crude oil put options for 2016-2017 period had all expired by December 31, 2017 \u2014 over 2 years before this filing's year-end (Dec 31, 2019). Source item8_notes.txt (line 215): 'All of the crude oil put contracts, which provided for settlement based upon reported the Brent price, had expired as of December 31, 2017.' No volumes or prices available for expired contracts. Instruments [0] and [1] (Dated Brent swaps) retained as valid positions. total_oil_instruments updated from 3 to 2."
+  }
+}

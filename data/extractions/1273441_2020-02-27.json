@@ -1,0 +1,74 @@
+{
+  "cik": "1273441",
+  "company": "GRAN TIERRA ENERGY INC.",
+  "filing_date": "2020-02-27",
+  "accession_number": "0001273441-20-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 6000,
+        "volume_total": 1092000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": 69.05,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Reference: ICE Brent"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Manage variability of cash flows from oil sales, reduce commodity price risk, provide base cash flow to execute capital spending. Does not apply hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 10629750,
+      "oil_production_bpd": 29140,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 10596475,
+      "total_production_boepd": 29015,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 67600,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 67600,
+      "proved_developed_reserves_mboe": 36504,
+      "proved_undeveloped_reserves_mboe": 31096,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 64.16,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 13.36,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.92,
+      "dd_and_a_per_boe": 21.16,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.244332",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "cik": "1288403",
+  "company": "W&T OFFSHORE INC",
+  "filing_date": "2013-02-27",
+  "accession_number": "0001193125-13-079296",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3550.0,
+        "volume_total": 1294900,
+        "volume_unit": "Bbls",
+        "fixed_price": 101.97,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": -2.566,
+        "notes": "ICE Brent crude oil swap | Consolidated from 4 sub-period entries"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1850.0,
+        "volume_total": 674900,
+        "volume_unit": "Bbls",
+        "fixed_price": 97.38,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": -1.085,
+        "notes": "ICE Brent crude oil swap | Consolidated from 4 sub-period entries"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company utilizes derivative contracts to reduce risk of commodity price fluctuations. Derivatives not designated as hedging instruments. Only oil derivatives outstanding as of 12/31/12."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.253389",
+    "item7_merge_timestamp": "2026-02-28T07:03:38.143953+00:00",
+    "item7_instruments_added": 0
+  }
+}

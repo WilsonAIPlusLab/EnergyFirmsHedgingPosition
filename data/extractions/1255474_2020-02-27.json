@@ -1,0 +1,155 @@
+{
+  "cik": "1255474",
+  "company": "WHITING PETROLEUM CORP",
+  "filing_date": "2020-02-27",
+  "accession_number": "0001255474-20-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 13366,
+        "volume_total": 4883000,
+        "volume_unit": "Bbls",
+        "fixed_price": 57.57,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": -7.0,
+        "notes": "Fixed Price Swaps on NYMEX WTI; fair value of swaps at Dec 31, 2019 was net liability of $7 million"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 4514,
+        "volume_total": 1648000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 54.33,
+        "ceiling_price": 61.77,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Two-way Collars on NYMEX WTI"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10016,
+        "volume_total": 3658000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "sub_floor_price": 43.5,
+        "floor_price": 54.0,
+        "ceiling_price": 63.63,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way Collars on NYMEX WTI; sub-floor $43.50/floor $54.00/ceiling $63.63; weighted average deferred premium $0.56/Bbl; fair value of collars and options at Dec 31, 2019 was net liability of $3 million"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3000,
+        "volume_total": 1095000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "sub_floor_price": 42.5,
+        "floor_price": 52.5,
+        "ceiling_price": 59.08,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way Collars on NYMEX WTI; sub-floor $42.50/floor $52.50/ceiling $59.08; weighted average deferred premium $0.56/Bbl"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 65.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold call option on NYMEX WTI"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters derivative contracts (collars, swaps, options) to achieve predictable cash flow by reducing exposure to oil and gas price volatility. Does not apply hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 29800000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 50500000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 7600000,
+      "total_production_boe": 45800000,
+      "total_production_boepd": null,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 50.06,
+      "gas_price_used": 0.57,
+      "lease_operating_expense_per_boe": 7.17,
+      "production_tax_per_boe": 3.02,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.93,
+      "dd_and_a_per_boe": 17.82,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.242414",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  },
+  "hedging_summary": {
+    "total_instruments": 5,
+    "instrument_types": {
+      "swap": 1,
+      "collar": 2,
+      "three_way_collar": 2,
+      "call_option": 1,
+      "future": 2,
+      "put": 1
+    }
+  }
+}

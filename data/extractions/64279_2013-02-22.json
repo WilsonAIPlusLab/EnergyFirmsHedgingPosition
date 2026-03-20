@@ -1,0 +1,54 @@
+{
+  "cik": "64279",
+  "company": "MCMORAN EXPLORATION CO /DE/",
+  "filing_date": "2013-02-22",
+  "accession_number": "0000064279-13-000013",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "All remaining derivative contract positions matured on December 31, 2010. No hedging activity in 2012 or 2011."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2107000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 31797000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 965000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 10879,
+      "proved_gas_reserves_mmcf": 135933,
+      "proved_ngl_reserves_mbbls": 3109,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 530.311,
+      "pv10_mm": null,
+      "oil_price_used": 106.68,
+      "gas_price_used": 2.84,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.095624"
+  }
+}

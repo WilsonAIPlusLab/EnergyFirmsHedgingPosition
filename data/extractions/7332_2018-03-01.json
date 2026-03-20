@@ -1,0 +1,161 @@
+{
+  "cik": "7332",
+  "company": "SOUTHWESTERN ENERGY CO",
+  "filing_date": "2018-03-01",
+  "accession_number": "0000007332-18-000016",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2018-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": 56.0,
+        "notes": "Fixed price swap assets at December 31, 2017, Level 2 fair value $56M. Source Note 4 (item8_notes.txt) discloses fair values by instrument category only \u2014 no volumes or prices per contract. Item 7 states 489 Bcf of 2018 and 201 Bcf of 2019 production protected via NYMEX price derivatives (combined across swaps/collars). Per Note 4: also 183 MBbls ethane and propane swap positions. Volumes/prices TRULY MISSING \u2014 source only reports aggregate fair values and total protected volumes."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2018-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": 5.0,
+        "notes": "Two-way costless collar assets at December 31, 2017, Level 3 fair value $5M. Source Note 4 (item8_notes.txt) discloses fair values by instrument category only \u2014 no volumes, floor, or ceiling prices per contract. Item 7 states 489 Bcf (2018) + 201 Bcf (2019) protected in aggregate across NYMEX price instruments. Volumes/prices TRULY MISSING \u2014 source only reports aggregate fair values."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2018-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": 121.0,
+        "notes": "Three-way costless collar assets at December 31, 2017, Level 3 fair value $121M. Source Note 4 (item8_notes.txt) discloses fair values by instrument category only \u2014 no volumes or floor/ceiling prices per contract. Item 7 states 489 Bcf (2018) + 201 Bcf (2019) protected in aggregate. Volumes/prices TRULY MISSING \u2014 source only reports aggregate fair values."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2018-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": 2.0,
+        "notes": "Basis swap assets at December 31, 2017, Level 3 fair value $2M. Source Note 4 (item8_notes.txt) discloses fair values by category only. Item 7 states 44 Bcf of 2018 (at approx. -$0.48/MMBtu) and <1 Bcf of 2019 (at approx. -$0.59/MMBtu) financially protected via basis derivatives. Individual contract volumes/prices TRULY MISSING \u2014 only aggregate disclosed."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2018-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": 2.0,
+        "notes": "Purchased call option assets at December 31, 2017, Level 3 fair value $2M. Source Note 4 (item8_notes.txt) discloses fair values by category only \u2014 no strike price or volume per contract. Volumes/prices TRULY MISSING \u2014 source only reports aggregate fair values."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2018-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": -18.0,
+        "notes": "Sold call option liabilities at December 31, 2017, Level 3 fair value $(18)M ($3M current + $15M LT). Source Note 4 (item8_notes.txt) discloses fair values by category only \u2014 no strike price or volume per contract. Volumes/prices TRULY MISSING \u2014 source only reports aggregate fair values."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses fixed price swaps, options, basis swaps and interest rate swaps to reduce volatility; policies prohibit speculation; limits swaps to counterparties with appropriate credit standings."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2327000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 797000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 14245000,
+      "total_production_boe": 149500000,
+      "total_production_boepd": null,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 65600,
+      "proved_gas_reserves_mmcf": 11126000,
+      "proved_ngl_reserves_mbbls": 542400,
+      "total_proved_reserves_mboe": 2462500,
+      "proved_developed_reserves_mboe": 1320000,
+      "proved_undeveloped_reserves_mboe": 1142500,
+      "reserves_year_end": "2017-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 5562,
+      "pv10_mm": 5784,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.9,
+      "production_tax_per_boe": 0.1,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 0.45,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.114020",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instruments [0-9] verified TRULY MISSING volumes and prices. Southwestern Energy Note 4 (item8_notes.txt) only discloses fair values by instrument category (Level 2/3 FV hierarchy table) \u2014 no individual contract volumes, fixed prices, floors, or ceilings are disclosed. Item 7 discloses aggregate volumes only: 489 Bcf (2018) + 201 Bcf (2019) NYMEX-protected; 44 Bcf (2018) basis protected at approx. -$0.48/MMBtu; 183 MBbls ethane/propane swaps. Period_start/end set to 2018-01/2019-12 based on Item 7 disclosure. All 10 instruments are legitimate positions; volume/price data unavailable in source filing."
+  }
+}

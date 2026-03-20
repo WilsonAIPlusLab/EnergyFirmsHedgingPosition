@@ -1,0 +1,92 @@
+{
+  "cik": "1537058",
+  "company": "Whiting USA Trust II",
+  "filing_date": "2019-03-25",
+  "accession_number": "0001537058-19-000008",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "All costless collar hedge contracts terminated as of December 31, 2014. No additional hedges are allowed to be placed on Trust assets. Consequently, there are no further cash settlements on commodity hedges, and the Trust has increased exposure to oil and natural gas price volatility."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 936000,
+      "oil_production_bpd": 2564,
+      "gas_production_mcf": 1206000,
+      "gas_production_mmcf_per_day": 3.3,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1137000,
+      "total_production_boepd": 3100,
+      "production_year": 2018,
+      "production_note": "Oil includes natural gas liquids. NGL volumes not separately reported."
+    },
+    "reserves": {
+      "proved_developed_oil_mbbls": 2084,
+      "proved_developed_gas_mmcf": 2109,
+      "proved_developed_total_mboe": 2435,
+      "proved_undeveloped_oil_mbbls": 0,
+      "proved_undeveloped_gas_mmcf": 0,
+      "proved_undeveloped_total_mboe": 0,
+      "total_proved_oil_mbbls": 2084,
+      "total_proved_gas_mmcf": 2109,
+      "total_proved_total_mboe": 2435,
+      "reserves_year_end": 2018,
+      "reserves_note": "Reserves on 90% NPI Trust life basis. 100% full economic life reserves were 9.2 MMBOE as of Dec 31, 2018. Reserve report projects minimum volumes of 10.61 MMBOE will be produced prior to December 31, 2021. Includes 802 MBOE of additional reserves in excess of Trust minimum volumes.",
+      "revisions_mboe": 225,
+      "extensions_discoveries_mboe": 149,
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {
+      "oil_price_per_bbl": 53.91,
+      "gas_price_per_mcf": 3.4,
+      "production_cost_per_boe": 24.65,
+      "lease_operating_expense_per_boe": 24.64,
+      "production_tax_rate_pct": 5.1,
+      "oil_revenue_thousands": 51827,
+      "gas_revenue_thousands": 4296,
+      "total_revenue_thousands": 56123,
+      "lease_operating_expense_thousands": 28900,
+      "production_tax_thousands": 2887,
+      "development_cost_thousands": 3309,
+      "net_proceeds_thousands": 21027,
+      "income_from_npi_thousands": 18924,
+      "distributable_income_thousands": 18109,
+      "standardized_measure_thousands": 45548,
+      "future_cash_inflows_thousands": 121469,
+      "future_production_costs_thousands": -65110,
+      "future_development_costs_thousands": -4740,
+      "future_net_cash_flows_thousands": 51619,
+      "pv10_discount_thousands": -6071,
+      "economics_year": 2018,
+      "economics_note": "All amounts in thousands of dollars. Ad valorem taxes of $1.6 million ($1.38/BOE) excluded from reported production costs.",
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "source_file": "item8_oil_gas.txt",
+    "independent_engineer": "Cawley, Gillespie & Associates, Inc.",
+    "trust_structure": "90% Net Profits Interest in underlying oil and gas properties operated by Whiting Petroleum",
+    "npi_termination_date": "2021-12-31",
+    "minimum_volumes_mmboe": 10.61
+  }
+}

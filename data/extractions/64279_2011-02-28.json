@@ -1,0 +1,56 @@
+{
+  "cik": "64279",
+  "company": "MCMORAN EXPLORATION CO /DE/",
+  "filing_date": "2011-02-28",
+  "accession_number": "0000064279-11-000005",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Company entered oil/gas derivatives in 2007 for anticipated 2008-2010 production; not designated as hedges; all contracts expired December 31, 2010. Note 7 explicitly states: 'McMoRan had no remaining oil and gas derivative contracts outstanding as of December 31, 2010.'"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2481000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 43976000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 14557,
+      "proved_gas_reserves_mmcf": 192495,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 650.92,
+      "pv10_mm": null,
+      "oil_price_used": 76.97,
+      "gas_price_used": 4.7,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.095264",
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "All 4 instruments [0,1,2,3] removed as FALSE POSITIVES. All contracts were entered in 2007 and expired December 31, 2010. Note 7 in item8_notes.txt line 887 explicitly states: 'McMoRan had no remaining oil and gas derivative contracts outstanding as of December 31, 2010.' The fair values extracted were historical P&L figures, not outstanding positions. Set uses_derivatives=false."
+  }
+}

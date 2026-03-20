@@ -1,0 +1,74 @@
+{
+  "cik": "1538267",
+  "company": "SandRidge Mississippian Trust II",
+  "filing_date": "2016-03-16",
+  "accession_number": "0001104659-16-105510",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 754.1,
+        "volume_total": 92000,
+        "volume_unit": "Bbls",
+        "fixed_price": 90.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-09",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Derivative contracts conveyed or novated to Trust from SandRidge under derivatives agreement. Hedging arrangement terminated December 31, 2015. Trust received net settlements directly from counterparties on novated contracts. Settlements for Sept-Nov 2015 production included in Feb 2016 distribution."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Trust held derivatives via agreement with SandRidge to mitigate oil price volatility for Trust's share of production through Dec 31, 2015. Hedging arrangement terminated."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 314000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 4561000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 298000,
+      "total_production_boe": 1372000,
+      "total_production_boepd": 3.8,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": 0.46,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.71,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.232856",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

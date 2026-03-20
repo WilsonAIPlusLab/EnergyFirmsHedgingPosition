@@ -1,0 +1,125 @@
+{
+  "cik": "1661920",
+  "company": "Lonestar Resources US Inc.",
+  "filing_date": "2021-03-31",
+  "accession_number": "0001661920-21-000008",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4146,
+        "volume_total": 1513290,
+        "volume_unit": "Bbls",
+        "fixed_price": 43.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI swap, price range $42.20 - $47.09"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2000,
+        "volume_total": 730000,
+        "volume_unit": "Bbls",
+        "fixed_price": 45.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI swap, price range $44.83 - $47.09"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 11991,
+        "volume_total": 4376715,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub swap, price range $2.86 - $3.28"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6233,
+        "volume_total": 2275045,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.77,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub swap, price range $2.70 - $3.14"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Protect returns on drilling/completion activity and reduce cash flow volatility. Required to hedge 80% of production for 36 months and 75% for 24 months per credit facility."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2457037,
+      "oil_production_bpd": 6713,
+      "gas_production_mcf": 8195701,
+      "gas_production_mmcf_per_day": 22.393,
+      "ngl_production_bbls": 1149900,
+      "total_production_boe": 4972887,
+      "total_production_boepd": 13587,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 79200,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.39,
+      "production_tax_per_boe": 1.44,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.34,
+      "dd_and_a_per_boe": 14.52,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.097868",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

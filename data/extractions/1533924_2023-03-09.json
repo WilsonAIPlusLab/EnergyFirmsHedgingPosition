@@ -1,0 +1,128 @@
+{
+  "cik": "1533924",
+  "company": "Amplify Energy Corp.",
+  "filing_date": "2023-03-09",
+  "accession_number": "0001558370-23-003321",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 38137,
+        "volume_total": 13920000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.49,
+        "ceiling_price": 5.92,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Two-way collars; average monthly volume 1,160,000 MMBtu [FIXED: monthly avg x12 for annual total]"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1808,
+        "volume_total": 660000,
+        "volume_unit": "Bbls",
+        "fixed_price": 57.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap contracts; average monthly volume 55,000 Bbls [FIXED: monthly avg x12 for annual total]"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 986,
+        "volume_total": 360000,
+        "volume_unit": "Bbls",
+        "fixed_price": 40.0,
+        "floor_price": 55.0,
+        "ceiling_price": 67.15,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way collars with sub-floor price of $40.00/Bbl; average monthly volume 30,000 Bbls [FIXED: monthly avg x12 for annual total; sub_floor in fixed_price]"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Derivative instruments utilized to manage exposure to commodity price fluctuations and achieve predictable cash flow from production. Does not designate as hedge accounting.",
+      "total_instruments": 3,
+      "by_commodity": {
+        "natural_gas": 1,
+        "crude_oil": 2
+      },
+      "by_type": {
+        "collar": 1,
+        "swap": 1,
+        "three_way_collar": 1
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2327000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 22993000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1389000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2022
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.228192"
+  },
+  "hedging_summary": {
+    "total_instruments": 3,
+    "by_type": {
+      "collar": 1,
+      "swap": 1,
+      "three_way_collar": 1
+    },
+    "by_commodity": {
+      "natural_gas": 1,
+      "crude_oil": 2
+    }
+  }
+}

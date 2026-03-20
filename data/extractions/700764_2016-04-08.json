@@ -1,0 +1,74 @@
+{
+  "cik": "700764",
+  "company": "VICTORY ENERGY CORP",
+  "filing_date": "2016-04-08",
+  "accession_number": "0001628280-16-014105",
+  "form_type": "10-K",
+  "period_end": "2015-12-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No hedging activity. Company is a small independent E&P with going concern issues and no derivative instruments."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 12152,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 37568,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": "CY2015",
+      "oil_avg_price_per_bbl": 45.72,
+      "gas_avg_price_per_mcf": 2.51,
+      "total_revenue": 650648,
+      "notes": "Production includes non-controlling interests in Aurora Energy Partners (50% owned by Victory). Successful efforts method. Oil production nearly doubled vs prior year due to Eagle Ford wells."
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 0.041,
+      "proved_gas_reserves_mmcf": 0.179,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "oil_total_proved_bbls": 41380,
+      "gas_total_proved_mcf": 178750,
+      "reserves_year_end": "2015-12-31",
+      "notes": "Includes reserves attributable to 50% non-controlling interest in Aurora (20,690 bbl oil, 89,375 mcf gas). SEC benchmark prices: $50.28/bbl, $2.58/Mcf. Large downward gas revision of -410,362 mcf."
+    },
+    "economics": {
+      "standardized_measure_mm": 0.872,
+      "standardized_measure_pre_tax_mm": 0.872,
+      "standardized_measure_after_tax_mm": 0.585,
+      "pv10_mm": null,
+      "oil_price_used": 50.28,
+      "gas_price_used": 2.58,
+      "lease_operating_expense": 159800,
+      "production_taxes": 32704,
+      "total_production_cost": 192504,
+      "gathering_transport_per_boe": null,
+      "dd_and_a": 637121,
+      "finding_development_cost_per_boe": null,
+      "future_cash_inflows": 2345940,
+      "future_production_costs": 964520,
+      "future_development_costs": 87650,
+      "notes": "50% of standardized measure ($436,065) attributable to non-controlling interest in Aurora.",
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "dd_and_a_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

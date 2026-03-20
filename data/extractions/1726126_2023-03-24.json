@@ -1,0 +1,92 @@
+{
+  "cik": "1726126",
+  "company": "Epsilon Energy Ltd.",
+  "filing_date": "2023-03-24",
+  "accession_number": "0001558370-23-004481",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1070000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 1.219865,
+        "notes": "NYMEX HH swaps outstanding at December 31, 2022 [NOTE] Source states 1.07 Bcf outstanding NYMEX HH swaps at Dec 31, 2022 but does not disclose fixed price per MMBtu. Verified: source discloses volumes but not per-unit prices for this position."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1070000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 0.002225,
+        "notes": "Tennessee Z4 basis swaps outstanding at December 31, 2022; net fair value of $181,775 asset and $179,550 liability [NOTE] Source states 1.07 Bcf outstanding Tennessee Z4 basis swaps at Dec 31, 2022. Net fair value: $181,775 asset - $179,550 liability. Source does not disclose fixed differential per MMBtu. Verified: source discloses volumes but not per-unit prices for this position."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Established hedging strategy to manage commodity price risk for portion of future natural gas production; uses mark-to-market accounting; does not designate as accounting hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 32200,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 9503000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 44100,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2022
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 211,
+      "proved_gas_reserves_mmcf": 90040,
+      "proved_ngl_reserves_mbbls": 491,
+      "total_proved_reserves_mboe": 94254,
+      "proved_developed_reserves_mboe": 80795,
+      "proved_undeveloped_reserves_mboe": 13459,
+      "reserves_year_end": "2022-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 145.8,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.109269",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

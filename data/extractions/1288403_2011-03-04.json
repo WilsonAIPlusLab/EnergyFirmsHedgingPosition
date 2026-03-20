@@ -1,0 +1,125 @@
+{
+  "cik": "1288403",
+  "company": "W&T OFFSHORE INC",
+  "filing_date": "2011-03-04",
+  "accession_number": "0001193125-11-055941",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5581.33,
+        "volume_total": 1518800,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": 92.93,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-09",
+        "counterparty": null,
+        "fair_value_mm": -7.075,
+        "notes": "Zero cost collar on NYMEX oil | Consolidated from 3 sub-period entries (Q1 1,937+Q2 3,595+Q3 1,543 thousands)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 4261.96,
+        "volume_total": 392100,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": 95.58,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-10",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": -2.383,
+        "notes": "Zero cost collar on NYMEX oil"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3115.94,
+        "volume_total": 852000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": 97.88,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-09",
+        "counterparty": null,
+        "fair_value_mm": -4.319,
+        "notes": "Zero cost collar on NYMEX oil | Consolidated from 3 sub-period entries (Q1 1,858+Q2 1,843+Q3 618 thousands)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2728.26,
+        "volume_total": 251000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": 98.99,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-10",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": -1.105,
+        "notes": "Zero cost collar on NYMEX oil"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Derivatives used to reduce commodity price risk; not for speculation. Commodity option contracts for 2011-2012. No hedge accounting designation."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 7100000,
+      "oil_production_bpd": 19000,
+      "gas_production_mcf": 44700000,
+      "gas_production_mmcf_per_day": 122,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 485400,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 75.96,
+      "gas_price_used": 4.38,
+      "lease_operating_expense_per_boe": 1.95,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.38,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.252881",
+    "item7_merge_timestamp": "2026-02-28T07:03:38.071778+00:00",
+    "item7_instruments_added": 0
+  }
+}

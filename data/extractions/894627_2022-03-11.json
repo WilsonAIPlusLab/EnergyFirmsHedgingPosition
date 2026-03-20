@@ -1,0 +1,142 @@
+{
+  "cik": "894627",
+  "company": "VAALCO ENERGY INC /DE/",
+  "filing_date": "2022-03-11",
+  "accession_number": "0000894627-22-000035",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1960.45,
+        "volume_total": 60794,
+        "volume_unit": "Bbls",
+        "fixed_price": 53.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Dated Brent swap at $53.10; 60,794 Bbls unexpired as of Dec 31, 2021 (remaining from Jan 22, 2021 swap totaling 709,262 Bbls through Jan 2022)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3237.97,
+        "volume_total": 191060,
+        "volume_unit": "Bbls",
+        "fixed_price": 67.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Dated Brent swap at $67.70; 191,060 Bbls unexpired as of Dec 31, 2021 (remaining from Aug 6, 2021 swap totaling 314,420 Bbls for Nov 2021-Feb 2022)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3770.49,
+        "volume_total": 460000,
+        "volume_unit": "Bbls",
+        "fixed_price": 72.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-03",
+        "period_end": "2022-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Dated Brent commodity swaps entered September 24, 2021; unexpired as of December 31, 2021"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2571.43,
+        "volume_total": 234000,
+        "volume_unit": "Bbls",
+        "fixed_price": 85.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-04",
+        "period_end": "2022-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Dated Brent commodity swaps entered in 2022"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4076.09,
+        "volume_total": 375000,
+        "volume_unit": "Bbls",
+        "fixed_price": 76.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-07",
+        "period_end": "2022-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Dated Brent commodity swaps entered in 2022"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity swaps to achieve predictable cash flow and reduce exposure to crude oil price fluctuations. Swaps not designated as hedges for accounting purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2599000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 0,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3200,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.959904",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

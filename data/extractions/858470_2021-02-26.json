@@ -1,0 +1,142 @@
+{
+  "cik": "858470",
+  "company": "CABOT OIL & GAS CORP",
+  "filing_date": "2021-02-26",
+  "accession_number": "0000858470-21-000013",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000,
+        "volume_total": 18250000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": 1.636,
+        "notes": "Natural gas NYMEX swap outstanding at December 31, 2020"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 449863.01,
+        "volume_total": 164250000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.68,
+        "ceiling_price": 3.09,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": 23.726,
+        "notes": "Natural gas NYMEX collar; Floor range $2.50-$2.85, Ceiling range $2.83-$3.94; outstanding at December 31, 2020"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 50000.0,
+        "volume_total": 10700000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.5,
+        "ceiling_price": 2.8,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-04",
+        "period_end": "2021-10",
+        "counterparty": null,
+        "fair_value_mm": -0.145,
+        "notes": "Natural gas NYMEX collar; floor $2.50, ceiling $2.80; outstanding at December 31, 2020"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000.0,
+        "volume_total": 10700000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-04",
+        "period_end": "2021-10",
+        "counterparty": null,
+        "fair_value_mm": 1.013,
+        "notes": "Natural gas NYMEX swap outstanding at December 31, 2020"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000.0,
+        "volume_total": 10700000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.81,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-04",
+        "period_end": "2021-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas NYMEX swap entered early 2021"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduce risk of commodity price volatility for natural gas production through financial derivatives; restricted to hedging actual/projected exposure; not for speculation"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 857700000,
+      "gas_production_mmcf_per_day": 2348,
+      "ngl_production_bbls": null,
+      "total_production_boe": 142950000,
+      "total_production_boepd": 391370,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 844000,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.06,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.096875",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

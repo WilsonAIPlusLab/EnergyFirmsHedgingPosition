@@ -1,0 +1,90 @@
+{
+  "cik": "1505413",
+  "company": "VOC Energy Trust",
+  "filing_date": "2013-03-15",
+  "accession_number": "0001047469-13-002842",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1107.15,
+        "volume_total": 404108,
+        "volume_unit": "Bbls",
+        "fixed_price": 99.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "notes": "Fixed-price crude oil swaps held by VOC Brazos Energy Partners, LP (underlying operator). Monthly volumes range from 32,554 to 34,975 Bbls (total 404,108 Bbls), all at $99.01/Bbl. Trust receives 80% of net proceeds including hedge settlements. Swaps settle based on average NYMEX settlement price for each commodity business day in contract month."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 432.4,
+        "volume_total": 78264,
+        "volume_unit": "Bbls",
+        "fixed_price": 102.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-06",
+        "notes": "Fixed-price crude oil swaps held by VOC Brazos Energy Partners, LP for H1 2014 (Jan-Jun). Monthly volumes range from 12,870 to 13,220 Bbls (total 78,264 Bbls), all at $102.15/Bbl. Hedge program covers 2011, 2012, 2013 and H1 2014 per conveyance terms."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Trust receives 80% of proceeds from certain hedge contracts in existence on May 10, 2011, held by VOC Brazos. Hedge settlements offset costs in net proceeds calculation. [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 2,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 630678,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 454487,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6767,
+      "proved_gas_reserves_mmcf": 3862,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 246,
+      "pv10_mm": 246,
+      "oil_price_used": 91.95,
+      "gas_price_used": 4.39,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.187718"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "cik": "1528129",
+  "company": "Vital Energy, Inc.",
+  "filing_date": "2025-02-24",
+  "accession_number": "0001528129-25-000045",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 47762,
+        "volume_total": 17433000,
+        "volume_unit": "Bbl",
+        "fixed_price": 74.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "WTI NYMEX; updated through Feb 19, 2025 (Note 18)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 10943,
+        "volume_total": 4005000,
+        "volume_unit": "Bbl",
+        "fixed_price": 71.42,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "notes": "WTI NYMEX; updated through Feb 19, 2025 (Note 18)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 8578,
+        "volume_total": 3131000,
+        "volume_unit": "Bbl",
+        "fixed_price": 34.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Non-TET Propane; updated through Feb 19, 2025 (Note 18)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 10789,
+        "volume_total": 3938000,
+        "volume_unit": "Bbl",
+        "fixed_price": 11.04,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Non-TET Ethane; updated through Feb 19, 2025 (Note 18)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 116986,
+        "volume_total": 42705000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.31,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Waha Inside FERC; updated through Feb 19, 2025 (Note 18)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 121721,
+        "volume_total": 44530000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "notes": "Waha Inside FERC; updated through Feb 19, 2025 (Note 18)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 120000,
+        "volume_total": 43800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.70,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2027-01",
+        "period_end": "2027-12",
+        "notes": "Waha Inside FERC; updated through Feb 19, 2025 (Note 18)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 2,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Engages in puts, swaps, collars and basis swaps to hedge price risk on anticipated sales volumes to mitigate cash flow volatility from oil, NGL and natural gas prices"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10 | Verified and corrected 2026-03-18: added oil volumes/prices, NGL propane/ethane instruments, gas prices; used Note 18 (updated through Feb 19, 2025)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 22585000,
+      "oil_production_bpd": 61708,
+      "gas_production_mcf": 78794000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 13270000,
+      "total_production_boe": 48987000,
+      "total_production_boepd": 133845,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 455275,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 76.76,
+      "gas_price_used": 0.85,
+      "lease_operating_expense_per_boe": 9.15,
+      "production_tax_per_boe": 2.41,
+      "total_production_cost_per_boe": 14.59,
+      "gathering_transport_per_boe": 0.36,
+      "dd_and_a_per_boe": 15.15,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.224123",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

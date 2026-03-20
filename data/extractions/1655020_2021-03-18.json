@@ -1,0 +1,76 @@
+{
+  "cik": "1655020",
+  "company": "Extraction Oil & Gas, Inc.",
+  "filing_date": "2021-03-18",
+  "accession_number": "0001655020-21-000118",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 7204.66,
+        "volume_total": 2629700,
+        "volume_unit": "Bbls",
+        "fixed_price": 50.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "NYMEX WTI crude swaps as of Dec 31, 2020. 2,629,700 Bbl total for 2021 at $50.40/Bbl fixed price. Company emerged from Chapter 11 bankruptcy in late 2020; prior hedges were terminated by counterparties in June 2020 for $96.1M settlement."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company entered into commodity derivative instruments to reduce price effect on future oil/gas production. No hedge accounting applied. Two counterparties as of 12/31/20."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 1,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 12543000,
+      "oil_production_bpd": 34270,
+      "gas_production_mcf": 72311000,
+      "gas_production_mmcf_per_day": 197.57,
+      "ngl_production_bbls": 7945000,
+      "total_production_boe": 32540000,
+      "total_production_boepd": 88907,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 45392,
+      "proved_gas_reserves_mmcf": 369534,
+      "proved_ngl_reserves_mbbls": 38895,
+      "total_proved_reserves_mboe": 145875,
+      "proved_developed_reserves_mboe": 112292,
+      "proved_undeveloped_reserves_mboe": 33583,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 794.433,
+      "pv10_mm": null,
+      "oil_price_used": 33.6,
+      "gas_price_used": 0.35,
+      "lease_operating_expense_per_boe": 2.39,
+      "production_tax_per_boe": 0.89,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 4.26,
+      "dd_and_a_per_boe": 10.21,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.091209",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

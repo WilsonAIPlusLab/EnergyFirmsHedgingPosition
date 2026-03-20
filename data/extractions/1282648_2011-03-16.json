@@ -1,0 +1,166 @@
+{
+  "cik": "1282648",
+  "company": "RAM ENERGY RESOURCES INC",
+  "filing_date": "2011-03-16",
+  "accession_number": "0000950123-11-025952",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1921,
+        "volume_total": 528275,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": 105.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-04",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Per day amounts calculated based on 365-day year for 2011"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 995,
+        "volume_total": 181090,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": 105.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Per day amounts calculated based on 366-day year for 2012"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 6219,
+        "volume_total": 1697787,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5.0,
+        "ceiling_price": 9.48,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Per day amounts calculated based on 365-day year for 2011"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1177,
+        "volume_total": 321321,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Bare floor - provides floor price without corresponding ceiling"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 1841,
+        "volume_total": 169372,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.18,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-10",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Bare floor - provides floor price without corresponding ceiling"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 2486,
+        "volume_total": 226226,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.25,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Bare floor - provides floor price without corresponding ceiling"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduce exposure to price fluctuations and achieve predictable cash flow as required by lenders. Use put/call collars and bare floor options. Do not establish derivatives exceeding prod"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 995000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 4816000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 364000,
+      "total_production_boe": 2161000,
+      "total_production_boepd": null,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 13086,
+      "proved_gas_reserves_mmcf": 53608,
+      "proved_ngl_reserves_mbbls": 2375,
+      "total_proved_reserves_mboe": 24396,
+      "proved_developed_reserves_mboe": 15196,
+      "proved_undeveloped_reserves_mboe": 9200,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 364.248,
+      "oil_price_used": 79.43,
+      "gas_price_used": 4.38,
+      "lease_operating_expense_per_boe": 15.68,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 12.11,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.249389",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  },
+  "hedging_summary": {
+    "total_instruments": 6,
+    "instrument_types": {
+      "collar": 3,
+      "put_option": 3
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "cik": "1724009",
+    "company": "PermRock Royalty Trust",
+    "filing_date": "2023-03-31",
+    "accession_number": "0001553350-23-000235",
+    "instruments": {
+        "instruments": [],
+        "hedging_summary": {
+            "total_oil_instruments": 0,
+            "total_gas_instruments": 0,
+            "total_ngl_instruments": 0,
+            "uses_derivatives": false,
+            "stated_hedging_policy": "PermRock Royalty Trust is a passive entity. No commodity hedge contracts burden the Trust."
+        }
+    },
+    "production": {
+        "production": {
+            "oil_production_bbls": 153000,
+            "oil_production_bpd": null,
+            "gas_production_mcf": 159000,
+            "gas_production_mmcf_per_day": null,
+            "ngl_production_bbls": null,
+            "total_production_boe": 179000,
+            "total_production_boepd": null,
+            "production_year": 2022
+        },
+        "reserves": {
+            "proved_oil_reserves_mbbls": 2967,
+            "proved_gas_reserves_mmcf": 2740,
+            "proved_ngl_reserves_mbbls": null,
+            "total_proved_reserves_mboe": 3424,
+            "proved_developed_reserves_mboe": 2191,
+            "proved_undeveloped_reserves_mboe": 1233,
+            "reserves_year_end": 2022
+        },
+        "economics": {
+            "standardized_measure_mm": 145.018,
+            "pv10_mm": null,
+            "oil_price_used": 93.67,
+            "gas_price_used": 6.358,
+            "lease_operating_expense_per_boe": null,
+            "production_tax_per_boe": null,
+            "total_production_cost_per_boe": null,
+            "gathering_transport_per_boe": null,
+            "dd_and_a_per_boe": null,
+            "finding_development_cost_per_boe": null
+        }
+    },
+    "metadata": {
+        "model": "claude-opus-4-6",
+        "extraction_timestamp": "2026-02-27T23:54:16Z"
+    }
+}

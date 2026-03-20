@@ -1,0 +1,65 @@
+{
+  "cik": "66418",
+  "company": "MEXCO ENERGY CORP",
+  "filing_date": "2013-07-01",
+  "accession_number": "0001398344-13-003018",
+  "form_type": "10-K",
+  "period_end": "2013-03-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Boilerplate language in item7a about commodity price risk exposure. No hedge arrangements in place."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 23260,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 401077,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": "FY2013 (Apr 2012 - Mar 2013)",
+      "oil_avg_price_per_bbl": 84.34,
+      "gas_avg_price_per_mcf": 2.75,
+      "oil_revenue": 1961766,
+      "gas_revenue": 1101941
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "total_proved_reserves_mmcfe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-03-31",
+      "notes": "Reserves data not available in extracted oil_gas section (0B). Item7 mentions PUDs of 3.8 bcfe (38% of total proved reserves), implying total proved reserves ~10.0 Bcfe."
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost": 1082043,
+      "gathering_transport_per_boe": null,
+      "dd_and_a": 1100425,
+      "finding_development_cost_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "dd_and_a_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

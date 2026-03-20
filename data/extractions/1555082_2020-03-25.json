@@ -1,0 +1,172 @@
+{
+  "cik": "1555082",
+  "company": "EP Energy LLC",
+  "filing_date": "2020-03-25",
+  "accession_number": "0001555082-20-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5051.91,
+        "volume_total": 1849000,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.80,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "WTI fixed price swap 2020; 1,849 MBbl @ $55.80/Bbl; as of Dec 31 2019"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 32000.0,
+        "volume_total": 11712000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.90,
+        "ceiling_price": 65.11,
+        "sub_floor_price": 45.00,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "WTI three-way collar 2020; sub_floor $45.00, floor $55.90, ceiling $65.11; 11,712 MBbl; as of Dec 31 2019"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4000.0,
+        "volume_total": 1464000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.46,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Midland vs Cushing basis swap 2020; 1,464 MBbl @ +$0.46/Bbl; EP receives Cushing plus spread and pays Midland"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 246.58,
+        "volume_total": 90000,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.52,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "WTI fixed price swap 2021; 90 MBbl @ $55.52/Bbl; as of Dec 31 2019"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 11333.33,
+        "volume_total": 4148000,
+        "volume_unit": "Bbls",
+        "fixed_price": 59.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "WTI fixed price swap 2020 (post-period, added Jan 1 - Mar 20, 2020); 4,148 MBbl @ $59.98/Bbl; replaced 4,026 MBbls of three-way collars"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 246.58,
+        "volume_total": 90000,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "WTI fixed price swap 2021 (post-period, added Jan 1 - Mar 20, 2020); 90 MBbl @ $55.05/Bbl"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2465.75,
+        "volume_total": 900000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.00,
+        "ceiling_price": 60.51,
+        "sub_floor_price": 45.00,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "WTI three-way collar 2021 (post-period, added Jan 1 - Mar 20, 2020); sub_floor $45.00, floor $55.00, ceiling $60.51; 900 MBbl"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 7,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company attempts to mitigate commodity price risk and stabilize cash flows through use of derivative oil and natural gas swaps, basis swaps and option contracts."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from item7.txt Dec 31, 2019 table + post-period (Jan 1 - Mar 20, 2020). Post-period: 4,026 MBbls 2020 three-way collars unwound and replaced with 4,148 MBbls swaps at $59.98; 90 MBbls 2021 swaps and 900 MBbls 2021 three-way collars added. Original extraction had incorrect instrument_type='fixed_price_swap' and zeroed hedging_summary."
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 14083000,
+      "oil_production_bpd": 38600,
+      "gas_production_mcf": 42059000,
+      "gas_production_mmcf_per_day": 115,
+      "ngl_production_bbls": 4785000,
+      "total_production_boe": 25878000,
+      "total_production_boepd": 70900,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.34,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 3.59,
+      "dd_and_a_per_boe": 16.15,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.066147",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

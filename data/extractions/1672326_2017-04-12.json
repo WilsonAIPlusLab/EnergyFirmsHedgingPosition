@@ -1,0 +1,172 @@
+{
+  "cik": "1672326",
+  "company": "Yuma Energy, Inc.",
+  "filing_date": "2017-04-12",
+  "accession_number": "0001654954-17-003271",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6525.41,
+        "volume_total": 2381776,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Natural gas fixed price swap, NYMEX Henry Hub, open as of Dec 31 2016"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3977.35,
+        "volume_total": 1451734,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Natural gas fixed price swap, NYMEX Henry Hub, open as of Dec 31 2016"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 679.52,
+        "volume_total": 248023,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.95,
+        "ceiling_price": 3.28,
+        "sub_floor_price": 2.38,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Natural gas 3-way collar: sold call $3.28, bought put $2.95, sold put $2.38; NYMEX Henry Hub; open as of Dec 31 2016"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 399.38,
+        "volume_total": 145775,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Crude oil fixed price swap, NYMEX WTI, open as of Dec 31 2016"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 534.66,
+        "volume_total": 195152,
+        "volume_unit": "Bbls",
+        "fixed_price": 53.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Crude oil fixed price swap, NYMEX WTI, open as of Dec 31 2016"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 428.27,
+        "volume_total": 156320,
+        "volume_unit": "Bbls",
+        "fixed_price": 53.77,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Crude oil fixed price swap, NYMEX WTI, open as of Dec 31 2016"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 309.67,
+        "volume_total": 113029,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": 77.0,
+        "sub_floor_price": 45.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Crude oil 3-way collar: sold call $77.00, bought put $60.00, sold put $45.00; NYMEX WTI; open as of Dec 31 2016"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Company is a smaller reporting company and not required to provide hedging information. No derivative instruments disclosed in provided text."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 172003,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2326400,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 104689,
+      "total_production_boe": 664425,
+      "total_production_boepd": null,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 8321,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 42.21,
+      "gas_price_used": 2.45,
+      "lease_operating_expense_per_boe": 4.97,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 8.37,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 11.67,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.098062",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

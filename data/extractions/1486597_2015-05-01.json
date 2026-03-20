@@ -1,0 +1,56 @@
+{
+  "cik": "1486597",
+  "company": "SUPERNOVA ENERGY, INC.",
+  "filing_date": "2015-05-01",
+  "accession_number": "0001558891-15-000065",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed. No active derivative liabilities as of December 31, 2014."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 144.134,
+      "proved_gas_reserves_mmcf": 0,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 144.134,
+      "proved_developed_reserves_mboe": 109.446,
+      "proved_undeveloped_reserves_mboe": 34.688,
+      "reserves_year_end": 2014
+    },
+    "economics": {
+      "standardized_measure_mm": 0.29,
+      "pv10_mm": null,
+      "oil_price_used": 84.75,
+      "gas_price_used": 4.3,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "notes": "Proved oil reserves increased from 116.134 to 144.134 MBbls. Proved developed up from 83.743 to 109.446 MBbls. No gas reserves. Standardized measure fell sharply from $0.946MM to $0.290MM despite higher reserves, driven by lower oil prices and changes in future development cost estimates. Crude oil revenues $188,243; production costs $177,611 for 2014. Company sold 100% WI in two leases (Cowley/Stafford counties) in Feb 2014 in exchange for debt forgiveness of $113,500. Properties in Kansas.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

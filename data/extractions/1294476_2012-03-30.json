@@ -1,0 +1,50 @@
+{
+  "cik": "1294476",
+  "company": "Atlas America Public #14-2004 L.P.",
+  "filing_date": "2012-03-30",
+  "accession_number": "0001193125-12-143089",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "MGP uses swaps, collars, options for commodity risk mgmt; monetized derivatives Feb 2011. At Dec 31 2011, no active derivative positions; only monetized receivables remaining."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3285,
+      "gas_production_mcf": 423765,
+      "ngl_production_bbls": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.258287"
+  }
+}

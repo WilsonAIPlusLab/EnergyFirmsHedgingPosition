@@ -1,0 +1,160 @@
+{
+  "cik": "821189",
+  "company": "EOG RESOURCES INC",
+  "filing_date": "2025-02-27",
+  "accession_number": "0000821189-25-000011",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 725000,
+        "volume_total": 265350000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Closed/settled position for 2024; Settlement Index: NYMEX Henry Hub"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 725000,
+        "volume_total": 42775000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Closed/settled position for January-February 2025; Settlement Index: NYMEX Henry Hub"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 725000,
+        "volume_total": 221850000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-03",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": 117,
+        "notes": "Settlement Index: NYMEX Henry Hub; Fair value represents liability at 2024-12-31"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3660000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Closed/settled position for 2024; Fixes differential between Houston Ship Channel and NYMEX Henry Hub"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": 1,
+        "notes": "Fixes differential between Houston Ship Channel and NYMEX Henry Hub; Fair value represents asset at 2024-12-31"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 180000,
+        "volume_total": 657540000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2027-01",
+        "period_end": "2036-12",
+        "counterparty": null,
+        "fair_value_mm": 110,
+        "notes": "10-year agreement to sell 180,000 MMBtud starting Jan 2027; 140,000 MMBtud priced to Brent, remainder to Brent or U.S. Gulf Coast gas index; Accounted for as derivative under ASC 815; Fair value asset $110M at 2024-12-31; pricing is indexed to Brent crude oil (not a fixed per-unit price). Verified: source discloses volumes but not per-unit prices for this position."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "EOG uses derivatives for price risk mgmt; elects not to use hedge accounting; uses mark-to-market; instruments include swaps, options, collars, basis swaps."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 179581400,
+      "oil_production_bpd": 491400,
+      "gas_production_mcf": 711020000,
+      "gas_production_mmcf_per_day": 1948,
+      "ngl_production_bbls": 89954400,
+      "total_production_boe": 388166700,
+      "total_production_boepd": 1062100,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 4748000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 75.72,
+      "gas_price_used": 2.27,
+      "lease_operating_expense_per_boe": 4.04,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 4.43,
+      "dd_and_a_per_boe": 10.57,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.085421",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

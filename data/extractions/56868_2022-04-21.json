@@ -1,0 +1,124 @@
+{
+  "cik": "56868",
+  "company": "PRIMEENERGY RESOURCES CORP",
+  "filing_date": "2022-04-21",
+  "accession_number": "0001193125-22-113187",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1528000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Natural gas swap 2022; 1,528,000 MMBTU total"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 377000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.87,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Natural gas swap 2023; 377,000 MMBTU total"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 530600,
+        "volume_unit": "Bbls",
+        "fixed_price": 66.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Oil swap 2022; 530,600 Bbls total"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 114200,
+        "volume_unit": "Bbls",
+        "fixed_price": 74.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Oil swap 2023; 114,200 Bbls total"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "We have an active hedging program to mitigate risk regarding our cash flow and to protect returns from our development activity in the event of decreases in commodity prices."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10 | Fixed 2026-03-19: gas volumes filled, period_start/end filled from source item7.txt"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 738000,
+      "oil_production_bpd": 2022,
+      "gas_production_mcf": 3236000,
+      "gas_production_mmcf_per_day": 8.87,
+      "ngl_production_bbls": 416000,
+      "total_production_boe": 1693333,
+      "total_production_boepd": 4639,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 12500,
+      "proved_developed_reserves_mboe": 12500,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.093237",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

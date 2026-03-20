@@ -1,0 +1,160 @@
+{
+  "cik": "1417003",
+  "company": "WHITING USA TRUST I",
+  "filing_date": "2010-03-15",
+  "accession_number": "0000950123-10-024760",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1429.74,
+        "volume_total": 521856,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 76.0,
+        "ceiling_price": 135.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": "JPMorgan Chase Bank NA",
+        "fair_value_mm": null,
+        "notes": "Oil collar. WTI. Costless collar. Quarterly tranches aggregated. Floor $76, cap ~$135."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1302.38,
+        "volume_total": 475368,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 74.0,
+        "ceiling_price": 140.1,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": "JPMorgan Chase Bank NA",
+        "fair_value_mm": null,
+        "notes": "Oil collar. WTI. Costless collar. Floor $74, cap ~$140."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1186.51,
+        "volume_total": 434262,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 74.0,
+        "ceiling_price": 141.7,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": "JPMorgan Chase Bank NA",
+        "fair_value_mm": null,
+        "notes": "Oil collar. WTI. Costless collar. Floor $74, cap ~$142."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 5608.41,
+        "volume_total": 2047068,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.5,
+        "ceiling_price": 15.06,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": "JPMorgan Chase Bank NA",
+        "fair_value_mm": null,
+        "notes": "Gas collar. Costless collar. Volumes in Mcf. Floor $6-$7 quarterly, cap $13-$19."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4941.81,
+        "volume_total": 1803759,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.5,
+        "ceiling_price": 14.62,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": "JPMorgan Chase Bank NA",
+        "fair_value_mm": null,
+        "notes": "Gas collar. Costless collar. Volumes in Mcf. Floor $6-$7 quarterly, cap $13-$17."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4335.48,
+        "volume_total": 1586787,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.5,
+        "ceiling_price": 14.28,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": "JPMorgan Chase Bank NA",
+        "fair_value_mm": null,
+        "notes": "Gas collar. Costless collar. Volumes in Mcf. Floor $6-$7 quarterly, cap $13-$16."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Oil & gas trust (NPI from Whiting Petroleum). All hedges placed by Whiting. Costless collars only through Dec 2012, single counterparty (JPMorgan Chase Bank NA). Very wide structures: oil floors $74-$76, caps $135-$142 (deep ITM); gas floors $6-$7, caps $13-$19. No additional hedges allowed per trust agreement."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 838000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3632000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1443000,
+      "total_production_boepd": 3900,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3604,
+      "proved_gas_reserves_mmcf": 10976,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 5433,
+      "proved_developed_reserves_mboe": 5433,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 77.551,
+      "pv10_mm": null,
+      "oil_price_used": 51.58,
+      "gas_price_used": 3.15,
+      "lease_operating_expense_per_boe": 17.96,
+      "production_tax_per_boe": 2.7,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.338021",
+    "rerun_model": "claude-opus-4-6",
+    "rerun_method": "claude-code-interactive",
+    "rerun_timestamp": "2026-02-27T08:10:00"
+  }
+}

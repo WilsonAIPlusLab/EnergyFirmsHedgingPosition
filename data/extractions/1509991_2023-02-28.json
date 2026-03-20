@@ -1,0 +1,108 @@
+{
+  "cik": "1509991",
+  "company": "Kosmos Energy Ltd.",
+  "filing_date": "2023-02-28",
+  "accession_number": "0001509991-23-000021",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 16438,
+        "volume_total": 6000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 71.67,
+        "ceiling_price": 107.58,
+        "sub_floor_price": 49.17,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Source: 6,000 MBbl Jan-Dec 2023. Index: Dated Brent. Three-way collar; sold put (sub_floor) $49.17, floor $71.67, ceiling $107.58; net deferred premium payable $1.34/Bbl"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10959,
+        "volume_total": 4000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 72.5,
+        "ceiling_price": 117.5,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Source: 4,000 MBbl Jan-Dec 2023. Index: Dated Brent. Two-way collar; floor $72.50, ceiling $117.50; net deferred premium payable $1.90/Bbl"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2740,
+        "volume_total": 1000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70.0,
+        "ceiling_price": 100.0,
+        "sub_floor_price": 45.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Source: 1.0 MMBbl Jan-Dec 2024. Index: Dated Brent. Three-way collar entered January 2023; sold put (sub_floor) $45.00, floor $70.00, ceiling $100.00. Post-period addition (not in main table)."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Active commodity hedging program aims to hedge portion of anticipated sales volumes on 1-2 year rolling basis to protect downside while retaining partial upside exposure."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Fully reextracted 2026-03-19. Prior extraction was single-instrument placeholder. Source table: 2 instruments (2023) plus 1 post-period 2024 addition from footnote."
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 22012000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 4076000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 426000,
+      "total_production_boe": 23117000,
+      "total_production_boepd": 63335,
+      "production_year": 2022
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 158000,
+      "proved_gas_reserves_mmcf": 707000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 276000,
+      "proved_developed_reserves_mboe": 96000,
+      "proved_undeveloped_reserves_mboe": 180000,
+      "reserves_year_end": "2022-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 100.0,
+      "gas_price_used": 7.24,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 17.44,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 21.55,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.200017",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

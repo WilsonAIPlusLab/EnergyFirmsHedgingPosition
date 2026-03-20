@@ -1,0 +1,74 @@
+{
+  "cik": "316736",
+  "company": "FIELDPOINT PETROLEUM CORP",
+  "filing_date": "2014-03-27",
+  "accession_number": "0001140361-14-014388",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 200,
+        "volume_total": 18000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 87.0,
+        "ceiling_price": 108.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-03",
+        "counterparty": null,
+        "fair_value_mm": -0.004,
+        "notes": "NYMEX-WTI Collars entered on September 26, 2013; Fair value liability of $4,000 at December 31, 2013"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into futures, swaps or options to manage oil and gas price volatility; derivatives not designated as hedges recorded at fair value through earnings."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 101752,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 179737,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 131708,
+      "total_production_boepd": null,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1021,
+      "proved_gas_reserves_mmcf": 1990,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 90.14,
+      "gas_price_used": 3.49,
+      "lease_operating_expense_per_boe": 21.59,
+      "production_tax_per_boe": 8.1,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 18.18,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.078925",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

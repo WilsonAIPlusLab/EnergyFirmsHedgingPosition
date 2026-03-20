@@ -1,0 +1,55 @@
+{
+  "cik": "315261",
+  "company": "TEXAS VANGUARD OIL CO",
+  "filing_date": "2011-03-30",
+  "accession_number": "0000315261-11-000001",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "The Company does not engage in hedging activities and does not use commodity futures nor forward contracts in its cash management functions."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 57672,
+      "oil_production_bpd": 158,
+      "gas_production_mcf": 278549,
+      "gas_production_mmcf_per_day": 0.8,
+      "ngl_production_bbls": null,
+      "total_production_boe": 104097,
+      "total_production_boepd": 285,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 461.711,
+      "proved_gas_reserves_mmcf": 2217.881,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 831.358,
+      "proved_developed_reserves_mboe": 831.358,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 9.059,
+      "pv10_mm": null,
+      "oil_price_used": 75.17,
+      "gas_price_used": 5.65,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 39.57,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T23:16:39.150785+00:00",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

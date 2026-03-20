@@ -1,0 +1,92 @@
+{
+  "cik": "891456",
+  "company": "PLAINS EXPLORATION & PRODUCTION CO",
+  "filing_date": "2010-02-25",
+  "accession_number": "0001193125-10-039749",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 40000,
+        "volume_total": 14600000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": 15.173,
+        "notes": "WTI indexed; Average deferred premium $5.00 per Bbl plus $3.86 per barrel paid from Q1 2009 derivative monetization proceeds; settles monthly"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 85000,
+        "volume_total": 31025000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.12,
+        "ceiling_price": 8.0,
+        "sub_floor_price": 4.64,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": 14.312,
+        "notes": "Henry Hub indexed; Floor has a $4.64 limit (receive up to max $1.48 per MMBtu); Average deferred premium $0.034 per MMBtu; settles monthly"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Use derivatives to manage commodity price risk. Derivatives not designated as hedges. Q1 2009 monetized 2009-2010 crude puts and swaps for ~$1.1B. Counterparties are 6 financial institutions."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 17560000,
+      "oil_production_bpd": 48110,
+      "gas_production_mcf": 78184000,
+      "gas_production_mmcf_per_day": 214.203,
+      "ngl_production_bbls": null,
+      "total_production_boe": 30591000,
+      "total_production_boepd": 83811,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 359500,
+      "proved_developed_reserves_mboe": 229920,
+      "proved_undeveloped_reserves_mboe": 129580,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 61.18,
+      "gas_price_used": 3.87,
+      "lease_operating_expense_per_boe": 8.31,
+      "production_tax_per_boe": 1.28,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.21,
+      "dd_and_a_per_boe": 12.79,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.126198",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

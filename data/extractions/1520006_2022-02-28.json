@@ -1,0 +1,108 @@
+{
+  "cik": "1520006",
+  "company": "Matador Resources Co",
+  "filing_date": "2022-02-28",
+  "accession_number": "0001520006-22-000065",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5589.0,
+        "volume_total": 2040000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": 67.85,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": -16.652,
+        "notes": "Oil costless collar contracts, 2,040,000 Bbl for 2022. Floor=$50.00/Bbl, ceiling=$67.85/Bbl."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 91666.7,
+        "volume_total": 8250000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.7,
+        "ceiling_price": 6.33,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-03",
+        "counterparty": null,
+        "fair_value_mm": -0.151,
+        "notes": "Natural gas costless collar contracts, 8,250,000 MMBtu for Q1 2022. Floor=$2.70/MMBtu, ceiling=$6.33/MMBtu."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 15123.3,
+        "volume_total": 5520000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": 1.925,
+        "notes": "Oil basis swap (WTI Midland vs WTI Cushing), 5,520,000 Bbl for 2022, fixed spread +$0.95/Bbl."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses costless collars, three-way collars, and swaps to manage commodity price risk. Typically hedges significant portion of anticipated future production. Does not use hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 17840000,
+      "oil_production_bpd": 48876,
+      "gas_production_mcf": 81700000,
+      "gas_production_mmcf_per_day": 223.8,
+      "ngl_production_bbls": null,
+      "total_production_boe": 31454000,
+      "total_production_boepd": 86176,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 181300,
+      "proved_gas_reserves_mmcf": 852500,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 323400,
+      "proved_developed_reserves_mboe": 193800,
+      "proved_undeveloped_reserves_mboe": 129600,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4380,
+      "pv10_mm": 5350,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 3.46,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 10.97,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.210939",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "cik": 845289,
+  "company": "HARVEST NATURAL RESOURCES, INC",
+  "filing_date": "2015-03-27",
+  "accession_number": "0001562762-15-000094",
+  "form_type": "10-K",
+  "period_end": "2014-12-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging. 'We and our investment affiliate currently do not have any oil production that is hedged.' No currency hedging for Venezuelan operations either."
+    }
+  },
+  "production": {
+    "reserves": {
+      "us_reserves": {
+        "notes": "No US proved reserves as of Dec 31, 2014 or 2013."
+      },
+      "petrodelta_venezuela_20_4pct_net": {
+        "proved_total": {
+          "oil_MBbls": 15677,
+          "gas_MMcf": 6210,
+          "total_MBOE": 16712,
+          "notes": "Net 20.4% interest. Net of 33.33% royalty. Dec 31, 2014."
+        },
+        "proved_developed": {
+          "oil_MBbls": 8394,
+          "gas_MMcf": 4887,
+          "total_MBOE": 9209
+        },
+        "proved_undeveloped": {
+          "oil_MBbls": 7283,
+          "gas_MMcf": 1323,
+          "total_MBOE": 7504
+        },
+        "changes": {
+          "beginning_2014": {
+            "oil_MBbls": 18574,
+            "gas_MMcf": 12647
+          },
+          "revisions": {
+            "oil_MBbls": -2682,
+            "gas_MMcf": -6187
+          },
+          "extensions": {
+            "oil_MBbls": 1901,
+            "gas_MMcf": 517
+          },
+          "production": {
+            "oil_MBbls": -2116,
+            "gas_MMcf": -767
+          },
+          "end_2014": {
+            "oil_MBbls": 15677,
+            "gas_MMcf": 6210
+          }
+        }
+      },
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "petrodelta_results_of_operations_fy2014": {
+        "oil_and_gas_revenues_K": 274999,
+        "royalty_K": -89177,
+        "net_revenue_K": 185822,
+        "operating_expenses_and_taxes_K": 117120,
+        "depletion_K": 27668,
+        "income_tax_K": 20517,
+        "total_expenses_K": 165305,
+        "results_K": 20517,
+        "notes": "Net to interest (32% through Dec 15, 2013, 20.4% thereafter). Windfall Profits Tax net was $40.0MM."
+      },
+      "standardized_measure": {
+        "petrodelta_20_4pct_net_dec31_2014_K": 347735,
+        "petrodelta_20_4pct_net_dec31_2014_MM": 347.7,
+        "us_K": 0,
+        "notes": "Venezuela 20.4% net. Average prices: El Salto $78.04/bbl, other fields $86.56/bbl, gas $1.54/Mcf."
+      },
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    },
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    }
+  },
+  "metadata": {
+    "source_sections": [
+      "full_text.txt",
+      "item7a.txt"
+    ],
+    "reserve_engineers": [
+      "Ryder Scott Company L.P."
+    ],
+    "accounting_method": "successful_efforts",
+    "geographic_areas": [
+      "Venezuela (Petrodelta, 20.4% net interest)"
+    ],
+    "notes": "FY2014. 20.4% net interest in Petrodelta. 66 PUD locations at Dec 31, 2014 (7.5 MMBOE). 93 total production wells drilled since 2007 business plan implementation. $13.7MM notes payable to noncontrolling interest owners. 11% Senior Notes redeemed Jan 11, 2014 for $80MM.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "model": "unknown-legacy"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "cik": "1439971",
+  "company": "CIRCLE STAR ENERGY CORP.",
+  "filing_date": "2013-08-13",
+  "accession_number": "0001185185-13-001713",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging. The 7 derivative mentions relate to embedded conversion option liabilities on convertible promissory notes valued using Black-Scholes, not commodity hedging instruments."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 7469,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 8995,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 8968,
+      "total_production_boepd": 25,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-04-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 2.33968,
+      "pv10_mm": null,
+      "oil_price_used": 88.67,
+      "gas_price_used": 3.12,
+      "lease_operating_expense_per_boe": 8.06,
+      "production_tax_per_boe": 5.09,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 44.19,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "notes": "Fiscal year ended April 30, 2013. Production and per-BOE metrics from item7 table. Reserves in Bbls (oil) and Mcf (gas) - proved oil reserves = 47,580 Bbls, proved gas reserves = 26,160 Mcf, total proved = 51,940 BOE as of April 30, 2013. Proved developed = 39,950 oil Bbls, 24,050 gas Mcf, 43,558 BOE. Proved undeveloped = 7,630 oil Bbls, 2,110 gas Mcf, 8,382 BOE. Revenue: oil $765,548, gas $47,214, total $812,762. LOE $72,248. Average prices realized: oil $102.50/Bbl, gas $5.25/Mcf, total $90.63/BOE. Production 83% oil, 17% gas. LOE includes ad valorem taxes. Derivative mentions are convertible note embedded conversion option liabilities ($63,671 fair value) and stock options, not commodity hedges.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

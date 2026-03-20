@@ -1,0 +1,71 @@
+{
+  "cik": "66418",
+  "company": "MEXCO ENERGY CORP",
+  "filing_date": "2011-01-31",
+  "accession_number": "0001398344-11-000192",
+  "form_type": "10-K/A",
+  "period_end": "2010-03-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "At March 31, 2010, we had not entered into any hedge arrangements, commodity swap agreements, commodity futures, options or other similar agreements relating to crude oil and natural gas."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 18036,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 545991,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": "FY2010 (Apr 2009 - Mar 2010)",
+      "oil_avg_price_per_bbl": 66.23,
+      "gas_avg_price_per_mcf": 3.71,
+      "oil_revenue": 1194500,
+      "gas_revenue": 2026263,
+      "notes": "10-K/A amendment refiling same FY2010 data as 2010-06-29 filing with updated reserve engineer report"
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 0.24,
+      "proved_gas_reserves_mmcf": 8.406,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "total_proved_reserves_mmcfe": 9.846,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "oil_proved_developed_producing_bbls": 138431,
+      "oil_proved_developed_nonproducing_bbls": 3549,
+      "oil_proved_undeveloped_bbls": 98088,
+      "gas_proved_developed_producing_mcf": 3952172,
+      "gas_proved_developed_nonproducing_mcf": 1065170,
+      "gas_proved_undeveloped_mcf": 3388248,
+      "reserves_year_end": "2010-03-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 14.16,
+      "pv10_mm": 18.085,
+      "oil_price_used": 66.21,
+      "gas_price_used": 3.78,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost": 1054224,
+      "gathering_transport_per_boe": null,
+      "dd_and_a": 1113141,
+      "finding_development_cost_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "dd_and_a_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

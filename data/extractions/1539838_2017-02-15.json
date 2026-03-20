@@ -1,0 +1,156 @@
+{
+  "cik": "1539838",
+  "company": "Diamondback Energy, Inc.",
+  "filing_date": "2017-02-15",
+  "accession_number": "0001539838-17-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 8000.0,
+        "volume_total": 2920000,
+        "volume_unit": "Bbls",
+        "fixed_price": 51.79,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Oil fixed price swaps, WTI NYMEX settlement"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 24000.0,
+        "volume_total": 8760000,
+        "volume_unit": "Bbls",
+        "fixed_price": -0.72,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Oil basis swaps, WTI Midland vs WTI Cushing spread"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 15000.0,
+        "volume_total": 5475000,
+        "volume_unit": "Bbls",
+        "fixed_price": -0.88,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Oil basis swaps, WTI Midland vs WTI Cushing spread"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000.0,
+        "volume_total": 7300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Natural gas fixed price swaps, NYMEX Henry Hub settlement"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5991.78,
+        "volume_total": 2187000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 46.3,
+        "ceiling_price": 55.42,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Oil costless collars with put and call options (ceiling volume 2,187,000 Bbls @ $55.42)"
+      },
+      {
+        "instrument_type": "put",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 5991.78,
+        "volume_total": 2187000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 46.3,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Long put (floor leg only) from asymmetric collar structure; floor volume 4,374,000 Bbls total, ceiling only covers 2,187,000 Bbls"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses price swap derivatives, including basis swaps, to reduce price volatility associated with certain oil and natural gas sales based on NYMEX WTI."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Patched from audit results (2026-03-09); verified 2026-03-19: asymmetric collar split into collar (2,187,000 Bbls) + long put (2,187,000 Bbls)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 11561921,
+      "oil_production_bpd": 31590,
+      "gas_production_mcf": 10728442,
+      "gas_production_mmcf_per_day": 29.313,
+      "ngl_production_bbls": 2399441,
+      "total_production_boe": 15749436,
+      "total_production_boepd": 43031,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 139174,
+      "proved_gas_reserves_mmcf": 174896,
+      "proved_ngl_reserves_mbbls": 37134,
+      "total_proved_reserves_mboe": 205457,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 39.94,
+      "gas_price_used": 1.36,
+      "lease_operating_expense_per_boe": 5.23,
+      "production_tax_per_boe": 2.19,
+      "total_production_cost_per_boe": 9.19,
+      "gathering_transport_per_boe": 0.74,
+      "dd_and_a_per_boe": 11.3,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.059034",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

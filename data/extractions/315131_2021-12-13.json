@@ -1,0 +1,125 @@
+{
+  "cik": "315131",
+  "company": "PHX MINERALS INC.",
+  "filing_date": "2021-12-13",
+  "accession_number": "0001564590-21-060165",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10600.0,
+        "volume_total": 3869000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.91,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": "BP Energy Company",
+        "fair_value_mm": null,
+        "notes": "Entered into on September 3, 2021 with BP Energy Company. Contract settled with BOKF on September 2, 2021 for $8.8 million, replaced with similar terms by BP for $8.8 million received. NYMEX Henry Hub index."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3013.7,
+        "volume_total": 1100000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": "BP Energy Company",
+        "fair_value_mm": null,
+        "notes": "Entered into on September 3, 2021 with BP Energy Company. NYMEX Henry Hub index."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 378.08,
+        "volume_total": 138000,
+        "volume_unit": "Bbls",
+        "fixed_price": 44.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": "BP Energy Company",
+        "fair_value_mm": null,
+        "notes": "Entered into on September 3, 2021 with BP Energy Company. NYMEX WTI index."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 82.19,
+        "volume_total": 30000,
+        "volume_unit": "Bbls",
+        "fixed_price": 46.23,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": "BP Energy Company",
+        "fair_value_mm": null,
+        "notes": "Entered into on September 3, 2021 with BP Energy Company. NYMEX WTI index."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses fixed swaps & collars to reduce exposure to short-term price fluctuations in natural gas & oil. Covers portion of production, provides partial price protection."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 224479,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 6699720,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 171488,
+      "total_production_boe": 1512586,
+      "total_production_boepd": null,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 83000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2021-09-30"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.47,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.64,
+      "dd_and_a_per_boe": 0.85,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.071510",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

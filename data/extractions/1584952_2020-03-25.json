@@ -1,0 +1,172 @@
+{
+  "cik": "1584952",
+  "company": "EP Energy Corp",
+  "filing_date": "2020-03-25",
+  "accession_number": "0001584952-20-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5051.91,
+        "volume_total": 1849000,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "WTI oil fixed price swaps for 2020"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 246.58,
+        "volume_total": 90000,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.52,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "WTI oil fixed price swaps for 2021"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 32000.0,
+        "volume_total": 11712000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.9,
+        "ceiling_price": 65.11,
+        "sub_floor_price": 45.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "WTI oil three-way collars for 2020: ceiling $65.11, floor $55.90, sub-floor $45.00. Below sub-floor, company receives WTI plus weighted avg spread of $10.90/Bbl. Note: Dec 31, 2019 position; 4,026 MBbls were subsequently unwound and replaced with swaps."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 4000.0,
+        "volume_total": 1464000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.46,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Midland vs. Cushing basis swaps for 2020: EP Energy receives Cushing plus $0.46/Bbl and pays Midland"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 11364.38,
+        "volume_total": 4148000,
+        "volume_unit": "Bbls",
+        "fixed_price": 59.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "WTI fixed price swap; 4,148 MBbls @ $59.98/Bbl; 2020. Added Jan-Mar 2020 (replaced 4,026 MBbls of unwound three-way collars)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 246.58,
+        "volume_total": 90000,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "WTI fixed price swap; 90 MBbls @ $55.05/Bbl; 2021. Added Jan-Mar 2020."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2463.01,
+        "volume_total": 900000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": 60.51,
+        "sub_floor_price": 45.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "WTI three-way collar; ceiling $60.51, floor $55.00, sub-floor $45.00; 900 MBbls; 2021. Added Jan-Mar 2020."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 7,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Mitigate commodity price risk and stabilize cash flows via fixed price swaps, basis swaps and options. No hedge accounting applied. Fair value changes recorded in earnings."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 14083000,
+      "oil_production_bpd": 38600,
+      "gas_production_mcf": 42059000,
+      "gas_production_mmcf_per_day": 115,
+      "ngl_production_bbls": 4785000,
+      "total_production_boe": 25878000,
+      "total_production_boepd": 70900,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.34,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 3.59,
+      "dd_and_a_per_boe": 16.15,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.074528",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

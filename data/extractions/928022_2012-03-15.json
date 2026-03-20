@@ -1,0 +1,109 @@
+{
+  "cik": "928022",
+  "company": "CALLON PETROLEUM CO",
+  "filing_date": "2012-03-15",
+  "accession_number": "0000928022-12-000026",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 819.67,
+        "volume_total": 300000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90.0,
+        "ceiling_price": 122.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding as of December 31, 2011; 25 Bbls/month (thousands) = 25,000 Bbls/month x 12 = 300,000 Bbls"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 819.67,
+        "volume_total": 300000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 95.0,
+        "ceiling_price": 125.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding as of December 31, 2011; 25 Bbls/month (thousands) = 25,000 Bbls/month x 12 = 300,000 Bbls"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1315.07,
+        "volume_total": 480000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90.0,
+        "ceiling_price": 116.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered into February 2012 as subsequent event; not designated as accounting hedge; 40 Bbls/month (thousands) = 40,000 Bbls/month x 12 = 480,000 Bbls"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Utilizes collars, swaps, and puts to reduce commodity price risk. Does not enter derivatives for speculative purposes. Uses cash flow hedge accounting designation at discretion."
+    },
+    "extraction_notes": "Volumes corrected 2026-03-19: source states volumes in thousands (note header: 'All amounts in thousands, except per-share and per-hedge data'); 25 Bbls/month = 25,000 Bbls/month"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 996000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5081000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1843000,
+      "total_production_boepd": 5049,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 11.04,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 26.42,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.972362",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "cik": 845289,
+  "company": "HARVEST NATURAL RESOURCES, INC",
+  "filing_date": "2012-03-15",
+  "accession_number": "0001193125-12-117688",
+  "form_type": "10-K",
+  "period_end": "2011-12-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging. 'We currently do not have any oil production that is hedged.' No currency hedging for Venezuelan operations either."
+    }
+  },
+  "production": {
+    "reserves": {
+      "us_reserves": {
+        "proved_total_dec31_2011": {
+          "oil_and_ngl_MBbls": 0,
+          "gas_MMcf": 0,
+          "notes": "All US reserves sold with Antelope Project (May 2011). Proved reserves at Jan 1, 2011: Oil/NGL 3,515 MBbls, Gas 6,492 MMcf."
+        }
+      },
+      "petrodelta_venezuela_32pct_net": {
+        "proved_total": {
+          "oil_MBbls": 38665,
+          "gas_MMcf": 27840,
+          "total_MBOE": 43305,
+          "notes": "Net 32% interest (via HNR Finance 40% less 20% minority). Net of 33.33% royalty."
+        },
+        "proved_developed": {
+          "oil_MBbls": 13717,
+          "gas_MMcf": 20291,
+          "total_MBOE": 17099
+        },
+        "proved_undeveloped": {
+          "oil_MBbls": 24948,
+          "gas_MMcf": 7549,
+          "total_MBOE": 26206
+        },
+        "changes": {
+          "beginning_2011": {
+            "oil_MBbls": 41684,
+            "gas_MMcf": 50055
+          },
+          "revisions": {
+            "oil_MBbls": -8663,
+            "gas_MMcf": -23289
+          },
+          "extensions": {
+            "oil_MBbls": 8074,
+            "gas_MMcf": 2101
+          },
+          "production": {
+            "oil_MBbls": -2430,
+            "gas_MMcf": -1027
+          },
+          "end_2011": {
+            "oil_MBbls": 38665,
+            "gas_MMcf": 27840
+          }
+        }
+      },
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "petrodelta_results_of_operations_fy2011": {
+        "oil_and_gas_revenues_K": 360222,
+        "royalty_K": -118339,
+        "net_revenue_K": 241883,
+        "operating_expenses_and_taxes_K": 114835,
+        "depletion_K": 17531,
+        "income_tax_K": 54759,
+        "total_expenses_K": 187125,
+        "results_K": 54758,
+        "notes": "Net to 32% interest. Windfall Profits Tax net to 32% was $76.0MM."
+      },
+      "us_results_of_operations_fy2011": {
+        "revenues_K": 6488,
+        "total_expenses_K": 67331,
+        "results_K": -60843,
+        "notes": "US operations. Includes $49.7MM dry hole costs and $13.7MM exploration expense."
+      },
+      "standardized_measure": {
+        "petrodelta_32pct_net_dec31_2011_K": 543242,
+        "petrodelta_32pct_net_dec31_2011_MM": 543.2,
+        "us_dec31_2011_K": 0,
+        "us_dec31_2010_K": 29970,
+        "notes": "Venezuela 32% net. Average prices: $98.37/bbl oil, $1.54/Mcf gas."
+      },
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    },
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    }
+  },
+  "metadata": {
+    "source_sections": [
+      "full_text.txt",
+      "item7a.txt",
+      "item8_notes.txt"
+    ],
+    "reserve_engineers": [
+      "Ryder Scott Company L.P."
+    ],
+    "accounting_method": "successful_efforts",
+    "geographic_areas": [
+      "Venezuela (Petrodelta, 32% net interest)",
+      "United States (sold Antelope May 2011)"
+    ],
+    "notes": "FY2011. US Antelope Project sold May 2011 for ~$217.8MM. Petrodelta is equity affiliate (40% HNR Finance interest = 32% net to Harvest). 33.33% royalty to Venezuelan government. Windfall Profits Tax enacted April 2011. Petrodelta operations in eastern Venezuela. $31.5MM senior convertible notes.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "model": "unknown-legacy"
+  }
+}

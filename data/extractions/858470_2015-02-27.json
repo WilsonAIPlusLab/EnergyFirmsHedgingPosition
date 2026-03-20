@@ -1,0 +1,125 @@
+{
+  "cik": "858470",
+  "company": "CABOT OIL & GAS CORP",
+  "filing_date": "2015-02-27",
+  "accession_number": "0001628280-15-001120",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 194246.58,
+        "volume_total": 70900000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 3.87,
+        "ceiling_price": 4.35,
+        "price_unit": "$/Mcf",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": 56.799,
+        "notes": "Floor range $3.86-$3.91, ceiling range $4.27-$4.43"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 194246.58,
+        "volume_total": 70900000,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.92,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": 64.671,
+        "notes": null
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 57777.78,
+        "volume_total": 5200000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2015-01",
+        "period_end": "2015-03",
+        "counterparty": null,
+        "fair_value_mm": 8.051,
+        "notes": null
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 48598.13,
+        "volume_total": 10400000,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.86,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2015-04",
+        "period_end": "2015-10",
+        "counterparty": null,
+        "fair_value_mm": 8.291,
+        "notes": null
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduce price volatility risk via commodity derivatives covering portion of production. Restricted to hedge actual/projected exposure. Not for trading. Ceased hedge accounting Apr 2014."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3961000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 508000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 88633333,
+      "total_production_boepd": null,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 483050,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.22,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.095205",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

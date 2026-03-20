@@ -1,0 +1,54 @@
+{
+  "cik": "1371782",
+  "company": "MV Oil Trust",
+  "filing_date": "2014-03-13",
+  "accession_number": "0001047469-14-002325",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Trust exposed to commodity price risk; no active hedging. Past hedge contracts with SemCrude (2008) expired; hedge settlements deducted from net proceeds calc."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 683464,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 52869,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1593,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6799.635,
+      "proved_gas_reserves_mmcf": 526.432,
+      "proved_ngl_reserves_mbbls": 18.426,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 250.003425,
+      "pv10_mm": null,
+      "oil_price_used": 89.68,
+      "gas_price_used": 3.28,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.298632"
+  }
+}

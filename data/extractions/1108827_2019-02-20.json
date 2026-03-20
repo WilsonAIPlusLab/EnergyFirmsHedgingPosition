@@ -1,0 +1,144 @@
+{
+  "cik": "1108827",
+  "company": "QEP RESOURCES, INC.",
+  "filing_date": "2019-02-20",
+  "accession_number": "0001108827-19-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 29041.096,
+        "volume_total": 10600000.0,
+        "volume_unit": "Bbls",
+        "fixed_price": 54.61,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Index: NYMEX WTI. Data as of February 15, 2019."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 12021.858,
+        "volume_total": 4400000.0,
+        "volume_unit": "Bbls",
+        "fixed_price": 60.22,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Index: NYMEX WTI. Data as of February 15, 2019."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 16438.356,
+        "volume_total": 6000000.0,
+        "volume_unit": "Bbls",
+        "fixed_price": -2.22,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis swap: NYMEX WTI vs Argus WTI Midland. Weighted-average differential. Data as of February 15, 2019."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1917.808,
+        "volume_total": 700000.0,
+        "volume_unit": "Bbls",
+        "fixed_price": 3.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis swap: NYMEX WTI vs Argus WTI Houston. Weighted-average differential. Data as of February 15, 2019."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4918.033,
+        "volume_total": 1800000.0,
+        "volume_unit": "Bbls",
+        "fixed_price": -0.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis swap: NYMEX WTI vs Argus WTI Midland. Weighted-average differential. Data as of February 15, 2019."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "QEP uses commodity derivatives (swaps, collars) to reduce commodity price risk. Does not engage in speculative hedging. Volume varies based on forecasted production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 23932000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 139600000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 4661400,
+      "total_production_boe": 51857900,
+      "total_production_boepd": null,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 339100,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 658200,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 429300,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 59.43,
+      "gas_price_used": 2.82,
+      "lease_operating_expense_per_boe": 5.07,
+      "production_tax_per_boe": 2.52,
+      "total_production_cost_per_boe": 10.92,
+      "gathering_transport_per_boe": 3.33,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.590600",
+    "item7_merge_timestamp": "2026-02-28T07:00:10.420209+00:00",
+    "item7_instruments_added": 0,
+    "item7_false_positives_removed": 1,
+    "item7_cleanup_timestamp": "2026-02-28T07:07:16.949402+00:00"
+  }
+}

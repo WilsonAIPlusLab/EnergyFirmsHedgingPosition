@@ -1,0 +1,147 @@
+{
+  "cik": "891456",
+  "company": "PLAINS EXPLORATION & PRODUCTION CO",
+  "filing_date": "2011-02-24",
+  "accession_number": "0001193125-11-044429",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 31000,
+        "volume_total": 11315000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": null,
+        "sub_floor_price": 60.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": 23.91,
+        "notes": "Put option with $60.00 limit; average deferred premium $5.023 per Bbl; WTI index"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 9000,
+        "volume_total": 3285000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": 110.0,
+        "sub_floor_price": 60.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": -0.317,
+        "notes": "Floor with $60.00 limit; average deferred premium $1.00 per Bbl; WTI index"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 40000,
+        "volume_total": 14640000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": null,
+        "sub_floor_price": 60.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": 64.266,
+        "notes": "Put option with $60.00 limit; average deferred premium $6.087 per Bbl; WTI index"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 200000,
+        "volume_total": 73000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.0,
+        "ceiling_price": 4.92,
+        "sub_floor_price": 3.0,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": -10.469,
+        "notes": "Floor with $3.00 limit; no deferred premium; Henry Hub index"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 160000,
+        "volume_total": 58560000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.3,
+        "ceiling_price": null,
+        "sub_floor_price": 3.0,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": 15.254,
+        "notes": "Put option with $3.00 limit; average deferred premium $0.294 per MMBtu; Henry Hub index"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Use derivatives to manage commodity price risk; not classified as hedges for accounting; mark-to-market recognition in income statement"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 16769000,
+      "oil_production_bpd": 45943,
+      "gas_production_mcf": 95047000,
+      "gas_production_mmcf_per_day": 260.402,
+      "ngl_production_bbls": null,
+      "total_production_boe": 32610000,
+      "total_production_boepd": 89343,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 416100,
+      "proved_developed_reserves_mboe": 237177,
+      "proved_undeveloped_reserves_mboe": 178923,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 79.61,
+      "gas_price_used": 4.38,
+      "lease_operating_expense_per_boe": 8.13,
+      "production_tax_per_boe": 0.91,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.57,
+      "dd_and_a_per_boe": 15.87,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.126434",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

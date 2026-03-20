@@ -1,0 +1,95 @@
+{
+  "cik": "872248",
+  "company": "PETROQUEST ENERGY INC",
+  "filing_date": "2018-04-27",
+  "accession_number": "0000872248-18-000023",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "contract_period": "2018",
+        "volume_per_day": 35000,
+        "total_volume_mmbtu": null,
+        "fixed_price": 3.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "index": "NYMEX",
+        "counterparty": null,
+        "fair_value_000": null,
+        "notes": "Gas swap contracts designated as cash flow hedges. Settlement gains: $1.5MM (2017), $1.8MM (2016), $15.9MM (2015).; Source: 35,000 Mmbtu/day at $3.24/Mmbtu, Jan-Mar 2018; Source: 35,000 Mmbtu/day at $3.24/Mmbtu, Jan-Mar 2018",
+        "volume_unit": "Mmbtu",
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-03",
+        "direction": "unknown",
+        "volume_total": 3150000
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "contract_period": "2018",
+        "volume_per_day": 250,
+        "total_volume_bbls": null,
+        "fixed_price": 55.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "index": "NYMEX",
+        "counterparty": null,
+        "fair_value_000": null,
+        "notes": "Oil swap contracts designated as cash flow hedges.; Source: 250 Bbl/day at $55.00/Bbl, Jan-Dec 2018; Source: 250 Bbl/day at $55.00/Bbl, Jan-Dec 2018",
+        "volume_unit": "Bbls",
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "direction": "unknown",
+        "volume_total": 91250
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Seeks to reduce commodity price volatility by hedging portion of production through derivatives. Designates as cash flow hedges. Net derivative asset ~$0.4MM at Dec 31, 2017."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T17:35:27.552740",
+    "summary": "10-K/A. Real commodity hedging via NYMEX oil and gas swaps designated as cash flow hedges. Gas hedge gains $1.5MM (2017). Net derivative asset ~$400K. No reserve supplement in this amended filing."
+  }
+}

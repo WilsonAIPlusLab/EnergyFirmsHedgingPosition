@@ -1,0 +1,125 @@
+{
+  "cik": "1554970",
+  "company": "Starboard Resources Inc.",
+  "filing_date": "2015-04-16",
+  "accession_number": "0001354488-15-001777",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 161.29,
+        "volume_total": 50000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 77.5,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Floor price range 77.00 - 80.00"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 90.32,
+        "volume_total": 5600,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-11",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": null
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 129.03,
+        "volume_total": 48000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": null
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 49.18,
+        "volume_total": 4500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-03",
+        "counterparty": null,
+        "fair_value_mm": 1.799422,
+        "notes": "Fair value as current and long-term asset as of December 31, 2014"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedging program has a target of hedging at least 50% of production. Uses put options to manage risks related to oil and gas price changes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 180898,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 779012,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 310733,
+      "total_production_boepd": 990,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3993,
+      "proved_gas_reserves_mmcf": 10771,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 5788,
+      "proved_developed_reserves_mboe": 1331,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-01-01"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 128.4,
+      "oil_price_used": 95.28,
+      "gas_price_used": 4.36,
+      "lease_operating_expense_per_boe": 17.56,
+      "production_tax_per_boe": 2.24,
+      "total_production_cost_per_boe": 19.8,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 32.63,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.064081",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

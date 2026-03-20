@@ -1,0 +1,159 @@
+{
+  "cik": "277924",
+  "company": "CREDO PETROLEUM CORP",
+  "filing_date": "2011-01-13",
+  "accession_number": "0001104659-11-001412",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 655.74,
+        "volume_total": 40000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-11",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Short sales positions at NYMEX basis prices ranging from $6.91 to $7.27"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 655.74,
+        "volume_total": 40000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.83,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-11",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Offsetting long position with same counterparty. Net unrealized gain of $50,000 at October 31, 2010"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1311.48,
+        "volume_total": 80000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.47,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-11",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX vs. Panhandle Eastern Pipeline basis differential hedges. Unrealized losses of $19,000 at October 31, 2010"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1002.3,
+        "volume_total": 90000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2011-01",
+        "period_end": "2011-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered subsequent to October 31, 2010. NYMEX Basis prices of $4.35-4.52 per Mcf | Consolidated from 3 sub-period entries"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 167,
+        "volume_total": 60000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": 94.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar entered subsequent to October 31, 2010. 5,000 barrels per month for calendar year 2011. Ceiling ranges from $90.50 to $97.50"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 100,
+        "volume_total": 36000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": 96.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar entered subsequent to October 31, 2010. 3,000 barrels per month for calendar year 2012. Ceiling ranges from $94.00 to $99.00"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges portion of production when significant downward price movement anticipated. Costless collars for oil, forward short positions for gas. Contracts do not exceed production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 96700,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1038000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 269700,
+      "total_production_boepd": null,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 11.84,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 11.6,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.064425",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

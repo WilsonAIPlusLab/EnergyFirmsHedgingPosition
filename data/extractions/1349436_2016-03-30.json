@@ -1,0 +1,109 @@
+{
+  "cik": "1349436",
+  "company": "SANDRIDGE ENERGY INC",
+  "filing_date": "2016-03-30",
+  "accession_number": "0001349436-16-000213",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4000,
+        "volume_total": 1464000,
+        "volume_unit": "Bbls",
+        "fixed_price": 88.36,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil price swap 2016; 1,464 MBbls @ $88.36; NYMEX settled; 2016 is leap year (366 days)"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000,
+        "volume_total": 10980000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.38,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas basis swap 2016; 10,980 MMcf (=10,980,000 Mmbtu per 1:1 ratio) @ -$0.38; NYMEX Henry Hub vs Platts Inside FERC Panhandle Eastern Pipe Line differential"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 6984,
+        "volume_total": 2556000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90.0,
+        "ceiling_price": 100.85,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil three-way collar 2016; 2,556 MBbls; purchased put $90.00 / sold put $83.14 / sold call $100.85; NYMEX settled"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enters commodity derivatives for portion of production to reduce price volatility; senior credit facility limits to 85% of expected production from proved reserves"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 9600000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 92105000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 5044000,
+      "total_production_boe": 29995000,
+      "total_production_boepd": 82200,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 324600,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 46.79,
+      "gas_price_used": 2.59,
+      "lease_operating_expense_per_boe": 10.34,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 10.67,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.281961",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "verification_fixed": "2026-03-19T00:00:00"
+  }
+}

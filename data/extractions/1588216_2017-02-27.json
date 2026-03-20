@@ -1,0 +1,156 @@
+{
+  "cik": "1588216",
+  "company": "RSP Permian, Inc.",
+  "filing_date": "2017-02-27",
+  "accession_number": "0001588216-17-000056",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 7458.56,
+        "volume_total": 1350000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": 54.25,
+        "sub_floor_price": 35.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-06",
+        "notes": "Three-way collar (short put $35.00/Bbl); Q1 675,000 Bbls + Q2 675,000 Bbls; settled on NYMEX WTI average"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10650.68,
+        "volume_total": 3887500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": 60.02,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Costless collars; Q1 450,000 @ ceiling $59.75, Q2 1,137,500 @ ceiling $60.05, Q3 1,150,000 @ ceiling $60.05, Q4 1,150,000 @ ceiling $60.05; weighted avg ceiling $60.02; floor $45.00 all quarters"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 10000.0,
+        "volume_total": 2750000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 48.5,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-04",
+        "period_end": "2017-12",
+        "notes": "Deferred premium put options; Q2 910,000 + Q3 920,000 + Q4 920,000 Bbls; floor $48.50; deferred premium -$4.00/Bbl payable at expiration"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 7458.56,
+        "volume_total": 1350000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": null,
+        "sub_floor_price": 35.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-06",
+        "notes": "Deferred premium put spreads (long put $45.00, short put $35.00); Q1 675,000 + Q2 675,000 Bbls; deferred premium -$2.32/Bbl"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 25446.58,
+        "volume_total": 9288000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.0,
+        "ceiling_price": 3.85,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Costless collars; Q1 1,955,000 @ ceiling $3.83, Q2 2,366,000 @ ceiling $3.86, Q3 2,422,000 @ ceiling $3.86, Q4 2,545,000 @ ceiling $3.86; weighted avg ceiling $3.85; floor $3.00 all quarters; settled on NYMEX front month"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 8950.68,
+        "volume_total": 3267000,
+        "volume_unit": "Bbls",
+        "fixed_price": -0.26,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Mid-Cush differential (basis) swaps; Q1 1,350,000 @ -$0.21, Q2 1,365,000 @ -$0.21, Q3 276,000 @ -$0.50, Q4 276,000 @ -$0.50; weighted avg -$0.26; settled WTI Midland Argus vs WTI Argus"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity derivatives (collars, swaps, puts) to reduce variability in cash flow from price fluctuations; provides partial price protection; limited to 85% of projected production"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 7790000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 7188000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1685000,
+      "total_production_boe": 10673000,
+      "total_production_boepd": 29161,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 41.28,
+      "gas_price_used": 1.94,
+      "lease_operating_expense_per_boe": 4.93,
+      "production_tax_per_boe": 2.03,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.48,
+      "dd_and_a_per_boe": 18.21,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.075494",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

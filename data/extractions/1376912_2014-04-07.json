@@ -1,0 +1,63 @@
+{
+  "cik": "1376912",
+  "company": "Rockies Region 2006 Limited Partnership",
+  "filing_date": "2014-04-07",
+  "accession_number": "0001376912-14-000005",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Managing General Partner does not anticipate entering into derivative instruments for future production. Previously used economic hedging to manage price volatility. [Note: instruments not extractable from filing]",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    },
+    "extraction_notes": "confirmed_no_instruments_via_reextract"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 18908,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 70748,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 7166,
+      "total_production_boe": 37866,
+      "total_production_boepd": 104,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 90.33,
+      "gas_price_used": 3.19,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 21.65,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 41.8,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.306245"
+  },
+  "hedging_summary": {
+    "total_instruments": 0,
+    "by_type": {},
+    "by_commodity": {}
+  }
+}

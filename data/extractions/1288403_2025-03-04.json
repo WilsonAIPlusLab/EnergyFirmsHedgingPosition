@@ -1,0 +1,159 @@
+{
+  "cik": "1288403",
+  "company": "W&T OFFSHORE INC",
+  "filing_date": "2025-03-04",
+  "accession_number": "0001558370-25-002116",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 62000,
+        "volume_total": 5580000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 5.5,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub (NYMEX) natural gas derivative contract"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 63333,
+        "volume_total": 5700000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.72,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub (NYMEX) natural gas derivative contract"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 62182,
+        "volume_total": 17100000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.27,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-04",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub (NYMEX) natural gas derivative contract; purchased put"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 55890,
+        "volume_total": 20400000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.35,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub (NYMEX) natural gas derivative contract; purchased put"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 52603,
+        "volume_total": 19200000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.37,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2027-01",
+        "period_end": "2027-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub (NYMEX) natural gas derivative contract; purchased put"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 49587,
+        "volume_total": 6000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.5,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2028-01",
+        "period_end": "2028-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub (NYMEX) natural gas derivative contract; purchased put"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enter into derivatives to manage/reduce market risk, not for speculation. Attempted to mitigate price risk and stabilize cash flows via swaps, purchased calls and puts."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5255000,
+      "oil_production_bpd": 14384,
+      "gas_production_mcf": 34296000,
+      "gas_production_mmcf_per_day": 93.8,
+      "ngl_production_bbls": 1212000,
+      "total_production_boe": 12183000,
+      "total_production_boepd": 33287,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 21700,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 23.1,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 2.31,
+      "dd_and_a_per_boe": 11.74,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.256179",
+    "item7_merge_timestamp": "2026-02-28T07:03:38.550895+00:00",
+    "item7_instruments_added": 0
+  }
+}

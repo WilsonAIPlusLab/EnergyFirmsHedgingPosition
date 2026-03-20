@@ -1,0 +1,106 @@
+{
+  "cik": "101594",
+  "company": "US ENERGY CORP",
+  "filing_date": "2011-03-14",
+  "accession_number": "0000101594-11-000018",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 200,
+        "volume_total": 73000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": 83.25,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-10",
+        "period_end": "2011-09",
+        "notes": "Costless collar, WTI basis, through wholly-owned affiliate Energy One with BNP Paribas counterparty; 200 bbl/d x 365 days"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 200,
+        "volume_total": 73000,
+        "volume_unit": "Bbls",
+        "fixed_price": 79.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-10",
+        "period_end": "2011-09",
+        "notes": "Fixed price swap, WTI basis, through wholly-owned affiliate Energy One with BNP Paribas counterparty; 200 bbl/d x 365 days"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 200,
+        "volume_total": 73000,
+        "volume_unit": "Bbls",
+        "fixed_price": 89.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "Fixed price swap, WTI basis, through wholly-owned affiliate Energy One with BNP Paribas counterparty; 200 bbl/d x 365 days"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No information provided in text - Item 7A appears to be empty or incomplete."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 303433,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 757905,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 19104,
+      "total_production_boe": 448855,
+      "total_production_boepd": 1230,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1486,
+      "proved_gas_reserves_mmcf": 2136,
+      "proved_ngl_reserves_mbbls": 53,
+      "total_proved_reserves_mboe": 1955,
+      "proved_developed_reserves_mboe": 1635,
+      "proved_undeveloped_reserves_mboe": 184,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 44.653,
+      "pv10_mm": 52.073,
+      "oil_price_used": 79.43,
+      "gas_price_used": 4.38,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.546235"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "cik": 719209,
+  "company": "ISRAMCO INC",
+  "filing_date": "2016-03-14",
+  "accession_number": "0001185185-16-003894",
+  "form_type": "10-K",
+  "period_end": "2015-12-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No open commodity derivative positions as of December 31, 2015. Company uses interest rate swaps only (Deutsche Bank AG) to hedge LIBOR risk on Tamar Royalties LLC term loan. Company states it typically utilizes swaps for commodity hedging but had no commodity hedges in place at period end."
+    }
+  },
+  "production": {
+    "reserves": {
+      "proved_total": {
+        "oil_MBbls": 1884,
+        "gas_MMcf": 200692,
+        "ngl_MBbls": 887,
+        "total_MBOE": 36220,
+        "notes": "US + Israel. 90.3% proved developed. Oil/NGL in US, gas primarily Israel (Tamar Field)"
+      },
+      "proved_developed": {
+        "oil_MBbls": 1884,
+        "gas_MMcf": 179792,
+        "ngl_MBbls": 887,
+        "total_MBOE": 32736
+      },
+      "proved_undeveloped": {
+        "oil_MBbls": 0,
+        "gas_MMcf": 20900,
+        "ngl_MBbls": 0,
+        "total_MBOE": 3483
+      },
+      "changes": {
+        "revisions": {
+          "oil_Bbls": -836981,
+          "gas_Mcf": -6300693,
+          "ngl_Bbls": -680735,
+          "total_BOE": -2567834
+        },
+        "extensions": {
+          "oil_Bbls": 8014,
+          "gas_Mcf": 23489,
+          "ngl_Bbls": 4889,
+          "total_BOE": 16818
+        },
+        "production": {
+          "oil_Bbls": -256774,
+          "gas_Mcf": -6145485,
+          "ngl_Bbls": -98807,
+          "total_BOE": -1379828
+        },
+        "sales_of_minerals": {
+          "oil_Bbls": -29344,
+          "gas_Mcf": -51896,
+          "ngl_Bbls": 0,
+          "total_BOE": -37993
+        }
+      },
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "results_of_operations": {
+        "revenues_MM": 42.198,
+        "us_revenues_MM": 17.047,
+        "israel_revenues_MM": 25.151,
+        "production_costs_MM": 14.919,
+        "dda_MM": 6.923,
+        "income_tax_MM": 7.125,
+        "results_MM": 13.231
+      },
+      "standardized_measure": {
+        "total_MM": 277.683,
+        "us_MM": 28.797,
+        "israel_MM": 248.886
+      },
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    },
+    "pricing": {
+      "us_oil_per_Bbl": 45.44,
+      "us_gas_per_Mcf": 2.39,
+      "us_ngl_per_Bbl": 15.43,
+      "israel_gas_per_Mcf": 5.52,
+      "israel_condensate_per_Bbl": 46.53
+    },
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    }
+  },
+  "metadata": {
+    "source_sections": [
+      "item8_oil_gas.txt",
+      "item7a.txt",
+      "item8_notes.txt"
+    ],
+    "reserve_engineers": [
+      "Netherland, Sewell & Associates, Inc.",
+      "Cawley, Gillespie & Associates, Inc."
+    ],
+    "accounting_method": "successful_efforts",
+    "geographic_areas": [
+      "United States",
+      "Israel"
+    ],
+    "notes": "Oil/NGL reserves entirely in US. Gas reserves primarily in Israel (Tamar Field). Company explicitly states no commodity hedging at period end.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "model": "unknown-legacy"
+  }
+}

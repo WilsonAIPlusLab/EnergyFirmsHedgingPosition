@@ -1,0 +1,91 @@
+{
+  "cik": "1437557",
+  "company": "LILIS ENERGY, INC.",
+  "filing_date": "2018-03-09",
+  "accession_number": "0001144204-18-013867",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 75070,
+        "volume_unit": "Bbls",
+        "fixed_price": 50.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed-for-floating price swaps (NYMEX WTI) as of December 31, 2017"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 105930,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 52.5,
+        "ceiling_price": 60.8,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar with Put Options at $52.50 and Call Options at $60.80 (NYMEX WTI) as of December 31, 2017"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into derivatives to reduce impact of price fluctuations on revenues or protect property acquisition economics. Governed by Second Lien Credit Agreement."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 371993,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 776164,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 73875,
+      "total_production_boe": 575229,
+      "total_production_boepd": 1576,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 7215,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": 1603,
+      "total_proved_reserves_mboe": 11453,
+      "proved_developed_reserves_mboe": 4238,
+      "proved_undeveloped_reserves_mboe": 7215,
+      "reserves_year_end": "2017-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 47.92,
+      "gas_price_used": 2.74,
+      "lease_operating_expense_per_boe": 12.21,
+      "production_tax_per_boe": 2.06,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 12.21,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.351451",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

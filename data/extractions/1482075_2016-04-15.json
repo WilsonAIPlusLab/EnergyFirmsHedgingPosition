@@ -1,0 +1,56 @@
+{
+  "cik": "1482075",
+  "company": "Citadel Exploration, Inc.",
+  "filing_date": "2016-04-15",
+  "accession_number": "0001520138-16-000845",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed. Derivative liability relates to convertible note conversion feature, fully converted to stock in Q1 2015."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4000,
+      "oil_production_bpd": 11.0,
+      "gas_production_mcf": 0,
+      "gas_production_mmcf_per_day": 0,
+      "ngl_production_bbls": null,
+      "total_production_boe": 4000,
+      "total_production_boepd": 11.0,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1414.0,
+      "proved_gas_reserves_mmcf": 0,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1414.0,
+      "proved_developed_reserves_mboe": 358.0,
+      "proved_undeveloped_reserves_mboe": 1056.0,
+      "reserves_year_end": 2015
+    },
+    "economics": {
+      "standardized_measure_mm": 7.107,
+      "pv10_mm": null,
+      "oil_price_used": 44.62,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "notes": "First year with proved reserves reported. Reserves acquired via Kern Bluff Oil Field purchase in July 2015 (1,418 MBbls purchased in place). Production of 4 MBbls in 2015. Oil reserves are all crude oil, no gas reserves. Reserves in San Joaquin Valley, California.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

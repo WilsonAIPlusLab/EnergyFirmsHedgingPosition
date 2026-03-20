@@ -1,0 +1,54 @@
+{
+  "cik": "1371782",
+  "company": "MV Oil Trust",
+  "filing_date": "2025-03-20",
+  "accession_number": "0001104659-25-026134",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Trust is a net profits interest owner; does not directly hedge. Historical hedge asset of $7.2M was recorded at Trust formation (Jan 2007) from MV Partners' original cost basis."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 469091,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 21892,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 11,
+      "total_production_boe": 472747,
+      "total_production_boepd": null,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 618,
+      "proved_gas_reserves_mmcf": 5.75,
+      "proved_ngl_reserves_mbbls": 0.101,
+      "total_proved_reserves_mboe": 619,
+      "proved_developed_reserves_mboe": 618,
+      "proved_undeveloped_reserves_mboe": 1,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 18.889403,
+      "pv10_mm": null,
+      "oil_price_used": 70.98,
+      "gas_price_used": 1.99,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.301368"
+  }
+}

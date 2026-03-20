@@ -1,0 +1,121 @@
+{
+  "cik": "6769",
+  "company": "APACHE CORP",
+  "filing_date": "2022-02-22",
+  "accession_number": "0001784031-22-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 120000,
+        "volume_total": 43800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Basis swap purchased: NYMEX Henry Hub / IF Waha, 43,800 MMBtu (000s) = 43,800,000 total / 365 days = 120,000/day, weighted avg price differential $(0.45)"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 120000,
+        "volume_total": 43800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.08,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Basis swap sold: NYMEX Henry Hub / IF HSC, 43,800 MMBtu (000s) = 43,800,000 total / 365 days = 120,000/day, weighted avg price differential $(0.08)"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 80000,
+        "volume_total": 29200000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.40,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Basis swap purchased: NYMEX Henry Hub / IF Waha, 29,200 MMBtu (000s) = 29,200,000 total / 365 days = 80,000/day, weighted avg price differential $(0.40)"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 80000,
+        "volume_total": 29200000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.02,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Basis swap sold: NYMEX Henry Hub / IF HSC, 29,200 MMBtu (000s) = 29,200,000 total / 365 days = 80,000/day, weighted avg price differential $0.02"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into derivatives on portion of projected oil and gas production through swaps, futures, and options to manage commodity price fluctuations. Does not trade."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 66364000,
+      "oil_production_bpd": 181819,
+      "gas_production_mcf": 302833000,
+      "gas_production_mmcf_per_day": 829.679,
+      "ngl_production_bbls": 24806000,
+      "total_production_boe": 141644000,
+      "total_production_boepd": 388061,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 85000,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 8.75,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 8.85,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.100149",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

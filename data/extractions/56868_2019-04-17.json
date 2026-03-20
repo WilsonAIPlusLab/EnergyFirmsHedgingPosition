@@ -1,0 +1,162 @@
+{
+  "cik": "56868",
+  "company": "PRIMEENERGY RESOURCES CORP",
+  "filing_date": "2019-04-17",
+  "accession_number": "0001193125-19-109123",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2052.05,
+        "volume_total": 749000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.93,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Required by credit agreement to hedge portion of PDP reserves"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 491.8,
+        "volume_total": 180000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Required by credit agreement to hedge portion of PDP reserves"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 164.38,
+        "volume_total": 60000,
+        "volume_unit": "Bbls",
+        "fixed_price": 21.66,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Required by credit agreement to hedge portion of PDP reserves"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1342.74,
+        "volume_total": 490100,
+        "volume_unit": "Bbls",
+        "fixed_price": 53.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Required by credit agreement to hedge portion of PDP reserves"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 616.12,
+        "volume_total": 225500,
+        "volume_unit": "Bbls",
+        "fixed_price": 58.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Required by credit agreement to hedge portion of PDP reserves"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Credit agreement requires hedging of portion of PDP reserves. Uses derivatives to manage commodity price risk and mitigate price volatility.",
+      "total_instruments": 5,
+      "by_commodity": {
+        "natural_gas": 2,
+        "ngl": 1,
+        "crude_oil": 2
+      },
+      "by_type": {
+        "swap": 5
+      }
+    },
+    "uses_derivatives": true
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1187000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3735000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 463000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.092713",
+    "item7_cleanup_timestamp": "2026-02-28T06:09:31.447008+00:00"
+  },
+  "hedging_summary": {
+    "total_instruments": 5,
+    "by_type": {
+      "swap": 5
+    },
+    "by_commodity": {
+      "natural_gas": 2,
+      "ngl": 1,
+      "crude_oil": 2
+    }
+  }
+}

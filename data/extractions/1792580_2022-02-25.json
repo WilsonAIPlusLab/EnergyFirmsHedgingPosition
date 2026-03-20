@@ -1,0 +1,217 @@
+{
+  "cik": "1792580",
+  "company": "Ovintiv Inc.",
+  "filing_date": "2022-02-25",
+  "accession_number": "0001564590-22-006978",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 1825000,
+        "volume_unit": "Bbls",
+        "fixed_price": 60.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "WTI Fixed Price swap, 5.0 Mbbls/d, outstanding as of Dec 31 2021"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 75000,
+        "volume_total": 27375000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.82,
+        "ceiling_price": 70.79,
+        "sub_floor_price": 49.33,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "WTI Three-Way Options: sold call $70.79 / bought put $60.82 / sold put $49.33; 75.0 Mbbls/d; outstanding as of Dec 31 2021"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 365000,
+        "volume_total": 133225000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "NYMEX Fixed Price swap, 365 MMcf/d, outstanding as of Dec 31 2021"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 398000,
+        "volume_total": 145270000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 3.02,
+        "sub_floor_price": 2.0,
+        "price_unit": "$/Mcf",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "NYMEX Three-Way Options: sold call $3.02 / bought put $2.75 / sold put $2.00; 398 MMcf/d; outstanding as of Dec 31 2021"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 200000,
+        "volume_total": 73000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.55,
+        "ceiling_price": 2.85,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "NYMEX Costless Collars: sold call $2.85 / bought put $2.55; 200 MMcf/d; outstanding as of Dec 31 2021"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 330000,
+        "volume_total": 120450000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 2.38,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "NYMEX Sold Call Options at $2.38/Mcf; 330 MMcf/d; outstanding as of Dec 31 2021"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": 0.0,
+        "notes": "Crude oil and NGL differential basis swaps 2022; fair value ~nil (shown as '-' in source)"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2022-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": -58.0,
+        "notes": "Natural gas basis swaps; volumes not disclosed; fair value: $(33)M 2022, $(13)M 2023, $(12)M 2024-2025"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Ovintiv uses derivative financial instruments to manage commodity price and FX risk. Does not apply hedge accounting. Governed by formal policies with Board limits.",
+      "total_instruments": 8,
+      "by_commodity": {
+        "crude_oil": 3,
+        "natural_gas": 5
+      },
+      "by_type": {
+        "swap": 2,
+        "three_way_collar": 2,
+        "collar": 1,
+        "call_option": 1,
+        "basis_swap": 2
+      }
+    },
+    "uses_derivatives": true,
+    "instrument_count": 8,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10); basis swaps added 2026-03-19"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 51209500,
+      "oil_production_bpd": 140300,
+      "gas_production_mcf": 567940000,
+      "gas_production_mmcf_per_day": 1556,
+      "ngl_production_bbls": 49022000,
+      "total_production_boe": 194898333,
+      "total_production_boepd": 533900,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 66.56,
+      "gas_price_used": 3.6,
+      "lease_operating_expense_per_boe": 3.07,
+      "production_tax_per_boe": 1.51,
+      "total_production_cost_per_boe": 13.42,
+      "gathering_transport_per_boe": 7.42,
+      "dd_and_a_per_boe": 6.0,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.112414",
+    "item7_cleanup_timestamp": "2026-02-28T06:09:31.443012+00:00"
+  },
+  "hedging_summary": {
+    "total_instruments": 8,
+    "by_type": {
+      "swap": 2,
+      "three_way_collar": 2,
+      "collar": 1,
+      "call_option": 1,
+      "basis_swap": 2
+    },
+    "by_commodity": {
+      "crude_oil": 3,
+      "natural_gas": 5
+    }
+  }
+}

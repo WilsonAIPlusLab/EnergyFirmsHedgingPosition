@@ -1,0 +1,77 @@
+{
+  "cik": "1106935",
+  "company": "IVANHOE ENERGY INC",
+  "filing_date": "2010-03-16",
+  "accession_number": "0000950123-10-025259",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": 84.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2007-09",
+        "period_end": "2010-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar covering approximately 50% of estimated production from Dagang field in China over three-year period starting September 2007, using WTI as index on NYMEX. Ceiling $84.50/Bbl, floor $55.00/Bbl. All positions closed as of December 31, 2009 after bank loan paid off and settled. Source does not specify exact volume in Bbls - only \"approximately 50% of estimated production\"."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically engages in derivatives to minimize cash flow variability. Costless collars put in place as part of bank loan facilities. No open positions as of Dec 31, 2009."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 465804,
+      "oil_production_bpd": 1276,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 465804,
+      "total_production_boepd": 1276,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1101,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1101,
+      "proved_developed_reserves_mboe": 885,
+      "proved_undeveloped_reserves_mboe": 216,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 18.548,
+      "pv10_mm": null,
+      "oil_price_used": 58.0,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 21.88,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 21.88,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 38.7,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.586531",
+    "item7_merge_timestamp": "2026-02-28T07:00:10.085968+00:00",
+    "item7_instruments_added": 0,
+    "item7_false_positives_removed": 3,
+    "item7_cleanup_timestamp": "2026-02-28T07:05:20.576766+00:00",
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "cik": "1483496",
+  "company": "RED MOUNTAIN RESOURCES, INC.",
+  "filing_date": "2015-11-13",
+  "accession_number": "0001387131-15-003334",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 197.28,
+        "volume_total": 36300,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-07",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "5,500-6,600 Bbls/month [volume=36300 Bbls total (midpoint 6050 Bbls/month * 6 months); range 5500-6600 Bbls/month; source: Note 6 item8_notes.txt]"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 173.08,
+        "volume_total": 31500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 58.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "5,000-5,500 Bbls/month [volume=31500 Bbls total (midpoint 5250 Bbls/month * 6 months); range 5000-5500 Bbls/month; source: Note 6 item8_notes.txt]"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Required to have hydrocarbon hedges covering at least 50% of oil volumes derived from most recent third party engineering report covering at least 18 consecutive months"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 155000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 683000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 32000,
+      "total_production_boe": 302000,
+      "total_production_boepd": null,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1369,
+      "proved_gas_reserves_mmcf": 3428,
+      "proved_ngl_reserves_mbbls": 137,
+      "total_proved_reserves_mboe": 2078,
+      "proved_developed_reserves_mboe": 1117,
+      "proved_undeveloped_reserves_mboe": 960,
+      "reserves_year_end": "2015-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 26.453,
+      "pv10_mm": null,
+      "oil_price_used": 63.87,
+      "gas_price_used": 3.66,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.178136",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

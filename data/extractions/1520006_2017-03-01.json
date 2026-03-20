@@ -1,0 +1,125 @@
+{
+  "cik": "1520006",
+  "company": "Matador Resources Co",
+  "filing_date": "2017-03-01",
+  "accession_number": "0001520006-17-000074",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 7561.64,
+        "volume_total": 2760000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 41.39,
+        "ceiling_price": 51.88,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": -18.316,
+        "notes": "Costless collar contract, counterparties: Comerica Bank, Bank of Nova Scotia, BMO Harris Financing, SunTrust Bank"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1972.6,
+        "volume_total": 720000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 43.75,
+        "ceiling_price": 63.9,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": -0.751,
+        "notes": "Costless collar contract, counterparties: Comerica Bank, Bank of Nova Scotia, BMO Harris Financing, SunTrust Bank"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 46191.78,
+        "volume_total": 16860000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.4,
+        "ceiling_price": 3.59,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": -5.887,
+        "notes": "Costless collar contract, counterparties: Comerica Bank, Bank of Nova Scotia, BMO Harris Financing, SunTrust Bank"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5178.08,
+        "volume_total": 1890000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": 60.75,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered into subsequent to December 31, 2016. Costless collar contract."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses costless collars and/or swaps to manage oil, gas, NGL price risk; hedges significant portion of anticipated production; not designated as hedging instruments."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5096000,
+      "oil_production_bpd": 13924,
+      "gas_production_mcf": 30500000,
+      "gas_production_mmcf_per_day": 83.3,
+      "ngl_production_bbls": null,
+      "total_production_boe": 10180000,
+      "total_production_boepd": 27813,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 57000,
+      "proved_gas_reserves_mmcf": 292600,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 105800,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 575.0,
+      "pv10_mm": 581.5,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.52,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 11.99,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.209864",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

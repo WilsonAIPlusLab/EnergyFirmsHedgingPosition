@@ -1,0 +1,125 @@
+{
+  "cik": "1528837",
+  "company": "Sanchez Energy Corp",
+  "filing_date": "2019-03-01",
+  "accession_number": "0001558370-19-001428",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 8627,
+        "volume_total": 3149000,
+        "volume_unit": "Bbls",
+        "fixed_price": 51.91,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI fixed price swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2892,
+        "volume_total": 1055560,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.36,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI fixed price swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 48340,
+        "volume_total": 17644000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Henry Hub fixed price swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 18884,
+        "volume_total": 6893150,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.67,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Henry Hub fixed price swap"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into derivatives to reduce impact of price fluctuations and protect economics of acquisitions. Includes swaps, collars, puts, and swaptions. Not for speculative trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 9655000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 55330000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 9936000,
+      "total_production_boe": 28813000,
+      "total_production_boepd": null,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 10.6,
+      "production_tax_per_boe": 1.96,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 9.11,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.226788",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

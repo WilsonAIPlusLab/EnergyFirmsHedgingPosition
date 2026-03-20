@@ -1,0 +1,109 @@
+{
+  "cik": "77159",
+  "company": "PENN VIRGINIA CORP",
+  "filing_date": "2017-03-16",
+  "accession_number": "0000077159-17-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4408,
+        "volume_total": 1608920,
+        "volume_unit": "Bbls",
+        "fixed_price": 48.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "fair_value_mm": -12.114,
+        "notes": "WTI crude oil swap, 4,408 Bbl/day all 4 quarters 2017 at same weighted-average price $48.62/Bbl; entered May 2016 post-bankruptcy per RSA requirement | FV: Q1=-$2.454M + Q2=-$3.110M + Q3=-$3.290M + Q4=-$3.260M (all liabilities)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3476,
+        "volume_total": 1268740,
+        "volume_unit": "Bbls",
+        "fixed_price": 49.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "fair_value_mm": -8.691,
+        "notes": "WTI crude oil swap, 3,476 Bbl/day all 4 quarters 2018 at same weighted-average price $49.12/Bbl | FV: all 4 quarters liabilities totaling -$8.691M"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2916,
+        "volume_total": 1064340,
+        "volume_unit": "Bbls",
+        "fixed_price": 49.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "fair_value_mm": -5.746,
+        "notes": "WTI crude oil swap, 2,916 Bbl/day all 4 quarters 2019 at same weighted-average price $49.90/Bbl | FV: all 4 quarters liabilities totaling -$5.746M"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Post-bankruptcy hedging program: WTI crude oil swaps required per Restructuring Support Agreement (RSA). Permits use of derivative instruments to mitigate price risks on portion of anticipated production."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3022000,
+      "oil_production_bpd": 8263,
+      "gas_production_mcf": 4007000,
+      "gas_production_mmcf_per_day": 10.96,
+      "ngl_production_bbls": 697000,
+      "total_production_boe": 4386000,
+      "total_production_boepd": 11983,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 49000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.13,
+      "production_tax_per_boe": 2.4,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 2.93,
+      "dd_and_a_per_boe": 11.2,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.059529"
+  }
+}

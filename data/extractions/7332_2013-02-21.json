@@ -1,0 +1,142 @@
+{
+  "cik": "7332",
+  "company": "SOUTHWESTERN ENERGY CO",
+  "filing_date": "2013-02-21",
+  "accession_number": "0000007332-13-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 508493.15,
+        "volume_total": 185600000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 5.06,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": 279.4,
+        "notes": "Fixed price swap for natural gas production, cash flow hedge"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50136.99,
+        "volume_total": 18300000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.51,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": 8.5,
+        "notes": "Fixed price swap for natural gas production, cash flow hedge"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 82465.75,
+        "volume_total": 30100000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 0.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": 3.1,
+        "notes": "Basis swap on natural gas production, does not qualify for hedge accounting"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 24931.51,
+        "volume_total": 9100000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": -0.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": 0.9,
+        "notes": "Basis swap on natural gas production, does not qualify for hedge accounting"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50136.99,
+        "volume_total": 18300000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 5.5,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": -4.1,
+        "notes": "Fixed price call option sold by SEPCO, does not qualify for hedge accounting"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Use swaps and options to reduce volatility of earnings and cash flow due to commodity price fluctuations. Board approved policies prohibit speculation."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 83000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 564500000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 565000000,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 4018300,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 4018300,
+      "proved_developed_reserves_mboe": 3218640,
+      "proved_undeveloped_reserves_mboe": 799660,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2050.665,
+      "pv10_mm": null,
+      "oil_price_used": 91.21,
+      "gas_price_used": 2.76,
+      "lease_operating_expense_per_boe": 0.8,
+      "production_tax_per_boe": 0.1,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 1.31,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.112829",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

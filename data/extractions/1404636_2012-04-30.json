@@ -1,0 +1,50 @@
+{
+  "cik": "1404636",
+  "company": "NiMin Energy Corp.",
+  "filing_date": "2012-04-30",
+  "accession_number": "0001193125-12-196619",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "10-K/A amendment filing. All section files (item7, item7a, item8_notes, item8_oil_gas) are empty. No new hedging data disclosed in this amendment. The original 10-K (2012-03-15) contains the full hedging and production data for FY2011. Company is known to use crude oil swap contracts. [Note: instruments not extractable from filing]"
+    },
+    "extraction_notes": "confirmed_no_instruments_via_reextract"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "gas_production_mcf": null,
+      "ngl_production_bbls": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "cik": "894627",
+  "company": "VAALCO ENERGY INC /DE/",
+  "filing_date": "2018-03-07",
+  "accession_number": "0000894627-18-000013",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Oil puts were outstanding as economic hedge against crude oil price declines for the period April 22, 2016 through December 31, 2017; not designated as hedges for accounting. Note 10 (item8_notes.txt line 769): 'As of December 31, 2017, we had no derivative instruments outstanding.' Item 7A confirms: 'These puts had expired as of December 31, 2017.'"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1518000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3000,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 3000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2017-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 54.1,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.958647",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instrument [0] removed as FALSE POSITIVE. The crude oil put option (Apr 2016 - Dec 2017) expired before year-end. Note 10 in item8_notes.txt (line 769): 'As of December 31, 2017, we had no derivative instruments outstanding.' Item 7A confirms: 'These puts had expired as of December 31, 2017.' The fair_value_mm of $1.227M was the Dec 31, 2016 balance sheet value, not Dec 31, 2017. No derivatives outstanding at reporting date."
+  }
+}

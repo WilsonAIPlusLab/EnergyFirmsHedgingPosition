@@ -1,0 +1,90 @@
+{
+  "cik": "1168054",
+  "company": "CIMAREX ENERGY CO",
+  "filing_date": "2013-02-26",
+  "accession_number": "0001047469-13-001692",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 6000,
+        "volume_total": 2004000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 85.0,
+        "ceiling_price": 102.31,
+        "sub_floor_price": null,
+        "price_unit": null,
+        "period_start": "2013-02-01",
+        "period_end": "2013-12-31",
+        "notes": null
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 6000,
+        "volume_total": 2004000,
+        "volume_unit": "Bbls",
+        "fixed_price": 96.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": null,
+        "period_start": "2013-02-01",
+        "period_end": "2013-12-31",
+        "notes": null
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enters hedging agreements from time to time to manage price risk. Goal: lock in prices, limit volatility, increase predictability of cash flow. Hedged ~35% of 2013 oil. [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 2,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 11516000,
+      "oil_production_bpd": 31463,
+      "gas_production_mcf": 118495000,
+      "gas_production_mmcf_per_day": 323.8,
+      "ngl_production_bbls": 6952000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 77921,
+      "proved_gas_reserves_mmcf": 1251863,
+      "proved_ngl_reserves_mbbls": 89909,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2908.7,
+      "pv10_mm": null,
+      "oil_price_used": 88.91,
+      "gas_price_used": 2.27,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.222235"
+  }
+}

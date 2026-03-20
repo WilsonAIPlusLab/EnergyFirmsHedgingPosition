@@ -1,0 +1,55 @@
+{
+  "cik": "1568079",
+  "company": "PetroShare Corp.",
+  "filing_date": "2017-03-31",
+  "accession_number": "0001047469-17-002255",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4903,
+      "oil_production_bpd": 13.4,
+      "gas_production_mcf": 26059,
+      "gas_production_mmcf_per_day": 0.071,
+      "ngl_production_bbls": 1511,
+      "total_production_boe": 10756,
+      "total_production_boepd": 29.4,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2761.2,
+      "proved_gas_reserves_mmcf": 11492.9,
+      "proved_ngl_reserves_mbbls": 1631.2,
+      "total_proved_reserves_mboe": 6307.9,
+      "proved_developed_reserves_mboe": 740.1,
+      "proved_undeveloped_reserves_mboe": 5567.8,
+      "reserves_year_end": 2016
+    },
+    "economics": {
+      "standardized_measure_mm": 42.751,
+      "pv10_mm": null,
+      "oil_price_used": "$34.09/Bbl",
+      "gas_price_used": "$2.69/Mcf",
+      "lease_operating_expense_per_boe": 15.59,
+      "production_tax_per_boe": 3.62,
+      "total_production_cost_per_boe": 19.21,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T23:16:13Z",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "cik": "1527709",
+  "company": "Mid-Con Energy Partners, LP",
+  "filing_date": "2024-03-14",
+  "instruments": {
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1931,
+        "volume_total": 706746,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.81,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "USD/bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "NYMEX-WTI oil swaps for 2020, 1,931 Bbls/day hedged"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 672,
+        "volume_total": 245280,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.78,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "USD/bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "NYMEX-WTI oil swaps for 2021, 672 Bbls/day hedged"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 672,
+        "volume_total": 245280,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 52.0,
+        "ceiling_price": 58.8,
+        "sub_floor_price": null,
+        "price_unit": "USD/bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "NYMEX-WTI oil collars for 2021, 672 Bbls/day hedged"
+      }
+    ],
+    "extraction_notes": "Created from audit results (2026-03-09)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1179000,
+      "gas_production_mcf": 676000,
+      "ngl_production_bbls": null,
+      "production_year": 2019
+    }
+  }
+}

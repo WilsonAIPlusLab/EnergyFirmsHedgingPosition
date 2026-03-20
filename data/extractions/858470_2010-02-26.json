@@ -1,0 +1,108 @@
+{
+  "cik": "858470",
+  "company": "CABOT OIL & GAS CORP",
+  "filing_date": "2010-02-26",
+  "accession_number": "0001193125-10-042257",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 98235.0,
+        "volume_total": 35856000,
+        "volume_unit": "Mcf",
+        "fixed_price": 9.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": 98.906,
+        "notes": "Designated as hedging instrument under ASC 815"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000.0,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": 125.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": 15.564,
+        "notes": "Designated as hedging instrument under ASC 815"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 44049.0,
+        "volume_total": 16123000,
+        "volume_unit": "Mcf",
+        "fixed_price": -0.27,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": -2.003,
+        "notes": "Not qualifying as hedging instrument under ASC 815; mitigates basis differential risk"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduce risk of price volatility; hedging applies to portion of production; limits benefit of price increases but offers protection in price declines."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 844000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 97914000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 7783,
+      "proved_gas_reserves_mmcf": 2013162,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 2059858,
+      "proved_developed_reserves_mboe": 1324663,
+      "proved_undeveloped_reserves_mboe": 735195,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.74,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.093977",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

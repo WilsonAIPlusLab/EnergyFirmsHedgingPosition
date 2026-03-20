@@ -1,0 +1,74 @@
+{
+  "cik": "16873",
+  "company": "NEXEN INC",
+  "filing_date": "2010-02-25",
+  "accession_number": "0001104659-10-009790",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 90000,
+        "volume_total": 32850000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI put options purchased in 2009 to manage commodity price risk exposure on a portion of oil production in 2010; established annual average WTI floor price"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Actively manage commodity price risk using futures, forwards, swaps and options. Purchased WTI puts for 2010 to establish floor price on ~90k bbl/d."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 204600,
+      "gas_production_mcf": 83220000,
+      "gas_production_mmcf_per_day": 228,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 243000,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1011000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 11.66,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 18.23,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.099927",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

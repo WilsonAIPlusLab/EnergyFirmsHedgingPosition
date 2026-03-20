@@ -1,0 +1,74 @@
+{
+  "cik": "797468",
+  "company": "OCCIDENTAL PETROLEUM CORP /DE/",
+  "filing_date": "2012-02-23",
+  "accession_number": "0000797468-12-000016",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000,
+        "volume_total": 4500000,
+        "volume_unit": "Mcf",
+        "fixed_price": 6.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2012-01",
+        "period_end": "2012-03",
+        "notes": "Cash-flow hedge swap for Rocky Mountain natural gas production; 50 MMcf/day (50,000 Mcf/day); Jan 2012 through Mar 2012 (90 days x 50,000 Mcf = 4,500,000 Mcf total). Crude oil collars expired Dec 31, 2011."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivative transactions to mitigate commodity price risk. Crude oil collar agreements expired Dec 31, 2011. Holds financial swap agreements for Rockies natural gas production through Mar 2012."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 1,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 59895000,
+      "oil_production_bpd": 164000,
+      "gas_production_mcf": 447000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 10585000,
+      "total_production_boe": 97445000,
+      "total_production_boepd": 267000,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2008000,
+      "proved_gas_reserves_mmcf": 5323000,
+      "proved_ngl_reserves_mbbls": 280000,
+      "total_proved_reserves_mboe": 3176000,
+      "proved_developed_reserves_mboe": 2414000,
+      "proved_undeveloped_reserves_mboe": 762000,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 97.92,
+      "gas_price_used": 3.01,
+      "lease_operating_expense_per_boe": 12.84,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.071151"
+  }
+}

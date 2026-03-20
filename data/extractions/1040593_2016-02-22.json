@@ -1,0 +1,202 @@
+{
+  "cik": "1040593",
+  "company": "CARRIZO OIL & GAS INC",
+  "filing_date": "2016-02-22",
+  "accession_number": "0001040593-16-000132",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 9315,
+        "volume_total": 3409290,
+        "volume_unit": "Bbls",
+        "fixed_price": 60.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swaps at NYMEX prices"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5490,
+        "volume_total": 2009340,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.96,
+        "ceiling_price": 74.73,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collars at NYMEX prices"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2488,
+        "volume_total": 908120,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 60,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold call options at NYMEX prices"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 900,
+        "volume_total": 328500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 75,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold call options at NYMEX prices"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2975,
+        "volume_total": 1085875,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 62.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold call options at NYMEX prices"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 900,
+        "volume_total": 328500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 77.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold call options at NYMEX prices"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3675,
+        "volume_total": 1345050,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 65,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold call options at NYMEX prices"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 900,
+        "volume_total": 329400,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 80,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold call options at NYMEX prices"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 8,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduce exposure to commodity price volatility for substantial but varying portion of forecasted production. Achieve predictable cash flows to support capital program. No speculation.",
+      "total_instruments": 8,
+      "by_commodity": {
+        "crude_oil": 8
+      },
+      "by_type": {
+        "swap": 1,
+        "collar": 1,
+        "call_option": 6
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 8415000,
+      "oil_production_bpd": 23054,
+      "gas_production_mcf": 21812000,
+      "gas_production_mmcf_per_day": 59.758,
+      "ngl_production_bbls": 1352000,
+      "total_production_boe": 13402000,
+      "total_production_boepd": 36719,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 170600,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 47.24,
+      "gas_price_used": 1.87,
+      "lease_operating_expense_per_boe": 6.72,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 22.39,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.565549",
+    "item7_merge_timestamp": "2026-02-28T06:53:28Z",
+    "item7_instruments_added": 1
+  }
+}

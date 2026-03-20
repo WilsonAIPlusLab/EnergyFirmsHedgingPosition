@@ -1,0 +1,125 @@
+{
+  "cik": "1527709",
+  "company": "Mid-Con Energy Partners, LP",
+  "filing_date": "2016-02-29",
+  "accession_number": "0001527709-16-000075",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1598,
+        "volume_total": 584868,
+        "volume_unit": "Bbls",
+        "fixed_price": 79.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI; part of 2015 position at December 31, 2015"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 328,
+        "volume_total": 120048,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": 50.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI; part of 2015 position at December 31, 2015"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1475,
+        "volume_total": 539850,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI; part of 2015 position at December 31, 2015"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1932,
+        "volume_total": 705180,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI; part of 2015 position at December 31, 2015"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Risk mgmt program reduces commodity price volatility; uses swaps, calls, puts; only with creditworthy investment grade counterparties; lenders under credit facility; no hedge accounting"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1623000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 571000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1718000,
+      "total_production_boepd": 4707,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 21185,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 22300,
+      "proved_developed_reserves_mboe": 15164,
+      "proved_undeveloped_reserves_mboe": 7136,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 19.55,
+      "production_tax_per_boe": 2.03,
+      "total_production_cost_per_boe": 21.58,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 19.89,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.219374",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

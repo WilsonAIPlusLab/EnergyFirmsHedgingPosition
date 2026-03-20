@@ -1,0 +1,63 @@
+{
+  "cik": "1309082",
+  "company": "LUCAS ENERGY, INC.",
+  "filing_date": "2010-07-14",
+  "accession_number": "0001140361-10-029396",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No hedging policy stated. Company purchased 6 NYMEX crude oil futures contracts in May 2008 (closed with $121,273 loss). No active hedging program described. [Note: instruments not extractable from filing]",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    },
+    "extraction_notes": "confirmed_no_instruments_via_reextract"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 26858,
+      "oil_production_bpd": 74,
+      "gas_production_mcf": 5849000,
+      "gas_production_mmcf_per_day": 16,
+      "ngl_production_bbls": null,
+      "total_production_boe": 27833,
+      "total_production_boepd": 76,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1970,
+      "proved_gas_reserves_mmcf": 31,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1975,
+      "proved_developed_reserves_mboe": 137,
+      "proved_undeveloped_reserves_mboe": 1834,
+      "reserves_year_end": "2010-03-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 39,
+      "pv10_mm": null,
+      "oil_price_used": 65.6,
+      "gas_price_used": 2.73,
+      "lease_operating_expense_per_boe": 37.67,
+      "production_tax_per_boe": 4.65,
+      "total_production_cost_per_boe": 42.32,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 26.28,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.261453"
+  },
+  "hedging_summary": {
+    "total_instruments": 0,
+    "by_type": {},
+    "by_commodity": {}
+  }
+}

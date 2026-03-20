@@ -1,0 +1,91 @@
+{
+  "cik": "1726126",
+  "company": "Epsilon Energy Ltd.",
+  "filing_date": "2020-03-18",
+  "accession_number": "0001558370-20-002895",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 12704,
+        "volume_total": 4637500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.71,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": 2.001496,
+        "notes": "Fixed price swap for natural gas production; fair value as of December 31, 2019"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 12704,
+        "volume_total": 4637500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": -0.001694,
+        "notes": "Basis differential swap; fair value as of December 31, 2019"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedge 75% of production for first 12 months and 50% for next 6 months when credit utilization exceeds 25%; manage commodity price risk to stabilize cash flows"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 14500,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 7757000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 116,
+      "proved_gas_reserves_mmcf": 124161,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 49.6,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.108416",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

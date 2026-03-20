@@ -1,0 +1,172 @@
+{
+  "cik": "1509991",
+  "company": "Kosmos Energy Ltd.",
+  "filing_date": "2021-02-23",
+  "accession_number": "0001509991-21-000031",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 16438,
+        "volume_total": 6000000,
+        "volume_unit": "Bbls",
+        "fixed_price": 53.96,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": 42.92,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Source: 6,000 MBbl Jan-Dec 2021. Index: Dated Brent. Swaps with sold puts; swap $53.96, sold put (sub_floor) $42.92"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5525,
+        "volume_total": 1000000,
+        "volume_unit": "Bbls",
+        "fixed_price": 47.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": 37.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-06",
+        "notes": "Source: 1,000 MBbl Jan-Jun 2021. Index: NYMEX WTI. Swaps with sold puts; swap $47.75, sold put (sub_floor) $37.50"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10959,
+        "volume_total": 4000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 40.63,
+        "ceiling_price": 52.6,
+        "sub_floor_price": 33.13,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Source: 4,000 MBbl Jan-Dec 2021. Index: Dated Brent. Three-way collar; sold put (sub_floor) $33.13, floor $40.63, ceiling $52.60; net deferred premium payable $0.34/Bbl"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2740,
+        "volume_total": 1000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": 55.0,
+        "sub_floor_price": 37.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Source: 1,000 MBbl Jan-Dec 2021. Index: NYMEX WTI. Three-way collar; sold put (sub_floor) $37.50, floor $45.00, ceiling $55.00; net deferred premium payable $1.00/Bbl"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 19178,
+        "volume_total": 7000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 70.09,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Source: 7,000 MBbl Jan-Dec 2021. Index: Dated Brent. Sold call options at $70.09/Bbl (sold to enhance other derivative positions)"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4332,
+        "volume_total": 1581000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 60.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Source: 1,581 MBbl Jan-Dec 2022. Index: Dated Brent. Sold call options at $60.00/Bbl (sold to enhance other derivative positions)"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 4110,
+        "volume_total": 1500000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": 70.0,
+        "sub_floor_price": 40.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Source: 1.5 MMBbl Jan-Dec 2022. Index: Dated Brent. Three-way collar entered February 2021; sold put (sub_floor) $40.00, floor $50.00, ceiling $70.00. Post-period addition (not in main table)."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 7,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Active commodity hedging program to hedge portion of anticipated sales on 2-3 year rolling basis; aim to protect downside while retaining partial upside exposure."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Volume scaling fixed 2026-03-19: source table in MBbl, volumes multiplied by 1000. Sub_floor prices added to three-way collars and swaps. Swap directions corrected to short."
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 20531000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5867000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 602000,
+      "total_production_boe": 22111000,
+      "total_production_boepd": 60412,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 127000,
+      "proved_gas_reserves_mmcf": 70000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 139000,
+      "proved_developed_reserves_mboe": 89000,
+      "proved_undeveloped_reserves_mboe": 50000,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 964,
+      "pv10_mm": 1234,
+      "oil_price_used": 41.77,
+      "gas_price_used": 1.99,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 15.31,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 21.97,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.199585",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

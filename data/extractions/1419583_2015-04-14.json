@@ -1,0 +1,63 @@
+{
+    "cik": "1419583",
+    "company": "Eos Petro, Inc.",
+    "filing_date": "2015-04-14",
+    "accession_number": "0001445866-15-000435",
+    "instruments": {
+        "instruments": [],
+        "hedging_summary": {
+            "total_oil_instruments": 0,
+            "total_gas_instruments": 0,
+            "total_ngl_instruments": 0,
+            "uses_derivatives": false,
+            "stated_hedging_policy": "No commodity hedging contracts in place. Derivative liabilities from convertible notes/warrants. Item 7A states not applicable.",
+            "total_instruments": 0,
+            "by_commodity": {},
+            "by_type": {}
+        }
+    },
+    "production": {
+        "production": {
+            "oil_production_bbls": null,
+            "oil_production_bpd": null,
+            "gas_production_mcf": null,
+            "gas_production_mmcf_per_day": null,
+            "ngl_production_bbls": null,
+            "total_production_boe": null,
+            "total_production_boepd": null,
+            "production_year": null
+        },
+        "reserves": {
+            "proved_oil_reserves_mbbls": null,
+            "proved_gas_reserves_mmcf": null,
+            "proved_ngl_reserves_mbbls": null,
+            "total_proved_reserves_mboe": null,
+            "proved_developed_reserves_mboe": null,
+            "proved_undeveloped_reserves_mboe": null,
+            "reserves_year_end": null
+        },
+        "economics": {
+            "standardized_measure_mm": null,
+            "pv10_mm": null,
+            "oil_price_used": null,
+            "gas_price_used": null,
+            "lease_operating_expense_per_boe": null,
+            "production_tax_per_boe": null,
+            "total_production_cost_per_boe": null,
+            "gathering_transport_per_boe": null,
+            "dd_and_a_per_boe": null,
+            "finding_development_cost_per_boe": null
+        }
+    },
+    "metadata": {
+        "model": "claude-opus-4-6",
+        "extraction_timestamp": "2026-02-27T16:58:13.711783",
+        "warning_fix_timestamp": "2026-02-28T12:00:00",
+        "warning_fix_notes": "Removed all 9 hallucinated instruments. Identical extraction to 2015-03-31 filing (amended/restated 10-K). Company has no commodity hedging program. The $2,500,000 values (inst[0,1,2,3] fixed_price/ceiling) and $667,000 (inst[4] fixed_price) are fair values of derivative liabilities from equity instruments (warrants and convertible notes), not commodity hedging prices. The $10.0 ceiling on inst[5,6,7,8] is a conversion/exercise price, not a commodity ceiling. All instruments removed."
+    },
+    "hedging_summary": {
+        "total_instruments": 0,
+        "by_type": {},
+        "by_commodity": {}
+    }
+}

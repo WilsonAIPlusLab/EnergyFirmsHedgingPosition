@@ -1,0 +1,157 @@
+{
+  "cik": "86264",
+  "company": "Carbon Natural Gas Co",
+  "filing_date": "2017-03-31",
+  "accession_number": "0001213900-17-003130",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 9205.48,
+        "volume_total": 3360000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": "BP Energy Company",
+        "fair_value_mm": null,
+        "notes": "Outstanding natural gas hedges as of December 31, 2016"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 8547.95,
+        "volume_total": 3120000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": "BP Energy Company",
+        "fair_value_mm": null,
+        "notes": "Outstanding natural gas hedges as of December 31, 2016"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3616.44,
+        "volume_total": 1320000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.85,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": "BP Energy Company",
+        "fair_value_mm": null,
+        "notes": "Outstanding natural gas hedges as of December 31, 2016"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 164.38,
+        "volume_total": 60000,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": "BP Energy Company",
+        "fair_value_mm": null,
+        "notes": "Outstanding oil hedges as of December 31, 2016"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 131.51,
+        "volume_total": 48000,
+        "volume_unit": "Bbls",
+        "fixed_price": 54.11,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": "BP Energy Company",
+        "fair_value_mm": null,
+        "notes": "Outstanding oil hedges as of December 31, 2016"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 98.63,
+        "volume_total": 36000,
+        "volume_unit": "Bbls",
+        "fixed_price": 54.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": "BP Energy Company",
+        "fair_value_mm": null,
+        "notes": "Outstanding oil hedges as of December 31, 2016"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 79000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2823000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 549500,
+      "total_production_boepd": null,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 44.711,
+      "pv10_mm": 49.344,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.96,
+      "production_tax_per_boe": 0.25,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.5,
+      "dd_and_a_per_boe": 0.59,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.100429"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "cik": "1282648",
+  "company": "HALCON RESOURCES CORP",
+  "filing_date": "2017-03-01",
+  "accession_number": "0001047469-17-001083",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 10000.0,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.2,
+        "ceiling_price": 3.63,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Collar, natural gas, full year 2017; floor range $3.15-3.26 (wtd avg $3.20), ceiling range $3.50-3.76 (wtd avg $3.63)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 18750.0,
+        "volume_total": 6843750,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 51.39,
+        "ceiling_price": 58.75,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Collar, crude oil, full year 2017; floor range $47-60 (wtd avg $51.39), ceiling range $52-76.84 (wtd avg $58.75)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000.0,
+        "volume_total": 730000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 53.0,
+        "ceiling_price": 58.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Collar, crude oil, full year 2018"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Objective is to hedge approximately 70-80% of current and anticipated production for next 18-24 months using costless collars, swaps, and deferred put options when terms are acceptable."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3250000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3011000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 501000,
+      "total_production_boe": 4253000,
+      "total_production_boepd": 37637,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 119600,
+      "proved_gas_reserves_mmcf": 80238,
+      "proved_ngl_reserves_mbbls": 15641,
+      "total_proved_reserves_mboe": 148614,
+      "proved_developed_reserves_mboe": 85908,
+      "proved_undeveloped_reserves_mboe": 62706,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 42.75,
+      "gas_price_used": 2.481,
+      "lease_operating_expense_per_boe": 5.26,
+      "production_tax_per_boe": 2.91,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 3.45,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.248615",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  },
+  "hedging_summary": {
+    "total_instruments": 3,
+    "instrument_types": {
+      "collar": 3
+    }
+  }
+}

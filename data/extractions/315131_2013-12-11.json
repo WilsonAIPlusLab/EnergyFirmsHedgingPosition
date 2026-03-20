@@ -1,0 +1,169 @@
+{
+  "cik": "315131",
+  "company": "PANHANDLE OIL & GAS INC",
+  "filing_date": "2013-12-11",
+  "accession_number": "0001562762-13-000418",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 7574.85,
+        "volume_total": 2530000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.75,
+        "ceiling_price": 4.17,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-02",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas costless collar. NYMEX HH. Feb-Dec 2013. 3 positions (80k+50k+100k/mo). Floor all $3.75, ceil $4.05-$4.30. $3.75/$4.17 wtd avg."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 5303.87,
+        "volume_total": 960000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.0,
+        "ceiling_price": 4.55,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-11",
+        "period_end": "2014-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas costless collar. NYMEX HH. Nov 2013-Apr 2014. 160k/mo. $4.00/$4.55."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 7908.5,
+        "volume_total": 2420000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-03",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap. NYMEX HH. 2013. 4 positions (40-100k/mo, various starts Mar-May). @$3.40-$4.32, $3.74 wtd avg."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 281.05,
+        "volume_total": 86000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90.0,
+        "ceiling_price": 100.93,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-03",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil costless collar. WTI. 2013. 3 positions (3k+4k+2k/mo, various starts). Floor all $90, ceil $97.50-$102. $90/$100.93 wtd avg."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 132.6,
+        "volume_total": 24000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90.0,
+        "ceiling_price": 101.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil costless collar. WTI. H1 2014. 4k Bbl/mo. $90/$101.50."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 131.15,
+        "volume_total": 16000,
+        "volume_unit": "Bbls",
+        "fixed_price": 105.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-09",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil swap. WTI. Sep-Dec 2013. 4k Bbl/mo. @$105.25."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Panhandle Oil & Gas. Small Oklahoma gas producer. Sept 30 FY. Gas: NYMEX HH collars (2.53M Feb-Dec 2013 @$3.75/$4.17, 960k Nov-Apr @$4.00/$4.55) + swaps (2.42M 2013 @$3.74). Oil: WTI collars (86k 2013 @$90/$100.93, 24k H1 2014 @$90/$101.50) + swap (16k Sep-Dec @$105.25).",
+      "total_instruments": 6,
+      "by_commodity": {
+        "natural_gas": 3,
+        "crude_oil": 3
+      },
+      "by_type": {
+        "collar": 4,
+        "swap": 2
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.069631",
+    "rerun_model": "claude-opus-4-6",
+    "rerun_method": "claude-code-interactive",
+    "rerun_timestamp": "2026-02-27T09:35:00"
+  }
+}

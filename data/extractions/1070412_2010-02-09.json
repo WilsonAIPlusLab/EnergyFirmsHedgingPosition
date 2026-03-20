@@ -1,0 +1,76 @@
+{
+  "cik": "1070412",
+  "company": "CONSOL Energy Inc",
+  "filing_date": "2010-02-09",
+  "accession_number": "0001193125-10-025522",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 77645.99,
+        "volume_total": 85100000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2010-01",
+        "period_end": "2012-12",
+        "notes": "Total notional of 85.1 Bcf of natural gas forward/swap contracts settling through Dec 31, 2012. Designated as cash flow hedges. Individual position prices not disclosed in filing; the 2009 realized hedge average was $8.76/Mcf on 51.6 Bcf. Fair value of swaps was $117.5 million asset at Dec 31, 2009."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses fixed-price contracts, collar-price contracts and derivative commodity instruments as cash-flow hedges to minimize exposure to natural gas price volatility. Prohibits speculative use."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 1,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 93600000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 1911391,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1911391,
+      "proved_developed_reserves_mboe": 1040257,
+      "proved_undeveloped_reserves_mboe": 871134,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 894.351,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.572157",
+    "item7_merge_timestamp": "2026-02-28T07:13:30.183764+00:00",
+    "item7_instruments_added": 0
+  }
+}

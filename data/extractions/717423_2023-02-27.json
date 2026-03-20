@@ -1,0 +1,140 @@
+{
+  "cik": "717423",
+  "company": "MURPHY OIL CORP",
+  "filing_date": "2023-02-27",
+  "accession_number": "0000717423-23-000015",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 269000,
+        "volume_total": 24210000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.36,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2023-01",
+        "period_end": "2023-03",
+        "notes": "Canada natural gas fixed price forward sales, 269 MMcf/d at C$2.36/Mcf, Q1 2023"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 250000,
+        "volume_total": 68750000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2023-04",
+        "period_end": "2023-12",
+        "notes": "Canada natural gas fixed price forward sales, 250 MMcf/d at C$2.35/Mcf, Apr-Dec 2023"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 162000,
+        "volume_total": 59292000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.39,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Canada natural gas fixed price forward sales, 162 MMcf/d at C$2.39/Mcf, full year 2024 (leap year, 366 days)"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 25000,
+        "volume_total": 16725000,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2023-01",
+        "period_end": "2024-10",
+        "notes": "Canada natural gas fixed price forward sales, 25 MMcf/d at US$1.98/Mcf, Jan 2023 - Oct 2024 (669 days)"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15000,
+        "volume_total": 915000,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2024-11",
+        "period_end": "2024-12",
+        "notes": "Canada natural gas fixed price forward sales, 15 MMcf/d at US$1.98/Mcf, Nov-Dec 2024"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Murphy uses derivative financial and commodity instruments to manage risks associated with existing or anticipated transactions."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Verified 2026-03-19: hedging_summary counts corrected (was 0/0/0 uses_derivatives:false, now 0/5/0 true); 2024 CAD gas volume corrected from 59,130,000 to 59,292,000 (leap year 366 days)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 35506225,
+      "oil_production_bpd": 97365,
+      "gas_production_mcf": 146970900,
+      "gas_production_mmcf_per_day": 402.66,
+      "ngl_production_bbls": 3898565,
+      "total_production_boe": 63923456,
+      "total_production_boepd": 175156,
+      "production_year": 2022
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 715400,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2022-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 10.65,
+      "production_tax_per_boe": 0.89,
+      "total_production_cost_per_boe": 11.54,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 12.18,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.101875",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

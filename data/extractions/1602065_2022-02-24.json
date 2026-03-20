@@ -1,0 +1,142 @@
+{
+  "cik": "1602065",
+  "company": "Viper Energy Partners LP",
+  "filing_date": "2022-02-24",
+  "accession_number": "0001602065-22-000008",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2500,
+        "volume_total": 225000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": 79.55,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar based on WTI Cushing"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 182000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": 80.15,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-04",
+        "period_end": "2022-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar based on WTI Cushing"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 4000,
+        "volume_total": 368000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": 92.65,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-07",
+        "period_end": "2022-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar based on WTI Cushing"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 8750.0,
+        "volume_total": 1583000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 47.5,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put option based on WTI Cushing; includes deferred premium at weighted average price of $1.57/Bbl | Consolidated from 2 sub-period entries"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.5,
+        "ceiling_price": 4.62,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar based on Henry Hub"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses fixed price swaps, basis swaps, and costless collars to reduce price volatility associated with royalty income. Derivatives not designated as hedges for accounting purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6068000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 13672000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1913000,
+      "total_production_boe": 10260000,
+      "total_production_boepd": 28110,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 69240,
+      "proved_gas_reserves_mmcf": 183690,
+      "proved_ngl_reserves_mbbls": 28033,
+      "total_proved_reserves_mboe": 127888,
+      "proved_developed_reserves_mboe": 91170,
+      "proved_undeveloped_reserves_mboe": 36718,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.082675",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

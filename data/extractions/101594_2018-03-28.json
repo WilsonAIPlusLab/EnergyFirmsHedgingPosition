@@ -1,0 +1,106 @@
+{
+  "cik": "101594",
+  "company": "US ENERGY CORP",
+  "filing_date": "2018-03-28",
+  "accession_number": "0001493152-18-004053",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 150.0,
+        "volume_total": 27150.0,
+        "volume_unit": null,
+        "fixed_price": 52.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-06",
+        "notes": "Crude oil price swap, Bought, 1/1/18-6/30/18, 150 bbls/d x 181 days"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 2500.0,
+        "volume_total": 912500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Natural gas price swap, Bought, 1/1/18-12/31/18, 2,500 mcf/d x 365 days"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2000.0,
+        "volume_total": 730000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Natural gas price swap, Sold, 1/1/18-12/31/18, 2,000 mcf/d x 365 days"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Crude oil fixed-price swap (150 bbl/d, Jan-Jun 2018, $52.20/Bbl) and two natural gas fixed-price swaps (2,500 mcf/d long and 2,000 mcf/d short, full year 2018) with Wells Fargo."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 111914,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 448571,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 186676,
+      "total_production_boepd": 511,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 676,
+      "proved_gas_reserves_mmcf": 889,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2017-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 9.253,
+      "pv10_mm": null,
+      "oil_price_used": 51.34,
+      "gas_price_used": 2.98,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.86,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.548100"
+  }
+}

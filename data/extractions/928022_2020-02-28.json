@@ -1,0 +1,143 @@
+{
+  "cik": "928022",
+  "company": "Callon Petroleum Co",
+  "filing_date": "2020-02-28",
+  "accession_number": "0000928022-20-000031",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 49229.23,
+        "volume_total": 18017900,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price oil hedges across NYMEX WTI, ICE Brent and Argus WTI-Houston benchmarks; source: total 18,017,900 Bbls oil hedges across WTI/Brent/Argus benchmarks; price mix includes: WTI swaps $55.19 (1.3M Bbls), WTI swap+put $56.06 (2.2M Bbls), WTI 3-way collar floor/ceil $55.38/$65.28 (13.2M Bbls), LLS/Brent/Argus additional; source does not specify single weighted average price for all instruments combined. Verified: prices exist by sub-tranche in source but no single combined fixed_price is disclosed."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 23160.38,
+        "volume_total": 8476700,
+        "volume_unit": "Bbls",
+        "fixed_price": -1.47,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI Midland-Cushing oil basis hedges; 8,476,700 Bbls at weighted average price ($1.47)/Bbl. Price recovered from source derivative positions table (Note 8, Midland basis differential swap contracts)."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3932.25,
+        "volume_total": 1439205,
+        "volume_unit": "Bbls",
+        "fixed_price": 2.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI Houston-Cushing oil basis hedges; source: 1,439,205 Bbls WTI Houston-Cushing basis swaps at $2.40/Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000.0,
+        "volume_total": 7320000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price NYMEX natural gas hedges; source: 7,320,000 MMBtu total gas hedges; swaps 3,660,000 MMBtu at $2.48, three-way collars 3,660,000 MMBtu (floor $2.50, ceil $2.75, sold put $2.00); $2.48 represents swap price only"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 59005.46,
+        "volume_total": 21596000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -1.04,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Waha natural gas basis hedges; source: 21,596,000 MMBtu Waha basis differential swaps at ($1.04)/MMBtu (negative basis is legitimate for Waha vs Henry Hub)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedge 40-60% of anticipated production for next 12-24 months; swaps, collars, options used; not designated as hedges for accounting; net derivative liability $24.8M"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 11665000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 19718000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 135000,
+      "total_production_boe": 15086000,
+      "total_production_boepd": 41331,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 345600,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 540000,
+      "proved_developed_reserves_mboe": 232200,
+      "proved_undeveloped_reserves_mboe": 307800,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 53.9,
+      "gas_price_used": 1.55,
+      "lease_operating_expense_per_boe": 6.09,
+      "production_tax_per_boe": 2.83,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 15.95,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.974351",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

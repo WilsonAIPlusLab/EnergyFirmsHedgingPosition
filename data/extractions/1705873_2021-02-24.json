@@ -1,0 +1,159 @@
+{
+  "cik": "1705873",
+  "company": "Berry Corp (bry)",
+  "filing_date": "2021-02-24",
+  "accession_number": "0001705873-21-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 18994.5,
+        "volume_total": 3438000,
+        "volume_unit": "Bbls",
+        "fixed_price": 45.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed Price Oil Swaps (Brent); Q1 1,710 MBbls + Q2 1,728 MBbls = 3,438,000 Bbls @$45.82/Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 11326.1,
+        "volume_total": 2084000,
+        "volume_unit": "Bbls",
+        "fixed_price": 46.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-07",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed Price Oil Swaps (Brent); Q3 1,042 MBbls + Q4 1,042 MBbls = 2,084,000 Bbls @$46.17/Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 55000,
+        "volume_total": 4950000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.69,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-01",
+        "period_end": "2021-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed Price Gas Purchase Swaps (Kern, Delivered); Q1 4,950,000 MMBtu @$2.69/MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 52499.7,
+        "volume_total": 9607500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.83,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-04",
+        "period_end": "2021-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed Price Gas Purchase Swaps (Kern, Delivered); Q2 4,777,500 + Q3 4,830,000 = 9,607,500 MMBtu @$2.83/MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 22663.0,
+        "volume_total": 2085000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-10",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed Price Gas Purchase Swaps (Kern, Delivered); Q4 2,085,000 MMBtu @$2.95/MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3000,
+        "volume_total": 552000,
+        "volume_unit": "Bbls",
+        "fixed_price": 58.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-07",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price oil swaps (Brent) added in February 2021"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Target covering operating expenses and fixed charges for up to two years; large portion of gas purchases for steam operations. Do not enter derivatives for speculative trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 9176000,
+      "oil_production_bpd": 25000,
+      "gas_production_mcf": 6766000,
+      "gas_production_mmcf_per_day": 18.5,
+      "ngl_production_bbls": 131000,
+      "total_production_boe": 10435000,
+      "total_production_boepd": 28500,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 87000,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 87000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 43.21,
+      "gas_price_used": 2.46,
+      "lease_operating_expense_per_boe": 17.86,
+      "production_tax_per_boe": 3.41,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.66,
+      "dd_and_a_per_boe": 13.34,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.104259",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

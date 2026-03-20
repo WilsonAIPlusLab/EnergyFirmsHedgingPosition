@@ -1,0 +1,54 @@
+{
+  "cik": "918573",
+  "company": "Avalon Oil & Gas, Inc.",
+  "filing_date": "2012-07-13",
+  "accession_number": "0001354488-12-003545",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2439,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 0,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 2439,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 24.732,
+      "proved_gas_reserves_mmcf": 0,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 24.732,
+      "proved_developed_reserves_mboe": 24.732,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2012-03-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 0.000323,
+      "pv10_mm": null,
+      "oil_price_used": 103.08,
+      "gas_price_used": 3.83,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T17:35:27.552740",
+    "summary": "Very small oil producer. FYE March 31, 2012. Proved reserves: 24,732 bbls oil (all developed). Upward revision 4,506 bbls. Production: 2,439 bbls. SM $323K."
+  }
+}

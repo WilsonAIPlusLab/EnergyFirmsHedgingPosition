@@ -1,0 +1,147 @@
+{
+  "cik": "1104485",
+  "company": "NORTHERN OIL & GAS, INC.",
+  "filing_date": "2012-02-29",
+  "accession_number": "0001104485-12-000011",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2773.22,
+        "volume_total": 1015000,
+        "volume_unit": "Bbls",
+        "fixed_price": 90.87,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Crude oil swap. Weighted average of open contracts."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1128.67,
+        "volume_total": 413092,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 88.28,
+        "ceiling_price": 100.67,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar. Weighted average of open contracts."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2494.0,
+        "volume_total": 910309,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 85.82,
+        "ceiling_price": 98.9,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar. Weighted average of open contracts."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1256.19,
+        "volume_total": 38942,
+        "volume_unit": "Bbls",
+        "fixed_price": 101.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Crude oil swap. Entered post-Dec 31, 2011. Settlement in January 2012."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1941.01,
+        "volume_total": 1358706,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 91.78,
+        "ceiling_price": 107.95,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-02",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three costless collar contracts combined. Entered post-Dec 31, 2011 (as of Feb 16, 2012). Weighted average prices."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity swaps and costless collars to achieve more predictable cash flow by reducing crude oil price volatility. Derivatives not designated as accounting hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1791979,
+      "oil_production_bpd": 4910,
+      "gas_production_mcf": 800207,
+      "gas_production_mmcf_per_day": 2.192,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1925347,
+      "total_production_boepd": 5275,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 838.7,
+      "pv10_mm": 1101.3,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 6.77,
+      "production_tax_per_boe": 7.43,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 21.38,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.583651",
+    "rerun_model": "claude-opus-4-6",
+    "rerun_method": "claude-code-interactive",
+    "rerun_timestamp": "2026-02-26T23:52:00",
+    "item7_merge_timestamp": "2026-02-28T07:00:09.649357+00:00",
+    "item7_instruments_added": 0,
+    "item7_false_positives_removed": 1,
+    "item7_cleanup_timestamp": "2026-02-28T07:05:20.571015+00:00"
+  }
+}

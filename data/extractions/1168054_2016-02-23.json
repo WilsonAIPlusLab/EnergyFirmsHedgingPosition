@@ -1,0 +1,122 @@
+{
+  "cik": "1168054",
+  "company": "CIMAREX ENERGY CO",
+  "filing_date": "2016-02-23",
+  "accession_number": "0001558370-16-003392",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3660000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.7,
+        "ceiling_price": 2.85,
+        "sub_floor_price": null,
+        "price_unit": null,
+        "period_start": "2016-01-01",
+        "period_end": "2016-12-31",
+        "notes": "PEPL index. Quarterly volumes: Q1=910K, Q2=910K, Q3=920K, Q4=920K"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 13306,
+        "volume_total": 4870000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 3.09,
+        "sub_floor_price": null,
+        "price_unit": null,
+        "period_start": "2016-01-01",
+        "period_end": "2016-12-31",
+        "notes": "Perm EP index. Quarterly volumes: Q1=1,820K, Q2=1,210K, Q3=920K, Q4=920K"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 1810000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 3.36,
+        "sub_floor_price": null,
+        "price_unit": null,
+        "period_start": "2017-01-01",
+        "period_end": "2017-06-30",
+        "notes": "Perm EP index. Quarterly volumes: Q1=900K, Q2=910K"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3000,
+        "volume_total": 1098000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": 60.0,
+        "sub_floor_price": 40.0,
+        "price_unit": null,
+        "period_start": "2016-01-01",
+        "period_end": "2016-12-31",
+        "notes": "WTI index. Three-way: lower floor (sold put) $40.00, upper floor (purchased put) $50.00, ceiling (sold call) $60.00. Fair value $6.7M"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enter into financial derivative contracts to hedge a portion of price risk associated with future oil and gas production. Limit downside risk but may also limit upside.",
+      "total_instruments": 4
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 18663000,
+      "oil_production_bpd": 51132,
+      "gas_production_mcf": 168987000,
+      "gas_production_mmcf_per_day": 463.0,
+      "ngl_production_bbls": 13063000,
+      "total_production_boe": 59904833,
+      "total_production_boepd": 164083,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 107798,
+      "proved_gas_reserves_mmcf": 1516952,
+      "proved_ngl_reserves_mbbls": 124277,
+      "total_proved_reserves_mboe": 484901,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 50.28,
+      "gas_price_used": 2.59,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.98,
+      "gathering_transport_per_boe": 3.06,
+      "dd_and_a_per_boe": 13.02,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.222641",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "cik": "1997652",
+  "company": "Tamboran Resources Corp",
+  "filing_date": "2024-09-23",
+  "accession_number": "0001193125-24-223049",
+  "filing_type": "10-K",
+  "fiscal_year_end": "2024-06-30",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "has_commodity_hedges": false,
+      "note": "Pre-production exploration stage company. No commodity hedging instruments as the company has no proved reserves or commercial production. No material financial assets or liabilities accounted for at fair value on a recurring basis as of June 30, 2024.",
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed.",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    }
+  },
+  "production": {
+    "production": {
+      "has_production": false,
+      "note": "Exploration stage company with no commercial production. All activities are in the Beetaloo Basin, Northern Territory, Australia.",
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "as_of_date": "2024-06-30",
+      "total_proved_reserves": "nil",
+      "note": "All of the Group's exploration and evaluation projects are pending the determination of proven or probable reserves. Total proved reserves were nil as of June 30, 2024 and 2023.",
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "costs_incurred": {
+        "fiscal_year_2024": {
+          "property_acquisition_proved": 0,
+          "property_acquisition_unproved": 0,
+          "geological_and_geophysical": 2161424,
+          "development_costs": 74000638,
+          "subtotal": 76162062,
+          "asset_retirement_obligations": 72433,
+          "total_cost_incurred": 76234495
+        },
+        "fiscal_year_2023": {
+          "property_acquisition_proved": 0,
+          "property_acquisition_unproved": 53205243,
+          "geological_and_geophysical": 2793036,
+          "development_costs": 30770172,
+          "subtotal": 86768451,
+          "asset_retirement_obligations": 5698464,
+          "total_cost_incurred": 92466915
+        }
+      },
+      "capitalized_costs": {
+        "as_of_2024_06_30": {
+          "unproved_properties": 230119448,
+          "accumulated_impairment": 0,
+          "net_unproved_properties": 230119448,
+          "assets_under_construction_gas_equipment": 7542064,
+          "total": 237661512
+        },
+        "as_of_2023_06_30": {
+          "unproved_properties": 163385971,
+          "accumulated_impairment": 0,
+          "net_unproved_properties": 163385971,
+          "assets_under_construction_gas_equipment": 0,
+          "total": 163385971
+        }
+      },
+      "standardized_measure": null,
+      "pv10": null,
+      "note": "No standardized measure or PV-10 calculated as proved reserves are nil.",
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "source_files": [
+      "item8_oil_gas.txt"
+    ],
+    "notes": "Tamboran is an exploration-stage natural gas company focused on the Beetaloo Basin in Australia's Northern Territory. FY ends June 30. Holds interests through 50/50 JV (TB1) with Daly Waters Energy LP. Acquired 77.5% share of Beetaloo Basin assets (EP 76, EP 98, EP 117) in Nov 2022. 40 MMcf/d Shenandoah South Pilot Central Facility under construction. ORRI of 2.34358% granted to Daly Waters Royalty. No production, no proved reserves, no hedging. Uses successful efforts accounting under ASC 932."
+  }
+}

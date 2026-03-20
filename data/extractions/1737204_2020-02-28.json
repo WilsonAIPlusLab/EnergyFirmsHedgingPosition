@@ -1,0 +1,108 @@
+{
+  "cik": "1737204",
+  "company": "Riviera Resources, Inc.",
+  "filing_date": "2020-02-28",
+  "accession_number": "0001564590-20-007487",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000.0,
+        "volume_total": 10980000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swaps NYMEX Henry Hub for 2020; 10,980 MMMBtu = 10,980,000 MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 549.2,
+        "volume_total": 201000,
+        "volume_unit": "Bbls",
+        "fixed_price": 63.85,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swaps NYMEX WTI for 2020; 201 MBbls = 201,000 Bbls"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000.0,
+        "volume_total": 7320000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "PEPL basis swaps - settled on indicated pricing index to hedge basis differential to NYMEX Henry Hub; 7,320 MMMBtu = 7,320,000 MMBtu"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Historically hedges portion of forecasted production to reduce exposure to price fluctuations and provide cash flow predictability. Does not trade for speculative purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 620500,
+      "oil_production_bpd": 1700,
+      "gas_production_mcf": 71905000,
+      "gas_production_mmcf_per_day": 197,
+      "ngl_production_bbls": 2117000,
+      "total_production_boe": null,
+      "total_production_boepd": 40333,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.88,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.73,
+      "dd_and_a_per_boe": 0.87,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.110963",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

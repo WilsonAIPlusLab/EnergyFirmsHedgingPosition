@@ -1,0 +1,152 @@
+{
+  "cik": "315131",
+  "company": "PANHANDLE OIL & GAS INC",
+  "filing_date": "2014-12-10",
+  "accession_number": "0000315131-14-000033",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4565.22,
+        "volume_total": 840000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.75,
+        "ceiling_price": 4.5,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-07",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas costless collar. NYMEX HH. Jul-Dec 2014. 140k Mmbtu/mo. $3.75/$4.50."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4653.06,
+        "volume_total": 1140000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-05",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap. NYMEX HH. 2014. 3 positions (140k Jul-Dec @$4.11, 30k May-Oct @$4.30, 40k Oct-Dec @$4.61). $4.19 wtd avg."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 213.7,
+        "volume_total": 78000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 86.92,
+        "ceiling_price": 98.85,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil costless collar. WTI. 2014. Jan-Dec 4k/mo @$85/$100 + Jul-Dec 5k/mo @$90/$97. $86.92/$98.85 wtd avg."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 323.29,
+        "volume_total": 118000,
+        "volume_unit": "Bbls",
+        "fixed_price": 95.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil swap. WTI. 2014. 4 positions (3-5k/mo, various starts). @$94.20-$99.40, $95.74 wtd avg."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 550.68,
+        "volume_total": 201000,
+        "volume_unit": "Bbls",
+        "fixed_price": 95.49,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil swap. WTI. 2015. 6 positions (4-7k/mo, various starts). @$92.85-$97.40, $95.49 wtd avg."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Panhandle Oil & Gas. Small Oklahoma producer. Sept 30 FY. Gas: NYMEX HH collar (840k Jul-Dec 2014 @$3.75/$4.50) + swaps (1.14M 2014 @$4.19). Oil: WTI collar (78k 2014 @$86.92/$98.85) + swaps (118k 2014 @$95.74, 201k 2015 @$95.49). Net derivative asset $1.9M.",
+      "total_instruments": 5,
+      "by_commodity": {
+        "natural_gas": 2,
+        "crude_oil": 3
+      },
+      "by_type": {
+        "collar": 2,
+        "swap": 3
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.070044",
+    "rerun_model": "claude-opus-4-6",
+    "rerun_method": "claude-code-interactive",
+    "rerun_timestamp": "2026-02-27T09:35:00"
+  }
+}

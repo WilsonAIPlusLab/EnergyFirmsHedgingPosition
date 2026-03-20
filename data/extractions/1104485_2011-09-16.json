@@ -1,0 +1,90 @@
+{
+  "cik": "1104485",
+  "company": "NORTHERN OIL & GAS, INC.",
+  "filing_date": "2011-09-16",
+  "accession_number": "0000897101-11-001599",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2638.36,
+        "volume_total": 963000,
+        "volume_unit": "Bbls",
+        "fixed_price": 82.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "Crude oil fixed price swaps for 2011, total 963,000 Bbls at weighted average $82.05/Bbl as of Dec 31, 2010; multiple sub-contracts at various fixed prices (18,000-101,000 Bbls each)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2192.31,
+        "volume_total": 399000,
+        "volume_unit": "Bbls",
+        "fixed_price": 81.36,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-06",
+        "notes": "Crude oil fixed price swaps for H1 2012, 399,000 Bbls at weighted average $81.36/Bbl as of Dec 31, 2010; contracts run Jan 2011 - Jun 2012 (246,504 Bbls @ $80.00 and 303,000 Bbls @ $85.50 and 545,500 Bbls @ $81.50 for Jan 2011-Jun 2012 total of 1,094,004 Bbls; 2012 portion 399,000)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company uses derivatives to manage price risk; de-designated all cash flow hedges Nov 2009; marks all derivatives to market in earnings."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 2,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.583482"
+  }
+}

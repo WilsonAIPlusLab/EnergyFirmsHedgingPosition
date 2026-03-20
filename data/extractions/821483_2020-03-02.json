@@ -1,0 +1,94 @@
+{
+  "cik": "821483",
+  "company": "PAR PACIFIC HOLDINGS, INC.",
+  "filing_date": "2020-03-02",
+  "accession_number": "0000821483-20-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 852.46,
+        "volume_total": 260000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-10",
+        "notes": "Net long 260 MBbl open crude oil futures (purchases 3,360 MBbl minus sales 3,100 MBbl) at December 31, 2019, expiring through October 2020. Used to manage refinery inventory and price exposure. Par Pacific is a downstream refiner with no upstream E&P production."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 2459.02,
+        "volume_total": 900000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 48.77,
+        "ceiling_price": 65.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Option collars of 75 thousand barrels per month (900 MBbl for full year 2020) to economically hedge internally consumed fuel at Hawaii refineries. Weighted-average floor $48.77/Bbl, ceiling $65.00/Bbl. Expire December 2020."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "[EXCLUDED: Non-E&P producer. PAR PACIFIC HOLDINGS, INC. is a midstream/refiner/LNG company, not an oil & gas producer. Instruments removed from hedge ratio study.] Original: Utilize exchange-traded futures, options, OTC swaps to manage price risks for refined products sold, crude/feedstock costs, inventory, and fuel requirements",
+      "total_instruments": 0
+    },
+    "uses_derivatives": true,
+    "instrument_count": 2,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 126000,
+      "oil_production_bpd": 345,
+      "gas_production_mcf": 29677000,
+      "gas_production_mmcf_per_day": 81.307,
+      "ngl_production_bbls": 883000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 46.99,
+      "gas_price_used": 2.38,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.087648",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

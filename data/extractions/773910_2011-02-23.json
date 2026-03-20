@@ -1,0 +1,159 @@
+{
+  "cik": "773910",
+  "company": "ANADARKO PETROLEUM CORP",
+  "filing_date": "2011-02-23",
+  "accession_number": "0001193125-11-043021",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 480000,
+        "volume_total": 175200000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.5,
+        "ceiling_price": 8.29,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way collar with sold put at $5.00/MMBtu; NYMEX Henry Hub prices"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 500000,
+        "volume_total": 183000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.5,
+        "ceiling_price": 9.03,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way collar with sold put at $5.00/MMBtu; NYMEX Henry Hub prices"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 90000,
+        "volume_total": 32850000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": null
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 45000,
+        "volume_total": 16425000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -1.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis swap fixing price differential between market locations"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 126000,
+        "volume_total": 45990000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 79.29,
+        "ceiling_price": 99.95,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way collar with sold put at $64.29/Bbl; NYMEX Cushing and London Brent Dated prices"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 732000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": 92.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way collar with sold put at $35.00/Bbl; NYMEX Cushing and London Brent Dated prices"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses futures, swaps, options and fixed-price contracts to manage commodity price and interest-rate risks. Does not apply hedge accounting. At Dec 31 2010, had 398 Bcf gas and 47 MMBbls oil hedged."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 74000000,
+      "oil_production_bpd": 201000,
+      "gas_production_mcf": 829000000.0,
+      "gas_production_mmcf_per_day": 2272,
+      "ngl_production_bbls": 23000000,
+      "total_production_boe": 235000000,
+      "total_production_boepd": 643000,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 2422000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.061333",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

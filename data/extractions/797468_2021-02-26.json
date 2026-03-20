@@ -1,0 +1,92 @@
+{
+  "cik": "797468",
+  "company": "OCCIDENTAL PETROLEUM CORP /DE/",
+  "filing_date": "2021-02-26",
+  "accession_number": "0000797468-21-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 350000,
+        "volume_total": 127800000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 74.16,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": -42,
+        "notes": "Call options sold on oil (Brent pricing), not designated as hedge. 2021 settlement. 127.8 MMbbl at ceiling $74.16. Initially entered in 2019 to enhance 2020 three-way collar terms."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 484932,
+        "volume_total": 177000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.5,
+        "ceiling_price": 3.64,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": 25,
+        "notes": "Natural gas two-way collar (NYMEX), not designated as hedge. 2021 settlement. 177 million MMbtu at ceiling $3.64, floor $2.50. Entered September 2020."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivative instruments including futures, forwards, options and swaps to obtain average prices for production month and improve realized prices for oil and gas"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 264000000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 756000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 94000000,
+      "total_production_boe": 484000000,
+      "total_production_boepd": null,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1475000,
+      "proved_gas_reserves_mmcf": 5019000,
+      "proved_ngl_reserves_mbbls": 599000,
+      "total_proved_reserves_mboe": 2911000,
+      "proved_developed_reserves_mboe": 2270580,
+      "proved_undeveloped_reserves_mboe": 640420,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 39.57,
+      "gas_price_used": 1.98,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.073076",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

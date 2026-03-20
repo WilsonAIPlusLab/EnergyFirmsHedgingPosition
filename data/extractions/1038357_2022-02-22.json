@@ -1,0 +1,172 @@
+{
+  "cik": "1038357",
+  "company": "PIONEER NATURAL RESOURCES CO",
+  "filing_date": "2022-02-22",
+  "accession_number": "0001038357-22-000039",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 26000,
+        "volume_total": 9490000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Midland/WTI basis swap, 26,000 Bbls/d all four quarters 2022. Fixes differential between Midland and WTI index."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3000,
+        "volume_total": 1098000,
+        "volume_unit": "Bbls",
+        "fixed_price": -4.33,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Brent basis swap for 2024, 3,000 Bbls/d. Fixes differential between WTI and Brent index at -$4.33."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000,
+        "volume_total": 2700000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 12.14,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-03",
+        "notes": "Dutch TTF gas swap Q1 2022, 30,000 MMBtu/d at $12.14"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000,
+        "volume_total": 8250000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-04",
+        "period_end": "2022-12",
+        "notes": "Dutch TTF gas swap Q2-Q4 2022, 30,000 MMBtu/d at $7.80"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 1800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.46,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-03",
+        "notes": "WAHA gas swap Q1 2022 only, 20,000 MMBtu/d"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 7000,
+        "volume_total": 630000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 3.45,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-03",
+        "notes": "NYMEX gas collar Q1 2022 only, 7,000 MMBtu/d"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 7000,
+        "volume_total": 630000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.39,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-03",
+        "notes": "WAHA/NYMEX gas basis swap Q1 2022 only, 7,000 MMBtu/d. Fixes differential between Permian gas and NYMEX."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Mitigates commodity price risk via derivatives; reduces exposure to price volatility to secure capital/working capital needs. Does not enter derivatives for speculative/trading purposes."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 130300390,
+      "oil_production_bpd": 356986,
+      "gas_production_mcf": 256930435,
+      "gas_production_mmcf_per_day": 703.919,
+      "ngl_production_bbls": 52204490,
+      "total_production_boe": 225324580,
+      "total_production_boepd": 617332,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 67.6,
+      "gas_price_used": 3.85,
+      "lease_operating_expense_per_boe": 2.97,
+      "production_tax_per_boe": 2.41,
+      "total_production_cost_per_boe": 5.63,
+      "gathering_transport_per_boe": 3.14,
+      "dd_and_a_per_boe": 11.08,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.563240",
+    "item7_merge_timestamp": "2026-02-28T07:11:20.329646+00:00",
+    "item7_instruments_added": 0
+  }
+}

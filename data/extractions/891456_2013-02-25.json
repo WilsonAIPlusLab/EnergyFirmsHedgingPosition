@@ -1,0 +1,56 @@
+{
+  "cik": "891456",
+  "company": "PLAINS EXPLORATION & PRODUCTION CO",
+  "filing_date": "2013-02-25",
+  "accession_number": "0001193125-13-074075",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "McMoRan entered oil/gas derivative contracts in connection with 2007 oil and gas property acquisition for anticipated production 2008-2010. Contracts not designated as hedges for accounting purposes; mark-to-market treatment. All remaining derivative contract positions matured on December 31, 2010. No current positions as of December 31, 2012."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T17:35:27.552740",
+    "summary": "10-K/A. Used oil/gas swap contracts (via McMoRan) not designated as hedges. No reserve supplement in this amendment.",
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instruments [0,1] removed as FALSE POSITIVES. This 10-K/A (Plains Exploration & Production Co) incorporates McMoRan's financial statements. Note 8 in item8_notes.txt (line 697) explicitly states: 'All remaining derivative contract positions matured on December 31, 2010.' The two instruments (gas swap and oil swap) reference 2008-2010 contract periods with no volumes, no prices, and no fair values — they are historical settled positions, not current outstanding contracts. No derivatives outstanding at December 31, 2012. Schema also normalized from non-standard fields to standard schema."
+  }
+}

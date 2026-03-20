@@ -1,0 +1,172 @@
+{
+  "cik": "81318",
+  "company": "Yuma Energy, Inc.",
+  "filing_date": "2015-03-30",
+  "accession_number": "0001354488-15-001408",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 2377371,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.0,
+        "ceiling_price": 4.47,
+        "sub_floor_price": 3.25,
+        "price_unit": "USD/MMBtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "Natural gas 3-way collars for 2015; call ceiling $4.47, put floor $4.00, short put floor $3.25; volume 2,377,371 MMBtu"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 1122533,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.1,
+        "ceiling_price": 4.35,
+        "sub_floor_price": 3.25,
+        "price_unit": "USD/MMBtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Natural gas 3-way collars for 2016; call ceiling $4.35, put floor $4.10, short put floor $3.25; volume 1,122,533 MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 458622,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.08,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "USD/MMBtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "Natural gas swaps for 2015; fixed price $4.08/MMBtu; volume 458,622 MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 293234,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.33,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "USD/MMBtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "Natural gas reverse swaps for 2015; fixed price $4.33/MMBtu; volume 293,234 MMBtu (labeled 'Reverse Swaps' in filing)"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 89512,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 86.49,
+        "ceiling_price": 104.36,
+        "sub_floor_price": 65.82,
+        "price_unit": "USD/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "Crude oil 3-way collars for 2015; call ceiling $104.36, put floor $86.49, short put floor $65.82; volume 89,512 Bbls; NYMEX WTI"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 70263,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 92.38,
+        "ceiling_price": 106.39,
+        "sub_floor_price": 72.38,
+        "price_unit": "USD/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Crude oil 3-way collars for 2016; call ceiling $106.39, put floor $92.38, short put floor $72.38; volume 70,263 Bbls; NYMEX WTI"
+      },
+      {
+        "instrument_type": "put_spread",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 27588,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "USD/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "Crude oil put spread for 2015; purchased put floor $90.00, sold put floor $75.00; volume 27,588 Bbls; deferred put premium $153,389 payable monthly Jan-Dec 2015; NYMEX WTI. Note: prices include $5.56/Bbl deferred premium not included in stated prices."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company uses swaps, collars, and 3-way collars to mitigate commodity price uncertainty. Discontinued hedge accounting Jan 1, 2013; all mark-to-market in earnings."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 231816,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2714586,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 97783,
+      "total_production_boe": 782030,
+      "total_production_boepd": null,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 16.39,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 24.92,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.079191",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

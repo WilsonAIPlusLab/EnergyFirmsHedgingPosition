@@ -1,0 +1,118 @@
+{
+  "cik": "1273441",
+  "company": "GRAN TIERRA ENERGY INC.",
+  "filing_date": "2017-03-01",
+  "accession_number": "0001273441-17-000011",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10000,
+        "volume_total": 3650000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45,
+        "ceiling_price": 65,
+        "sub_floor_price": 35,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-06",
+        "period_end": "2017-05",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "ICE Brent reference; Sold Put at $35/bbl, Purchased Put at $45/bbl, Sold Call at $65/bbl; Premium paid $1.25/bbl"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10000,
+        "volume_total": 2140000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45,
+        "ceiling_price": 65,
+        "sub_floor_price": 35,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-06",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "ICE Brent reference; Sold Put at $35/bbl, Purchased Put at $45/bbl, Sold Call at $65/bbl; Premium received $0.475/bbl"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5000,
+        "volume_total": 2285000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45,
+        "ceiling_price": 65,
+        "sub_floor_price": 35,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-10",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "ICE Brent reference; Sold Put at $35/bbl, Purchased Put at $45/bbl, Sold Call at $65/bbl; Zero premium"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Manage variability in cash flows from oil sales, reduce commodity price risk, provide base cash flow to execute capital spending; also use FX derivatives for Colombian peso costs"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 594730,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 8486294,
+      "total_production_boepd": 23187,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 52800,
+      "proved_developed_reserves_mboe": 37968,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 42.92,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 9.92,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 3.62,
+      "dd_and_a_per_boe": 15.92,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.243934",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  },
+  "hedging_summary": {
+    "total_instruments": 3,
+    "instrument_types": {
+      "three_way_collar": 3,
+      "future": 1
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "cik": "1040593",
+  "company": "CARRIZO OIL & GAS INC",
+  "filing_date": "2015-02-25",
+  "accession_number": "0001040593-15-000015",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 10370,
+        "volume_total": 3785050,
+        "volume_unit": "Bbls",
+        "fixed_price": 92.97,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX-based crude oil swap"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 700,
+        "volume_total": 255500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90,
+        "ceiling_price": 100.65,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX-based costless collar"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 85,
+        "ceiling_price": 105,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way collar with short put at $65.00 and put spread of $20.00"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3000,
+        "volume_total": 1098000,
+        "volume_unit": "Bbls",
+        "fixed_price": 91.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX-based crude oil swap"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 667,
+        "volume_total": 244122,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 85,
+        "ceiling_price": 104,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way collar with short put at $65.00 and put spread of $20.00"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000,
+        "volume_total": 10950000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.29,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX-based natural gas swap"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 12200,
+        "volume_total": 4453000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50,
+        "ceiling_price": 66.46,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "item7 prose: Additionally, on February 13, 2015, we entered into costless collars for the periods from March 2015 through December 20"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 4000,
+        "volume_total": 1464000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50,
+        "ceiling_price": 76.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Subsequent event (Feb 13, 2015): costless collar for December 2016 period, 4,000 Bbls/d * 366 days = 1,464,000 Bbls; floor $50.00, ceiling $76.50"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 7,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses swaps and collars to hedge substantial portion of forecasted production up to 36 months to achieve predictable cash flows for drilling/completion program. Does not hedge account.",
+      "total_instruments": 8,
+      "by_commodity": {
+        "crude_oil": 7,
+        "natural_gas": 1
+      },
+      "by_type": {
+        "swap": 3,
+        "collar": 3,
+        "three_way_collar": 2
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6906000,
+      "oil_production_bpd": 18921,
+      "gas_production_mcf": 24877000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 926000,
+      "total_production_boe": 11978000,
+      "total_production_boepd": 32816,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 151100,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 92.24,
+      "gas_price_used": 3.24,
+      "lease_operating_expense_per_boe": 6.19,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 26.5,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.565309",
+    "item7_merge_timestamp": "2026-02-28T06:53:28Z",
+    "item7_instruments_added": 1
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "cik": "1090012",
+  "company": "DEVON ENERGY CORP/DE",
+  "filing_date": "2010-02-25",
+  "accession_number": "0000950123-10-017093",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1265000,
+        "volume_total": 461725000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Total year 2010 gas price swaps. All contracts expire December 31, 2010. Represents approximately 50% of estimated 2010 gas production."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 150000,
+        "volume_total": 54750000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.33,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "2010 gas basis swap, AECO index, differential to Henry Hub"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 70000,
+        "volume_total": 25550000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.37,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "2010 gas basis swap, CIG index, differential to Henry Hub"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 79000,
+        "volume_total": 28835000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 67.47,
+        "ceiling_price": 96.48,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "2010 oil price collars. Floor range $65.00-$70.00, ceiling range $90.35-$103.30. Represents approximately 65% of estimated 2010 oil production."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 70000,
+        "volume_total": 6300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5.4,
+        "ceiling_price": 6.06,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-01",
+        "period_end": "2010-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas price collar Q1 2010. Floor range $5.40, ceiling range $6.01-$6.14 (avg $6.06). As of Feb 15, 2010."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 95000.0,
+        "volume_total": 26125000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5.5,
+        "ceiling_price": 6.94,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-04",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas price collar Q2 2010. Floor $5.50, ceiling range $6.80-$7.10 (avg $6.94). As of Feb 15, 2010. | Consolidated from 3 sub-period entries"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into financial hedging activities with respect to portion of oil and gas production through financial price swaps, basis swaps and costless price collars."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 42000000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 966000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 30000000,
+      "total_production_boe": 233000000,
+      "total_production_boepd": null,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 7.16,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 7.86,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.577601",
+    "item7_merge_timestamp": "2026-02-28T07:08:59.733782+00:00",
+    "item7_instruments_added": 4
+  }
+}

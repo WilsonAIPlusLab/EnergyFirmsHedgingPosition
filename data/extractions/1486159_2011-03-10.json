@@ -1,0 +1,159 @@
+{
+  "cik": "1486159",
+  "company": "Oasis Petroleum Inc.",
+  "filing_date": "2011-03-10",
+  "accession_number": "0000950123-11-024114",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3465.6,
+        "volume_total": 1264944,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 76.56,
+        "ceiling_price": 93.89,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": -5.877,
+        "notes": "Two-way collar"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 457.53,
+        "volume_total": 167000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": 94.98,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": -0.666,
+        "notes": "Three-way collar with sub-floor price of $60.00/Bbl"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1215.08,
+        "volume_total": 444718,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 79.21,
+        "ceiling_price": 95.86,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": -2.049,
+        "notes": "Two-way collar"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1872.95,
+        "volume_total": 685500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 82.44,
+        "ceiling_price": 104.32,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": -1.603,
+        "notes": "Three-way collar with sub-floor price of $62.44/Bbl"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 84.93,
+        "volume_total": 31000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": 96.38,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": -0.122,
+        "notes": "Two-way collar"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 169.86,
+        "volume_total": 62000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 82.5,
+        "ceiling_price": 104.54,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": -0.169,
+        "notes": "Three-way collar with sub-floor price of $62.50/Bbl"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Utilizes derivative instruments to manage oil price risk; two-way and three-way collars to reduce volatility on significant portion of future oil production"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1792000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 651000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1900000,
+      "total_production_boepd": 5206,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 36550,
+      "proved_gas_reserves_mmcf": 19379,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 39780,
+      "proved_developed_reserves_mboe": 17018,
+      "proved_undeveloped_reserves_mboe": 22762,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 485.735,
+      "pv10_mm": 697.8,
+      "oil_price_used": 79.4,
+      "gas_price_used": 4.38,
+      "lease_operating_expense_per_boe": 7.67,
+      "production_tax_per_boe": 7.25,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 19.91,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.179230",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

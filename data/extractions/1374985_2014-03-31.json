@@ -1,0 +1,106 @@
+{
+  "cik": "1374985",
+  "company": "Atlas Resources Public #16-2007 (A) L.P.",
+  "filing_date": "2014-03-31",
+  "accession_number": "0001564590-14-001187",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 195.34,
+        "volume_total": 71300,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.8,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": 0.0088,
+        "notes": "Natural gas put option purchased by MGP on behalf of limited partners in June 2012 using monetized funds"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 156.44,
+        "volume_total": 57100,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.0,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": 0.0193,
+        "notes": "Natural gas put option purchased by MGP on behalf of limited partners in June 2012 using monetized funds"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 156.01,
+        "volume_total": 57100,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.15,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": 0.0265,
+        "notes": "Natural gas put option purchased by MGP on behalf of limited partners in June 2012 using monetized funds"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Partnership uses swaps, collars, options to hedge forecasted commodity sales against variability in expected future cash flows from price changes. Cash flow hedge accounting applied."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 8300,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1632000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 57,
+      "proved_gas_reserves_mmcf": 11385.6,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 11.5252,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.304531"
+  }
+}

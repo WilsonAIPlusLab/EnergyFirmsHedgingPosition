@@ -1,0 +1,159 @@
+{
+  "cik": "928447",
+  "company": "RADIANT OIL & GAS INC",
+  "filing_date": "2014-05-07",
+  "accession_number": "0001185185-14-001162",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 131.15,
+        "volume_total": 8000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 102.4,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-11",
+        "period_end": "2013-12",
+        "counterparty": "Centaurus",
+        "fair_value_mm": null,
+        "notes": "ISDA Master Agreement with Centaurus. Source table: 4,000 BBL/Month (avg floor price). 2 months x 4,000 = 8,000 total Bbls."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 98.63,
+        "volume_total": 36000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 96.45,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": "Centaurus",
+        "fair_value_mm": null,
+        "notes": "ISDA Master Agreement with Centaurus. Source table: 3,000 BBL/Month (avg floor price). 12 months x 3,000 = 36,000 total Bbls."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 98.63,
+        "volume_total": 36000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 89.41,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": "Centaurus",
+        "fair_value_mm": null,
+        "notes": "ISDA Master Agreement with Centaurus. Source table: 3,000 BBL/Month (avg floor price). 12 months x 3,000 = 36,000 total Bbls."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 98.63,
+        "volume_total": 36000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 84.61,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": "Centaurus",
+        "fair_value_mm": null,
+        "notes": "ISDA Master Agreement with Centaurus. Source table: 3,000 BBL/Month (avg floor price). 12 months x 3,000 = 36,000 total Bbls."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 65.75,
+        "volume_total": 24000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 82.1,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": "Centaurus",
+        "fair_value_mm": null,
+        "notes": "ISDA Master Agreement with Centaurus. Source table: 2,000 BBL/Month (avg floor price). 12 months x 2,000 = 24,000 total Bbls."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 65.93,
+        "volume_total": 18000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.81,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-09",
+        "counterparty": "Centaurus",
+        "fair_value_mm": null,
+        "notes": "ISDA Master Agreement with Centaurus. Source table: 2,000 BBL/Month (avg floor price). 9 months x 2,000 = 18,000 total Bbls."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Centaurus has ability to hedge future price risk via ISDA swap agreements. Company elected not to apply hedge accounting; recognizes realized and unrealized gains/losses."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 23000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 0,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1461,
+      "proved_gas_reserves_mmcf": 27067,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 5971.9,
+      "proved_developed_reserves_mboe": 499.5,
+      "proved_undeveloped_reserves_mboe": 5472.4,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 117.808,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.975611",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

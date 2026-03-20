@@ -1,0 +1,50 @@
+{
+  "cik": "1399542",
+  "company": "Atlas Resources Public #17-2007 (A) L.P.",
+  "filing_date": "2012-03-30",
+  "accession_number": "0001193125-12-143117",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "MGP uses swaps, collars, options to hedge forecasted gas/oil/NGL sales. All derivative instruments were monetized pre-Feb 2011 by Atlas Energy. Only monetized proceeds remain."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6205,
+      "gas_production_mcf": 1825730,
+      "ngl_production_bbls": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.327301"
+  }
+}

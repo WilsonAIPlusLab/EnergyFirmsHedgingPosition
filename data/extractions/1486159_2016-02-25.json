@@ -1,0 +1,125 @@
+{
+  "cik": "1486159",
+  "company": "Oasis Petroleum Inc.",
+  "filing_date": "2016-02-25",
+  "accession_number": "0001486159-16-000090",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 423.5,
+        "volume_total": 155000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 86.0,
+        "ceiling_price": 103.42,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": 7.464,
+        "notes": "Two-way collar settling monthly based on NYMEX WTI"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 25825.14,
+        "volume_total": 9452000,
+        "volume_unit": "Bbls",
+        "fixed_price": 54.89,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": 132.233,
+        "notes": "Swap settling monthly based on NYMEX WTI"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5613.7,
+        "volume_total": 2049000,
+        "volume_unit": "Bbls",
+        "fixed_price": 53.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": 15.109,
+        "notes": "Swap settling monthly based on NYMEX WTI"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 339.73,
+        "volume_total": 124000,
+        "volume_unit": "Bbls",
+        "fixed_price": 53.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": 0.667,
+        "notes": "Swap settling monthly based on NYMEX WTI"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Covers ~70% of expected 2016 oil production using two-way collars and swaps to reduce volatility. Counterparties are high credit-quality financial institutions, mostly lenders."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 16091000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 14002000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 18424000,
+      "total_production_boepd": 50477,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 184928,
+      "proved_gas_reserves_mmcf": 199828,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 218233,
+      "proved_developed_reserves_mboe": 147577,
+      "proved_undeveloped_reserves_mboe": 70656,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1914.33,
+      "pv10_mm": 2022.7,
+      "oil_price_used": 50.16,
+      "gas_price_used": 2.63,
+      "lease_operating_expense_per_boe": 7.84,
+      "production_tax_per_boe": 3.78,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.72,
+      "dd_and_a_per_boe": 26.34,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.180442",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "cik": "1283843",
+  "company": "Emerald Oil, Inc.",
+  "filing_date": "2015-03-10",
+  "accession_number": "0001144204-15-015163",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1333.33,
+        "volume_total": 120000,
+        "volume_unit": "Bbls",
+        "fixed_price": 95.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-03",
+        "counterparty": null,
+        "fair_value_mm": 5.044125,
+        "notes": "Four oil swap contracts totaling 120,000 Bbls (30,000@$93.50; 36,000@$96.05; 21,000@$97.00; 33,000@$97.50). Weighted avg price $95.98/Bbl. Outstanding at Dec 31, 2014. Settled Jan 5, 2015 for $5,317,300. Source: Note 14 in full_text.txt."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Use swaps up to 80% of proved developed producing reserves to fix sales price. Mark-to-market accounting. No trading purposes."
+    },
+    "extraction_notes": "Instrument recovered from full_text.txt Note 14 during verification (2026-03-19). item8_notes.txt was 0 bytes; original extraction missed instrument."
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1238807,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 338536,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1295230,
+      "total_production_boepd": null,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 444.315406,
+      "pv10_mm": null,
+      "oil_price_used": 81.68,
+      "gas_price_used": 7.66,
+      "lease_operating_expense_per_boe": 12.0,
+      "production_tax_per_boe": 8.5,
+      "total_production_cost_per_boe": 15.88,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 26.87,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.251867",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  },
+  "hedging_summary": {
+    "total_instruments": 0,
+    "instrument_types": {
+      "future": 3
+    }
+  }
+}

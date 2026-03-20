@@ -1,0 +1,91 @@
+{
+  "cik": "1685715",
+  "company": "Jagged Peak Energy Inc.",
+  "filing_date": "2018-03-23",
+  "accession_number": "0001685715-18-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 10410.96,
+        "volume_total": 7600000,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI oil price swap contracts covering approximately 7.6 MMbls of projected oil production"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 10958.9,
+        "volume_total": 8000000,
+        "volume_unit": "Bbls",
+        "fixed_price": -1.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis differential contracts between Midland, TX and Cushing, OK covering 8.0 MMbls at weighted average basis differential of $(1.09) per barrel"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Use commodity derivatives to hedge price risk; can hedge up to 85% of proved reserves production for up to 24 months, 75% for 25-60 months; hedges limited to 5 years"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4979000,
+      "oil_production_bpd": 13640,
+      "gas_production_mcf": 3601000,
+      "gas_production_mmcf_per_day": 9.9,
+      "ngl_production_bbls": 617000,
+      "total_production_boe": 6196000,
+      "total_production_boepd": 16974,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 82400,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2017-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 2.88,
+      "production_tax_per_boe": 2.6,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.71,
+      "dd_and_a_per_boe": 17.92,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.099538",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

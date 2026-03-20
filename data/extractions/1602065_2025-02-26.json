@@ -1,0 +1,108 @@
+{
+  "cik": "1602065",
+  "company": "Viper Energy, Inc.",
+  "filing_date": "2025-02-26",
+  "accession_number": "0001602065-25-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 20000.0,
+        "volume_total": 3620000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Deferred premium of $1.62 per barrel; indexed to WTI Cushing | Consolidated from 2 sub-period entries"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 60000,
+        "volume_total": 21900000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Waha Hub basis swap; weighted average differential of $(0.80) to WTI Cushing"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 60000,
+        "volume_total": 21900000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.5,
+        "ceiling_price": 4.93,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar indexed to Henry Hub"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Historically used fixed price swaps, basis swaps and costless collars to reduce price volatility associated with royalty income. Net asset derivative position of $15.3M at Dec 2024."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 9939000,
+      "oil_production_bpd": 27156,
+      "gas_production_mcf": 24606000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 4181000,
+      "total_production_boe": 18221000,
+      "total_production_boepd": 49784,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": 2.33,
+      "total_production_cost_per_boe": 4.2,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 11.77,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.081994",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

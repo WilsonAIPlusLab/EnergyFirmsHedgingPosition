@@ -1,0 +1,76 @@
+{
+  "cik": "821189",
+  "company": "EOG RESOURCES INC",
+  "filing_date": "2016-02-25",
+  "accession_number": "0000821189-16-000054",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 60000,
+        "volume_total": 11040000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.49,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-03",
+        "period_end": "2016-08",
+        "notes": "Natural gas swap, 60,000 MMBtud x 184 days (March 1 - August 31, 2016) = 11,040,000 MMBtu total; NYMEX Henry Hub price $2.49/MMBtu. Positions reported as of filing date February 25, 2016 per Item 7 Derivative Transactions; item8_notes confirms no contracts outstanding at December 31, 2015."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "EOG engages in price risk mgmt activities from time to time. At Dec 31, 2015, EOG had no outstanding crude oil or natural gas commodity derivative contracts. As of filing date Feb 25, 2016, EOG had 1 natural gas derivative contract outstanding."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 1,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 103806000,
+      "oil_production_bpd": 284400,
+      "gas_production_mcf": 461725000,
+      "gas_production_mmcf_per_day": 1265,
+      "ngl_production_bbls": 28105000,
+      "total_production_boe": 208853000,
+      "total_production_boepd": 572200,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 2118000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.66,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 4.07,
+      "dd_and_a_per_boe": 15.86,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.082967",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

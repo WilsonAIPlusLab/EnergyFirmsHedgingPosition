@@ -1,0 +1,56 @@
+{
+  "cik": "1471261",
+  "company": "Cobalt International Energy, Inc.",
+  "filing_date": "2017-03-14",
+  "accession_number": "0001564590-17-004239",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "May use options, floors, collars & swaps to mitigate downside commodity price risk. Derivatives for risk management only, not speculation. Cash settlement only."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 383600,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 103700,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 12200,
+      "total_production_boe": 413100,
+      "total_production_boepd": null,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3000,
+      "proved_gas_reserves_mmcf": 1200,
+      "proved_ngl_reserves_mbbls": 100,
+      "total_proved_reserves_mboe": 3300,
+      "proved_developed_reserves_mboe": 2100,
+      "proved_undeveloped_reserves_mboe": 1200,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 42.29,
+      "gas_price_used": 2.97,
+      "lease_operating_expense_per_boe": 18.33,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 53.21,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.174533",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "cik": "1059324",
+  "company": "PETROHAWK ENERGY CORP",
+  "filing_date": "2011-12-05",
+  "accession_number": "0001047469-11-009905",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 520000.0,
+        "volume_total": 189800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5.55,
+        "ceiling_price": 9.66,
+        "sub_floor_price": null,
+        "price_unit": "$/mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "60 natural gas collar arrangements. Floor range $5.50-$6.00 (wtd avg $5.55), ceiling range $9.00-$10.30 (wtd avg $9.66)."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5500.0,
+        "volume_total": 2007500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 78.0,
+        "ceiling_price": 98.88,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "16 crude oil collar arrangements. Floor range $75.00-$80.00 (wtd avg $78.00), ceiling range $95.00-$101.00 (wtd avg $98.88)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 313.11,
+        "volume_total": 114285.71,
+        "volume_unit": "Bbls",
+        "fixed_price": 19.32,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "NGL swap (ethane). Source: 4,800,000 gallons at $0.46/gallon; converted to 114,285.71 Bbls at $19.32/Bbl (42 gal/Bbl)."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 325000.0,
+        "volume_total": 118950000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.92,
+        "ceiling_price": 6.96,
+        "sub_floor_price": null,
+        "price_unit": "$/mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Natural gas collars for 2012. Floor range $4.75-$5.00 (wtd avg $4.92), ceiling range $5.72-$8.00 (wtd avg $6.96)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000.0,
+        "volume_total": 7320000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Natural gas swaps for 2012."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10000.0,
+        "volume_total": 3660000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 77.0,
+        "ceiling_price": 100.0,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Crude oil collars for 2012. Floor range $75.00-$80.00 (wtd avg $77.00), ceiling range $98.00-$102.45 (wtd avg $100.00)."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedge substantial but varying portion of anticipated oil, natural gas, and NGL production for next 12-36 months using collars, swaps, and puts."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Patched from audit results (2026-03-09)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1268000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 234538000,
+      "gas_production_mmcf_per_day": 675,
+      "ngl_production_bbls": 681000,
+      "total_production_boe": 41038667,
+      "total_production_boepd": null,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 19800,
+      "proved_gas_reserves_mmcf": 3110100,
+      "proved_ngl_reserves_mbbls": 27100,
+      "total_proved_reserves_mboe": 565266,
+      "proved_developed_reserves_mboe": 197366,
+      "proved_undeveloped_reserves_mboe": 367900,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 79.43,
+      "gas_price_used": 4.38,
+      "lease_operating_expense_per_boe": 0.26,
+      "production_tax_per_boe": 0.04,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.34,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.568104"
+  }
+}

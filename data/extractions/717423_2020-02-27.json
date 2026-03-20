@@ -1,0 +1,110 @@
+{
+  "cik": "717423",
+  "company": "MURPHY OIL CORP",
+  "filing_date": "2020-02-27",
+  "accession_number": "0000717423-20-000008",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 45000,
+        "volume_total": 16470000,
+        "volume_unit": "Bbls",
+        "fixed_price": 56.42,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "WTI crude oil fixed price derivative swap, 45,000 Bbl/d @$56.42/Bbl, Jan 1-Dec 31 2020 (366 days)"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 97000,
+        "volume_total": 8827000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.71,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2020-01",
+        "period_end": "2020-03",
+        "notes": "Montney natural gas fixed price forward sales at AECO, 97 MMcf/d @C$2.71/Mcf, Jan 1-Mar 31 2020 (91 days)"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 59000,
+        "volume_total": 16225000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.81,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2020-04",
+        "period_end": "2020-12",
+        "notes": "Montney natural gas fixed price forward sales at AECO, 59 MMcf/d @C$2.81/Mcf, Apr 1-Dec 31 2020 (275 days)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Murphy makes use of derivative financial and commodity instruments to manage risks associated with existing or anticipated transactions."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Verified 2026-03-19: FIXED - added 2 missing Montney gas forwards (97 MMcf/d @C$2.71 Q1; 59 MMcf/d @C$2.81 Apr-Dec) per item7.txt lines 2105-2131; hedging_summary updated to 1/2/0"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 41881330,
+      "oil_production_bpd": 114742,
+      "gas_production_mcf": 129271975,
+      "gas_production_mmcf_per_day": 354.115,
+      "ngl_production_bbls": 4339120,
+      "total_production_boe": 67766655,
+      "total_production_boepd": 185649,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 825000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 8.95,
+      "production_tax_per_boe": 0.71,
+      "total_production_cost_per_boe": 9.66,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 16.98,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.101307",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instrument [0] DATA RECOVERED from Note M in full_text.txt (line 16702). Note M states: 'At December 31, 2019, the Company had 45,000 barrels per day in WTI crude oil swap financial contracts maturing ratably during 2020 at an average price of $56.42.' Fair value $(33,364)K from balance sheet table in Note M. Instrument type updated from 'other' to 'swap', volume and price populated."
+  }
+}

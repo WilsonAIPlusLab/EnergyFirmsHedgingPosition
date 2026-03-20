@@ -1,0 +1,136 @@
+{
+  "cik": "1288403",
+  "company": "W&T OFFSHORE INC",
+  "filing_date": "2012-02-27",
+  "accession_number": "0001193125-12-081514",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3109.49,
+        "volume_total": 852000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": 97.88,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-09",
+        "notes": "Zero cost collars - crude oil (WTI/NYMEX). Q1+Q2+Q3 2012 consolidated (364,000+364,000+124,000 Bbls) at same floor/ceiling. As of December 31, 2011."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2728.26,
+        "volume_total": 251000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": 98.99,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-10",
+        "period_end": "2012-12",
+        "notes": "Zero cost collars - crude oil (WTI/NYMEX). Q4 2012 at slightly higher ceiling. As of December 31, 2011."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3028.42,
+        "volume_total": 1108400,
+        "volume_unit": "Bbls",
+        "fixed_price": 107.28,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Fixed-price swaps - crude oil (Brent/ICE). 2012 consolidated: Q1 236,600 + Q2 200,200 + Q3 414,000 + Q4 257,600 Bbls all at $107.28. As of December 31, 2011."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3547.67,
+        "volume_total": 1294900,
+        "volume_unit": "Bbls",
+        "fixed_price": 101.97,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "notes": "Fixed-price swaps - crude oil (Brent/ICE). 2013 consolidated: Q1 351,000 @ $101.97 + Q2 336,700 @ $101.97 + Q3 312,800 @ $101.98 + Q4 294,400 @ $101.98 = 1,294,900 Bbls. Weighted avg ~$101.97. As of December 31, 2011."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1849.04,
+        "volume_total": 674900,
+        "volume_unit": "Bbls",
+        "fixed_price": 97.38,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "Fixed-price swaps - crude oil (Brent/ICE). 2014 consolidated: Q1 180,000 @ $97.38 + Q2 172,900 @ $97.38 + Q3 165,600 @ $97.38 + Q4 156,400 @ $97.37 = 674,900 Bbls. Weighted avg ~$97.38. As of December 31, 2011."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity swaps & options to manage oil price risk. Does not enter derivatives for speculation. Does not designate as hedges (mark-to-market)."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6090000,
+      "gas_production_mcf": 53795000,
+      "ngl_production_bbls": 1861000,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.253090",
+    "item7_merge_timestamp": "2026-02-28T07:03:38.110138+00:00",
+    "item7_instruments_added": 0
+  }
+}

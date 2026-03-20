@@ -1,0 +1,123 @@
+{
+  "cik": "1657788",
+  "company": "Kimbell Royalty Partners, LP",
+  "filing_date": "2024-11-08",
+  "accession_number": "0001558370-24-015071",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1558,
+        "volume_total": 568926,
+        "volume_unit": "Bbls",
+        "fixed_price": 79.04,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Range of fixed prices: $69.30 - $85.34 per Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1544,
+        "volume_total": 563526,
+        "volume_unit": "Bbls",
+        "fixed_price": 70.36,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Range of fixed prices: $64.35 - $77.01 per Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 14466,
+        "volume_total": 5285182,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.97,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Range of fixed prices: $3.06 - $4.48 per MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 14119,
+        "volume_total": 5153291,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.81,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Range of fixed prices: $3.50 - $4.37 per MMBtu"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Partnership uses oil and natural gas commodity derivatives to mitigate inherent commodity price risk; includes swaps, collars, fixed-price contracts; not designated as hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2393000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 23384000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1083000,
+      "total_production_boe": 7374000,
+      "total_production_boepd": null,
+      "production_year": 2023
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 19800,
+      "proved_gas_reserves_mmcf": 204542,
+      "proved_ngl_reserves_mbbls": 11519,
+      "total_proved_reserves_mboe": 65409,
+      "proved_developed_reserves_mboe": 65409,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2023-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 975,
+      "pv10_mm": null,
+      "oil_price_used": 78.22,
+      "gas_price_used": 2.64,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.093408"
+  }
+}

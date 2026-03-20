@@ -1,0 +1,127 @@
+{
+  "cik": "316300",
+  "company": "EXCO RESOURCES INC",
+  "filing_date": "2016-03-02",
+  "accession_number": "0000316300-16-000087",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 95000.0,
+        "volume_total": 34770000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": 20.894,
+        "notes": "Natural gas swap outstanding at December 31, 2015"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000.0,
+        "volume_total": 10950000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.28,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": 5.279,
+        "notes": "Natural gas swap outstanding at December 31, 2015"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000.0,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": 0.83,
+        "notes": "Natural gas swap outstanding at December 31, 2015"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2500.0,
+        "volume_total": 915000,
+        "volume_unit": "Bbls",
+        "fixed_price": 61.89,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": 18.589,
+        "notes": "Oil swap outstanding at December 31, 2015; assuming Mbbls = thousands of Bbls"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Manage exposure to commodity price fluctuations, protect returns and achieve predictable cash flow. Does not designate as hedging instruments for accounting purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2342000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 109926000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 340,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 20439,
+      "proved_gas_reserves_mmcf": 784674,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 151218,
+      "proved_developed_reserves_mboe": 72878,
+      "proved_undeveloped_reserves_mboe": 78340,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 402.1,
+      "pv10_mm": 402.1,
+      "oil_price_used": 50.28,
+      "gas_price_used": 2.59,
+      "lease_operating_expense_per_boe": 2.58,
+      "production_tax_per_boe": 1.08,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 4.8,
+      "dd_and_a_per_boe": 10.44,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.077670",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "volume_fix_timestamp": "2026-03-19T00:00:00",
+    "volume_fix_note": "Multiplied volume_per_day and volume_total by 1000 to correct for in-thousands table header (verified 2026-03-19)"
+  }
+}

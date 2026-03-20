@@ -1,0 +1,162 @@
+{
+  "cik": "1358071",
+  "company": "CONCHO RESOURCES INC",
+  "filing_date": "2015-02-26",
+  "accession_number": "0001358071-15-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 41813.7,
+        "volume_total": 15262000,
+        "volume_unit": "Bbls",
+        "fixed_price": 87.73,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil price swap. NYMEX WTI. 15.3M Bbl total."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 25543.72,
+        "volume_total": 9349000,
+        "volume_unit": "Bbls",
+        "fixed_price": 90.57,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil price swap. NYMEX WTI. 9.3M Bbl total (smaller Q4)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 928.18,
+        "volume_total": 168000,
+        "volume_unit": "Bbls",
+        "fixed_price": 87.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil price swap. NYMEX WTI. H1 2017 only."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 40519.18,
+        "volume_total": 14789500,
+        "volume_unit": "Bbls",
+        "fixed_price": -3.44,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil basis swap. Midland WTI vs Cushing WTI. $(3.44) differential."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 65000.0,
+        "volume_total": 23725000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas price swap. NYMEX Henry Hub."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15000.0,
+        "volume_total": 5475000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas basis swap. El Paso Permian vs NYMEX Henry Hub. $(0.13) differential."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Large Permian Basin E&P. Non-hedge accounting. Oil price swaps (NYMEX WTI) 2015-H1 2017 covering ~24.8M Bbl total. Oil basis swaps (Midland-Cushing differential, negative $(3.44)) 2015. Gas price swaps (NYMEX HH) 2015. Gas basis swaps (El Paso Permian-HH, $(0.13)) 2015. 16 counterparties (all credit facility lenders). Derivative net asset FV $752.7M (massive in-the-money due to oil price crash). Gain on derivatives $890.9M in 2014."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 26319000,
+      "oil_production_bpd": 72107,
+      "gas_production_mcf": 87336000,
+      "gas_production_mmcf_per_day": 239.277,
+      "ngl_production_bbls": null,
+      "total_production_boe": 40875000,
+      "total_production_boepd": 111987,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 370300,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 637200,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 91.48,
+      "gas_price_used": 4.35,
+      "lease_operating_expense_per_boe": 7.59,
+      "production_tax_per_boe": 4.61,
+      "total_production_cost_per_boe": 13.17,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 23.97,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.286694",
+    "rerun_model": "claude-opus-4-6",
+    "rerun_method": "claude-code-interactive",
+    "rerun_timestamp": "2026-02-27T05:30:00",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

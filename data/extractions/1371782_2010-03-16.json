@@ -1,0 +1,72 @@
+{
+  "cik": "1371782",
+  "company": "MV Oil Trust",
+  "filing_date": "2010-03-16",
+  "accession_number": "0001047469-10-002288",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1748,
+        "volume_total": 637800,
+        "volume_unit": "Bbls",
+        "fixed_price": 65.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedge contracts range from $63 to $69 per barrel; hedge approximately 70% of expected production from proved developed producing reserves; Trust receives 80% of settlement proceeds; contracts held by MV Partners for benefit of Trust"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "MV Partners hedges; Trust receives 80% of settlements. Conveyance prohibits MV Partners from entering new hedging arrangements for Trust benefit after 2010."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 755635,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 68817,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 4094,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 8683,
+      "proved_gas_reserves_mmcf": 582,
+      "proved_ngl_reserves_mbbls": 31,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 146.865913,
+      "pv10_mm": null,
+      "oil_price_used": 53.96,
+      "gas_price_used": 3.51,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.298151"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "cik": "1499735",
+  "company": "American Energy Development Corp.",
+  "filing_date": "2013-10-31",
+  "accession_number": "0001469299-13-000193",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed.",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3505,
+      "oil_production_bpd": 9.6,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 3505,
+      "total_production_boepd": 9.6,
+      "production_year": "FY2013 (July 2012 - June 2013)"
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 52.398,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 52.398,
+      "proved_developed_reserves_mboe": 52.398,
+      "proved_undeveloped_reserves_mboe": 0.0,
+      "reserves_year_end": "2013-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 0.41,
+      "pv10_mm": 0.41,
+      "oil_price_used": "$87.52/bbl (12-month average)",
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "notes": "Fiscal year ends June 30. Company produced 3,505 net barrels of oil from the Brown 2-12 well in Ingham County, Michigan. No gas reserves or production. All proved reserves are developed (no undeveloped). Reserves estimated by NSAI. PV10 equals standardized measure as no future income taxes were applied. Extensions and discoveries of 19,070 Bbls added during the year."
+  },
+  "hedging_summary": {
+    "total_instruments": 0,
+    "by_type": {},
+    "by_commodity": {}
+  }
+}

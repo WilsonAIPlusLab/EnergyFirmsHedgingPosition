@@ -1,0 +1,92 @@
+{
+  "cik": "785968",
+  "company": "MILLER ENERGY RESOURCES, INC.",
+  "filing_date": "2011-08-09",
+  "accession_number": "0000943440-11-000448",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 300,
+        "volume_total": 109500,
+        "volume_unit": "Bbls",
+        "fixed_price": 92.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "300 bbl/day commodity derivative financial instrument, oil price hedge at $92.13/bbl; Jan 1, 2011 to Dec 31, 2011. Liability of $2,305,118 recorded as of April 30, 2011."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 300,
+        "volume_total": 109500,
+        "volume_unit": "Bbls",
+        "fixed_price": 108.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-05",
+        "period_end": "2012-04",
+        "notes": "300 bbl/day commodity derivative financial instrument, oil price hedge at $108.25/bbl; May 1, 2011 to April 30, 2012."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enter into hedging on portion of projected oil production through financial arrangements to support oil prices at targeted levels and manage exposure to oil price fluctuations."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 2,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 272832,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 338845,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 329306,
+      "total_production_boepd": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 10007.4,
+      "proved_gas_reserves_mmcf": 3072.8,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 10519.5,
+      "proved_developed_reserves_mboe": 2886.4,
+      "proved_undeveloped_reserves_mboe": 7632.9,
+      "reserves_year_end": "2011-04-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 246.94,
+      "pv10_mm": null,
+      "oil_price_used": 73.01,
+      "gas_price_used": 4.84,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T17:28:18.850793",
+    "notes": "FY ended April 30, 2011 (10-K/A, restated). 7 hedge mentions but NO commodity hedging - mentions relate to derivative warrants/conversion features, not commodity hedges. Proved reserves: Oil 10,007,390 Bbls, Gas 3,072,817 Mcf. Proved developed: Oil 2,471,590 Bbls, Gas 2,488,817 Mcf. PUD: Oil 7,535,800 Bbls, Gas 584,000 Mcf. Production: Oil 272,832 Bbls, Gas 338,845 Mcf. Standardized measure $246.94MM. Open SEC comment letter re: Redoubt PUD reserves (~10% of total proved).",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

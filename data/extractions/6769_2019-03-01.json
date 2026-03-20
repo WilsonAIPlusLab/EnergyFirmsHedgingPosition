@@ -1,0 +1,121 @@
+{
+  "cik": "6769",
+  "company": "APACHE CORP",
+  "filing_date": "2019-03-01",
+  "accession_number": "0001733037-19-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 27000.0,
+        "volume_total": 7371000,
+        "volume_unit": "Bbls",
+        "fixed_price": -8.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-09",
+        "notes": "Crude oil financial basis swap; Midland-WTI vs. Cushing-WTI differential to protect Permian Basin basis"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 15000.0,
+        "volume_total": 1380000,
+        "volume_unit": "Bbls",
+        "fixed_price": -3.72,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-10",
+        "period_end": "2019-12",
+        "notes": "Crude oil financial basis swap; Midland-WTI vs. Cushing-WTI differential to protect Permian Basin basis"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 100000.0,
+        "volume_total": 18100000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.0,
+        "ceiling_price": 3.92,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-06",
+        "notes": "Natural gas collar, settled against NYMEX Henry Hub"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 76428.57,
+        "volume_total": 48530000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.51,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Natural gas financial basis swap; NYMEX Henry Hub vs. Waha Hub differential | Consolidated from 3 sub-period entries"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Apache periodically uses futures, swaps, and options to mitigate commodity price risk. Does not hold or issue derivatives for trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 89598285,
+      "oil_production_bpd": 245409,
+      "gas_production_mcf": 352418815,
+      "gas_production_mmcf_per_day": 965.531,
+      "ngl_production_bbls": 21740495,
+      "total_production_boe": 170091326,
+      "total_production_boepd": 465893,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 153000,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 8.47,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 2.16,
+      "dd_and_a_per_boe": 13.33,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.099563",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

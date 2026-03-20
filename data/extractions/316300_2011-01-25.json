@@ -1,0 +1,291 @@
+{
+  "cik": "316300",
+  "company": "EXCO Resources Inc",
+  "filing_date": "2011-01-25",
+  "accession_number": "0001193125-11-013111",
+  "filing_type": "10-K/A",
+  "fiscal_year_end": "2009-12-31",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "pricing_index": "NYMEX",
+        "periods": [
+          {
+            "period": "Q1 2010",
+            "volume_mmbtu": 15915000,
+            "weighted_avg_price_per_mmbtu": 7.8
+          },
+          {
+            "period": "Q2 2010",
+            "volume_mmbtu": 16078000,
+            "weighted_avg_price_per_mmbtu": 7.67
+          },
+          {
+            "period": "Q3 2010",
+            "volume_mmbtu": 16240000,
+            "weighted_avg_price_per_mmbtu": 7.67
+          },
+          {
+            "period": "Q4 2010",
+            "volume_mmbtu": 16240000,
+            "weighted_avg_price_per_mmbtu": 7.7
+          },
+          {
+            "period": "2011",
+            "volume_mmbtu": 12775000,
+            "weighted_avg_price_per_mmbtu": 7.48
+          },
+          {
+            "period": "2012",
+            "volume_mmbtu": 5490000,
+            "weighted_avg_price_per_mmbtu": 5.91
+          },
+          {
+            "period": "2013",
+            "volume_mmbtu": 5475000,
+            "weighted_avg_price_per_mmbtu": 5.99
+          }
+        ],
+        "volume_total": 88213000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.46,
+        "price_unit": "$/Mmbtu",
+        "notes": "EXCO Resources NYMEX natural gas swaps; total 88,213,000 MMBtu; weighted avg price $7.46/MMBtu. Period detail: Q1 2010: 15,915,000 MMBtu @ $7.8/MMBtu; Q2 2010: 16,078,000 MMBtu @ $7.67/MMBtu; Q3 2010: 16,240,000 MMBtu @ $7.67/MMBtu; Q4 2010: 16,240,000 MMBtu @ $7.7/MMBtu; 2011: 12,775,000 MMBtu @ $7.48/MMBtu; 2012: 5,490,000 MMBtu @ $5.91/MMBtu; 2013: 5,475,000 MMBtu @ $5.99/MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "pricing_index": "NYMEX",
+        "periods": [
+          {
+            "period": "Q1 2010",
+            "volume_bbls": 110000,
+            "weighted_avg_price_per_bbl": 114.96
+          },
+          {
+            "period": "Q2 2010",
+            "volume_bbls": 111000,
+            "weighted_avg_price_per_bbl": 114.96
+          },
+          {
+            "period": "Q3 2010",
+            "volume_bbls": 113000,
+            "weighted_avg_price_per_bbl": 114.96
+          },
+          {
+            "period": "Q4 2010",
+            "volume_bbls": 113000,
+            "weighted_avg_price_per_bbl": 114.96
+          },
+          {
+            "period": "2011",
+            "volume_bbls": 456000,
+            "weighted_avg_price_per_bbl": 116.0
+          },
+          {
+            "period": "2012",
+            "volume_bbls": 92000,
+            "weighted_avg_price_per_bbl": 109.3
+          }
+        ],
+        "volume_total": 995000,
+        "volume_unit": "Bbls",
+        "fixed_price": 114.91,
+        "price_unit": "$/Bbl",
+        "notes": "EXCO Resources NYMEX crude oil swaps; total 995,000 Bbls; weighted avg price $114.91/Bbl. Period detail: Q1 2010: 110,000 Bbls @ $114.96/Bbl; Q2 2010: 111,000 Bbls @ $114.96/Bbl; Q3 2010: 113,000 Bbls @ $114.96/Bbl; Q4 2010: 113,000 Bbls @ $114.96/Bbl; 2011: 456,000 Bbls @ $116.0/Bbl; 2012: 92,000 Bbls @ $109.3/Bbl"
+      }
+    ],
+    "hedging_summary": {
+      "has_commodity_hedges": true,
+      "hedge_accounting_designation": false,
+      "note": "EXCO does not designate derivative financial instruments as hedges; changes in fair value recognized currently in earnings. Comprehensive swap program covering natural gas and oil production through 2013. Also had interest rate swaps on $700MM principal.",
+      "uses_derivatives": true,
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "No commodity hedging activity disclosed.",
+      "total_instruments": 2,
+      "by_commodity": {
+        "natural_gas": 1,
+        "crude_oil": 1
+      },
+      "by_type": {
+        "swap": 2
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "fiscal_year": 2009,
+      "oil": {
+        "volume_mbbl": 1571,
+        "revenue_thousand": 84397,
+        "avg_price_per_bbl": 53.72
+      },
+      "natural_gas": {
+        "volume_mmcf": 118736,
+        "revenue_thousand": 466108,
+        "avg_price_per_mcf": 3.93
+      },
+      "total_equivalent_bcfe": 128.2,
+      "avg_daily_production_mmcfe": 224.0,
+      "costs": {
+        "avg_production_cost_per_mcfe": 1.08,
+        "avg_ga_expense_per_mcfe": 0.77,
+        "avg_dda_per_mcfe": 1.72
+      },
+      "significant_fields": {
+        "vernon_field": {
+          "oil_production_mbbls": 4,
+          "gas_production_mmcf": 35146,
+          "pct_of_total_reserves": 27.4,
+          "avg_oil_price_per_bbl": 58.95,
+          "avg_gas_price_per_mcf": 3.57,
+          "avg_production_cost_per_mcfe": 0.83
+        },
+        "haynesville_shale": {
+          "gas_production_mmcf": 14917,
+          "avg_gas_price_per_mcf": 3.21,
+          "avg_production_cost_per_mcfe": 0.1
+        }
+      },
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "as_of_date": "2009-12-31",
+      "pricing_basis": "12-month average first-day-of-month spot prices",
+      "benchmark_prices": {
+        "natural_gas_per_mmbtu": 3.87,
+        "oil_per_bbl": 61.18
+      },
+      "oil_mmbbls": {
+        "proved_developed": 3.5,
+        "proved_undeveloped": 2.0,
+        "total_proved": 5.5
+      },
+      "natural_gas_bcf": {
+        "proved_developed": 622.2,
+        "proved_undeveloped": 303.6,
+        "total_proved": 925.8
+      },
+      "total_equivalent_bcfe": {
+        "proved_developed": 643.2,
+        "proved_undeveloped": 315.6,
+        "total_proved": 958.8
+      },
+      "reserve_life_years": 11.7,
+      "changes_in_reserves_mcfe": {
+        "beginning_of_year": 1939944,
+        "purchases": 8065,
+        "extensions_and_discoveries": 242056,
+        "revisions_price": -258840,
+        "revisions_performance": -53869,
+        "sales_of_reserves": -790359,
+        "production": -128161,
+        "end_of_year": 958836
+      },
+      "pud_changes_mmcfe": {
+        "beginning_of_year": 496325,
+        "purchases": 7431,
+        "sales": -191419,
+        "extensions_and_discoveries": 167858,
+        "transferred_to_developed": -21619,
+        "revisions": -142930,
+        "end_of_year": 315646
+      },
+      "development_capex_for_pud_conversion_mm": 64.9,
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "pv10_mm": {
+        "developed": 649.8,
+        "undeveloped": 97.9,
+        "total": 747.7
+      },
+      "standardized_measure_mm": 747.7,
+      "note": "PV-10 equals Standardized Measure as future income taxes were zero due to lower gas prices and NOL carryforwards eliminating estimated future taxable income.",
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    },
+    "drilling_activity": {
+      "fiscal_year": 2009,
+      "development_wells": {
+        "gross_productive": 82,
+        "gross_dry": 1,
+        "gross_total": 83,
+        "net_productive": 40.8,
+        "net_dry": 0.9,
+        "net_total": 41.7
+      },
+      "exploratory_wells": {
+        "gross_productive": 19,
+        "gross_dry": 1,
+        "gross_total": 20,
+        "net_productive": 12.2,
+        "net_dry": 1.0,
+        "net_total": 13.2
+      },
+      "success_rate_pct": 98.1,
+      "total_capex_mm": 299.8
+    },
+    "acreage": {
+      "as_of_date": "2009-12-31",
+      "developed": {
+        "gross_acres": 571456,
+        "net_acres": 442649
+      },
+      "undeveloped": {
+        "gross_acres": 611149,
+        "net_acres": 504884
+      },
+      "total_producing_wells_gross": 7843,
+      "total_producing_wells_net": 6624.3,
+      "operated_wells_gross": 7416,
+      "pct_reserves_operated": 97.0
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "source_files": [
+      "item8_oil_gas.txt"
+    ],
+    "notes": "10-K/A (Amendment No. 2) for FY2009. Major E&P with operations in East Texas/North Louisiana (Haynesville shale), Appalachia (Marcellus shale), and Permian Basin. Significant 2009 divestitures including BG Group JV ($2.1B in proceeds). Despite 0 hedge mentions in search, actual derivative swap positions found in MD&A section covering gas through 2013 and oil through 2012. Company does not designate derivatives as hedges for accounting purposes.",
+    "item7_cleanup_timestamp": "2026-02-28T06:09:31.445658+00:00"
+  },
+  "hedging_summary": {
+    "total_instruments": 3,
+    "by_type": {
+      "swap": 2,
+      "other": 1
+    },
+    "by_commodity": {
+      "natural_gas": 1,
+      "crude_oil": 1,
+      "other": 1
+    }
+  }
+}

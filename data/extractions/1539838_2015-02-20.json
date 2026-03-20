@@ -1,0 +1,125 @@
+{
+  "cik": "1539838",
+  "company": "Diamondback Energy, Inc.",
+  "filing_date": "2015-02-20",
+  "accession_number": "0001539838-15-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3906,
+        "volume_total": 1426000,
+        "volume_unit": "Bbls",
+        "fixed_price": 93.02,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Argus Louisiana Light Sweet Fixed Price Swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 1825000,
+        "volume_unit": "Bbls",
+        "fixed_price": 84.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX West Texas Intermediate Fixed Price Swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1927,
+        "volume_total": 640000,
+        "volume_unit": "Bbls",
+        "fixed_price": 88.78,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-02",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "ICE Brent Fixed Price Swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1516,
+        "volume_total": 91000,
+        "volume_unit": "Bbls",
+        "fixed_price": 88.72,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "ICE Brent Fixed Price Swap"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses price swap derivatives to reduce price volatility associated with certain oil sales. Derivatives not designated as hedges; marked to fair value. Counterparties are lenders in credit facility."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5381576,
+      "oil_production_bpd": 14744,
+      "gas_production_mcf": 4345916,
+      "gas_production_mmcf_per_day": 11.907,
+      "ngl_production_bbls": 1001991,
+      "total_production_boe": 7107886,
+      "total_production_boepd": 19474,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 75690,
+      "proved_gas_reserves_mmcf": 111605,
+      "proved_ngl_reserves_mbbls": 18542,
+      "total_proved_reserves_mboe": 112832,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 87.15,
+      "gas_price_used": 4.85,
+      "lease_operating_expense_per_boe": 7.79,
+      "production_tax_per_boe": 4.59,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.46,
+      "dd_and_a_per_boe": 23.92,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.057471",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

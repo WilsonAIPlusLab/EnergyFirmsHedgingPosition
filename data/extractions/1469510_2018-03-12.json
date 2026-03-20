@@ -1,0 +1,140 @@
+{
+  "cik": "1469510",
+  "company": "Resolute Energy Corp",
+  "filing_date": "2018-03-12",
+  "accession_number": "0001564590-18-005317",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3744,
+        "volume_total": 1366560,
+        "volume_unit": "Bbls",
+        "fixed_price": 51.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Oil NYMEX WTI commodity swap, 3,744 Bbl/day Jan-Dec 2018, wtd avg $51.10/Bbl"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3252,
+        "volume_total": 1186980,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "sub_floor_price": 40.15,
+        "floor_price": 49.38,
+        "ceiling_price": 54.19,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Oil NYMEX WTI three-way collar, 3,252 Bbl/day Jan-Dec 2018, short put $40.15, floor $49.38, ceiling $54.19/Bbl"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1100,
+        "volume_total": 401500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 55.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Oil NYMEX WTI sold call option, 1,100 Bbl/day Jan-Dec 2018, strike $55.00/Bbl"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1100,
+        "volume_total": 401500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 62.85,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Oil NYMEX WTI sold call option, 1,100 Bbl/day Jan-Dec 2019, strike $62.85/Bbl"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 18000,
+        "volume_total": 6570000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.688,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Gas basis swap Permian Basin El Paso, 18,000 MMBtu/day Jan-Dec 2018, wtd avg differential $0.688/MMBtu"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company utilizes derivative instruments to manage exposure to oil and gas price volatility; has not elected cash flow hedge accounting."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5499000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 12101000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1640000,
+      "total_production_boe": 9156000,
+      "total_production_boepd": 25086,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 53430,
+      "proved_developed_reserves_mboe": 26215,
+      "proved_undeveloped_reserves_mboe": 27215,
+      "reserves_year_end": "2017-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 433,
+      "pv10_mm": null,
+      "oil_price_used": 46.3,
+      "gas_price_used": 2.11,
+      "lease_operating_expense_per_boe": 8.66,
+      "production_tax_per_boe": 2.55,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 10.06,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.172738",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

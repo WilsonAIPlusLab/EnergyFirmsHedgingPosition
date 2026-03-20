@@ -1,0 +1,76 @@
+{
+  "cik": "277924",
+  "company": "CREDO PETROLEUM CORP",
+  "filing_date": "2012-04-25",
+  "accession_number": "0001104659-12-028324",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 196.72,
+        "volume_total": 72000,
+        "volume_unit": "Bbls",
+        "fixed_price": 92.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Open short derivative contracts for 6,000 barrels per month for production months January through December 2012 at prices ranging from $91.95 to $93.00/Bbl. Described as forward short positions based on NYMEX futures prices. No natural gas derivatives outstanding. Same outstanding positions as original 10-K filing dated 2012-01-17 (amendment covers same balance sheet date of October 31, 2011). fixed_price is midpoint of $91.95-$93.00 range."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges a portion of estimated oil production to assure cash flow for debt service. Contracts typically forward short positions based on NYMEX futures."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 1,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 148000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 918000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 301000,
+      "total_production_boepd": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1963,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 4096,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 2089,
+      "reserves_year_end": "2011-10-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 86.32,
+      "gas_price_used": 4.54,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 13.4,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 15.66,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.064815",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

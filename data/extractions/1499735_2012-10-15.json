@@ -1,0 +1,62 @@
+{
+  "cik": "1499735",
+  "company": "American Energy Development Corp.",
+  "filing_date": "2012-10-15",
+  "accession_number": "0001469299-12-000330",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed.",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1170,
+      "oil_production_bpd": 3.2,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1170,
+      "total_production_boepd": 3.2,
+      "production_year": "FY2012 (July 2011 - June 2012)"
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 36.833,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 36.833,
+      "proved_developed_reserves_mboe": 21.288,
+      "proved_undeveloped_reserves_mboe": 15.545,
+      "reserves_year_end": "2012-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 1.11,
+      "pv10_mm": 1.11,
+      "oil_price_used": "$92.25/bbl (12-month average)",
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "notes": "Fiscal year ends June 30. Company produced 1,170 net barrels of oil from the Brown 2-12 well in Ingham County, Michigan. No gas reserves or production. Reserves estimated by NSAI. PV10 equals standardized measure as no future income taxes were applied. Reserves in raw Bbls converted to MBbls by dividing by 1000."
+  },
+  "hedging_summary": {
+    "total_instruments": 0,
+    "by_type": {},
+    "by_commodity": {}
+  }
+}

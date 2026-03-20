@@ -1,0 +1,104 @@
+{
+  "cik": "1255474",
+  "company": "WHITING PETROLEUM CORP",
+  "filing_date": "2014-02-28",
+  "accession_number": "0001255474-14-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 41863.01,
+        "volume_total": 15280000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "sub_floor_price": 70.95,
+        "floor_price": 85.0,
+        "ceiling_price": 103.38,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI three-way collar. Jan: sub-floor $71.00/floor $85.00/ceiling $103.56 (1,200,000 Bbl); Feb-Dec: sub-floor $70.94/floor $85.00/ceiling $103.34 (1,280,000 Bbl/mo). Weighted avg sub-floor $70.95, floor $85.00, ceiling $103.38. Total 15,280,000 Bbl."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1350.82,
+        "volume_total": 492900,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": 122.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar conveyed to Whiting USA Trust II; 42,500 Bbl/month; Company retains 10% economic interest, public holders 90% | Consolidated from 4 sub-period entries"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters derivative contracts (primarily costless collars) to achieve predictable cash flow and reduce exposure to oil and gas price volatility. Does not apply hedge accounting. Fixed-price gas contracts and fixed-differential crude oil contracts are physical delivery contracts (NPNS exclusion applies at time of filing) and excluded."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 27000000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 26900000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 2800000,
+      "total_production_boe": 34300000,
+      "total_production_boepd": null,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 12.53,
+      "production_tax_per_boe": 6.56,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 25.96,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.240669",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  },
+  "hedging_summary": {
+    "total_instruments": 19,
+    "instrument_types": {
+      "three_way_collar": 6,
+      "fixed_price_contract": 4,
+      "basis_swap": 5,
+      "collar": 5,
+      "future": 2,
+      "swap": 1,
+      "forward": 3
+    }
+  }
+}

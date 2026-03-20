@@ -1,0 +1,90 @@
+{
+  "cik": "1112412",
+  "company": "ENDEAVOUR INTERNATIONAL CORP",
+  "filing_date": "2010-08-17",
+  "accession_number": "0000950123-10-078273",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1397.26,
+        "volume_total": 1020000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2011-12",
+        "notes": "Fixed price oil swaps with BNP Paribas, cumulative 1,020 Mbbl through 2011. Specific swap prices not disclosed in filing. Derivatives covered 30-45% of expected 2010 production. Fair value of oil and gas commodity derivatives was net liability of $12.8 million at Dec 31, 2009."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2272.6,
+        "volume_total": 1659000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2010-01",
+        "period_end": "2011-12",
+        "notes": "Fixed price gas swaps with BNP Paribas, cumulative 1,659 MMcf through 2011. Specific swap prices not disclosed in filing. UK North Sea gas production."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Utilize oil & gas derivative instruments to achieve predictable cash flow by reducing exposure to price fluctuations. Do not elect hedge accounting; apply mark-to-market."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 2,
+    "extraction_notes": "Patched from audit results (2026-03-09)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 694000,
+      "oil_production_bpd": 1901,
+      "gas_production_mcf": 4063000,
+      "gas_production_mmcf_per_day": 11.13,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1372000,
+      "total_production_boepd": 3759,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3366,
+      "proved_gas_reserves_mmcf": 89100,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 18216,
+      "proved_developed_reserves_mboe": 2895,
+      "proved_undeveloped_reserves_mboe": 15321,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 55.698,
+      "pv10_mm": null,
+      "oil_price_used": 60.4,
+      "gas_price_used": 4.96,
+      "lease_operating_expense_per_boe": 12.97,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.591590"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "cik": "1533924",
+  "company": "Amplify Energy Corp.",
+  "filing_date": "2022-03-09",
+  "accession_number": "0001558370-22-003152",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 22849,
+        "volume_total": 8340000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.56,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average monthly volume 695,000 MMBtu [FIXED: monthly avg x12 for annual total]"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 25479,
+        "volume_total": 9300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.56,
+        "ceiling_price": 3.44,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Two-way collar, average monthly volume 775,000 MMBtu [FIXED: monthly avg x12 for annual total]"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 12164,
+        "volume_total": 4440000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.63,
+        "ceiling_price": 3.61,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Two-way collar, average monthly volume 370,000 MMBtu [FIXED: monthly avg x12 for annual total]"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2104,
+        "volume_total": 768000,
+        "volume_unit": "Bbls",
+        "fixed_price": 49.56,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average monthly volume 64,000 Bbls [FIXED: monthly avg x12 for annual total]"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1808,
+        "volume_total": 660000,
+        "volume_unit": "Bbls",
+        "fixed_price": 57.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average monthly volume 55,000 Bbls [FIXED: monthly avg x12 for annual total]"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 740,
+        "volume_total": 270000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 58.33,
+        "ceiling_price": 67.42,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Two-way collar, average monthly volume 22,500 Bbls [FIXED: monthly avg x12 for annual total]"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2926,
+        "volume_total": 1068000,
+        "volume_unit": "Bbls",
+        "fixed_price": 32.58,
+        "floor_price": 42.92,
+        "ceiling_price": 55.55,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way collar with sub-floor at $32.58/Bbl, average monthly volume 89,000 Bbls [FIXED: monthly avg x12 for annual total; sub_floor in fixed_price]"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 986,
+        "volume_total": 360000,
+        "volume_unit": "Bbls",
+        "fixed_price": 40.0,
+        "floor_price": 55.0,
+        "ceiling_price": 67.15,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way collar with sub-floor at $40.00/Bbl, average monthly volume 30,000 Bbls [FIXED: monthly avg x12 for annual total; sub_floor in fixed_price]"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Derivative instruments utilized to manage exposure to commodity price fluctuations and achieve more predictable cash flow. Hedging requirements per credit facility covenants.",
+      "total_instruments": 8,
+      "by_commodity": {
+        "natural_gas": 3,
+        "crude_oil": 5
+      },
+      "by_type": {
+        "swap": 3,
+        "collar": 3,
+        "three_way_collar": 2
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3351000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 23808000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1430000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.227956"
+  },
+  "hedging_summary": {
+    "total_instruments": 8,
+    "by_type": {
+      "swap": 3,
+      "collar": 3,
+      "three_way_collar": 2
+    },
+    "by_commodity": {
+      "natural_gas": 3,
+      "crude_oil": 5
+    }
+  }
+}

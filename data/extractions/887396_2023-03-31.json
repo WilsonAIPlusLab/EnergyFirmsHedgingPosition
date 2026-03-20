@@ -1,0 +1,125 @@
+{
+  "cik": "887396",
+  "company": "EMPIRE PETROLEUM CORP",
+  "filing_date": "2023-03-31",
+  "accession_number": "0001072613-23-000285",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 515,
+        "volume_total": 46400,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 51.94,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI Index Put Options; Floor Price range $40.00-$65.00"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 169,
+        "volume_total": 15340,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 46.21,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-04",
+        "period_end": "2023-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI Index Put Options; Floor Price range $40.00-$55.00"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 183,
+        "volume_total": 16860,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 57.5,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-07",
+        "period_end": "2023-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI Index Put Options; Floor Price range $55.00-$60.00"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 185,
+        "volume_total": 17000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-10",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI Index Put Options; Floor Price $50.00"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company uses derivative instruments to manage exposure to commodity price fluctuations. Does not enter into derivatives for speculative/trading purposes. Does not designate for hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 483000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 876000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2022
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2022-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 147.667413,
+      "pv10_mm": null,
+      "oil_price_used": 91.14,
+      "gas_price_used": 4.23,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.124976",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "cik": "1175028",
+  "company": "ATLAS AMERICA PUBLIC #11-2002 LTD.",
+  "filing_date": "2013-04-01",
+  "accession_number": "0001193125-13-135739",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 20.82,
+        "volume_total": 7600,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.45,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "fair_value_mm": 0.0019,
+        "notes": "Natural Gas Put Options purchased, total notional 7,600 MMBtu for 2013 production period"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 17.53,
+        "volume_total": 6400,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.8,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "fair_value_mm": 0.0024,
+        "notes": "Natural Gas Put Options purchased, total notional 6,400 MMBtu for 2014 production period"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 13.97,
+        "volume_total": 5100,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "fair_value_mm": 0.0024,
+        "notes": "Natural Gas Put Options purchased, total notional 5,100 MMBtu for 2015 production period"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 13.93,
+        "volume_total": 5100,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.15,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "fair_value_mm": 0.0031,
+        "notes": "Natural Gas Put Options purchased, total notional 5,100 MMBtu for 2016 production period"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "MGP provides stability through financial hedges including NYMEX futures/options and OTC contracts. Hedges do not require physical delivery. Used solely for hedging, not speculation."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1000,
+      "oil_production_bpd": 2.82,
+      "gas_production_mcf": 285200,
+      "gas_production_mmcf_per_day": 0.779,
+      "ngl_production_bbls": 95,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2.8,
+      "proved_gas_reserves_mmcf": 330.6,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 57.9,
+      "proved_developed_reserves_mboe": 57.9,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 0.167,
+      "pv10_mm": null,
+      "oil_price_used": 94.71,
+      "gas_price_used": 2.76,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 2.62,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 1.38,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.227546"
+  }
+}

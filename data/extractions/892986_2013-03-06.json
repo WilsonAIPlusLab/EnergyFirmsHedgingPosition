@@ -1,0 +1,106 @@
+{
+  "cik": "892986",
+  "company": "WARREN RESOURCES INC",
+  "filing_date": "2013-03-06",
+  "accession_number": "0001047469-13-002288",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1375,
+        "volume_total": 375375,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-09",
+        "notes": "BRENT Oil put option at $70/Bbl floor; 1,375 Bbl/d for Jan-Sep 2013"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 7000,
+        "volume_total": 2555000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.39,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "notes": "NYMEX Gas swap at $3.39/MMbtu; 7,000 MMbtu/d for full year 2013"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 7000,
+        "volume_total": 2555000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.79,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "NYMEX Gas swap at $3.79/MMbtu; 7,000 MMbtu/d for full year 2014"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "No hedging instruments disclosed in this excerpt. Policy mentions hedging portion of production and using long-term sales contracts to maintain financial position."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 6200,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 16380,
+      "proved_gas_reserves_mmcf": 51236,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 24919,
+      "proved_developed_reserves_mboe": 16597,
+      "proved_undeveloped_reserves_mboe": 8316,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 494.913,
+      "oil_price_used": 104.31,
+      "gas_price_used": 2.563,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.128130"
+  }
+}

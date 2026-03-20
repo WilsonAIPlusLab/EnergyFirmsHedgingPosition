@@ -1,0 +1,74 @@
+{
+  "cik": "1537058",
+  "company": "Whiting USA Trust II",
+  "filing_date": "2015-03-13",
+  "accession_number": "0001193125-15-091309",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2014-12",
+        "counterparty": "JPMorgan Chase Bank National Association",
+        "fair_value_mm": null,
+        "notes": "Costless collar arrangements terminated as of December 31, 2014. Hedging effects extended through February 2015 distribution period. Commodity derivative contracts settled from October through December 2014 provided cash receipts of $0.9 million (90% of $1.0 million) included in February 2015 distribution. No additional hedges allowed to be placed on Trust assets after termination. Verified: source discloses only existence of collars and aggregate settlement amounts, no per-unit floor/ceiling prices or physical volumes."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "All hedge contracts terminated 12/31/14. No additional hedges allowed on Trust assets. Trust cannot enter derivative contracts for speculative/trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1229000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2141000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1586000,
+      "total_production_boepd": 4300,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5352,
+      "proved_gas_reserves_mmcf": 7463,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 6596,
+      "proved_developed_reserves_mboe": 6581,
+      "proved_undeveloped_reserves_mboe": 15,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 168.2,
+      "pv10_mm": null,
+      "oil_price_used": 83.26,
+      "gas_price_used": 5.64,
+      "lease_operating_expense_per_boe": 28.32,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.231375",
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instrument [0] verified truly missing: source confirms costless collar arrangements terminated Dec 31, 2014. Item 7A and Note 8 describe the collar arrangements but disclose no specific floor/ceiling prices or volumes for the terminated contracts. Only the aggregate cash receipt of $0.9 million from Oct-Dec 2014 settlements is mentioned."
+  }
+}

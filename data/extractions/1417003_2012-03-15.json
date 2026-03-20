@@ -1,0 +1,157 @@
+{
+  "cik": "1417003",
+  "company": "WHITING USA TRUST I",
+  "filing_date": "2012-03-15",
+  "accession_number": "0001193125-12-117674",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1201.51,
+        "volume_total": 329178,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 74.0,
+        "ceiling_price": 141.57,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-09",
+        "counterparty": "JPMorgan Chase Bank National Association",
+        "fair_value_mm": null,
+        "notes": "Costless collar arrangement; settlements based on average closing settlement price for each commodity business day in contract period | Consolidated from 3 sub-period entries"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4547.47,
+        "volume_total": 413820,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 7.0,
+        "ceiling_price": 15.55,
+        "price_unit": "$/Mcf",
+        "period_start": "2012-01",
+        "period_end": "2012-03",
+        "counterparty": "JPMorgan Chase Bank National Association",
+        "fair_value_mm": null,
+        "notes": "Costless collar arrangement; settlements based on closing settlement price on second to last scheduled trading day of month prior to delivery"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4424.27,
+        "volume_total": 402609,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 6.0,
+        "ceiling_price": 13.6,
+        "price_unit": "$/Mcf",
+        "period_start": "2012-04",
+        "period_end": "2012-06",
+        "counterparty": "JPMorgan Chase Bank National Association",
+        "fair_value_mm": null,
+        "notes": "Costless collar arrangement; settlements based on closing settlement price on second to last scheduled trading day of month prior to delivery"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4244.77,
+        "volume_total": 390519,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 6.0,
+        "ceiling_price": 14.45,
+        "price_unit": "$/Mcf",
+        "period_start": "2012-07",
+        "period_end": "2012-09",
+        "counterparty": "JPMorgan Chase Bank National Association",
+        "fair_value_mm": null,
+        "notes": "Costless collar arrangement; settlements based on closing settlement price on second to last scheduled trading day of month prior to delivery"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1142.22,
+        "volume_total": 105084,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 74.0,
+        "ceiling_price": 142.21,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-10",
+        "period_end": "2012-12",
+        "counterparty": "JPMorgan Chase Bank National Association",
+        "fair_value_mm": null,
+        "notes": "Costless collar arrangement; settlements based on average closing settlement price for each commodity business day in contract period"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4128.68,
+        "volume_total": 379839,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 7.0,
+        "ceiling_price": 13.4,
+        "price_unit": "$/Mcf",
+        "period_start": "2012-10",
+        "period_end": "2012-12",
+        "counterparty": "JPMorgan Chase Bank National Association",
+        "fair_value_mm": null,
+        "notes": "Costless collar arrangement; settlements based on closing settlement price on second to last scheduled trading day of month prior to delivery"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "NPI subject to costless collars through 2012 to manage price volatility. No additional hedges allowed on Trust assets. Single counterparty JPMorgan Chase Bank NA."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 740000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2778000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1203000,
+      "total_production_boepd": 3300,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2091,
+      "proved_gas_reserves_mmcf": 6602,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 3192,
+      "proved_developed_reserves_mboe": 3192,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 108.73,
+      "pv10_mm": null,
+      "oil_price_used": 84.19,
+      "gas_price_used": 4.1,
+      "lease_operating_expense_per_boe": 20.11,
+      "production_tax_per_boe": 4.25,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.338677"
+  }
+}

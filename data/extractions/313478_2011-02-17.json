@@ -1,0 +1,79 @@
+{
+  "cik": "313478",
+  "company": "HKN, Inc.",
+  "filing_date": "2011-02-17",
+  "accession_number": "0001437749-11-000965",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 27.62,
+        "volume_total": 5000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-06",
+        "counterparty": null,
+        "fair_value_mm": 0.003,
+        "notes": "5000 is total contract volume (Bbls). FV=$3K as of Dec 31, 2010. Unrealized losses of $5 thousand for 2010. [VERIFIED: removed expired Jan-May 2010 contract which shows FV=$0 (dash) in the 2010 column of the source table — contract expired in May 2010. Realized losses of $67K on that expired contract per source text.]"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enter into commodity derivatives to mitigate price risk on portion of future production. Objective is to protect revenues and cash flows from commodity price declines. No hedge designation.",
+      "total_instruments": 1,
+      "by_commodity": {
+        "crude_oil": 1
+      },
+      "by_type": {
+        "put_option": 1
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 126526,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 256812,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 365,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 79.43,
+      "gas_price_used": 4.37,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.067945"
+  }
+}

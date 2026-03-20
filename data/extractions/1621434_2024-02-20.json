@@ -1,0 +1,145 @@
+{
+  "cik": "1621434",
+  "company": "Black Stone Minerals, L.P.",
+  "filing_date": "2024-02-20",
+  "accession_number": "0001628280-24-005670",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1956.52,
+        "volume_total": 180000,
+        "volume_unit": "Bbls",
+        "fixed_price": 80.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-10",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil swap. NYMEX. Q4 2023. 180 MBbl @$80.80 (range $73-$89.50)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 6229.51,
+        "volume_total": 2280000,
+        "volume_unit": "Bbls",
+        "fixed_price": 71.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil swap. NYMEX. 4 quarters, 570 MBbl/qtr @$71.45 (range $67-$81)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2301.37,
+        "volume_total": 840000,
+        "volume_unit": "Bbls",
+        "fixed_price": 70.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil swap. NYMEX. Subsequent event. 210 MBbl/qtr @$70.50 (range $70.16-$70.75)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 114576.5,
+        "volume_total": 41935000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap. NYMEX. 2024 combined (base 40.3M MMBtu @$3.57 + subsequent 1.7M @$3.00). $3.55 wtd avg."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000.0,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.65,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap. NYMEX. Subsequent event. 3,650 BBtu = 3.65M MMBtu @$3.65."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Black Stone Minerals LP. Mineral rights partnership (~40k Boe/d). Simple swap-only hedging program. Oil: NYMEX swaps (180k Bbl Q4 2023 @$80.80, 2.28M 2024 @$71.45, 840k 2025 @$70.50 subsequent). Gas: NYMEX swaps (41.9M MMBtu 2024 @$3.55 combined, 3.65M 2025 @$3.65 subsequent). Net derivative asset ~$37.3M."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3757000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 64647000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 14532000,
+      "total_production_boepd": 39800,
+      "production_year": 2023
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.78,
+      "production_tax_per_boe": 3.92,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.14,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.088228",
+    "rerun_model": "claude-opus-4-6",
+    "rerun_method": "claude-code-interactive",
+    "rerun_timestamp": "2026-02-27T09:35:00",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

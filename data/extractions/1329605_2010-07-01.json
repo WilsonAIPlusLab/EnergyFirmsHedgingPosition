@@ -1,0 +1,140 @@
+{
+  "cik": "1329605",
+  "company": "PLATINUM ENERGY RESOURCES INC",
+  "filing_date": "2010-07-01",
+  "accession_number": "0001144204-10-035975",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 328.77,
+        "volume_total": 120000,
+        "volume_unit": "Bbls",
+        "fixed_price": 95.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "notes": "Crude oil swap outstanding at Dec 31, 2009 covering 2010 production. Fair value asset $1,585k."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 301.37,
+        "volume_total": 110000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "notes": "Crude oil put option outstanding at Dec 31, 2009 covering 2010 production. Fair value asset $2,011k."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 328.77,
+        "volume_total": 120000,
+        "volume_unit": "Bbls",
+        "fixed_price": 95.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "Crude oil swap outstanding at Dec 31, 2009 covering 2011 production. Fair value asset $1,098k."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 328.77,
+        "volume_total": 120000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "Crude oil put option outstanding at Dec 31, 2009 covering 2011 production. Fair value asset $1,195k."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 327.87,
+        "volume_total": 120000,
+        "volume_unit": "Bbls",
+        "fixed_price": 95.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Crude oil swap outstanding at Dec 31, 2009 covering 2012 production. Fair value asset $896k."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time, may utilize derivative instruments (puts, calls, swaps, price collars) to reduce exposure to commodity prices. Does not designate as hedges."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 259600,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 709600,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 377900,
+      "total_production_boepd": 1035,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2188,
+      "proved_gas_reserves_mmcf": 13679,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 4468,
+      "proved_developed_reserves_mboe": 1938,
+      "proved_undeveloped_reserves_mboe": 2530,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 38.9,
+      "pv10_mm": null,
+      "oil_price_used": 56.63,
+      "gas_price_used": 3.25,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 25.56,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 15.8,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.266066",
+    "item7_merge_timestamp": "2026-02-28T07:03:40.462448+00:00",
+    "item7_instruments_added": 0
+  }
+}

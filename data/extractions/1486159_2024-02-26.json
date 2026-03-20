@@ -1,0 +1,156 @@
+{
+  "cik": "1486159",
+  "company": "Chord Energy Corp",
+  "filing_date": "2024-02-26",
+  "accession_number": "0001486159-24-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 12732.24,
+        "volume_total": 4660000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 64.31,
+        "ceiling_price": 83.89,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Two-way collar on crude oil, NYMEX WTI"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2010.93,
+        "volume_total": 736000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 71.25,
+        "ceiling_price": 92.14,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Three-way collar on crude oil, NYMEX WTI; sub-floor $55.00"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000.0,
+        "volume_total": 366000,
+        "volume_unit": "Bbls",
+        "fixed_price": 69.27,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Fixed-price crude oil swap, NYMEX WTI"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3235.62,
+        "volume_total": 1181000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": 79.05,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Two-way collar on crude oil, NYMEX WTI"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3495.89,
+        "volume_total": 1276000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 65.71,
+        "ceiling_price": 82.6,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Three-way collar on crude oil, NYMEX WTI; sub-floor $50.71"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1785.21,
+        "volume_total": 651600,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.93,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Fixed-price natural gas swap, NYMEX HH"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives to manage commodity price risk for oil, NGL & gas; all entered for hedging, not speculation; reports at fair value; no hedge accounting designation."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 36427000,
+      "oil_production_bpd": 99801,
+      "gas_production_mcf": 82953000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 13047000,
+      "total_production_boe": 63300000,
+      "total_production_boepd": 173425,
+      "production_year": 2023
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 368400,
+      "proved_gas_reserves_mmcf": 777900,
+      "proved_ngl_reserves_mbbls": 138200,
+      "total_proved_reserves_mboe": 636200,
+      "proved_developed_reserves_mboe": 453800,
+      "proved_undeveloped_reserves_mboe": 182400,
+      "reserves_year_end": "2023-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 6990.6,
+      "pv10_mm": 8528.5,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 10.41,
+      "production_tax_per_boe": 4.11,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 2.85,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.178829",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

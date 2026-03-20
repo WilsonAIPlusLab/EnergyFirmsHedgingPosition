@@ -1,0 +1,91 @@
+{
+  "cik": "1492832",
+  "company": "EQUAL ENERGY LTD.",
+  "filing_date": "2014-03-17",
+  "accession_number": "0001193125-14-102573",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 12000,
+        "volume_total": 4380000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap settled based on NYMEX prices on average of last three commodity business days | Consolidated from 5 entries: 2000@4.25 + 2000@4.05 + 2000@4.10 + 2000@4.06 + 4000@4.05 = 12000 mmbtu/day; wtd avg price = $4.09/mmbtu; volume_total=4380000 is 12000*365"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2000,
+        "volume_total": 730000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.34,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": 0.341,
+        "notes": "Fixed price swap settled based on NYMEX prices on average of last three commodity business days; Fair value of commodity contracts liability as of Dec 31 2013"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Permitted to hedge up to 65% of estimated production for max 36 months; uses swaps, collars, floor options to reduce price volatility"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 61685,
+      "oil_production_bpd": 169,
+      "gas_production_mcf": 6869665,
+      "gas_production_mmcf_per_day": 18.821,
+      "ngl_production_bbls": 1146830,
+      "total_production_boe": 2353405,
+      "total_production_boepd": 6448,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.99,
+      "production_tax_per_boe": 1.58,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 7.53,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.186059",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

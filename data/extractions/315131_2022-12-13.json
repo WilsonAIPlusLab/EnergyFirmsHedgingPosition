@@ -1,0 +1,172 @@
+{
+  "cik": "315131",
+  "company": "PHX MINERALS INC.",
+  "filing_date": "2022-12-13",
+  "accession_number": "0000950170-22-026464",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 3876.71,
+        "volume_total": 1415000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.13,
+        "ceiling_price": 7.69,
+        "sub_floor_price": null,
+        "price_unit": "$/mmbtu",
+        "period_start": "2022-10",
+        "period_end": "2023-09",
+        "notes": "Natural gas costless collars for fiscal 2023 (Oct 2022 - Sep 2023), NYMEX Henry Hub, total 1,415,000 MMBtu"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 368.85,
+        "volume_total": 135000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.28,
+        "ceiling_price": 5.98,
+        "sub_floor_price": null,
+        "price_unit": "$/mmbtu",
+        "period_start": "2023-10",
+        "period_end": "2024-09",
+        "notes": "Natural gas costless collars for fiscal 2024, NYMEX Henry Hub, total 135,000 MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5753.42,
+        "volume_total": 2100000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/mmbtu",
+        "period_start": "2022-10",
+        "period_end": "2023-09",
+        "notes": "Natural gas fixed price swaps for fiscal 2023, NYMEX Henry Hub, total 2,100,000 MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1038.25,
+        "volume_total": 380000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.41,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/mmbtu",
+        "period_start": "2023-10",
+        "period_end": "2024-09",
+        "notes": "Natural gas fixed price swaps for fiscal 2024, NYMEX Henry Hub, total 380,000 MMBtu"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 41.1,
+        "volume_total": 15000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": 96.0,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2022-10",
+        "period_end": "2023-09",
+        "notes": "Oil costless collars for fiscal 2023, NYMEX WTI, total 15,000 Bbls"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 199.32,
+        "volume_total": 72750,
+        "volume_unit": "Bbls",
+        "fixed_price": 63.65,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2022-10",
+        "period_end": "2023-09",
+        "notes": "Oil fixed price swaps for fiscal 2023, NYMEX WTI, total 72,750 Bbls. Includes off-market swaps originally from BP settlement."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 38.93,
+        "volume_total": 14250,
+        "volume_unit": "Bbls",
+        "fixed_price": 74.91,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2023-10",
+        "period_end": "2024-09",
+        "notes": "Oil fixed price swaps for fiscal 2024, NYMEX WTI, total 14,250 Bbls"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "We enter into price risk management derivatives to reduce exposure to short-term fluctuations in natural gas and oil prices and protect return on investments."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Patched from audit results (2026-03-09)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 198535,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 7427708,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 165120,
+      "total_production_boe": 1601660,
+      "total_production_boepd": null,
+      "production_year": 2022
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 81100,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2022-09-30"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 91.32,
+      "gas_price_used": 6.16,
+      "lease_operating_expense_per_boe": 0.42,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.61,
+      "dd_and_a_per_boe": 0.76,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.071713",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

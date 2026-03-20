@@ -1,0 +1,56 @@
+{
+  "cik": "1288403",
+  "company": "W&T OFFSHORE INC",
+  "filing_date": "2015-03-06",
+  "accession_number": "0001564590-15-001376",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Uses derivatives to reduce risk of commodity price fluctuations. Does not designate as hedging instruments. No open derivative contracts as of Dec 31, 2014."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 7222000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 91093000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 2083000,
+      "total_production_boe": 17640000,
+      "total_production_boepd": null,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 91.12,
+      "gas_price_used": 4.27,
+      "lease_operating_expense_per_boe": 15.01,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 28.98,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.254003",
+    "item7_merge_timestamp": "2026-02-28T07:03:38.216354+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "cik": "1609253",
+  "company": "California Resources Corp",
+  "filing_date": "2025-03-03",
+  "accession_number": "0001609253-25-000027",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedges for purchased natural gas approximate 62% of expected fuel use in 2025; weighted average price $3.95/MMBtu. Verified: source does not disclose total MMBtu volume for 2025 fuel use, only states '62% of expected fuel use.'"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 8368.61,
+        "volume_total": 2293000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.67,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-07",
+        "period_end": "2025-03",
+        "counterparty": null,
+        "fair_value_mm": -13.0,
+        "notes": "Natural gas hedges acquired from Aera; weighted average price $5.67; expected to pay $13 million to settle in Q1 2025. Volume derived: $13,000,000 / $5.67 per MMBtu = approximately 2,293,000 MMBtu. Source confirms '$13 million to settle all of these contracts in the three months ended March 31, 2025' at '$5.67' weighted average price."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedging strategy seeks to mitigate commodity price volatility, ensure financial strength and liquidity by protecting cash flows for purchased natural gas fuel.",
+      "total_instruments": 2,
+      "by_commodity": {
+        "natural_gas": 2
+      },
+      "by_type": {
+        "swap": 2
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 29200000,
+      "oil_production_bpd": 80000,
+      "gas_production_mcf": 42705000,
+      "gas_production_mmcf_per_day": 117,
+      "ngl_production_bbls": 3650000,
+      "total_production_boe": 40165000,
+      "total_production_boepd": 110000,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 545000,
+      "proved_developed_reserves_mboe": 506000,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 24.51,
+      "production_tax_per_boe": 5.16,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.9,
+      "dd_and_a_per_boe": 8.83,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.085718",
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

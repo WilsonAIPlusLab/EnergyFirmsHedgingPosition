@@ -1,0 +1,126 @@
+{
+  "cik": "1294208",
+  "company": "ATLAS AMERICA SERIES 25-2004 (B) L.P.",
+  "filing_date": "2013-04-01",
+  "accession_number": "0001193125-13-136044",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 32.05,
+        "volume_total": 11700,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.45,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "fair_value_mm": 0.0029,
+        "notes": "Natural gas put options purchased; 11,700 MMBtu total; FV asset $2,900"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 26.58,
+        "volume_total": 9700,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.8,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "fair_value_mm": 0.0037,
+        "notes": "Natural gas put options purchased; 9,700 MMBtu total; FV asset $3,700"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 21.37,
+        "volume_total": 7800,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "fair_value_mm": 0.0036,
+        "notes": "Natural gas put options purchased; 7,800 MMBtu total; FV asset $3,600"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 21.31,
+        "volume_total": 7800,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.15,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "fair_value_mm": 0.0047,
+        "notes": "Natural gas put options purchased; 7,800 MMBtu total; FV asset $4,700"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Mgmt enters into derivatives (swaps, collars, options) to hedge forecasted commodity sales against price variability. Hedges qualify as cash flow hedges where effective."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10 | Verified and corrected 2026-03-19"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1600,
+      "oil_production_bpd": 4.32,
+      "gas_production_mcf": 248300,
+      "gas_production_mmcf_per_day": 0.678,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2.1,
+      "proved_gas_reserves_mmcf": 1083,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 0.6733,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.257035"
+  }
+}

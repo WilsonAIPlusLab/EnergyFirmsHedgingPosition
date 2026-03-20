@@ -1,0 +1,74 @@
+{
+  "cik": "1588242",
+  "company": "DENVER PARENT Corp",
+  "filing_date": "2016-06-06",
+  "accession_number": "0001558370-16-006276",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1715,
+        "volume_total": 627690,
+        "volume_unit": "Bbls",
+        "fixed_price": 96.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": "Bank of America",
+        "fair_value_mm": 33.7,
+        "notes": "Brent-based swap. Terminated on February 11, 2016 for cash proceeds of $34.6 million."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Mitigate commodity price risk on anticipated future production, increase revenue predictability. Derivative contracts terminated Feb 2016; no positions remain."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1383000,
+      "oil_production_bpd": 3785,
+      "gas_production_mcf": 418000,
+      "gas_production_mmcf_per_day": 1.153,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1453000,
+      "total_production_boepd": 3977,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 17.445,
+      "pv10_mm": 17.445,
+      "oil_price_used": 38.32,
+      "gas_price_used": 2.96,
+      "lease_operating_expense_per_boe": 37.42,
+      "production_tax_per_boe": 3.2,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.14,
+      "dd_and_a_per_boe": 16.24,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.263158",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

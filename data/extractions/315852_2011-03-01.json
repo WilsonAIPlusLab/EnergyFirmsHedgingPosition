@@ -1,0 +1,141 @@
+{
+  "cik": "315852",
+  "company": "RANGE RESOURCES CORP",
+  "filing_date": "2011-03-01",
+  "accession_number": "0000950123-11-020409",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 408200,
+        "volume_total": 148993000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5.56,
+        "ceiling_price": 6.48,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "Natural gas collars; 408,200 Mmbtu/day x 365 days = 148,993,000 Mmbtu; weighted avg floor $5.56 ceiling $6.48"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 119641,
+        "volume_total": 43788606,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5.5,
+        "ceiling_price": 6.25,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Natural gas collars; 119,641 Mmbtu/day x 366 days (leap year) = 43,788,606 Mmbtu; weighted avg floor $5.50 ceiling $6.25"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 732000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70.0,
+        "ceiling_price": 80.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Crude oil collars; 2,000 bbl/day x 366 days (leap year) = 732,000 Bbls; floor $70.00 ceiling $80.00"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5500,
+        "volume_total": 2007500,
+        "volume_unit": "Bbls",
+        "fixed_price": 80.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "Sold crude oil call options; 5,500 bbl/day x 365 days = 2,007,500 Bbls; strike $80.00"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4700,
+        "volume_total": 1720200,
+        "volume_unit": "Bbls",
+        "fixed_price": 85.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Sold crude oil call options; 4,700 bbl/day x 366 days (leap year) = 1,720,200 Bbls; strike $85.00"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives to hedge future sales prices on substantial, but varying, portion of production to achieve more predictable cash flows and reduce exposure to downward price fluctuations",
+      "total_instruments": 5,
+      "by_commodity": {"natural_gas": 2, "crude_oil": 3},
+      "by_type": {"collar": 3, "call_option": 2}
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1969050,
+      "oil_production_bpd": 5395,
+      "gas_production_mcf": 142033758,
+      "gas_production_mmcf_per_day": 389.134,
+      "ngl_production_bbls": 4490199,
+      "total_production_boe": 30131543,
+      "total_production_boepd": 82552,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.38,
+      "production_tax_per_boe": 1.14,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 12.06,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.072836"
+  }
+}

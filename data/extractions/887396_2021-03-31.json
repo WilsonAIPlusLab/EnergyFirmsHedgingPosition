@@ -1,0 +1,108 @@
+{
+  "cik": "887396",
+  "company": "EMPIRE PETROLEUM CORP",
+  "filing_date": "2021-03-31",
+  "accession_number": "0001072613-21-000331",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 169.5,
+        "volume_total": 15255,
+        "volume_unit": "Bbls",
+        "fixed_price": 49.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-03",
+        "notes": "Oil swap Q1 2021: 15,255 Bbl total at $49.40/Bbl fixed price."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 166.81,
+        "volume_total": 15180,
+        "volume_unit": "Bbls",
+        "fixed_price": 50.87,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-04",
+        "period_end": "2021-06",
+        "notes": "Oil swap Q2 2021: 15,180 Bbl total at $50.87/Bbl fixed price."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 167.74,
+        "volume_total": 5200,
+        "volume_unit": "Bbls",
+        "fixed_price": 38.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-07",
+        "period_end": "2021-07",
+        "notes": "Oil swap Q3 2021 (partial, expires July 30, 2021): 5,200 Bbl total at $38.25/Bbl fixed price."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company uses swap agreements to manage exposure to oil and natural gas price fluctuations. Does not designate for hedge accounting."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 164869,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 139412,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 20.77008,
+      "pv10_mm": null,
+      "oil_price_used": 32.94,
+      "gas_price_used": 1.41,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.124423",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

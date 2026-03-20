@@ -1,0 +1,142 @@
+{
+  "cik": "943861",
+  "company": "GOODRICH PETROLEUM CORP",
+  "filing_date": "2014-02-21",
+  "accession_number": "0001193125-14-062843",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000,
+        "volume_total": 10950000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": 6.187,
+        "notes": "Fixed price range $4.18-$5.06; counterparties: Royal Bank of Canada, JPMorgan Chase Bank N.A., Merrill Lynch Commodities Inc., Wells Fargo Bank N.A."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 5.055,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": -1.125,
+        "notes": "Ceiling price range $5.05-$5.06; sold call option granted to counterparty"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 5.055,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": -1.246,
+        "notes": "Ceiling price range $5.05-$5.06; sold call option granted to counterparty"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3800,
+        "volume_total": 1387000,
+        "volume_unit": "Bbls",
+        "fixed_price": 94.485,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": -4.341,
+        "notes": "Fixed price range $90.95-$98.02"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1300,
+        "volume_total": 474500,
+        "volume_unit": "Bbls",
+        "fixed_price": 94.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": 1.396,
+        "notes": "Commodity pricing based on Louisiana Light Sweet crude (Argus) trade month swap"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedging policies with levels of authority delegated by Board; hedges approved by Hedging Committee; uses futures, swaps, options and fixed-price contracts"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1338000,
+      "oil_production_bpd": 3665,
+      "gas_production_mcf": 19760000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 76124,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 14000,
+      "proved_gas_reserves_mmcf": 330000,
+      "proved_ngl_reserves_mbbls": 6000,
+      "total_proved_reserves_mboe": 75333,
+      "proved_developed_reserves_mboe": 29380,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 468,
+      "pv10_mm": 472,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.98,
+      "production_tax_per_boe": 0.35,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.38,
+      "dd_and_a_per_boe": 4.87,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.976870",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

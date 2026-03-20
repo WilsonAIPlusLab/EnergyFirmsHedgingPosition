@@ -1,0 +1,199 @@
+{
+  "cik": "719209",
+  "company": "ISRAMCO INC",
+  "filing_date": "2010-03-12",
+  "accession_number": "0001185185-10-000255",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4892.19,
+        "volume_total": 1785648,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.88,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap contracts for natural gas during 28 months commencing January 2010"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2095.4,
+        "volume_total": 764820,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 8.22,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap contracts for natural gas during 28 months commencing January 2010"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1914.53,
+        "volume_total": 174222,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 8.65,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap contracts for natural gas during 28 months commencing January 2010"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 698.27,
+        "volume_total": 254868,
+        "volume_unit": "Bbls",
+        "fixed_price": 79.59,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap contracts for 778,077 barrels during 60 months commencing January 2010"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 658.45,
+        "volume_total": 240336,
+        "volume_unit": "Bbls",
+        "fixed_price": 86.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap contracts for 778,077 barrels during 60 months commencing January 2010"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 348.29,
+        "volume_total": 127473,
+        "volume_unit": "Bbls",
+        "fixed_price": 82.37,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap contracts for 778,077 barrels during 60 months commencing January 2010"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 244.93,
+        "volume_total": 89400,
+        "volume_unit": "Bbls",
+        "fixed_price": 85.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap contracts for 778,077 barrels during 60 months commencing January 2010"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 180.82,
+        "volume_total": 66000,
+        "volume_unit": "Bbls",
+        "fixed_price": 86.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap contracts for 778,077 barrels during 60 months commencing January 2010"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedge substantial portion of anticipated production for next 60 months. Do not use for trading. Elected not to apply hedge accounting.",
+      "total_instruments": 8,
+      "by_commodity": {
+        "natural_gas": 3,
+        "crude_oil": 5
+      },
+      "by_type": {
+        "swap": 8
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 293000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2623000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 156000,
+      "total_production_boe": 886000,
+      "total_production_boepd": null,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3002,
+      "proved_gas_reserves_mmcf": 24452,
+      "proved_ngl_reserves_mbbls": 1488,
+      "total_proved_reserves_mboe": 8565,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 17.66,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 17.34,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.104050"
+  }
+}

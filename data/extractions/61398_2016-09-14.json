@@ -1,0 +1,56 @@
+{
+  "cik": "61398",
+  "company": "MAGELLAN PETROLEUM CORP /DE/",
+  "filing_date": "2016-09-14",
+  "accession_number": "0000061398-16-000098",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "The Company does not currently engage in any oil and gas hedging activities.",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 60200,
+      "oil_production_bpd": 164,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 60200,
+      "total_production_boepd": 164,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 895.0,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 895.0,
+      "proved_developed_reserves_mboe": 895.0,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2016-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 2.587,
+      "pv10_mm": null,
+      "oil_price_used": 34.11,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 42.67,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T23:16:39.150785+00:00"
+  }
+}

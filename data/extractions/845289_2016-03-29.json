@@ -1,0 +1,115 @@
+{
+  "cik": 845289,
+  "company": "HARVEST NATURAL RESOURCES, INC",
+  "filing_date": "2016-03-29",
+  "accession_number": "0000845289-16-000026",
+  "form_type": "10-K",
+  "period_end": "2015-12-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging. 'We and our investment in affiliate currently do not have any oil production that is hedged.' No revenues for FY2015, FY2014, or FY2013. No currency hedging for Venezuelan operations either."
+    }
+  },
+  "production": {
+    "reserves": {
+      "us_reserves": {
+        "notes": "No US proved reserves as of Dec 31, 2015 or 2014."
+      },
+      "petrodelta_venezuela": {
+        "notes": "No updated reserves data for FY2015 (Dec 31, 2015). Company no longer exercises significant influence in Petrodelta and switched from equity method to cost method (ASC 325) effective Dec 31, 2014. Supplemental oil and gas information for 2015 has been excluded. Only FY2014 and FY2013 Petrodelta data repeated from prior filing.",
+        "last_reported_dec31_2014_20_4pct_net": {
+          "proved_total": {
+            "oil_MBbls": 15677,
+            "gas_MMcf": 6210,
+            "total_MBOE": 16712
+          },
+          "proved_developed": {
+            "oil_MBbls": 8394,
+            "gas_MMcf": 4887,
+            "total_MBOE": 9209
+          },
+          "proved_undeveloped": {
+            "oil_MBbls": 7283,
+            "gas_MMcf": 1323,
+            "total_MBOE": 7504
+          }
+        }
+      },
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "harvest_us_results_of_operations_fy2015": {
+        "exploration_expense_K": 3900,
+        "impairment_K": 24178,
+        "total_expenses_K": 28078,
+        "results_K": -28078,
+        "notes": "US exploration and impairment expenses only. No revenue."
+      },
+      "petrodelta_results_of_operations_fy2014_repeated": {
+        "oil_and_gas_revenues_K": 274999,
+        "royalty_K": -89177,
+        "net_revenue_K": 185822,
+        "operating_expenses_and_taxes_K": 117120,
+        "depletion_K": 27668,
+        "income_tax_K": 20517,
+        "total_expenses_K": 165305,
+        "results_K": 20517,
+        "notes": "FY2014 data repeated from prior filing (no FY2015 Petrodelta data due to cost method change)."
+      },
+      "standardized_measure": {
+        "petrodelta_20_4pct_net_dec31_2014_K": 347735,
+        "petrodelta_20_4pct_net_dec31_2014_MM": 347.7,
+        "us_K": 0,
+        "notes": "Dec 31, 2014 Petrodelta data repeated. No Dec 31, 2015 standardized measure. Average prices used for 2014: El Salto $78.04/bbl, other fields $86.56/bbl, gas $1.54/Mcf."
+      },
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    },
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    }
+  },
+  "metadata": {
+    "source_sections": [
+      "full_text.txt",
+      "item7a.txt"
+    ],
+    "reserve_engineers": [
+      "Ryder Scott Company L.P."
+    ],
+    "accounting_method": "successful_efforts",
+    "geographic_areas": [
+      "Venezuela (Petrodelta, 20.4% net interest, cost method)"
+    ],
+    "notes": "FY2015. Company no longer exercises significant influence in Petrodelta; switched from equity method to cost method (ASC 325) effective Dec 31, 2014. No updated Petrodelta reserves or operating data for FY2015. No revenues for FY2015, 2014, or 2013 at parent level. $25.2MM 15% Note outstanding. 66 PUD locations (7.5 MMBOE) as of Dec 31, 2014.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "model": "unknown-legacy"
+  }
+}

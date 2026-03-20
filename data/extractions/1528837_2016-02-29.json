@@ -1,0 +1,124 @@
+{
+  "cik": "1528837",
+  "company": "Sanchez Energy Corp",
+  "filing_date": "2016-02-29",
+  "accession_number": "0001558370-16-003707",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 7016.39,
+        "volume_total": 2562000,
+        "volume_unit": "Bbls",
+        "fixed_price": 70.11,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Fixed-price swap; avg $70.11/Bbl, range $62.00-$80.15"
+      },
+      {
+        "instrument_type": "put",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 11016.39,
+        "volume_total": 4026000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Long put options protecting downside; all at $60.00/Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 99425.68,
+        "volume_total": 36290000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Fixed-price swap; avg $3.12/MMBtu, range $2.54-$3.92"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 76561.64,
+        "volume_total": 27945000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Fixed-price swap; avg $3.00/MMBtu, range $2.89-$3.65"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters derivatives (swaps, collars, puts) to fix/modify future prices for portion of projected production. Not for speculative trading."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10 | Oil volumes, prices, and put direction fixed 2026-03-19"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 7164700,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 37594100,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 5754100,
+      "total_production_boe": 19184400,
+      "total_production_boepd": null,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 593.5,
+      "pv10_mm": null,
+      "oil_price_used": 50.28,
+      "gas_price_used": 2.58,
+      "lease_operating_expense_per_boe": 8.16,
+      "production_tax_per_boe": 1.4,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 17.96,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.226195",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

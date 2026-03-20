@@ -1,0 +1,71 @@
+{
+  "cik": 717423,
+  "company": "MURPHY OIL CORP /DE",
+  "filing_date": "2010-02-26",
+  "accession_number": "0001193125-10-042802",
+  "form_type": "10-K",
+  "period_end": "2009-12-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging instruments. Murphy makes limited use of derivative financial and commodity instruments. Only foreign exchange contracts in place at December 31, 2009 to hedge U.S. dollars against two foreign currencies. No oil or natural gas commodity hedges."
+    }
+  },
+  "production": {
+    "reserves": {
+      "notes": "Supplemental Oil and Gas Information on pages F-39 to F-47 of filing. Reserves data not fully extracted into parsed sections. Proved reserves include US, Canada (conventional + synthetic/Syncrude), Malaysia, UK, and other areas.",
+      "key_highlights": "Synthetic oil reserves of 131.6 million barrels added as of January 1, 2009 due to SEC definition change. Company spent ~$1.34 billion in 2009 developing proved reserves.",
+      "us_undeveloped_pct": "31% of US proved oil reserves and 18% of US proved gas reserves are undeveloped at Dec 31, 2009",
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "notes": "Major integrated oil company with both E&P and refining/marketing operations (SIC 2911). E&P earnings from continuing operations were $691.8 million in 2009. Capital expenditure budget for 2010 approximately $2.4 billion.",
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    },
+    "production": {
+      "oil_production_bbls": 48121235,
+      "gas_production_mcf": 68364500,
+      "ngl_production_bbls": null,
+      "production_year": 2009
+    }
+  },
+  "metadata": {
+    "source_sections": [
+      "item8_oil_gas.txt",
+      "item7a.txt"
+    ],
+    "reserve_engineers": "Company engineers with reserves presented on pages F-41 and F-42",
+    "accounting_method": "successful_efforts",
+    "geographic_areas": [
+      "United States",
+      "Canada",
+      "Malaysia",
+      "United Kingdom",
+      "Republic of the Congo"
+    ],
+    "sic_code": 2911,
+    "notes": "Large integrated oil company. SIC 2911 (petroleum refining). Supplemental Oil and Gas Information tables (reserves, standardized measure) referenced but not extracted into parsed item8_notes.txt (file is empty). No commodity hedging.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "model": "unknown-legacy"
+  }
+}

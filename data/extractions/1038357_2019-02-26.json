@@ -1,0 +1,156 @@
+{
+  "cik": "1038357",
+  "company": "PIONEER NATURAL RESOURCES CO",
+  "filing_date": "2019-02-26",
+  "accession_number": "0001038357-19-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 15000,
+        "volume_total": 5475000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": 89.9,
+        "sub_floor_price": 65.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Brent collar contracts with short puts, 15,000 Bbls/d all four quarters 2019; short put (sub-floor) at $65.00/Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 102622,
+        "volume_total": 9236000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.39,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-03",
+        "notes": "NYMEX gas swap Q1 2019, 102,622 MMBtu/d at $3.39"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 38949.33,
+        "volume_total": 10700016,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.94,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-04",
+        "period_end": "2019-12",
+        "notes": "NYMEX gas swap Q2-Q4 2019 at $2.94; Q2-Q3: 50,000 MMBtu/d, Q4: 16,848 MMBtu/d | Consolidated from 3 sub-period entries"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 59126.0,
+        "volume_total": 16144020,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -1.46,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-09",
+        "notes": "Permian Basin gas basis swap Q1 2019, fixes differential between Permian index and HH | Consolidated from 2 sub-period entries"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 84932.0,
+        "volume_total": 31000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.34,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Southern California gas basis swap Q1-Q4 2019; Q1: 100,000 MMBtu/d@$0.40, Q2-Q4: 80,000 MMBtu/d@$0.31 | Consolidated from 4 sub-period entries"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000,
+        "volume_total": 4500000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.93,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-03",
+        "notes": "Sold call options Q1 2019, premium used to improve swap contract prices for Apr-Oct 2019"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company mitigates commodity price risk through derivatives. Entered into contracts for only a small portion of forecasted 2019 production. [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 69583235,
+      "oil_production_bpd": 190639,
+      "gas_production_mcf": 143617715,
+      "gas_production_mmcf_per_day": 393.391,
+      "ngl_production_bbls": 23279700,
+      "total_production_boe": 116794560,
+      "total_production_boepd": 319984,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 57.36,
+      "gas_price_used": 2.13,
+      "lease_operating_expense_per_boe": 4.29,
+      "production_tax_per_boe": 1.83,
+      "total_production_cost_per_boe": 7.32,
+      "gathering_transport_per_boe": 2.52,
+      "dd_and_a_per_boe": 13.13,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.562273",
+    "item7_merge_timestamp": "2026-02-28T07:11:20.329646+00:00",
+    "item7_instruments_added": 0
+  }
+}

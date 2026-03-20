@@ -1,0 +1,142 @@
+{
+  "cik": "23194",
+  "company": "COMSTOCK RESOURCES INC",
+  "filing_date": "2019-03-01",
+  "accession_number": "0001564590-19-005805",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 23835.62,
+        "volume_total": 8700000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.84,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas price swap agreements as of December 31, 2018 to hedge 2019 production"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 93424.66,
+        "volume_total": 34100000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.44,
+        "ceiling_price": 3.45,
+        "price_unit": "$/Mcf",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas collars as of December 31, 2018"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3186.58,
+        "volume_total": 1163100.0,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 52.35,
+        "ceiling_price": 74.56,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil collars as of December 31, 2018; 1,163,100 barrels"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 18200000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.51,
+        "ceiling_price": 3.7,
+        "price_unit": "$/Mcf",
+        "period_start": "2019-01",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Additional natural gas collars entered into since December 31, 2018"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 426000.0,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 44.63,
+        "ceiling_price": 65.79,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Additional crude oil collar agreements since December 31, 2018; 426,000 barrels"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Maintain active hedging program to mitigate price volatility and protect expected future cash flows"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1672000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 100271000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 23612,
+      "proved_gas_reserves_mmcf": 2282758,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1473.84,
+      "pv10_mm": 1755.145,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.39,
+      "production_tax_per_boe": 0.13,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.2,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.058907",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

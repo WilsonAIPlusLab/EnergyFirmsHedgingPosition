@@ -1,0 +1,56 @@
+{
+    "cik": "1413507",
+    "company": "SYNERGY RESOURCES CORP",
+    "filing_date": "2011-11-14",
+    "accession_number": "0001004878-11-000405",
+    "instruments": {
+        "instruments": [],
+        "hedging_summary": {
+            "total_oil_instruments": 0,
+            "total_gas_instruments": 0,
+            "total_ngl_instruments": 0,
+            "uses_derivatives": false,
+            "stated_hedging_policy": "No commodity hedging activity disclosed. Source documents stock warrants (Series A/B/C/D) and embedded derivative conversion liabilities on convertible promissory notes, which were misidentified as commodity derivatives. Confirmed: no oil/gas price hedging instruments exist in this filing."
+        }
+    },
+    "production": {
+        "production": {
+            "oil_production_bbls": 89917,
+            "oil_production_bpd": null,
+            "gas_production_mcf": 450831,
+            "gas_production_mmcf_per_day": null,
+            "ngl_production_bbls": null,
+            "total_production_boe": 165056,
+            "total_production_boepd": 452,
+            "production_year": 2011
+        },
+        "reserves": {
+            "proved_oil_reserves_mbbls": 2069.705,
+            "proved_gas_reserves_mmcf": 14.261,
+            "proved_ngl_reserves_mbbls": null,
+            "total_proved_reserves_mboe": 4446.565,
+            "proved_developed_reserves_mboe": 1713.499,
+            "proved_undeveloped_reserves_mboe": 2733.066,
+            "reserves_year_end": "2011-08-31"
+        },
+        "economics": {
+            "standardized_measure_mm": 57.55,
+            "pv10_mm": null,
+            "oil_price_used": 84.9,
+            "gas_price_used": 5.07,
+            "lease_operating_expense_per_boe": 8.73,
+            "production_tax_per_boe": 5.79,
+            "total_production_cost_per_boe": null,
+            "gathering_transport_per_boe": null,
+            "dd_and_a_per_boe": 16.62,
+            "finding_development_cost_per_boe": null
+        }
+    },
+    "metadata": {
+        "model": "claude-opus-4-6",
+        "extraction_timestamp": "2026-02-27T23:51:50Z",
+        "warning_fix_timestamp": "2026-02-28T12:00:00",
+        "false_positives_removed": 7,
+        "false_positive_reason": "All 7 instruments were stock warrants and embedded derivative conversion liabilities on convertible notes, not oil/gas commodity derivatives."
+    }
+}

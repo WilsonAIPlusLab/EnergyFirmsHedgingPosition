@@ -1,0 +1,56 @@
+{
+  "cik": "1006655",
+  "company": "EVOLUTION PETROLEUM CORP",
+  "filing_date": "2010-09-27",
+  "accession_number": "0001104659-10-050079",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Current production base may not be sufficient to effectively allow hedging. No derivatives used."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 29749,
+      "oil_production_bpd": 82,
+      "gas_production_mcf": 407674,
+      "gas_production_mmcf_per_day": 1.1,
+      "ngl_production_bbls": 27820,
+      "total_production_boe": 125515,
+      "total_production_boepd": 344,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 10255,
+      "proved_gas_reserves_mmcf": 6763,
+      "proved_ngl_reserves_mbbls": 1037,
+      "total_proved_reserves_mboe": 12418,
+      "proved_developed_reserves_mboe": 1119,
+      "proved_undeveloped_reserves_mboe": 11299,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 161.627,
+      "pv10_mm": 265.978,
+      "oil_price_used": 73.56,
+      "gas_price_used": 4.3,
+      "lease_operating_expense_per_boe": 13.27,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 14.1,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_method": "claude-code-interactive",
+    "extraction_timestamp": "2026-02-27T12:49:33",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

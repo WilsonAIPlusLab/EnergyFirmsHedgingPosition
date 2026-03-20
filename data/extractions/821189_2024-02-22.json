@@ -1,0 +1,124 @@
+{
+  "cik": "821189",
+  "company": "EOG RESOURCES INC",
+  "filing_date": "2024-02-22",
+  "accession_number": "0000821189-24-000011",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 725000,
+        "volume_total": 221850000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-03",
+        "period_end": "2024-12",
+        "notes": "NYMEX Henry Hub natural gas financial price swap, sold contracts, 725 thousand MMBtud, as of Feb 16 2024 filing date. 306 days (Mar-Dec 2024)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 725000,
+        "volume_total": 264625000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "NYMEX Henry Hub natural gas financial price swap, sold contracts, 725 thousand MMBtud, full year 2025. 365 days."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3060000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-03",
+        "period_end": "2024-12",
+        "notes": "NYMEX Henry Hub HSC Differential basis swap, sold contracts, 10 thousand MMBtud, Mar-Dec 2024. Fixes differential between Houston Ship Channel and Henry Hub. 306 days."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "NYMEX Henry Hub HSC Differential basis swap, sold contracts, 10 thousand MMBtud, full year 2025. 365 days."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Natural gas financial price swaps and basis swaps outstanding as of Feb 16, 2024 filing date. Mark-to-market accounting; no hedge accounting designation."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 173667000,
+      "oil_production_bpd": 475800,
+      "gas_production_mcf": 624515000,
+      "gas_production_mmcf_per_day": 1711,
+      "ngl_production_bbls": 81687000,
+      "total_production_boe": 359400000,
+      "total_production_boepd": 984800,
+      "production_year": 2023
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 4498000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2023-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 79.17,
+      "gas_price_used": 2.79,
+      "lease_operating_expense_per_boe": 4.05,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 4.5,
+      "dd_and_a_per_boe": 9.72,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.085193",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

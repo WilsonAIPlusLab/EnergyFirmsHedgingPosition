@@ -1,0 +1,74 @@
+{
+  "cik": "1505413",
+  "company": "VOC Energy Trust",
+  "filing_date": "2014-03-13",
+  "accession_number": "0001047469-14-002323",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 432.4,
+        "volume_total": 78264,
+        "volume_unit": "Bbls",
+        "fixed_price": 102.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-06",
+        "notes": "Fixed price crude oil swaps (VOC Brazos). Jan-Jun 2014. Monthly volumes: Jan 13,220 / Feb 13,149 / Mar 13,078 / Apr 13,008 / May 12,939 / Jun 12,870. All at $102.15/Bbl. As of Dec 31, 2013."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Trust receives 80% of hedge settlements from VOC Brazos on hedges in existence as of May 10, 2011. Trust itself does not enter into derivatives."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 1,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 615814,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 453683,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6511,
+      "proved_gas_reserves_mmcf": 3684,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 231.22,
+      "pv10_mm": null,
+      "oil_price_used": 92.83,
+      "gas_price_used": 4.35,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.188069"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "cik": "717423",
+  "company": "MURPHY OIL CORP",
+  "filing_date": "2025-02-27",
+  "accession_number": "0000717423-25-000006",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 40000,
+        "volume_total": 14600000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "Canada natural gas fixed price forward sales, 40 MMcf/d at C$2.75/Mcf, Jan 1-Dec 31 2025 (365 days)"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000,
+        "volume_total": 18250000,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "notes": "Canada natural gas fixed price forward sales, 50 MMcf/d at C$3.03/Mcf, Jan 1-Dec 31 2026 (365 days)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 40000,
+        "volume_total": 6000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.58,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2025-02",
+        "period_end": "2025-06",
+        "notes": "US natural gas fixed price derivative swap, 40 MMcf/d at US$3.58/Mcf, Feb 1-Jun 30 2025 (150 days)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 60000,
+        "volume_total": 5520000,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.65,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2025-07",
+        "period_end": "2025-09",
+        "notes": "US natural gas fixed price derivative swap, 60 MMcf/d at US$3.65/Mcf, Jul 1-Sep 30 2025 (92 days)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 60000,
+        "volume_total": 5520000,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2025-10",
+        "period_end": "2025-12",
+        "notes": "US natural gas fixed price derivative swap, 60 MMcf/d at US$3.74/Mcf, Oct 1-Dec 31 2025 (92 days)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Murphy periodically uses derivative financial and commodity instruments to manage risks associated with existing or anticipated transactions."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Verified 2026-03-19: REPLACED - prior extraction had 1 instrument from Note K (Dec 31, 2024 position); replaced with 5 instruments per item7.txt lines 180-194 (as-of-filing-date Feb 25, 2025): 2 Canada CAD forwards (40@C$2.75 2025; 50@C$3.03 2026) + 3 US swaps (40@$3.58 Feb-Jun 2025; 60@$3.65 Jul-Sep 2025; 60@$3.74 Oct-Dec 2025)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.102227",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instrument [0] DATA RECOVERED from Note K in full_text.txt (lines 4911-4929). Note K shows outstanding at Dec 31, 2024: 20 MMCF/d natural gas swap at $3.20/MCF for January 2025. Fair value $(1,707)K from balance sheet table in Note K. The $(2.5M) in the extraction was from Item 7A sensitivity analysis (10% price change impact), not fair value. Instrument type corrected from 'other' to 'swap'; volume and price populated; fair_value corrected.",
+    "verification_fix_timestamp": "2026-03-19T00:00:00"
+  }
+}

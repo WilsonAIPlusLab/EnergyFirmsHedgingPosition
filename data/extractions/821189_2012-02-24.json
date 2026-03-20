@@ -1,0 +1,172 @@
+{
+  "cik": "821189",
+  "company": "EOG RESOURCES INC",
+  "filing_date": "2012-02-24",
+  "accession_number": "0000821189-12-000014",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 34000,
+        "volume_total": 986000,
+        "volume_unit": "Bbls",
+        "fixed_price": 104.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-02",
+        "period_end": "2012-02",
+        "notes": "NYMEX WTI crude oil price swap; 34,000 Bbld for February 2012 (29 days, leap year); January 2012 was closed at filing date"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 52000,
+        "volume_total": 6344000,
+        "volume_unit": "Bbls",
+        "fixed_price": 105.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-03",
+        "period_end": "2012-06",
+        "notes": "NYMEX WTI crude oil price swap; 52,000 Bbld for March 1 through June 30, 2012 (122 days)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 35000,
+        "volume_total": 2170000,
+        "volume_unit": "Bbls",
+        "fixed_price": 105.56,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-07",
+        "period_end": "2012-08",
+        "notes": "NYMEX WTI crude oil price swap; 35,000 Bbld for July 1 through August 31, 2012 (62 days)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 17000,
+        "volume_total": 2074000,
+        "volume_unit": "Bbls",
+        "fixed_price": 103.59,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-09",
+        "period_end": "2012-12",
+        "notes": "NYMEX WTI crude oil price swap; 17,000 Bbld for September 1 through December 31, 2012 (122 days)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 525000,
+        "volume_total": 160650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.44,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-03",
+        "period_end": "2012-12",
+        "notes": "NYMEX Henry Hub natural gas price swap; 525,000 MMBtud for March 1 through December 31, 2012 (306 days); Jan-Feb 2012 were closed at filing date"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 150000,
+        "volume_total": 54750000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.79,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "notes": "NYMEX Henry Hub natural gas price swap; 150,000 MMBtud for full year 2013 (365 days); counterparty has option to extend by 150,000 MMBtud not included"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 150000,
+        "volume_total": 54750000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.79,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "NYMEX Henry Hub natural gas price swap; 150,000 MMBtud for full year 2014 (365 days); counterparty has option to extend by 150,000 MMBtud not included"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "EOG uses financial commodity derivatives (primarily collars, price swaps, options, basis swaps) to manage exposure to crude oil and natural gas price fluctuations."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 41391000,
+      "oil_production_bpd": 113400,
+      "gas_production_mcf": 584730000,
+      "gas_production_mmcf_per_day": 1602,
+      "ngl_production_bbls": 15476000,
+      "total_production_boe": 154300000,
+      "total_production_boepd": 422700,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 2054000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 92.79,
+      "gas_price_used": 3.83,
+      "lease_operating_expense_per_boe": 6.11,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 2.79,
+      "dd_and_a_per_boe": 16.31,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.081876",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "cik": "1361937",
+  "company": "EV Energy Partners, LP",
+  "filing_date": "2017-03-01",
+  "accession_number": "0001144204-17-011934",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000.0,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.85,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Crude oil swaps 2017, 365.0 MBbls at $52.85"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 90000.0,
+        "volume_total": 32850000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas swaps 2017, 32,850.0 MmmBtus at $3.07"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 30000.0,
+        "volume_total": 10950000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 3.27,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas collars 2017, 10,950.0 MmmBtus, floor $2.75, ceiling $3.27"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000.0,
+        "volume_total": 4500000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.46,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas swaps Jan-Mar 2018, 4,500.0 MmmBtus at $3.46"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 2100.0,
+        "volume_total": 766500,
+        "volume_unit": "Bbls",
+        "fixed_price": 16.14,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NGL swaps 2017, 766.5 MBbls at $16.14"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives to reduce risk of price volatility for oil, gas, NGLs. Not designated as hedges for accounting. Changes in fair value recognized in earnings. ~85% production hedged thru Mar 2018."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1216000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 49333000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 2331000,
+      "total_production_boe": 11768667,
+      "total_production_boepd": null,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 12600,
+      "proved_gas_reserves_mmcf": 575300,
+      "proved_ngl_reserves_mbbls": 33400,
+      "total_proved_reserves_mboe": 141883,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 371.1,
+      "pv10_mm": null,
+      "oil_price_used": 42.75,
+      "gas_price_used": 2.481,
+      "lease_operating_expense_per_boe": 1.46,
+      "production_tax_per_boe": 0.1,
+      "total_production_cost_per_boe": 1.56,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 1.69,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.292201",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "cik": "77159",
+  "company": "PENN VIRGINIA CORP",
+  "filing_date": "2019-02-27",
+  "accession_number": "0000077159-19-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 6415.5,
+        "volume_total": 2341591,
+        "volume_unit": "Bbls",
+        "fixed_price": 54.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": 16.585,
+        "notes": "Swaps-WTI | Consolidated from 4 sub-period entries | FV: Q1=+$4.959M + Q2=+$4.307M + Q3=+$3.821M + Q4=+$3.498M"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5000.0,
+        "volume_total": 1825000,
+        "volume_unit": "Bbls",
+        "fixed_price": 59.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": 12.994,
+        "notes": "Swaps-LLS | Consolidated from 4 sub-period entries | FV: Q1=+$3.684M + Q2=+$3.203M + Q3=+$3.092M + Q4=+$3.015M"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 6000.0,
+        "volume_total": 2196000,
+        "volume_unit": "Bbls",
+        "fixed_price": 54.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": 10.100,
+        "notes": "Swaps-WTI | Consolidated from 4 sub-period entries | FV: Q1=+$2.807M + Q2=+$2.609M + Q3=+$2.450M + Q4=+$2.234M"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Price risk mgmt programs permit use of derivative instruments to mitigate price risks for a portion of anticipated production. Not currently using derivatives for NGLs and nat gas."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6077000,
+      "oil_production_bpd": 16650,
+      "gas_production_mcf": 5181000,
+      "gas_production_mmcf_per_day": 14,
+      "ngl_production_bbls": 1004000,
+      "total_production_boe": 7944000,
+      "total_production_boepd": 21765,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 123000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.52,
+      "production_tax_per_boe": 2.96,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 2.34,
+      "dd_and_a_per_boe": 16.11,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.059987",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "cik": 787251,
+  "company": "CHINA NORTH EAST PETROLEUM HOLDINGS LTD",
+  "filing_date": "2010-09-03",
+  "accession_number": "0001214659-10-002366",
+  "form_type": "10-K",
+  "period_end": "2009-12-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging instruments identified. Company is a small Chinese oil producer with no derivative positions disclosed."
+    }
+  },
+  "production": {
+    "reserves": {
+      "notes": "Reserves data for FY2009 reported in supplemental disclosures. Beginning of year (Dec 31, 2008): 4,400,624 Bbls. FY2009 reserves tables not fully extracted in notes section. Production of approximately 800,000+ barrels in FY2009 based on revenue and pricing.",
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "results_of_operations_2009": {
+        "net_sales": 51080775,
+        "production_costs": 2868895,
+        "dda_and_impairment": 23632420,
+        "govt_oil_surcharge": 4618789,
+        "ga": 2797563,
+        "income_tax": 4857953,
+        "results": 12305155
+      },
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    },
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    }
+  },
+  "metadata": {
+    "source_sections": [
+      "item8_oil_gas.txt",
+      "item7a.txt",
+      "item8_notes.txt"
+    ],
+    "reserve_engineers": [
+      "Ralph E. Davis Associates, Inc."
+    ],
+    "accounting_method": "full_cost",
+    "geographic_areas": [
+      "PRC (Jilin Oil Region)"
+    ],
+    "notes": "Oil only producer. Restated figures for FY2008. This is the original 10-K (not amended) for FY2009.",
+    "model": "unknown-legacy"
+  }
+}

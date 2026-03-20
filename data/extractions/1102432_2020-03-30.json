@@ -1,0 +1,126 @@
+{
+  "cik": "1102432",
+  "company": "VIKING ENERGY GROUP, INC.",
+  "filing_date": "2020-03-30",
+  "accession_number": "0001477932-20-001647",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3907.6,
+        "volume_total": 5827864,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.715,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-12",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average 118,936 MMBTU per Month; Dec-18 to Dec-22 (49 months); total = 5,827,864 MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 808.2,
+        "volume_total": 1205400,
+        "volume_unit": "Bbls",
+        "fixed_price": 50.85,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-12",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average 24,600 BBL per Month; Dec-18 to Dec-22 (49 months); total = 1,205,400 Bbls"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 46.0,
+        "volume_total": 8400,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.71,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average 1,400 BBL per Month; Jan-20 to Jun-20 (6 months); total = 8,400 Bbls"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 131.4,
+        "volume_total": 124000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": 72.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-12",
+        "period_end": "2020-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average 4,000 BBL per Month; Dec-17 to Jun-20 (31 months); total = 124,000 Bbls; floor 55.00/ceiling 72.00"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Holds commodity derivatives to protect revenues and cash flows from significant price declines. Does not apply hedge accounting. Changes in fair value recorded as other income/expense."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 2300,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 13824.89,
+      "proved_developed_reserves_mboe": 9652.723,
+      "proved_undeveloped_reserves_mboe": 4172.167,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 168.24,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.582001",
+    "item7_merge_timestamp": "2026-02-28T07:00:09.571430+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "cik": "1735828",
+  "company": "Legacy Reserves Inc.",
+  "filing_date": "2019-03-22",
+  "accession_number": "0001735828-19-000012",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 9000.0,
+        "volume_total": 3285000,
+        "volume_unit": "Bbls",
+        "fixed_price": 61.33,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI crude oil swaps paying floating prices and receiving fixed prices; price range $57.15 - $67.65 per Bbl"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 6008.22,
+        "volume_total": 2193000,
+        "volume_unit": "Bbls",
+        "fixed_price": -3.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Midland-to-Cushing crude oil differential swaps paying floating differential and receiving fixed differential; price range $(5.60) - $(1.15) per Bbl"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4000.0,
+        "volume_total": 1460000,
+        "volume_unit": "Bbls",
+        "fixed_price": -2.91,
+        "floor_price": null,
+        "ceiling_price": 70.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Midland-to-Cushing crude oil differential enhanced swaps with short call at $70.00 and swap price of $(2.91)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 101849.32,
+        "volume_total": 37175000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.36,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Henry Hub natural gas swaps paying floating prices and receiving fixed prices; price range $3.05 - $4.40 per MMBtu"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 9863.01,
+        "volume_total": 3600000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.47,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub NYMEX to CIG natural gas differential swaps paying floating differential and receiving fixed differential; price range $(0.46) - $(0.49) per MMBtu"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into derivatives to support prices at targeted levels and manage exposure to price fluctuations. Not for speculative trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6629000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 58457000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 987087,
+      "total_production_boe": 17361000,
+      "total_production_boepd": 47564,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 164900,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 11.02,
+      "production_tax_per_boe": 1.7,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 9.22,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.110255",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

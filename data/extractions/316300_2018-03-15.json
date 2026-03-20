@@ -1,0 +1,76 @@
+{
+  "cik": "316300",
+  "company": "EXCO RESOURCES INC",
+  "filing_date": "2018-03-15",
+  "accession_number": "0000316300-18-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000.0,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Natural gas swap, 3,650 Bbtu for 2018, weighted average strike price $3.15/Mmbtu. Fair value $1.15 million at Dec 31, 2017. NOTE: In January 2018 the counterparty early terminated these contracts effective Jan 31, 2018, with settlement proceeds of $0.5 million received in Feb 2018. These contracts were outstanding as of the Dec 31, 2017 balance sheet date."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Historically used derivatives to manage commodity price risk. Post-bankruptcy filing, only permitted to enter contracts with DIP lenders. All contracts early terminated Jan 2018."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 1,
+    "extraction_notes": "Patched from audit results (2026-03-09)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1158000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 80136000,
+      "gas_production_mmcf_per_day": 239,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 9412,
+      "proved_gas_reserves_mmcf": 510451,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2017-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 482.7,
+      "pv10_mm": 482.7,
+      "oil_price_used": 51.34,
+      "gas_price_used": 2.98,
+      "lease_operating_expense_per_boe": 0.4,
+      "production_tax_per_boe": 0.15,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.28,
+      "dd_and_a_per_boe": 0.57,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.078097",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

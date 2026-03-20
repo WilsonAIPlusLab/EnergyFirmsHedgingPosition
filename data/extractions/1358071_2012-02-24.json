@@ -1,0 +1,156 @@
+{
+  "cik": "1358071",
+  "company": "CONCHO RESOURCES INC",
+  "filing_date": "2012-02-24",
+  "accession_number": "0001193125-12-076937",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 31379.78,
+        "volume_total": 11485000,
+        "volume_unit": "Bbls",
+        "fixed_price": 93.91,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Oil price swap NYMEX WTI for 2012 (quarterly: 3,102,500 + 2,936,500 + 2,804,500 + 2,641,500)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 20800.0,
+        "volume_total": 7592000,
+        "volume_unit": "Bbls",
+        "fixed_price": 94.29,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "notes": "Oil price swap NYMEX WTI for 2013 (quarterly: 1,954,000 + 1,952,000 + 1,844,000 + 1,842,000)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3717.81,
+        "volume_total": 1357000,
+        "volume_unit": "Bbls",
+        "fixed_price": 84.56,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "Oil price swap NYMEX WTI for 2014 (quarterly: 342,000 + 339,000 + 339,000 + 337,000)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1895.89,
+        "volume_total": 692000,
+        "volume_unit": "Bbls",
+        "fixed_price": 85.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "Oil price swap NYMEX WTI for 2015 (Q1-Q2: 324,000 each; Q3: 23,000; Q4: 21,000)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 221.31,
+        "volume_total": 81000,
+        "volume_unit": "Bbls",
+        "fixed_price": 89.65,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Oil price swap NYMEX WTI for 2016 (Q1-Q3: 21,000 each; Q4: 18,000)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 819.67,
+        "volume_total": 300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.54,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Natural gas price swap NYMEX Henry Hub for 2012 (75,000 per quarter)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Use derivatives to reduce exposure to commodity price risk for portion of production. Generally provide fixed price for future oil/gas production. Do not enter for speculative/trading."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 14575000,
+      "oil_production_bpd": 39932,
+      "gas_production_mcf": 53677000,
+      "gas_production_mmcf_per_day": 147.06,
+      "ngl_production_bbls": null,
+      "total_production_boe": 23521000,
+      "total_production_boepd": 64442,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 238463,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 386500,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 92.71,
+      "gas_price_used": 4.12,
+      "lease_operating_expense_per_boe": 6.93,
+      "production_tax_per_boe": 5.56,
+      "total_production_cost_per_boe": 13.1,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 18.21,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.286115",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

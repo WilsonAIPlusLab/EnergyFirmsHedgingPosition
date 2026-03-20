@@ -1,0 +1,125 @@
+{
+  "cik": "1469510",
+  "company": "Resolute Energy Corp",
+  "filing_date": "2011-03-15",
+  "accession_number": "0000950123-11-025335",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3250,
+        "volume_total": 1186250,
+        "volume_unit": "Bbls",
+        "fixed_price": 68.26,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Covering approximately 60% of anticipated 2011 oil production [vol=3250 Bbl/day from Note 11 commodity swaps table in item8_notes.txt]"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 250,
+        "volume_total": 91250,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80.0,
+        "ceiling_price": 90.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Covering approximately 5% of anticipated 2011 oil production [vol=250 Bbl/day from Note 11 commodity collars table in item8_notes.txt]"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2750,
+        "volume_total": 1003750,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 9.32,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Covering approximately 47% of anticipated 2011 gas production [vol=2750 MMBtu/day from Note 11 commodity swaps table in item8_notes.txt]"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3300,
+        "volume_total": 1204500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas basis derivatives covering approximately 57% of anticipated 2011 gas production [vol=3300 MMBtu/day (NWPL 1800 + CIG 1500); wtd avg differential from Note 11; fixed_price=1.40 matches existing value]"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduce effect of short-term commodity price fluctuations and achieve less volatile and more predictable cash flows through use of swaps, puts, calls and collars"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2089000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3843000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 2730000,
+      "total_production_boepd": 7478,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 58200,
+      "proved_gas_reserves_mmcf": 39100,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 64700,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 587,
+      "pv10_mm": 848,
+      "oil_price_used": 79.43,
+      "gas_price_used": 4.38,
+      "lease_operating_expense_per_boe": 18.91,
+      "production_tax_per_boe": 8.85,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 17.22,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.170922",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

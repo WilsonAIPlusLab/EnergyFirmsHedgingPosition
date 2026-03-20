@@ -1,0 +1,140 @@
+{
+  "cik": "33213",
+  "company": "EQT Corp",
+  "filing_date": "2014-02-20",
+  "accession_number": "0001104659-14-011816",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 616438.36,
+        "volume_total": 225000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "Natural gas NYMEX swaps and fixed price sales, 225 Bcf, avg $4.35/Mcf (1.05 MMBtu/Mcf conversion); position as of Feb 13, 2014"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 339726.03,
+        "volume_total": 124000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.39,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "Natural gas NYMEX swaps and fixed price sales, 124 Bcf, avg $4.39/Mcf (1.05 MMBtu/Mcf conversion); position as of Feb 13, 2014"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 163934.43,
+        "volume_total": 60000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Natural gas NYMEX swaps and fixed price sales, 60 Bcf, avg $4.45/Mcf (1.05 MMBtu/Mcf conversion); includes ~35 Bcf with NYMEX ceiling of $4.88/Mcf; position as of Feb 13, 2014"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 65753.42,
+        "volume_total": 24000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 5.05,
+        "ceiling_price": 8.85,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "Natural gas collar, 24 Bcf, floor $5.05/Mcf, cap $8.85/Mcf (NYMEX basis; 1.05 MMBtu/Mcf conversion); position as of Feb 13, 2014"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 63013.7,
+        "volume_total": 23000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 5.03,
+        "ceiling_price": 8.97,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "Natural gas collar, 23 Bcf, floor $5.03/Mcf, cap $8.97/Mcf (NYMEX basis; 1.05 MMBtu/Mcf conversion); position as of Feb 13, 2014"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Protect cash flows from undue exposure to commodity price risk; uses swaps, futures, collars; implemented under policies approved by Corporate Risk Committee"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 270000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 348693000,
+      "gas_production_mmcf_per_day": 1036,
+      "ngl_production_bbls": 4643000,
+      "total_production_boe": 63028833,
+      "total_production_boepd": null,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 8300000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.15,
+      "production_tax_per_boe": 0.13,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 1.5,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.081158",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

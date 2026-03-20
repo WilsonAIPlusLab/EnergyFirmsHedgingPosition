@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "cik": 101594,
+    "company": "US ENERGY CORP",
+    "filing_date": "2010-03-12",
+    "form_type": "10-K",
+    "accession_number": "0000101594-10-000013",
+    "source_file": "parsed/101594_US_ENERGY_CORP/2010-03-12/sections/item8_oil_gas.txt",
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "model": "unknown-legacy"
+  },
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity. Company explicitly states it had no derivative instruments in place for oil or gas production in 2009."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bpd": null,
+      "oil_production_bbls": 80461,
+      "gas_production_mmcf_per_day": null,
+      "gas_production_mcf": 487978,
+      "total_production_boepd": null,
+      "total_production_boe": null,
+      "production_year": 2009,
+      "ngl_production_bbls": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 811.789,
+      "proved_gas_reserves_mmcf": 1501.296,
+      "proved_ngl_reserves_mbbls": 24.031,
+      "total_proved_reserves_mboe": 1086.036,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 19.984,
+      "pv10_mm": 25.76,
+      "oil_price_used": 61.18,
+      "gas_price_used": 3.866,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "cik": "101594",
+  "company": "US ENERGY CORP",
+  "filing_date": "2010-03-12",
+  "form_type": "10-K",
+  "accession_number": "0000101594-10-000013"
+}

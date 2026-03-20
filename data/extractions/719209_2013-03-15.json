@@ -1,0 +1,56 @@
+{
+  "cik": "719209",
+  "company": "ISRAMCO INC",
+  "filing_date": "2013-03-15",
+  "accession_number": "0001185185-13-000492",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Uses swaps to hedge commodity price risk. As of Dec 31, 2012, no open derivative positions. All contracts with Macquarie Bank terminated Aug 15, 2012."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 298000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2160000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 133000,
+      "total_production_boe": 791000,
+      "total_production_boepd": 2170,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3233,
+      "proved_gas_reserves_mmcf": 186837,
+      "proved_ngl_reserves_mbbls": 1893,
+      "total_proved_reserves_mboe": 36266,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 92.75,
+      "gas_price_used": 3.68,
+      "lease_operating_expense_per_boe": 19.12,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 13.45,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.104853",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

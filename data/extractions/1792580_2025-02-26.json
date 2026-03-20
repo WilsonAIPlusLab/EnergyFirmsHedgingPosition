@@ -1,0 +1,129 @@
+{
+  "cik": "1792580",
+  "company": "Ovintiv Inc.",
+  "filing_date": "2025-02-26",
+  "accession_number": "0000950170-25-027914",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 48200,
+        "volume_total": 17593000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 65.0,
+        "ceiling_price": 82.31,
+        "sub_floor_price": 50.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "WTI three-way options: sold call $82.31 / bought put $65.00 / sold put $50.00; 48,200 bbls/d for full year 2025. Outstanding as of filing date. WTI/NYMEX fixed price contracts novated to Uinta purchaser on Jan 22, 2025 are excluded."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 500000,
+        "volume_total": 182500000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 3.0,
+        "ceiling_price": 4.54,
+        "sub_floor_price": 2.25,
+        "price_unit": "$/Mcf",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "notes": "NYMEX three-way options: sold call $4.54 / bought put $3.00 / sold put $2.25; 500 MMcf/d for full year 2025"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": 101.0,
+        "notes": "Natural gas basis swaps (AECO and NYMEX); volumes not disclosed; fair value $101M for 2025"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Ovintiv uses derivative financial instruments to manage commodity price and FX risk. Does not apply hedge accounting. Governed by formal policies with Board limits.",
+      "total_instruments": 3,
+      "by_commodity": {
+        "crude_oil": 1,
+        "natural_gas": 2
+      },
+      "by_type": {
+        "three_way_collar": 2,
+        "basis_swap": 1
+      }
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10); basis swap added 2026-03-19; WTI/NYMEX fixed price contracts excluded (novated to Uinta purchaser Jan 22, 2025)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 61415450,
+      "oil_production_bpd": 168300,
+      "gas_production_mcf": 619770000,
+      "gas_production_mmcf_per_day": 1698,
+      "ngl_production_bbls": 48717450,
+      "total_production_boe": 213584950,
+      "total_production_boepd": 585000,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 75.48,
+      "gas_price_used": 2.13,
+      "lease_operating_expense_per_boe": 4.24,
+      "production_tax_per_boe": 1.56,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 7.25,
+      "dd_and_a_per_boe": 10.6,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.113085",
+    "item7_cleanup_timestamp": "2026-02-28T06:09:31.444061+00:00"
+  },
+  "hedging_summary": {
+    "total_instruments": 3,
+    "by_type": {
+      "three_way_collar": 2,
+      "basis_swap": 1
+    },
+    "by_commodity": {
+      "crude_oil": 1,
+      "natural_gas": 2
+    }
+  }
+}

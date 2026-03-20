@@ -1,0 +1,172 @@
+{
+  "cik": "56868",
+  "company": "PRIMEENERGY RESOURCES CORP",
+  "filing_date": "2020-05-06",
+  "accession_number": "0001193125-20-134616",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 180000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Natural gas swap 2020; 180,000 MMBTU total"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 951000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.41,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Natural gas swap 2021; 951,000 MMBTU total"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 225500,
+        "volume_unit": "Bbls",
+        "fixed_price": 58.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Oil swap 2020; 225,500 Bbls total"
+      },
+      {
+        "instrument_type": "put",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 1849000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.25,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Natural gas put 2020; 1,849,000 MMBTU total"
+      },
+      {
+        "instrument_type": "put",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 500000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Natural gas put 2021; 500,000 MMBTU total"
+      },
+      {
+        "instrument_type": "put",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 95400,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 48.27,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Oil put 2020; 95,400 Bbls total"
+      },
+      {
+        "instrument_type": "put",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 66000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 35.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Oil put 2021; 66,000 Bbls total"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company periodically enters into oil and gas financial instruments to manage exposure to price volatility. Does not apply hedge accounting; gains/losses recognized in earnings."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10 | Fixed 2026-03-19: put direction short->long, gas volumes filled, period_start/end filled from source item7.txt"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1242000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 4397000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 574000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.092895",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

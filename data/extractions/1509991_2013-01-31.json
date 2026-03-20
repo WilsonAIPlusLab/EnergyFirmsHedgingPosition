@@ -1,0 +1,124 @@
+{
+  "cik": "1509991",
+  "company": "Kosmos Energy Ltd.",
+  "filing_date": "2013-01-31",
+  "accession_number": "0001047469-13-000586",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 4625,
+        "volume_total": 1692750,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 62.74,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Deferred premium puts on Dated Brent, 4,625 Bbl/day for Jan-Dec 2012. Floor $62.74/Bbl, deferred premium $7.04/Bbl. Total = 4,625 x 366 = 1,692,750 Bbls."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 2515,
+        "volume_total": 917975,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 61.73,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "notes": "Deferred premium puts on Dated Brent, 2,515 Bbl/day for Jan-Dec 2013. Floor $61.73/Bbl, deferred premium $7.32/Bbl. Total = 2,515 x 365 = 917,975 Bbls."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 5399,
+        "volume_total": 993416,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 66.48,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-07",
+        "period_end": "2012-12",
+        "notes": "Compound options (calls on puts) on Dated Brent, 5,399 Bbl/day Jul-Dec 2012. Floor $66.48/Bbl, deferred premium $6.73/Bbl. Calls expire Jun 29, 2012 with $4.82/Bbl premium."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 3855,
+        "volume_total": 697755,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 66.48,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-06",
+        "notes": "Compound options (calls on puts) on Dated Brent, 3,855 Bbl/day Jan-Jun 2013. Floor $66.48/Bbl, deferred premium $7.10/Bbl. Calls expire Jun 29, 2012 with $4.82/Bbl premium."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company uses oil derivatives (deferred premium puts, compound options) and interest rate swaps to manage commodity price and interest rate risk. Does not apply hedge accounting to oil derivatives."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5971000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 47000,
+      "proved_gas_reserves_mmcf": 24000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 51000,
+      "proved_developed_reserves_mboe": 26000,
+      "proved_undeveloped_reserves_mboe": 26000,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2016,
+      "pv10_mm": 2016,
+      "oil_price_used": 111.04,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 13.99,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 22.7,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.197563",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

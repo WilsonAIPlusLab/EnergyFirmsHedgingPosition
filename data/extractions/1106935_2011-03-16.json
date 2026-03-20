@@ -1,0 +1,57 @@
+{
+  "cik": "1106935",
+  "company": "IVANHOE ENERGY INC",
+  "filing_date": "2011-03-16",
+  "accession_number": "0000950123-11-025965",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Company may periodically use derivative instruments to manage exposure to commodity price volatility. 2007 costless collar was part of bank loan facility; settled in 2009."
+    },
+    "instrument_count": 0,
+    "uses_derivatives": false,
+    "extraction_notes": "Cleared 1 invalid/expired instruments per audit (Ivanhoe Energy - collar settled Dec 2009, expired) | confirmed_no_instruments_via_reextract"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 288000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1738,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1738,
+      "proved_developed_reserves_mboe": 1265,
+      "proved_undeveloped_reserves_mboe": 473,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 39647,
+      "pv10_mm": null,
+      "oil_price_used": 76.35,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 16.45,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.586704"
+  }
+}

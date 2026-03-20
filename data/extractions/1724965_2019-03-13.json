@@ -1,0 +1,159 @@
+{
+  "cik": "1724965",
+  "company": "TALOS ENERGY INC.",
+  "filing_date": "2019-03-13",
+  "accession_number": "0001564590-19-007586",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 25059,
+        "volume_total": 9146535,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.39,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI crude oil swap"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 8630,
+        "volume_total": 3149950,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.0,
+        "ceiling_price": 3.95,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub NYMEX natural gas collar"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20820.29,
+        "volume_total": 13323230,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub NYMEX natural gas swap | Consolidated from 2 sub-period entries"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3444,
+        "volume_total": 947100,
+        "volume_unit": "Bbls",
+        "fixed_price": 56.94,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-04",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI crude oil swap entered subsequent to December 31, 2018"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3746,
+        "volume_total": 1371036,
+        "volume_unit": "Bbls",
+        "fixed_price": 57.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI crude oil swap entered subsequent to December 31, 2018"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3000,
+        "volume_total": 1098000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": 60.64,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI crude oil collar entered subsequent to December 31, 2018"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Mitigate commodity price risk and stabilize cash flows through oil and natural gas swaps and costless collars. Derivatives not designated for hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 11771000,
+      "oil_production_bpd": 32200,
+      "gas_production_mcf": 22771000,
+      "gas_production_mmcf_per_day": 62.4,
+      "ngl_production_bbls": 1176000,
+      "total_production_boe": 16742000,
+      "total_production_boepd": 45900,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 64.77,
+      "gas_price_used": 3.09,
+      "lease_operating_expense_per_boe": 9.76,
+      "production_tax_per_boe": 0.12,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 17.24,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.105699",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

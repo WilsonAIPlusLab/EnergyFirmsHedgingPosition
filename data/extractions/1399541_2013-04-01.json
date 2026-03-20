@@ -1,0 +1,123 @@
+{
+  "cik": "1399541",
+  "company": "Atlas Resources Public #17-2008 (B) L.P.",
+  "filing_date": "2013-04-01",
+  "accession_number": "0001193125-13-135824",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 301.92,
+        "volume_total": 110200,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.45,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": 0.0278,
+        "notes": "Puts purchased"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 251.51,
+        "volume_total": 91800,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.8,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": 0.0349,
+        "notes": "Puts purchased"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 201.37,
+        "volume_total": 73500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.0,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": 0.0344,
+        "notes": "Puts purchased"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 200.55,
+        "volume_total": 73400,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.15,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": 0.0441,
+        "notes": "Puts purchased"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "MGP enters into financial contracts to manage Partnership's commodity price exposure. Uses swaps, collars, options to hedge forecasted commodity sales. Qualifies for hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 10100,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2091600,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 600,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 84,
+      "proved_gas_reserves_mmcf": 9580,
+      "proved_ngl_reserves_mbbls": 2,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 8,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.325707"
+  }
+}

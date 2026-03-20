@@ -1,0 +1,142 @@
+{
+  "cik": "919721",
+  "company": "TRANS ENERGY INC",
+  "filing_date": "2016-07-08",
+  "accession_number": "0001193125-16-644608",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4864.09,
+        "volume_total": 3400000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.0,
+        "ceiling_price": 4.28,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-06",
+        "period_end": "2015-04",
+        "counterparty": "BP",
+        "fair_value_mm": 0.0,
+        "notes": "Costless collars covering approximately 85% of expected natural gas production from PDP wells; monthly volumes declining from 207,000 MMBtu in June 2013 to 113,000 MMBtu in April 2015; contract period completed in April 2015"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 8317.71,
+        "volume_total": 13932171,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.11,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-06",
+        "period_end": "2018-12",
+        "counterparty": "Morgan Stanley",
+        "fair_value_mm": 0.0,
+        "notes": "Morgan Stanley Fixed I; strike prices ranging between $4.38 to $4.06 per MMBtu; monetized in April 2015 for 2016-2018 volumes by resetting strike price from $4.11 to $3.27; monthly volumes declining from 444,534 MMBtu in July 2014 to 171,940 MMBtu in November 2018"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6632.37,
+        "volume_total": 10499038,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.92,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-09",
+        "period_end": "2018-12",
+        "counterparty": "Morgan Stanley",
+        "fair_value_mm": 0.0,
+        "notes": "Morgan Stanley Fixed II; fixed strike price of $3.92 per MMBtu; monetized in April 2015 for 2016-2018 volumes by resetting strike price from $3.92 to $3.27; monthly volumes declining from 326,700 MMBtu in January 2015 to 45,854 MMBtu in November 2018"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 9364.91,
+        "volume_total": 10263943,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.27,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2018-12",
+        "counterparty": "Morgan Stanley",
+        "fair_value_mm": 5.841,
+        "notes": "Morgan Stanley Restrike; combined Fixed I and Fixed II hedges for 2016-2018 volumes; strike price reset to current market price of $3.27; volumes: 2016: 4,166,789 MMBtu; 2017: 3,300,403 MMBtu; 2018: 2,796,751 MMBtu"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4893.57,
+        "volume_total": 7301209,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -1.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-12",
+        "period_end": "2018-12",
+        "counterparty": "Morgan Stanley",
+        "fair_value_mm": -1.728,
+        "notes": "Morgan Stanley Fixed III; basis swap covering approximately 50% of expected natural gas production from PDP wells; based on difference between TETCO M2 and IF Henry Hub (100%); monthly volumes declining from 266,891 MMBtu in December 2014 to 104,084 MMBtu in November 2018"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company may enter into derivative commodity contracts to manage or reduce commodity price risk related to production. Derivatives not designated as cash flow hedges; changes in fair value recognized in income."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1434,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 6505617,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.971701",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

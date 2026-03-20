@@ -1,0 +1,180 @@
+{
+  "cik": "1255474",
+  "company": "WHITING PETROLEUM CORP",
+  "filing_date": "2021-02-25",
+  "accession_number": "0001255474-21-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 12016.44,
+        "volume_total": 4386000,
+        "volume_unit": "Bbls",
+        "fixed_price": 41.85,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Crude oil fixed price swaps, NYMEX WTI, 2021, Successor"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 19057.53,
+        "volume_total": 6956000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 38.82,
+        "ceiling_price": 47.11,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Crude oil two-way collars, NYMEX WTI, 2021, Successor"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 12410.96,
+        "volume_total": 4530000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 38.41,
+        "ceiling_price": 48.75,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Crude oil two-way collars, NYMEX WTI, 2022, Successor"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 34328.77,
+        "volume_total": 12530000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.69,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Natural gas fixed price swaps, NYMEX Henry Hub, 2021, Successor"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 30000.0,
+        "volume_total": 10950000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.6,
+        "ceiling_price": 2.79,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Natural gas two-way collars, NYMEX Henry Hub, 2021, Successor"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3739.73,
+        "volume_total": 1365000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Natural gas fixed price swaps, NYMEX Henry Hub, 2022, Successor"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 29369.86,
+        "volume_total": 10720000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.35,
+        "ceiling_price": 2.85,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Natural gas two-way collars, NYMEX Henry Hub, 2022, Successor"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into derivative contracts (collars and swaps) to achieve predictable cash flow by reducing exposure to oil and natural gas price volatility. Does not apply hedge ac [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 22100000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 44000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 6600000,
+      "total_production_boe": 36100000,
+      "total_production_boepd": null,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 6.43,
+      "production_tax_per_boe": 1.81,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.84,
+      "dd_and_a_per_boe": 11.53,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.242643",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  },
+  "hedging_summary": {
+    "total_instruments": 0,
+    "instrument_types": {
+      "collar": 1,
+      "forward": 1,
+      "basis_swap": 2
+    }
+  }
+}

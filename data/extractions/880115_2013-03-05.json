@@ -1,0 +1,160 @@
+{
+  "cik": "880115",
+  "company": "CLAYTON WILLIAMS ENERGY INC /DE",
+  "filing_date": "2013-03-05",
+  "accession_number": "0000880115-13-000008",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 7388.89,
+        "volume_total": 665000,
+        "volume_unit": "Bbls",
+        "fixed_price": 93.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-03",
+        "counterparty": "JPMorgan Chase Bank, N.A.",
+        "fair_value_mm": null,
+        "notes": "Settlement based on NYMEX futures prices"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 7121,
+        "volume_total": 648000,
+        "volume_unit": "Bbls",
+        "fixed_price": 93.94,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-04",
+        "period_end": "2013-06",
+        "counterparty": "JPMorgan Chase Bank, N.A.",
+        "fair_value_mm": null,
+        "notes": "Settlement based on NYMEX futures prices"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3261.0,
+        "volume_total": 600000,
+        "volume_unit": "Bbls",
+        "fixed_price": 104.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-07",
+        "period_end": "2013-12",
+        "counterparty": "JPMorgan Chase Bank, N.A.",
+        "fair_value_mm": null,
+        "notes": "Settlement based on NYMEX futures prices | Consolidated from 2 sub-period entries"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1644,
+        "volume_total": 600000,
+        "volume_unit": "Bbls",
+        "fixed_price": 99.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": "JPMorgan Chase Bank, N.A.",
+        "fair_value_mm": null,
+        "notes": "Settlement based on NYMEX futures prices"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4057.54,
+        "volume_total": 1480000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.34,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": "JPMorgan Chase Bank, N.A.",
+        "fair_value_mm": null,
+        "notes": "Settlement based on NYMEX futures prices; One MMBtu equals one Mcf at a Btu factor of 1,000 | Consolidated from 4 sub-period entries"
+      },
+      {
+        "instrument_type": "volumetric_production_payment",
+        "commodity": "mixed",
+        "direction": "short",
+        "volume_per_day": 253.32,
+        "volume_total": 725000,
+        "volume_unit": "Boe",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2012-03",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": 45.479,
+        "notes": "VPP for $44.4M upfront plus $4.7M deferred; term overriding royalty interest covering approx 725K BOE; remaining obligation 607K BOE as of Dec 31 2012; accounted for as sale of reserves; third party assumed all price risks. Verified: no per-unit price applicable \u2014 VPP is a volumetric delivery obligation, buyer bears all price risk."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time, utilizes derivative instruments (swaps, floors, collars) to optimize prices. Currently open derivatives not designated as cash flow hedges; changes in fair value recorded in earnings."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.112966",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "cik": "717423",
+  "company": "MURPHY OIL CORP",
+  "filing_date": "2021-02-26",
+  "accession_number": "0000717423-21-000014",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 45000,
+        "volume_total": 16425000,
+        "volume_unit": "Bbls",
+        "fixed_price": 42.77,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "US WTI fixed price derivative swap; 45,000 Bbl/d x 365 days = 16,425,000 Bbls for full year 2021"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Bbls",
+        "fixed_price": 44.88,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "US WTI fixed price derivative swap; 20,000 Bbl/d x 365 days = 7,300,000 Bbls for full year 2022"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 160000,
+        "volume_total": 4960000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.54,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2021-01",
+        "period_end": "2021-01",
+        "notes": "Montney natural gas fixed price forward sale at AECO; 160 MMcf/d x 31 days = 4,960,000 Mcf (Jan 2021)"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 69728000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2021-02",
+        "period_end": "2021-12",
+        "notes": "Montney natural gas fixed price forward sale at AECO; consolidated Feb-May (203 MMcf/d x 120 days = 24,360,000 Mcf) and Jun-Dec (212 MMcf/d x 214 days = 45,368,000 Mcf) at same C$2.55 price = 69,728,000 Mcf total"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 222000,
+        "volume_total": 81030000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.41,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Montney natural gas fixed price forward sale at AECO; 222 MMcf/d x 365 days = 81,030,000 Mcf for full year 2022"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 192000,
+        "volume_total": 70080000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.36,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Montney natural gas fixed price forward sale at AECO; 192 MMcf/d x 365 days = 70,080,000 Mcf for full year 2023"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 147000,
+        "volume_total": 53802000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.41,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Montney natural gas fixed price forward sale at AECO; 147 MMcf/d x 366 days (leap year) = 53,802,000 Mcf for full year 2024"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Murphy uses derivative financial and commodity instruments to manage risks associated with existing or anticipated transactions."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10 | Verified 2026-03-19: FIXED - instrument_type forward_sale->forward; price_unit CAD$/Mcf->C$/Mcf; period dates populated for null entries; 2024 gas volume corrected 53,655,000->53,802,000 (leap year 366 days); hedging_summary corrected 0/0/0->2/5/0; volume_per_day populated where single-tranche"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 38009790,
+      "oil_production_bpd": 103966,
+      "gas_production_mcf": 129492145,
+      "gas_production_mmcf_per_day": 354.773,
+      "ngl_production_bbls": 4212465,
+      "total_production_boe": 63782372,
+      "total_production_boepd": 174636,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 714900,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 9.34,
+      "production_tax_per_boe": 0.44,
+      "total_production_cost_per_boe": 9.78,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 15.36,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.101511",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "verification_fix_timestamp": "2026-03-19T00:00:00"
+  }
+}

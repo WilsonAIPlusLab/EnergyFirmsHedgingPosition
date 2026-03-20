@@ -1,0 +1,148 @@
+{
+  "cik": "1539838",
+  "company": "Diamondback Energy, Inc.",
+  "filing_date": "2013-03-01",
+  "accession_number": "0001539838-13-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000.0,
+        "volume_total": 366000,
+        "volume_unit": "Bbls",
+        "fixed_price": 78.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": "BNP Paribas",
+        "fair_value_mm": -0.302,
+        "notes": "WTI swap on NYMEX; receive fixed pay floating (producer short); fair value as of December 31, 2012 = -$302K (Dec portion only; Jan-Nov $0 settled) | Consolidated from 2 sub-period entries (335,000 + 31,000 Bbls)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": 80.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": "BNP Paribas",
+        "fair_value_mm": -4.614,
+        "notes": "WTI swap on NYMEX; receive fixed pay floating (producer short); executed October 4, 2011 to lock-in prices; fair value as of December 31, 2012"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 737.70,
+        "volume_total": 270000,
+        "volume_unit": "Bbls",
+        "fixed_price": 85.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": "Hess Corporation",
+        "fair_value_mm": -0.323,
+        "notes": "April 2008 counter-swap (pay fixed, receive floating); original strike $85.07, lock-in price $98.25-$101.80; fair value as of December 31, 2012 = -$323K (Dec portion only; Jan-Nov $0 settled) | Consolidated from 2 sub-period entries (247,500 + 22,500 Bbls)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 245.90,
+        "volume_total": 90000,
+        "volume_unit": "Bbls",
+        "fixed_price": 85.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": "Hess Corporation",
+        "fair_value_mm": 0.034,
+        "notes": "June 2009 counter-swap (pay fixed, receive floating); original strike $85.07, lock-in price $80.52; fair value as of December 31, 2012 = +$34K (Dec portion only; Jan-Nov $0 settled) | Consolidated from 2 sub-period entries (82,500 + 7,500 Bbls)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000.0,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": 109.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2013-05",
+        "period_end": "2014-04",
+        "counterparty": "Wells Fargo",
+        "fair_value_mm": null,
+        "notes": "Subsequent event; entered February 1, 2013; fixed price swap settled against Brent Crude futures price from International Petroleum Exchange; receive fixed pay floating (producer short)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company uses price swap derivatives to reduce price volatility for oil sales. Counter-swaps lock-in swap value. Instruments not designated as hedges for accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 756286,
+      "oil_production_bpd": 2066,
+      "gas_production_mcf": 833516,
+      "gas_production_mmcf_per_day": 2.277,
+      "ngl_production_bbls": 183114,
+      "total_production_boe": 1078320,
+      "total_production_boepd": 2946,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 26196.859,
+      "proved_gas_reserves_mmcf": 34570.148,
+      "proved_ngl_reserves_mbbls": 8251.429,
+      "total_proved_reserves_mboe": 40209.979,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 88.13,
+      "gas_price_used": 2.86,
+      "lease_operating_expense_per_boe": 15.57,
+      "production_tax_per_boe": 3.42,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.39,
+      "dd_and_a_per_boe": 24.36,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.056692",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "verified_at": "2026-03-19",
+    "verification_corrections": [
+      "ERROR 1 (FAIL): Instruments 3 and 5 (Hess counter-swaps for December 2011) were removed — these positions settled in December 2011 and carry $0 fair value at December 31, 2012. They should not appear in the Dec 31, 2012 balance sheet. Original instrument 3 was Apr2008 Hess counter-swap 22,500 Bbls Dec 2011 @ $82.90 (fair_value_mm: -0.379 was Dec 31, 2011 value). Original instrument 5 was Jun2009 Hess counter-swap 7,500 Bbls Dec 2011 @ $82.90 (fair_value_mm: 0.034 was Dec 31, 2011 value).",
+      "ERROR 2 (FAIL): Instruments 1, 4, and 6 had fair_value_mm from the Dec 31, 2011 column instead of Dec 31, 2012. Fixed: Instrument 1 (BNP 2012 swap) from -7.427 to -0.302 (Dec 31, 2012: Jan-Nov settled at $0, only Dec portion -$302K remaining). Instrument 4 (Hess Apr2008 2012 counter-swap) from -3.877 to -0.323 (Dec 31, 2012: Jan-Nov settled at $0, Dec portion -$323K). Instrument 6 (Hess Jun2009 2012 counter-swap) from 0.409 to 0.034 (Dec 31, 2012: Jan-Nov settled at $0, Dec portion +$34K). Source: item8_notes.txt tables showing 2012 and 2011 columns side-by-side.",
+      "WARN: total_oil_instruments corrected from 7 to 5 after removing 2 settled Dec 2011 instruments. Corrections applied 2026-03-19."
+    ]
+  }
+}

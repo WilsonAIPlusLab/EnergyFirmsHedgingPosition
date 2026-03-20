@@ -1,0 +1,143 @@
+{
+  "cik": "943861",
+  "company": "GOODRICH PETROLEUM CORP",
+  "filing_date": "2018-03-02",
+  "accession_number": "0000943861-18-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 18000,
+        "volume_total": 6570000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered during 2017 to reduce price risk; approximate volume; contracts settled during 2017. Verified: source derivative table (Dec 31, 2017 open positions) only shows 2018-2019 open contracts; 2017 contracts already expired and no fixed price is disclosed \u2014 only aggregate settled gain ($471K) is reported."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 312,
+        "volume_total": 114025,
+        "volume_unit": "Bbls",
+        "fixed_price": 51.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": -0.517,
+        "notes": "Outstanding at December 31, 2017; counterparties JPMorgan Chase Bank and BP Energy Company"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 375,
+        "volume_total": 136800,
+        "volume_unit": "Bbls",
+        "fixed_price": 51.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": -1.002,
+        "notes": "Outstanding at December 31, 2017; counterparties JPMorgan Chase Bank and BP Energy Company"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 14034,
+        "volume_total": 5122500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": 0.566,
+        "notes": "Outstanding at December 31, 2017; counterparties JPMorgan Chase Bank and BP Energy Company"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30641,
+        "volume_total": 11184000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.009,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": 2.034,
+        "notes": "Outstanding at December 31, 2017; fixed price range $2.985-$3.033; counterparties JPMorgan Chase Bank and BP Energy Company"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Risk-management policies provide for use of derivative instruments (futures, swaps, options, fixed-price contracts) to manage commodity and interest rate risks. Volume varies yearly."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 304000,
+      "oil_production_bpd": 833,
+      "gas_production_mcf": 10323000,
+      "gas_production_mmcf_per_day": 28.28,
+      "ngl_production_bbls": null,
+      "total_production_boe": 2025000,
+      "total_production_boepd": 5547,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 428000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2017-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 1.0,
+      "production_tax_per_boe": 0.1,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.51,
+      "dd_and_a_per_boe": 1.0,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.978041",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

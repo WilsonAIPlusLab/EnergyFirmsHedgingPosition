@@ -1,0 +1,53 @@
+{
+  "cik": "864839",
+  "company": "ROYALE ENERGY INC",
+  "filing_date": "2017-04-28",
+  "accession_number": "0001185185-17-001006",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "We do not engage in hedging activities or use derivative instruments to manage market risks."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 193,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 232539,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5.853,
+      "proved_gas_reserves_mmcf": 2014.921,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1.483,
+      "pv10_mm": null,
+      "oil_price_used": 39.25,
+      "gas_price_used": 2.76,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T23:52:54Z"
+  }
+}

@@ -1,0 +1,63 @@
+=== HEDGING EXTRACTION VERIFICATION + RE-EXTRACTION -- FINAL REPORT ===
+Date: 2026-03-19
+
+SCOPE
+-----
+Total filings verified: 3,446
+Companies (CIKs): 453
+Filings with instruments: 1,591
+Filings with zero instruments: 1,855
+
+OVERALL RESULTS (POST RE-EXTRACTION)
+--------------------------------------
+PASS:   2,766 (80.3%)  -- extraction matches source exactly
+FIXED:    638 (18.5%)  -- errors found and corrected
+WARN:      42 ( 1.2%)  -- minor potential issues, unable to fix definitively
+FAIL:       0 ( 0.0%)  -- ALL FAILS RESOLVED
+
+INSTRUMENT INDEX
+-----------------
+Total instruments in index: 14,538
+Filings with instruments:    1,586
+
+RE-EXTRACTION SUMMARY (4 rounds)
+----------------------------------
+Round 1 (Noble Energy, Vital Energy, Northern O&G, Alta Mesa):
+  - 31 filings processed; FAIL 144->111
+Round 2 (Ovintiv, Diamondback, QEP, Eagle Rock, WPX):
+  - 31 filings; FAIL 111->80
+Round 3 (EOG, Legacy Reserves, Rosehill, Chaparral, SM Energy, Civitas, Murphy):
+  - 44 filings; FAIL 80->49
+Round 4 (Quicksilver, Unit Corp, Antero, GeoResources, Pioneer, PDC, EQT,
+         Venoco, Gastar, Battalion, PHX, Ultra, Roan, Breitburn, Range,
+         Gulfport, EPL, ATP, Atlas):
+  - 69+ filings; FAIL 49->0
+
+TOP FIXES DURING RE-EXTRACTION
+--------------------------------
+- Vital Energy 2019: 17->28 instruments (11 missing NGL instruments added)
+- EOG 2023: 6->19 instruments (sub-period splits + closed positions)
+- Noble Energy: 8/10 filings had schema/count normalization
+- WPX 2015: 7 null-volume instruments filled
+- Antero: Martica VIE instruments missing across 4 filings
+- Civitas 2015: sub_floor_price added to 6 three_way_collars
+- Gastar: sub_floor_price added from "Short Put" column
+
+REMAINING WARN (42 filings)
+-----------------------------
+Minor potential issues not definitively resolvable:
+- Ambiguous source text (weighted-average prices across sub-periods)
+- HTML parse failures leaving null volumes
+- Subsequent-event instruments with incomplete data
+- Consolidation choices that are defensible either way
+
+DATA QUALITY FINAL STATE
+--------------------------
+Before verification (initial):  ~13,760 instruments indexed
+After verification + re-extract: 14,538 instruments indexed (+778 net)
+Total corrections applied: 2,000+ field-level fixes across 638 filings
+
+NEXT STEPS
+----------
+1. Address remaining 42 WARN filings if needed
+2. Consider periodic re-verification as new filings are added

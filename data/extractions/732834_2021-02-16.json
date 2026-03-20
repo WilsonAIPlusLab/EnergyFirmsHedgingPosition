@@ -1,0 +1,142 @@
+{
+  "cik": "732834",
+  "company": "CONTINENTAL RESOURCES, INC",
+  "filing_date": "2021-02-16",
+  "accession_number": "0000732834-21-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 120000.0,
+        "volume_total": 10800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-01",
+        "period_end": "2021-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub swap"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 250000.0,
+        "volume_total": 22500000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.78,
+        "ceiling_price": 3.69,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-01",
+        "period_end": "2021-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub collar, floor range $2.65-$3.00, ceiling range $3.31-$4.00"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 36509.02,
+        "volume_total": 6678000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.59,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-04",
+        "period_end": "2021-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub swap | Consolidated from 2 sub-period entries"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 150000.0,
+        "volume_total": 27450000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.58,
+        "ceiling_price": 3.24,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2021-04",
+        "period_end": "2021-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Henry Hub collar, floor range $2.50-$2.60, ceiling range $3.06-$3.43 | Consolidated from 2 sub-period entries"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 15000.0,
+        "volume_total": 465000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 41.6,
+        "ceiling_price": 50.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI collar"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "May economically hedge portion of production to reduce price volatility. Uses swaps, collars, basis contracts. Decision based on market conditions. May liquidate positions early."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 58745000,
+      "oil_production_bpd": 160505,
+      "gas_production_mcf": 306528000,
+      "gas_production_mmcf_per_day": 837.509,
+      "ngl_production_bbls": null,
+      "total_production_boe": 109833000,
+      "total_production_boepd": 300090,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1104000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4650,
+      "pv10_mm": 4890,
+      "oil_price_used": 39.57,
+      "gas_price_used": 1.99,
+      "lease_operating_expense_per_boe": 3.27,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 17.12,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.110589",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "cik": "1685715",
+  "company": "Jagged Peak Energy Inc.",
+  "filing_date": "2017-03-24",
+  "accession_number": "0001685715-17-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3383.56,
+        "volume_total": 1235000,
+        "volume_unit": "Bbls",
+        "fixed_price": 48.33,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Predecessor (Jagged Peak Energy LLC) NYMEX WTI oil swaps; quarterly totals consolidated: Q1 337,675@$48.02 + Q2 314,675@$48.28 + Q3 307,450@$48.52 + Q4 275,200@$48.53 = 1,235,000 Bbls wtd avg $48.33"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2668.77,
+        "volume_total": 974100,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Predecessor NYMEX WTI oil swaps outstanding at Dec 31, 2016 for 2018"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Use commodity derivatives (collars, swaps, basis swaps) to hedge oil price risk. No minimum hedging requirement under amended credit facility; may hedge up to 85% proved reserves. [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 2,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1702000,
+      "oil_production_bpd": 4649,
+      "gas_production_mcf": 953000,
+      "gas_production_mmcf_per_day": 2.603,
+      "ngl_production_bbls": 194000,
+      "total_production_boe": 2054000,
+      "total_production_boepd": 5613,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 30537,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 37700,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 3.65,
+      "production_tax_per_boe": 2.12,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.51,
+      "dd_and_a_per_boe": 19.67,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.099351",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

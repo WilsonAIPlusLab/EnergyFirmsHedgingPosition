@@ -1,0 +1,72 @@
+{
+  "cik": "1086319",
+  "company": "GASCO ENERGY INC",
+  "filing_date": "2012-03-28",
+  "accession_number": "0001104659-12-022013",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 732000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.25,
+        "ceiling_price": 5.12,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": 0.865358,
+        "notes": "Index: Northwest Pipeline Rocky Mountains - Inside FERC first-of-month. Outstanding as of December 31, 2011."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity derivatives to provide stability to cash flows in volatile price environment and manage commodity price risk. Does not use hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 36852,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3659790,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 502,
+      "proved_gas_reserves_mmcf": 36798,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 6635,
+      "proved_developed_reserves_mboe": 6635,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 44.65,
+      "pv10_mm": 44.65,
+      "oil_price_used": 81.35,
+      "gas_price_used": 3.59,
+      "lease_operating_expense_per_boe": 2.08,
+      "production_tax_per_boe": 0.18,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 0.91,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.577252"
+  }
+}

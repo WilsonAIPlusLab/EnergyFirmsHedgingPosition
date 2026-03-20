@@ -1,0 +1,163 @@
+{
+  "cik": "945764",
+  "company": "DENBURY RESOURCES INC",
+  "filing_date": "2020-02-27",
+  "accession_number": "0000945764-20-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2000.0,
+        "volume_total": 732000,
+        "volume_unit": "Bbls",
+        "fixed_price": 60.59,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI NYMEX Fixed-Price Swaps | Consolidated from 2 sub-period entries"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4500.0,
+        "volume_total": 1647000,
+        "volume_unit": "Bbls",
+        "fixed_price": 62.29,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Argus LLS Fixed-Price Swaps | Consolidated from 2 sub-period entries"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 23000,
+        "volume_total": 4186000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 56.95,
+        "ceiling_price": 62.83,
+        "sub_floor_price": 48.25,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI NYMEX 3-Way Collars with sold put price $48.25"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 21000,
+        "volume_total": 3864000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 56.85,
+        "ceiling_price": 62.68,
+        "sub_floor_price": 48.26,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-07",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI NYMEX 3-Way Collars with sold put price $48.26"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10000,
+        "volume_total": 1820000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 61.52,
+        "ceiling_price": 68.21,
+        "sub_floor_price": 52.85,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Argus LLS 3-Way Collars with sold put price $52.85"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 8000,
+        "volume_total": 1472000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 61.08,
+        "ceiling_price": 68.39,
+        "sub_floor_price": 52.75,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-07",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Argus LLS 3-Way Collars with sold put price $52.75"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Routinely enter oil derivatives to hedge commodity price risk on anticipated future production and provide more certainty to cash flows. No hedge accounting applied."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 20684280,
+      "oil_production_bpd": 56672,
+      "gas_production_mcf": 3374790,
+      "gas_production_mmcf_per_day": 9.246,
+      "ngl_production_bbls": null,
+      "total_production_boe": 21247545,
+      "total_production_boepd": 58213,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 22.46,
+      "production_tax_per_boe": 4.09,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.97,
+      "dd_and_a_per_boe": 11.0,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.982278",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

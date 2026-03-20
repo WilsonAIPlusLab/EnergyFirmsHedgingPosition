@@ -1,0 +1,140 @@
+{
+  "cik": "1288403",
+  "company": "W&T OFFSHORE INC",
+  "filing_date": "2020-03-05",
+  "accession_number": "0001437749-20-004434",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 10000,
+        "volume_total": 1520000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 61.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-05",
+        "notes": "Crude oil calls bought, priced off WTI NYMEX, strike $61.00"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 10000,
+        "volume_total": 2140000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 67.5,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-06",
+        "period_end": "2020-12",
+        "notes": "Crude oil calls bought, priced off WTI NYMEX, strike $67.50"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 1520000,
+        "volume_unit": "Bbls",
+        "fixed_price": 60.92,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-05",
+        "notes": "Crude oil swaps priced off WTI NYMEX; three tranches at $60.80, $61.00, $60.85 consolidated (weighted avg $60.92); total 1,500+5,000+3,500 Bbls/day"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10000,
+        "volume_total": 2140000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": 63.51,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-06",
+        "period_end": "2020-12",
+        "notes": "Crude oil collars bought, priced off WTI NYMEX; two tranches (9,000 Bbls/day at $63.50 ceiling and 1,000 Bbls/day at $63.60 ceiling) consolidated, floor $45.00"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 40000,
+        "volume_total": 43840000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 3.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2022-12",
+        "notes": "Natural gas calls bought, priced off Henry Hub NYMEX, strike $3.00; 43,840,000 MMBtu total over 3-year period"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Used derivatives to reduce commodity price risk in 2019; open contracts as of 12/31/19. Does not designate as hedging instruments."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6653000,
+      "oil_production_bpd": 18225,
+      "gas_production_mcf": 101726000,
+      "gas_production_mmcf_per_day": 278.7,
+      "ngl_production_bbls": 1385000,
+      "total_production_boe": 14826000,
+      "total_production_boepd": 40621,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 37800,
+      "proved_gas_reserves_mmcf": 571100,
+      "proved_ngl_reserves_mbbls": 24500,
+      "total_proved_reserves_mboe": 157400,
+      "proved_developed_reserves_mboe": 133800,
+      "proved_undeveloped_reserves_mboe": 23600,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 986.9,
+      "pv10_mm": 1302.5,
+      "oil_price_used": 58.11,
+      "gas_price_used": 2.63,
+      "lease_operating_expense_per_boe": 12.43,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 10.01,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.255001",
+    "item7_merge_timestamp": "2026-02-28T07:03:38.394022+00:00",
+    "item7_instruments_added": 0
+  }
+}

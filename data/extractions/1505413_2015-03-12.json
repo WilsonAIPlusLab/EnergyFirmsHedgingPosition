@@ -1,0 +1,54 @@
+{
+  "cik": "1505413",
+  "company": "VOC Energy Trust",
+  "filing_date": "2015-03-12",
+  "accession_number": "0001047469-15-002071",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Trust receives 80% of hedge settlement proceeds from VOC Brazos for certain hedges existing on May 10, 2011. Trust itself does not hedge."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 574267,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 420998,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 644433,
+      "total_production_boepd": null,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6669.89,
+      "proved_gas_reserves_mmcf": 3970.457,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 7331.632,
+      "proved_developed_reserves_mboe": 5774.774,
+      "proved_undeveloped_reserves_mboe": 1556.859,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 209.269975,
+      "pv10_mm": null,
+      "oil_price_used": 90.27,
+      "gas_price_used": 4.91,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.188467"
+  }
+}

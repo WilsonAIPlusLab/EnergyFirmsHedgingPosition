@@ -1,0 +1,110 @@
+{
+  "cik": "732834",
+  "company": "CONTINENTAL RESOURCES, INC",
+  "filing_date": "2023-02-22",
+  "accession_number": "0000950170-23-003794",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 8000,
+        "volume_total": 2920000,
+        "volume_unit": "Bbls",
+        "fixed_price": 83.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": 14.5,
+        "notes": "WTI crude oil fixed price swaps at December 31, 2022. Source Note 6: Jan-Dec 2023: 8,000 Bbls/day fixed swaps @ $83.19/Bbl; also 12,000 Bbls/day roll swaps @ $1.07/Bbl. Fair value net asset $14.5M per Item 7A. Data recovered from Note 6 in item8_notes.txt lines 4953-5197."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 12000,
+        "volume_total": 4380000,
+        "volume_unit": "Bbls",
+        "fixed_price": 1.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Roll Swaps Jan-Dec 2023 at $1.07/Bbl."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 670000,
+        "volume_total": 978870000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.63,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2023-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": -193.2,
+        "notes": "Natural gas derivatives at December 31, 2022 spanning Jan 2023 to Dec 2026. Source Note 6: Jan-Mar 2023: collars 360K MMBtu/d @$3.91/$5.45, three-way collars 50K @$3.00/$4.32/$5.00, swaps Henry Hub 210K @$4.26, WAHA 55K @$2.81; Apr-Sep 2023: HH swaps 405K @$3.28, WAHA swaps 55K @$2.81; Oct-Dec 2023: HH collars 200K @$3.12/$4.09, HH swaps 210K @$3.51, WAHA 55K @$2.81; Jan-Dec 2024: HH collars 50K @$3.12/$4.09, HH swaps 325K @$3.31, WAHA 25K @$3.43; Jan-Dec 2025: HH swaps 60K @$3.75; Jan-Dec 2026: HH swaps 50K @$4.42; basis swaps NGPL TXOK 75K @$(0.17) Jan-Dec 2023. Fair value net liability $(193.2M) per Item 7A. Volume/price shown are approximate weighted average. Data recovered from Note 6 in item8_notes.txt."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Economically hedge portion of production to reduce price risk. Helps secure funds for capital program. May use basis contracts. May settle positions early."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 72827000,
+      "oil_production_bpd": 199526,
+      "gas_production_mcf": 442980000,
+      "gas_production_mmcf_per_day": 1213.643,
+      "ngl_production_bbls": null,
+      "total_production_boe": 146657000,
+      "total_production_boepd": 401800,
+      "production_year": 2022
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": 31910,
+      "pv10_mm": 39960,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.24,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 12.86,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.111103",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instruments [0,1] DATA RECOVERED from Note 6 in item8_notes.txt (lines 4953-5197). Note 6 contains complete derivative contract tables at December 31, 2022. Crude oil: 8,000 Bbls/day fixed WTI swaps @ $83.19/Bbl + 12,000 Bbls/day roll swaps @ $1.07 for Jan-Dec 2023. Natural gas: multiple contracts spanning Jan 2023-Dec 2026 with collars, three-way collars, and swaps at various Henry Hub and WAHA prices; basis swaps at $(0.17). See notes field for complete detail."
+  }
+}

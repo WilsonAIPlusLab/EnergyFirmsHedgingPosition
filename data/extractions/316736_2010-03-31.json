@@ -1,0 +1,123 @@
+{
+  "cik": "316736",
+  "company": "FieldPoint Petroleum Corp",
+  "filing_date": "2010-03-31",
+  "accession_number": "0000950123-10-030617",
+  "filing_type": "10-K",
+  "fiscal_year_end": "2009-12-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "has_commodity_hedges": false,
+      "hedge_mentions_context": "boilerplate_policy",
+      "note": "Item 7A describes company policy to periodically enter commodity price risk management transactions (futures, swaps, options) but explicitly states: 'At December 31, 2009 and December 31, 2008, there were no open positions. We did not have any derivative transactions during 2009 or 2008.' The 8 hedge mentions are boilerplate accounting policy language, not actual hedging activity.",
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed."
+    }
+  },
+  "production": {
+    "production": {
+      "note": "Production volumes not separately broken out in oil_gas supplemental disclosure. Standardized measure section provides pricing data.",
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "as_of_date": "2009-12-31",
+      "pricing_basis": "12-month average",
+      "benchmark_prices": {
+        "oil_per_bbl": 58.92,
+        "natural_gas_per_mmbtu": 3.59,
+        "note": "2008 year-end: oil $43.60/bbl, gas $5.21/MMBtu"
+      },
+      "note": "Reserve volumes not provided in the oil_gas supplemental section which contains only standardized measure data. FieldPoint is a small oil-focused E&P.",
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_thousand": {
+        "2009": {
+          "future_cash_inflows": 78571,
+          "future_production_costs": -31645,
+          "future_development_costs": -3401,
+          "future_income_taxes": -12294,
+          "future_net_cash_flows": 31231,
+          "ten_pct_annual_discount": -15233,
+          "standardized_measure": 15998
+        },
+        "2008": {
+          "future_cash_inflows": 52368,
+          "future_production_costs": -19584,
+          "future_development_costs": -3434,
+          "future_income_taxes": -8437,
+          "future_net_cash_flows": 20913,
+          "ten_pct_annual_discount": -10711,
+          "standardized_measure": 10202
+        }
+      },
+      "standardized_measure_using_year_end_prices_thousand": 24187,
+      "impact_of_new_reserve_rules_thousand": -8189,
+      "changes_in_standardized_measure_thousand": {
+        "2009": {
+          "beginning_of_year": 10202,
+          "sales_net_of_production_costs": -2010,
+          "purchases_of_minerals_in_place": 5599,
+          "extensions_and_discoveries": 884,
+          "net_changes_in_prices_and_production_costs": 1348,
+          "net_changes_in_future_development_costs": 25,
+          "revisions_and_other_changes": 881,
+          "accretion_of_discount": 1485,
+          "net_change_in_income_taxes": -2416,
+          "end_of_year": 15998
+        },
+        "2008": {
+          "beginning_of_year": 25843,
+          "sales_net_of_production_costs": -4133,
+          "purchases_of_minerals_in_place": 2244,
+          "extensions_and_discoveries": 163,
+          "net_changes_in_prices_and_production_costs": -21740,
+          "net_changes_in_future_development_costs": -1920,
+          "revisions_and_other_changes": -1303,
+          "accretion_of_discount": 3247,
+          "net_change_in_income_taxes": 7801,
+          "end_of_year": 10202
+        }
+      },
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "source_files": [
+      "item8_oil_gas.txt",
+      "item7a.txt",
+      "item8_notes.txt"
+    ],
+    "notes": "Small oil-focused E&P. Oil_gas supplemental section contains only standardized measure data (in thousands). Hedge mentions are boilerplate policy language -- no actual derivative positions existed during FY2009 or FY2008. Uses successful efforts accounting method. Reserve volumes were not separately reported in the supplemental oil and gas disclosure section extracted.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

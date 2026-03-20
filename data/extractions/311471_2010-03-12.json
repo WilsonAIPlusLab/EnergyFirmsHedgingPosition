@@ -1,0 +1,55 @@
+{
+  "cik": "311471",
+  "company": "APCO OIL & GAS INTERNATIONAL INC",
+  "filing_date": "2010-03-12",
+  "accession_number": "0000311471-10-000006",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "International E&P in Argentina. Discusses commodity price risk but does not use derivative instruments for hedging. No commodity hedging activity disclosed."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1330020,
+      "oil_production_bpd": 3643.9,
+      "gas_production_mcf": 5849497,
+      "gas_production_mmcf_per_day": 16.03,
+      "ngl_production_bbls": null,
+      "total_production_boe": 2423425,
+      "total_production_boepd": 6639.5,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 25800.0,
+      "proved_gas_reserves_mmcf": 103900.0,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 43116.7,
+      "proved_developed_reserves_mboe": 27266.7,
+      "proved_undeveloped_reserves_mboe": 15850.0,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 284.0,
+      "pv10_mm": null,
+      "oil_price_used": "$43.62/Bbl",
+      "gas_price_used": "$1.93/Mcf",
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-28T00:03:03Z",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

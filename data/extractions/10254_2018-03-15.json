@@ -1,0 +1,159 @@
+{
+  "cik": "10254",
+  "company": "EARTHSTONE ENERGY INC",
+  "filing_date": "2018-03-15",
+  "accession_number": "0001564590-18-005824",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4063.7,
+        "volume_total": 1483250,
+        "volume_unit": "Bbls",
+        "fixed_price": 51.38,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Crude oil fixed price swap"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1650.0,
+        "volume_total": 602250,
+        "volume_unit": "Bbls",
+        "fixed_price": -0.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis differential between Midland-WTI and NYMEX-WTI"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1500.0,
+        "volume_total": 547500,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.32,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Crude oil fixed price swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2219.18,
+        "volume_total": 810000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.066,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas fixed price swap; open as of December 31, 2017"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4251.37,
+        "volume_total": 1552000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.96,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas fixed price swap; entered into January 2018 subsequent to year-end"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000.0,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": 58.38,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered into January 2018 for 2019 oil production"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses fixed price swaps to hedge significant portion of expected oil & gas production through Dec 31, 2019. Mark-to-market accounting, not designated as hedging."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1828000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3260000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 500000,
+      "total_production_boe": 2872000,
+      "total_production_boepd": null,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2017-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 592.7,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 6.85,
+      "production_tax_per_boe": 2.11,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 12.85,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.558190",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

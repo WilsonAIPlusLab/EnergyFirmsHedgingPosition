@@ -1,0 +1,159 @@
+{
+  "cik": "1520006",
+  "company": "Matador Resources Co",
+  "filing_date": "2021-02-26",
+  "accession_number": "0001520006-21-000056",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 16110,
+        "volume_total": 5880000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 37.19,
+        "ceiling_price": 48.09,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": -18.734,
+        "notes": "Oil costless collar contracts, 5,880,000 Bbl for 2021. Weighted avg floor=$37.19/Bbl, ceiling=$48.09/Bbl."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 128767,
+        "volume_total": 47000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.46,
+        "ceiling_price": 3.68,
+        "price_unit": "$/MMBtu",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": 5.475,
+        "notes": "Natural gas costless collar contracts, 47,000,000 MMBtu for 2021. Floor=$2.46/MMBtu, ceiling=$3.68/MMBtu."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 33333,
+        "volume_total": 3000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.60,
+        "ceiling_price": 4.22,
+        "price_unit": "$/MMBtu",
+        "period_start": "2022-01",
+        "period_end": "2022-03",
+        "counterparty": null,
+        "fair_value_mm": 0.220,
+        "notes": "Natural gas costless collar contracts, 3,000,000 MMBtu for Q1 2022. Floor=$2.60/MMBtu, ceiling=$4.22/MMBtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5589,
+        "volume_total": 2040000,
+        "volume_unit": "Bbls",
+        "fixed_price": 35.26,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": -26.451,
+        "notes": "Oil swap contracts, 2,040,000 Bbl for 2021, fixed price=$35.26/Bbl."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 23014,
+        "volume_total": 8400000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.87,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": 1.229,
+        "notes": "Oil basis swap (WTI Midland vs WTI Cushing), 8,400,000 Bbl for 2021, fixed spread +$0.87/Bbl."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 15123,
+        "volume_total": 5520000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": 2.372,
+        "notes": "Oil basis swap (WTI Midland vs WTI Cushing), 5,520,000 Bbl for 2022, fixed spread +$0.95/Bbl."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses costless collars, three-way collars and swaps to manage oil, natural gas and NGL price risks. Expects to hedge significant portion of future production. No hedge accounting applied."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 15931000,
+      "oil_production_bpd": 43526,
+      "gas_production_mcf": 69500000,
+      "gas_production_mmcf_per_day": 189.9,
+      "ngl_production_bbls": null,
+      "total_production_boe": 27514000,
+      "total_production_boepd": 75175,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 159900,
+      "proved_gas_reserves_mmcf": 662300,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 270300,
+      "proved_developed_reserves_mboe": 124338,
+      "proved_undeveloped_reserves_mboe": 145962,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1580,
+      "pv10_mm": 1660,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 3.81,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 13.15,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.210727",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

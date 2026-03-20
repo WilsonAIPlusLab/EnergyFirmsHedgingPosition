@@ -1,0 +1,55 @@
+{
+  "cik": "101594",
+  "company": "US ENERGY CORP",
+  "filing_date": "2020-03-30",
+  "accession_number": "0001493152-20-005194",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Company uses derivatives to reduce price risk and achieve predictable cash flows; does not designate as hedges; no derivatives outstanding at Dec 31, 2019 or 2018. [Note: instruments not extractable from filing]"
+    },
+    "extraction_notes": "confirmed_no_instruments_via_reextract"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 110090,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 209518,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 145010,
+      "total_production_boepd": 397,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 55.69,
+      "gas_price_used": 2.58,
+      "lease_operating_expense_per_boe": 12.74,
+      "production_tax_per_boe": 2.96,
+      "total_production_cost_per_boe": 15.7,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.78,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.548490"
+  }
+}

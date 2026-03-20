@@ -1,0 +1,159 @@
+{
+  "cik": "1594466",
+  "company": "Parsley Energy, Inc.",
+  "filing_date": "2015-03-11",
+  "accession_number": "0001564590-15-001531",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 9680000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 67.91,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2017-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased puts in put spread options covering projected oil production"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 9680000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 50.86,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2017-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold puts in put spread options; strike price = 50.86; Q4 2014 strike prices were lowered and company collected ~$45.5MM cash"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 2405000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 114.69,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2017-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold calls as part of three-way collars for oil"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 3300,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.5,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased puts in three-way collars for natural gas"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 3300,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 3.75,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold puts as part of three-way collars for natural gas"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 3300,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 5.25,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold calls as part of three-way collars for natural gas"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives to reduce exposure to commodity price volatility; enters put spread options and three-way collars on NYMEX WTI and Henry Hub; not designated as hedges for accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2839000,
+      "oil_production_bpd": 7778,
+      "gas_production_mcf": 14074000,
+      "gas_production_mmcf_per_day": 38.559,
+      "ngl_production_bbls": null,
+      "total_production_boe": 5186000,
+      "total_production_boepd": 14207,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 85.99,
+      "gas_price_used": 4.28,
+      "lease_operating_expense_per_boe": 7.34,
+      "production_tax_per_boe": 3.65,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 18.18,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.076742",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

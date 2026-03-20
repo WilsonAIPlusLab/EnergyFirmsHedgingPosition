@@ -1,0 +1,172 @@
+{
+  "cik": "1433270",
+  "company": "ANTERO RESOURCES Corp",
+  "filing_date": "2014-02-27",
+  "accession_number": "0001047469-14-001424",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 610000,
+        "volume_total": 222650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.68,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "Natural gas fixed price swaps for 2014: CGTAP-TCO 210,000/d @$5.11, Dominion South 160,000/d @$5.15, NYMEX 230,000/d @$3.99, CGLA 10,000/d @$3.87. Weighted avg ~$4.68"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3000,
+        "volume_total": 1095000,
+        "volume_unit": "Bbls",
+        "fixed_price": 96.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "Oil NYMEX-WTI fixed price swap 3,000 Bbls/day @$96.53/Bbl for 2014"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 540000,
+        "volume_total": 197100000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.83,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "Natural gas fixed price swaps for 2015: CGTAP-TCO 130,000/d @$4.93, Dominion South 230,000/d @$5.60, NYMEX 140,000/d @$4.08, CGLA 40,000/d @$4.00"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 632500,
+        "volume_total": 231462500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.78,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Natural gas fixed price swaps for 2016: CGTAP-TCO 80,000/d @$4.67, Dominion South 272,500/d @$5.35, NYMEX 110,000/d @$4.18, CGLA 170,000/d @$4.09"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 740000,
+        "volume_total": 270100000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.34,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Natural gas fixed price swaps for 2017: CGTAP-TCO 20,000/d @$4.02, NYMEX 230,000/d @$4.43, CGLA 420,000/d @$4.27, CCG 70,000/d @$4.57"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 620000,
+        "volume_total": 226300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.66,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Natural gas NYMEX fixed price swap 620,000 MMBtu/d @$4.66 for 2018"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 277500,
+        "volume_total": 101287500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.51,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Natural gas CGLA fixed price swap 277,500 MMBtu/d @$4.51 for 2019"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedge up to 85% of production for 0-12 months declining to 65% for 49-60 months; use swaps and collars to support prices and manage exposure; do not use hedge accounting [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 226000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 177000000,
+      "gas_production_mmcf_per_day": 522,
+      "ngl_production_bbls": 2123000,
+      "total_production_boe": 31833333,
+      "total_production_boepd": null,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 7600000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.05,
+      "production_tax_per_boe": 0.26,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.15,
+      "dd_and_a_per_boe": 1.23,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.345550",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

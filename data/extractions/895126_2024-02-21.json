@@ -1,0 +1,108 @@
+{
+  "cik": "895126",
+  "company": "CHESAPEAKE ENERGY CORP",
+  "filing_date": "2024-02-21",
+  "accession_number": "0000895126-24-000013",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 343000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": null,
+        "notes": "343 Bcf notional volume as of Dec 31 2023; individual fixed prices not disclosed in filing (only aggregate fair values reported)."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 558000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": null,
+        "notes": "558 Bcf notional volume as of Dec 31 2023; floor and ceiling prices not disclosed in filing."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 578000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": null,
+        "notes": "578 Bcf basis protection swaps as of Dec 31 2023."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives to reduce exposure to commodity price fluctuations and protect operating cash flow. Instruments include swaps, collars, options, and basis protection. [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 3,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Schema-normalized 2026-03-10"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 7665000,
+      "oil_production_bpd": 21,
+      "gas_production_mcf": 1266550000,
+      "gas_production_mmcf_per_day": 3470,
+      "ngl_production_bbls": 3650000,
+      "total_production_boe": 224742000,
+      "total_production_boepd": null,
+      "production_year": 2023
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 77.8,
+      "gas_price_used": 2.25,
+      "lease_operating_expense_per_boe": 0.27,
+      "production_tax_per_boe": 0.13,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.64,
+      "dd_and_a_per_boe": 1.14,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.964851",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "cik": "315852",
+  "company": "RANGE RESOURCES CORP",
+  "filing_date": "2010-02-24",
+  "accession_number": "0000950123-10-015884",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 242356,
+        "volume_total": 88459940,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5.53,
+        "ceiling_price": 7.37,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "notes": "Natural gas collars for 2010; 242,356 Mmbtu/day at $5.53-$7.37 weighted average floor/cap"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 55000,
+        "volume_total": 20075000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.0,
+        "ceiling_price": 7.5,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "notes": "Natural gas collars for 2011; 55,000 Mmbtu/day at $6.00-$7.50"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 75.0,
+        "ceiling_price": 93.75,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "notes": "Crude oil collars for 2010; 1,000 bbls/day at $75.00-$93.75"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "notes": "Basis swap agreements to fix basis adjustments between NYMEX and regional prices; fair value was a net unrealized pre-tax loss of $17.8 million at Dec 31, 2009. No volume or price detail provided in the filing."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company uses commodity derivative contracts (collars and basis swaps) to reduce exposure to commodity price volatility on a substantial but varying portion of gas and oil production.",
+      "total_instruments": 4,
+      "by_commodity": {"natural_gas": 3, "crude_oil": 1},
+      "by_type": {"collar": 3, "basis_swap": 1}
+    },
+    "uses_derivatives": true,
+    "instrument_count": 4,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2556879,
+      "oil_production_bpd": 7005,
+      "gas_production_mcf": 130648694,
+      "gas_production_mmcf_per_day": 357.942,
+      "ngl_production_bbls": 2186999,
+      "total_production_boe": 26518296,
+      "total_production_boepd": 72659,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.04,
+      "production_tax_per_boe": 1.2,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 14.1,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.072511",
+    "item7_cleanup_timestamp": "2026-02-28T06:09:31.444815+00:00"
+  },
+  "hedging_summary": {
+    "total_instruments": 4,
+    "by_type": {"collar": 3, "basis_swap": 1},
+    "by_commodity": {"natural_gas": 3, "crude_oil": 1}
+  }
+}

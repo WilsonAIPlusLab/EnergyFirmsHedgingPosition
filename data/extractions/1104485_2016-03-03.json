@@ -1,0 +1,161 @@
+{
+  "cik": "1104485",
+  "company": "NORTHERN OIL & GAS, INC.",
+  "filing_date": "2016-03-03",
+  "accession_number": "0001104485-16-000049",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 989.01,
+        "volume_total": 180000,
+        "volume_unit": "Bbls",
+        "fixed_price": 89.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-06",
+        "counterparty": "Banks that participate in revolving credit facility",
+        "fair_value_mm": null,
+        "notes": null
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2967.03,
+        "volume_total": 540000,
+        "volume_unit": "Bbls",
+        "fixed_price": 90.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-06",
+        "counterparty": "Banks that participate in revolving credit facility",
+        "fair_value_mm": null,
+        "notes": "Consolidated from 4 same-price entries (180K+180K+90K+90K)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 989.01,
+        "volume_total": 180000,
+        "volume_unit": "Bbls",
+        "fixed_price": 91.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-06",
+        "counterparty": "Banks that participate in revolving credit facility",
+        "fair_value_mm": null,
+        "notes": null
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2445.65,
+        "volume_total": 450000,
+        "volume_unit": "Bbls",
+        "fixed_price": 65.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-07",
+        "period_end": "2016-12",
+        "counterparty": "Banks that participate in revolving credit facility",
+        "fair_value_mm": null,
+        "notes": "Consolidated from 3 same-price entries (180K+90K+180K)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1956.52,
+        "volume_total": 360000,
+        "volume_unit": "Bbls",
+        "fixed_price": 64.93,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-07",
+        "period_end": "2016-12",
+        "counterparty": "Banks that participate in revolving credit facility",
+        "fair_value_mm": null,
+        "notes": "Consolidated from 2 same-price entries (180K+180K)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 489.13,
+        "volume_total": 90000,
+        "volume_unit": "Bbls",
+        "fixed_price": 65.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-07",
+        "period_end": "2016-12",
+        "counterparty": "Banks that participate in revolving credit facility",
+        "fair_value_mm": null,
+        "notes": null
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enter into derivative contracts to achieve more predictable cash flow by reducing exposure to oil price volatility; hedge significant but varying portion of anticipated future production"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5168687,
+      "oil_production_bpd": 14161,
+      "gas_production_mcf": 4651583,
+      "gas_production_mmcf_per_day": 12.744,
+      "ngl_production_bbls": null,
+      "total_production_boe": 5943950,
+      "total_production_boepd": 16285,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 56815,
+      "proved_gas_reserves_mmcf": 50901,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 65298,
+      "proved_developed_reserves_mboe": 42091,
+      "proved_undeveloped_reserves_mboe": 23100,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 42.03,
+      "gas_price_used": 1.63,
+      "lease_operating_expense_per_boe": 8.77,
+      "production_tax_per_boe": 3.63,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 23.18,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.584382",
+    "item7_merge_timestamp": "2026-02-28T07:00:09.757456+00:00",
+    "item7_instruments_added": 0,
+    "item7_false_positives_removed": 2,
+    "item7_cleanup_timestamp": "2026-02-28T07:05:20.572317+00:00"
+  }
+}

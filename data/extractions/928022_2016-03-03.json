@@ -1,0 +1,156 @@
+{
+  "cik": "928022",
+  "company": "CALLON PETROLEUM CO",
+  "filing_date": "2016-03-03",
+  "accession_number": "0000928022-16-000132",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2000.0,
+        "volume_total": 732000,
+        "volume_unit": "Bbls",
+        "fixed_price": 58.23,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "NYMEX oil swap contracts. Q1: 182 MBbls, Q2: 182 MBbls, Q3: 184 MBbls, Q4: 184 MBbls. Total 732 MBbls at $58.23/Bbl. Outstanding as of Dec 31, 2015."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4000.0,
+        "volume_total": 1464000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Midland basis differential swap contracts. Q1: 364 MBbls, Q2: 364 MBbls, Q3: 368 MBbls, Q4: 368 MBbls. Total 1,464 MBbls at $0.17/Bbl differential. Outstanding as of Dec 31, 2015."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000.0,
+        "volume_total": 732000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": 65.0,
+        "sub_floor_price": 40.33,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "WTI three-way collar (collar + short put). Q1: 182 MBbls, Q2: 182 MBbls, Q3: 184 MBbls, Q4: 184 MBbls. Total 732 MBbls. Ceiling $65.00, floor $55.00, short put $40.33. Outstanding as of Dec 31, 2015."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1830.6,
+        "volume_total": 670000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 37.5,
+        "ceiling_price": 46.5,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Oil collar contracts executed subsequent to Dec 31, 2015. Q1: 120 MBbls, Q2: 182 MBbls, Q3: 184 MBbls, Q4: 184 MBbls. Total 670 MBbls. Floor $37.50, ceiling $46.50."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5491.8,
+        "volume_total": 2010000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.52,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Natural gas swap contracts executed subsequent to Dec 31, 2015. Q1: 360 BBtu, Q2: 546 BBtu, Q3: 552 BBtu, Q4: 552 BBtu. Total 2,010 BBtu at $2.52/MMBtu."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1835.62,
+        "volume_total": 670000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 50.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Short call contracts executed subsequent to Dec 31, 2015. Q1: 165 MBbls, Q2: 167 MBbls, Q3: 169 MBbls, Q4: 169 MBbls. Total 670 MBbls. Strike price $50.00/Bbl."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedge 50-75% of anticipated production for next 12-24 months. As of Dec 31, 2015, 64% oil & 36% gas hedged for 2016, plus 44% Midland WTI basis. Details in Note 6."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Patched from audit results (2026-03-09)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2789000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 4312000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 3508000,
+      "total_production_boepd": 9610,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 54271,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 50.16,
+      "gas_price_used": 2.64,
+      "lease_operating_expense_per_boe": 7.71,
+      "production_tax_per_boe": 2.79,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 19.74,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.973435",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "cik": "1001614",
+  "company": "TENGASCO INC",
+  "filing_date": "2011-01-28",
+  "accession_number": "0001001614-11-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 312.33,
+        "volume_total": 114000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": 81.5,
+        "price_unit": "USD/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": -0.748,
+        "notes": "9,500 Bbls/month. WTI NYMEX. Counterparty: Macquarie Bank Limited."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 243.51,
+        "volume_total": 51625,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": 81.5,
+        "price_unit": "USD/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-07",
+        "counterparty": null,
+        "fair_value_mm": -0.565,
+        "notes": "7,375 Bbls/month Jan-Jul 2011. WTI NYMEX. Counterparty: Macquarie Bank Limited."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company uses costless collar derivative instruments to manage exposure to commodity price risk on oil production. Entered 2-year agreement Jul 2009."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 171000,
+      "oil_production_bpd": 468,
+      "gas_production_mcf": 73000,
+      "gas_production_mmcf_per_day": 0.2,
+      "ngl_production_bbls": null,
+      "total_production_boe": 183000,
+      "total_production_boepd": 501,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2273,
+      "proved_gas_reserves_mmcf": 116,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 2293,
+      "proved_developed_reserves_mboe": 1598,
+      "proved_undeveloped_reserves_mboe": 694,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 28.187,
+      "pv10_mm": 28.187,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 28.55,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 9.84,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_method": "claude-code-interactive",
+    "extraction_timestamp": "2026-02-27T12:33:24"
+  }
+}

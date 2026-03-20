@@ -1,0 +1,173 @@
+{
+  "cik": "1338613",
+  "company": "Regency Energy Partners LP",
+  "filing_date": "2012-02-22",
+  "accession_number": "0001338613-12-000013",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 1018.25,
+        "volume_total": 279000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.47,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/gallon",
+        "period_start": "2012-01",
+        "period_end": "2012-09",
+        "notes": "Ethane swap, Mont Belvieu OPIS index, 279 MBbls at $0.47/gallon"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "ngl",
+        "direction": "long",
+        "volume_per_day": 597.83,
+        "volume_total": 110000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 0.66,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/gallon",
+        "period_start": "2012-07",
+        "period_end": "2012-12",
+        "notes": "Ethane put options, Mont Belvieu OPIS index, 110 MBbls at $0.66/gallon strike; exercised only when market price below strike"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 616.23,
+        "volume_total": 281000,
+        "volume_unit": "Bbls",
+        "fixed_price": 1.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/gallon",
+        "period_start": "2012-01",
+        "period_end": "2013-03",
+        "notes": "Propane swap, Mont Belvieu OPIS index, 281 MBbls at $1.13/gallon"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 364.04,
+        "volume_total": 166000,
+        "volume_unit": "Bbls",
+        "fixed_price": 1.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/gallon",
+        "period_start": "2012-01",
+        "period_end": "2013-03",
+        "notes": "Normal Butane swap, Mont Belvieu OPIS index, 166 MBbls at $1.53/gallon"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 192.98,
+        "volume_total": 88000,
+        "volume_unit": "Bbls",
+        "fixed_price": 2.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/gallon",
+        "period_start": "2012-01",
+        "period_end": "2013-03",
+        "notes": "Natural Gasoline swap, Mont Belvieu OPIS index, 88 MBbls at $2.01/gallon"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 426.31,
+        "volume_total": 350000,
+        "volume_unit": "Bbls",
+        "fixed_price": 94.85,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2014-03",
+        "notes": "WTI crude condensate swap, NYMEX index, 350 MBbls at $94.85/Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6005.46,
+        "volume_total": 2198000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "notes": "Natural gas swap, NYMEX index, 2,198,000 MMBtu at $5.05/MMBtu"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 5,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "[EXCLUDED: Non-E&P producer. Regency Energy Partners LP is a midstream/refiner/LNG company, not an oil & gas producer. Instruments removed from hedge ratio study.] Original: Manages commodity price risk through contract portfolio management, matching sales and purchases, optimizing basis differentials, and derivative contracts. Speculative positions prohibited.",
+      "total_instruments": 0
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.272598",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

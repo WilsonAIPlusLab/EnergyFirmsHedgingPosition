@@ -1,0 +1,54 @@
+{
+  "cik": "1505413",
+  "company": "VOC Energy Trust",
+  "filing_date": "2025-03-20",
+  "accession_number": "0001104659-25-026133",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Trust is a smaller reporting company; not required to provide market risk disclosures. No commodity derivatives discussed in filing."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 355664,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 208689,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 390446,
+      "total_production_boepd": null,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1877,
+      "proved_gas_reserves_mmcf": 1189,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 2075,
+      "proved_developed_reserves_mboe": 1694,
+      "proved_undeveloped_reserves_mboe": 381,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 34.780518,
+      "pv10_mm": null,
+      "oil_price_used": 72.58,
+      "gas_price_used": 1.17,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.190924"
+  }
+}

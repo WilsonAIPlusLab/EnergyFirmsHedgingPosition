@@ -1,0 +1,140 @@
+{
+  "cik": "1524769",
+  "company": "CHESAPEAKE GRANITE WASH TRUST",
+  "filing_date": "2015-03-12",
+  "accession_number": "0001524769-15-000003",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 640.22,
+        "volume_total": 58900.0,
+        "volume_unit": "Bbls",
+        "fixed_price": 88.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-07",
+        "period_end": "2014-09",
+        "counterparty": null,
+        "fair_value_mm": 0.22,
+        "notes": "Includes September 2014 production that was settled in February 2015"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1894.57,
+        "volume_total": 174300.0,
+        "volume_unit": "Bbls",
+        "fixed_price": 88.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-10",
+        "period_end": "2014-12",
+        "counterparty": null,
+        "fair_value_mm": 2.17,
+        "notes": "Includes October and November 2014 production that was settled in February 2015"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1900.0,
+        "volume_total": 171000.0,
+        "volume_unit": "Bbls",
+        "fixed_price": 88.59,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-03",
+        "counterparty": null,
+        "fair_value_mm": 5.693,
+        "notes": null
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1927.47,
+        "volume_total": 175400.0,
+        "volume_unit": "Bbls",
+        "fixed_price": 88.76,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-04",
+        "period_end": "2015-06",
+        "counterparty": null,
+        "fair_value_mm": 5.565,
+        "notes": null
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1669.57,
+        "volume_total": 153600.0,
+        "volume_unit": "Bbls",
+        "fixed_price": 88.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-07",
+        "period_end": "2015-09",
+        "counterparty": null,
+        "fair_value_mm": 4.974,
+        "notes": null
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Trust has fixed-price oil swaps covering portion of expected production from Oct 2011-Sept 2015. Also covers NGL at 49.2% conversion ratio if oil production falls below hedged volume."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 362000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 7911000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 776000,
+      "total_production_boe": 2456000,
+      "total_production_boepd": null,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1468,
+      "proved_gas_reserves_mmcf": 45510,
+      "proved_ngl_reserves_mbbls": 4870,
+      "total_proved_reserves_mboe": 13923,
+      "proved_developed_reserves_mboe": 10972,
+      "proved_undeveloped_reserves_mboe": 2951,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 236.875,
+      "pv10_mm": null,
+      "oil_price_used": 90.21,
+      "gas_price_used": 2.77,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.217014"
+  }
+}

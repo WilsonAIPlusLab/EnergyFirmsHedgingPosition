@@ -1,0 +1,119 @@
+{
+  "cik": "1255474",
+  "company": "WHITING PETROLEUM CORP",
+  "filing_date": "2018-02-22",
+  "accession_number": "0001255474-18-000008",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 47671.23,
+        "volume_total": 17400000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "sub_floor_price": 37.07,
+        "floor_price": 47.07,
+        "ceiling_price": 57.3,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI three-way collar. Sub-floor $37.07/floor $47.07/ceiling $57.30. 1,450,000 Bbl/month × 12 months = 17,400,000 Bbl."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 13150.68,
+        "volume_total": 4800000,
+        "volume_unit": "Bbls",
+        "fixed_price": 61.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI fixed-price swap. $61.74/Bbl. 400,000 Bbl/month × 12 months = 4,800,000 Bbl."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 4972.38,
+        "volume_total": 900000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": 65.33,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI costless collar. 150,000 Bbl/month × 6 months = 900,000 Bbl. H1 2019."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into derivative contracts (costless collars and swaps) to achieve more predictable cash flow by reducing exposure to oil and gas price volatility; does not apply hedge accounting"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 29300000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 41300000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 7000000,
+      "total_production_boe": 43100000,
+      "total_production_boepd": null,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 44.3,
+      "gas_price_used": 1.78,
+      "lease_operating_expense_per_boe": 8.51,
+      "production_tax_per_boe": 2.86,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 22.01,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.241890",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  },
+  "hedging_summary": {
+    "total_instruments": 10,
+    "instrument_types": {
+      "three_way_collar": 4,
+      "swap": 4,
+      "collar": 3,
+      "future": 3,
+      "forward": 2
+    }
+  }
+}

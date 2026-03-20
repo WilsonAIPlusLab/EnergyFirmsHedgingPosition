@@ -1,0 +1,142 @@
+{
+  "cik": "821483",
+  "company": "PAR PACIFIC HOLDINGS, INC.",
+  "filing_date": "2019-03-11",
+  "accession_number": "0000821483-19-000014",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 305000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2019-03",
+        "notes": "Long futures positions of 305 thousand barrels as of Dec 31, 2018, expiring through March 2019. Used to manage commodity price risk on inventory and purchases."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 26000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2019-03",
+        "notes": "Short futures positions of 26 thousand barrels as of Dec 31, 2018, expiring through March 2019."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 300000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2019-03",
+        "notes": "Long OTC swap positions of 300 thousand barrels as of Dec 31, 2018, expiring through March 2019. Includes time-spread swaps required under J.Aron Supply and Offtake Agreements."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 804000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2019-03",
+        "notes": "Short OTC swap positions of 804 thousand barrels as of Dec 31, 2018, expiring through March 2019."
+      },
+      {
+        "instrument_type": "interest_rate_swap",
+        "commodity": "other",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 0.97,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "percent",
+        "period_start": null,
+        "period_end": "2019-02",
+        "notes": "Interest rate swap on $100 million notional, locked in fixed rate of 0.97% in exchange for floating 3-month LIBOR. Matured February 2019."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "[EXCLUDED: Non-E&P producer. PAR PACIFIC HOLDINGS, INC. is a midstream/refiner/LNG company, not an oil & gas producer. Instruments removed from hedge ratio study.] Original: Manage commodity price risk via exchange futures, options, OTC swaps for inventory, crude purchases, refined product sales, fuel consumption. Required time spread hedges under J.Aron agreements.",
+      "total_instruments": 0
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Patched from audit results (2026-03-09)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 106000,
+      "oil_production_bpd": 290,
+      "gas_production_mcf": 25513000,
+      "gas_production_mmcf_per_day": 69.899,
+      "ngl_production_bbls": 712000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 325,
+      "proved_gas_reserves_mmcf": 81428,
+      "proved_ngl_reserves_mbbls": 3715,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 17611,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 55.43,
+      "gas_price_used": 2.67,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.087384",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

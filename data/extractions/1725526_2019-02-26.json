@@ -1,0 +1,143 @@
+{
+  "cik": "1725526",
+  "company": "HighPoint Resources Corp",
+  "filing_date": "2019-02-26",
+  "accession_number": "0001725526-19-000062",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 16942.97,
+        "volume_total": 6184184,
+        "volume_unit": "Bbls",
+        "fixed_price": 58.88,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "As of February 21, 2019"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 8356.16,
+        "volume_total": 3050000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.46,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "As of February 21, 2019"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 8994.54,
+        "volume_total": 3292000,
+        "volume_unit": "Bbls",
+        "fixed_price": 59.77,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "As of February 21, 2019"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1512.33,
+        "volume_total": 552000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": 77.56,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Cashless collar as of February 21, 2019"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 616.44,
+        "volume_total": 225000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.25,
+        "ceiling_price": 4.45,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Cashless collar as of February 21, 2019"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Support oil, gas, NGL prices at targeted levels, manage exposure to price fluctuations. Entered into swaps and cashless collars. Not for speculative/trading purposes. [Removed duplicate instruments reported as-of Dec 31, 2018; kept Feb 21, 2019 positions which supersede them.]",
+      "total_instruments": 5
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6330000,
+      "oil_production_bpd": 17342,
+      "gas_production_mcf": 12864000,
+      "gas_production_mmcf_per_day": 35.2,
+      "ngl_production_bbls": 1697000,
+      "total_production_boe": 10171000,
+      "total_production_boepd": 27866,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 58976,
+      "proved_gas_reserves_mmcf": 140275,
+      "proved_ngl_reserves_mbbls": 22222,
+      "total_proved_reserves_mboe": 104578,
+      "proved_developed_reserves_mboe": 51382,
+      "proved_undeveloped_reserves_mboe": 53196,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1276.0,
+      "pv10_mm": null,
+      "oil_price_used": 62.99,
+      "gas_price_used": 1.23,
+      "lease_operating_expense_per_boe": 2.74,
+      "production_tax_per_boe": 3.61,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.46,
+      "dd_and_a_per_boe": 22.46,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.107340",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "cik": "821189",
+  "company": "EOG RESOURCES INC",
+  "filing_date": "2015-02-18",
+  "accession_number": "0000821189-15-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 47000,
+        "volume_total": 7050000,
+        "volume_unit": "Bbls",
+        "fixed_price": 91.22,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-02",
+        "period_end": "2015-06",
+        "notes": "NYMEX WTI crude oil price swap; 47,000 Bbld for February 1 through June 30, 2015 (150 days); January 2015 was closed at filing date"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 1840000,
+        "volume_unit": "Bbls",
+        "fixed_price": 89.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-07",
+        "period_end": "2015-12",
+        "notes": "NYMEX WTI crude oil price swap; 10,000 Bbld for July 1 through December 31, 2015 (184 days); counterparty holds option to extend 37,000 Bbld at $91.56/Bbl for this period (contingent, not included)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 225000,
+        "volume_total": 6975000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-03",
+        "period_end": "2015-03",
+        "notes": "NYMEX Henry Hub natural gas price swap; 225,000 MMBtud for March 2015 (31 days); Jan 1-Feb 28, 2015 period (235,000 MMBtud @ $4.47) was closed at filing date"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 195000,
+        "volume_total": 5850000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.49,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-04",
+        "period_end": "2015-04",
+        "notes": "NYMEX Henry Hub natural gas price swap; 195,000 MMBtud for April 2015 (30 days)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 175000,
+        "volume_total": 42875000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.51,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2015-05",
+        "period_end": "2015-12",
+        "notes": "NYMEX Henry Hub natural gas price swap; 175,000 MMBtud for May 1 through December 31, 2015 (245 days); counterparty holds option to add 175,000 MMBtud at $4.51/MMBtu monthly Mar-Dec 2015 (contingent, not included)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "EOG engages in price risk mgmt using swaps, options, swaptions, collars, basis swaps. Mark-to-market accounting (no hedge designation) for 2012-2014. [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10); corrected 2026-03-19 — split consolidated gas instrument into 3 separate sub-period instruments per source table"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 105447850,
+      "oil_production_bpd": 288900,
+      "gas_production_mcf": 493845000,
+      "gas_production_mmcf_per_day": 1353,
+      "ngl_production_bbls": 29309500,
+      "total_production_boe": 217066500,
+      "total_production_boepd": 594700,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 2497000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 6.53,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 4.48,
+      "dd_and_a_per_boe": 18.43,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.082683",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

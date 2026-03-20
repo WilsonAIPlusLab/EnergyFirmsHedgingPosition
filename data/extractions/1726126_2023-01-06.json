@@ -1,0 +1,76 @@
+{
+  "cik": "1726126",
+  "company": "Epsilon Energy Ltd.",
+  "filing_date": "2023-01-06",
+  "accession_number": "0001558370-23-000085",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 1616.4,
+        "volume_total": 590000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.8,
+        "ceiling_price": 3.34,
+        "price_unit": "USD/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": -0.239824,
+        "notes": "Two-way costless collar for 2022; total 590,000 Mmbtu, ceiling $3.34, floor $2.80. Source: item7 table. 10-K/A amendment for FY2021."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enters into commodity derivatives to mitigate price risk for portion of future natural gas production. Does not designate as accounting hedges; uses mark-to-market method."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 25100,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 10233000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 29300,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 305,
+      "proved_gas_reserves_mmcf": 110969,
+      "proved_ngl_reserves_mbbls": 820,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 77.7,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.75,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.1,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.109070",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instrument [0] verified truly missing: Note 9 confirms two outstanding natural gas two-way costless collar contracts at Dec 31, 2021 with net fair value $(239,824), but discloses no individual floor/ceiling prices or volumes."
+  }
+}

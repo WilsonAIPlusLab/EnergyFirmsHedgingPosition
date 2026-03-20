@@ -1,0 +1,156 @@
+{
+  "cik": "928022",
+  "company": "Callon Petroleum Co",
+  "filing_date": "2024-02-26",
+  "accession_number": "0000928022-24-000031",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 2940.71,
+        "volume_total": 1076300,
+        "volume_unit": "Bbls",
+        "fixed_price": 81.66,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Oil WTI deferred premium put contracts for 2024; combination of short fixed price swap and long call option performing as long put; floor $81.66/Bbl; 1,076,300 Bbls; premiums ~$4.1M payable as contracts settle"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10827.94,
+        "volume_total": 3963025,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 58.16,
+        "ceiling_price": 78.86,
+        "sub_floor_price": 48.16,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Oil WTI three-way collar for 2024; ceiling $78.86, floor (long put) $58.16, floor (short put) $48.16; 3,963,025 Bbls"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 23493.33,
+        "volume_total": 8598557,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.0,
+        "ceiling_price": 3.89,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Natural gas Henry Hub collar for 2024; ceiling $3.89, floor $3.00; 8,598,557 MMBtu"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000.0,
+        "volume_total": 7320000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -1.06,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Natural gas Waha basis differential swap for 2024; 7,320,000 MMBtu"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 40000.0,
+        "volume_total": 14640000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.42,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Natural gas HSC basis differential swap for 2024; 14,640,000 MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 130.56,
+        "volume_total": 95567,
+        "volume_unit": "Bbls",
+        "fixed_price": 33.18,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "NGL Mont Belvieu Normal Butane swap for 2024; 72,105 Bbls | Consolidated from 2 sub-period entries"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enter into derivatives to manage commodity price risk for next 12-24 months; hedge volumes vary based on market conditions; not designated as hedges for accounting purposes. [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 21891000,
+      "oil_production_bpd": 59975,
+      "gas_production_mcf": 46109000,
+      "gas_production_mmcf_per_day": 126.327,
+      "ngl_production_bbls": 8011000,
+      "total_production_boe": 37587000,
+      "total_production_boepd": 102977,
+      "production_year": 2023
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 239260,
+      "proved_gas_reserves_mmcf": 561493,
+      "proved_ngl_reserves_mbbls": 100668,
+      "total_proved_reserves_mboe": 433510,
+      "proved_developed_reserves_mboe": 278467,
+      "proved_undeveloped_reserves_mboe": 155043,
+      "reserves_year_end": "2023-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 5434.2,
+      "pv10_mm": 5889.6,
+      "oil_price_used": 78.17,
+      "gas_price_used": 1.53,
+      "lease_operating_expense_per_boe": 8.07,
+      "production_tax_per_boe": 3.02,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 2.88,
+      "dd_and_a_per_boe": 14.25,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.975223",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "cik": "1106935",
+  "company": "IVANHOE ENERGY INC",
+  "filing_date": "2013-03-27",
+  "accession_number": "0000950142-13-000708",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Company may periodically use derivative instruments to manage price volatility exposure. No hedging contracts were in place in 2011."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 353000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 353000,
+      "total_production_boepd": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1635,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1635,
+      "proved_developed_reserves_mboe": 1235,
+      "proved_undeveloped_reserves_mboe": 400,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 55.11,
+      "pv10_mm": null,
+      "oil_price_used": 93.91,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 19.54,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.587746"
+  }
+}

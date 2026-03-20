@@ -1,0 +1,125 @@
+{
+  "cik": "1112412",
+  "company": "ENDEAVOUR INTERNATIONAL CORP",
+  "filing_date": "2011-03-10",
+  "accession_number": "0000950123-11-023999",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 394.52,
+        "volume_total": 144000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 90.18,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed Price Puts; Mbbl reported as thousands of barrels (144 Mbbl = 144,000 Bbls total)"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 109.59,
+        "volume_total": 40000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 91.85,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed Price Puts; Mbbl reported as thousands of barrels (40 Mbbl = 40,000 Bbls total)"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 323.29,
+        "volume_total": 118000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 7.48,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed Price Puts; MMcf converted to Mcf (118 MMcf = 118,000 Mcf); Gas contracts designated in therms, converted at 10 therm to 1 Mcf; Exchange rate $1.54 to \u00a31.00"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 150.27,
+        "volume_total": 55000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 8.2,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed Price Puts; MMcf converted to Mcf (55 MMcf = 55,000 Mcf); Gas contracts designated in therms, converted at 10 therm to 1 Mcf; Exchange rate $1.54 to \u00a31.00"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company may engage in oil and gas hedging activities to realize favorable commodity prices and achieve more predictable cash flow by reducing exposure to price fluctuations"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 551000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5707000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1502000,
+      "total_production_boepd": 4115,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3723,
+      "proved_gas_reserves_mmcf": 87954,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 18382,
+      "proved_developed_reserves_mboe": 3560,
+      "proved_undeveloped_reserves_mboe": 14822,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 111.297,
+      "pv10_mm": null,
+      "oil_price_used": 79.37,
+      "gas_price_used": 6.58,
+      "lease_operating_expense_per_boe": 10.22,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.591761",
+    "item7_merge_timestamp": "2026-02-28T07:00:10.536925+00:00",
+    "item7_instruments_added": 0
+  }
+}

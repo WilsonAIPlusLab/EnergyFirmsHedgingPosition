@@ -1,0 +1,122 @@
+{
+    "cik": "1384195",
+    "company": "RING ENERGY, INC.",
+    "filing_date": "2019-02-28",
+    "accession_number": "0001144204-19-011298",
+    "instruments": {
+        "instruments": [
+            {
+                "instrument_type": "collar",
+                "commodity": "crude_oil",
+                "direction": "collar",
+                "volume_per_day": 1000,
+                "volume_total": 92000,
+                "volume_unit": "Bbls",
+                "fixed_price": null,
+                "floor_price": 49.00,
+                "ceiling_price": 55.35,
+                "price_unit": "$/Bbl",
+                "period_start": "2017-10",
+                "period_end": "2017-12",
+                "counterparty": null,
+                "fair_value_mm": null,
+                "notes": "Costless collar on WTI Crude Oil entered September 25, 2017. 1,000 bbl/day for Oct-Dec 2017. Put (floor) $49.00, call (ceiling) $55.35. Expired by 12/31/2017."
+            },
+            {
+                "instrument_type": "collar",
+                "commodity": "crude_oil",
+                "direction": "collar",
+                "volume_per_day": 1000,
+                "volume_total": 365000,
+                "volume_unit": "Bbls",
+                "fixed_price": null,
+                "floor_price": 49.00,
+                "ceiling_price": 54.60,
+                "price_unit": "$/Bbl",
+                "period_start": "2018-01",
+                "period_end": "2018-12",
+                "counterparty": null,
+                "fair_value_mm": null,
+                "notes": "Costless collar on WTI Crude Oil entered September 25, 2017. 1,000 bbl/day for Jan-Dec 2018. Put (floor) $49.00, call (ceiling) $54.60. Expired by 12/31/2018."
+            },
+            {
+                "instrument_type": "collar",
+                "commodity": "crude_oil",
+                "direction": "collar",
+                "volume_per_day": 1000,
+                "volume_total": 365000,
+                "volume_unit": "Bbls",
+                "fixed_price": null,
+                "floor_price": 51.00,
+                "ceiling_price": 54.80,
+                "price_unit": "$/Bbl",
+                "period_start": "2018-01",
+                "period_end": "2018-12",
+                "counterparty": null,
+                "fair_value_mm": null,
+                "notes": "Costless collar on WTI Crude Oil entered October 27, 2017. 1,000 bbl/day for Jan-Dec 2018. Put (floor) $51.00, call (ceiling) $54.80. Expired by 12/31/2018."
+            },
+            {
+                "instrument_type": "collar",
+                "commodity": "crude_oil",
+                "direction": "collar",
+                "volume_per_day": 2000,
+                "volume_total": 730000,
+                "volume_unit": "Bbls",
+                "fixed_price": null,
+                "floor_price": 60.00,
+                "ceiling_price": 70.05,
+                "price_unit": "$/Bbl",
+                "period_start": "2019-01",
+                "period_end": "2019-12",
+                "counterparty": null,
+                "fair_value_mm": null,
+                "notes": "Costless collar on WTI Crude Oil entered August 27, 2018. 2,000 bbl/day for Jan-Dec 2019. Put (floor) $60.00, call (ceiling) $70.05. TERMINATED on October 10, 2018 through payment of $3,438,300. As of December 31, 2018, all derivative contracts have either expired or been terminated."
+            }
+        ],
+        "hedging_summary": {
+            "total_oil_instruments": 4,
+            "total_gas_instruments": 0,
+            "total_ngl_instruments": 0,
+            "uses_derivatives": true,
+            "stated_hedging_policy": "The Company uses derivative strategies consisting of costless collars on WTI Crude Oil to manage variability in cash flows associated with forecasted sale of future domestic oil production. Costless collars combine a put option (floor) and call option (ceiling) structured so the premium paid for the put is offset by the premium received from selling the call. All derivative contracts with lenders under the credit facility. Company first entered derivatives in September 2017. As of December 31, 2018, all derivative contracts have either expired or been terminated. Realized loss on derivatives was $11,153,702 in 2018 and $119,897 in 2017. Unrealized gain of $3,968,287 in 2018 (reversal of prior year unrealized loss of $3,968,287 in 2017)."
+        }
+    },
+    "production": {
+        "production": {
+            "oil_production_bbls": 2047295,
+            "oil_production_bpd": 5609.0,
+            "gas_production_mcf": 1112177,
+            "gas_production_mmcf_per_day": 3.047,
+            "ngl_production_bbls": null,
+            "total_production_boe": 2232658,
+            "total_production_boepd": 6117.0,
+            "production_year": 2018
+        },
+        "reserves": {
+            "proved_oil_reserves_mbbls": 27809.7,
+            "proved_gas_reserves_mmcf": 52765.7,
+            "proved_ngl_reserves_mbbls": null,
+            "total_proved_reserves_mboe": 36604.0,
+            "proved_developed_reserves_mboe": 24613.3,
+            "proved_undeveloped_reserves_mboe": 11990.7,
+            "reserves_year_end": "2018-12-31"
+        },
+        "economics": {
+            "standardized_measure_mm": 455.94,
+            "pv10_mm": null,
+            "oil_price_used": 56.99,
+            "gas_price_used": 3.05,
+            "lease_operating_expense_per_boe": null,
+            "production_tax_per_boe": null,
+            "total_production_cost_per_boe": null,
+            "gathering_transport_per_boe": null,
+            "dd_and_a_per_boe": 17.38,
+            "finding_development_cost_per_boe": null
+        }
+    },
+    "metadata": {
+        "model": "claude-opus-4-6",
+        "extraction_timestamp": "2026-02-27T00:00:00Z"
+    }
+}

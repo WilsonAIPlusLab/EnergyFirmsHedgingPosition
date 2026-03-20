@@ -1,0 +1,56 @@
+{
+    "cik": "1450390",
+    "company": "BAKKEN RESOURCES INC",
+    "filing_date": "2014-04-15",
+    "accession_number": "0001145443-14-000485",
+    "instruments": {
+        "instruments": [],
+        "hedging_summary": {
+            "total_oil_instruments": 0,
+            "total_gas_instruments": 0,
+            "total_ngl_instruments": 0,
+            "uses_derivatives": false,
+            "stated_hedging_policy": "No commodity hedging activity disclosed. Both extracted instruments had price values of $6,608,526, which are not consistent with oil/gas commodity derivative pricing. These are false positives, likely extracted from stock option plan disclosures."
+        }
+    },
+    "production": {
+        "production": {
+            "oil_production_bbls": null,
+            "oil_production_bpd": null,
+            "gas_production_mcf": null,
+            "gas_production_mmcf_per_day": null,
+            "ngl_production_bbls": null,
+            "total_production_boe": null,
+            "total_production_boepd": null,
+            "production_year": null
+        },
+        "reserves": {
+            "proved_oil_reserves_mbbls": null,
+            "proved_gas_reserves_mmcf": null,
+            "proved_ngl_reserves_mbbls": null,
+            "total_proved_reserves_mboe": null,
+            "proved_developed_reserves_mboe": null,
+            "proved_undeveloped_reserves_mboe": null,
+            "reserves_year_end": null
+        },
+        "economics": {
+            "standardized_measure_mm": null,
+            "pv10_mm": null,
+            "oil_price_used": null,
+            "gas_price_used": null,
+            "lease_operating_expense_per_boe": null,
+            "production_tax_per_boe": null,
+            "total_production_cost_per_boe": null,
+            "gathering_transport_per_boe": null,
+            "dd_and_a_per_boe": null,
+            "finding_development_cost_per_boe": null
+        }
+    },
+    "metadata": {
+        "model": "claude-opus-4-6",
+        "extraction_timestamp": "2026-02-27T23:04:31.803076+00:00",
+        "warning_fix_timestamp": "2026-02-28T12:00:00",
+        "false_positives_removed": 2,
+        "false_positive_reason": "Both instruments had prices of $6,608,526 — not oil/gas commodity derivatives. Likely from stock option plan or lawsuit settlement figures in notes."
+    }
+}

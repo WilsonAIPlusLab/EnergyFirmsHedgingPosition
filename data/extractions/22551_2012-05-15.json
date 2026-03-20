@@ -1,0 +1,184 @@
+{
+  "cik": "22551",
+  "company": "Tri Valley Corp",
+  "filing_date": "2012-05-15",
+  "accession_number": "0001157523-12-002903",
+  "filing_type": "10-K/A",
+  "fiscal_year_end": "2011-12-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "has_commodity_hedges": false,
+      "note": "No hedging instruments identified. 10-K/A amendment of the 2012-04-16 original filing.",
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed."
+    }
+  },
+  "production": {
+    "production": {
+      "results_of_operations": {
+        "2011": {
+          "oil_and_gas_revenue": 2347368,
+          "production_costs": -1814405,
+          "depletion": -216610,
+          "write_off_and_impairment_loss": -1316010,
+          "exploration_expense": -362402,
+          "results_of_operations_from_producing_activities": -1362059,
+          "depletion_rate_per_bbl": 34.59
+        },
+        "2010": {
+          "oil_and_gas_revenue": 1756570,
+          "production_costs": -1507434,
+          "depletion": 0,
+          "write_off_and_impairment_loss": -85653,
+          "exploration_expense": 0,
+          "results_of_operations_from_producing_activities": 163483,
+          "depletion_rate_per_bbl": 0
+        }
+      },
+      "note": "All dollar values in dollars (not thousands). Oil-only producer; no natural gas production. Identical data to the 2012-04-16 original 10-K.",
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "as_of_date": "2011-12-31",
+      "commodity": "oil_only",
+      "pricing_basis": "12-month historical average",
+      "benchmark_prices": {
+        "oil_per_bbl_2011": 84.81,
+        "oil_per_bbl_2010": 71.82
+      },
+      "oil_bbls": {
+        "2011": {
+          "beginning_of_year": 3054836,
+          "revisions_of_previous_estimates": -1869151,
+          "divestitures": 0,
+          "production": -29785,
+          "end_of_year": 1155900,
+          "proved_developed_end_of_year": 262300
+        },
+        "2010": {
+          "beginning_of_year": 3020710,
+          "revisions_of_previous_estimates": 96996,
+          "divestitures": -37074,
+          "production": -25796,
+          "end_of_year": 3054836,
+          "proved_developed_end_of_year": 316333
+        }
+      },
+      "oil_mbbls": {
+        "total_proved_2011": 1155.9,
+        "proved_developed_2011": 262.3,
+        "proved_undeveloped_2011": 893.6,
+        "total_proved_2010": 3054.8,
+        "proved_developed_2010": 316.3
+      },
+      "costs_incurred": {
+        "2011": {
+          "proved_property_acquisitions": 0,
+          "unproved_property_acquisitions": 67310,
+          "development": 4654968,
+          "exploration": 0,
+          "total": 4722278
+        },
+        "2010": {
+          "proved_property_acquisitions": 0,
+          "unproved_property_acquisitions": 0,
+          "development": 0,
+          "exploration": 1905792,
+          "total": 1905792
+        }
+      },
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure": {
+        "2011": {
+          "future_cash_inflows": 98036700,
+          "future_production_costs": -27704100,
+          "future_development_and_restoration_costs": -8319100,
+          "future_income_taxes": 0,
+          "future_net_cash_flows": 62013500,
+          "ten_pct_annual_discount": -22057400,
+          "standardized_measure": 39956100,
+          "note": "Prior 2010 standardized measure had reporting error (discount and measure were swapped); corrected in this filing."
+        },
+        "2010": {
+          "future_cash_inflows": 219409376,
+          "future_production_costs": -88824864,
+          "future_development_and_restoration_costs": -16604100,
+          "future_income_taxes": 0,
+          "future_net_cash_flows": 113980412,
+          "ten_pct_annual_discount": -51378601,
+          "standardized_measure": 62601811
+        }
+      },
+      "standardized_measure_mm": {
+        "2011": 39.96,
+        "2010": 62.6
+      },
+      "changes_in_standardized_measure": {
+        "2011": {
+          "beginning_of_year": 62601811,
+          "sales_net_of_production_costs": -532963,
+          "net_changes_in_prices_and_production_costs": 31975530,
+          "revisions_of_previous_quantity_estimates": -61391612,
+          "property_divestitures": 0,
+          "development_costs_incurred": 4459384,
+          "changes_in_estimated_future_development_costs": 3072980,
+          "accretion_of_discount": 6260181,
+          "income_taxes": 0,
+          "changes_in_production_rates_and_other": -6489211,
+          "net_change": -22645711,
+          "end_of_year": 39956100
+        },
+        "2010": {
+          "beginning_of_year": 44251822,
+          "sales_net_of_production_costs": -249136,
+          "net_changes_in_prices_and_production_costs": 16336793,
+          "revisions_of_previous_quantity_estimates": 5678992,
+          "property_divestitures": -374310,
+          "development_costs_incurred": 0,
+          "changes_in_estimated_future_development_costs": 1410594,
+          "accretion_of_discount": 4425182,
+          "income_taxes": 0,
+          "changes_in_production_rates_and_other": -8878126,
+          "net_change": 18349989,
+          "end_of_year": 62601811
+        }
+      },
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "source_files": [
+      "item8_oil_gas.txt"
+    ],
+    "notes": "10-K/A amendment for FY2011 (same fiscal year as the 2012-04-16 original 10-K). Oil_gas supplemental data is identical to the original filing. Small oil-only California E&P with significant negative reserve revisions in 2011. Filing signed by interim CFO Gregory Billinger on May 15, 2012."
+  }
+}

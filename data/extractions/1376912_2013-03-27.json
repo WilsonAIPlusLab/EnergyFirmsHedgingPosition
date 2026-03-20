@@ -1,0 +1,107 @@
+{
+  "cik": "1376912",
+  "company": "Rockies Region 2006 Limited Partnership",
+  "filing_date": "2013-03-27",
+  "accession_number": "0001376912-13-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2090.6,
+        "volume_total": 763069,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": 2.716225,
+        "notes": "Fixed-price swaps for all anticipated natural gas production through 2013. Current derivative asset of $2,716,225 as of December 31, 2012. [price from Dec 31, 2012 derivative positions table in item7.txt]"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2090.6,
+        "volume_total": 763069,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -1.88,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": -1.234943,
+        "notes": "CIG basis protection swaps guarantee price differential for natural gas from specified delivery point. Current derivative liability of $1,234,943 as of December 31, 2012. [volume=763069 Mmbtu from Dec 31, 2012 table; matches fixed-price swap volumes] [fixed_price=-1.88 is CIG basis differential from Dec 31, 2012 table]"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Managing General Partner uses derivatives to manage price risk and protect against price declines. Policy prohibits use of derivatives for speculative purposes.",
+      "total_instruments": 2,
+      "by_commodity": {
+        "natural_gas": 2
+      },
+      "by_type": {
+        "swap": 1,
+        "basis_swap": 1
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 27030,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 836043,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 9847,
+      "total_production_boe": 176218,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 2.33,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 2.96,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.306020"
+  },
+  "hedging_summary": {
+    "total_instruments": 2,
+    "by_type": {
+      "swap": 1,
+      "basis_swap": 1
+    },
+    "by_commodity": {
+      "natural_gas": 2
+    }
+  }
+}

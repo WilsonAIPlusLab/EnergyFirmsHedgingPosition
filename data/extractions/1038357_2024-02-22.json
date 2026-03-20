@@ -1,0 +1,109 @@
+{
+  "cik": "1038357",
+  "company": "PIONEER NATURAL RESOURCES CO",
+  "filing_date": "2024-02-22",
+  "accession_number": "0001038357-24-000020",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 50000,
+        "volume_total": 109550000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2021-01",
+        "period_end": "2026-12",
+        "counterparty": "Occidental Energy Marketing, Inc.",
+        "fair_value_mm": null,
+        "notes": "Marketing derivative - long-term contract to purchase and simultaneously sell oil at Midland terminal. 50,000 Bbls/day Jan 2021 - Dec 2026. Purchase price indexed to Midland WTI, sale price is WASP correlated with Brent. Price is variable - source does not specify a fixed price for this floating-price marketing contract. Verified: source discloses volumes but not per-unit prices for this position."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 40000,
+        "volume_total": 73040000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2022-05",
+        "period_end": "2027-04",
+        "counterparty": "Occidental Energy Marketing, Inc.",
+        "fair_value_mm": null,
+        "notes": "Marketing derivative - long-term contract to purchase and simultaneously sell oil at Midland terminal. 40,000 Bbls/day May 2022 - Apr 2027. Purchase price indexed to Midland WTI, sale price is WASP correlated with Brent. Price is variable - source does not specify a fixed price for this floating-price marketing contract. Verified: source discloses volumes but not per-unit prices for this position."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 30000,
+        "volume_total": 54780000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2022-08",
+        "period_end": "2027-07",
+        "counterparty": "Occidental Energy Marketing, Inc.",
+        "fair_value_mm": null,
+        "notes": "Marketing derivative - long-term contract to purchase and simultaneously sell oil at Midland terminal. 30,000 Bbls/day Aug 2022 - Jul 2027. Purchase price indexed to Midland WTI, sale price is WASP correlated with Brent. Price is variable - source does not specify a fixed price for this floating-price marketing contract. Verified: source discloses volumes but not per-unit prices for this position."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses marketing derivatives to diversify oil pricing to Gulf Coast and international markets. Does not enter into derivatives for speculative or trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 135826555,
+      "oil_production_bpd": 372127,
+      "gas_production_mcf": 352018045,
+      "gas_production_mmcf_per_day": 964.433,
+      "ngl_production_bbls": 66380360,
+      "total_production_boe": 260879955,
+      "total_production_boepd": 714730,
+      "production_year": 2023
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.26,
+      "production_tax_per_boe": 2.27,
+      "total_production_cost_per_boe": 7.81,
+      "gathering_transport_per_boe": 3.15,
+      "dd_and_a_per_boe": 10.97,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.563721",
+    "item7_merge_timestamp": "2026-02-28T07:11:20.329646+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

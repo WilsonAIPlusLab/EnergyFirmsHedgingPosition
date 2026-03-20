@@ -1,0 +1,159 @@
+{
+  "cik": "23194",
+  "company": "COMSTOCK RESOURCES INC",
+  "filing_date": "2020-03-02",
+  "accession_number": "0001564590-20-008081",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 126301.37,
+        "volume_total": 138300000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.81,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2020-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "As of December 31, 2019"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 14977.17,
+        "volume_total": 16400000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.47,
+        "ceiling_price": 3.46,
+        "price_unit": "$/Mcf",
+        "period_start": "2020-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Two-way natural gas collars as of December 31, 2019"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1152.01,
+        "volume_total": 1262600,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 48.65,
+        "ceiling_price": 64.92,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Two-way oil collars as of December 31, 2019"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 24200.91,
+        "volume_total": 26500000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.65,
+        "ceiling_price": 2.99,
+        "price_unit": "$/Mcf",
+        "period_start": "2020-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way collars with average put price of $2.33 per Mcf as of December 31, 2019"
+      },
+      {
+        "instrument_type": "swaption",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 60091.32,
+        "volume_total": 65800000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.52,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2020-01",
+        "period_end": "2022-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas swaptions with an additional 76.7 Bcf subject to option exercises as of December 31, 2019"
+      },
+      {
+        "instrument_type": "swaption",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 40000.0,
+        "volume_total": 28000000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.51,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2020-02",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Additional natural gas swaptions entered into after December 31, 2019; with an additional 43.8 Bcf subject to option exercises from January 2021 to December 2022"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Active hedging program to mitigate volatility and protect expected future cash flows; no margin requirements or collateral provisions."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2685000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 292834000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 16747,
+      "proved_gas_reserves_mmcf": 5341497,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": 330164,
+      "proved_undeveloped_reserves_mboe": 576834,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2913.211,
+      "pv10_mm": 3251.835,
+      "oil_price_used": 55.69,
+      "gas_price_used": 2.58,
+      "lease_operating_expense_per_boe": 0.29,
+      "production_tax_per_boe": 0.09,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.23,
+      "dd_and_a_per_boe": 0.89,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.059119",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

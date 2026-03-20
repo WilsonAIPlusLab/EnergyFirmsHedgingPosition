@@ -1,0 +1,93 @@
+{
+  "cik": "895126",
+  "company": "CHESAPEAKE ENERGY CORP",
+  "filing_date": "2022-02-24",
+  "accession_number": "0000895126-22-000029",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 30136.99,
+        "volume_total": 22000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": -358,
+        "notes": "Oil derivatives net liability at December 31, 2021. Source Note 15 (item8_notes.txt lines 1497-1503) discloses notional volumes by category: fixed-price swaps 13 mmbbl fair value $(356)M; basis protection swaps 9 mmbbl fair value $(2)M; total oil 22 mmbbl = 22,000,000 Bbls fair value $(358)M. Fixed prices TRULY MISSING \u2014 Note 15 discloses only aggregate fair values, not contract prices. Item 7A confirms $358M net oil derivative liability. Instrument represents combined oil swap and basis swap positions."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1523287.67,
+        "volume_total": 1112000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/MMBtu",
+        "period_start": "2022-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": -785,
+        "notes": "Natural gas derivatives net liability at December 31, 2021. Source Note 15 (item8_notes.txt lines 1505-1515) discloses notional volumes by category: fixed-price swaps 637 Bcf fair value $(675)M; collars 205 Bcf fair value $(82)M; call options 18 Bcf fair value $(17)M; basis protection swaps 252 Bcf fair value $(11)M; total natural gas 1,112 Bcf = 1,112,000,000 MMBtu fair value $(785)M. Fixed prices/floors/ceilings TRULY MISSING \u2014 Note 15 discloses only aggregate fair values, not individual contract prices. Item 7A confirms $785M net gas derivative liability. Instrument represents combined gas swap, collar, call option, and basis swap positions."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enter into derivative instruments to mitigate exposure to adverse price changes; allow prediction of revenue; instruments not designated for hedge accounting"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 27923000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 814438000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 8193000,
+      "total_production_boe": 171899000,
+      "total_production_boepd": null,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 1.95,
+      "production_tax_per_boe": 1.05,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 5.24,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01Cv2wU4dNLn7zZm1EAbiJnV",
+    "extraction_timestamp": "2026-02-21T05:59:53.964134",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instruments [0,1] \u2014 volumes DATA RECOVERED from Note 15 in item8_notes.txt (lines 1497-1515). Oil: 22 mmbbl total (13 mmbbl fixed-price swaps + 9 mmbbl basis swaps), fair value $(358)M net liability. Gas: 1,112 Bcf total (637 Bcf swaps + 205 Bcf collars + 18 Bcf call options + 252 Bcf basis swaps), fair value $(785)M net liability. Fixed prices TRULY MISSING \u2014 Note 15 discloses notional volumes and fair values by category but no individual contract prices. Period set to 2022-2023 based on filing context (FY2021 10-K, contracts presumably covering 2022 forward)."
+  }
+}

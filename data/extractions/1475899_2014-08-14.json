@@ -1,0 +1,56 @@
+{
+  "cik": "1475899",
+  "company": "NYTEX Energy Holdings, Inc.",
+  "filing_date": "2014-08-14",
+  "accession_number": "0001475899-14-000014",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1060,
+      "oil_production_bpd": 2.9,
+      "gas_production_mcf": 16847,
+      "gas_production_mmcf_per_day": 0.046,
+      "ngl_production_bbls": null,
+      "total_production_boe": 3868,
+      "total_production_boepd": 8,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 7.5,
+      "proved_gas_reserves_mmcf": 188.533,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 38.922,
+      "proved_developed_reserves_mboe": 38.922,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 0.401,
+      "pv10_mm": 0.617,
+      "oil_price_used": 96.6,
+      "gas_price_used": 3.68,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "notes": "Company re-focused on oil and gas starting 2012. Reserve data is for Newman #1 and Coley #1 wells only. Six wells impaired in 2013 and excluded from reserve data.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

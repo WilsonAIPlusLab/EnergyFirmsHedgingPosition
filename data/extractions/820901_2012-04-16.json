@@ -1,0 +1,53 @@
+{
+  "cik": "820901",
+  "company": "ARETE INDUSTRIES INC",
+  "filing_date": "2012-04-16",
+  "accession_number": "0001193125-12-164739",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 9990,
+      "oil_production_bpd": 27,
+      "gas_production_mcf": 38477,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 16403,
+      "total_production_boepd": 45,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 375.018,
+      "proved_gas_reserves_mmcf": 827.301,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 512.902,
+      "proved_developed_reserves_mboe": 390.784,
+      "proved_undeveloped_reserves_mboe": 122.118,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 8.342,
+      "pv10_mm": null,
+      "oil_price_used": 83.79,
+      "gas_price_used": 5.84,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-28T00:06:01.002004+00:00"
+  }
+}

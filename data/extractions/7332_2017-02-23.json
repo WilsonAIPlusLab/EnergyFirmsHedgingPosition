@@ -1,0 +1,160 @@
+{
+  "cik": "7332",
+  "company": "SOUTHWESTERN ENERGY CO",
+  "filing_date": "2017-02-23",
+  "accession_number": "0000007332-17-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 758904.11,
+        "volume_total": 277000000,
+        "volume_unit": "Mcf",
+        "fixed_price": -0.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis differential to NYMEX approximately ($0.50) per Mcf (discount to NYMEX); 277 Bcf for 2017; protects against widening basis differentials through physical sales arrangements and financial derivatives."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 213698.63,
+        "volume_total": 78000000,
+        "volume_unit": "Mcf",
+        "fixed_price": -0.34,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis differential to NYMEX approximately ($0.34) per Mcf (discount to NYMEX); 78 Bcf for 2018; protects against widening basis differentials through physical sales arrangements and financial derivatives."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1410958.9,
+        "volume_total": 515000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity price derivatives in place as of February 21, 2017; excludes basis swaps; 515 Bcf for 2017 natural gas production. Source does not disclose specific fixed swap price. Verified: source discloses volumes but not per-unit prices for this position."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 745205.48,
+        "volume_total": 272000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity price derivatives in place as of February 21, 2017; excludes basis swaps; 272 Bcf for 2018 natural gas production. Source does not disclose specific fixed swap price. Verified: source discloses volumes but not per-unit prices for this position."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 219178.08,
+        "volume_total": 80000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity price derivatives in place as of February 21, 2017; excludes basis swaps; 80 Bcf for 2019 natural gas production. Source does not disclose specific fixed swap price. Verified: source discloses volumes but not per-unit prices for this position."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 479.45,
+        "volume_total": 350000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity derivatives on targeted ethane production for 2017 and 2018; 350 MBbls in place as of February 21, 2017. Source does not disclose specific fixed price for ethane derivatives. Verified: source discloses volumes but not per-unit prices for this position."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Board approved risk management policies to reduce commodity price risk. Prohibits speculation, limits swaps to counterparties with appropriate credit standings. Uses swaps, options, basis swaps."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2192000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 788000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 12372000,
+      "total_production_boe": 875000000,
+      "total_production_boepd": null,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 10500,
+      "proved_gas_reserves_mmcf": 4866000,
+      "proved_ngl_reserves_mbbls": 53900,
+      "total_proved_reserves_mboe": 5253000,
+      "proved_developed_reserves_mboe": 5176000,
+      "proved_undeveloped_reserves_mboe": 77000,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1665,
+      "pv10_mm": 1665,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 0.87,
+      "production_tax_per_boe": 0.1,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 0.38,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.113788",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

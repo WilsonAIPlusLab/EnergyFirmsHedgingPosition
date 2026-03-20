@@ -1,0 +1,56 @@
+{
+  "cik": "1696088",
+  "company": "ENERGY RESOURCES 12, L.P.",
+  "filing_date": "2022-03-17",
+  "accession_number": "0001185185-22-000290",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Partnership periodically enters into derivatives to manage commodity price risk on anticipated production and reduce volatility, providing base cash flow. No hedges designated for accounti"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 706981,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1255602,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 200166,
+      "total_production_boe": 1116414,
+      "total_production_boepd": 3100,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 65.11,
+      "gas_price_used": 3.29,
+      "lease_operating_expense_per_boe": 15.76,
+      "production_tax_per_boe": 3.94,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 13.69,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.101622",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

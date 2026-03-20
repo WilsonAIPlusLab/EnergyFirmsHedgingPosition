@@ -1,0 +1,91 @@
+{
+  "cik": "872248",
+  "company": "PETROQUEST ENERGY INC",
+  "filing_date": "2018-03-08",
+  "accession_number": "0000872248-18-000014",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 35000,
+        "volume_total": 3150000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "As of December 31, 2017; Company has approximately 3.2 Bcf hedged for 2018 at average price of $3.24 per Mcf; Counterparties: Shell Trading Risk Management LLC and Koch Supply and Trading LP"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 250,
+        "volume_total": 91250,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": 0.443,
+        "notes": "As of December 31, 2017; Company has 91,250 Bbls hedged for 2018 at average price of $55.00 per Bbl; Counterparties: Shell Trading Risk Management LLC and Koch Supply and Trading LP; Net fair value asset of $0.443 million ($1.174 million asset less $0.731 million liability)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically seeks to reduce exposure to commodity price volatility by hedging a portion of production through commodity derivative instruments, primarily swaps referenced to NYMEX"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 591558,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 19610964,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 1.2,
+      "production_tax_per_boe": 0.12,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 1.15,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.107931",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

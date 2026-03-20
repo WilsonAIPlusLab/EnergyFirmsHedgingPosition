@@ -1,0 +1,77 @@
+{
+  "cik": "101594",
+  "company": "US ENERGY CORP",
+  "filing_date": "2021-03-26",
+  "accession_number": "0001493152-21-006877",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 100.0,
+        "volume_total": 30600.0,
+        "volume_unit": "Bbls",
+        "fixed_price": 61.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-03",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "100 barrels of crude oil per day from March 1 to December 31, 2021 at $61.90/Bbl; entered March 9, 2021"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "No hedging policy or derivative instruments disclosed in the provided text. Only forward-looking statement about March 2021 post-period hedge.",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 60469,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 116082,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 79816,
+      "total_production_boepd": 218,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1255,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 8.6,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.09,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.548680",
+    "item7_merge_timestamp": "2026-02-28T06:32:07Z",
+    "item7_instruments_added": 1
+  }
+}

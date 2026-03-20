@@ -1,0 +1,126 @@
+{
+  "cik": "1349436",
+  "company": "SANDRIDGE ENERGY INC",
+  "filing_date": "2017-03-03",
+  "accession_number": "0001349436-17-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 9000.0,
+        "volume_total": 3285000,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap settled based on average daily prices for calendar month or quarter; settlement occurs in succeeding month or quarter"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5000.0,
+        "volume_total": 1825000,
+        "volume_unit": "Bbls",
+        "fixed_price": 55.34,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap settled based on average daily prices for calendar month or quarter; settlement occurs in succeeding month or quarter"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 90000.0,
+        "volume_total": 32850000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap settled based on last day settlement of first nearby month futures contract; settlement in production month or quarter"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000.0,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap settled based on last day settlement of first nearby month futures contract; settlement in production month or quarter"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company enters into commodity pricing derivative contracts for portion of anticipated production to reduce price variability, limited to 90% of expected production from proved reserves."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5529000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 56895000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 4357000,
+      "total_production_boe": 19369000,
+      "total_production_boepd": 52900,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 163900,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 39.25,
+      "gas_price_used": 2.48,
+      "lease_operating_expense_per_boe": 7.98,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.282269",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "verification_fixed": "2026-03-19T00:00:00"
+  }
+}

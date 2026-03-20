@@ -1,0 +1,145 @@
+{
+  "cik": "821483",
+  "company": "DELTA PETROLEUM CORP/CO",
+  "filing_date": "2011-03-16",
+  "accession_number": "0000950123-11-026001",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 616.0,
+        "volume_total": 224840,
+        "volume_unit": "Bbls",
+        "fixed_price": 63.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": -6.016,
+        "notes": "Oil swap. WTI. 2011. 500/d @$57.70 + 116/d @$91.05. $63.98 wtd avg."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 446.57,
+        "volume_total": 326442,
+        "volume_unit": "Bbls",
+        "fixed_price": 91.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2012-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": -0.589,
+        "notes": "Oil swap. WTI. 2012-2013. 497/d 2012 + 396/d 2013. @$91.05."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15600.0,
+        "volume_total": 5694000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.11,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2011-01",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": 5.442,
+        "notes": "Gas swap. CIG. 2011. 12k/d @$5.15 + 3,253/d @$5.04 + 347/d @$4.44. $5.11 wtd avg."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 11177.7,
+        "volume_total": 8170897,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.44,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2012-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": -1.83,
+        "notes": "Gas swap. CIG. 2012-2013. 12,052/d 2012 + 10,301/d 2013. @$4.44."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 626.33,
+        "volume_total": 686452.38,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.86,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Gal",
+        "period_start": "2011-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NGL swap. OPIS Mont Belvieu. 2011-2013. 5 products (isobutane, n-butane, natural gasoline, propane, ethane). 13.2M Gal 2011 @$0.91, 11.2M 2012 @$0.83, 4.5M 2013 @$0.77. $0.86 wtd avg. Entered Jan-Feb 2011 (subsequent event)."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Delta Petroleum. Small CO E&P. Oil: WTI swaps (225k 2011 @$63.98, 326k 2012-2013 @$91.05). Gas: CIG swaps (5.7M 2011 @$5.11, 8.2M 2012-2013 @$4.44). NGL: OPIS Mont Belvieu swaps (28.8M Gal 2011-2013 @$0.86, 5 products, subsequent event). Net commodity derivative liability $3.0M."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 500000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 11759000,
+      "gas_production_mmcf_per_day": 45.9,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1900,
+      "proved_gas_reserves_mmcf": 122700,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 134200,
+      "proved_developed_reserves_mboe": 123740,
+      "proved_undeveloped_reserves_mboe": 10460,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 192.1,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 1.66,
+      "production_tax_per_boe": 0.25,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.03,
+      "dd_and_a_per_boe": 3.73,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.085936",
+    "rerun_model": "claude-opus-4-6",
+    "rerun_method": "claude-code-interactive",
+    "rerun_timestamp": "2026-02-27T09:35:00",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

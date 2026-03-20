@@ -1,0 +1,74 @@
+{
+  "cik": "1696088",
+  "company": "ENERGY RESOURCES 12, L.P.",
+  "filing_date": "2020-03-19",
+  "accession_number": "0001185185-20-000327",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 587.91,
+        "volume_total": 107000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": 61.2,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar structure with purchased put options and written call options"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Partnership periodically enters into derivative contracts to manage commodity price risk on future oil and natural gas production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1129951,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 849048,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 126760,
+      "total_production_boe": 1398219,
+      "total_production_boepd": 3800,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 55.69,
+      "gas_price_used": 2.58,
+      "lease_operating_expense_per_boe": 12.18,
+      "production_tax_per_boe": 4.13,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 12.3,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.101199",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "cik": "1368964",
+  "company": "La Cortez Energy, Inc.",
+  "filing_date": "2011-04-01",
+  "accession_number": "0001144204-11-019285",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging. Derivative instruments referenced in the filing are warrant liabilities (derivative warrant instruments) related to private placement offerings, not commodity price hedging. The company is an early-stage exploration and production company focused in Colombia. [Note: instruments not extractable from filing]",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    },
+    "extraction_notes": "confirmed_no_instruments_via_reextract"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4741,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 4741,
+      "total_production_boepd": null,
+      "production_year": 2010
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 92.574,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 92.574,
+      "proved_developed_reserves_mboe": 92.574,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2010-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 0.706,
+      "pv10_mm": 0.706,
+      "oil_price_used": 72.43,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 39.56,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z"
+  },
+  "hedging_summary": {
+    "total_instruments": 0,
+    "by_type": {},
+    "by_commodity": {}
+  }
+}

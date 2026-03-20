@@ -1,0 +1,56 @@
+{
+  "cik": "1309082",
+  "company": "LUCAS ENERGY, INC.",
+  "filing_date": "2012-06-29",
+  "accession_number": "0001432093-12-000511",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Company does not use derivative instruments for commodity hedging."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 54466,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 14560,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 56892,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 7023.5,
+      "proved_gas_reserves_mmcf": 10722.5,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 8810.6,
+      "proved_developed_reserves_mboe": 402.4,
+      "proved_undeveloped_reserves_mboe": 8408.2,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 75.38,
+      "pv10_mm": null,
+      "oil_price_used": 95.14,
+      "gas_price_used": 5.25,
+      "lease_operating_expense_per_boe": 75.4,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 33.68,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_method": "claude-code-interactive",
+    "extraction_timestamp": "2026-02-27T15:16:22",
+    "item7_merge_timestamp": "2026-02-28T07:03:39.338492+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "cik": "1509991",
+  "company": "Kosmos Energy Ltd.",
+  "filing_date": "2017-02-27",
+  "accession_number": "0001558370-17-001056",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5479,
+        "volume_total": 2000000,
+        "volume_unit": "Bbls",
+        "fixed_price": 72.5,
+        "floor_price": 55.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Swap with puts/calls on Dated Brent, 2,000 MBbl Jan-Dec 2017, swap $72.50, floor $55.00, sold call $90.00/Bbl; deferred premium $2.13/Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5479,
+        "volume_total": 2000000,
+        "volume_unit": "Bbls",
+        "fixed_price": 64.95,
+        "floor_price": 50.0,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Swap with puts on Dated Brent, 2,000 MBbl Jan-Dec 2017, swap $64.95, floor $50.00/Bbl"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 8224,
+        "volume_total": 3002000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": 57.5,
+        "sub_floor_price": 30.0,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Three-way collars on Dated Brent, 3,002 MBbl Jan-Dec 2017, sold put (sub_floor) $30.00, floor $45.00, ceiling $57.50/Bbl; deferred premium $2.29/Bbl"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5479,
+        "volume_total": 2000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 85.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "notes": "Sold call options on Dated Brent, 2,000 MBbl Jan-Dec 2017, strike $85.00/Bbl (sold to counterparties to enhance other derivative positions)"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 7981,
+        "volume_total": 2913000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 56.57,
+        "ceiling_price": 65.9,
+        "sub_floor_price": 41.57,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Three-way collars on Dated Brent, 2,913 MBbl Jan-Dec 2018, sold put (sub_floor) $41.57, floor $56.57, ceiling $65.90/Bbl; deferred premium $0.74/Bbl"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5479,
+        "volume_total": 2000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 65.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "notes": "Sold call options on Dated Brent, 2,000 MBbl Jan-Dec 2018, strike $65.00/Bbl (sold to counterparties to enhance other derivative positions)"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2501,
+        "volume_total": 913000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 80.0,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Sold call options on Dated Brent, 913 MBbl Jan-Dec 2019, strike $80.00/Bbl (sold to counterparties to enhance other derivative positions)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 7,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses oil derivative contracts (three-way collars, swaps with puts/calls indexed to Dated Brent) to mitigate commodity price risk. Does not apply hedge accounting."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6756000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 74000,
+      "proved_gas_reserves_mmcf": 15000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 77000,
+      "proved_developed_reserves_mboe": 66000,
+      "proved_undeveloped_reserves_mboe": 11000,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 846,
+      "pv10_mm": 846,
+      "oil_price_used": 42.96,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 17.67,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 17.67,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 20.78,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.198719",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

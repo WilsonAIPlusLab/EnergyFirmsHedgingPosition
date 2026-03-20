@@ -1,0 +1,74 @@
+{
+  "cik": "797468",
+  "company": "OCCIDENTAL PETROLEUM CORP /DE/",
+  "filing_date": "2014-03-03",
+  "accession_number": "0000797468-14-000011",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000,
+        "volume_total": 4500000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2014-01",
+        "period_end": "2014-03",
+        "notes": "Cash-flow hedge swap for California natural gas production; entered Nov 2012; 50 MMcf/day (50,000 Mcf/day); remaining active period Jan 2014 through Mar 2014 (90 days x 50,000 Mcf = 4,500,000 Mcf); weighted-average strike $4.30/Mcf"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Only occasionally hedges oil and gas production. Holds financial swap agreements for California natural gas production Jan-Mar 2014 at $4.30/Mcf (residual from Nov 2012 swap agreement)."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 1,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 62780000,
+      "oil_production_bpd": 172000,
+      "gas_production_mcf": 452000000,
+      "gas_production_mmcf_per_day": 1234,
+      "ngl_production_bbls": 30660000,
+      "total_production_boe": 101513333,
+      "total_production_boepd": 278000,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2147000,
+      "proved_gas_reserves_mmcf": 5566000,
+      "proved_ngl_reserves_mbbls": 408000,
+      "total_proved_reserves_mboe": 3483000,
+      "proved_developed_reserves_mboe": 2438100,
+      "proved_undeveloped_reserves_mboe": 1044900,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 96.94,
+      "gas_price_used": 3.65,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 13.76,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.071552"
+  }
+}

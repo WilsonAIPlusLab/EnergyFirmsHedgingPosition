@@ -1,0 +1,56 @@
+{
+  "cik": "351817",
+  "company": "SWIFT ENERGY CO",
+  "filing_date": "2013-02-22",
+  "accession_number": "0000351817-13-000007",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Policy permits use of futures, forwards, swaps and options to mitigate price risk. Only enters derivatives with banks in credit facility. No derivatives at Dec 31, 2012."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3774000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 36400000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1862000,
+      "total_production_boe": 11700000,
+      "total_production_boepd": null,
+      "production_year": 2012
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 192100,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2012-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 2300,
+      "oil_price_used": 103.64,
+      "gas_price_used": 2.71,
+      "lease_operating_expense_per_boe": 9.87,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 21.13,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.087015",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

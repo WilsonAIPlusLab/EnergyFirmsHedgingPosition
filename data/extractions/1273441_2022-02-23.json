@@ -1,0 +1,109 @@
+{
+  "cik": "1273441",
+  "company": "GRAN TIERRA ENERGY INC.",
+  "filing_date": "2022-02-23",
+  "accession_number": "0001273441-22-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5000,
+        "volume_total": 905000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 73.56,
+        "ceiling_price": 91.28,
+        "sub_floor_price": 63.56,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "ICE Brent reference; Sold Put at $63.56/bbl, Purchased Put at $73.56/bbl, Sold Call at $91.28/bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3000,
+        "volume_total": 543000,
+        "volume_unit": "Bbls",
+        "fixed_price": 80.41,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "ICE Brent reference; Sold Swap"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1000,
+        "volume_total": 181000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "ICE Brent reference; Deferred Puts with premium of $4.00/bbl"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Manage variability of cash flows from oil production, reduce commodity price risk, provide base cash flow for capital spending. Does not use hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 7879620,
+      "oil_production_bpd": 21588,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 7879620,
+      "total_production_boepd": 21588,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 66800,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 66800,
+      "proved_developed_reserves_mboe": 42084,
+      "proved_undeveloped_reserves_mboe": 24716,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 68.92,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 16.79,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 1.44,
+      "dd_and_a_per_boe": 17.74,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.244731",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

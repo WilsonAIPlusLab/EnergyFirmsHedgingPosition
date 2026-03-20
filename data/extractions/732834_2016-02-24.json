@@ -1,0 +1,125 @@
+{
+  "cik": "732834",
+  "company": "CONTINENTAL RESOURCES, INC",
+  "filing_date": "2016-02-24",
+  "accession_number": "0000732834-16-000018",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4000.0,
+        "volume_total": 1464000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 107.7,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": -0.038,
+        "notes": "Written call options represent ceiling positions remaining from previous crude oil collar contracts. Floor positions liquidated in Q4 2014. ICE Brent settlement."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 365327.87,
+        "volume_total": 133710000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Henry Hub settlement"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 70000.0,
+        "volume_total": 25550000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Henry Hub settlement"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 180000.0,
+        "volume_total": 65700000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.47,
+        "ceiling_price": 3.08,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Floor range $2.40-$3.00, ceiling range $2.92-$3.88, NYMEX Henry Hub settlement"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "May hedge portion of anticipated production to reduce price risk and secure capital funds. Crude oil production for 2016 and beyond currently unhedged. Uses swap and collar contracts."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 53517000,
+      "oil_production_bpd": 146622,
+      "gas_production_mcf": 164454000,
+      "gas_production_mmcf_per_day": 450.558,
+      "ngl_production_bbls": null,
+      "total_production_boe": 80926000,
+      "total_production_boepd": 221715,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 701000,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1226000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 50.28,
+      "gas_price_used": 2.58,
+      "lease_operating_expense_per_boe": 4.3,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 21.57,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.109519",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

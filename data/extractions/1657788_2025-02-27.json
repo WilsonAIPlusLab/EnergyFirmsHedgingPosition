@@ -1,0 +1,125 @@
+{
+  "cik": "1657788",
+  "company": "Kimbell Royalty Partners, LP",
+  "filing_date": "2025-02-27",
+  "accession_number": "0001558370-25-001800",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1543.91,
+        "volume_total": 563526,
+        "volume_unit": "Bbls",
+        "fixed_price": 70.36,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Range per Bbl: Low $64.35, High $77.01"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1632.0,
+        "volume_total": 595680,
+        "volume_unit": "Bbls",
+        "fixed_price": 67.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Range per Bbl: Low $63.33, High $70.78"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 14118.61,
+        "volume_total": 5153291,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.81,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Range per MMBtu: Low $3.50, High $4.37"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 14400.0,
+        "volume_total": 5256000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.69,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Range per MMBtu: Low $3.33, High $4.07"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses fixed price swaps to reduce exposure to oil and gas price volatility. Derivative contracts not designated as hedges for accounting. Six counterparties, also lenders."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2836913,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 27586460,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1667089,
+      "total_production_boe": 9101745,
+      "total_production_boepd": 24868,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 20001,
+      "proved_gas_reserves_mmcf": 204253,
+      "proved_ngl_reserves_mbbls": 13498,
+      "total_proved_reserves_mboe": 67541,
+      "proved_developed_reserves_mboe": 67541,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 887.76,
+      "pv10_mm": null,
+      "oil_price_used": 75.48,
+      "gas_price_used": 2.13,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 14.8,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.093634",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

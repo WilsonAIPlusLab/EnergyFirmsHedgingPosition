@@ -1,0 +1,74 @@
+{
+  "cik": "1001614",
+  "company": "TENGASCO INC",
+  "filing_date": "2012-03-29",
+  "accession_number": "0001001614-12-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 328.19,
+        "volume_total": 170000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 65.0,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-08",
+        "period_end": "2012-12",
+        "counterparty": "Cargill",
+        "fair_value_mm": null,
+        "notes": "Purchased put (floor only, no cap) with Cargill Incorporated. $65/Bbl floor on 10,000 Bbls/month for Aug 2011-Dec 2012 = 17 months x 10,000 = 170,000 Bbls total. volume_per_day = 170,000/518 days = 328.19. Cost $2.20/Bbl/month = $374,000 total paid June 27, 2011. The prior Macquarie costless collar (expired Jul 31, 2011) is excluded as it was not open at Dec 31, 2011."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "total_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Agreements primarily intended to help maintain and stabilize cash flow from operations if lower oil prices return, enabling continued production and workover treatments. [Note: Atmos Energy fixed-price landfill gas sales contract removed - physical supply agreement for Carter Valley Landfill methane, not a financial derivative on E&P production.]"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 189500,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 25800,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 18.31,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "extraction_timestamp": "2026-02-21T05:50:16.109199",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

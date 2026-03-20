@@ -1,0 +1,91 @@
+{
+  "cik": "1581552",
+  "company": "Energy 11, L.P.",
+  "filing_date": "2023-03-31",
+  "accession_number": "0001185185-23-000305",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 820.51,
+        "volume_total": 224000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50.0,
+        "ceiling_price": 69.72,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-09",
+        "counterparty": null,
+        "fair_value_mm": -3.17,
+        "notes": "Costless collar (purchased put and written call). Outstanding as of December 31, 2022. Current liability."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 1136.36,
+        "volume_total": 275000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.0,
+        "ceiling_price": 4.3,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-02",
+        "period_end": "2023-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar on Henry Hub gas. Outstanding as of December 31, 2022. Included in total current liability of $3.17 million."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically uses derivatives to manage commodity price risk and reduce volatility. Required to maintain hedging under loan agreements. Uses costless collars; no premiums paid/received."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1054619,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 221666,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 190503,
+      "total_production_boe": 1466788,
+      "total_production_boepd": null,
+      "production_year": 2022
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2022-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 90.51,
+      "gas_price_used": 6.75,
+      "lease_operating_expense_per_boe": 12.07,
+      "production_tax_per_boe": 6.21,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 14.3,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.072290",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

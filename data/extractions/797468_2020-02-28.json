@@ -1,0 +1,111 @@
+{
+  "cik": "797468",
+  "company": "OCCIDENTAL PETROLEUM CORP /DE/",
+  "filing_date": "2020-02-28",
+  "accession_number": "0000797468-20-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 350000,
+        "volume_total": 128100000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": 74.16,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": -68,
+        "notes": "Three-way oil collar (Brent pricing), not designated as hedge. Dec 31, 2019 position for 2020 settlement. 128.1 MMbbl at ceiling $74.16, floor $55.00, sub-floor $45.00. Volume_per_day: ~350,000 Bbls/day (128.1M / 366 days).",
+        "sub_floor_price": 45.0
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 349863,
+        "volume_total": 127800000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 74.16,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Call options sold (Brent oil pricing), not designated as hedge. For 2021 settlement. 127.8 MMbbl at ceiling $74.16. Entered to enhance upside retention in 2020 under 2020 three-way collar."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 3000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Cash-flow hedges for forecast sales of stored natural gas, to be settled by physical delivery, as of December 31, 2019; approximately 3 Bcf (2019: 4 Bcf). Source (Item 7A) confirms volume but does not disclose specific forward price. Verified: source discloses volumes but not per-unit prices for this position."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivative instruments including futures, forwards, options and swaps to obtain average prices for production month and improve realized prices for oil and gas."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 211000000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 530000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 64000000,
+      "total_production_boe": 363000000,
+      "total_production_boepd": null,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1970000,
+      "proved_gas_reserves_mmcf": 6700000,
+      "proved_ngl_reserves_mbbls": 740000,
+      "total_proved_reserves_mboe": 3827000,
+      "proved_developed_reserves_mboe": 2908520,
+      "proved_undeveloped_reserves_mboe": 904000,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 55.69,
+      "gas_price_used": 2.58,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.072852",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

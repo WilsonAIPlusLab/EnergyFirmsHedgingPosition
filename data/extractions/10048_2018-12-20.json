@@ -1,0 +1,56 @@
+{
+  "cik": "10048",
+  "company": "BARNWELL INDUSTRIES INC",
+  "filing_date": "2018-12-20",
+  "accession_number": "0000010048-18-000021",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Company does not use derivative instruments to manage price risk. Smaller reporting company exempt from Item 7A."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 62000,
+      "oil_production_bpd": 170,
+      "gas_production_mcf": 328000,
+      "gas_production_mmcf_per_day": 0.9,
+      "ngl_production_bbls": 5000,
+      "total_production_boe": 123000,
+      "total_production_boepd": 337,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1590,
+      "proved_gas_reserves_mmcf": 5055,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 2462,
+      "proved_developed_reserves_mboe": 1107,
+      "proved_undeveloped_reserves_mboe": 1355,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 13.836,
+      "pv10_mm": null,
+      "oil_price_used": 51.53,
+      "gas_price_used": 1.12,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 21.08,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 6.71,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_method": "claude-code-interactive",
+    "extraction_timestamp": "2026-02-27T12:45:45",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

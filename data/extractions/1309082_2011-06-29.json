@@ -1,0 +1,63 @@
+{
+  "cik": "1309082",
+  "company": "LUCAS ENERGY, INC.",
+  "filing_date": "2011-06-29",
+  "accession_number": "0001214782-11-000112",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Company does not use derivative instruments for commodity hedging. [Note: instruments not extractable from filing]",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    },
+    "extraction_notes": "confirmed_no_instruments_via_reextract"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 37687,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 8737,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 39143,
+      "total_production_boepd": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2768.2,
+      "proved_gas_reserves_mmcf": 843.3,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 2908.7,
+      "proved_developed_reserves_mboe": 119.3,
+      "proved_undeveloped_reserves_mboe": 2789.5,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 42.72,
+      "pv10_mm": null,
+      "oil_price_used": 79.19,
+      "gas_price_used": 4.3,
+      "lease_operating_expense_per_boe": 43.44,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 31.35,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_method": "claude-code-interactive",
+    "extraction_timestamp": "2026-02-27T15:16:22"
+  },
+  "hedging_summary": {
+    "total_instruments": 0,
+    "by_type": {},
+    "by_commodity": {}
+  }
+}

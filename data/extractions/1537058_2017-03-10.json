@@ -1,0 +1,74 @@
+{
+  "cik": "1537058",
+  "company": "Whiting USA Trust II",
+  "filing_date": "2017-03-10",
+  "accession_number": "0001537058-17-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": "JPMorgan Chase Bank National Association",
+        "fair_value_mm": null,
+        "notes": "Costless collar arrangements terminated December 31, 2014, with hedging effects extending through February 2015 distribution. All hedge contracts have terminated and no additional hedges are allowed on Trust assets. Cash settlements received from counterparty reduced production and development costs in net proceeds calculation. Verified: source discloses only existence of terminated collars as historical context, no per-unit floor/ceiling prices or physical volumes."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "All hedges terminated 12/31/2014. No additional hedges allowed on Trust assets. Trust cannot enter derivatives for speculative/trading purposes. Increased exposure to price volatility."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1002000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1397000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1235000,
+      "total_production_boepd": 3400,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3257,
+      "proved_gas_reserves_mmcf": 2764,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 3718,
+      "proved_developed_reserves_mboe": 3718,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 20.979,
+      "pv10_mm": null,
+      "oil_price_used": 34.47,
+      "gas_price_used": 2.34,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 24.55,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.231847",
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instrument [0] verified truly missing: source confirms all hedge contracts terminated Dec 31, 2014. This 2017 filing (covering year ended Dec 31, 2016) only mentions the terminated collars as historical context. No specific floor/ceiling prices or volumes are disclosed. Source explicitly states no further cash settlements on commodity hedges."
+  }
+}

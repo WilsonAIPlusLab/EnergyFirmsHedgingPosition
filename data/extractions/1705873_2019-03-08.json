@@ -1,0 +1,156 @@
+{
+  "cik": "1705873",
+  "company": "Berry Petroleum Corp",
+  "filing_date": "2019-03-08",
+  "accession_number": "0001705873-19-000016",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 9273.97,
+        "volume_total": 3385000,
+        "volume_unit": "Bbls",
+        "fixed_price": 65.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Purchased oil put options (ICE Brent). Q1 360 MBbls; Q2 1,001 MBbls; Q3 1,012 MBbls; Q4 1,012 MBbls = 3,385 MBbls total @$65.00/Bbl. Deferred premiums ~$20M."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1243.17,
+        "volume_total": 455000,
+        "volume_unit": "Bbls",
+        "fixed_price": 65.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Purchased oil put options (ICE Brent) FY2020, 455 MBbls @$65.00/Bbl."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 12000.0,
+        "volume_total": 1080000,
+        "volume_unit": "Bbls",
+        "fixed_price": 75.76,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-03",
+        "notes": "Fixed price oil swaps (ICE Brent) Q1 2019, 1,080 MBbls @$75.76/Bbl."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 7000.0,
+        "volume_total": 1925000,
+        "volume_unit": "Bbls",
+        "fixed_price": 76.27,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-04",
+        "period_end": "2019-12",
+        "notes": "Fixed price oil swaps (ICE Brent) Q2-Q4 2019. Q2 637 MBbls; Q3 644 MBbls; Q4 644 MBbls = 1,925 MBbls @$76.27/Bbl."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 500.0,
+        "volume_total": 182500,
+        "volume_unit": "Bbls",
+        "fixed_price": -1.29,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "ICE Brent-NYMEX WTI basis swaps. Q1 45 MBbls; Q2 45.5 MBbls; Q3 46 MBbls; Q4 46 MBbls = 182.5 MBbls total @-$1.29/Bbl differential."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 12493.15,
+        "volume_total": 4560000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.65,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "notes": "Fixed price gas purchase swaps (Kern, Delivered) 2019. Q1 1,350,000; Q2 1,365,000; Q3 1,380,000; Q4 465,000 = 4,560,000 MMBtu @$2.65. Company is buyer; protects against gas price increases."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Target covering operating expenses and fixed charges for up to two years; use swaps, puts, calls; hedge oil production and gas purchases; no speculative trading. [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 8045000,
+      "oil_production_bpd": 22000,
+      "gas_production_mcf": 9589000,
+      "gas_production_mmcf_per_day": 26.3,
+      "ngl_production_bbls": 211000,
+      "total_production_boe": 9855000,
+      "total_production_boepd": 27000,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 143000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2018-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 2151.532,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 19.16,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 18.33,
+      "gathering_transport_per_boe": 1.0,
+      "dd_and_a_per_boe": 8.75,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.105500",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

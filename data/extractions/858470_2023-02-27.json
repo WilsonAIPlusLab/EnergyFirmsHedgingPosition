@@ -1,0 +1,159 @@
+{
+  "cik": "858470",
+  "company": "Coterra Energy Inc.",
+  "filing_date": "2023-02-27",
+  "accession_number": "0000858470-23-000011",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 90000.0,
+        "volume_total": 32850000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.03,
+        "ceiling_price": 5.39,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": 44,
+        "notes": "Waha gas collars | Consolidated from 4 sub-period entries"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 600000.0,
+        "volume_total": 54000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5.12,
+        "ceiling_price": 9.34,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-01",
+        "period_end": "2023-03",
+        "counterparty": null,
+        "fair_value_mm": 95,
+        "notes": "NYMEX collars; FV $95M is total for all NYMEX collar positions"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 350000.0,
+        "volume_total": 64050000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.07,
+        "ceiling_price": 6.78,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-04",
+        "period_end": "2023-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX collars | Consolidated from 2 sub-period entries (Q2: 31,850,000 MMBtu; Q3: 32,200,000 MMBtu)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 316847.83,
+        "volume_total": 29150000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.03,
+        "ceiling_price": 6.61,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2023-10",
+        "period_end": "2023-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX collars"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 15000.0,
+        "volume_total": 2715000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70.0,
+        "ceiling_price": 116.03,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-06",
+        "counterparty": null,
+        "fair_value_mm": 8,
+        "notes": "WTI oil collars; source 2,715 MBbl = 2,715,000 Bbls | Consolidated from 2 sub-period entries (Q1: 1,350 MBbl; Q2: 1,365 MBbl)"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 15000.0,
+        "volume_total": 2715000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.63,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-06",
+        "counterparty": null,
+        "fair_value_mm": -1,
+        "notes": "WTI Midland oil basis swaps; source 2,715 MBbl = 2,715,000 Bbls | Consolidated from 2 sub-period entries (Q1: 1,350 MBbl; Q2: 1,365 MBbl)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduce commodity price volatility for production via collars, swaps, basis swaps. Risk management only, not speculative. Credit agreement restricts to hedging actual/projected exposure."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 31926000,
+      "oil_production_bpd": 87000,
+      "gas_production_mcf": 1024000000,
+      "gas_production_mmcf_per_day": 2806,
+      "ngl_production_bbls": 28697000,
+      "total_production_boe": 231342000,
+      "total_production_boepd": 634000,
+      "production_year": 2022
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 94.47,
+      "gas_price_used": 5.34,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 1.84,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015bKTzwvPjibHS2m2Bozhm7",
+    "extraction_timestamp": "2026-02-21T05:59:53.097338",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

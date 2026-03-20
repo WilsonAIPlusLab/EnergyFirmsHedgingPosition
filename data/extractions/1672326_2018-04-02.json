@@ -1,0 +1,125 @@
+{
+  "cik": "1672326",
+  "company": "Yuma Energy, Inc.",
+  "filing_date": "2018-04-02",
+  "accession_number": "0001654954-18-003501",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4726.39,
+        "volume_total": 1725133,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Henry Hub prices"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4154.51,
+        "volume_total": 373906,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Henry Hub prices; settlement through March 2019"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 534.66,
+        "volume_total": 195152,
+        "volume_unit": "Bbls",
+        "fixed_price": 53.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI prices"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1736.89,
+        "volume_total": 156320,
+        "volume_unit": "Bbls",
+        "fixed_price": 53.77,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI prices; settlement through March 2019"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedge a portion of production to manage cash flow, minimize price volatility, generate funds for operations and capital, ensure support of exploration and debt service."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 250343,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3085613,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 131155,
+      "total_production_boe": 895767,
+      "total_production_boepd": null,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 50.32,
+      "gas_price_used": 3.05,
+      "lease_operating_expense_per_boe": 7.5,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 12.32,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 11.97,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.098248",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

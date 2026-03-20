@@ -1,0 +1,141 @@
+{
+  "cik": "1338613",
+  "company": "Regency Energy Partners LP",
+  "filing_date": "2013-03-01",
+  "accession_number": "0001338613-13-000011",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 216.44,
+        "volume_total": 79000,
+        "volume_unit": "Bbls",
+        "fixed_price": 1.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/gallon",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "notes": "Propane swap, 79 MBbls for Jan-Dec 2013, fixed price $1.03/gallon. Settled against OPIS Mont Belvieu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 323.29,
+        "volume_total": 236000,
+        "volume_unit": "Bbls",
+        "fixed_price": 1.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/gallon",
+        "period_start": "2013-01",
+        "period_end": "2014-12",
+        "notes": "Normal Butane swap, 236 MBbls for Jan 2013-Dec 2014, fixed price $1.62/gallon. Settled against OPIS Mont Belvieu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 77.78,
+        "volume_total": 7000,
+        "volume_unit": "Bbls",
+        "fixed_price": 2.27,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/gallon",
+        "period_start": "2013-01",
+        "period_end": "2013-03",
+        "notes": "Natural Gasoline swap, 7 MBbls for Jan-Mar 2013, fixed price $2.27/gallon. Settled against OPIS Mont Belvieu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 487.67,
+        "volume_total": 356000,
+        "volume_unit": "Bbls",
+        "fixed_price": 99.47,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2013-01",
+        "period_end": "2014-12",
+        "notes": "WTI Crude swap, 356 MBbls for Jan 2013-Dec 2014, fixed price $99.47/Bbl. Settled against NYMEX WTI."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 11500.0,
+        "volume_total": 8395000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.87,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/mmbtu",
+        "period_start": "2013-01",
+        "period_end": "2014-12",
+        "notes": "Natural gas swap, 8,395,000 MMBtu for Jan 2013-Dec 2014, fixed price $3.87/MMBtu. Settled against NYMEX."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 3,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "[EXCLUDED: Non-E&P producer. Regency Energy Partners LP is a midstream/refiner/LNG company, not an oil & gas producer. Instruments removed from hedge ratio study.] Original: Manage commodity price risk through contract portfolio mgmt, matching sales/purchases, portfolio optimization, and derivatives. Prohibit speculative positions.",
+      "total_instruments": 0
+    },
+    "uses_derivatives": true,
+    "instrument_count": 5,
+    "extraction_notes": "Patched from audit results (2026-03-09)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.272824",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

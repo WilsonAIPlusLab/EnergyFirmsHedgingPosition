@@ -1,0 +1,59 @@
+{
+  "cik": "1572702",
+  "company": "Atlas Growth Partners, L.P.",
+  "filing_date": "2021-03-31",
+  "accession_number": "0001564590-21-017014",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Used swaps and futures/options to achieve predictable cash flows by hedging commodity price exposure. No hedge accounting applied. No derivatives outstanding as of Dec 31, 2020 or 2019.",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 76000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 55000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 11000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2020
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 433,
+      "proved_gas_reserves_mmcf": 359,
+      "proved_ngl_reserves_mbbls": 67,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 3.896,
+      "pv10_mm": null,
+      "oil_price_used": 39.54,
+      "gas_price_used": 1.99,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.069163",
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_note": "Instrument [0] removed as FALSE POSITIVE. Note 4 in source explicitly states 'As of December 31, 2020 and 2019, we did not have any commodity derivatives outstanding.' The instrument referenced only a historical 2018 mark-to-market loss of $381K with no active position at the reporting date."
+  }
+}

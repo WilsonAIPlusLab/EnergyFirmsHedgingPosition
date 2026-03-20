@@ -1,0 +1,159 @@
+{
+  "cik": "1559432",
+  "company": "TXO Partners, L.P.",
+  "filing_date": "2025-03-04",
+  "accession_number": "0001559432-25-000035",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2000,
+        "volume_total": 1276000,
+        "volume_unit": "Bbls",
+        "fixed_price": 70.49,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2026-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Crude oil futures contracts and swap agreements"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 375,
+        "volume_total": 34500,
+        "volume_unit": "Bbls",
+        "fixed_price": 64.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-10",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Crude oil futures contracts and swap agreements"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000,
+        "volume_total": 22750000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.21,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2026-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas futures contracts and swap agreements"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 35000,
+        "volume_total": 6405000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-04",
+        "period_end": "2026-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas futures contracts and swap agreements"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 42500,
+        "volume_total": 3910000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-10",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas futures contracts and swap agreements"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000,
+        "volume_total": 18250000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sell basis swap for San Juan Basin delivery location; reductions to NYMEX gas price"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enter commodity derivatives to reduce impact of price volatility on cash flow. Future transactions may include swaps and collars. Hedging requirement based on leverage"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2716000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 27790000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1211000,
+      "total_production_boe": 8559000,
+      "total_production_boepd": 23000,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 75.76,
+      "gas_price_used": 2.41,
+      "lease_operating_expense_per_boe": 17.56,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 7.06,
+      "dd_and_a_per_boe": 6.12,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.067161",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "cik": 355300,
+    "company": "EnDevCo Inc",
+    "filing_date": "2010-04-15",
+    "form_type": "10-K",
+    "accession_number": "0000355300-10-000006",
+    "source_file": "parsed/355300_ENDEVCO_INC/2010-04-15/sections/item8_oil_gas.txt",
+    "item7_cleanup_timestamp": "2026-02-28T06:09:31.446654+00:00",
+    "model": "unknown-legacy"
+  },
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed.",
+      "total_instruments": 0,
+      "by_commodity": {},
+      "by_type": {}
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bpd": null,
+      "oil_production_bbls": null,
+      "gas_production_mmcf_per_day": null,
+      "gas_production_mcf": null,
+      "total_production_boepd": null,
+      "total_production_boe": null,
+      "production_year": 2009,
+      "ngl_production_bbls": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2009-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "cik": "355300",
+  "company": "EnDevCo Inc",
+  "filing_date": "2010-04-15",
+  "form_type": "10-K",
+  "accession_number": "0000355300-10-000006",
+  "hedging_summary": {
+    "total_instruments": 0,
+    "by_type": {},
+    "by_commodity": {}
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "cik": "1486159",
+  "company": "Oasis Petroleum Inc.",
+  "filing_date": "2022-02-25",
+  "accession_number": "0001486159-22-000014",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 12468.49,
+        "volume_total": 4551000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 49.4,
+        "ceiling_price": 66.53,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Two-way collar on crude oil, NYMEX WTI, 4,551,000 Bbl total for 2022"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 17386.3,
+        "volume_total": 6346000,
+        "volume_unit": "Bbls",
+        "fixed_price": 70.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Fixed price swap on crude oil, NYMEX WTI, modified from $40.89 to $70.00/Bbl"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 12000.0,
+        "volume_total": 4380000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.42,
+        "ceiling_price": 65.05,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Two-way collar on crude oil, NYMEX WTI, 4,380,000 Bbl total for 2023"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 14424.66,
+        "volume_total": 5265000,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2023-01",
+        "period_end": "2023-12",
+        "notes": "Fixed price swap on crude oil, NYMEX WTI, modified from $43.68 to ~$52.24/Bbl (wtd avg includes modified $50.00 contracts)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1016.39,
+        "volume_total": 372000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45.0,
+        "ceiling_price": 64.88,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Two-way collar on crude oil, NYMEX WTI, 372,000 Bbl total for 2024"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1185.79,
+        "volume_total": 434000,
+        "volume_unit": "Bbls",
+        "fixed_price": 50.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "notes": "Fixed price swap on crude oil, NYMEX WTI, 434,000 Bbl total for 2024"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 12328.77,
+        "volume_total": 4500000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2022-01",
+        "period_end": "2022-12",
+        "notes": "Fixed price swap on natural gas, NYMEX HH, 4,500,000 MMBtu total for 2022"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Expects to enter into derivatives to cover significant portion of future production. All derivatives entered for hedging purposes, not speculative trading."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 7,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 13489000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 46157000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 21182000,
+      "total_production_boepd": 58032,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 250900,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2700,
+      "pv10_mm": 3100,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 9.63,
+      "production_tax_per_boe": 3.63,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 5.79,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.181944",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

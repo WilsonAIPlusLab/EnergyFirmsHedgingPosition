@@ -1,0 +1,56 @@
+{
+  "cik": "1745797",
+  "company": "Brigham Minerals, Inc.",
+  "filing_date": "2022-02-28",
+  "accession_number": "0001745797-22-000017",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "May enter derivatives (collars, swaps, basis swaps) to mitigate price volatility. Credit facility allows hedging up to 85% of projected production for up to 60 months."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1677000,
+      "oil_production_bpd": 4594,
+      "gas_production_mcf": 5886000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 642000,
+      "total_production_boe": 3300000,
+      "total_production_boepd": 9040,
+      "production_year": 2021
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2021-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 66.56,
+      "gas_price_used": 3.64,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": 2.82,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 2.07,
+      "dd_and_a_per_boe": 11.12,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.111575",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

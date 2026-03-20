@@ -1,0 +1,108 @@
+{
+  "cik": "1172139",
+  "company": "BILL BARRETT CORP",
+  "filing_date": "2016-03-02",
+  "accession_number": "0001172139-16-000132",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 6772.13,
+        "volume_total": 2478600,
+        "volume_unit": "Bbls",
+        "fixed_price": 80.47,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Weighted average price for oil swaps covering 2016"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1871.92,
+        "volume_total": 683250,
+        "volume_unit": "Bbls",
+        "fixed_price": 75.61,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Weighted average price for oil swaps covering 2017"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5000.0,
+        "volume_total": 1830000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Weighted average price for natural gas swaps covering 2016"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Routinely enters commodity hedges through financial price swaps to support oil, gas and NGL prices at targeted levels and manage exposure to price fluctuations."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4401000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 7764000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 898000,
+      "total_production_boe": 6593000,
+      "total_production_boepd": 18063,
+      "production_year": 2015
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 55523,
+      "proved_gas_reserves_mmcf": 97999,
+      "proved_ngl_reserves_mbbls": 11844,
+      "total_proved_reserves_mboe": 83701,
+      "proved_developed_reserves_mboe": 39807,
+      "proved_undeveloped_reserves_mboe": 43894,
+      "reserves_year_end": "2015-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 327.6,
+      "pv10_mm": null,
+      "oil_price_used": 50.28,
+      "gas_price_used": 2.59,
+      "lease_operating_expense_per_boe": 6.48,
+      "production_tax_per_boe": 1.85,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.53,
+      "dd_and_a_per_boe": 31.14,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_016C1h1kvuLqJQZHyHZw4Gm4",
+    "extraction_timestamp": "2026-02-21T05:57:48.226317",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

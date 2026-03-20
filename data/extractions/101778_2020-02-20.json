@@ -1,0 +1,156 @@
+{
+  "cik": "101778",
+  "company": "MARATHON OIL CORP",
+  "filing_date": "2020-02-20",
+  "accession_number": "0000101778-20-000023",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 60000,
+        "volume_total": 10920000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": 66.04,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-06",
+        "notes": "NYMEX WTI three-way collars Q1-Q2 2020, 60,000 bbls/day. Ceiling $66.04, floor $55.00, sold put $47.67."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 60000,
+        "volume_total": 11040000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.0,
+        "ceiling_price": 63.74,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2020-07",
+        "period_end": "2020-12",
+        "notes": "NYMEX WTI three-way collars Q3-Q4 2020, 60,000 bbls/day. Ceiling $63.74, floor $55.00, sold put $48.00."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 15000,
+        "volume_total": 5490000,
+        "volume_unit": "Bbls",
+        "fixed_price": -0.94,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Basis swaps Argus WTI Midland, 15,000 bbls/day all four quarters 2020. Weighted avg differential -$0.94/bbl."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 1830000,
+        "volume_unit": "Bbls",
+        "fixed_price": -7.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "notes": "Basis swaps NYMEX WTI / ICE Brent, 5,000 bbls/day all four quarters 2020. Weighted avg differential -$7.24/bbl."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 808,
+        "volume_total": 294920,
+        "volume_unit": "Bbls",
+        "fixed_price": -7.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2021-01",
+        "period_end": "2021-12",
+        "notes": "Basis swaps NYMEX WTI / ICE Brent, 808 bbls/day for full year 2021. Weighted avg differential -$7.24/bbl."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 100000,
+        "volume_total": 9100000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 3.32,
+        "sub_floor_price": null,
+        "price_unit": "$/mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-03",
+        "notes": "Natural gas three-way collars Q1 2020 only, 100,000 MMBtu/day. Ceiling $3.32, floor $2.75, sold put $2.25. NYMEX Henry Hub."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically protect prices on forecasted sales to support cash flow and liquidity. May use futures, forwards, swaps and combinations of options to manage commodity price risk."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 6,
+    "extraction_notes": "Patched from audit results (2026-03-09)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 151090000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 307665000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 24235000,
+      "total_production_boe": 151110000,
+      "total_production_boepd": 414000,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 55.69,
+      "gas_price_used": 2.58,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.552622",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "cik": "315852",
+  "company": "RANGE RESOURCES CORP",
+  "filing_date": "2025-02-25",
+  "accession_number": "0000950170-25-026789",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 400000.0,
+        "volume_total": 146000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": 84.763,
+        "notes": "Natural gas swaps 2025; 400,000 Mmbtu/day; weighted avg price $4.12/Mmbtu. Source: Note 8 derivative table (item8_notes.txt)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 200000.0,
+        "volume_total": 73000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": 10.154,
+        "notes": "Natural gas swaps 2026; 200,000 Mmbtu/day; weighted avg price $4.05/Mmbtu. Source: Note 8 derivative table."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000.0,
+        "volume_total": 10950000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2027-01",
+        "period_end": "2027-12",
+        "counterparty": null,
+        "fair_value_mm": 2.557,
+        "notes": "Natural gas swaps 2027; 30,000 Mmbtu/day; weighted avg price $4.10/Mmbtu. Source: Note 8 derivative table."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 158822.0,
+        "volume_total": 57970030,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.3,
+        "ceiling_price": 4.82,
+        "sub_floor_price": 2.53,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": 11.894,
+        "notes": "Natural gas three-way collars 2025; 158,822 Mmbtu/day; sold put $2.53/Mmbtu, floor $3.30/Mmbtu, ceiling $4.82/Mmbtu. Source: Note 8 derivative table."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 182505.13,
+        "volume_total": 266640000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2025-01",
+        "period_end": "2028-12",
+        "counterparty": null,
+        "fair_value_mm": -29.152,
+        "notes": "Natural gas basis swaps; expire monthly through December 2028; total volume 266,640,000 Mmbtu. Fair value net derivative liability $29.2M at Dec 31, 2024. source does not specify fixed price differential. Verified: source discloses volumes but not per-unit prices for this position."
+      },
+      {
+        "instrument_type": "swaption",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 150000.0,
+        "volume_total": 54750000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": -13.24,
+        "notes": "Natural gas swaptions for calendar year 2026; 150,000 Mmbtu/day; weighted avg strike price $4.00/Mmbtu; option expires Jun-Aug 2025. Fair value net liability $13.2M at Dec 31, 2024. Source: Note 8 footnote (a)."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity derivatives to manage price fluctuations, not for trading. Over 30% of 2025 production hedged, >35% natural gas. Provides partial price protection & predictable cash flows."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2180528,
+      "oil_production_bpd": 5958,
+      "gas_production_mcf": 545415974,
+      "gas_production_mmcf_per_day": 1490.208,
+      "ngl_production_bbls": 39622576,
+      "total_production_boe": 132705766,
+      "total_production_boepd": 362584,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": 1988466,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4700,
+      "pv10_mm": 5500,
+      "oil_price_used": 76.17,
+      "gas_price_used": 2.27,
+      "lease_operating_expense_per_boe": 0.72,
+      "production_tax_per_boe": 0.18,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 8.88,
+      "dd_and_a_per_boe": 2.7,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.076216",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "warning_fix_timestamp": "2026-02-28T12:00:00"
+  }
+}

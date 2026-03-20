@@ -1,0 +1,54 @@
+{
+  "cik": "1505413",
+  "company": "VOC Energy Trust",
+  "filing_date": "2020-03-13",
+  "accession_number": "0001047469-20-001468",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "VOC Energy Trust is a royalty trust; does not engage in hedging. Net profits interest conveyed had hedge liability of $1,717,713 at inception (May 2011)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 489538,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 286688,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 537319,
+      "total_production_boepd": null,
+      "production_year": 2019
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 4163,
+      "proved_gas_reserves_mmcf": 1951,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 4488,
+      "proved_developed_reserves_mboe": 3438,
+      "proved_undeveloped_reserves_mboe": 1050,
+      "reserves_year_end": "2019-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 62.13,
+      "pv10_mm": null,
+      "oil_price_used": 52.94,
+      "gas_price_used": 1.9,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.189655"
+  }
+}

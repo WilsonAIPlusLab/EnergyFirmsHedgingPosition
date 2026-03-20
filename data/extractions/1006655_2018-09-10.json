@@ -1,0 +1,56 @@
+{
+  "cik": "1006655",
+  "company": "EVOLUTION PETROLEUM CORP",
+  "filing_date": "2018-09-10",
+  "accession_number": "0001006655-18-000045",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Uses derivatives to manage exposure to commodity price risk from time to time. Utilizes swaps and costless collars to reduce effect of price changes on future oil production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 651931,
+      "oil_production_bpd": 1786,
+      "gas_production_mcf": 0,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 93366,
+      "total_production_boe": 745297,
+      "total_production_boepd": 2042,
+      "production_year": 2018
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 0,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 9400,
+      "proved_developed_reserves_mboe": 7332,
+      "proved_undeveloped_reserves_mboe": 2068,
+      "reserves_year_end": "2018-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 118.958414,
+      "pv10_mm": 146,
+      "oil_price_used": 57.5,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 16.36,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 8.02,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_015LBytkM4Rgnfq5TsX4MPad",
+    "extraction_timestamp": "2026-02-21T05:57:47.543033",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

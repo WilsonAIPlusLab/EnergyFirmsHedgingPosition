@@ -1,0 +1,142 @@
+{
+  "cik": "1724965",
+  "company": "TALOS ENERGY INC.",
+  "filing_date": "2025-02-27",
+  "accession_number": "0000950170-25-028223",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 25951,
+        "volume_total": 9472115,
+        "volume_unit": "Bbls",
+        "fixed_price": 72.66,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI CMA crude oil swap [FIXED volumes+periods+added missing instruments 2026-03-19]"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 10497,
+        "volume_total": 1890846,
+        "volume_unit": "Bbls",
+        "fixed_price": 65.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-01",
+        "period_end": "2026-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI CMA crude oil swap; Jan-Jun 2026 (180 days) [ADDED 2026-03-19]"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3000,
+        "volume_total": 270000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 65.0,
+        "ceiling_price": 84.35,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX WTI CMA two-way costless collar; Jan-Mar 2025 (90 days) [ADDED 2026-03-19]"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 57384,
+        "volume_total": 20945160,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Henry Hub natural gas swap [FIXED volumes+periods 2026-03-19]"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.65,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX Henry Hub natural gas swap [ADDED 2026-03-19]"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Subject to minimum hedging requirement under Bank Credit Facility: 50% of proved developed producing reserves for first 4 quarters, 25% for quarters 5-6 if debt/EBITDAX >=1.0"
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 24078000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 41078000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 2969000,
+      "total_production_boe": 33893000,
+      "total_production_boepd": null,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 43840,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 3564,
+      "pv10_mm": 4200,
+      "oil_price_used": 75.51,
+      "gas_price_used": 2.45,
+      "lease_operating_expense_per_boe": 16.7,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.107153",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

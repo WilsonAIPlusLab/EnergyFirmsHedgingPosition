@@ -1,0 +1,162 @@
+{
+  "cik": "1362705",
+  "company": "Sanchez Midstream Partners LP",
+  "filing_date": "2018-03-12",
+  "accession_number": "0001558370-18-001824",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1362.54,
+        "volume_total": 497328,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap. NYMEX Henry Hub."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1249.86,
+        "volume_total": 456200,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.85,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap. NYMEX Henry Hub."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1099.58,
+        "volume_total": 402448,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.85,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap. NYMEX Henry Hub."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 711.17,
+        "volume_total": 259576,
+        "volume_unit": "Bbls",
+        "fixed_price": 59.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2018-01",
+        "period_end": "2018-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil swap. WTI."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 640.9,
+        "volume_total": 233928,
+        "volume_unit": "Bbls",
+        "fixed_price": 60.46,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2019-01",
+        "period_end": "2019-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil swap. WTI."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 548.04,
+        "volume_total": 200584,
+        "volume_unit": "Bbls",
+        "fixed_price": 53.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-01",
+        "period_end": "2020-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil swap. WTI."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Renamed from Sanchez Production Partners to Sanchez Midstream Partners. MTM accounting. Gas: NYMEX Henry Hub fixed price swaps 2018-2020 (declining quarterly volumes). Oil: WTI fixed price swaps 2018-2020. Also has midstream earnout derivative liability (Catarina gathering)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 414000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2521000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 102000,
+      "total_production_boe": 936000,
+      "total_production_boepd": 2565,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 12.89,
+      "production_tax_per_boe": 1.58,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 10.17,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.294738",
+    "rerun_model": "claude-opus-4-6",
+    "rerun_method": "claude-code-interactive",
+    "rerun_timestamp": "2026-02-27T06:10:00",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

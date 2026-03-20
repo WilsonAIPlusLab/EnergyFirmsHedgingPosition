@@ -1,0 +1,125 @@
+{
+  "cik": "277595",
+  "company": "ENERGEN CORP",
+  "filing_date": "2015-03-02",
+  "accession_number": "0000277595-15-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 22684.93,
+        "volume_total": 8280000,
+        "volume_unit": "Bbls",
+        "fixed_price": 89.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": 268.55,
+        "notes": "NYMEX Swaps; 8,280 MBbl per source"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5917.81,
+        "volume_total": 2160000,
+        "volume_unit": "Bbls",
+        "fixed_price": -4.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": -3.836,
+        "notes": "WTS/WTI Basis Swaps - West Texas Sour/Midland to West Texas Intermediate/Cushing; 2,160 MBbl per source"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 18739.73,
+        "volume_total": 6840000,
+        "volume_unit": "Bbls",
+        "fixed_price": -4.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": -14.419,
+        "notes": "WTI/WTI Basis Swaps - West Texas Intermediate/Midland to West Texas Intermediate/Cushing; 6,840 MBbl per source"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 42465.75,
+        "volume_total": 31000000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "counterparty": null,
+        "fair_value_mm": 28.597,
+        "notes": "Basin Specific Swaps - San Juan | Consolidated from 2 sub-period entries"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into derivative instruments to hedge exposure to price fluctuations. Transactions pursuant to Board authorization; no speculative positions."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 11814000,
+      "oil_production_bpd": 32400,
+      "gas_production_mcf": 58602000,
+      "gas_production_mmcf_per_day": 160.6,
+      "ngl_production_bbls": 7292000,
+      "total_production_boe": 25684000,
+      "total_production_boepd": 70400,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 372700,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.46,
+      "production_tax_per_boe": 3.97,
+      "total_production_cost_per_boe": 10.68,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 21.36,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.063227",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

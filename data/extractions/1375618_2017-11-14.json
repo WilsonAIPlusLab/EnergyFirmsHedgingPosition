@@ -1,0 +1,55 @@
+{
+  "cik": "1375618",
+  "company": "Amazing Energy Oil & Gas, Co.",
+  "filing_date": "2017-11-14",
+  "accession_number": "0001056520-17-000083",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging disclosed. The company is a smaller reporting company and states it is not required to provide quantitative and qualitative disclosures about market risk under Item 7A. No derivative instruments or hedging contracts are mentioned in the notes to financial statements."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5566,
+      "oil_production_bpd": 15.2,
+      "gas_production_mcf": 37521,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 11820,
+      "total_production_boepd": 32.4,
+      "production_year": 2017
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 305.44,
+      "proved_gas_reserves_mmcf": 1143.17,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 495.97,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2017-07-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4.466,
+      "pv10_mm": null,
+      "oil_price_used": 48.71,
+      "gas_price_used": 3.01,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

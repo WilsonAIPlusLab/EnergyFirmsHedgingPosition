@@ -1,0 +1,130 @@
+{
+  "cik": 719209,
+  "company": "ISRAMCO INC",
+  "filing_date": "2019-03-18",
+  "accession_number": "0001185185-19-000385",
+  "form_type": "10-K",
+  "period_end": "2018-12-31",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No open commodity derivative positions as of December 31, 2018 and 2017. Interest rate swaps only (Deutsche Bank AG) for LIBOR risk on Tamar Royalties LLC term loan."
+    }
+  },
+  "production": {
+    "reserves": {
+      "proved_total": {
+        "oil_MBbls": 2125,
+        "gas_MMcf": 223915,
+        "ngl_MBbls": 823,
+        "total_MBOE": 40267,
+        "notes": "US + Israel. Upward revisions continued in 2018 due to higher commodity prices."
+      },
+      "proved_developed": {
+        "oil_MBbls": 2125,
+        "gas_MMcf": 145245,
+        "ngl_MBbls": 721,
+        "total_MBOE": 27053
+      },
+      "proved_undeveloped": {
+        "oil_MBbls": 0,
+        "gas_MMcf": 78670,
+        "ngl_MBbls": 102,
+        "total_MBOE": 13214
+      },
+      "changes": {
+        "revisions": {
+          "oil_Bbls": 529546,
+          "gas_Mcf": 14162241,
+          "ngl_Bbls": 75877,
+          "total_BOE": 2965796
+        },
+        "extensions": {
+          "oil_Bbls": 14985,
+          "gas_Mcf": 12645,
+          "ngl_Bbls": 117,
+          "total_BOE": 17210
+        },
+        "production": {
+          "oil_Bbls": -183623,
+          "gas_Mcf": -6710698,
+          "ngl_Bbls": -66029,
+          "total_BOE": -1368102
+        },
+        "sales_of_minerals": {
+          "oil_Bbls": -1126,
+          "gas_Mcf": 0,
+          "ngl_Bbls": 0,
+          "total_BOE": -1126
+        }
+      },
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "results_of_operations": {
+        "revenues_MM": 46.968,
+        "us_revenues_MM": 15.932,
+        "israel_revenues_MM": 31.036,
+        "production_costs_MM": 9.662,
+        "dda_MM": 2.755,
+        "income_tax_MM": 7.946,
+        "results_MM": 26.605
+      },
+      "standardized_measure": {
+        "total_MM": 289.813,
+        "us_MM": 41.924,
+        "israel_MM": 247.889
+      },
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    },
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    }
+  },
+  "metadata": {
+    "source_sections": [
+      "item8_oil_gas.txt",
+      "item7a.txt",
+      "item8_notes.txt"
+    ],
+    "reserve_engineers": [
+      "Netherland, Sewell & Associates, Inc.",
+      "Cawley, Gillespie & Associates, Inc."
+    ],
+    "accounting_method": "successful_efforts",
+    "geographic_areas": [
+      "United States",
+      "Israel"
+    ],
+    "notes": "No commodity hedging. Interest rate derivatives only.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0,
+    "model": "unknown-legacy"
+  }
+}

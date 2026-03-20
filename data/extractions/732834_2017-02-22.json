@@ -1,0 +1,108 @@
+{
+  "cik": "732834",
+  "company": "CONTINENTAL RESOURCES, INC",
+  "filing_date": "2017-02-22",
+  "accession_number": "0000732834-17-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 199150.68,
+        "volume_total": 72690000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.41,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swaps based on NYMEX Henry Hub settlement prices"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 180000.0,
+        "volume_total": 65700000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.47,
+        "ceiling_price": 3.08,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Collars based on NYMEX Henry Hub settlement prices. Floor range $2.40-$3.00, ceiling range $2.92-$3.88"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "other",
+        "direction": "long",
+        "volume_per_day": 782.78,
+        "volume_total": 285714.29,
+        "volume_unit": "Bbls",
+        "fixed_price": 1.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/gallon",
+        "period_start": "2017-01",
+        "period_end": "2017-12",
+        "counterparty": null,
+        "fair_value_mm": 4.1,
+        "notes": "Diesel fuel swaps settled based on NYMEX New York Harbor ultra-low sulfur diesel fuel prices. Fair value is asset at period end."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "May hedge crude oil and natural gas production to reduce price risk. Crude oil production for 2017 and beyond currently unhedged. Uses swaps, collars, and basis contracts."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 46850000,
+      "oil_production_bpd": 128005,
+      "gas_production_mcf": 195240000,
+      "gas_production_mmcf_per_day": 533.442,
+      "ngl_production_bbls": null,
+      "total_production_boe": 79390000,
+      "total_production_boepd": 216912,
+      "production_year": 2016
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 643000,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1274864,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2016-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 42.75,
+      "gas_price_used": 2.49,
+      "lease_operating_expense_per_boe": 3.65,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 21.54,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.109718",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

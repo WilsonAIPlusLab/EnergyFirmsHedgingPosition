@@ -1,0 +1,92 @@
+{
+  "cik": "717423",
+  "company": "MURPHY OIL CORP /DE",
+  "filing_date": "2015-02-27",
+  "accession_number": "0000717423-15-000016",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 65000,
+        "volume_total": 23725000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2015-01",
+        "period_end": "2015-12",
+        "notes": "Canadian natural gas forward delivery contract, TCPL-NOVA System, 65 mmcf/d at C$4.13/mcf for full year 2015"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 9000,
+        "volume_total": 3285000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "C$/Mcf",
+        "period_start": "2016-01",
+        "period_end": "2016-12",
+        "notes": "Canadian natural gas forward delivery contract, TCPL-NOVA System, 9 mmcf/d at C$4.13/mcf for full year 2016"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Murphy uses derivative financial and commodity instruments to manage risks associated with existing or anticipated transactions."
+    },
+    "uses_derivatives": true,
+    "instrument_count": 2,
+    "extraction_notes": "Re-extracted from raw text (2026-03-10) | Verified 2026-03-19: hedging_summary counts corrected"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 51979920,
+      "oil_production_bpd": 142408,
+      "gas_production_mcf": 162790000,
+      "gas_production_mmcf_per_day": 446.0,
+      "ngl_production_bbls": 3372235,
+      "total_production_boe": 82489288,
+      "total_production_boepd": 226000,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 756500,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01EUGGrNA1yE4jLeGvnkQfgv",
+    "extraction_timestamp": "2026-02-21T05:58:52.103198",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

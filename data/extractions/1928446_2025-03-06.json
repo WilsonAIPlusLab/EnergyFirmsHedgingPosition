@@ -1,0 +1,162 @@
+{
+  "cik": "1928446",
+  "company": "Granite Ridge Resources, Inc.",
+  "filing_date": "2025-03-06",
+  "accession_number": "0001928446-25-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 6587.34,
+        "volume_total": 2404379,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.93,
+        "ceiling_price": 78.27,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil collar. 2025. Declining 5.4-8.5k Bbl/d. $60-$61.65/$77.23-$79.43. $60.93/$78.27 wtd avg."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2161.59,
+        "volume_total": 788980,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60.0,
+        "ceiling_price": 69.68,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil collar. 2026. ~2.2k Bbl/d. $60/$69.68."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 28257.5,
+        "volume_total": 10313989,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 3.14,
+        "ceiling_price": 4.11,
+        "price_unit": "$/Mcf",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas collar. 2025. 11.7-46k Mcf/d (varies). $3.00-$3.30/$3.75-$4.56. $3.14/$4.11 wtd avg."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 22340.95,
+        "volume_total": 8154446,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 3.29,
+        "ceiling_price": 4.06,
+        "price_unit": "$/Mcf",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas collar. 2026. ~22.3k Mcf/d. $3.29/$4.06."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 12648.44,
+        "volume_total": 3478320,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.18,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2025-04",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap. 2025 Q2-Q4 only. Declining 2.3-28k Mcf/d. @$3.16-$3.19, $3.18 wtd avg."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3433.97,
+        "volume_total": 1253400,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.41,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap. 2026. ~3.4k Mcf/d. @$3.41."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Granite Ridge Resources. Non-operating E&P (~25k Boe/d). Oil: collars (2.4M 2025 @$60.93/$78.27, 789k 2026 @$60/$69.68). Gas: collars (10.3M 2025 @$3.14/$4.11, 8.2M 2026 @$3.29/$4.06) + swaps (3.5M 2025 Q2-Q4 @$3.18, 1.25M 2026 @$3.41). Net derivative liability $5M."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4483000,
+      "oil_production_bpd": 12248,
+      "gas_production_mcf": 27944000,
+      "gas_production_mmcf_per_day": 76.35,
+      "ngl_production_bbls": null,
+      "total_production_boe": 9140000,
+      "total_production_boepd": 24973,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 6.29,
+      "production_tax_per_boe": 2.3,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 19.31,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.117330",
+    "rerun_model": "claude-opus-4-6",
+    "rerun_method": "claude-code-interactive",
+    "rerun_timestamp": "2026-02-27T09:35:00",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "cik": "1407805",
+  "company": "ROCKIES REGION 2007 LP",
+  "filing_date": "2012-03-27",
+  "accession_number": "0001407805-12-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 235.87,
+        "volume_total": 86330,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.0,
+        "ceiling_price": 8.27,
+        "price_unit": "$/MMbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX-indexed natural gas collar 2012 (combined 4 quarters: 28,713+15,280+20,362+21,975=86,330 MMBtu)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3595.47,
+        "volume_total": 1315943,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/MMbtu",
+        "period_start": "2012-01",
+        "period_end": "2012-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX-indexed natural gas fixed-price swap 2012 (combined 4 quarters: 337,506+339,408+326,282+312,747=1,315,943 MMBtu)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3393.38,
+        "volume_total": 1238582,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/MMbtu",
+        "period_start": "2013-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX-indexed natural gas fixed-price swap 2013 (combined 4 quarters: 317,795+313,268+308,107+299,412=1,238,582 MMBtu)"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3612.66,
+        "volume_total": 2640855,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -1.88,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/MMbtu",
+        "period_start": "2012-01",
+        "period_end": "2013-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "CIG basis protection swaps 2012-2013; aggregate volume across 8 quarters (366,219+354,688+346,644+334,722+317,795+313,268+308,107+299,412=2,640,855 MMBtu)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Managing General Partner utilizes economic hedging strategy for natural gas sales to protect against price declines. Currently does not have any derivative positions for crude oil or NGL production. Partnership policy prohibits speculative use.",
+      "total_instruments": 4,
+      "by_commodity": {
+        "natural_gas": 4
+      },
+      "by_type": {
+        "collar": 1,
+        "swap": 2,
+        "basis_swap": 1
+      }
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 55600,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1704713,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 21356,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2011
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2011-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 2.02,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 2.47,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01UWwtmV53MshCWrAT1gKTTz",
+    "extraction_timestamp": "2026-02-21T05:58:49.334843",
+    "warning_fix_timestamp": "2026-02-28T12:00:00",
+    "warning_fix_notes": "Complete re-extraction of instruments from item7 derivative table (as of Dec 31, 2011). All 15 prior instruments were hallucinated: inst[0] forward/other fixed=107.7 ($107.7M PDC acquisition program total, not a price), inst[1] call/other ceiling=2010.0 (year as price), inst[2] futures/other fixed=107.7 (same), inst[3] forward/oil fixed=17.5 ($17.5M Piceance Basin book value, not a price), inst[4] call/gas ceiling=2011.0 (year as price), inst[5] collar/gas floor/ceiling=2011.0 (year as price), inst[6] collar/oil floor/ceiling=2011.0 (year as price), inst[7-14] various oil instruments (source explicitly states no oil/NGL derivatives). Actual derivative table as of Dec 31, 2011 shows: NYMEX natural gas collar (floor $6.00/ceiling $8.27, 2012), NYMEX gas swaps ($6.98/MMbtu 2012, $7.12/MMbtu 2013), CIG basis protection swaps (-$1.88/MMbtu 2012-2013). No crude oil or NGL positions."
+  },
+  "hedging_summary": {
+    "total_instruments": 4,
+    "by_type": {
+      "collar": 1,
+      "swap": 2,
+      "basis_swap": 1
+    },
+    "by_commodity": {
+      "natural_gas": 4
+    }
+  }
+}

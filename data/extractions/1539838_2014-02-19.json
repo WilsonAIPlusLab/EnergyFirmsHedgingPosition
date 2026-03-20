@@ -1,0 +1,142 @@
+{
+  "cik": "1539838",
+  "company": "Diamondback Energy, Inc.",
+  "filing_date": "2014-02-19",
+  "accession_number": "0001539838-14-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2585.52,
+        "volume_total": 944000,
+        "volume_unit": "Bbls",
+        "fixed_price": 98.78,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "counterparty": "Wells Fargo Bank, N.A.",
+        "fair_value_mm": 0.431,
+        "notes": "Argus Louisiana Light Sweet Fixed Price Swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 31000,
+        "volume_unit": "Bbls",
+        "fixed_price": 101.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2015-01",
+        "period_end": "2015-01",
+        "counterparty": "Wells Fargo Bank, N.A.",
+        "fair_value_mm": 0.431,
+        "notes": "Argus Louisiana Light Sweet Fixed Price Swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 120000,
+        "volume_unit": "Bbls",
+        "fixed_price": 109.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-04",
+        "counterparty": "Wells Fargo Bank, N.A.",
+        "fair_value_mm": 0.431,
+        "notes": "ICE Brent Fixed Price Swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": 96.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-02",
+        "period_end": "2015-01",
+        "counterparty": "JP Morgan Chase Bank, National Association",
+        "fair_value_mm": null,
+        "notes": "Argus Louisiana Light Sweet Fixed Price Swap. Subsequent event - contract dated January 28, 2014"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": 100.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2014-03",
+        "period_end": "2015-02",
+        "counterparty": "Wells Fargo Bank, N.A.",
+        "fair_value_mm": null,
+        "notes": "Argus Louisiana Light Sweet Fixed Price Swap. Subsequent event - contract dated February 19, 2014"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses price swap derivatives to reduce price volatility on certain oil sales. Derivatives are not designated as hedges for accounting purposes; all changes in fair value recognized in earnings."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2022749,
+      "oil_production_bpd": 5542,
+      "gas_production_mcf": 1730497,
+      "gas_production_mmcf_per_day": 4.741,
+      "ngl_production_bbls": 361079,
+      "total_production_boe": 2672244,
+      "total_production_boepd": 7321,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 42601,
+      "proved_gas_reserves_mmcf": 61679,
+      "proved_ngl_reserves_mbbls": 10706,
+      "total_proved_reserves_mboe": 63586,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2013-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 92.59,
+      "gas_price_used": 4.13,
+      "lease_operating_expense_per_boe": 7.92,
+      "production_tax_per_boe": 4.83,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.34,
+      "dd_and_a_per_boe": 24.92,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_018L2Np3hAhzJNVsMVmR2XVe",
+    "extraction_timestamp": "2026-02-21T05:58:51.057165",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

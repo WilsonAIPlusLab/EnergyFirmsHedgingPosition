@@ -1,0 +1,56 @@
+{
+  "cik": "1486597",
+  "company": "SUPERNOVA ENERGY, INC.",
+  "filing_date": "2014-04-11",
+  "accession_number": "0001558891-14-000054",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity hedging activity disclosed. Derivative liability from convertible note fully extinguished upon conversion to common stock on March 17, 2013."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2013
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 116.134,
+      "proved_gas_reserves_mmcf": 0,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 116.134,
+      "proved_developed_reserves_mboe": 83.743,
+      "proved_undeveloped_reserves_mboe": 32.391,
+      "reserves_year_end": 2013
+    },
+    "economics": {
+      "standardized_measure_mm": 0.946,
+      "pv10_mm": null,
+      "oil_price_used": 90.44,
+      "gas_price_used": 3.67,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T00:00:00Z",
+    "notes": "Company formerly named Northumberland Resources, Inc. Proved oil reserves doubled from 58.116 to 116.134 MBbls. Gas reserves dropped to zero (from 138.102 MMcf in 2012). First year with proved undeveloped reserves (32.391 MBbls). Oil price used was $86.69/BO + $3.75 high gravity adjustment = $90.44/BO. Crude oil revenues $232,572; production costs $301,266 for 2013. Sold 30% WI in Pratt County leases for $100,000 in Feb 2013. Properties in Kansas.",
+    "item7_merge_timestamp": "2026-02-28T08:00:00.000000+00:00",
+    "item7_instruments_added": 0
+  }
+}

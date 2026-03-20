@@ -1,0 +1,74 @@
+{
+  "cik": "1538267",
+  "company": "SandRidge Mississippian Trust II",
+  "filing_date": "2014-03-14",
+  "accession_number": "0001104659-14-019566",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1232.88,
+        "volume_total": 900000,
+        "volume_unit": "Bbls",
+        "fixed_price": 99.0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "sub_floor_price": null,
+        "price_unit": "$/bbl",
+        "period_start": "2014-01",
+        "period_end": "2014-12",
+        "notes": "Oil fixed price swap contracts underlying the derivatives agreement with SandRidge. 553 MBbl total notional for Jan 2014-Dec 2014 at weighted avg fixed price of $99.00/Bbl (NYMEX). This is the TOTAL volume; of which 347 MBbl were novated directly to the Trust. | Consolidated from 2 sub-period entries"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Trust receives derivative contracts from SandRidge via derivatives agreement; fixed price swaps settle on NYMEX prices; intended to mitigate oil price risk through 12/31/2014 [Note: instruments not extractable from filing]"
+    },
+    "uses_derivatives": true,
+    "instrument_count": 1,
+    "extraction_notes": "Patched from audit results (2026-03-09)"
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-4-5-20250929",
+    "batch_id": "msgbatch_01CfwKzuh23B9AZ59D53Buy8",
+    "extraction_timestamp": "2026-02-21T05:58:50.232243"
+  }
+}

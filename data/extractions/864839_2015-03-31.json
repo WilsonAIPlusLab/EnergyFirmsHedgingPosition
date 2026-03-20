@@ -1,0 +1,54 @@
+{
+  "cik": "864839",
+  "company": "ROYALE ENERGY INC",
+  "filing_date": "2015-03-31",
+  "accession_number": "0001185185-15-000698",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Does not engage in hedging activities or use derivative instruments to manage market risks."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 685,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 547898,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 91997,
+      "total_production_boepd": null,
+      "production_year": 2014
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1.781,
+      "proved_gas_reserves_mmcf": 4131.806,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 690.42,
+      "proved_developed_reserves_mboe": 631.72,
+      "proved_undeveloped_reserves_mboe": 58.7,
+      "reserves_year_end": "2014-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 6.615,
+      "pv10_mm": null,
+      "oil_price_used": 85.2,
+      "gas_price_used": 4.64,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-opus-4-6",
+    "extraction_timestamp": "2026-02-27T17:35:27.552740",
+    "summary": "Small gas-focused California producer. FYE 2014. Proved reserves: 1.8 MBbls oil, 4,132 MMcf gas (690 MBOE). Gas production up 10%. SM $6.6MM. No hedging."
+  }
+}
