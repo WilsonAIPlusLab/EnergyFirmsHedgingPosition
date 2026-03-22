@@ -1,5 +1,7 @@
 # U.S. Oil & Gas Commodity Hedging Dataset
 
+*Last updated: 2026-03-19*
+
 A firm-level dataset of commodity hedging instruments and hedge ratios for U.S. oil and gas producers, extracted from SEC 10-K annual filings.
 
 ---

@@ -1,5 +1,7 @@
 # Methodology: How This Dataset Was Constructed
 
+*Last updated: 2026-03-19*
+
 This document describes the full pipeline used to build the dataset: from raw SEC filings to extracted instruments to hedge ratio calculations.
 
 ---

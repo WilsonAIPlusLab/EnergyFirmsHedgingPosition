@@ -1,5 +1,7 @@
 # How to Use This Dataset
 
+*Last updated: 2026-03-19*
+
 This guide covers loading the data, understanding the schema, joining files, and common analytical queries. Examples are provided in Python and R.
 
 ---

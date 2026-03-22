@@ -1,5 +1,7 @@
 # Oil & Gas Hedging Extraction Pipeline -- Summary
 
+*Last updated: 2026-03-19*
+
 ## Overview
 
 Two-stage pipeline to extract commodity hedging data from 4,761 SEC 10-K filings (SIC 1311: Crude Petroleum & Natural Gas).

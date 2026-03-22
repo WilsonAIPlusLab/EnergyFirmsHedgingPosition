@@ -1,5 +1,7 @@
 # Hedge Ratio Quality Audit
 
+*Last updated: 2026-03-19*
+
 Audit date: 2026-02-28
 Dataset: SEC 10-K filings, SIC 1311 (Crude Petroleum & Natural Gas)
 Methodology: Jin & Jorion (2006, Journal of Finance) delta-adjusted hedge ratios

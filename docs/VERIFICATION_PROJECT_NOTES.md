@@ -1,5 +1,7 @@
 # Hedging Extraction Verification & Re-Extraction Project — Complete Notes
 
+*Last updated: 2026-03-19*
+
 ## Overview
 
 **Goal:** Verify all 3,446 SEC 10-K hedging instrument extraction JSON files across 453 E&P companies, then re-extract all confirmed errors.
