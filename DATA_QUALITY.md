@@ -1,6 +1,6 @@
 # Data Quality and Reliability
 
-*Last updated: 2026-03-19*
+*Last updated: 2026-03-23*
 
 This document states factually what quality processes were applied, what was found, what was corrected, and what limitations remain. The intent is to give researchers the information they need to assess fitness for purpose.
 
@@ -169,15 +169,13 @@ The following are not included in this dataset:
 
 **Filing types:** Only annual 10-K filings. Hedges disclosed in 10-Q (quarterly) filings, 8-K (current reports), or proxy statements are not captured.
 
-**HTML rendering failures:** Approximately 5–8% of filings have instrument tables rendered as images or in complex HTML formats that the parser could not fully reconstruct. These contribute to the `low` confidence category.
-
-**NGL hedge ratios:** NGL instruments are extracted and available in `data/extractions/`, but NGL hedge ratios are not reported in `hedge_ratios.csv` because NGL production is inconsistently reported (sometimes as Bbls, sometimes as Boe, sometimes combined with oil) and comparable denominators could not be reliably constructed.
+**NGL hedge ratios:** `hedge_ratio_ngl_delta` is reported in `hedge_ratios.csv` for 200 firm-years where NGL instruments are present and `ngl_production_bbls` is available from the same filing. NGL production volume uses the filing's own reported year (not the FY+1 cross-lookup used for oil/gas) because the NGL production cross-lookup created measurement errors for midstream entities. 13 of the 200 NGL firm-years are flagged with `ngl_delta_ratio>150%` in the `warnings` column and should be treated with caution. For 41 firm-years with NGL instruments but no reported NGL production, the ratio is null.
 
 **Basis swaps and swaptions:** These appear in `data/extractions/` and `data/instrument_deltas.csv` but are excluded from `hedge_ratios.csv`. Basis swaps hedge geographic price differentials; swaptions are options on future hedges. Neither hedges current outright price exposure.
 
 **Market data for Black's model:** Delta equivalents for options and collars use simplified approximations (Haushalter 2000) because no external market data (futures prices, implied volatilities) was integrated. Black's (1976) model would produce more precise deltas; the `calculate_hedge_ratios.py` script supports this if market data is provided.
 
-**75 firm-years with no production denominator:** Hedge ratios are null for these observations. Instrument details are still available in the extraction JSONs and `instrument_deltas.csv`.
+**85 firm-years with no oil or gas production denominator:** Oil and gas hedge ratios are null for these observations; they consist of 14 confirmed midstream non-producers (MarkWest Energy, Regency Energy, Tellurian), 14 MLPs or royalty trusts with no production extraction, and 57 E&P companies where production data was not disclosed or not extracted. Instrument details remain available in the extraction JSONs and `instrument_deltas.csv`.
 
 ---
 
@@ -185,13 +183,23 @@ The following are not included in this dataset:
 
 **Per-filing confidence** (`hedging_confidence` in `data/instrument_index.csv` and `data/hedge_ratios.csv`):
 
+> **Important:** `hedging_confidence` measures the *clarity of the source disclosure*, not the quality of the extraction. It is assigned by the Stage 1 keyword scanner before AI extraction runs. All 3,446 files — including every "low" filing — passed automated verification (PASS or FIXED verdict). A "low" filing is not a poorly extracted filing; it is a filing where the company disclosed it does not use commodity derivatives, or where the hedging section was too sparse to score highly on keywords.
+
 | Level | Count (filings) | Meaning |
 |---|---|---|
 | high | 1,869 | Clear quantitative tables found in Item 7A; extraction straightforward |
 | medium | 774 | Some ambiguity (narrative disclosures, partial tables, multiple as-of dates) |
-| low | 799 | Limited disclosure, HTML parse failure, or no derivatives |
-| other | 4 | Not classified (very small filings or missing metadata) |
+| low | 799 | **798 of 799 are confirmed non-hedgers** (`uses_derivatives=False`); the remainder had an HTML parse failure or minimal disclosure. All 799 have PASS or FIXED verification verdicts. |
+| none / unclassified | 4 | Very small filings or missing metadata (3 null, 1 `"none"`) |
 
-**Delta method** (`delta_method` in `data/hedge_ratios.csv`): All 2,963 firm-year records show `"simplified"`, meaning delta equivalents use fixed approximations rather than Black's model. Researchers who prefer Black's model deltas can supply a market data file and re-run `hedge_ratio/calculate_hedge_ratios.py --market-data <file>`.
+**Delta method** (`delta_method` in `data/hedge_ratios.csv`): Records the highest-fidelity method used for any instrument in that firm-year:
+
+| Method | Firm-years | Meaning |
+|---|---|---|
+| `notional_only` | 1,483 | Firm-year has no qualifying instruments (all excluded as basis swaps/swaptions, or uses_derivatives=False); hedge ratio is zero by definition |
+| `linear` | 991 | All instruments are swaps with delta = −1.00; no approximation needed |
+| `simplified` | 489 | At least one non-linear instrument (collar, put, three-way collar); delta uses fixed approximations from Haushalter (2000) rather than Black's model |
+
+No records use Black's model (`"black"`) because no external market data (futures prices, implied volatilities) was integrated. Researchers who prefer Black's model deltas can supply a market data file and re-run `hedge_ratio/calculate_hedge_ratios.py --market-data <file>`.
 
 **Instrument-level auditability:** Every instrument's delta computation is recorded in `data/instrument_deltas.csv`. Researchers can reproduce any hedge ratio from first principles using that file.

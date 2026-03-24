@@ -1,6 +1,6 @@
 # Methodology: How This Dataset Was Constructed
 
-*Last updated: 2026-03-19*
+*Last updated: 2026-03-23*
 
 This document describes the full pipeline used to build the dataset: from raw SEC filings to extracted instruments to hedge ratio calculations.
 
@@ -14,7 +14,7 @@ This document describes the full pipeline used to build the dataset: from raw SE
 
 **Filing selection:** Only annual 10-K filings were used. 10-K/A (amendments), 8-K, and quarterly 10-Q filings are not included.
 
-**Company universe:** All SEC registrants with SIC 1311 that filed 10-Ks during the period. This includes E&P companies, royalty trusts, limited partnerships, and related entities. Four non-E&P registrants were identified during quality audit and excluded from the hedge ratio calculations (see `DATA_QUALITY.md`).
+**Company universe:** All SEC registrants with SIC 1311 that filed 10-Ks during the period. This includes E&P companies, royalty trusts, limited partnerships, and related entities. Four non-E&P registrants (midstream companies) were identified during quality audit; they are retained in `hedge_ratios.csv` with their instruments but their ratios are null due to no oil/gas production (see `DATA_QUALITY.md`).
 
 **Raw filing count:** 4,672 filings were parsed from the raw EDGAR download. The full parsed filing index is in `data/filing_index.csv`.
 
@@ -173,16 +173,19 @@ Instruments are also excluded if:
 - The commodity is unknown or mixed
 - The unit cannot be converted to canonical units
 
-### Output: six hedge ratio variants
+### Output: seven hedge ratio variants
 
-| Column | Numerator | Denominator |
-|---|---|---|
-| `hedge_ratio_oil_notional` | oil_notional_bbls | oil_production_bbls |
-| `hedge_ratio_gas_notional` | gas_notional_mcf | gas_production_mcf |
-| `hedge_ratio_oil_delta` | oil_delta_bbls | oil_production_bbls |
-| `hedge_ratio_gas_delta` | gas_delta_mcf | gas_production_mcf |
-| `hedge_ratio_oil_reserve` | oil_delta_bbls | proved_oil_reserves_bbls |
-| `hedge_ratio_gas_reserve` | gas_delta_mcf | proved_gas_reserves_mcf |
+| Column | Numerator | Denominator | Denominator source |
+|---|---|---|---|
+| `hedge_ratio_oil_notional` | oil_notional_bbls | oil_production_bbls | FY+1 cross-lookup |
+| `hedge_ratio_gas_notional` | gas_notional_mcf | gas_production_mcf | FY+1 cross-lookup |
+| `hedge_ratio_oil_delta` | oil_delta_bbls | oil_production_bbls | FY+1 cross-lookup |
+| `hedge_ratio_gas_delta` | gas_delta_mcf | gas_production_mcf | FY+1 cross-lookup |
+| `hedge_ratio_ngl_delta` | ngl_delta_bbls | ngl_production_bbls | Same-filing data |
+| `hedge_ratio_oil_reserve` | oil_delta_bbls | proved_oil_reserves_bbls | Same-filing data |
+| `hedge_ratio_gas_reserve` | gas_delta_mcf | proved_gas_reserves_mcf | Same-filing data |
+
+**Note on NGL denominator:** NGL production uses the same-filing reported value rather than the FY+1 cross-lookup. The FY+1 cross-lookup is restricted to records that have oil or gas production to avoid contaminating the oil/gas lookup with NGL-only midstream records. `hedge_ratio_ngl_delta` is non-null for 200 firm-years; 13 are flagged as `ngl_delta_ratio>150%`.
 
 When the denominator is null or zero, the ratio is set to null (not zero, not infinity).
 

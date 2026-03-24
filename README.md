@@ -1,6 +1,6 @@
 # U.S. Oil & Gas Commodity Hedging Dataset
 
-*Last updated: 2026-03-19*
+*Last updated: 2026-03-23*
 
 A firm-level dataset of commodity hedging instruments and hedge ratios for U.S. oil and gas producers, extracted from SEC 10-K annual filings.
 
@@ -116,17 +116,18 @@ One row per firm-year. See `METHODOLOGY.md` for calculation details. Key columns
 | Column | Description |
 |---|---|
 | `cik`, `company`, `fiscal_year`, `filing_date` | Identifiers |
-| `n_oil_instruments`, `n_gas_instruments` | Instrument counts |
-| `oil_notional_bbls`, `gas_notional_mcf` | Total hedged volume (raw) |
-| `oil_delta_bbls`, `gas_delta_mcf` | Delta-adjusted hedged volume |
-| `oil_production_bbls`, `gas_production_mcf` | Annual production (denominator) |
+| `n_oil_instruments`, `n_gas_instruments`, `n_ngl_instruments` | Instrument counts by commodity |
+| `oil_notional_bbls`, `gas_notional_mcf`, `ngl_notional_bbls` | Total hedged volume (raw) |
+| `oil_delta_bbls`, `gas_delta_mcf`, `ngl_delta_bbls` | Delta-adjusted hedged volume |
+| `oil_production_bbls`, `gas_production_mcf`, `ngl_production_bbls` | Annual production (denominator) |
 | `hedge_ratio_oil_notional` | Oil notional hedge ratio |
 | `hedge_ratio_gas_notional` | Gas notional hedge ratio |
 | `hedge_ratio_oil_delta` | Oil delta-adjusted hedge ratio |
 | `hedge_ratio_gas_delta` | Gas delta-adjusted hedge ratio |
+| `hedge_ratio_ngl_delta` | NGL delta-adjusted hedge ratio (200 firm-years; null where NGL production not reported) |
 | `hedge_ratio_oil_reserve` | Oil delta / proved oil reserves |
 | `hedge_ratio_gas_reserve` | Gas delta / proved gas reserves |
-| `delta_method` | "simplified" (default deltas used) or "black" (Black's model) |
+| `delta_method` | `notional_only` / `linear` / `simplified` — see DATA_QUALITY.md |
 | `hedging_confidence` | Extraction confidence level |
 | `warnings` | Pipe-separated data quality flags |
 
@@ -172,7 +173,7 @@ See `HOW_TO_USE.md` for complete Python and R examples.
 
 **Commodities**: `crude_oil`, `natural_gas`, `ngl`
 
-**Hedge ratio**: ratio of hedged volume (in delta equivalents) to annual production. Swaps have delta = −1.00 (fully hedged); collars = −0.80; three-way collars = −0.65. See `METHODOLOGY.md`.
+**Hedge ratio**: ratio of hedged volume (in delta equivalents) to annual production. Computed for oil, gas, and NGL separately. Swaps have delta = −1.00 (fully hedged); collars = −0.80; three-way collars = −0.65. See `METHODOLOGY.md`.
 
 **Fiscal year**: determined from `production_year` field or inferred from filing date (filings in Jan–Jun report the prior year).
 

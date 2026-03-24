@@ -1,6 +1,6 @@
 # How to Use This Dataset
 
-*Last updated: 2026-03-19*
+*Last updated: 2026-03-23*
 
 This guide covers loading the data, understanding the schema, joining files, and common analytical queries. Examples are provided in Python and R.
 
@@ -89,17 +89,22 @@ hr['hedges_gas'] = hr['hedge_ratio_gas_notional'].notna() & (hr['hedge_ratio_gas
 | `hedge_ratio_gas_notional` | Gas: hedged volume / gas production |
 | `hedge_ratio_oil_delta` | Oil: delta-adjusted volume / oil production |
 | `hedge_ratio_gas_delta` | Gas: delta-adjusted volume / gas production |
+| `hedge_ratio_ngl_delta` | NGL: delta-adjusted volume / NGL production (null if no NGL production reported) |
 | `hedge_ratio_oil_reserve` | Oil: delta-adjusted volume / proved oil reserves |
 | `hedge_ratio_gas_reserve` | Gas: delta-adjusted volume / proved gas reserves |
 | `oil_notional_bbls` | Total oil hedged volume (Bbls) |
 | `gas_notional_mcf` | Total gas hedged volume (Mcf) |
+| `ngl_notional_bbls` | Total NGL hedged volume (Bbls) |
 | `oil_delta_bbls` | Oil delta-adjusted volume (Bbls) |
 | `gas_delta_mcf` | Gas delta-adjusted volume (Mcf) |
-| `oil_production_bbls` | Annual oil production (Bbls, denominator) |
-| `gas_production_mcf` | Annual gas production (Mcf, denominator) |
+| `ngl_delta_bbls` | NGL delta-adjusted volume (Bbls) |
+| `oil_production_bbls` | Annual oil production (Bbls, FY+1 denominator) |
+| `gas_production_mcf` | Annual gas production (Mcf, FY+1 denominator) |
+| `ngl_production_bbls` | Annual NGL production (Bbls, same-filing denominator) |
 | `n_oil_instruments` | Number of oil instruments |
 | `n_gas_instruments` | Number of gas instruments |
-| `delta_method` | "simplified" — all records use simplified delta assumptions |
+| `n_ngl_instruments` | Number of NGL instruments |
+| `delta_method` | `notional_only` / `linear` / `simplified` — see DATA_QUALITY.md §8 |
 | `warnings` | Pipe-separated data quality flags (empty = no issues) |
 
 **Note on null ratios:** Hedge ratios are `NaN` when production data is missing, not zero. A NaN hedge ratio means the denominator is unavailable, not that the company did not hedge.
@@ -343,10 +348,17 @@ all_instruments <- lapply(ext_files, function(f) {
 
 **Swaptions.** `swaption` instruments are also excluded from hedge ratios. They represent the right to enter into a swap in the future, not a current hedge.
 
-**NGL hedge ratios.** NGL instruments are extracted but NGL hedge ratios are not included in `hedge_ratios.csv` because comparable NGL production data (in consistent units) is rarely disclosed.
+**NGL hedge ratios.** `hedge_ratio_ngl_delta` is included in `hedge_ratios.csv` for 200 firm-years where NGL instruments are present and NGL production is reported. Note that NGL production uses the same-filing denominator (not FY+1 cross-lookup, which is used for oil and gas). 13 firm-years have NGL ratios >150% and are flagged in `warnings`. For 41 firm-years with NGL instruments but no reported NGL production, the ratio is null.
+
+```python
+# NGL hedgers
+ngl_hedgers = hr[(hr['n_ngl_instruments'] > 0) & hr['hedge_ratio_ngl_delta'].notna()]
+print(f"NGL hedge ratios computed: {len(ngl_hedgers)} firm-years")
+print(f"Mean NGL HR (excl. flagged): {ngl_hedgers[ngl_hedgers['hedge_ratio_ngl_delta'] <= 1.5]['hedge_ratio_ngl_delta'].mean():.1%}")
+```
 
 **Three-way collars.** These have three price levels: `sub_floor_price` < `floor_price` < `ceiling_price`. The company receives: floor price (if market < floor), market price (if floor ≤ market ≤ ceiling), ceiling price (if market > ceiling), and pays back the excess if market < sub_floor. Delta is approximated at −0.65.
 
-**Missing production.** 75 firm-years have hedging instruments but no extractable production data. Their hedge ratios are null. The `instrument_deltas.csv` still contains their instrument-level details.
+**Missing production.** 85 firm-years have hedging instruments but no extractable oil or gas production data. Their oil/gas hedge ratios are null. The `instrument_deltas.csv` still contains their instrument-level details. Most are confirmed midstream non-producers or MLPs (see DATA_QUALITY.md §7).
 
 **Confidence levels.** The `hedging_confidence` column reflects extraction reliability: "high" = clear quantitative tables found; "medium" = some ambiguity; "low" = limited disclosure or parsing issues.
