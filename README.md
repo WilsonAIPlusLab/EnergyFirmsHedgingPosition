@@ -1,6 +1,6 @@
 # U.S. Oil & Gas Commodity Hedging Dataset
 
-*Last updated: 2026-03-23*
+*Last updated: 2026-03-28*
 
 A firm-level dataset of commodity hedging instruments and hedge ratios for U.S. oil and gas producers, extracted from SEC 10-K annual filings.
 
@@ -124,7 +124,7 @@ One row per firm-year. See `METHODOLOGY.md` for calculation details. Key columns
 | `hedge_ratio_gas_notional` | Gas notional hedge ratio |
 | `hedge_ratio_oil_delta` | Oil delta-adjusted hedge ratio |
 | `hedge_ratio_gas_delta` | Gas delta-adjusted hedge ratio |
-| `hedge_ratio_ngl_delta` | NGL delta-adjusted hedge ratio (200 firm-years; null where NGL production not reported) |
+| `hedge_ratio_ngl_delta` | NGL delta-adjusted hedge ratio (202 firm-years; null where NGL production not reported) |
 | `hedge_ratio_oil_reserve` | Oil delta / proved oil reserves |
 | `hedge_ratio_gas_reserve` | Gas delta / proved gas reserves |
 | `delta_method` | `notional_only` / `linear` / `simplified` — see DATA_QUALITY.md |

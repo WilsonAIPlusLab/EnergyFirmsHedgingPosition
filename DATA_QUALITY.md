@@ -1,6 +1,6 @@
 # Data Quality and Reliability
 
-*Last updated: 2026-03-23*
+*Last updated: 2026-03-28*
 
 This document states factually what quality processes were applied, what was found, what was corrected, and what limitations remain. The intent is to give researchers the information they need to assess fitness for purpose.
 
@@ -74,7 +74,8 @@ The following corrections were among the most consequential. All were made by re
 | EQT Corp Bcf→Mcf scaling (2015–2017) | 5 files | Volumes divided by 1,000 (were 1,000× too large) |
 | EQT Corp Bcf→Mmbtu scaling (2018) | 1 file | Volumes multiplied by 1,000 (were 1,000× too small) |
 | SandRidge Trust I: non-standard unit fields | ~21 instruments across 4 files | Schema normalized; volumes now populated |
-| Missing production data | 106 files | Production data recovered from supplementary re-extraction |
+| Missing production data | 106 files | Production data recovered from supplementary re-extraction pass |
+| Missing FY+1 production denominator | 23 filings | Production data patched into FY+1 filing JSONs to enable hedge ratio computation |
 
 ---
 
@@ -169,13 +170,13 @@ The following are not included in this dataset:
 
 **Filing types:** Only annual 10-K filings. Hedges disclosed in 10-Q (quarterly) filings, 8-K (current reports), or proxy statements are not captured.
 
-**NGL hedge ratios:** `hedge_ratio_ngl_delta` is reported in `hedge_ratios.csv` for 200 firm-years where NGL instruments are present and `ngl_production_bbls` is available from the same filing. NGL production volume uses the filing's own reported year (not the FY+1 cross-lookup used for oil/gas) because the NGL production cross-lookup created measurement errors for midstream entities. 13 of the 200 NGL firm-years are flagged with `ngl_delta_ratio>150%` in the `warnings` column and should be treated with caution. For 41 firm-years with NGL instruments but no reported NGL production, the ratio is null.
+**NGL hedge ratios:** `hedge_ratio_ngl_delta` is reported in `hedge_ratios.csv` for 202 firm-years where NGL instruments are present and `ngl_production_bbls` is available from the same filing. NGL production volume uses the filing's own reported year (not the FY+1 cross-lookup used for oil/gas) because the NGL production cross-lookup created measurement errors for midstream entities. 13 of the 202 NGL firm-years are flagged with `ngl_delta_ratio>150%` in the `warnings` column and should be treated with caution. For 39 firm-years with NGL instruments but no reported NGL production, the ratio is null.
 
 **Basis swaps and swaptions:** These appear in `data/extractions/` and `data/instrument_deltas.csv` but are excluded from `hedge_ratios.csv`. Basis swaps hedge geographic price differentials; swaptions are options on future hedges. Neither hedges current outright price exposure.
 
 **Market data for Black's model:** Delta equivalents for options and collars use simplified approximations (Haushalter 2000) because no external market data (futures prices, implied volatilities) was integrated. Black's (1976) model would produce more precise deltas; the `calculate_hedge_ratios.py` script supports this if market data is provided.
 
-**85 firm-years with no oil or gas production denominator:** Oil and gas hedge ratios are null for these observations; they consist of 14 confirmed midstream non-producers (MarkWest Energy, Regency Energy, Tellurian), 14 MLPs or royalty trusts with no production extraction, and 57 E&P companies where production data was not disclosed or not extracted. Instrument details remain available in the extraction JSONs and `instrument_deltas.csv`.
+**66 firm-years with no oil or gas production denominator:** Oil and gas hedge ratios are null for these observations; they consist of 14 confirmed midstream non-producers (MarkWest Energy, Regency Energy, Tellurian), 3 refiners (PAR Pacific), 38 limited partnerships or royalty trusts with no standard production reporting, and 11 E&P companies where production data was not disclosed, could not be extracted, or the FY+1 production year is not yet available (most recent fiscal years). Instrument details remain available in the extraction JSONs and `instrument_deltas.csv`. This count was reduced from 90 to 66 by recovering FY+1 production denominators from 24 additional filing JSONs.
 
 ---
 

@@ -1,6 +1,6 @@
 # How to Use This Dataset
 
-*Last updated: 2026-03-23*
+*Last updated: 2026-03-28*
 
 This guide covers loading the data, understanding the schema, joining files, and common analytical queries. Examples are provided in Python and R.
 
@@ -348,7 +348,7 @@ all_instruments <- lapply(ext_files, function(f) {
 
 **Swaptions.** `swaption` instruments are also excluded from hedge ratios. They represent the right to enter into a swap in the future, not a current hedge.
 
-**NGL hedge ratios.** `hedge_ratio_ngl_delta` is included in `hedge_ratios.csv` for 200 firm-years where NGL instruments are present and NGL production is reported. Note that NGL production uses the same-filing denominator (not FY+1 cross-lookup, which is used for oil and gas). 13 firm-years have NGL ratios >150% and are flagged in `warnings`. For 41 firm-years with NGL instruments but no reported NGL production, the ratio is null.
+**NGL hedge ratios.** `hedge_ratio_ngl_delta` is included in `hedge_ratios.csv` for 202 firm-years where NGL instruments are present and NGL production is reported. Note that NGL production uses the same-filing denominator (not FY+1 cross-lookup, which is used for oil and gas). 13 firm-years have NGL ratios >150% and are flagged in `warnings`. For 39 firm-years with NGL instruments but no reported NGL production, the ratio is null.
 
 ```python
 # NGL hedgers
@@ -359,6 +359,6 @@ print(f"Mean NGL HR (excl. flagged): {ngl_hedgers[ngl_hedgers['hedge_ratio_ngl_d
 
 **Three-way collars.** These have three price levels: `sub_floor_price` < `floor_price` < `ceiling_price`. The company receives: floor price (if market < floor), market price (if floor ≤ market ≤ ceiling), ceiling price (if market > ceiling), and pays back the excess if market < sub_floor. Delta is approximated at −0.65.
 
-**Missing production.** 85 firm-years have hedging instruments but no extractable oil or gas production data. Their oil/gas hedge ratios are null. The `instrument_deltas.csv` still contains their instrument-level details. Most are confirmed midstream non-producers or MLPs (see DATA_QUALITY.md §7).
+**Missing production.** 66 firm-years have hedging instruments but no computable oil or gas hedge ratio. Their oil/gas hedge ratios are null. The `instrument_deltas.csv` still contains their instrument-level details. Most are midstream non-producers, limited partnerships, or royalty trusts without standard E&P production reporting (see DATA_QUALITY.md §7).
 
 **Confidence levels.** The `hedging_confidence` column reflects extraction reliability: "high" = clear quantitative tables found; "medium" = some ambiguity; "low" = limited disclosure or parsing issues.

@@ -1,6 +1,6 @@
 # Methodology: How This Dataset Was Constructed
 
-*Last updated: 2026-03-23*
+*Last updated: 2026-03-28*
 
 This document describes the full pipeline used to build the dataset: from raw SEC filings to extracted instruments to hedge ratio calculations.
 
@@ -97,7 +97,7 @@ After AI extraction, three normalization passes were applied:
 
 **Unit standardization** (`pipeline/normalize_volume_units.py`): Volume units were standardized to canonical values. This step also populated `volume_total` from `volume_per_day × period_days` where `volume_total` was null, and vice versa.
 
-**Production data backfill** (`hedge_ratio/patch_production.py`): For 106 filings where production data was missing or partial in the primary extraction, production figures were recovered from a supplementary re-extraction pass and merged in.
+**Production data backfill** (`hedge_ratio/patch_production.py`): For 106 filings where production data was missing or partial in the primary extraction, production figures were recovered from a supplementary re-extraction pass and merged in. An additional 23 FY+1 filing JSONs had production data recovered to serve as hedge ratio denominators for E&P firm-years whose FY+1 production was missing.
 
 ---
 
@@ -185,7 +185,7 @@ Instruments are also excluded if:
 | `hedge_ratio_oil_reserve` | oil_delta_bbls | proved_oil_reserves_bbls | Same-filing data |
 | `hedge_ratio_gas_reserve` | gas_delta_mcf | proved_gas_reserves_mcf | Same-filing data |
 
-**Note on NGL denominator:** NGL production uses the same-filing reported value rather than the FY+1 cross-lookup. The FY+1 cross-lookup is restricted to records that have oil or gas production to avoid contaminating the oil/gas lookup with NGL-only midstream records. `hedge_ratio_ngl_delta` is non-null for 200 firm-years; 13 are flagged as `ngl_delta_ratio>150%`.
+**Note on NGL denominator:** NGL production uses the same-filing reported value rather than the FY+1 cross-lookup. The FY+1 cross-lookup is restricted to records that have oil or gas production to avoid contaminating the oil/gas lookup with NGL-only midstream records. `hedge_ratio_ngl_delta` is non-null for 202 firm-years; 13 are flagged as `ngl_delta_ratio>150%`.
 
 When the denominator is null or zero, the ratio is set to null (not zero, not infinity).
 

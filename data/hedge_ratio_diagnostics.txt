@@ -3,7 +3,7 @@
 Total extraction files processed: 2963
   - With instruments: 1491
   - Without instruments (non-hedger): 1472
-  - With production data: 2020
+  - With production data: 2034
 
 Instrument processing:
   - Total instruments: 14538
@@ -18,31 +18,31 @@ Instrument processing:
 Delta method: linear
 
 === OIL HEDGE RATIOS (Notional) ===
-  Firm-years with oil hedging: 1182
-  Mean: 65.1%  Median: 58.2%  Std: 67.7%
+  Firm-years with oil hedging: 1194
+  Mean: 64.9%  Median: 58.1%  Std: 67.4%
   Min: 0.0%  Max: 1138.9%
   P25: 33.8%  P75: 80.0%
 
 === GAS HEDGE RATIOS (Notional) ===
-  Firm-years with gas hedging: 1122
-  Mean: 58.9%  Median: 52.4%  Std: 60.3%
+  Firm-years with gas hedging: 1131
+  Mean: 58.7%  Median: 52.3%  Std: 60.1%
   Min: 0.0%  Max: 1078.6%
-  P25: 27.8%  P75: 76.2%
+  P25: 27.7%  P75: 76.0%
 
 === OIL HEDGE RATIOS (Delta-adjusted) ===
-  Firm-years with oil hedging: 1182
-  Mean: 55.0%  Median: 50.0%  Std: 52.7%
+  Firm-years with oil hedging: 1194
+  Mean: 54.8%  Median: 49.6%  Std: 52.5%
   Min: 0.0%  Max: 976.1%
-  P25: 28.6%  P75: 71.1%
+  P25: 28.4%  P75: 70.5%
 
 === GAS HEDGE RATIOS (Delta-adjusted) ===
-  Firm-years with gas hedging: 1122
-  Mean: 52.5%  Median: 47.2%  Std: 55.7%
+  Firm-years with gas hedging: 1131
+  Mean: 52.4%  Median: 47.1%  Std: 55.5%
   Min: 0.0%  Max: 1078.6%
-  P25: 24.1%  P75: 69.9%
+  P25: 24.0%  P75: 69.7%
 
 === QUALITY FLAGS ===
-  Firm-years with oil hedge ratio > 100%: 143
+  Firm-years with oil hedge ratio > 100%: 144
     821483 PAR PACIFIC HOLDINGS, INC. FY2018: 1138.9%
     1162896 Prairie Operating Co. FY2024: 976.1%
     821483 PAR PACIFIC HOLDINGS, INC. FY2019: 920.6%
@@ -145,9 +145,9 @@ Delta method: linear
     1705873 Berry Corp (bry) FY2024
     778438 BERRY PETROLEUM CO FY2012
     ... and 1 more
-  Firm-years with instruments but no production data: 75
+  Firm-years with instruments but no production data: 62
   Instruments with missing strike prices (options/collars): 111
-  Year-over-year hedge ratio changes > 50pp: 341
+  Year-over-year hedge ratio changes > 50pp: 343
     1001614 TENGASCO INC FY2011->2012 oil_notional: 53.0%->0.0% (Δ53.0%)
     1001614 Riley Exploration Permian, Inc. FY2020->2021 oil_notional: 0.0%->56.9% (Δ56.9%)
     1001614 Riley Exploration Permian, Inc. FY2020->2021 gas_notional: 0.0%->66.9% (Δ66.9%)
@@ -158,4 +158,4 @@ Delta method: linear
     101594 US ENERGY CORP FY2015->2016 oil_notional: 89.8%->0.0% (Δ89.8%)
     101594 US ENERGY CORP FY2023->2024 oil_notional: 73.2%->0.0% (Δ73.2%)
     101778 MARATHON OIL CORP FY2022->2023 gas_notional: 69.4%->0.0% (Δ69.4%)
-    ... and 331 more
+    ... and 333 more
