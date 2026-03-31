@@ -6,6 +6,15 @@ This document describes the full pipeline used to build the dataset: from raw SE
 
 ---
 
+## Revision History
+
+| Date | Change |
+|---|---|
+| 2026-03-28 | §4 post-processing: added note on 23 FY+1 production denomination patches. §5 NGL denominator note: updated to 202 firm-years |
+| 2026-03-23 | Initial release. Added NGL hedge ratio variant to §5 output table. Corrected company universe description (midstream retained, not excluded). Added NGL denominator design note |
+
+---
+
 ## 1. Source Data
 
 **Research context:** This dataset was constructed to support research on whether U.S. oil and gas firms use stock market signals about their commodity price exposure to dynamically adjust hedging strategies, and whether failure to adjust predicts financial distress. The project is funded by the UNI Capacity Building Grant 2025-26, Wilson College of Business, University of Northern Iowa (PI: Zhongdong (Ronnie) Chen; Co-PI: Zhengyang (Robin) Chen). The original grant targeted ~100 firms; the pipeline was extended to the full SIC 1311 universe (453 companies).

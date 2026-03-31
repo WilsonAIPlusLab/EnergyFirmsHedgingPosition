@@ -1,8 +1,18 @@
 # Data Quality and Reliability
 
-*Last updated: 2026-03-28*
+*Last updated: 2026-03-29*
 
 This document states factually what quality processes were applied, what was found, what was corrected, and what limitations remain. The intent is to give researchers the information they need to assess fitness for purpose.
+
+---
+
+## Revision History
+
+| Date | Change |
+|---|---|
+| 2026-03-29 | Added note to §7 documenting Hess Corporation and ConocoPhillips as SIC 2911 registrants absent from the SIC 1311 universe |
+| 2026-03-28 | §7: null firm-year count reduced from 85 to 66 after recovering FY+1 production denominators for 24 E&P filings; updated breakdown by category. §4: added FY+1 production patch row. NGL stats updated: 202 firm-years (was 200), 39 without NGL production (was 41) |
+| 2026-03-23 | Initial release. Added NGL hedge ratio coverage note. Fixed delta_method table (three values, not all "simplified"). Corrected low-confidence row. Fixed false "5–8% HTML rendering failures" claim. Updated null firm-year count and breakdown |
 
 ---
 
@@ -167,6 +177,8 @@ The year-over-year autocorrelation of hedge ratios was computed as a consistency
 The following are not included in this dataset:
 
 **Companies:** Only SIC 1311 (Crude Petroleum and Natural Gas) registrants are included. Integrated majors (SIC 2911), midstream companies (SIC 4922/4924), and gas utilities are excluded even if they disclose commodity hedging.
+
+Two large E&P companies that researchers might expect to find are absent because their SEC EDGAR registrations list SIC 2911 (Petroleum Refining) rather than SIC 1311: **Hess Corporation** (CIK 4447) and **ConocoPhillips** (CIK 1163165). Both divested their downstream refining assets (Hess in 2013; ConocoPhillips via Phillips 66 spinoff in 2012) but retained their historical SIC 2911 classifications with the SEC. As a result, they do not appear in a SIC 1311 filing universe. Researchers interested in these companies should obtain their 10-K filings directly from EDGAR.
 
 **Filing types:** Only annual 10-K filings. Hedges disclosed in 10-Q (quarterly) filings, 8-K (current reports), or proxy statements are not captured.
 

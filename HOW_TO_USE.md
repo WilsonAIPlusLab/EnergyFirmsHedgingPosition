@@ -2,7 +2,16 @@
 
 *Last updated: 2026-03-28*
 
-This guide covers loading the data, understanding the schema, joining files, and common analytical queries. Examples are provided in Python and R.
+This guide covers loading the data, understanding the schema, joining files, and common analytical queries.
+
+---
+
+## Revision History
+
+| Date | Change |
+|---|---|
+| 2026-03-28 | Added NGL hedge ratio columns to schema table. Updated "85 firm-years" → "66 firm-years" in missing production note. NGL stats updated: 202 firm-years, 39 without NGL production |
+| 2026-03-23 | Initial release. Added NGL columns, corrected delta_method description, updated null production count | Examples are provided in Python and R.
 
 ---
 

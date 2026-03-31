@@ -6,6 +6,15 @@ A firm-level dataset of commodity hedging instruments and hedge ratios for U.S. 
 
 ---
 
+## Revision History
+
+| Date | Change |
+|---|---|
+| 2026-03-28 | NGL hedge ratio column count updated to 202 firm-years in schema table |
+| 2026-03-23 | Initial release. Added NGL columns to hedge_ratios.csv schema table. Added Research Context section. Updated instrument count to 14,538 |
+
+---
+
 ## Dataset at a Glance
 
 | | |
