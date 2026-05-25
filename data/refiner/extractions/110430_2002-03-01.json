@@ -1,0 +1,32 @@
+{
+  "filing_date": "2002-03-01",
+  "fiscal_year_end": "2001-12-31",
+  "company_name": "Frontier Oil Corporation",
+  "ticker": "FTO",
+  "throughput": {
+    "crude_throughput_mmbbl": 52.02,
+    "throughput_year": 2001,
+    "source_quote": "Consolidated Charges (bpd) 2001: Light crude 31,456 + Heavy and intermediate crude 111,061 = 142,517 bpd crude oil charged"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": null,
+    "has_economic_hedges": null,
+    "note_reference": "Annual Report (incorporated by reference)"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2001-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A incorporated by reference to 2001 Annual Report to Shareholders. No derivative disclosures available in parsed 10-K sections. No instrument-level data extractable."
+  ]
+}

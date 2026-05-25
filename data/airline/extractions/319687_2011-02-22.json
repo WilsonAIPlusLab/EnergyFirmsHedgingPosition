@@ -1,0 +1,55 @@
+{
+  "filing_date": "2011-02-22",
+  "fiscal_year_end": "2010-12-31",
+  "company_name": "Continental Airlines, Inc. / United Continental Holdings, Inc.",
+  "ticker": "CAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2010,
+    "source_quote": "Impact of $1 increase in price per barrel of fuel on annual fuel expense (based on 2011 projected fuel consumption): Continental segment $42 million (implies ~1,764 million projected gallons for 2011). UAL consolidated: $99 million."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 0.28,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 98,
+    "note_reference": "Note 13"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2011,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.28,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "swap",
+        "call_option",
+        "collar"
+      ],
+      "fair_value_mm": 98
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Continental segment at Dec 31, 2010: WTI crude oil swaps 14% (at $1.97/gal); WTI crude oil call options 10% (at $2.24/gal); WTI crude oil collars 4% (call $2.29/gal, put $1.57/gal). Total maximum price hedge: 28%, minimum price hedge 18%. Fair value asset $98 million. Continental merged with UAL Corporation on Oct 1, 2010; this is the first combined UAL/United/Continental 10-K filing under CIK 319687. UAL total hedge: 35% with fair value $375 million."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Continental Airlines merged with UAL Corporation on October 1, 2010, forming United Continental Holdings (UCH). This FY2010 10-K is the first combined filing. Continental continued as a wholly-owned subsidiary. Hedge data represents the Continental subsidiary segment."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 4072.0,
+    "throughput_year": 2010,
+    "source_quote": "Total fuel consumption (gallons) 4,072 [2010 combined basis] (Item 7 UAL fuel expense table; United Continental Holdings combined basis including Continental full year)"
+  }
+}

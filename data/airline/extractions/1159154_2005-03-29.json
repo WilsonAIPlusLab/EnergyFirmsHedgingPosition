@@ -1,0 +1,41 @@
+{
+  "filing_date": "2005-03-29",
+  "fiscal_year_end": "2004-12-31",
+  "company_name": "Republic Airways Holdings, Inc.",
+  "ticker": "RJET",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2004,
+    "source_quote": "No fuel consumption stated; company operates entirely under CPAs with American, US Airways, Delta and United where fuel is purchased directly or reimbursed as a pass-through cost."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging. Republic operates entirely under Capacity Purchase Agreements (CPAs) with American, US Airways, Delta, and United Airlines where major airline partners purchase fuel directly or reimburse Republic for fuel as a pass-through cost. Republic has limited direct exposure to fuel price changes. Item 7A mentions treasury lock agreements for interest rate hedging on aircraft purchases only."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Regional carrier operating exclusively under CPAs — fuel is pass-through; no independent fuel hedging program.",
+    "Item 7A discusses treasury lock agreements for aircraft purchase financing (interest rate risk) only, not fuel hedging."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 120.914802,
+    "throughput_year": 2004,
+    "source_quote": "Fuel gallons consumed: 120,914,802 (fiscal year ended December 31, 2004) from Item 7 operating statistics table. Average price per gallon: $0.93 in 2004 and $0.83 in 2003."
+  }
+}

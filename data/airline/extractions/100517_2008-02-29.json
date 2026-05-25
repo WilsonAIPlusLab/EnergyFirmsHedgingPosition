@@ -1,0 +1,69 @@
+{
+  "filing_date": "2008-02-29",
+  "fiscal_year_end": "2007-12-31",
+  "company_name": "UAL Corporation / United Air Lines, Inc.",
+  "ticker": "UAUA",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2007,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.13,
+    "net_fair_value_mm": 20,
+    "note_reference": "Item 7A; Note - Aircraft Fuel Hedges"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2007,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "crude oil"
+      ],
+      "instrument_types": [
+        "collar"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2008,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.13,
+      "commodities": [
+        "crude oil"
+      ],
+      "instrument_types": [
+        "collar"
+      ],
+      "fair_value_mm": 20
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Collar options (buy call + sell put with identical expiration). Three-way collars (upside protection with cap) plus standard collars. Dec 31, 2007 positions for 2008: 13% of Q1 2008 hedged (82% three-way collars at $90-$100/bbl crude, floor $85/bbl; 18% collars at $101/bbl+ crude, floor $91/bbl). 13% of full-year 2008 hedged (67% three-way collars $87-$100/bbl crude, floor $81/bbl; 33% collars at $94/bbl crude, floor $81/bbl). 2007 fuel hedge gains: $83M in aircraft fuel expense. All classified as economic hedges (not designated cash flow hedges under SFAS 133)."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "13% of forecasted 2008 fuel consumption hedged as of Dec 31, 2007 (low hedge ratio)",
+    "Instruments in barrels (crude oil), not gallons - no gallon volumes disclosed directly",
+    "All fuel hedges classified as economic hedges (not designated hedge accounting under SFAS 133)",
+    "2007 full-year recognized $83M net hedge gains in mainline aircraft fuel expense",
+    "Average mainline jet fuel price was $2.18/gal in 2007 (including $83M hedge gain impact)"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2669,
+    "throughput_year": 2007,
+    "source_quote": "Gallons consumed (in millions): 2,292 / 377 = 2,669 total mainline+express (2007)"
+  }
+}

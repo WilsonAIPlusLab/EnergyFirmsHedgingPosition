@@ -1,0 +1,68 @@
+{
+  "filing_date": "2025-02-20",
+  "fiscal_year_end": "2024-12-31",
+  "company_name": "HF Sinclair Corporation",
+  "ticker": "DINO",
+  "throughput": {
+    "crude_throughput_mmbbl": 220.361,
+    "throughput_year": 2024,
+    "source_quote": "Crude charge (BPD) (1) Consolidated: 602,080 (366 days, leap year)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2025,
+      "commodity": "crude_oil_wti",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 570,
+      "volume_unit": "MBbls",
+      "volume_raw": "NYMEX futures (WTI) - short 570,000 Barrels, all maturing in 2025",
+      "notes": "Inventory management hedge"
+    },
+    {
+      "maturity_year": 2025,
+      "commodity": "gasoline_diesel",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 450,
+      "volume_unit": "MBbls",
+      "volume_raw": "Forward gasoline and diesel contracts - long 450,000 Barrels, all maturing in 2025",
+      "notes": "Inventory management hedge"
+    },
+    {
+      "maturity_year": 2025,
+      "commodity": "platinum",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": null,
+      "volume_unit": "troy_oz",
+      "volume_raw": "Forward commodity contracts (platinum) 34,628 Troy ounces, all maturing in 2025",
+      "notes": "Precious metals catalyst embedded derivative; volume in troy ounces"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 19.0,
+    "total_liability_mm": 2.0,
+    "net_fair_value_mm": 17.0,
+    "as_of_date": "2024-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": "inventory_management_nymex_futures_and_forwards"
+  },
+  "warnings": [
+    "Item 7A is a one-line stub: \"See Risk Management under MD&A.\" Derivative data from Note 14",
+    "FV in millions: assets $19M liabilities $2M net +$17M",
+    "No natural gas swaps/collars disclosed for FY2024"
+  ]
+}

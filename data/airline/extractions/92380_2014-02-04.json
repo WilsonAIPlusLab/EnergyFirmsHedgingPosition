@@ -1,0 +1,96 @@
+{
+  "filing_date": "2014-02-04",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1800,
+    "fiscal_year": 2014,
+    "source_quote": "The Company expects to consume approximately 1.8 billion gallons of jet fuel in 2014."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 51,
+    "pct_hedged_next_year": 43,
+    "net_fair_value_mm": 180,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2014,
+      "volume_gallons_millions": 764,
+      "volume_pct_of_consumption": 0.43,
+      "commodities": [
+        "WTI crude",
+        "Brent crude",
+        "GC Jet Fuel"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2015,
+      "volume_gallons_millions": 1156,
+      "volume_pct_of_consumption": 0.61,
+      "commodities": [
+        "WTI crude",
+        "Brent crude"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2016,
+      "volume_gallons_millions": 977,
+      "volume_pct_of_consumption": 0.49,
+      "commodities": [
+        "Brent crude"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2017,
+      "volume_gallons_millions": 933,
+      "volume_pct_of_consumption": 0.46,
+      "commodities": [
+        "WTI crude",
+        "Brent crude"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": true,
+    "notes": "Company primarily uses a mixture of purchased call options, collar structures (purchased call + sold put), call spreads (purchased call + sold call), and fixed price swap agreements. Fair value table shows Swap contracts and Option contracts as distinct line items."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "pct_hedged_current_year (51%) refers to FY2013 settled hedges per Note 10 language: 'For 2013, the Company had fuel derivative instruments in place for 51 percent of its fuel consumption.'",
+    "pct_hedged_next_year (43%) refers to 2014 hedges as of December 31, 2013 per Note 10: 'coverage for 43 percent of its 2014 estimated fuel consumption'.",
+    "WTI crude oil derivatives no longer qualify for hedge accounting as of 2013; changes in fair value of WTI derivatives recorded directly to earnings.",
+    "Hedge volumes are on an economic basis; Note states volumes may vary significantly as market prices fluctuate."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1825.4,
+    "throughput_year": 2013,
+    "source_quote": "Fuel and oil expense table: average cost $5,823 million, average cost per gallon $3.19 (Item 1, 2018 10-K filing, restated)"
+  }
+}

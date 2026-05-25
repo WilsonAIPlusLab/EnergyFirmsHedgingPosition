@@ -1,0 +1,55 @@
+{
+  "filing_date": "2003-03-26",
+  "fiscal_year_end": "2002-12-31",
+  "company_name": "AirTran Holdings, Inc.",
+  "ticker": "AAI",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2002,
+    "source_quote": "Fuel consumption not explicitly stated; item7a notes 41% of 2003 fuel hedged via fixed-price/cap contracts."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 41.0,
+    "net_fair_value_mm": null,
+    "note_reference": "Item 7A; Item 8 Notes"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2003,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.41,
+      "commodities": [
+        "jet fuel"
+      ],
+      "instrument_types": [
+        "fixed_price_supply_contract"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Swap agreements with Enron terminated March 2002. Replaced with fixed-price fuel supply contracts and fuel cap arrangements treated as normal purchases (SFAS 133 normal purchase exception) \u00e2\u20ac\u201d no financial derivatives on balance sheet. Gains/losses on former swaps reclassified from AOCI to earnings during 2002."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Fuel hedging via fixed-price/cap physical supply contracts (normal purchase exception under SFAS 133) \u00e2\u20ac\u201d no balance sheet fair value; net_fair_value_mm set to null.",
+    "Swap program with Enron terminated March 2002 following Enron bankruptcy. AOCI from swaps reclassified to fuel expense in 2002.",
+    "41% of 2003 fuel requirements covered by fixed-price and fuel cap supply contracts."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 171,
+    "throughput_year": 2002,
+    "source_quote": "Derived: Aircraft fuel expense $154,467K / $0.9037/gal average = ~171M gallons (2002); from income statement and Selected Financial Data in 10-K"
+  }
+}

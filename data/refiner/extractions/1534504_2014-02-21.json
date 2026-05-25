@@ -1,0 +1,66 @@
+{
+  "filing_date": "2014-02-21",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "PBF Energy Inc.",
+  "ticker": "PBF",
+  "throughput": {
+    "crude_throughput_mmbbl": 165.3,
+    "throughput_year": 2013,
+    "source_quote": "Total crude oil and feedstocks throughput (millions of barrels) 165.3 [Year Ended December 31, 2013]"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 21"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 839,
+      "volume_unit": "MBbls",
+      "volume_raw": "838,829 barrels",
+      "notes": "Crude oil and feedstock purchase obligation derivatives designated as fair value hedges (inventory supply arrangement). Long purchase commitments."
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "refined_products",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 3274,
+      "volume_unit": "MBbls",
+      "volume_raw": "3,274,047 barrels",
+      "notes": "Intermediates and refined products purchase obligation derivatives designated as fair value hedges (Inventory Intermediation Agreement, commenced July 2013)."
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 43199,
+      "volume_unit": "MBbls",
+      "volume_raw": "43,199,000 barrels",
+      "notes": "Crude oil economic hedges (not designated). Used to manage price volatility in crude inventory and purchase/sale transactions. Direction not specified; assumed net short for inventory hedging."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 6,
+    "total_liability_mm": 20,
+    "net_fair_value_mm": -14,
+    "as_of_date": "2013-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "PBF does not disclose gross long/short positions for economic hedges. Fair value hedge volumes are purchase obligation contracts. Economic hedge direction assumed net short for inventory hedging. Fair values in thousands: FVH crude supply ($177K) liability + intermediation $6,016K asset; economic ($19,421K) liability. Net approx ($14M)."
+  ]
+}

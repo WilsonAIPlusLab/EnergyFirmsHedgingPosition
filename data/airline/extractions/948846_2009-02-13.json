@@ -1,0 +1,76 @@
+{
+  "filing_date": "2009-02-13",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "AirTran Holdings, Inc.",
+  "ticker": "AAI",
+  "fuel_consumption": {
+    "expected_gallons_millions": 354.0,
+    "fiscal_year": 2008,
+    "source_quote": "Projected 2009 fuel requirements implied ~354M gal (32.2M gal / 9.1% = ~354M gal), derived from item7a disclosure that 32.2M gal covers 9.1% of 2009 projected requirements."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 9.1,
+    "net_fair_value_mm": -65.5,
+    "note_reference": "Item 7A; Item 8 Notes Level 3 reconciliation"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2009,
+      "volume_gallons_millions": 32.2,
+      "volume_pct_of_consumption": 0.091,
+      "commodities": [
+        "jet fuel",
+        "heating oil",
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap",
+        "collar",
+        "call_option"
+      ],
+      "fair_value_mm": -65.5
+    },
+    {
+      "coverage_year": 2010,
+      "volume_gallons_millions": 9.1,
+      "volume_pct_of_consumption": 0.025,
+      "commodities": [
+        "jet fuel",
+        "heating oil",
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap",
+        "collar",
+        "call_option"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": true,
+    "notes": "Instruments include: jet fuel swap arrangements (pay fixed/receive floating Gulf Coast jet fuel), collars, purchased call options, sold call options. Commodities: jet fuel, heating oil, or crude oil. Sold calls and crude oil derivatives did not qualify for hedge accounting. Net fair value -$65.5M (Level 3 liability at Dec 31, 2008). Large 2008 loss: $150.8M non-operating derivative loss including $126.3M realized losses ($109M from unwinding 2009 contracts prematurely). By Feb 2, 2009 (subsequent): increased to 116.0M gal (32.5% of 2009) + 17.3M gal (4.9% of 2010). Effective Jan 1, 2009, ceased designating fuel derivatives as hedge accounting instruments."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Net fair value -$65.5M (liability) at Dec 31, 2008 per Level 3 fair value reconciliation in item8 notes.",
+    "2008 non-operating derivative loss of $150.8M including $126.3M realized losses ($109M from unwinding 2009 hedges early); additional $41.2M cash settled in early 2009.",
+    "At Dec 31, 2008: 32.2M gal (9.1%) for 2009 + 9.1M gal (2.5%) for 2010. By Feb 2, 2009: 116.0M gal (32.5% of 2009) + 17.3M gal (4.9% of 2010).",
+    "Effective Jan 1, 2009, ceased hedge accounting designation for all fuel derivatives."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 367,
+    "throughput_year": 2008,
+    "source_quote": "Gallons of fuel burned: 367,169 thousand (2008) = ~367M gallons; from Item 7 operating statistics table"
+  }
+}

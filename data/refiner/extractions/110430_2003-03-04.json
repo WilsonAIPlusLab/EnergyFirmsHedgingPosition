@@ -1,0 +1,32 @@
+{
+  "filing_date": "2003-03-04",
+  "fiscal_year_end": "2002-12-31",
+  "company_name": "Frontier Oil Corporation",
+  "ticker": "FTO",
+  "throughput": {
+    "crude_throughput_mmbbl": 53.31,
+    "throughput_year": 2002,
+    "source_quote": "Consolidated Charges (bpd) 2002: Light crude 35,684 + Heavy and intermediate crude 110,372 = 146,056 bpd crude oil charged"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": null,
+    "has_economic_hedges": null,
+    "note_reference": "Annual Report (incorporated by reference)"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2002-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A incorporated by reference to 2002 Annual Report to Shareholders. No derivative disclosures available in parsed 10-K sections. Note 8 (cross-reference) also empty. The FY2004 note mentions that during FY2002, the Company utilized derivative contracts on crude oil to hedge foreign crude purchases (fair value hedges) and recorded net losses of $9.8M."
+  ]
+}

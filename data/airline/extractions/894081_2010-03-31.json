@@ -1,0 +1,40 @@
+{
+  "filing_date": "2010-03-31",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "Air Transport Services Group, Inc.",
+  "ticker": "ATSG",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": null,
+    "note_reference": null
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging program. ATSG is a cargo ACMI/CMI carrier - fuel risk is largely mitigated by reimbursement through ACMI/CMI agreements with customers (DHL, Amazon, etc.). Company does have interest rate swap instruments (required by credit agreement) but these are interest rate hedges, not fuel hedges."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "ATSG is a cargo air carrier (ACMI/CMI operations via ABX Air, Air Transport International). Fuel cost is primarily pass-through to customers via ACMI/CMI agreements. Fuel risk largely mitigated by reimbursement through DHL ACMI agreement and charter agreements. Interest rate swaps ($121.5M notional) for interest rate risk only. No fuel hedging."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": null,
+    "throughput_year": 2009,
+    "source_quote": "Item 7 states 'The average price of a gallon of aviation fuel decreased 42% in 2009 compared to 2008.' No specific gallon volume disclosed."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "filing_date": "2003-03-27",
+  "fiscal_year_end": "2002-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2002,
+    "source_quote": "2002: 2,514 million gallons consumed (from fuel cost table showing gallons consumed for 2000-2002)"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 56.0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 73.0,
+    "note_reference": "Note 3 (Risk Management) and Note 4 (Derivative Instruments) incorporated by reference from 2002 Annual Report; fair value of $73M confirmed in 2003 10-K Note 4"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2002,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.56,
+      "commodities": [],
+      "instrument_types": [
+        "heating and crude oil derivative contracts (options and forward contracts)"
+      ],
+      "fair_value_mm": 73.0
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": null,
+    "has_call_spreads": null,
+    "has_swaps": null,
+    "notes": "Filing incorporates Notes 3 and 4 by reference from 2002 Annual Report; instruments described as 'heating and crude oil derivative contracts' including 'options and other similar derivative instruments and forward contracts'. Per 2003 10-K Note 3: maturities up to 36 months, hedged up to 80% on 12-month rolling basis."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2514.0,
+    "throughput_year": 2002,
+    "source_quote": "2002  2,514  $1,683  66.94¢  12% (Gallons Consumed (Millions) from fuel consumption table in Item 1)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Item 7A and Item 8 financial statements incorporated by reference from Delta's 2002 Annual Report to Shareowners \u2014 full note detail not present in parsed 10-K text",
+    "Fuel hedge fair value of $73M confirmed from 2003 10-K (FY 2003-12-31) Note 4, which states: 'At December 31, 2002, our fuel hedge contracts had a fair value of $73 million'",
+    "56% pct_hedged is for 2002 actual; no forward-looking hedge position disclosed in the 10-K text",
+    "Instrument detail limited due to incorporation by reference; specific instrument types inferred from program description"
+  ]
+}

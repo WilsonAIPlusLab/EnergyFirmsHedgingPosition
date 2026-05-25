@@ -1,0 +1,45 @@
+﻿{
+    "filing_date":  "2024-02-29",
+    "fiscal_year_end":  "2023-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  28.178,
+                       "throughput_year":  2023,
+                       "source_quote":  "Total feedstock runs (2)    77,200 [2023]    80,447 [2022]    75,818 [2021]    (In bpd; feedstock runs = barrels per day of crude oil and other feedstocks processed at our facilities)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 9"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2024,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  2928,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "2,928,000 barrels",
+                                   "notes":  "Crack spread swaps - sales, 2024 maturity, from Note 9 derivative positions table"
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  11.6,
+                        "total_liability_mm":  -52.5,
+                        "net_fair_value_mm":  -40.9,
+                        "as_of_date":  "2023-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+                     "Item 7A has no position tables; defers to Note 9 for all derivative details. Active crack spread hedging program active.",
+                     "Notional positions extracted from Note 9 derivative positions table: crack spread swaps sales 2,928,000 bbl (2024 maturity). Net FV: crack spread asset $11.6M - inventory financing liability $(52.5)M = -$40.9M net."
+                 ]
+}

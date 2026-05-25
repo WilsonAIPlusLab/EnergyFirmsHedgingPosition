@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "U.S. Commodity Hedging Dataset: E&P, Airlines, and Refiners"
+abstract: >
+  A firm-year panel of commodity hedging positions extracted from SEC 10-K annual
+  filings for three groups of U.S. publicly traded companies: oil and gas exploration
+  and production firms (SIC 1311, 2,963 firm-years, 2000–2024), commercial airlines
+  (421 firm-years, 2001–2025), and petroleum refiners (235 firm-years, 2002–2025).
+  Hedging instruments and production/throughput denominators were extracted using a
+  two-stage pipeline (deterministic HTML/SGML parsing followed by AI-assisted
+  structured extraction). The dataset provides delta-adjusted hedge ratios for E&P
+  firms, forward fuel coverage percentages for airlines, and net-short crude ratios
+  for refiners, along with a harmonized cross-group master panel.
+authors:
+  - family-names: Chen
+    given-names: Robin
+    email: zchen.econ@gmail.com
+version: "2.0"
+date-released: "2026-05-24"
+license: CC-BY-4.0
+repository-code: "https://github.com/WilsonAIPlusLab/EnergyFirmsHedgingPosition"
+keywords:
+  - commodity hedging
+  - oil and gas
+  - airlines
+  - petroleum refining
+  - SEC 10-K
+  - hedge ratio
+  - corporate risk management
+  - panel data

@@ -1,0 +1,38 @@
+{
+  "filing_date": "2014-02-20",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "Spirit Airlines, Inc.",
+  "ticker": "SAVE",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2013,
+    "source_quote": "Based on our annual fuel consumption, a 10% increase in the average price per gallon of aircraft fuel would have increased into-plane aircraft fuel cost for 2013 by approximately $54.3 million."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A Aircraft Fuel"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "As of December 31, 2013, no derivative contracts outstanding. Filing references prior-year FV of Dec 31, 2012 ($0.3M net liability). Describes program capability but no active positions."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 171.9,
+    "throughput_year": 2013,
+    "source_quote": "Fuel gallons consumed 171,931 [2013] 142,991 [2012] [from 2013 Annual Report operating statistics table, in thousands]; Aircraft fuel expense increased by 17% from $471.8 million in 2012 to $551.7 million in 2013, due to a 20.2% increase in fuel gallons consumed."
+  },
+  "warnings": ["No contracts outstanding at year-end 2013; company still describes hedging capability; resumed hedging in 2014"]
+}

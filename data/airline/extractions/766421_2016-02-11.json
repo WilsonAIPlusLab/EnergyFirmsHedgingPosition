@@ -1,0 +1,68 @@
+{
+  "filing_date": "2016-02-11",
+  "fiscal_year_end": "2015-12-31",
+  "company_name": "Alaska Air Group, Inc.",
+  "ticker": "ALK",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 4.0,
+    "note_reference": "Note 3 (Derivative Instruments)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2016,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2017,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Portfolio consists of crude oil call options only. Aggregate 273 million gallons hedged from January 2016 to June 2017 with no per-year breakdown. Net fair value = current assets (prepaid) $2M + noncurrent assets $2M = $4M. 10% change in forward curve would move portfolio to $8M or $2M."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No per-year volume or percentage breakdown disclosed; only aggregate 273M gallons for Jan 2016 to Jun 2017.",
+    "pct_hedged_next_year not determinable from disclosure.",
+    "Fair value $4M = $2M (current) + $2M (noncurrent); deeply out-of-money in low crude oil price environment (~$37/bbl Dec 2015).",
+    "Horizon Air fuel hedges included in consolidated figures."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 508.0,
+    "throughput_year": 2015,
+    "source_quote": "Fuel gallons (000,000) 508 [Alaska Air Group consolidated 2015] (Item 7 operating statistics)"
+  }
+}

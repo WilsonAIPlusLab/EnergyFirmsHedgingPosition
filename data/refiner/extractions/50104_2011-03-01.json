@@ -1,0 +1,44 @@
+{
+  "filing_date": "2011-03-01",
+  "fiscal_year_end": "2010-12-31",
+  "company_name": "Tesoro Corporation",
+  "ticker": "TSO",
+  "throughput": {
+    "crude_throughput_mmbbl": 164.6,
+    "throughput_year": 2010,
+    "source_quote": "Throughput Heavy crude: 181; Light crude: 270; Other feedstocks: 29; Total: 480 (Mbpd)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2011,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 5000,
+      "volume_unit": "MBbls",
+      "volume_raw": "approximately 5 million barrels net open derivative positions, expire primarily during 2011",
+      "notes": "Non-hedging; $5M/bbl sensitivity implies ~5M bbl net position. Q4 2010: began using fair value hedge accounting for portion of TPSA inventory"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": 9.0,
+    "net_fair_value_mm": -9.0,
+    "as_of_date": "2010-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Mostly undesignated; small TPSA portion designated as fair value hedge in Q4 2010. Includes ~2M bbl TPSA crude arbitrage hedges. Net loss of $29M on derivatives in 2010."
+  ]
+}

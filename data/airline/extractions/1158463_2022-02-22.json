@@ -1,0 +1,38 @@
+{
+  "filing_date": "2022-02-22",
+  "fiscal_year_end": "2021-12-31",
+  "company_name": "JetBlue Airways Corporation",
+  "ticker": "JBLU",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2022,
+    "source_quote": "We did not have any fuel hedges outstanding as of December 31, 2021."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0.0,
+    "note_reference": "Note 13"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedges outstanding as of December 31, 2021."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 696.0,
+    "throughput_year": 2021,
+    "source_quote": "Fuel consumption increased by 68.9%, or 284 million gallons, in 2021 due to capacity increases as demand grew; 2020 was 412M; 2021 = 696M (from Item 7 Aircraft Fuel section)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2020,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "filing_date": "2003-03-07",
+  "fiscal_year_end": "2002-12-31",
+  "company_name": "Sunoco Inc",
+  "ticker": "SUN",
+  "throughput": {
+    "crude_throughput_mmbbl": 251.81,
+    "throughput_year": 2002,
+    "source_quote": "Input to Crude Units 2002: 476.2 (Delaware Valley) + 134.0 (Toledo OH) + 79.7 (Tulsa OK) = 689.9 thousand barrels daily"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": null,
+    "has_economic_hedges": null,
+    "note_reference": null
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2002-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A references Annual Report for 2001-2007 filings; limited detail in 10-K text"
+  ]
+}

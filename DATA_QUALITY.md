@@ -1,6 +1,6 @@
 # Data Quality and Reliability
 
-*Last updated: 2026-03-29*
+*Last updated: 2026-05-24*
 
 This document states factually what quality processes were applied, what was found, what was corrected, and what limitations remain. The intent is to give researchers the information they need to assess fitness for purpose.
 
@@ -215,4 +215,117 @@ Two large E&P companies that researchers might expect to find are absent because
 
 No records use Black's model (`"black"`) because no external market data (futures prices, implied volatilities) was integrated. Researchers who prefer Black's model deltas can supply a market data file and re-run `hedge_ratio/calculate_hedge_ratios.py --market-data <file>`.
 
-**Instrument-level auditability:** Every instrument's delta computation is recorded in `data/instrument_deltas.csv`. Researchers can reproduce any hedge ratio from first principles using that file.
+**Instrument-level auditability:** Every instrument's delta computation is recorded in `data/ep/positions.csv`. Researchers can reproduce any hedge ratio from first principles using that file.
+
+---
+
+## 9. Airline and Refiner Group: Verification and Limitations
+
+### Extraction overview
+
+The airline and refiner groups were added in v2.0. Extraction for these groups used the same AI-based Stage 2 pipeline as E&P, but with group-specific prompts designed for the structural differences in airline and refiner 10-K disclosures. **The automated six-check verification suite (§3) was not applied to airline and refiner extractions**, because that suite is calibrated for E&P derivative instrument schemas (volume math, direction consistency, etc.) that do not transfer to forward coverage percentages or refiner notional positions.
+
+Instead, verification for these groups consisted of:
+
+1. **Anchor validation**: Four representative filings (2 airline, 2 refiner) were manually validated against their source 10-K text before batch extraction began.
+2. **Schema checks**: All 661 JSON files were checked for required top-level fields; files with unexpected or absent schema were flagged.
+3. **Range and plausibility checks**: Fuel coverage percentages checked to be in [0.0, 1.5]; refiner volumes checked for plausible orders of magnitude.
+4. **Spot audits**: A selection of individual filings with unusual values (coverage > 100%, zero-volume positions, suspect throughput figures) were manually cross-checked against their source 10-K text.
+
+No equivalent of the `verification_log.csv` or FIXED/WARN verdict system exists for the airline and refiner groups. Researchers who require systematic, audit-trail verification of individual airline or refiner filings should consult the original 10-K filings directly from SEC EDGAR.
+
+### Known accuracy limitations
+
+**Disclosure variation:** Airline and refiner hedging disclosures are substantially less standardized than E&P disclosures. Airlines may disclose forward coverage as a percentage of expected consumption, as a total volume, or as a notional dollar value; the coverage year may be implicit, explicit, or inferred from table headers. Refiners may aggregate positions by calendar quarter, by maturity band, or by commodity, and the netting convention (long-crude vs. short-product vs. crack-spread) varies by company and year. AI extraction unavoidably applies heuristics to resolve ambiguities.
+
+**Multi-year forward schedules:** Airlines often disclose hedging for two or three future years. The `positions.csv` table preserves all coverage years as extracted. `hedge_ratios.csv` aggregates to one headline ratio per firm-year (the FY+1 next-year coverage pct). Users comparing the headline ratio across carriers should verify that the same coverage year is being compared.
+
+**Pass-through carriers:** Four regional carriers (Mesa Air, SkyWest Airlines, Republic Airways, ATSG) operate under capacity purchase agreements that transfer fuel cost risk to the contracting major airline. These entities appear in the airline extraction set with `status = pass_through` and null hedge ratios. This status is assigned manually from a curated allowlist; it is not reliably recoverable from the 10-K text alone.
+
+**Refiner net-short ratio methodology:** The primary hedge ratio for refiners (`net_short_ratio`) is defined as `(total short positions − total long positions) / crude throughput`. This netting conflates crude oil inventory hedges with crack-spread hedges (long crude / short product), which serve different economic purposes. The `abs_ratio` (total absolute volume / throughput) is provided as a secondary measure and may be more appropriate for some analyses. The methodology choice is flagged as an open question for researcher review; see `METHODOLOGY.md §7.2`.
+
+**Incomplete or absent disclosures:** Some filings disclose only a broad statement that the company uses derivatives without quantitative detail. In these cases, instruments may be absent from the extraction even though a hedging program exists; `status` is set to `no_position` (not `never`) when the filing text confirms an active program. Researchers should treat zero or near-zero values with appropriate caution.
+
+---
+
+## 10. Known Issues and Exclusions
+
+### CIK 777676 (Oracle Corporation) — excluded from airline group
+
+Oracle Corporation's SEC EDGAR filings were inadvertently included in the airline extraction input set as a result of a keyword false-positive during the initial 10-K filing universe construction. Oracle's 10-K filings contain aviation-adjacent language (references to airlines as customers; aircraft lease agreements) that triggered the keyword scanner used to identify airline registrants.
+
+**Corrective action:** All five Oracle Corporation filings (CIK 777676) are excluded from `data/airline/`. They are not present in `data/airline/hedge_ratios.csv`, `data/airline/filings.csv`, `data/airline/positions.csv`, or `data/airline/extractions/`. This exclusion is applied by the build script (`builders/build_airline.py`); the exclusion reason is documented there.
+
+**Impact:** Five filing-years that would otherwise appear under CIK 777676 are absent from the delivered airline dataset. No other airline CIK is affected.
+
+### CIK 821483 (Delta Petroleum Corp → Par Pacific Holdings) — dual identity
+
+CIK 821483 was originally registered by Delta Petroleum Corporation, an E&P company, and is present in the E&P universe (SIC 1311) for fiscal years 2009–2011. Delta Petroleum filed for bankruptcy in 2011 and was acquired; the CIK was subsequently reused by Par Pacific Holdings (formerly Par Petroleum), a petroleum refiner.
+
+This is a **legitimate CIK reuse** — one SEC registration number covers two economically distinct entities across time. The dataset handles this via the era-based crosswalk: CIK 821483 has two rows in `data/crosswalk.csv`, one for each identity.
+
+- Delta Petroleum filings (FY2009–FY2011): appear in `data/ep/` with E&P hedge ratios (oil and gas production denominator).
+- Par Pacific/Par Pacific Holdings filings (FY2014–FY2025): appear in `data/refiner/` with refiner hedge ratios (crude throughput denominator).
+- FY2012–FY2013: transition period; no hedge ratio data for this CIK.
+
+Researchers pooling data across groups by CIK should be aware that CIK 821483 is not a single entity across its full sample span.
+
+### CIK 821483 — flagged in E&P quality audit (non-E&P concern)
+
+The original E&P quality audit (`DATA_QUALITY.md §6`) flagged CIK 821483 as a non-E&P registrant for later years (as Par Pacific, a refiner). In v2.0, the Par Pacific firm-years for this CIK are removed from the E&P group and placed correctly in the refiner group. Researchers working with `data/ep/hedge_ratios.csv` will find no Par Pacific rows there; those rows now appear in `data/refiner/hedge_ratios.csv`.
+
+### Alon USA Energy — volume unit correction
+
+During spot audits of refiner extractions, Alon USA Energy (CIK 1283140) filings from several years were found to have notional crude oil position volumes recorded in barrels rather than thousands of barrels. The denominator (crude throughput) is reported in millions of barrels in the same filings. This introduced a factor-of-1,000 error in the raw ratio. Affected files were corrected by the build script (`builders/build_refiner.py`) by applying the appropriate unit conversion. Researchers who re-run the refiner builder on the original JSON files will obtain the corrected ratios.
+
+### Calumet Specialty Products — empty positions in several filings
+
+Calumet Specialty Products (CIK 1362988) 10-K filings for several years contain hedging disclosures referencing an active commodity risk management program but provide no quantitative position tables (or tables that collapsed to zero volume after unit normalization). These filings are present in `data/refiner/filings.csv` with `status = no_position` and null hedge ratios. They are not data entry errors; they reflect the absence of quantitative detail in the source disclosure.
+
+### Southwest Airlines FY2019 — coverage year ambiguity
+
+Southwest Airlines (CIK 92380) FY2019 10-K discloses fuel hedging positions for multiple forward years in a single table without explicit year labeling. The coverage year was inferred from table column headers and cross-checked against the FY2020 filing (which discloses a consistent but not identical position). Researchers requiring precise Southwest FY2019 instrument-level detail should consult the original 10-K filing directly.
+
+### Delta Air Lines — Monroe Energy boundary
+
+Delta Air Lines (CIK 27904) acquired the Monroe Energy refinery in 2012 and began disclosing crude oil hedges at the refinery level in addition to jet fuel hedges at the airline level. For FY2012 and later, Delta's airline filings include some crude oil hedging instruments (Monroe) that are attributable to refining operations, not airline fuel cost management. These instruments are included in the airline group extractions as extracted; they are not separately classified as refiner positions because they are disclosed within the airline 10-K (CIK 27904), not a separate refiner registrant. Researchers studying airline fuel hedging may wish to exclude or adjust Delta's crude oil positions post-2012.
+
+---
+
+## 11. v1 → v2 File Migration
+
+Version 2.0 reorganized `data/` into per-group subfolders. The following table maps v1 file paths to their v2 equivalents for users who cite or link to files from the original published dataset.
+
+All renames were performed using `git mv` inside the `dataset/` git repository, so file history is preserved. Users who cloned the original dataset can update by pulling the latest commit.
+
+| v1 path | v2 path | Notes |
+|---|---|---|
+| `data/hedge_ratios.csv` | `data/ep/hedge_ratios.csv` | E&P firm-year panel; content unchanged |
+| `data/instrument_deltas.csv` | `data/ep/positions.csv` | Instrument-level delta records; content unchanged |
+| `data/instrument_index.csv` | `data/ep/filings.csv` | E&P per-filing summary; content unchanged |
+| `data/filing_index.csv` | `data/ep/filing_index.csv` | E&P parse superset (4,672 rows); content unchanged |
+| `data/verification_log.csv` | `data/ep/verification_log.csv` | Verdict log; content unchanged |
+| `data/hedge_ratio_diagnostics.txt` | `data/ep/hedge_ratio_diagnostics.txt` | Diagnostic report; content unchanged |
+| `data/extractions/` | `data/ep/extractions/` | 3,446 E&P JSON files; content unchanged |
+
+**New in v2.0** (no v1 equivalent):
+
+| New file | Description |
+|---|---|
+| `data/airline/hedge_ratios.csv` | Airline firm-year panel (421 firm-years) |
+| `data/airline/positions.csv` | Airline position-level forward schedule |
+| `data/airline/filings.csv` | Airline per-filing summary |
+| `data/airline/extractions/` | 421 airline JSON files |
+| `data/refiner/hedge_ratios.csv` | Refiner firm-year panel (235 firm-years) |
+| `data/refiner/positions.csv` | Refiner un-aggregated notional positions (696 rows) |
+| `data/refiner/filings.csv` | Refiner per-filing summary |
+| `data/refiner/extractions/` | 235 refiner JSON files |
+| `data/crosswalk.csv` | CIK ↔ ticker ↔ company crosswalk with era support |
+| `data/master_panel.csv` | Harmonized long-format cross-group panel |
+| `docs/CODEBOOK.md` | Per-variable data dictionary for all tables |
+| `LICENSE` | CC-BY-4.0 license |
+| `CITATION.cff` | Machine-readable citation |
+
+**Downstream code changes required by v2.0:**
+
+Scripts or notebooks that read the v1 paths will need to update path references. No column names were changed in the E&P tables; only the directory structure changed. The new airline and refiner tables follow the same naming conventions (`hedge_ratios.csv`, `positions.csv`, `filings.csv`) to make per-group analysis code easy to generalize.

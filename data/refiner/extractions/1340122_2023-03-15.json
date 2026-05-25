@@ -1,0 +1,56 @@
+﻿{
+    "filing_date":  "2023-03-15",
+    "fiscal_year_end":  "2022-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  29.363155,
+                       "throughput_year":  2022,
+                       "source_quote":  "Total feedstock runs (2)    80,447 [2022]    75,818 [2021]    84,829 [2020]    (In bpd; feedstock runs = barrels per day of crude oil and other feedstocks processed at our facilities)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 10"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2023,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  7300,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "7,300,000 barrels",
+                                   "notes":  "Crack spread swaps - sales, 2023 maturity, from Note 10 derivative positions table"
+                               },
+                               {
+                                   "maturity_year":  2024,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1830,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,830,000 barrels",
+                                   "notes":  "Crack spread swaps - sales, 2024 maturity, from Note 10 derivative positions table"
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  null,
+                        "total_liability_mm":  -73.8,
+                        "net_fair_value_mm":  -73.8,
+                        "as_of_date":  "2022-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+                     "Item 7A has no position tables; defers to Note 10 for all derivative details. Active crack spread hedging program active.",
+                     "Notional positions extracted from Note 10 derivative positions table: crack spread swaps sales 7,300,000 bbl (2023) + 1,830,000 bbl (2024) = 9,130,000 total. Net fair value -$73.8M from Total derivative instruments line."
+                 ]
+}

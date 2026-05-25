@@ -1,0 +1,47 @@
+{
+  "filing_date": "2020-02-18",
+  "fiscal_year_end": "2019-12-31",
+  "company_name": "JetBlue Airways Corporation",
+  "ticker": "JBLU",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2020,
+    "source_quote": "As of December 31, 2019, we had hedged approximately 10% of our projected 2020 fuel requirements."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 10,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 8.0,
+    "note_reference": "Note 13"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2020,
+      "volume_gallons_millions": 88.704,
+      "volume_pct_of_consumption": 0.10,
+      "commodities": ["WTI crude", "heating oil", "jet fuel"],
+      "instrument_types": ["call_option", "swap"],
+      "fair_value_mm": 8.0
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "2,112 thousand barrels at Dec 31 2019 (2,112k x 42 = 88.704M gallons). Contracts settle by June 30 2020. Net asset $8M. $2M gain expected from OCI. Actual 2019 consumption hedged was 6%."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 885.0,
+    "throughput_year": 2019,
+    "source_quote": "Fuel consumption increased approximately 36 million gallons (4.3%) in 2019; 2018 consumption was 849M gallons; 2019 = 885M (from Item 7 Aircraft Fuel section)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": ["Volume converted from 2,112 thousand barrels x 42 = 88.704M gallons"]
+}

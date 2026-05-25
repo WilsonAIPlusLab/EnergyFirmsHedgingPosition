@@ -1,0 +1,104 @@
+{
+  "filing_date": "2004-01-29",
+  "fiscal_year_end": "2003-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1200,
+    "fiscal_year": 2004,
+    "source_quote": "The Company expects to consume 1.2 billion gallons of jet fuel in 2004."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 82,
+    "pct_hedged_next_year": 60,
+    "net_fair_value_mm": 251.0,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2004,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.82,
+      "commodities": [
+        "crude_oil",
+        "heating_oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2005,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.6,
+      "commodities": [
+        "crude_oil",
+        "heating_oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "crude_oil",
+        "heating_oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2007,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "crude_oil",
+        "heating_oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Mixture of purchased call options, collar structures, and fixed price swap agreements. First quarter 2004 hedges are primarily heating oil-based option contracts; remaining hedges are primarily crude oil-based. Figures as of December 31, 2003."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "2006-2007 coverage disclosed as 'portions' only; no specific percentages or volumes provided.",
+    "Net fair value of $251M covers all years combined; per-year breakdown not available.",
+    "Interest rate swap agreements (relating to fixed-rate debt) are excluded per schema rules.",
+    "Fuel consumption of 1.2 billion gallons is the expected figure for 2004 (forward year), not 2003 actual."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1147.9,
+    "throughput_year": 2003,
+    "source_quote": "Fuel and oil expense table: average cost $830 million, average cost per gallon $0.723 (Item 1, 2004 10-K filing)"
+  }
+}

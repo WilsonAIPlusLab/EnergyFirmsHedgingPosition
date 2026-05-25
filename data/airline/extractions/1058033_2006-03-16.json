@@ -1,0 +1,40 @@
+{
+  "filing_date": "2006-03-16",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Northwest Airlines Corp",
+  "ticker": "NWA",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2005,
+    "source_quote": "A hypothetical 10% increase in the December 31, 2005 cost per gallon of fuel, assuming projected 2006 mainline and regional aircraft fuel usage, would result in an increase to aircraft fuel expense of approximately $323 million in 2006."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Note 17"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "As of December 31, 2005, the Company had no fuel hedges in place for 2006. Company recognized $20.9 million of fuel derivative net gains in 2005 as reduction to fuel expense (settled contracts from 2004 hedging)."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Company filed Chapter 11 bankruptcy on September 14, 2005. No fuel hedges in place as of December 31, 2005."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1976,
+    "throughput_year": 2005,
+    "source_quote": "Fuel gallons consumed - Consolidated (millions): 1,976 (2005, includes Northwest Airlink regional carriers)"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "filing_date": "2010-03-01",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "Tesoro Corporation",
+  "ticker": "TSO",
+  "throughput": {
+    "crude_throughput_mmbbl": 186.9,
+    "throughput_year": 2009,
+    "source_quote": "Throughput Heavy crude: 177; Light crude: 335; Other feedstocks: 37; Total: 549 (Mbpd)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 1000,
+      "volume_unit": "MBbls",
+      "volume_raw": "approximately 1 million barrels net open derivative positions, expire primarily during 2010",
+      "notes": "Non-hedging, $1M/bbl sensitivity implies ~1M bbl net position"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 2.0,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 2.0,
+    "as_of_date": "2009-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All derivatives undesignated (non-designated). Canadian dollar forward contract ($67M CAD) also outstanding, excluded as FX not commodity. Open position = ~1M bbl per sensitivity."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "filing_date": "2018-02-21",
+  "fiscal_year_end": "2017-12-31",
+  "company_name": "Andeavor",
+  "ticker": "ANDV",
+  "throughput": {
+    "crude_throughput_mmbbl": 363.9,
+    "throughput_year": 2017,
+    "source_quote": "Total refining throughput (Mbpd) 997"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note J"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2018,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "undesignated",
+      "volume_mbbl": 3074,
+      "volume_unit": "MBbls",
+      "volume_raw": "3,074 MBbls futures - long (2018)",
+      "notes": "Non-hedging, mark-to-market"
+    },
+    {
+      "maturity_year": 2019,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 25,
+      "volume_unit": "MBbls",
+      "volume_raw": "(25) MBbls futures - short (2019)",
+      "notes": "Non-hedging, mark-to-market"
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "undesignated",
+      "volume_mbbl": 4075,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,075 MBbls OTC swaps - long (2018)",
+      "notes": "Non-hedging, mark-to-market"
+    },
+    {
+      "maturity_year": 2019,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 990,
+      "volume_unit": "MBbls",
+      "volume_raw": "(990) MBbls OTC swaps - short (2019)",
+      "notes": "Non-hedging, mark-to-market"
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "crude_oil",
+      "instrument": "forward",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 471,
+      "volume_unit": "MBbls",
+      "volume_raw": "(471) MBbls forwards - short (2018)",
+      "notes": "Non-hedging, mark-to-market"
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "crude_oil",
+      "instrument": "options",
+      "direction": "long",
+      "designation": "undesignated",
+      "volume_mbbl": 2500,
+      "volume_unit": "MBbls",
+      "volume_raw": "2,500 MBbls options - long (2018)",
+      "notes": "Non-hedging, mark-to-market"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": 51.0,
+    "net_fair_value_mm": -51.0,
+    "as_of_date": "2017-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Company rebranded from Tesoro Corporation to Andeavor in August 2017 following completion of Western Refining (WNR) acquisition in June 2017. Filed under ticker ANDV. All derivatives undesignated (non-hedging, mark-to-market). Environmental credits and corn futures also present but excluded as non-barrel commodities."
+  ]
+}

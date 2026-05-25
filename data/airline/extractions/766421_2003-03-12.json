@@ -1,0 +1,55 @@
+{
+  "filing_date": "2003-03-12",
+  "fiscal_year_end": "2002-12-31",
+  "company_name": "Alaska Air Group, Inc.",
+  "ticker": "ALK",
+  "fuel_consumption": {
+    "expected_gallons_millions": 380.0,
+    "fiscal_year": 2003,
+    "source_quote": "a one-cent change in the fuel price per gallon affects annual fuel costs by approximately $3.8 million"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.35,
+    "net_fair_value_mm": 17.4,
+    "note_reference": "Note 9"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2003,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.35,
+      "commodities": [
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap"
+      ],
+      "fair_value_mm": 17.4
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Company began purchasing hedge instruments, primarily crude oil swap agreements during 2000. Unrealized gains net of tax $10.1 million in 2002. Hedge contracts classified as swap agreements."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Volume in gallons for 2003 hedge position not disclosed; only percentage (35%) provided.",
+    "Expected gallons inferred from $3.8M/cent sensitivity: ~380M gallons annual consumption for 2003.",
+    "Horizon Air is a subsidiary; combined reporting."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 377.8,
+    "throughput_year": 2002,
+    "source_quote": "Fuel gallons (000,000) 323.3 [Alaska 2002] + 54.5 [Horizon 2002] = 377.8 million gallons combined (Item 6 operating statistics)"
+  }
+}

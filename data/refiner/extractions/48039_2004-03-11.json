@@ -1,0 +1,32 @@
+{
+  "filing_date": "2004-03-11",
+  "fiscal_year_end": "2003-12-31",
+  "company_name": "Holly Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 27.755,
+    "throughput_year": 2003,
+    "source_quote": "Crude charge (BPD)(1): 76,040"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": false,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 0.599,
+    "as_of_date": "2003-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Natural gas price swaps outstanding (6,000+500+2,000 MMBtu/day Dec 2003-Mar 2004) \u2014 these are natural gas feedstock hedges, not crude/refined product commodity hedges. No crude oil or refined product notional positions outstanding at Dec 31, 2003. Transition filing: changed fiscal year from July 31 to December 31, 2002; first full calendar year 2003."
+  ]
+}

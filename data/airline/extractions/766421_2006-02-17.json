@@ -1,0 +1,86 @@
+{
+  "filing_date": "2006-02-17",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Alaska Air Group, Inc.",
+  "ticker": "ALK",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.47,
+    "net_fair_value_mm": 153.3,
+    "note_reference": "Note 11"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": 190.4,
+      "volume_pct_of_consumption": 0.47,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2007,
+      "volume_gallons_millions": 86.0,
+      "volume_pct_of_consumption": 0.2,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2008,
+      "volume_gallons_millions": 31.7,
+      "volume_pct_of_consumption": 0.07,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Purchased call options, collar structures, and fixed-price swap agreements. All fair value changes recorded in non-operating income/expense since April 2004. Quarterly data provided in Note 11; annual volumes are sums. Crude oil prices range from ~$35 to $51/bbl."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Fair value breakdown by year not disclosed; $153.3M is aggregate fair value.",
+    "Annual volumes computed by summing quarterly disclosure in Note 11: 2006=50.8+53.5+49.7+36.4=190.4M gal, 2007=20.9+21.3+26.0+17.8=86.0M gal, 2008=12.3+7.1+6.8+5.5=31.7M gal.",
+    "Annual pct_of_consumption approximated as average of quarterly percentages.",
+    "Horizon Air fuel hedges included in consolidated figures."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 397.7,
+    "throughput_year": 2005,
+    "source_quote": "Fuel gallons (000,000) 346.4 [Alaska 2005] + 51.3 [Horizon 2005] = 397.7 million gallons combined (Item 6 operating statistics)"
+  }
+}

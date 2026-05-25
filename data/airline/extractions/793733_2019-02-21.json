@@ -1,0 +1,40 @@
+{
+  "filing_date": "2019-02-21",
+  "fiscal_year_end": "2018-12-31",
+  "company_name": "SkyWest, Inc.",
+  "ticker": "SKYW",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": null,
+    "note_reference": null
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging program. Fuel cost is primarily pass-through under capacity purchase agreements with major airline partners (United, Delta, American, Alaska and others). SKYW bears fuel risk only on pro-rate operations."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Fuel cost is primarily pass-through to major airline partners under capacity purchase agreements. United, Delta, American, Alaska bear fuel risk for contracted flights. SKYW bears fuel risk on pro-rate operations (~16% of revenue). Avg price $2.60/gal in 2018. No hedging program."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 45.3,
+    "throughput_year": 2018,
+    "source_quote": "Fuel gallons purchased: 45,299 thousand gallons (fiscal year ended December 31, 2018) from Item 7 table. Note: SkyWest prorate gallons only."
+  }
+}

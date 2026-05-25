@@ -1,0 +1,44 @@
+{
+  "filing_date": "2009-03-13",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "Western Refining, Inc.",
+  "ticker": "WNR",
+  "throughput": {
+    "crude_throughput_mmbbl": 82.9,
+    "throughput_year": 2008,
+    "source_quote": "Total refinery throughput (bpd): El Paso 126,569; Giant 100,561; Total 227,130"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2009,
+      "commodity": "refined_products",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 20,
+      "volume_unit": "MBbls",
+      "volume_raw": "20,000 barrels finished product price swaps to protect gasoline blendstock inventories (Q1 2009)",
+      "notes": "Non-hedging, mark-to-market; fair value equaled trade price (zero unrealized gain/loss); net gains $11.4M in 2008"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 0.0,
+    "as_of_date": "2008-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All derivatives undesignated (no hedge accounting). Very small position (20K bbl) at year end to protect gasoline blendstock inventory. Fair value equaled trade price \u00e2\u20ac\u201d no MTM gain or loss recorded."
+  ]
+}

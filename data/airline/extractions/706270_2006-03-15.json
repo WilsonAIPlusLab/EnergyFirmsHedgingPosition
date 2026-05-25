@@ -1,0 +1,52 @@
+{
+  "filing_date": "2006-03-15",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "America West Airlines, Inc. / US Airways Group (post-merger)",
+  "ticker": "AWA",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2005,
+    "source_quote": "America West / US Airways merger completed September 27, 2005. AWA derivatives cover ~20% of combined US Airways Group 2006 fuel requirements (equivalent to ~68% of AWA's standalone portion). US Airways had no open fuel hedges."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.20,
+    "net_fair_value_mm": 4.0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.20,
+      "commodities": ["heating oil"],
+      "instrument_types": ["collar"],
+      "fair_value_mm": 4.0
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "AWA's costless collar agreements cover ~20% of combined US Airways Group 2006 fuel requirements (equivalent ~68% of AWA's standalone portion). US Airways (East) had no fuel hedges. Net fair value = $4.0M (asset) at Dec 31, 2005. America West / US Airways merger completed September 27, 2005; combined entity operates as US Airways Group, Inc. This is AWA's final standalone CIK 706270 filing for FY2005."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 449.0,
+    "throughput_year": 2005,
+    "source_quote": "Fuel consumption (gallons in millions) [table]: 449 [2005], 450 [2004], 423 [2003]. Note: AWA/US Airways merger completed September 27, 2005; FY2005 figures reflect combined entity post-merger."
+  },
+  "warnings": [
+    "America West / US Airways merger completed September 27, 2005. Filing covers combined entity for partial year.",
+    "CIK 706270 used for US Airways Group from FY2005 onward; this is effectively the first combined-entity filing.",
+    "AWA's collars cover ~20% of combined group's 2006 fuel needs (US Airways had no hedges).",
+    "Net fair value $4.0M (asset) at Dec 31, 2005."
+  ]
+}

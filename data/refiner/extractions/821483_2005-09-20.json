@@ -1,0 +1,32 @@
+{
+  "filing_date": "2005-09-20",
+  "fiscal_year_end": "2005-06-30",
+  "company_name": "Delta Petroleum Corporation",
+  "ticker": "DPTR",
+  "throughput": {
+    "crude_throughput_mmbbl": null,
+    "throughput_year": 2005,
+    "source_quote": "Delta Petroleum Corporation is an E&P company; no crude refining throughput"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "production",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": false,
+    "note_reference": "Item 7A / Notes"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": -10.0,
+    "net_fair_value_mm": -10.0,
+    "as_of_date": "2005-06-30"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "CAUTION: This CIK (821483) was Delta Petroleum Corporation (E&P company) in this period, not a petroleum refiner. E&P production hedging (oil and gas output) \u00e2\u20ac\u201d not refinery hedging. Fiscal year ending June 30."
+  ]
+}

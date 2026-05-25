@@ -1,0 +1,97 @@
+{
+  "filing_date": "2007-03-15",
+  "fiscal_year_end": "2006-12-31",
+  "company_name": "Alon USA Energy, Inc.",
+  "ticker": "ALJ",
+  "throughput": {
+    "crude_throughput_mmbbl": 31.409,
+    "throughput_year": 2006,
+    "source_quote": "Big Spring crude 61,516 BPD x 365 days + California refineries crude 59,704 BPD x 150 days (acquired Aug 4, 2006)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": null
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2007,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 150,
+      "volume_unit": "MBbls",
+      "volume_raw": "150,000 bbl crude oil futures long @ $61.69/bbl; offset by 150,000 bbl short @ $63.51/bbl",
+      "notes": "Paired long/short = inventory management hedge. Not a directional bet."
+    },
+    {
+      "maturity_year": 2007,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 150,
+      "volume_unit": "MBbls",
+      "volume_raw": "150,000 bbl crude oil futures short @ $63.51/bbl",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2007,
+      "commodity": "gasoline",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 175,
+      "volume_unit": "MBbls",
+      "volume_raw": "175,000 bbl RBOB futures long @ $70.91/bbl",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2007,
+      "commodity": "gasoline",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 175,
+      "volume_unit": "MBbls",
+      "volume_raw": "175,000 bbl RBOB futures short @ $69.03/bbl",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2007,
+      "commodity": "heating_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 90,
+      "volume_unit": "MBbls",
+      "volume_raw": "90,000 bbl heating oil futures long @ $75.00/bbl",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2007,
+      "commodity": "heating_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 90,
+      "volume_unit": "MBbls",
+      "volume_raw": "90,000 bbl heating oil futures short @ $72.81/bbl",
+      "notes": "Also 10,000 bbl refined products forward long @ $67.44."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": -0.257,
+    "as_of_date": "2006-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "heating_oil_crack_spread_and_3_2_1"
+  },
+  "warnings": []
+}

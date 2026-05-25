@@ -1,0 +1,55 @@
+{
+  "filing_date": "2020-03-02",
+  "fiscal_year_end": "2019-12-31",
+  "company_name": "Par Pacific Holdings, Inc.",
+  "ticker": "PARR",
+  "throughput": {
+    "crude_throughput_mmbbl": 39.78,
+    "throughput_year": 2019,
+    "source_quote": "Hawaii Refineries Combined Feedstocks Throughput (Mbpd): 109.0 (Par East 71.5 + Par West 37.5)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A / Note 14"
+  },
+  "notional_positions": [
+    {
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "volume_mbbl": 3360,
+      "maturity_year": 2020,
+      "designation": "economic_hedge",
+      "notes": "Exchange-traded crude oil futures purchases (long). From item7a table: Futures Long 3,360K bbl.",
+      "volume_unit": "MBbls",
+      "volume_raw": "3360 MBbls long crude_oil"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "volume_mbbl": 3100,
+      "maturity_year": 2020,
+      "designation": "economic_hedge",
+      "notes": "Exchange-traded crude oil futures sales (short). From item7a table: Futures Short (3,100K) bbl.",
+      "volume_unit": "MBbls",
+      "volume_raw": "3100 MBbls short crude_oil"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 2.075,
+    "total_liability_mm": -5.534,
+    "net_fair_value_mm": -3.459,
+    "as_of_date": "2019-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A provides tabular data at Dec 31, 2019: Futures Long 3,360K / Short (3,100K) net 260K bbl. Fair value: asset $2,075K / liability $5,534K; net liability $3,459K. Option collars on internally consumed refinery fuel: 75K bbl/month noted but no total volume or maturity dates specified \u00e2\u20ac\u201d excluded from notional_positions. All derivatives undesignated economic hedges. Large gross futures volumes (3,360K long / 3,100K short) reflect rolling hedge activity matching crude purchases. J.Aron Supply and Offtake Agreement embedded derivative not included."
+  ]
+}

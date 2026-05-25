@@ -1,0 +1,32 @@
+{
+  "filing_date": "2015-03-12",
+  "fiscal_year_end": "2014-12-31",
+  "company_name": "Par Petroleum Corporation",
+  "ticker": "PARR",
+  "throughput": {
+    "crude_throughput_mmbbl": 24.89,
+    "throughput_year": 2014,
+    "source_quote": "Total Crude Oil Throughput (Mbpd): 68.2"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A / Notes"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": 1.015,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 1.015,
+    "as_of_date": "2014-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A not required (smaller reporting company). Exchange-traded futures: net asset $1,015K at Dec 31, 2014. Recognized gain of $8.228M on exchange-traded futures in FY2014 (recorded in cost of revenues). No specific barrel volumes disclosed in parsed filing sections for year-end open positions. All derivatives undesignated (economic hedges). Hawaii refinery (HIE) first full year of operations. J.Aron Supply and Offtake Agreement and MLC Washington Refinery Intermediation Agreement both create embedded derivative obligations not counted here."
+  ]
+}

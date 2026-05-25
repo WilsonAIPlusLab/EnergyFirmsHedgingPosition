@@ -1,0 +1,97 @@
+{
+  "filing_date": "2019-02-28",
+  "fiscal_year_end": "2018-12-31",
+  "company_name": "Valero Energy Corporation",
+  "ticker": "VLO",
+  "throughput": {
+    "crude_throughput_mmbbl": 1089.89,
+    "throughput_year": 2018,
+    "source_quote": "Total throughput volumes     2,986     2,940     46"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 20"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2019,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 149470,
+      "volume_unit": "MBbls",
+      "volume_raw": "149,470",
+      "notes": "Economic hedges futures long 2019 crude oil and refined petroleum products"
+    },
+    {
+      "maturity_year": 2020,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 224,
+      "volume_unit": "MBbls",
+      "volume_raw": "224",
+      "notes": "Economic hedges futures long 2020 crude oil and refined petroleum products"
+    },
+    {
+      "maturity_year": 2019,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 143826,
+      "volume_unit": "MBbls",
+      "volume_raw": "143,826",
+      "notes": "Economic hedges futures short 2019 crude oil and refined petroleum products"
+    },
+    {
+      "maturity_year": 2020,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 671,
+      "volume_unit": "MBbls",
+      "volume_raw": "671",
+      "notes": "Economic hedges futures short 2020 crude oil and refined petroleum products"
+    },
+    {
+      "maturity_year": 2019,
+      "commodity": "crude_oil",
+      "instrument": "options",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 26500,
+      "volume_unit": "MBbls",
+      "volume_raw": "26,500",
+      "notes": "Economic hedges options long 2019 crude oil and refined petroleum products"
+    },
+    {
+      "maturity_year": 2019,
+      "commodity": "crude_oil",
+      "instrument": "options",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 26500,
+      "volume_unit": "MBbls",
+      "volume_raw": "26,500",
+      "notes": "Economic hedges options short 2019 crude oil and refined petroleum products"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 2796.0,
+    "total_liability_mm": 2687.0,
+    "net_fair_value_mm": 109.0,
+    "as_of_date": "2018-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["No fair value or cash flow hedges; all economic hedges. Corn, soybean oil, natural gas contracts excluded. Trading activities excluded."]
+}

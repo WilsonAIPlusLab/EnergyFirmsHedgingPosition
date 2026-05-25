@@ -1,0 +1,54 @@
+{
+  "filing_date": "2008-06-30",
+  "fiscal_year_end": "2008-03-31",
+  "company_name": "Frontier Airlines Holdings, Inc.",
+  "ticker": "FRNT",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2008,
+    "source_quote": "Cash settlements from fuel derivatives for FY2008 = receipts of $30,740,000; non-cash MTM gains = $1,847,000. Fair value of fuel hedge agreements = $15,576,000 (asset) at March 31, 2008. Company filed Chapter 11 bankruptcy April 10, 2008 (Debtor-in-Possession)."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 15.576,
+    "note_reference": "Item 7A; Item 8 Notes"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2009,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": ["crude oil", "jet fuel"],
+      "instrument_types": ["swap", "collar", "call_option"],
+      "fair_value_mm": 15.576
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Crude oil call agreements, swap agreements, and Jet A crack spread swaps for fuel hedging. Fair value = $15,576,000 (asset) at March 31, 2008. FY2008: cash settlement receipts $30,740,000 (decrease to fuel expense); MTM gains $1,847,000. Company filed Chapter 11 bankruptcy April 10, 2008 (Debtor-in-Possession). All outstanding fuel hedge agreements terminated and settled in May 2008, yielding cash receipts of $23,409,000. These fuel hedges did not qualify for hedge accounting under SFAS 133."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2008,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 182.8,
+    "throughput_year": 2008,
+    "source_quote": "fuel expense of $446,791,000 for 182,793,000 gallons used and $343,082,000 for 161,616,000 gallons used, resulted in an average fuel expense of $2.45 and $2.12 [per gallon for FY2008 and FY2007]"
+  },
+  "warnings": [
+    "Frontier Airlines Holdings filed Chapter 11 bankruptcy April 10, 2008.",
+    "Filing made as Debtor-in-Possession.",
+    "All fuel hedge agreements terminated in May 2008 post-bankruptcy; cash receipts = $23,409,000.",
+    "Net fair value $15.576M (asset) at March 31, 2008 (pre-bankruptcy filing, pre-termination).",
+    "FY2008: cash settlement receipts $30.740M; MTM gains $1.847M.",
+    "March 31 fiscal year end."
+  ]
+}

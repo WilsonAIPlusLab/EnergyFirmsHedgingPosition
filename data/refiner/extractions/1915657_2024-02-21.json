@@ -1,0 +1,79 @@
+{
+  "filing_date": "2024-02-21",
+  "fiscal_year_end": "2023-12-31",
+  "company_name": "HF Sinclair Corporation",
+  "ticker": "DINO",
+  "throughput": {
+    "crude_throughput_mmbbl": 207.152,
+    "throughput_year": 2023,
+    "source_quote": "Crude charge (BPD) (1) Consolidated: 567,540 (365 days)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2024,
+      "commodity": "crude_oil_wti",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 640,
+      "volume_unit": "MBbls",
+      "volume_raw": "NYMEX futures (WTI) - short 640,000 Barrels, all maturing in 2024",
+      "notes": "Inventory management hedge"
+    },
+    {
+      "maturity_year": 2024,
+      "commodity": "gasoline",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 800,
+      "volume_unit": "MBbls",
+      "volume_raw": "Forward gasoline contracts - long 800,000 Barrels, all maturing in 2024",
+      "notes": "Inventory management hedge"
+    },
+    {
+      "maturity_year": 2024,
+      "commodity": "natural_gas",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": null,
+      "volume_unit": "MMBTU",
+      "volume_raw": "Natural gas price swaps (basis spread) - long 6,667,000 MMBTU, all maturing in 2024",
+      "notes": "Natural gas basis spread swaps; volume in MMBTU not MBbls"
+    },
+    {
+      "maturity_year": 2024,
+      "commodity": "platinum",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": null,
+      "volume_unit": "troy_oz",
+      "volume_raw": "Forward commodity contracts (platinum) 36,969 Troy ounces, all maturing in 2024",
+      "notes": "Precious metals catalyst embedded derivative; volume in troy ounces"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 3.74,
+    "total_liability_mm": 17.55,
+    "net_fair_value_mm": -13.81,
+    "as_of_date": "2023-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": "inventory_management_nymex_futures_and_forwards"
+  },
+  "warnings": [
+    "Item 7A is a one-line stub: \"See Risk Management under MD&A.\" Derivative data from Note 14",
+    "FV in thousands: assets $3,744K liabilities $17,549K net -$13,805K",
+    "Commodity price swap contracts liability $7,808K also present (natural gas basis swaps)"
+  ]
+}

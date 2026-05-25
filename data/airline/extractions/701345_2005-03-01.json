@@ -1,0 +1,51 @@
+{
+  "filing_date": "2005-03-01",
+  "fiscal_year_end": "2004-12-31",
+  "company_name": "US Airways Group, Inc.",
+  "ticker": "UAIR",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.04,
+    "net_fair_value_mm": 22.0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2005,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.04,
+      "commodities": [],
+      "instrument_types": [
+        "previously liquidated hedges (recognized over 2005)"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Previously used fixed price swap agreements and collar structures. No open positions at December 31, 2004 but $22M unrealized gains in AOCI from previously liquidated hedges. Approximately $2M/month to be recognized in 2005."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "US Airways Group CIK 701345. Company in second Chapter 11 bankruptcy (filed September 2004, emerged September 2005). No open hedge positions at December 31, 2004 but previously liquidated hedge positions produce ~$2M/month through 2005."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 884,
+    "throughput_year": 2004,
+    "source_quote": "Mainline gallons of aviation fuel consumed: 884 (2004)"
+  }
+}

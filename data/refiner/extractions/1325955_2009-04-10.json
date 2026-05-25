@@ -1,0 +1,110 @@
+{
+  "filing_date": "2009-04-10",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "Alon USA Energy, Inc.",
+  "ticker": "ALJ",
+  "throughput": {
+    "crude_throughput_mmbbl": 34.532,
+    "throughput_year": 2008,
+    "source_quote": "Big Spring crude 35,924 BPD x 366 days (fire 2/18/08) + California crude 30,604 BPD x 366 days + Krotz Springs crude 55,340 BPD x 184 days (acquired July 2008)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": null
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2009,
+      "commodity": "gasoline",
+      "instrument": "forward",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 150,
+      "volume_unit": "MBbls",
+      "volume_raw": "150,000 bbl gasoline forwards short @ sale $37.73/bbl; FV ($6,555K); G/L ($895K)",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "diesel",
+      "instrument": "forward",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 50,
+      "volume_unit": "MBbls",
+      "volume_raw": "50,000 bbl diesel forwards short @ sale $55.74/bbl; FV ($3,095K); G/L ($308K)",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "heating_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 11,
+      "volume_unit": "MBbls",
+      "volume_raw": "11,000 bbl heating oil futures long @ $57.69/bbl; FV $666K; G/L $32K",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "heating_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 78,
+      "volume_unit": "MBbls",
+      "volume_raw": "78,000 bbl heating oil futures short @ $60.07/bbl; FV ($4,724K); G/L ($39K)",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "gasoline",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 5,
+      "volume_unit": "MBbls",
+      "volume_raw": "5,000 bbl RBOB futures short @ $47.29/bbl; FV ($223K); G/L $13K",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "heating_oil",
+      "instrument": "crack_spread_swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 12000.125,
+      "volume_unit": "MBbls",
+      "volume_raw": "12,000,125 bbl heating oil crack spread futures @ contract $21.95/bbl crack, market $12.06; FV $142,984K; G/L $117,485K",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 672,
+      "volume_unit": "MBbls",
+      "volume_raw": "672,000 bbl SPR long swap @ buy $89.34, sell $51.43; FV $34,563K; G/L ($25,473K)",
+      "notes": "SPR = Strategic Petroleum Reserve swap. Long position at purchase price $89.34, market sell $51.43."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 90.815,
+    "as_of_date": "2008-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "heating_oil_crack_spread_and_3_2_1"
+  },
+  "warnings": [
+    "FY2008 has very large crack spread futures position (12M bbl HO crack) and SPR swap. Net fair value (G/L) = $90.815M. Crack FV $142,984K; SPR FV $34,563K; short inventory positions FV negative."
+  ]
+}

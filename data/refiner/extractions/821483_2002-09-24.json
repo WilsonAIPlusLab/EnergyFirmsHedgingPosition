@@ -1,0 +1,32 @@
+{
+  "filing_date": "2002-09-24",
+  "fiscal_year_end": "2002-06-30",
+  "company_name": "Delta Petroleum Corporation",
+  "ticker": "DPTR",
+  "throughput": {
+    "crude_throughput_mmbbl": null,
+    "throughput_year": 2002,
+    "source_quote": "Delta Petroleum Corporation is an E&P company; no crude refining throughput"
+  },
+  "hedge_program": {
+    "program_exists": false,
+    "primary_objective": null,
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": false,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2002-06-30"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "CAUTION: This CIK (821483) was Delta Petroleum Corporation (E&P company) in this period, not a petroleum refiner. No commodity hedges in place as of June 30, 2002; filing states hedging would begin in fiscal 2003. This entity later became Par Petroleum Corporation, then Par Pacific Holdings after acquiring Hawaii refinery in September 2013."
+  ]
+}

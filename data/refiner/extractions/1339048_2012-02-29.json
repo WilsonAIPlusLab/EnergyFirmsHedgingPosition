@@ -1,0 +1,55 @@
+{
+  "filing_date": "2012-02-29",
+  "fiscal_year_end": "2011-12-31",
+  "company_name": "Western Refining, Inc.",
+  "ticker": "WNR",
+  "throughput": {
+    "crude_throughput_mmbbl": 51.92,
+    "throughput_year": 2011,
+    "source_quote": "Total refinery throughput (bpd): 142,257"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "crack_spread",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2012,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "undesignated",
+      "volume_mbbl": 933,
+      "volume_unit": "MBbls",
+      "volume_raw": "933,000 barrels crude oil futures (2012)",
+      "notes": "Non-hedging, mark-to-market; crack spread leg \u00e2\u20ac\u201d long crude component"
+    },
+    {
+      "maturity_year": 2012,
+      "commodity": "crack_spread",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 29283,
+      "volume_unit": "MBbls",
+      "volume_raw": "29,282,500 barrels refined product price and crack spread swaps (2012)",
+      "notes": "Non-hedging, mark-to-market; primarily to fix margin on future gasoline and distillate production. Net unrealized gain $182.1M ($107.3M total hedging gain in 2011). Short refined product / crack spread position."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 183.179,
+    "total_liability_mm": 1.066,
+    "net_fair_value_mm": 182.113,
+    "as_of_date": "2011-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "gasoline_distillate"
+  },
+  "warnings": [
+    "All derivatives undesignated (no hedge accounting). Very large crack spread program: 29.3M bbl refined product crack spread swaps + 933K bbl crude futures. Fair value outstanding: $183.179M asset / $1.066M liability. Net unrealized gain $182.1M at Dec 31, 2011. Total hedging gain $107.3M in 2011 ($74.8M realized loss + $182.1M unrealized gain)."
+  ]
+}

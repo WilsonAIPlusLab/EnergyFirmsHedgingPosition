@@ -1,0 +1,42 @@
+{
+  "filing_date": "2026-02-05",
+  "fiscal_year_end": "2025-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 2200,
+    "fiscal_year": 2026,
+    "source_quote": "The Company currently expects to consume approximately 2.2 billion gallons of jet fuel in 2026."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": 0,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Fuel hedging program discontinued in 2025. During Q2 2025, all remaining fuel hedging contracts (originally scheduled to settle through 2027) were terminated. Cash proceeds from termination approximately $40M. Approximately $96M previously deferred in AOCI was reclassified to Fuel and oil expense in 2025 (premium expense from terminated positions). Approximately $137M remains in AOCI at 12/31/2025 as net deferred loss/gain and will be recognized as Fuel and oil expense in future periods as originally-forecasted fuel transactions occur through end of 2027. No fuel derivative positions outstanding as of 12/31/2025."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2025,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Fuel hedging program explicitly and completely terminated in Q2 2025. Filing states: 'the Company discontinued its fuel hedging program in 2025' and 'During second quarter 2025, the Company terminated its remaining portfolio of fuel hedging contracts, which were scheduled to settle through 2027, to effectively close its fuel hedging portfolio and program.'",
+    "Residual AOCI balance of approximately $137M will continue to be recognized as Fuel and oil expense through end of 2027 as originally-forecasted fuel transactions occur, even though no hedges are outstanding.",
+    "New interest rate fair value hedge entered in Q4 2025 for $750M 5.25% Notes due 2035 (fixed-to-floating swap) \u00e2\u20ac\u201d this is an IR hedge excluded per schema rules."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2169.0,
+    "throughput_year": 2025,
+    "source_quote": "Fuel consumed, in gallons (millions): 2,169 (Item 7, 2026 10-K filing)"
+  }
+}

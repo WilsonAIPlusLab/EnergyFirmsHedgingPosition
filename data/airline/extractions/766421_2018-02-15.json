@@ -1,0 +1,68 @@
+{
+  "filing_date": "2018-02-15",
+  "fiscal_year_end": "2017-12-31",
+  "company_name": "Alaska Air Group, Inc.",
+  "ticker": "ALK",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 22.0,
+    "note_reference": "Note 3 (Derivative Instruments)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2018,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2019,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Portfolio consists of crude oil call options only. Aggregate 434 million gallons hedged from January 2018 to June 2019 with no per-year breakdown. Fair value = $19M (current) + $3M (noncurrent) = $22M. 10% increase in forward curve would change portfolio to ~$55M; 10% decrease would change to ~$6M."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No per-year volume or percentage breakdown disclosed; only aggregate 434M gallons for Jan 2018 to Jun 2019.",
+    "pct_hedged_next_year not determinable from disclosure.",
+    "Horizon Air fuel hedges included in consolidated figures.",
+    "Post-Virgin America acquisition; figures cover combined entity."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 797.0,
+    "throughput_year": 2017,
+    "source_quote": "Fuel gallons (000,000) 797 [Alaska Air Group consolidated 2017; includes Virgin America full year] (Item 7 operating statistics)"
+  }
+}

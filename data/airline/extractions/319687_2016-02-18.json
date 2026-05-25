@@ -1,0 +1,54 @@
+{
+  "filing_date": "2016-02-18",
+  "fiscal_year_end": "2015-12-31",
+  "company_name": "United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",
+  "ticker": "CAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2015,
+    "source_quote": "Impact of $1 increase in price per barrel of aircraft fuel on annual fuel expense (based on 2016 projected fuel consumption): $94 million (implies ~3,948 million projected gallons for 2016)."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 0.17,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": -124,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2016,
+      "volume_gallons_millions": 652,
+      "volume_pct_of_consumption": 0.17,
+      "commodities": [
+        "aircraft fuel",
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "collar",
+        "call_option",
+        "swap"
+      ],
+      "fair_value_mm": -124
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "UAL consolidated at Dec 31, 2015: 17% of 2016 fuel (652 million gallons) hedged. Instruments based on aircraft fuel or crude oil; includes fixed-price swaps, call options, collars, three-ways, four-way collars. Fair value liability $124 million. Collateral deposited $26 million. Hedges expiring through December 2016."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3886.0,
+    "throughput_year": 2015,
+    "source_quote": "Total fuel consumption (gallons) 3,886 [2015] 3,905 [2014] (Item 7 UAL fuel expense table; United Continental Holdings consolidated)"
+  }
+}

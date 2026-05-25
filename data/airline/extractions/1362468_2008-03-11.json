@@ -1,0 +1,51 @@
+{
+  "filing_date": "2008-03-11",
+  "fiscal_year_end": "2007-12-31",
+  "company_name": "Allegiant Travel Company",
+  "ticker": "ALGT",
+  "fuel_consumption": {
+    "expected_gallons_millions": 66.1,
+    "fiscal_year": 2007,
+    "source_quote": "Fuel expense $152.1M in 2007, avg cost per gallon $2.30; 10% sensitivity ~$14.9M"
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.02,
+    "net_fair_value_mm": 0.081,
+    "note_reference": "Item 7A Aircraft Fuel"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2008,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.02,
+      "commodities": [],
+      "instrument_types": [
+        "forward contracts"
+      ],
+      "fair_value_mm": 0.081
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Company states 'not currently pursuing fuel hedging programs'; one residual contract settling Jan 2008 with fair value <$0.1M. Represents wind-down of prior program."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2007,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 66.0,
+    "throughput_year": 2007,
+    "source_quote": "Aircraft fuel expense increased 50.9% to $229.6 million in 2008, up from $152.1 million in 2007, driven by a substantial increase in the average cost per gallon to $2.98 during 2008 from $2.30 in 2007, coupled with a 16.6% increase in gallons consumed to 77.0 million from 66.0 million."
+  },
+  "warnings": [
+    "Company explicitly states it is not currently pursuing fuel hedging programs, though one residual contract was still outstanding"
+  ]
+}

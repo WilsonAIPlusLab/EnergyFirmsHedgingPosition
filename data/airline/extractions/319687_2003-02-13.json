@@ -1,0 +1,51 @@
+{
+  "filing_date": "2003-02-13",
+  "fiscal_year_end": "2002-12-31",
+  "company_name": "Continental Airlines, Inc.",
+  "ticker": "CAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1228,
+    "fiscal_year": 2002,
+    "source_quote": "Jet fuel consumption decreased 9.1% principally reflecting decreased flight operations due to the current industry environment and the fuel efficiency of our younger fleet. FY2002 consumption approximately 1,228 million gallons (from FY2002 statistical data)."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 0.23,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 6,
+    "note_reference": "Note 6"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2003,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.23,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": 6
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Petroleum call options outstanding with aggregate notional amount approximately $270 million at December 31, 2002. Options expire during Q1 2003 (95% of Q1 2003 needs hedged at $33/barrel). Fair value $6 million asset. No hedges at December 31, 2001."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1296.0,
+    "throughput_year": 2002,
+    "source_quote": "Fuel gallons consumed (millions) 1,296 [2002] 1,426 [2001] 1,533 [2000] (Item 6 selected operating data; Continental Airlines standalone)"
+  }
+}

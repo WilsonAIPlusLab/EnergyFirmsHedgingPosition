@@ -1,0 +1,60 @@
+{
+  "filing_date": "2004-06-15",
+  "fiscal_year_end": "2004-03-31",
+  "company_name": "Frontier Airlines, Inc.",
+  "ticker": "FRNT",
+  "fuel_consumption": {
+    "expected_gallons_millions": 104.8,
+    "fiscal_year": 2004,
+    "source_quote": "Aircraft fuel costs of $108,863,000 for 104,799,000 gallons used resulted in an average fuel cost of $1.04 per gallon for the year ended March 31, 2004."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.25,
+    "net_fair_value_mm": 0.469,
+    "note_reference": "Item 7A; Item 8 Notes"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2004,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.07,
+      "commodities": ["jet fuel"],
+      "instrument_types": ["swap"],
+      "fair_value_mm": 0.469
+    },
+    {
+      "coverage_year": 2005,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.25,
+      "commodities": ["crude oil"],
+      "instrument_types": ["collar"],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Two instruments at March 31, 2004: (1) Sep 2003 swap: 630K gal/month Jan-Jun 2004 at 74.50 cents/gal (~7% of requirements); (2) May 21, 2004 collar (entered after FY end): WTI crude basis, cap $39/bbl, floor $34.85/bbl, covering ~25% of Q ending Dec 31, 2004 and Mar 31, 2005. FY2004 results: unrealized derivative GAIN of $469,000; realized GAIN of $918,000 from cash settlements. Net fair value at March 31, 2004 approximately $0.469M (unrealized gain). At filing date (June 2004): ~6% hedged for Q ending June 30, 2004; May 21, 2004 collar = ~25% for Dec 2004 and Mar 2005 quarters."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 104.8,
+    "throughput_year": 2004,
+    "source_quote": "Aircraft fuel costs of $108,863,000 for 104,799,000 gallons used resulted in an average fuel cost of $1.04 per gallon for the year ended March 31, 2004."
+  },
+  "warnings": [
+    "Frontier Airlines Inc. (CIK 921929) has March 31 fiscal year end.",
+    "Net fair value approximately $0.469M (unrealized gain) at March 31, 2004.",
+    "May 21, 2004 collar agreement for Dec 2004 and Mar 2005 quarters entered AFTER fiscal year end.",
+    "FY2004 gallons consumed: 104.8 million at average cost $1.04/gal."
+  ]
+}

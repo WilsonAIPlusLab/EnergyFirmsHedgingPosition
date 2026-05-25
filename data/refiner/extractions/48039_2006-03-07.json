@@ -1,0 +1,32 @@
+{
+  "filing_date": "2006-03-07",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Holly Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 37.902,
+    "throughput_year": 2005,
+    "source_quote": "Crude Charge (BPD) (1): 103,840"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "crack_spread",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 18"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2005-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "diesel crack spread (heating oil futures vs crude oil futures)"
+  },
+  "warnings": [
+    "No positions outstanding at December 31, 2005. During 2005, company entered 1,505,000 barrel diesel crack spread hedges (short heating oil + long crude) and crude oil inventory hedges (100,000 bbl), all fully liquidated Aug-Nov 2005. No price swaps outstanding since March 2004."
+  ]
+}

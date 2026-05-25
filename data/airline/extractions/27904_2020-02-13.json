@@ -1,0 +1,42 @@
+{
+  "filing_date": "2020-02-13",
+  "fiscal_year_end": "2019-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": null,
+    "note_reference": "Note 5"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "243M gallons (through July 2020) are Monroe Energy's inventory hedges, not airline fuel hedges. Item 7A states: 'Our derivative contracts to hedge the financial risk from changing fuel prices are primarily related to Monroe's inventory.' No airline fuel hedging program exists."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 4214.0,
+    "throughput_year": 2019,
+    "source_quote": "Fuel gallons consumed (in millions)  1,935  4,214  4,113 (from operating statistics table in Item 7 MD&A; FY2019 = 4,214)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": true,
+    "refinery_name": "Monroe Energy (Trainer refinery)"
+  },
+  "warnings": [
+    "program_exists=false: No airline fuel hedging program. Volume of 243M gallons represents Monroe Energy's inventory hedges only.",
+    "net_fair_value_mm=1 is the net fair value of Monroe's fuel inventory hedges: $16M assets minus $15M liabilities at December 31, 2019.",
+    "A one cent increase in jet fuel = $40M additional annual expense, implying approximately 4 billion gallons consumed with no airline hedging."
+  ]
+}

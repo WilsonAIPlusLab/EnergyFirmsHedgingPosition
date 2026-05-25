@@ -1,0 +1,32 @@
+{
+  "filing_date": "2005-03-04",
+  "fiscal_year_end": "2004-12-31",
+  "company_name": "Sunoco Inc",
+  "ticker": "SUN",
+  "throughput": {
+    "crude_throughput_mmbbl": 313.19,
+    "throughput_year": 2004,
+    "source_quote": "Crude Oil Throughputs 2004: 633.3 (Northeast) + 222.4 (MidContinent) = 855.7 thousand barrels daily (includes Eagle Point acquired Jan 2004); leap year 366 days"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": null,
+    "has_economic_hedges": null,
+    "note_reference": null
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2004-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A references Annual Report for 2001-2007 filings; limited detail in 10-K text"
+  ]
+}

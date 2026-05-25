@@ -1,0 +1,75 @@
+{
+  "filing_date": "2016-02-25",
+  "fiscal_year_end": "2015-12-31",
+  "company_name": "Valero Energy Corporation",
+  "ticker": "VLO",
+  "throughput": {
+    "crude_throughput_mmbbl": 1021.64,
+    "throughput_year": 2015,
+    "source_quote": "Total throughput volumes     2,799     2,765     34"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 8 Notes"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2016,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 11727,
+      "volume_unit": "MBbls",
+      "volume_raw": "11,727",
+      "notes": "Economic hedges swaps long 2016 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2016,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 11559,
+      "volume_unit": "MBbls",
+      "volume_raw": "11,559",
+      "notes": "Economic hedges swaps short 2016 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2016,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 73746,
+      "volume_unit": "MBbls",
+      "volume_raw": "73,746",
+      "notes": "Economic hedges futures long 2016 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2016,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 85999,
+      "volume_unit": "MBbls",
+      "volume_raw": "85,999",
+      "notes": "Economic hedges futures short 2016 crude oil and refined products"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 685.0,
+    "total_liability_mm": 563.0,
+    "net_fair_value_mm": 122.0,
+    "as_of_date": "2015-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["No fair value or cash flow hedges outstanding as of Dec 31, 2015. Corn, soybean oil contracts excluded. Trading activities excluded."]
+}

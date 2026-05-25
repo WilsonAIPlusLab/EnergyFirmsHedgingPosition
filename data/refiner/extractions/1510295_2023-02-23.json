@@ -1,0 +1,75 @@
+{
+  "filing_date": "2023-02-23",
+  "fiscal_year_end": "2022-12-31",
+  "company_name": "Marathon Petroleum Corporation",
+  "ticker": "MPC",
+  "throughput": {
+    "crude_throughput_mmbbl": 1007.77,
+    "throughput_year": 2022,
+    "source_quote": "Refinery throughputs (mbpd): Crude oil refined     2,761     2,621     2,418"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 8 Notes"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2023,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 69275,
+      "volume_unit": "MBbls",
+      "volume_raw": "69,275",
+      "notes": "Exchange-traded crude oil long (incl. 29,651 spread contracts); 65.1% expire Q1 2023"
+    },
+    {
+      "maturity_year": 2023,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 82639,
+      "volume_unit": "MBbls",
+      "volume_raw": "82,639",
+      "notes": "Exchange-traded crude oil short (incl. 29,876 spread contracts); 65.1% expire Q1 2023"
+    },
+    {
+      "maturity_year": 2023,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 16669,
+      "volume_unit": "MBbls",
+      "volume_raw": "16,669",
+      "notes": "Exchange-traded refined products long (incl. 1,390 spread contracts); 76.6% expire Q1 2023"
+    },
+    {
+      "maturity_year": 2023,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 9226,
+      "volume_unit": "MBbls",
+      "volume_raw": "9,226",
+      "notes": "Exchange-traded refined products short (incl. 25 spread contracts); 76.6% expire Q1 2023"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2022-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["Blending products (ethanol) and soybean oil excluded. No hedge accounting designation. Short-duration positions."]
+}

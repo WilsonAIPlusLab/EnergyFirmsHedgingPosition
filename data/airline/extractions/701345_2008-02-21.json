@@ -1,0 +1,49 @@
+{
+  "filing_date": "2008-02-21",
+  "fiscal_year_end": "2007-12-31",
+  "company_name": "US Airways Group, Inc.",
+  "ticker": "LCC",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1570.0,
+    "fiscal_year": 2008,
+    "source_quote": "Our 2008 forecasted mainline and Express fuel consumption is approximately 1.57 billion gallons and a one cent per gallon increase in fuel price results in a $16 million annual increase in expense, excluding the impact of hedge transactions."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.28,
+    "net_fair_value_mm": null,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2008,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.22,
+      "commodities": [],
+      "instrument_types": [
+        "costless collars (heating oil futures)"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Costless collar transactions on heating oil futures. Weighted average collar range $2.05 to $2.25 per gallon of heating oil for 2008 positions. 10% heating oil price increase would increase fair value by ~$85M; 10% decrease would decrease by ~$75M."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1537,
+    "throughput_year": 2007,
+    "source_quote": "Fuel consumption (gallons in millions): 1,537 (2007 Total Mainline and Express)"
+  }
+}

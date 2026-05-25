@@ -1,0 +1,77 @@
+{
+  "filing_date": "2019-02-20",
+  "fiscal_year_end": "2018-12-31",
+  "company_name": "HollyFrontier Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 157.523,
+    "throughput_year": 2018,
+    "source_quote": "Crude charge (BPD) (1): 431,570"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2019,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 4745,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,745,000 barrels crude oil price swaps (basis spread) - long (2019)",
+      "notes": "Designated cash flow hedge locking in crude basis spread differentials on forecasted crude purchases"
+    },
+    {
+      "maturity_year": 2020,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 4758,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,758,000 barrels crude oil price swaps (basis spread) - long (2020)",
+      "notes": "Designated cash flow hedge locking in crude basis spread differentials"
+    },
+    {
+      "maturity_year": 2019,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 650,
+      "volume_unit": "MBbls",
+      "volume_raw": "650,000 barrels NYMEX futures (WTI) - short (2019)",
+      "notes": "Economic hedge on inventory purchases"
+    },
+    {
+      "maturity_year": 2019,
+      "commodity": "refined_products",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 325,
+      "volume_unit": "MBbls",
+      "volume_raw": "325,000 barrels forward gasoline and diesel contracts - long (2019)",
+      "notes": "Economic hedge on refined products"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2018-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Natural gas price swaps (5.4M MMBTU, designated through 2021) excluded as non-barrel. Basis spread swaps on crude oil are grade differential hedges not directional price bets; included as crude_oil long per closest schema fit. Crack spread economic hedges (WTI vs sub-octane gasoline) mentioned but not separately quantified in note."
+  ]
+}

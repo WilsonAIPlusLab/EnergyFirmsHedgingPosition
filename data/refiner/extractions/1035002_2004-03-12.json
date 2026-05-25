@@ -1,0 +1,163 @@
+{
+  "filing_date": "2004-03-12",
+  "fiscal_year_end": "2003-12-31",
+  "company_name": "Valero Energy Corporation",
+  "ticker": "VLO",
+  "throughput": {
+    "crude_throughput_mmbbl": 669.78,
+    "throughput_year": 2003,
+    "source_quote": "Throughput volumes (thousand barrels per day)     1,835     1,595     240"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "mixed",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 26464,
+      "volume_unit": "MBbls",
+      "volume_raw": "26,464",
+      "notes": "Fair value hedges futures long 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 36110,
+      "volume_unit": "MBbls",
+      "volume_raw": "36,110",
+      "notes": "Fair value hedges futures short 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 61020,
+      "volume_unit": "MBbls",
+      "volume_raw": "61,020",
+      "notes": "Cash flow hedges swaps long 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 61520,
+      "volume_unit": "MBbls",
+      "volume_raw": "61,520",
+      "notes": "Cash flow hedges swaps short 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 17266,
+      "volume_unit": "MBbls",
+      "volume_raw": "17,266",
+      "notes": "Cash flow hedges futures long 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 14600,
+      "volume_unit": "MBbls",
+      "volume_raw": "14,600",
+      "notes": "Cash flow hedges futures short 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 2658,
+      "volume_unit": "MBbls",
+      "volume_raw": "2,658",
+      "notes": "Economic hedges swaps long 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 7428,
+      "volume_unit": "MBbls",
+      "volume_raw": "7,428",
+      "notes": "Economic hedges swaps short 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 16604,
+      "volume_unit": "MBbls",
+      "volume_raw": "16,604",
+      "notes": "Economic hedges futures long 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 19788,
+      "volume_unit": "MBbls",
+      "volume_raw": "19,788",
+      "notes": "Economic hedges futures short 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "options",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 24719,
+      "volume_unit": "MBbls",
+      "volume_raw": "24,719",
+      "notes": "Economic hedges options long 2004 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil",
+      "instrument": "options",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 34269,
+      "volume_unit": "MBbls",
+      "volume_raw": "34,269",
+      "notes": "Economic hedges options short 2004 crude oil and refined products"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": -15.0,
+    "as_of_date": "2003-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["Fair value hedges (inventory + firm commitments) categorized under cash_flow_hedge designation for simplicity. Trading activities excluded. Natural gas excluded. Options listed as economic hedge include 913 MBbls natural gas options (excluded)."]
+}

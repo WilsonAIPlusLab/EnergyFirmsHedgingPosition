@@ -1,0 +1,54 @@
+{
+  "filing_date": "2006-02-24",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "AMR Corporation / American Airlines, Inc.",
+  "ticker": "AMR",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2006,
+    "source_quote": "Based on projected 2006 fuel usage, such an increase would result in an increase to aircraft fuel expense of approximately $528 million in 2006, inclusive of the impact of effective fuel hedge instruments outstanding at December 31, 2005"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 17,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 122.0,
+    "note_reference": "Note 7"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.17,
+      "commodities": [],
+      "instrument_types": [
+        "options",
+        "collars"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "AMR uses jet fuel, heating oil, and crude oil hedging contracts. Instruments are fuel option and collar contracts with maturities up to 24 months. Net gains recognized in fuel expense 2005: ~$64M; 2004: ~$99M; 2003: ~$149M."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Fuel consumption in gallons not explicitly stated; only dollar-based sensitivity disclosures provided.",
+    "Fair value of $122M represents amount company would RECEIVE to terminate agreements at Dec 31, 2005 (asset position).",
+    "Pct hedged for years beyond 2006 described as 'insignificant amount' \u2014 not quantified."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2948.0,
+    "throughput_year": 2005,
+    "source_quote": "Fuel consumption (gallons, in millions) 2,948 [2005] 3,014 [2004] 2,956 [2003] (Item 7 operating statistics; mainline)"
+  }
+}

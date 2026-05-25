@@ -1,0 +1,52 @@
+{
+  "filing_date": "2006-06-09",
+  "fiscal_year_end": "2006-03-31",
+  "company_name": "Frontier Airlines Holdings, Inc.",
+  "ticker": "FRNT",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2006,
+    "source_quote": "Fuel consumption not stated in item7a for FY ended March 31, 2006. Zero cost collar covers ~16% of Q1 FY2007 fuel (quarter ending June 30, 2006). Derivative gains for FY2006 = $3,175,000."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.16,
+    "net_fair_value_mm": 0.976,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2007,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.16,
+      "commodities": ["jet fuel"],
+      "instrument_types": ["collar"],
+      "fair_value_mm": 0.976
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Zero cost collar agreement entered November 28, 2005 on Gulf Coast Jet A fuel: cap $1.83/gal, floor $1.6925/gal. Covers approximately 16% of fuel requirements for Q ending June 30, 2006 (Q1 FY2007). Net fair value = $976,000 (asset) at March 31, 2006. Derivative gains for FY2006 = $3,175,000. Frontier Airlines Holdings, Inc. (CIK 1351548) is the parent holding company formed during FY2006. The subsidiary Frontier Airlines, Inc. (CIK 921929) filed an identical 10-K for the same period."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 141.5,
+    "throughput_year": 2006,
+    "source_quote": "Aircraft fuel costs of $281,906,000 for 141,474,000 gallons used and $185,821,000 for 131,906,000 gallons used resulted in an average fuel cost of $1.99 and $1.41 per gallon for the year ended March 31, 2006 and 2005."
+  },
+  "warnings": [
+    "Frontier Airlines Holdings, Inc. (CIK 1351548) is the parent holding company; Frontier Airlines, Inc. (CIK 921929) filed an identical 10-K for the same FY2006 period.",
+    "March 31 fiscal year end.",
+    "Net fair value $0.976M (asset) at March 31, 2006.",
+    "Only Q1 FY2007 (Apr-Jun 2006) hedged at ~16%."
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "filing_date": "2018-02-07",
+  "fiscal_year_end": "2017-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 2100,
+    "fiscal_year": 2018,
+    "source_quote": "The Company expects to consume approximately 2.1 billion gallons of jet fuel in 2018."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 78,
+    "pct_hedged_next_year": 63,
+    "net_fair_value_mm": 248.0,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2017,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.63,
+      "commodities": [
+        "WTI crude",
+        "Brent crude",
+        "heating oil",
+        "unleaded gasoline"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2018,
+      "volume_gallons_millions": 1647,
+      "volume_pct_of_consumption": 0.78,
+      "commodities": [
+        "WTI crude",
+        "Brent crude oil"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2019,
+      "volume_gallons_millions": 1377,
+      "volume_pct_of_consumption": 0.63,
+      "commodities": [
+        "WTI crude",
+        "Brent crude oil"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2020,
+      "volume_gallons_millions": 685,
+      "volume_pct_of_consumption": 0.31,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2021,
+      "volume_gallons_millions": 315,
+      "volume_pct_of_consumption": 0.11,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": true,
+    "notes": "Per Note 10: primarily uses a mixture of purchased call options, collar structures, call spreads, put spreads, and fixed price swap agreements. Portfolio covers 2018-2021+. Net fair value at 12/31/2017 was a net asset of $248 million (designated hedges: $248M asset, $20M liability; non-designated: $35M asset, $37M liability). Cash collateral held from counterparties: $15 million."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "MD&A hedge table is dated as of January 19, 2018 (not December 31, 2017); reflects forward-looking coverage.",
+    "Note 10 gallon volumes are maximum economic hedge and may vary significantly as market prices fluctuate.",
+    "2021 volumes in Note 10 are grouped as 'Beyond 2020' (315M gal); pct from MD&A footnote is approximately 11%.",
+    "All volume figures are in gallons (millions) as required."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2047.2,
+    "throughput_year": 2017,
+    "source_quote": "Fuel and oil expense table: average cost $4,076 million, average cost per gallon $1.99 (Item 1, 2018 10-K filing, restated)"
+  }
+}

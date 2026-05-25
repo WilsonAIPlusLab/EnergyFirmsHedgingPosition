@@ -1,0 +1,55 @@
+{
+  "filing_date": "2021-02-24",
+  "fiscal_year_end": "2020-12-31",
+  "company_name": "HollyFrontier Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 133.66,
+    "throughput_year": 2020,
+    "source_quote": "Crude charge (BPD) (1): 365,190"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2021,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 160,
+      "volume_unit": "MBbls",
+      "volume_raw": "160,000 barrels NYMEX futures (WTI) - short (all maturing 2021)",
+      "notes": "Economic hedge on inventory"
+    },
+    {
+      "maturity_year": 2021,
+      "commodity": "refined_products",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 195,
+      "volume_unit": "MBbls",
+      "volume_raw": "195,000 barrels forward gasoline and diesel contracts - long (2021)",
+      "notes": "Economic hedge on refined products"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 0.275,
+    "total_liability_mm": 23.978,
+    "net_fair_value_mm": -23.703,
+    "as_of_date": "2020-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Natural gas price swap (1.8M MMBTU, designated, maturing 2021) is the only designated hedge; excluded as non-barrel. Designated commodity swap liability = $0.359mm at Dec 31, 2020. Large foreign currency forward contracts ($418M notional) excluded. Commodity forward contracts (platinum) for catalyst excluded. Economic hedge net liability mainly from NYMEX short position ($0.418mm) and commodity forwards."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "filing_date": "2014-02-20",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",
+  "ticker": "CAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 4000,
+    "fiscal_year": 2013,
+    "source_quote": "Projections based on estimated consumption of four billion gallons and a price of $2.96 per gallon, excluding taxes and other delivery costs. Impact of $1 increase in price per barrel: $94 million."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 0.24,
+    "pct_hedged_next_year": 0.08,
+    "net_fair_value_mm": 104,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2014,
+      "volume_gallons_millions": 951,
+      "volume_pct_of_consumption": 0.24,
+      "commodities": [
+        "diesel fuel",
+        "WTI crude oil",
+        "aircraft fuel"
+      ],
+      "instrument_types": [
+        "collar",
+        "call_option",
+        "swap"
+      ],
+      "fair_value_mm": 104
+    },
+    {
+      "coverage_year": 2015,
+      "volume_gallons_millions": 309,
+      "volume_pct_of_consumption": 0.08,
+      "commodities": [
+        "diesel fuel",
+        "WTI crude oil",
+        "aircraft fuel"
+      ],
+      "instrument_types": [
+        "collar",
+        "call_option",
+        "swap"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "UAL consolidated at Dec 31, 2013: 24% of 2014 fuel (951 million gallons) and 8% of 2015 (309 million gallons) hedged. Instruments include fixed price swaps, call options, collars, three-ways, and four-way collars. Commodities: diesel fuel, crude oil, aircraft fuel. Total fair value $104 million asset."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Filing is United Continental Holdings (UAL); Continental is a wholly-owned subsidiary. No separate Continental segment hedge data disclosed from FY2013 onward."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3947.0,
+    "throughput_year": 2013,
+    "source_quote": "Total fuel consumption (gallons) 3,947 [2013] 4,016 [2012] (Item 7 UAL fuel expense table; United Continental Holdings consolidated)"
+  }
+}

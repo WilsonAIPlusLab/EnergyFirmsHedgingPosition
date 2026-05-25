@@ -1,0 +1,42 @@
+{
+  "filing_date": "2016-03-11",
+  "fiscal_year_end": "2015-12-31",
+  "company_name": "Republic Airways Holdings, Inc.",
+  "ticker": "RJET",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2015,
+    "source_quote": "No fuel hedging disclosures in item7a for FY2015. Item 7A covers only interest rate risk. A 100 bps change in LIBOR = immaterial impact."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging program for FY2015. Item 7A covers only interest rate risk (immaterial variable rate exposure). Republic operates under fixed-fee CPAs where fuel is a pass-through cost. Republic filed for Chapter 11 bankruptcy in February 2016."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No fuel hedging disclosures in item7a for FY2015.",
+    "Republic Airways Holdings filed for Chapter 11 bankruptcy in February 2016.",
+    "Republic operating under fixed-fee CPAs with fuel pass-through."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": null,
+    "throughput_year": 2015,
+    "source_quote": "Aircraft fuel expense decreased 58.5% ($13.1M) due to decrease in gallons consumed (charter termination Sep 2015). Specific gallon count not disclosed in table."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "filing_date": "2009-03-02",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 48,
+    "net_fair_value_mm": -1174,
+    "note_reference": "Note 4"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2009,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.48,
+      "commodities": ["WTI crude", "heating oil", "GC Jet Fuel"],
+      "instrument_types": ["call_option", "collar", "swap"],
+      "fair_value_mm": -1059
+    },
+    {
+      "coverage_year": 2010,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.04,
+      "commodities": ["WTI crude", "heating oil", "GC Jet Fuel"],
+      "instrument_types": ["call_option", "collar", "swap"],
+      "fair_value_mm": 19
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Includes contracts assumed from Northwest Airlines merger (October 29, 2008). NWA contracts: crude oil collar and swap contracts ($163M designated + $318M undesignated). Lehman Brothers counterparty contracts terminated after Lehman bankruptcy (September 2008)."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2740.0,
+    "throughput_year": 2008,
+    "source_quote": "2008  2,740  $8,686  $3.16  38% (Gallons Consumed (Millions) from fuel consumption table in Item 1; includes Northwest operations Oct 30 - Dec 31, 2008)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Delta merged with Northwest Airlines effective October 29, 2008; assumed all NWA outstanding fuel hedge contracts.",
+    "Terminated contracts with Lehman Brothers (bankrupt Sep 2008) and other counterparties in Q4 2008 to reduce losses; $324M unrealized loss from terminated contracts in AOCI to be reclassified into P&L through Dec 2009.",
+    "net_fair_value_mm=-1174 computed as gross gain $26M minus gross loss $1,200M at Dec 31, 2008 (excl. Lehman).",
+    "Forward position table excludes terminated Lehman contracts; as-of date is December 31, 2008.",
+    "Expected fuel consumption for 2009 not explicitly stated; NWA merger significantly increased fleet size vs. prior year projections.",
+    "Delta posted $1.2 billion cash margin to counterparties due to large loss position."
+  ]
+}

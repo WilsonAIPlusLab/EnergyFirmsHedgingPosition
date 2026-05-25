@@ -1,0 +1,80 @@
+{
+  "filing_date": "2022-02-07",
+  "fiscal_year_end": "2021-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1900,
+    "fiscal_year": 2022,
+    "source_quote": "The Company expects to consume approximately 1.9 billion gallons of jet fuel in 2022."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 64,
+    "net_fair_value_mm": 696,
+    "note_reference": "Note 11"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2022,
+      "volume_gallons_millions": 1220,
+      "volume_pct_of_consumption": 0.63,
+      "commodities": [
+        "WTI crude oil",
+        "Brent crude oil"
+      ],
+      "instrument_types": [
+        "option contracts"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2023,
+      "volume_gallons_millions": 769,
+      "volume_pct_of_consumption": 0.36,
+      "commodities": [
+        "WTI crude oil",
+        "Brent crude oil"
+      ],
+      "instrument_types": [
+        "option contracts"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2024,
+      "volume_gallons_millions": 358,
+      "volume_pct_of_consumption": 0.16,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "option contracts"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "As of 12/31/2021, fuel derivative instruments consist solely of option contracts ($696M Level 3). Cash collateral held from counterparties: $175M. pct_hedged_next_year ~64% estimated as 1,220M gallons / 1,900M gallons expected 2022 consumption. Volumes represent maximum economic hedge; actual volumes may differ based on market prices and flight schedule."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "pct_hedged_next_year (64%) is estimated as 1,220M gallons / 1,900M gallons expected 2022 consumption; not explicitly stated in filing.",
+    "Volumes are maximum economic hedge and may vary based on market prices and flight schedule."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1668.0,
+    "throughput_year": 2021,
+    "source_quote": "Fuel consumed, in gallons (millions): 1,668 (Item 7, 2022 10-K filing)"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "filing_date": "2005-02-04",
+  "fiscal_year_end": "2004-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1300,
+    "fiscal_year": 2005,
+    "source_quote": "The Company expects to consume 1.3 billion gallons of jet fuel in 2005."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 85,
+    "pct_hedged_next_year": 65,
+    "net_fair_value_mm": 796,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2005,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.85,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.65,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2007,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.45,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2008,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.3,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2009,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.25,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Mixture of purchased call options, collar structures, and fixed price swap agreements. Hedging via crude oil, heating oil, and unleaded gasoline contracts."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Prices reported in crude oil equivalent per barrel, not per gallon. Volume percentages apply to total anticipated jet fuel requirements.",
+    "pct_hedged for 2007 reported as 'over 45 percent' \u2014 recorded as 45 (floor). For 2009 reported as 'over 25 percent' \u2014 recorded as 25 (floor)."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1207.7,
+    "throughput_year": 2004,
+    "source_quote": "Fuel and oil expense table: average cost $1,000 million, average cost per gallon $0.828 (Item 1, 2005 10-K filing)"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "filing_date": "2005-03-11",
+  "fiscal_year_end": "2004-12-31",
+  "company_name": "Holly Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 37.416,
+    "throughput_year": 2004,
+    "source_quote": "Crude Charge (BPD) (1): 102,230"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": false,
+    "note_reference": "Note 17"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2004-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "No commodity price swaps outstanding at December 31, 2004. Natural gas swaps from Oct 2003 matured by Mar 2004. Company acquires Woods Cross Refinery (June 2003)."
+  ]
+}

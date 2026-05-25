@@ -1,8 +1,8 @@
 # How to Use This Dataset
 
-*Last updated: 2026-03-28*
+*Last updated: 2026-05-24*
 
-This guide covers loading the data, understanding the schema, joining files, and common analytical queries.
+This guide covers loading the data, understanding the schema, joining files, and common analytical queries. Examples are provided in Python and R.
 
 ---
 
@@ -10,8 +10,9 @@ This guide covers loading the data, understanding the schema, joining files, and
 
 | Date | Change |
 |---|---|
-| 2026-03-28 | Added NGL hedge ratio columns to schema table. Updated "85 firm-years" → "66 firm-years" in missing production note. NGL stats updated: 202 firm-years, 39 without NGL production |
-| 2026-03-23 | Initial release. Added NGL columns, corrected delta_method description, updated null production count | Examples are provided in Python and R.
+| 2026-05-24 | v2.0: rewrote for three-group dataset (E&P, airline, refiner). New layout, master panel, crosswalk, status taxonomy. Old E&P-only examples updated to new file paths |
+| 2026-03-28 | Added NGL hedge ratio columns to schema table. Updated null production count to 66 firm-years. NGL stats: 202 firm-years, 39 without NGL production |
+| 2026-03-23 | Initial release |
 
 ---
 
@@ -29,276 +30,442 @@ install.packages(c("jsonlite", "dplyr", "readr"))
 
 ---
 
-## 1. The Instrument Index (Start Here)
+## Dataset layout (v2.0)
 
-`data/instrument_index.csv` is the main filing-level summary. Load it first to understand coverage.
+```
+data/
+  ep/
+    hedge_ratios.csv      E&P firm-year panel (2,963 rows)
+    positions.csv         E&P instrument-level delta records (14,538 rows)
+    filings.csv           E&P per-filing summary (3,446 rows)
+    filing_index.csv      E&P parse superset, incl. non-hedgers (4,672 rows)
+    verification_log.csv  Extraction verdict per filing
+    extractions/          3,446 E&P JSON files
+  airline/
+    hedge_ratios.csv      Airline firm-year panel (421 rows)
+    positions.csv         Forward coverage schedule, one row per coverage-year (344 rows)
+    filings.csv           Airline per-filing summary (421 rows)
+    extractions/          421 airline JSON files
+  refiner/
+    hedge_ratios.csv      Refiner firm-year panel (235 rows)
+    positions.csv         Un-aggregated notional positions (696 rows)
+    filings.csv           Refiner per-filing summary (235 rows)
+    extractions/          235 refiner JSON files
+  crosswalk.csv           CIK <-> ticker <-> company crosswalk with era support
+  master_panel.csv        Harmonized long-format cross-group panel (6,582 rows)
+```
 
-See `METHODOLOGY.md` for the full pipeline description and the research context behind this dataset. The primary intended use cases are panel regressions of hedge ratios on firm-level variables (abnormal oil price exposure, leverage, growth, liquidity) and firm survival analysis linking hedging intensity to financial distress outcomes around the 2014–2016 oil price collapse and 2020 COVID crash.
+> **`cik` type note:** Store `cik` as a string in all files. Use `dtype={'cik': str}` in pandas
+> and `col_types = cols(cik = col_character())` in R to prevent leading-zero truncation.
 
-> **Note on `cik`:** The `cik` column is stored as a string in all CSV files to preserve leading zeros (e.g., CIK "0000077877"). When joining files, ensure both sides are the same type. In pandas, use `dtype={'cik': str}` when reading.
+---
+
+## 1. Start with the Master Panel
+
+`data/master_panel.csv` provides one row per `(cik, fiscal_year, hedge_axis)` across all three
+groups. It is the right starting point for cross-group comparisons and pooled analyses.
 
 ```python
 import pandas as pd
 
-idx = pd.read_csv("data/instrument_index.csv", dtype={'cik': str})
+panel = pd.read_csv("data/master_panel.csv", dtype={'cik': str})
+print(f"Total rows: {len(panel)}")
+print(panel.groupby(['group', 'hedge_axis']).size())
+```
 
-# Basic coverage
-print(f"Total filings:    {len(idx)}")
-print(f"Filings with instruments: {(idx['instrument_count'] > 0).sum()}")
-print(f"Total instruments: {idx['instrument_count'].sum():.0f}")
-print(f"Companies (CIKs): {idx['cik'].nunique()}")
-print(f"Date range: {idx['filing_date'].min()} to {idx['filing_date'].max()}")
+**CRITICAL:** `hedge_ratio_primary` values are **not comparable across groups**. Each group uses a
+different denominator and a different ratio definition:
+
+| group | hedge_axis | hedge_ratio_primary | denominator |
+|---|---|---|---|
+| ep | oil | delta-adjusted volume / oil production | oil_production_bbls (FY+1 lookup) |
+| ep | gas | delta-adjusted volume / gas production | gas_production_mcf (FY+1 lookup) |
+| airline | fuel | forward coverage pct | expected fuel consumption (gallons) |
+| refiner | crude_net | net-short / crude throughput | throughput_mbbl |
+
+Do not average or pool `hedge_ratio_primary` across groups without transforming to a common scale.
+Within a group, ratios are defined consistently and can be used in panel regressions.
+
+### Status taxonomy
+
+The `status` column classifies every observation, including zeros and true missing values:
+
+| status | hedge_ratio_primary | has_program | Meaning |
+|---|---|---|---|
+| `hedger` | > 0 | true | Active positions; ratio computed |
+| `no_position` | 0.0 | true | Program exists; zero position this axis-year |
+| `stopped` | 0.0 | false | Permanently exited hedging program |
+| `never` | null | false | No derivative program disclosed |
+| `pass_through` | null | false | Fuel cost passed to contracting carrier (airlines only) |
+| `not_applicable` | null | — | Denominator missing; ratio cannot be computed |
+
+**Why this matters:** `ratio = null` covers two economically distinct cases — `never` (company
+does not hedge) and `not_applicable` (data gap). Collapsing both to zero or dropping both will
+introduce bias. Use `status` to separate them before constructing a panel variable.
+
+```python
+# Build a panel variable that is: ratio for hedgers, 0 for non-hedgers, NaN for missing denom
+panel['hr_clean'] = panel.apply(lambda r: (
+    r['hedge_ratio_primary'] if r['status'] == 'hedger'
+    else 0.0 if r['status'] in ('no_position', 'stopped', 'never')
+    else float('nan')
+), axis=1)
+```
+
+---
+
+## 2. E&P Group
+
+### Hedge ratios
+
+```python
+ep_hr = pd.read_csv("data/ep/hedge_ratios.csv", dtype={'cik': str})
+
+# Fiscal year distribution
+print(ep_hr['fiscal_year'].value_counts().sort_index())
+
+# Oil hedgers (delta-adjusted)
+oil_hedgers = ep_hr[ep_hr['hedge_ratio_oil_delta'].notna() & (ep_hr['hedge_ratio_oil_delta'] > 0)]
+print(f"Oil hedgers: {len(oil_hedgers)} firm-years")
+print(f"  Mean:   {oil_hedgers['hedge_ratio_oil_delta'].mean():.1%}")
+print(f"  Median: {oil_hedgers['hedge_ratio_oil_delta'].median():.1%}")
 ```
 
 **Key columns:**
 
-| Column | Type | Description |
-|---|---|---|
-| `cik` | str | SEC Central Index Key (use as company identifier) |
-| `company` | str | Company name (may vary across years for same CIK) |
-| `filing_date` | str YYYY-MM-DD | 10-K filing date |
-| `accession_number` | str | SEC accession number |
-| `uses_derivatives` | bool | Whether the company used commodity derivatives |
-| `instrument_count` | int | Total instruments extracted for this filing |
-| `total_oil_instruments` | int | Oil instrument count |
-| `total_gas_instruments` | int | Gas instrument count |
-| `total_ngl_instruments` | int | NGL instrument count |
-| `hedging_confidence` | str | "high" / "medium" / "low" |
-| `has_production_data` | bool | Whether production data was extracted |
-
----
-
-## 2. Loading Hedge Ratios
-
-`data/hedge_ratios.csv` provides firm-year hedging intensity metrics.
-
-```python
-hr = pd.read_csv("data/hedge_ratios.csv", dtype={'cik': str})
-
-# Fiscal year distribution
-print(hr['fiscal_year'].value_counts().sort_index())
-
-# Companies with oil hedge ratios
-oil_hedgers = hr[hr['hedge_ratio_oil_notional'].notna() & (hr['hedge_ratio_oil_notional'] > 0)]
-print(f"\nOil hedgers: {len(oil_hedgers)} firm-years")
-print(f"  Mean:   {oil_hedgers['hedge_ratio_oil_notional'].mean():.1%}")
-print(f"  Median: {oil_hedgers['hedge_ratio_oil_notional'].median():.1%}")
-
-# Firms by hedging status
-hr['hedges_oil'] = hr['hedge_ratio_oil_notional'].notna() & (hr['hedge_ratio_oil_notional'] > 0)
-hr['hedges_gas'] = hr['hedge_ratio_gas_notional'].notna() & (hr['hedge_ratio_gas_notional'] > 0)
-```
-
-**Key hedge ratio columns:**
-
 | Column | Description |
 |---|---|
-| `fiscal_year` | The production year being hedged (not the filing year) |
-| `hedge_ratio_oil_notional` | Oil: hedged volume / oil production |
-| `hedge_ratio_gas_notional` | Gas: hedged volume / gas production |
-| `hedge_ratio_oil_delta` | Oil: delta-adjusted volume / oil production |
-| `hedge_ratio_gas_delta` | Gas: delta-adjusted volume / gas production |
-| `hedge_ratio_ngl_delta` | NGL: delta-adjusted volume / NGL production (null if no NGL production reported) |
-| `hedge_ratio_oil_reserve` | Oil: delta-adjusted volume / proved oil reserves |
-| `hedge_ratio_gas_reserve` | Gas: delta-adjusted volume / proved gas reserves |
-| `oil_notional_bbls` | Total oil hedged volume (Bbls) |
-| `gas_notional_mcf` | Total gas hedged volume (Mcf) |
-| `ngl_notional_bbls` | Total NGL hedged volume (Bbls) |
-| `oil_delta_bbls` | Oil delta-adjusted volume (Bbls) |
-| `gas_delta_mcf` | Gas delta-adjusted volume (Mcf) |
-| `ngl_delta_bbls` | NGL delta-adjusted volume (Bbls) |
-| `oil_production_bbls` | Annual oil production (Bbls, FY+1 denominator) |
-| `gas_production_mcf` | Annual gas production (Mcf, FY+1 denominator) |
-| `ngl_production_bbls` | Annual NGL production (Bbls, same-filing denominator) |
-| `n_oil_instruments` | Number of oil instruments |
+| `cik`, `company`, `fiscal_year`, `filing_date` | Identifiers |
+| `uses_derivatives` | True / False — whether company disclosed commodity derivatives |
+| `hedge_ratio_oil_delta` | Oil: delta-adjusted hedged volume / oil production (FY+1) |
+| `hedge_ratio_gas_delta` | Gas: delta-adjusted hedged volume / gas production (FY+1) |
+| `hedge_ratio_oil_notional` | Oil: simple notional (no delta adjustment) |
+| `hedge_ratio_gas_notional` | Gas: simple notional |
+| `hedge_ratio_ngl_delta` | NGL: delta-adjusted / NGL production (same-filing denominator) |
+| `hedge_ratio_oil_reserve` | Oil: delta-adjusted / proved oil reserves |
+| `hedge_ratio_gas_reserve` | Gas: delta-adjusted / proved gas reserves |
+| `oil_delta_bbls` | Delta-adjusted oil volume (Bbls) |
+| `gas_delta_mcf` | Delta-adjusted gas volume (Mcf) |
+| `oil_production_bbls` | Annual oil production used as denominator |
+| `gas_production_mcf` | Annual gas production used as denominator |
+| `n_oil_instruments` | Number of oil instruments in this filing |
 | `n_gas_instruments` | Number of gas instruments |
 | `n_ngl_instruments` | Number of NGL instruments |
-| `delta_method` | `notional_only` / `linear` / `simplified` — see DATA_QUALITY.md §8 |
-| `warnings` | Pipe-separated data quality flags (empty = no issues) |
+| `delta_method` | `notional_only` / `linear` / `simplified` |
+| `warnings` | Pipe-separated quality flags (empty = no issues) |
 
-**Note on null ratios:** Hedge ratios are `NaN` when production data is missing, not zero. A NaN hedge ratio means the denominator is unavailable, not that the company did not hedge.
+**Note on null hedge ratios:** A null ratio means the production denominator is unavailable, not
+that the company did not hedge. Always check `uses_derivatives` and `n_oil_instruments` /
+`n_gas_instruments` alongside a null ratio.
 
----
+```python
+# Null oil ratio: distinguish "no production data" from "no instruments"
+ep_hr['null_reason'] = ep_hr.apply(lambda r: (
+    'no_denominator' if r['hedge_ratio_oil_delta'] != r['hedge_ratio_oil_delta']
+    and r['n_oil_instruments'] > 0
+    else 'not_hedged' if r['hedge_ratio_oil_delta'] != r['hedge_ratio_oil_delta']
+    else 'ok'
+), axis=1)
+```
 
-## 3. Loading Individual Extraction JSONs
+### Positions (instrument-level)
 
-Each extraction JSON contains the full instrument detail for one filing.
+```python
+ep_pos = pd.read_csv("data/ep/positions.csv", dtype={'cik': str})
+print(ep_pos['instrument_type'].value_counts())
+print(ep_pos['commodity'].value_counts())
+```
+
+### E&P extraction JSONs
 
 ```python
 import json, os
 
-# Load all extractions into a list
+ext_dir = "data/ep/extractions"
 records = []
-ext_dir = "data/extractions"
 for fname in os.listdir(ext_dir):
     if fname.endswith(".json"):
         with open(os.path.join(ext_dir, fname)) as f:
             records.append(json.load(f))
 
-print(f"Loaded {len(records)} records")
-```
-
-### Instrument schema
-
-Each instrument object in `instruments.instruments` has these fields:
-
-| Field | Type | Description |
-|---|---|---|
-| `instrument_type` | str | swap / collar / three_way_collar / basis_swap / swaption / put_option / call_option / fixed_price_contract / forward |
-| `commodity` | str | crude_oil / natural_gas / ngl |
-| `direction` | str | short (producer hedge) / collar / long (put buyer) |
-| `volume_per_day` | float | Daily volume (Bbls/d or Mcf/d) |
-| `volume_total` | float | Total volume for the period |
-| `volume_unit` | str | Bbls / Mcf / Mmbtu / Boe |
-| `fixed_price` | float or null | Fixed price for swaps ($/Bbl or $/Mmbtu) |
-| `floor_price` | float or null | Put strike price for collars |
-| `ceiling_price` | float or null | Call strike price for collars |
-| `sub_floor_price` | float or null | Short put strike for three-way collars (sub_floor < floor < ceiling) |
-| `price_unit` | str | $/Bbl or $/Mmbtu |
-| `period_start` | str YYYY-MM | Hedge coverage start (month) |
-| `period_end` | str YYYY-MM | Hedge coverage end (month) |
-| `counterparty` | str or null | Counterparty name if disclosed |
-| `fair_value_mm` | float or null | Fair value in $ millions if disclosed |
-| `notes` | str or null | Source text annotation |
-
-### Flatten instruments to a DataFrame
-
-```python
+# Flatten instruments
 rows = []
 for rec in records:
     instrs = rec.get('instruments', {}).get('instruments', [])
     for instr in instrs:
-        row = {
-            'cik': rec['cik'],
-            'company': rec['company'],
-            'filing_date': rec['filing_date'],
-        }
+        row = {'cik': rec['cik'], 'company': rec['company'], 'filing_date': rec['filing_date']}
         row.update(instr)
         rows.append(row)
 
 instruments_df = pd.DataFrame(rows)
 print(f"Total instruments: {len(instruments_df)}")
-print(instruments_df['instrument_type'].value_counts())
+```
+
+### Instrument schema (E&P)
+
+| Field | Type | Description |
+|---|---|---|
+| `instrument_type` | str | swap / collar / three_way_collar / basis_swap / swaption / put_option / call_option |
+| `commodity` | str | crude_oil / natural_gas / ngl |
+| `direction` | str | short / collar / long |
+| `volume_per_day` | float | Daily rate (Bbls/d or Mcf/d) |
+| `volume_total` | float | Total for the period |
+| `volume_unit` | str | Bbls / Mcf / Mmbtu / Boe |
+| `fixed_price` | float | Swap fixed price ($/Bbl or $/Mmbtu) |
+| `floor_price` | float | Put strike for collars |
+| `ceiling_price` | float | Call strike for collars |
+| `sub_floor_price` | float | Three-way collar short-put strike |
+| `period_start` | str YYYY-MM | Coverage start |
+| `period_end` | str YYYY-MM | Coverage end |
+
+### Verification log (E&P only)
+
+```python
+vlog = pd.read_csv("data/ep/verification_log.csv",
+                   names=['cik','company','filing_date','instrument_count',
+                          'verdict','issue_count','issues_summary','verified_at'])
+print(vlog['verdict'].value_counts())
+# PASS     2766
+# FIXED     638
+# WARN       42
 ```
 
 ---
 
-## 4. Joining Files
+## 3. Airline Group
 
-Join `hedge_ratios.csv` with `instrument_index.csv` on `cik` + `filing_date`:
+### Hedge ratios
 
 ```python
-merged = hr.merge(
-    idx[['cik', 'filing_date', 'hedging_confidence', 'has_production_data']],
-    on=['cik', 'filing_date'],
-    how='left'
-)
+air_hr = pd.read_csv("data/airline/hedge_ratios.csv", dtype={'cik': str})
+
+# Coverage rate by carrier
+summary = (air_hr.groupby('company')
+    .agg(n=('fiscal_year','count'),
+         mean_next=('hedge_ratio_next','mean'),
+         median_next=('hedge_ratio_next','median'))
+    .round(3))
+print(summary)
 ```
 
-Join hedge ratios with instruments DataFrame on `cik` + `filing_date`:
+**Key columns:**
+
+| Column | Description |
+|---|---|
+| `cik`, `company`, `ticker`, `fiscal_year`, `filing_date` | Identifiers |
+| `hedge_ratio_next` | Forward coverage pct for FY+1 (primary ratio) |
+| `hedge_ratio_current` | Forward coverage pct for the current fiscal year |
+| `headline_coverage` | Which year drove the headline: `next` / `current` / `none` |
+| `fuel_consumption_gallons_mm` | Actual fuel consumed in fiscal year (millions of gallons) |
+| `expected_gallons_millions` | Expected fuel consumption disclosed for FY+1 (denominator) |
+| `net_fair_value_mm` | Fair value of hedge portfolio ($ millions) |
+| `has_program` | True / False |
+| `stopped_hedging` | True if carrier permanently exited hedging |
+| `stopped_hedging_year` | Year of permanent exit (if applicable) |
+| `owns_refinery` | True for Delta (Monroe Energy) |
+| `status` | hedger / no_position / stopped / never / pass_through / not_applicable |
+| `warnings` | Pipe-separated quality flags |
+
+**Hedge ratio interpretation:** `hedge_ratio_next` is a fraction of the next fiscal year's
+expected fuel consumption that is covered by derivatives as of the filing date. A value of 0.60
+means 60% of next-year consumption is hedged. Values above 1.0 are possible (e.g., if coverage
+volume was estimated against a stale consumption forecast) but unusual.
 
 ```python
-# instruments_df was built above
-instr_summary = (instruments_df
-    .groupby(['cik', 'filing_date', 'instrument_type'])
-    .size()
-    .reset_index(name='count'))
+# Stopped hedgers: AAL (2013+) and UAL (2016+) have status='stopped', ratio=0.0
+stopped = air_hr[air_hr['status'] == 'stopped']
+print(stopped[['company', 'fiscal_year', 'hedge_ratio_next', 'status']])
 
-analysis = hr.merge(instr_summary, on=['cik', 'filing_date'], how='left')
+# Pass-through carriers: ratio is null (not structural zero)
+pass_thru = air_hr[air_hr['status'] == 'pass_through']
+print(pass_thru['company'].unique())
+```
+
+### Positions (forward schedule)
+
+```python
+air_pos = pd.read_csv("data/airline/positions.csv", dtype={'cik': str})
+# One row per (cik, fiscal_year, coverage_year)
+# coverage_year > fiscal_year for forward hedges
+
+# Southwest's full forward schedule in FY2005
+sw = air_pos[(air_pos['ticker'] == 'LUV') & (air_pos['fiscal_year'] == 2005)]
+print(sw[['coverage_year','volume_pct_of_consumption','volume_gallons_millions',
+          'expected_gallons_millions','instrument_types']])
 ```
 
 ---
 
-## 5. Common Queries
+## 4. Refiner Group
 
-### By company (CIK)
+### Hedge ratios
 
 ```python
-# Vital Energy (CIK 1528129) time series
-cik = '1528129'
-company_hr = hr[hr['cik'] == cik].sort_values('fiscal_year')
-print(company_hr[['fiscal_year', 'hedge_ratio_oil_notional', 'hedge_ratio_gas_notional']])
+ref_hr = pd.read_csv("data/refiner/hedge_ratios.csv", dtype={'cik': str})
+
+# Net-short ratios
+hedgers = ref_hr[ref_hr['status'] == 'hedger']
+print(f"Refiner hedgers: {len(hedgers)} firm-years")
+print(f"Mean net_short_ratio: {hedgers['net_short_ratio'].mean():.3f}")
+print(f"Mean abs_ratio:       {hedgers['abs_ratio'].mean():.3f}")
 ```
 
-### By year
+**Key columns:**
+
+| Column | Description |
+|---|---|
+| `cik`, `company`, `ticker`, `fiscal_year`, `filing_date` | Identifiers |
+| `throughput_mbbl` | Annual crude throughput (thousands of barrels) |
+| `crude_throughput_mmbbl` | Annual crude throughput (millions of barrels) |
+| `total_long_mbbl` | Sum of long positions (MBbl) |
+| `total_short_mbbl` | Sum of short positions (MBbl) |
+| `net_short_mbbl` | `total_short_mbbl - total_long_mbbl` (positive = net short) |
+| `total_abs_mbbl` | `total_long_mbbl + total_short_mbbl` |
+| `net_short_ratio` | `net_short_mbbl / throughput_mbbl` (primary ratio) |
+| `abs_ratio` | `total_abs_mbbl / throughput_mbbl` (secondary; may be more appropriate for some analyses) |
+| `primary_objective` | Disclosed purpose: `cash_flow` / `economic` / `mixed` / unknown |
+| `has_cash_flow_hedges` | True if ASC 815 cash flow hedge designation disclosed |
+| `has_economic_hedges` | True if economic hedge disclosed |
+| `status` | hedger / no_position / never / not_applicable |
+| `warnings` | Pipe-separated flags |
+
+**Ratio caveat:** `net_short_ratio` conflates crude inventory hedges with crack-spread hedges
+(long crude / short product). A refiner that is long crude and short products will show a low or
+negative net-short ratio even if it is substantially hedged. `abs_ratio` avoids this netting.
+See `METHODOLOGY.md §7.2` for discussion.
+
+### Positions (un-aggregated)
 
 ```python
-# Average hedge ratios by fiscal year (oil hedgers only)
-yearly = (hr[hr['hedge_ratio_oil_notional'] > 0]
-    .groupby('fiscal_year')['hedge_ratio_oil_notional']
+ref_pos = pd.read_csv("data/refiner/positions.csv", dtype={'cik': str})
+# One row per notional position (un-aggregated)
+print(ref_pos[['cik','company','fiscal_year','maturity_year','commodity',
+               'instrument','direction','volume_mbbl']].head(20))
+```
+
+---
+
+## 5. Crosswalk
+
+`data/crosswalk.csv` resolves identities across time. One row per `(cik, era)`.
+
+```python
+cw = pd.read_csv("data/crosswalk.csv", dtype={'cik': str})
+
+# Join crosswalk onto master panel by cik and fiscal year
+def crosswalk_merge(df, cw):
+    merged = df.merge(cw, on='cik', how='left')
+    # Keep only rows where fiscal_year falls in [era_start_fy, era_end_fy]
+    mask = (
+        (merged['fiscal_year'] >= merged['era_start_fy']) &
+        (merged['fiscal_year'] <= merged['era_end_fy'])
+    )
+    return merged[mask].drop(columns=['era_start_fy','era_end_fy'])
+
+panel_cw = crosswalk_merge(panel, cw)
+```
+
+**Key columns:**
+
+| Column | Description |
+|---|---|
+| `cik` | SEC CIK (string with leading zeros) |
+| `era_start_fy` | First fiscal year this row applies to |
+| `era_end_fy` | Last fiscal year this row applies to (9999 = present) |
+| `canonical_ticker` | Primary exchange ticker for this era |
+| `company_name` | Canonical company name for this era |
+| `group` | `ep` / `airline` / `refiner` |
+| `entity_id` | Stable identity string across CIK changes (e.g., Frontier family) |
+| `lineage` | Free-text note on M&A or name changes |
+| `business_model` | `standard` / `pass_through` / `royalty_trust` / etc. |
+
+**Multi-CIK entities:** Frontier Airlines went through three bankruptcy reorganizations under
+different CIKs. All three share the same `entity_id = frontier_family_*` string. Use `entity_id`
+to group the family for time-series analysis.
+
+**CIK 821483 (Delta Petroleum → Par Pacific):** This CIK has two crosswalk rows — one E&P era
+and one refiner era. `group` resolves per row; always join crosswalk on `cik` AND fiscal year,
+not on `cik` alone.
+
+---
+
+## 6. Common Queries
+
+### E&P: firm time series
+
+```python
+# Vital Energy (CIK 1528129) — oil hedge ratio time series
+ep_hr_ve = ep_hr[ep_hr['cik'] == '1528129'].sort_values('fiscal_year')
+print(ep_hr_ve[['fiscal_year', 'hedge_ratio_oil_delta', 'hedge_ratio_gas_delta']])
+```
+
+### E&P: industry average hedge ratio by year
+
+```python
+yearly = (ep_hr[ep_hr['hedge_ratio_oil_delta'] > 0]
+    .groupby('fiscal_year')['hedge_ratio_oil_delta']
     .agg(['mean', 'median', 'count'])
     .reset_index())
 print(yearly)
 ```
 
-### By instrument type
+### Airline: Southwest coverage over time
 
 ```python
-# Breakdown of instrument types
-type_counts = instruments_df.groupby(['instrument_type', 'commodity']).size().unstack(fill_value=0)
-print(type_counts)
+sw = air_hr[air_hr['ticker'] == 'LUV'].sort_values('fiscal_year')
+print(sw[['fiscal_year', 'hedge_ratio_next', 'expected_gallons_millions', 'status']])
 ```
 
-### By commodity
+### Airline: fraction hedging by year
 
 ```python
-# Oil instruments only, swaps
-oil_swaps = instruments_df[
-    (instruments_df['commodity'] == 'crude_oil') &
-    (instruments_df['instrument_type'] == 'swap')
-]
-print(f"Oil swaps: {len(oil_swaps)}, mean fixed price: ${oil_swaps['fixed_price'].mean():.2f}/Bbl")
+air_trend = (air_hr[~air_hr['status'].isin(['pass_through'])]
+    .groupby('fiscal_year')
+    .apply(lambda g: (g['status'] == 'hedger').mean())
+    .reset_index(name='frac_hedging'))
 ```
 
-### High-confidence filings only
+### Refiner: Valero through time
 
 ```python
-high_conf = idx[idx['hedging_confidence'] == 'high']
-hr_high = hr[hr['cik'].isin(high_conf['cik'])]
+val = ref_hr[ref_hr['ticker'] == 'VLO'].sort_values('fiscal_year')
+print(val[['fiscal_year', 'net_short_ratio', 'abs_ratio', 'throughput_mbbl', 'status']])
 ```
 
-### Hedging trend over time
+### Master panel: E&P oil only, delta method, high confidence
 
 ```python
-# Fraction of companies hedging oil each year
-trend = (hr.groupby('fiscal_year')
-    .apply(lambda g: (g['hedge_ratio_oil_notional'] > 0).mean())
-    .reset_index(name='fraction_hedging_oil'))
+ep_oil = panel[
+    (panel['group'] == 'ep') &
+    (panel['hedge_axis'] == 'oil') &
+    (panel['ratio_method'] == 'delta') &
+    (panel['status'].isin(['hedger', 'no_position', 'never']))
+].copy()
 ```
 
-### Overhedged firms (ratio > 100%)
+### Overhedged E&P firms (ratio > 100%)
 
 ```python
-overhedged = hr[hr['hedge_ratio_oil_notional'] > 1.0][
-    ['cik', 'company', 'fiscal_year', 'hedge_ratio_oil_notional', 'warnings']
-].sort_values('hedge_ratio_oil_notional', ascending=False)
-# Note: many >100% cases are legitimate (production decline, trust structures, etc.)
-# Check the 'warnings' column and DATA_QUALITY.md for context
+overhedged = ep_hr[ep_hr['hedge_ratio_oil_delta'] > 1.0][
+    ['cik', 'company', 'fiscal_year', 'hedge_ratio_oil_delta', 'warnings']
+].sort_values('hedge_ratio_oil_delta', ascending=False)
+# Many > 100% cases are legitimate (production decline, trust structures)
+# See DATA_QUALITY.md §6 for full discussion
 
-# Exclude known non-E&P CIKs (see DATA_QUALITY.md section 6)
-NON_EP_CIKS = {'1338613', '1166036'}  # always non-E&P
-# Also consider filtering 821483 (PAR Pacific, post-2011) and 61398 (Tellurian, post-2016)
-ep_only = hr[~hr['cik'].isin(NON_EP_CIKS)]
+# Exclude known non-E&P CIKs
+NON_EP_CIKS = {'1338613', '1166036'}
+ep_only = ep_hr[~ep_hr['cik'].isin(NON_EP_CIKS)]
 ```
 
----
-
-## 6. Using the Verification Log
+### Cross-group: fraction of firm-years with active hedging
 
 ```python
-vlog = pd.read_csv("data/verification_log.csv",
-                   names=['cik','company','filing_date','instrument_count',
-                          'verdict','issue_count','issues_summary','verified_at'])
-
-print(vlog['verdict'].value_counts())
-# PASS     2766
-# FIXED     638
-# WARN       42
-# FAIL        0
-
-# All filings with remaining warnings
-warns = vlog[vlog['verdict'] == 'WARN']
-print(warns[['cik','company','filing_date','issues_summary']])
+# Use status to classify; exclude pass_through and not_applicable from denominator
+active_statuses = {'hedger', 'no_position', 'stopped', 'never'}
+frac = (panel[panel['status'].isin(active_statuses)]
+    .groupby(['group', 'fiscal_year'])
+    .apply(lambda g: (g['status'] == 'hedger').mean())
+    .reset_index(name='frac_hedging'))
 ```
 
 ---
@@ -310,64 +477,121 @@ library(readr)
 library(dplyr)
 library(jsonlite)
 
-# Load hedge ratios
-hr <- read_csv("data/hedge_ratios.csv")
+# Load E&P hedge ratios
+ep_hr <- read_csv("data/ep/hedge_ratios.csv", col_types = cols(cik = col_character()))
 
 # Oil hedgers summary
-hr %>%
-  filter(!is.na(hedge_ratio_oil_notional), hedge_ratio_oil_notional > 0) %>%
+ep_hr %>%
+  filter(!is.na(hedge_ratio_oil_delta), hedge_ratio_oil_delta > 0) %>%
   summarise(
     n = n(),
-    mean_hr = mean(hedge_ratio_oil_notional),
-    median_hr = median(hedge_ratio_oil_notional)
+    mean_hr = mean(hedge_ratio_oil_delta),
+    median_hr = median(hedge_ratio_oil_delta)
   )
 
-# Trend by year
-hr %>%
+# Load master panel
+panel <- read_csv("data/master_panel.csv", col_types = cols(cik = col_character()))
+
+# E&P oil panel
+ep_oil <- panel %>%
+  filter(group == "ep", hedge_axis == "oil",
+         status %in% c("hedger","no_position","never")) %>%
+  mutate(hr_clean = case_when(
+    status == "hedger"     ~ hedge_ratio_primary,
+    status %in% c("no_position","never") ~ 0,
+    TRUE ~ NA_real_
+  ))
+
+# Airline hedging trend
+air_hr <- read_csv("data/airline/hedge_ratios.csv", col_types = cols(cik = col_character()))
+air_hr %>%
+  filter(!status %in% c("pass_through")) %>%
   group_by(fiscal_year) %>%
-  summarise(
-    frac_hedging = mean(hedge_ratio_oil_notional > 0, na.rm = TRUE),
-    mean_hr = mean(hedge_ratio_oil_notional, na.rm = TRUE)
-  )
+  summarise(frac_hedging = mean(status == "hedger", na.rm = TRUE))
 
-# Load a single extraction JSON
-rec <- fromJSON("data/extractions/1528129_2019-02-14.json")
+# Load a single E&P extraction JSON
+rec <- fromJSON("data/ep/extractions/1528129_2019-02-14.json")
 instruments <- as.data.frame(rec$instruments$instruments)
 print(instruments[, c("instrument_type","commodity","volume_total","fixed_price","period_start","period_end")])
-
-# Load all extractions (slower — 3,446 files)
-ext_files <- list.files("data/extractions", pattern = "\\.json$", full.names = TRUE)
-all_instruments <- lapply(ext_files, function(f) {
-  rec <- fromJSON(f)
-  instrs <- rec$instruments$instruments
-  if (length(instrs) == 0 || is.null(instrs)) return(NULL)
-  instrs$cik <- rec$cik
-  instrs$filing_date <- rec$filing_date
-  instrs
-}) |> bind_rows()
 ```
 
 ---
 
-## 8. Notes on Data Interpretation
+## 8. Joining Files
 
-**Instrument periods vs. fiscal year.** Instruments in a 10-K typically cover future production. A filing dated 2019-03-12 for FY2018 will have instruments covering 2019 (and sometimes 2020+). The hedge ratio calculation allocates instrument volume to the appropriate fiscal year.
-
-**Basis swaps.** `basis_swap` instruments are included in `extractions/` but excluded from `hedge_ratios.csv`. They hedge location/quality differentials, not outright price exposure. They appear in `instrument_deltas.csv` with `included=False`.
-
-**Swaptions.** `swaption` instruments are also excluded from hedge ratios. They represent the right to enter into a swap in the future, not a current hedge.
-
-**NGL hedge ratios.** `hedge_ratio_ngl_delta` is included in `hedge_ratios.csv` for 202 firm-years where NGL instruments are present and NGL production is reported. Note that NGL production uses the same-filing denominator (not FY+1 cross-lookup, which is used for oil and gas). 13 firm-years have NGL ratios >150% and are flagged in `warnings`. For 39 firm-years with NGL instruments but no reported NGL production, the ratio is null.
+### E&P: hedge ratios + filing confidence
 
 ```python
-# NGL hedgers
-ngl_hedgers = hr[(hr['n_ngl_instruments'] > 0) & hr['hedge_ratio_ngl_delta'].notna()]
-print(f"NGL hedge ratios computed: {len(ngl_hedgers)} firm-years")
-print(f"Mean NGL HR (excl. flagged): {ngl_hedgers[ngl_hedgers['hedge_ratio_ngl_delta'] <= 1.5]['hedge_ratio_ngl_delta'].mean():.1%}")
+ep_fi = pd.read_csv("data/ep/filings.csv", dtype={'cik': str})
+
+ep_merged = ep_hr.merge(
+    ep_fi[['cik', 'filing_date', 'hedging_confidence', 'has_production_data']],
+    on=['cik', 'filing_date'],
+    how='left'
+)
+
+# High-confidence filings only
+ep_high = ep_merged[ep_merged['hedging_confidence'] == 'high']
 ```
 
-**Three-way collars.** These have three price levels: `sub_floor_price` < `floor_price` < `ceiling_price`. The company receives: floor price (if market < floor), market price (if floor ≤ market ≤ ceiling), ceiling price (if market > ceiling), and pays back the excess if market < sub_floor. Delta is approximated at −0.65.
+### Master panel + crosswalk
 
-**Missing production.** 66 firm-years have hedging instruments but no computable oil or gas hedge ratio. Their oil/gas hedge ratios are null. The `instrument_deltas.csv` still contains their instrument-level details. Most are midstream non-producers, limited partnerships, or royalty trusts without standard E&P production reporting (see DATA_QUALITY.md §7).
+```python
+# Full identity enrichment for master panel
+cw = pd.read_csv("data/crosswalk.csv", dtype={'cik': str})
 
-**Confidence levels.** The `hedging_confidence` column reflects extraction reliability: "high" = clear quantitative tables found; "medium" = some ambiguity; "low" = limited disclosure or parsing issues.
+panel_enriched = (panel
+    .merge(cw, on='cik', how='left')
+    .query("fiscal_year >= era_start_fy and fiscal_year <= era_end_fy or era_start_fy.isna()")
+    .drop(columns=['era_start_fy','era_end_fy']))
+```
+
+---
+
+## 9. Notes on Data Interpretation
+
+**Fiscal year vs. filing year.** E&P and refiner hedge ratios are indexed to the fiscal year of
+production or throughput being hedged. A 10-K filed in March 2019 for FY2018 typically discloses
+hedges for calendar year 2019 — those are indexed to fiscal_year=2019 (the production year being
+hedged), not 2018 (the reporting year). Airlines are indexed to the fiscal year of the filing
+(the year the forward coverage applies to FY+1).
+
+**Basis swaps (E&P).** `basis_swap` instruments appear in `data/ep/extractions/` and
+`data/ep/positions.csv` but are excluded from `data/ep/hedge_ratios.csv`. They hedge
+location/quality price differentials, not outright commodity price exposure.
+
+**Swaptions (E&P).** Excluded from hedge ratios. They represent the right to enter a future
+swap, not a current hedge position.
+
+**NGL hedge ratios (E&P).** `hedge_ratio_ngl_delta` uses the same-filing NGL production
+denominator (not the FY+1 cross-lookup used for oil and gas) because the FY+1 lookup introduced
+measurement errors for midstream entities. 13 of 202 NGL firm-years are flagged `ngl_delta_ratio>150%`
+in `warnings`. For 39 firm-years with NGL instruments but no NGL production reported, ratio is null.
+
+**Three-way collars (E&P).** Three price levels: `sub_floor_price` < `floor_price` < `ceiling_price`.
+Delta approximated at −0.65 per Haushalter (2000).
+
+**Refiner net-short vs. abs ratio.** `net_short_ratio` nets long and short positions. A refiner
+with offsetting long-crude / short-product positions will show a near-zero net-short ratio even
+if its total hedged volume is large. For total hedging scale, prefer `abs_ratio`.
+
+**Pass-through carriers (airline).** Mesa Air, SkyWest Airlines, Republic Airways, and ATSG
+operate under capacity purchase agreements; jet fuel is purchased and reimbursed by the
+contracting major. These carriers do not hedge fuel on their own account. Their `status =
+pass_through` and all ratio columns are null. This is not a data gap; it is the economically
+correct representation.
+
+**Stopped hedging (airline).** American Airlines (AAL) permanently exited commodity hedging
+after FY2012; United Airlines (UAL) after FY2015. Their subsequent firm-years have `status =
+stopped`, `hedge_ratio_primary = 0.0`, `has_program = false`. Do not confuse this structural
+zero with `no_position` (program exists, zero coverage this year).
+
+**Missing production denominators (E&P).** 66 E&P firm-years have no oil or gas production
+denominator; their hedge ratios are null. Most are midstream non-producers, royalty trusts, or
+most-recent fiscal years where the FY+1 production filing is not yet available. Instrument
+details remain in `data/ep/extractions/` and `data/ep/positions.csv`.
+
+**Cross-group pooling.** `master_panel.csv` puts all groups in one file for convenience.
+When pooling across groups, always control for `group` and `hedge_axis`. The ratios are not
+on a common scale; a 50% airline fuel coverage and a 50% E&P oil delta ratio are produced
+by different economic behaviors and are not directly comparable.

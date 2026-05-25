@@ -1,0 +1,66 @@
+﻿{
+    "filing_date":  "2009-03-04",
+    "fiscal_year_end":  "2008-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  20.584938,
+                       "throughput_year":  2008,
+                       "source_quote":  "Total feedstock runs (2)    56,243 [2008]    48,354 [2007]    51,598 [2006]    (In bpd; feedstock runs = barrels per day of crude oil and other feedstocks processed at our facilities)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 2"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  18522,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "18,521,500 bbl crude oil swaps purchased 2009-2011 at avg $68.41/bbl",
+                                   "notes":  "Net FV = $55.4M asset at Dec 31, 2008."
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "diesel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  6500,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "Diesel swaps sold 2009-2011 (Q1-Q4 2009: 1,170,000/qtr + 2010)",
+                                   "notes":  ""
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "gasoline",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  4000,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "Gasoline swaps sold 2009-2011 approx",
+                                   "notes":  "Specialty products: 25% hedged at year-end 2008."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  null,
+                        "total_liability_mm":  null,
+                        "net_fair_value_mm":  55.4,
+                        "as_of_date":  "2008-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+
+                 ]
+}

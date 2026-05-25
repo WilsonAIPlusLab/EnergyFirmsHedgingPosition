@@ -1,0 +1,66 @@
+﻿{
+    "filing_date":  "2008-03-28",
+    "fiscal_year_end":  "2007-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  27.844025,
+                       "throughput_year":  2007,
+                       "source_quote":  "Total crude oil throughput    33,250,518 [2005]    34,501,288 [2006]    27,843,960 [2007] (annual barrels; 76,285 bpd)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "full_text (Notes to Financial Statements)"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2010,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  42310,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "42,309,750 barrels of crude oil; 888,504,750 gallons of heating oil; 888,504,750 gallons of unleaded gasoline",
+                                   "notes":  "Cash Flow Swap with J. Aron (Goldman Sachs affiliate), period Jul 1, 2005 to Jun 30, 2010. At December 31, 2007, net notional open amounts: 42,309,750 barrels crude oil, 888,504,750 gallons HO (=21,155 MBbls) and 888,504,750 gallons UG (=21,155 MBbls). Purpose: economically hedge 21,154,875 barrels of HO crack spreads and 21,154,875 barrels of UG crack spreads. NOT designated as hedge under SFAS 133. Unrealized loss $103.2M at Dec 31, 2007. Contract terminable June 30, 2009 or June 30, 2010."
+                               },
+                               {
+                                   "maturity_year":  2008,
+                                   "commodity":  "heating_oil",
+                                   "instrument":  "futures",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  140,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "140 heating oil contracts (short)",
+                                   "notes":  "NYMEX heating oil futures held through Merrill Lynch. 140 contracts x 1,000 bbl/contract = 140,000 barrels = 140 MBbls. Short position at Dec 31, 2007. Part of combined $1.3M unrealized loss on NYMEX positions."
+                               },
+                               {
+                                   "maturity_year":  2008,
+                                   "commodity":  "gasoline",
+                                   "instrument":  "futures",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  240,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "240 unleaded gasoline contracts (short)",
+                                   "notes":  "NYMEX unleaded gasoline futures held through Merrill Lynch. 240 contracts x 1,000 bbl/contract = 240,000 barrels = 240 MBbls. Short position at Dec 31, 2007. Part of combined $1.3M unrealized loss on NYMEX positions."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  0,
+                        "total_liability_mm":  105,
+                        "net_fair_value_mm":  -105,
+                        "as_of_date":  "2007-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2-1-1"
+                             },
+    "warnings":  [
+                     "Item 7A is empty in parsed filing; derivative data extracted from full_text.txt (Item 7A narrative and Notes to Financial Statements). Cash Flow Swap: 42,309,750 barrels notional (explicitly stated); unrealized loss $103.2M. NYMEX: short 140 HO + 240 UG contracts through Merrill Lynch; combined unrealized loss $1.3M. Total fair value liability $104.5M (~$105M rounded). Swap NOT designated as SFAS 133 hedge. CVR Partners nitrogen fertilizer derivatives excluded. Interest rate swaps excluded (non-commodity)."
+                 ]
+}

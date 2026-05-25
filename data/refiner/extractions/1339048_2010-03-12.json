@@ -1,0 +1,44 @@
+{
+  "filing_date": "2010-03-12",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "Western Refining, Inc.",
+  "ticker": "WNR",
+  "throughput": {
+    "crude_throughput_mmbbl": 78.77,
+    "throughput_year": 2009,
+    "source_quote": "Total refinery throughput (bpd): 215,815"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 268,
+      "volume_unit": "MBbls",
+      "volume_raw": "268,000 barrels net crude oil futures and finished product price swaps (Q1 2010)",
+      "notes": "Non-hedging, mark-to-market; to protect value of crude oil, finished product, and blendstock inventories; unrealized net loss $1.5M; net realized+unrealized losses $21.7M in 2009"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": 1.5,
+    "net_fair_value_mm": -1.5,
+    "as_of_date": "2009-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All derivatives undesignated (no hedge accounting). Net 268K bbl position (crude oil futures and refined product swaps combined) to protect inventory value heading into Q1 2010."
+  ]
+}

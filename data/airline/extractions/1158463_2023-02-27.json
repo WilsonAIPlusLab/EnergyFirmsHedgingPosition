@@ -1,0 +1,47 @@
+{
+  "filing_date": "2023-02-27",
+  "fiscal_year_end": "2022-12-31",
+  "company_name": "JetBlue Airways Corporation",
+  "ticker": "JBLU",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2023,
+    "source_quote": "As of December 31, 2022, we have hedged 8.8% of our projected fuel requirement for the first quarter of 2023."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 3.0,
+    "note_reference": "Note 12"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2023,
+      "volume_gallons_millions": 18.9,
+      "volume_pct_of_consumption": 0.088,
+      "commodities": ["WTI crude", "heating oil", "jet fuel"],
+      "instrument_types": ["call_spread"],
+      "fair_value_mm": 3.0
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": true,
+    "has_swaps": false,
+    "notes": "450 thousand barrels at Dec 31 2022 (450k x 42 = 18.9M gallons). Instruments described as 'aircraft fuel call option spread agreements'. Only Q1 2023 hedged at 8.8% at filing date; subsequent hedges for Q2 (19.3%) and Q3 (5.5%) added in Feb 2023. Actual 2022 consumption hedged was 7%. Company resumed hedging in 2022 after no hedges in 2021."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 842.0,
+    "throughput_year": 2022,
+    "source_quote": "Fuel consumption increased by 21.0%, or 146 million gallons, in 2022 due to capacity increases; 2021 was 696M; 2022 = 842M (from Item 7 Aircraft Fuel section)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": ["Volume converted from 450 thousand barrels x 42 = 18.9M gallons; only Q1 2023 covered at Dec 31 2022; additional hedges for Q2/Q3 2023 added in Feb 2023 per filing disclosure"]
+}

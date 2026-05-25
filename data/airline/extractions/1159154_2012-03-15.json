@@ -1,0 +1,42 @@
+{
+  "filing_date": "2012-03-15",
+  "fiscal_year_end": "2011-12-31",
+  "company_name": "Republic Airways Holdings, Inc.",
+  "ticker": "RJET",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2011,
+    "source_quote": "As of December 31, 2011, no hedge position on any anticipated volume of fuel. Company monitoring fuel prices and may hedge in future."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedge position at December 31, 2011. Company has historically used call options, fuel swap agreements, and costless collars on oil derivative commodities. Company monitoring fuel prices and intends to take advantage of hedging opportunities. Company divested Frontier Airlines branded operations during 2011."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2011,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No hedge position at December 31, 2011.",
+    "Republic divested Frontier Airlines branded operations in 2011.",
+    "Returned to primarily CPA fixed-fee operations with fuel pass-through."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 220.824996,
+    "throughput_year": 2011,
+    "source_quote": "Gallons consumed: 220,824,996 (fiscal year ended December 31, 2011) from Item 7 table. Cost per gallon $3.25 in 2011. Includes Frontier branded operations."
+  }
+}

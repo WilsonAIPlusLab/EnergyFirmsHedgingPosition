@@ -1,6 +1,6 @@
 # Methodology: How This Dataset Was Constructed
 
-*Last updated: 2026-03-28*
+*Last updated: 2026-05-24*
 
 This document describes the full pipeline used to build the dataset: from raw SEC filings to extracted instruments to hedge ratio calculations.
 
@@ -10,6 +10,7 @@ This document describes the full pipeline used to build the dataset: from raw SE
 
 | Date | Change |
 |---|---|
+| 2026-05-24 | v2.0 — Added §§7-9 covering airline/refiner extraction, master panel, crosswalk, and status taxonomy. Sections 7-9 (new) describe group-specific methodologies. §5 "Excluded instruments" now references `positions.csv` (renamed from `instrument_deltas.csv`). |
 | 2026-03-28 | §4 post-processing: added note on 23 FY+1 production denomination patches. §5 NGL denominator note: updated to 202 firm-years |
 | 2026-03-23 | Initial release. Added NGL hedge ratio variant to §5 output table. Corrected company universe description (midstream retained, not excluded). Added NGL denominator design note |
 
@@ -230,7 +231,141 @@ See `DATA_QUALITY.md` for details on remaining WARNs, known corrections, and aud
 
 ---
 
-## 7. References
+## 7. Airline and Refiner Extraction (Groups 2 and 3)
+
+Groups 2 (airlines) and 3 (refiners) were extracted using the same two-stage pipeline as the E&P
+group (Stage 1 deterministic parsing, Stage 2 AI extraction), but with industry-specific extraction
+prompts and schema definitions.
+
+### Source data
+- **Airlines:** 421 10-K filings from ~26 airline/air cargo entities. Filing dates 1999–2025.
+  Parsed into `parsed_extension/{CIK}_{ticker}/{fiscal_year_end}/sections/`.
+- **Refiners:** 235 10-K filings from 18 refiner entities. Filing dates 2001–2025.
+
+### Airline extraction schema
+The airline prompt instructs the model to extract from Item 8 Notes and related MD&A:
+- `fuel_consumption` — actual gallons consumed (MM gallons) and expected gallons for next year
+- `hedge_summary` — program existence, estimated % hedged, net fair value
+- `annual_hedge_positions[]` — one entry per coverage year: volume in MM gallons,
+  `volume_pct_of_consumption` (decimal fraction, e.g. 0.40 = 40%), commodity list,
+  instrument type list, fair value
+- `carrier_notes` — stopped_hedging flag, owns_refinery flag (Delta/Monroe Energy case)
+
+Prices are intentionally not extracted for airlines: airlines rarely disclose fixed prices for
+their collars (only floor/cap ranges), and including unreliable price data would add noise.
+
+**Delta/Monroe Energy:** Delta Air Lines owns Monroe Energy (a refinery). Monroe's refiner hedges
+are explicitly excluded from Delta's airline `annual_hedge_positions`; they are NOT fuel hedges.
+
+### Refiner extraction schema
+The refiner prompt instructs the model to extract from Item 7A and Item 8 Notes:
+- `throughput` — crude oil processed (million barrels), year, and source quote
+- `hedge_program` — program existence, primary objective (inventory, crack_spread, mixed),
+  designation (cash-flow hedge vs. economic/undesignated)
+- `notional_positions[]` — one entry per disclosed instrument × direction × commodity × maturity:
+  maturity year, commodity, instrument type, direction (long/short), designation, volume in MBbl
+- `fair_values` — total derivative assets and liabilities
+
+Natural gas and precious-metal positions (e.g., Calumet's platinum catalyst hedges) are included
+in the raw JSON but excluded from hedge ratio calculations.
+
+### Airline hedge ratio — definition and denominator
+```
+Airline hedge ratio = volume_gallons_millions (coverage_year) / expected_gallons (coverage_year)
+```
+Primary ratio: `hedge_ratio_next` — the fraction of coverage_year+1 expected fuel consumption
+that is hedged, as of the filing date. This matches the FY+1 convention used for E&P: both groups
+report hedges for the next operating year. However, the mechanism differs:
+- E&P uses a cross-filing lookup to find next year's actual production (reported in the following year's 10-K)
+- Airlines disclose both the hedge volumes AND the expected consumption estimate in the same filing
+
+When `volume_pct_of_consumption` is directly stated in the filing, it is used as-is (preferred).
+When only raw volume and expected consumption are disclosed, `computed_pct` = volume / expected.
+When expected consumption is not disclosed but actual consumption is, actual consumption serves as
+the denominator — an approximation documented in the `warnings` column of affected filings.
+
+### Refiner hedge ratio — definition and caveats
+```
+net_short_ratio = (total_short_mbbl - total_long_mbbl) / throughput_mbbl
+abs_ratio       = (total_short_mbbl + total_long_mbbl) / throughput_mbbl
+```
+Both ratios exclude natural gas and platinum positions. Natural gas and platinum are included in
+the source JSON for completeness but excluded from the ratio because they represent energy input
+cost hedges and catalyst procurement hedges, respectively — distinct from the crude-oil and
+refined-product price exposure that the ratio is meant to capture.
+
+**Open methodological issue:** The `net_short_ratio` conflates two economically distinct hedging
+strategies: (a) inventory hedges — short crude or products futures to protect the value of physical
+inventory; (b) crack-spread hedges — a paired long crude / short product position that locks in a
+processing margin. These can partially offset each other in the net calculation. `abs_ratio`
+(gross turnover) avoids this netting but may double-count the paired legs. Researchers studying
+refiner hedging should read the `crack_spread_hedging` field in the source JSON and consider whether
+a crack-spread-specific subset of positions is more appropriate for their question.
+
+A positive `net_short_ratio` means the refiner is net short (typical inventory hedge protecting
+against a price decline). A negative value means net long (uncommon; indicates the long legs exceed
+the short legs, e.g., Par Pacific buying crude forward).
+
+### Airline and refiner verification
+Airline and refiner extractions were verified through **manual company-by-company review**: for
+each of the 45 entities, the extracted JSON was compared against the source 10-K text (from the
+parsed sections) and corrected where errors were found. Known corrections made during verification
+are documented in `DATA_QUALITY.md §8`. This verification was less systematic than the E&P automated
+pipeline; some errors in less-reviewed filings may remain.
+
+---
+
+## 8. Master Panel and Crosswalk Construction
+
+### master_panel.csv
+The master panel is assembled from the three per-group `hedge_ratios.csv` files plus the crosswalk.
+It uses a **long format** with one row per `(cik, fiscal_year, hedge_axis)`. The `group` column
+for each row is resolved per-row from the crosswalk era lookup (not a static cik→group mapping),
+which correctly handles CIK 821483 (Delta Petroleum E&P years vs. Par Pacific refiner years).
+
+Cross-group `hedge_ratio_primary` mapping:
+
+| Group | hedge_axis | hedge_ratio_primary | ratio_method |
+|---|---|---|---|
+| ep | oil | hedge_ratio_oil_delta | delta |
+| ep | gas | hedge_ratio_gas_delta | delta |
+| airline | fuel | hedge_ratio_next (or hedge_ratio_current as fallback) | notional_volume |
+| refiner | crude_net | net_short_ratio | net_short |
+
+### crosswalk.csv
+The crosswalk uses an **era-based grain** — one row per (cik, era_start_fy, era_end_fy) — to handle
+companies that changed identity or industry group over time. Multiple era rows for the same CIK
+can have different `group` values (e.g., Delta Petroleum → Par Pacific: ep then refiner).
+
+The `entity_id` column groups CIKs that represent the same legal entity across corporate
+reorganizations (e.g., the three CIKs associated with Frontier Airlines across its two bankruptcies
+share `entity_id = frontier_family_*`). This grouping is based on curated manual research; it is
+not comprehensive for the full E&P universe.
+
+---
+
+## 9. Status Taxonomy
+
+The `status` field appears in all three group `hedge_ratios.csv` files and in the master panel.
+It encodes the reason a firm-year has a non-null or null ratio — distinguishing structural zeros
+from informative missing values:
+
+| Status | Economic meaning | hedge_ratio | has_program |
+|---|---|---|---|
+| hedger | Firm holds open positions; ratio computed | non-null | true |
+| no_position | Program exists; no open positions at year-end | 0.0 | true |
+| stopped | Firm has permanently exited hedging | 0.0 | false |
+| never | No hedging program; firm does not hedge | null | false |
+| pass_through | Fuel cost passed to airline partner (CPA carriers) | null | false |
+| not_applicable | Denominator unavailable; ratio uncomputable | null | varies |
+
+This distinction matters for empirical research: a `no_position` firm has a program and chose
+zero coverage; a `never` firm has no infrastructure to hedge at all. Pooling these categories
+as "zero hedgers" would confound two economically distinct behaviors.
+
+---
+
+## 10. References
 
 - Adam, T.R., & Fernando, C.S. (2006). Hedging, speculation, and shareholder value. *Journal of Financial Economics*, 81(2), 283–309.
 - Black, F. (1976). The pricing of commodity contracts. *Journal of Financial Economics*, 3(1–2), 167–179.

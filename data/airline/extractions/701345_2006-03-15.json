@@ -1,0 +1,51 @@
+{
+  "filing_date": "2006-03-15",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "US Airways Group, Inc.",
+  "ticker": "LCC",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1570.0,
+    "fiscal_year": 2006,
+    "source_quote": "Forecasted fuel consumption for the Company is approximately 1.57 billion gallons per year, and a one cent per gallon increase in fuel price results in a $16 million annual increase in expense, excluding the impact of hedges."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.34,
+    "net_fair_value_mm": null,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.2,
+      "commodities": [],
+      "instrument_types": [
+        "costless collars (heating oil futures)"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Primarily costless collar transactions (heating oil futures). In January 2006 added call options. 10% heating oil price increase would increase fair value by ~$30M; 10% decrease would decrease fair value by ~$28M. Hedges did not qualify for SFAS 133 hedge accounting as of February 28, 2006."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "US Airways Group CIK 701345. Merged with America West Airlines in September 2005, emerged from second bankruptcy. This is the combined entity. Ticker changed to LCC. Hedge positions use heating oil futures as proxy for jet fuel."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1291,
+    "throughput_year": 2005,
+    "source_quote": "Fuel consumption (gallons in millions): AWA mainline 449 + US Airways mainline 842 = 1,291 (2005 combined mainline; does not include express operations)"
+  }
+}

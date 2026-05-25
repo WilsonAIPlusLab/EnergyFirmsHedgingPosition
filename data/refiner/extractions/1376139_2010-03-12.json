@@ -1,0 +1,34 @@
+﻿{
+    "filing_date":  "2010-03-12",
+    "fiscal_year_end":  "2009-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  39.50249,
+                       "throughput_year":  2009,
+                       "source_quote":  "Total crude oil throughput    108,226    90.0 [2009]    105,837    90.0 [2008]    76,317    93.0 [2007]    (Refining Throughput and Production Data, bpd)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "inventory",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 16"
+                      },
+    "notional_positions":  [
+
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  0,
+                        "total_liability_mm":  2,
+                        "net_fair_value_mm":  -2,
+                        "as_of_date":  "2009-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  false,
+                                 "crack_spread_type":  null
+                             },
+    "warnings":  [
+                     "Cash Flow Swap (crack spread swap with J. Aron) was terminated October 8, 2009 â€” no open positions at Dec 31, 2009. \u0027Other derivative agreements\u0027 liability of $1,847K ($1.8M) shown in fair value table suggests minor commodity derivatives outstanding but no notional volumes disclosed. Interest rate swap ($2,830K liability) excluded. Item 7A is empty in parsed filing. CVR Partners nitrogen fertilizer derivatives excluded."
+                 ]
+}

@@ -1,0 +1,61 @@
+{
+  "filing_date": "2011-02-22",
+  "fiscal_year_end": "2010-12-31",
+  "company_name": "United Continental Holdings, Inc.",
+  "ticker": "UAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2010,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.35,
+    "net_fair_value_mm": 375,
+    "note_reference": "Item 7A - Commodity Price Risk (Aircraft Fuel)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2011,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.35,
+      "commodities": [
+        "heating oil",
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "swap",
+        "call_option",
+        "collar"
+      ],
+      "fair_value_mm": 375
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "UAL consolidated (United + Continental merged Oct 1, 2010): 35% of 2011 expected fuel consumption hedged with maximum price protection. 20% also has minimum price protection (swaps/collars). Breakdown: heating oil swaps 9% ($2.22/gal), heating oil calls 9% ($2.23/gal), WTI crude swaps 9% ($2.02/gal), WTI crude calls 6% ($2.24/gal), WTI crude collars 2% ($2.29/gal max, $1.57/gal min). UAL hedge approx 60% of Q1 2011 expected consumption with decreasing coverage rest of year. United subsidiary: 37% hedged; Continental subsidiary: 28% hedged. Prices in $/gallon (heating oil equivalent to jet fuel)."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "UAL merged with Continental Airlines on October 1, 2010, forming United Continental Holdings Inc. - this is the first combined filing",
+    "Ticker changed from UAUA to UAL upon merger completion",
+    "Company name changed to United Continental Holdings, Inc. (renamed United Airlines Holdings in 2019)",
+    "UAL fair value $375M includes both United ($277M) and Continental ($98M) subsidiaries",
+    "35% is the combined UAL consolidated hedge ratio; United standalone is 37%, Continental standalone is 28%",
+    "Impact of $1/bbl increase in fuel price on annual expense: UAL -$99M, United -$57M, Continental -$42M (2011 projections)"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 4072,
+    "throughput_year": 2010,
+    "source_quote": "Total fuel consumption (gallons): 4,072 (2010, combined United+Continental, from FY2011 10-K comparative table; the FY2010 10-K itself shows 2,388M for United-only legacy operations)"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "filing_date": "2022-02-17",
+  "fiscal_year_end": "2021-12-31",
+  "company_name": "PBF Energy Inc.",
+  "ticker": "PBF",
+  "throughput": {
+    "crude_throughput_mmbbl": 304.6,
+    "throughput_year": 2021,
+    "source_quote": "Total crude oil and feedstocks throughput (millions of barrels) 304.6 [Year Ended December 31, 2021]"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 25"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2022,
+      "commodity": "crude_oil",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 2082,
+      "volume_unit": "MBbls",
+      "volume_raw": "2,081,783 barrels",
+      "notes": "Crude oil and feedstock purchase obligation derivatives designated as fair value hedges (Third Inventory Intermediation Agreement)."
+    },
+    {
+      "maturity_year": 2022,
+      "commodity": "refined_products",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 2071,
+      "volume_unit": "MBbls",
+      "volume_raw": "2,070,550 barrels",
+      "notes": "Intermediates and refined products purchase obligation derivatives designated as fair value hedges (Third Inventory Intermediation Agreement)."
+    },
+    {
+      "maturity_year": 2022,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 36246,
+      "volume_unit": "MBbls",
+      "volume_raw": "36,246,000 barrels",
+      "notes": "Crude oil economic hedges (not designated). Direction not specified; assumed net short for inventory hedging."
+    },
+    {
+      "maturity_year": 2022,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 5819,
+      "volume_unit": "MBbls",
+      "volume_raw": "5,819,000 barrels",
+      "notes": "Refined products economic hedges (not designated). Direction not specified; assumed net short for inventory hedging."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 20,
+    "total_liability_mm": 12,
+    "net_fair_value_mm": 8,
+    "as_of_date": "2021-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "PBF does not disclose gross long/short positions for economic hedges. Economic hedge direction assumed net short for inventory hedging. Fair values: FVH $19.7M asset + economic ($12.0M) liability = net $7.7M."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "filing_date": "2012-02-29",
+  "fiscal_year_end": "2011-12-31",
+  "company_name": "HollyFrontier Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 114.975,
+    "throughput_year": 2011,
+    "source_quote": "Crude charge (BPD) (1): 315,000"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "crack_spread",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2012,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 14640,
+      "volume_unit": "MBbls",
+      "volume_raw": "14,640,000 barrels WTI crude oil",
+      "notes": "Cash flow hedge against price risk on forecasted 2012 purchases; part of crack spread hedge (40,000 BPD)"
+    },
+    {
+      "maturity_year": 2012,
+      "commodity": "heating_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 7320,
+      "volume_unit": "MBbls",
+      "volume_raw": "7,320,000 barrels ultra-low sulfur diesel",
+      "notes": "Cash flow hedge on forecasted 2012 diesel sales; part of crack spread hedge"
+    },
+    {
+      "maturity_year": 2012,
+      "commodity": "gasoline",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 7320,
+      "volume_unit": "MBbls",
+      "volume_raw": "7,320,000 barrels conventional unleaded gasoline",
+      "notes": "Cash flow hedge on forecasted 2012 gasoline sales; part of crack spread hedge"
+    },
+    {
+      "maturity_year": 2012,
+      "commodity": "gasoline",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 0.1125,
+      "volume_unit": "MBbls",
+      "volume_raw": "112,500 barrels (gasoline-butane spread swaps)",
+      "notes": "Economic hedge locking gasoline-butane spread; maturing through January 2012"
+    },
+    {
+      "maturity_year": 2013,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 0.411,
+      "volume_unit": "MBbls",
+      "volume_raw": "411,000 barrels NYMEX futures (short inventory purchases)",
+      "notes": "NYMEX futures to lock in prices on forecasted inventory purchases; through 2013"
+    },
+    {
+      "maturity_year": 2013,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 0.292,
+      "volume_unit": "MBbls",
+      "volume_raw": "292,000 barrels NYMEX futures (forecasted sales)",
+      "notes": "NYMEX futures to lock in prices on forecasted sales; through 2013"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 175.654,
+    "total_liability_mm": 1.252,
+    "net_fair_value_mm": 174.402,
+    "as_of_date": "2011-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "3-2-1 crack spread equivalent (long crude / short diesel + gasoline, 40,000 BPD for 2012)"
+  },
+  "warnings": [
+    "Merger of Holly Corp and Frontier Oil effective July 1, 2011. HollyFrontier 2011 hedges are large crack spread positions: 14.64M bbl crude long vs 14.64M bbl diesel+gasoline short for full year 2012. Fair value: Level 3 commodity price swaps had $173.3mm unrealized gain in OCI. Also $30mm cash on margin. Note Level 3 ULSD and gasoline swaps valued with projected forward rates."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "filing_date": "2009-03-02",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "Tesoro Corporation",
+  "ticker": "TSO",
+  "throughput": {
+    "crude_throughput_mmbbl": 204.8,
+    "throughput_year": 2008,
+    "source_quote": "Throughput Heavy crude: 192; Light crude: 369; Other feedstocks: 34; Total: 595 (Mbpd)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 1000,
+      "volume_unit": "MBbls",
+      "volume_raw": "approximately 1 million barrels open positions, expire primarily during 2009",
+      "notes": "Non-hedging; net loss of $106M in 2008 on derivatives. Majority of long-haul crude positions closed Q2 2008."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 18.0,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 18.0,
+    "as_of_date": "2008-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All derivatives undesignated. Net loss of $106M on derivatives in 2008 (vs $61M losses in 2007). Open position reduced significantly after closing long-haul crude oil hedges in Q2 2008. Position estimated at $1M/bbl sensitivity = 1M bbl net position. Direction per sensitivity and context not clearly stated but small remaining position."
+  ]
+}

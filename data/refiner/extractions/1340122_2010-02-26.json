@@ -1,0 +1,77 @@
+﻿{
+    "filing_date":  "2010-02-26",
+    "fiscal_year_end":  "2009-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  21.929565,
+                       "throughput_year":  2009,
+                       "source_quote":  "Total feedstock runs (2)    60,081 [2009]    56,243 [2008]    48,354 [2007]    (In bpd; feedstock runs = barrels per day of crude oil and other feedstocks processed at our facilities)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 2"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  12914,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "12,914,000 bbl crude oil swaps purchased 2010-2011 at avg $71.31/bbl",
+                                   "notes":  ""
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "diesel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  7116,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "7,116,000 bbl diesel swaps sold 2010-2011 at avg $83.80/bbl",
+                                   "notes":  ""
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "jet_fuel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  2514,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "2,514,000 bbl jet fuel swaps sold 2011 at avg $88.51/bbl",
+                                   "notes":  ""
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "gasoline",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  2548,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "~2,548,000 bbl gasoline swaps sold 2010 at avg $75.28/bbl",
+                                   "notes":  "Also specialty crude and nat gas swaps."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  null,
+                        "total_liability_mm":  null,
+                        "net_fair_value_mm":  null,
+                        "as_of_date":  "2009-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+
+                 ]
+}

@@ -1,0 +1,55 @@
+{
+  "filing_date": "2006-03-07",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Tesoro Corporation",
+  "ticker": "TSO",
+  "throughput": {
+    "crude_throughput_mmbbl": 193.4,
+    "throughput_year": 2005,
+    "source_quote": "Total Refining Throughput (thousand barrels per day): 530"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2006,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 2000,
+      "volume_unit": "MBbls",
+      "volume_raw": "2 million barrels net open futures contracts (expire during 2006)",
+      "notes": "Non-hedging, mark-to-market gain of $2M at Dec 31, 2005. Net short per sensitivity ($7M/bbl for 7M bbl net position)"
+    },
+    {
+      "maturity_year": 2006,
+      "commodity": "refined_products",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 5000,
+      "volume_unit": "MBbls",
+      "volume_raw": "5 million barrels swap positions (expire during 2006)",
+      "notes": "Non-hedging. Total net short position ~7M bbls per sensitivity analysis"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 2.0,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 2.0,
+    "as_of_date": "2005-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All derivatives undesignated. During 2005, settled ~71M bbls futures/swaps resulting in $23M losses. Open positions: 2M bbl futures + 5M bbl swaps; net 7M bbl short per sensitivity. Direction assumed short based on context (hedging inventory losses)."
+  ]
+}

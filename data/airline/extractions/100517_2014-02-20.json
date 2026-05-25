@@ -1,0 +1,75 @@
+{
+  "filing_date": "2014-02-20",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "United Continental Holdings, Inc.",
+  "ticker": "UAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 4000,
+    "fiscal_year": 2014,
+    "source_quote": "Projections based on estimated consumption of four billion gallons and a price of $2.96 per gallon (2014 projected)"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.24,
+    "net_fair_value_mm": 104,
+    "note_reference": "Item 7A - Commodity Price Risk (Aircraft Fuel)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2014,
+      "volume_gallons_millions": 951,
+      "volume_pct_of_consumption": 0.24,
+      "commodities": [
+        "diesel fuel",
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap",
+        "call_option",
+        "collar"
+      ],
+      "fair_value_mm": 104
+    },
+    {
+      "coverage_year": 2015,
+      "volume_gallons_millions": 309,
+      "volume_pct_of_consumption": 0.08,
+      "commodities": [
+        "diesel fuel",
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap",
+        "call_option",
+        "collar"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Portfolio: fixed price swaps, purchased calls, collars (sold put + purchased call), three-ways (collar + higher-strike sold call), four-way collars (collar + higher-strike sold call + lower-strike purchased put). Based on diesel fuel and crude oil. 951M gallons (24%) for 2014 and 309M gallons (8%) for 2015 hedged at Dec 31, 2013. 2014 sensitivity: at +20% fuel prices, hedge gain $0.09/gal; at -20%, hedge loss $0.04/gal. Note 8% of 2015 hedged positions also disclosed (approx)."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "2014 projected fuel consumption: ~4 billion gallons at $2.96/gal",
+    "Fuel cost 34% of total operating expenses in 2013 (down from 36% in 2012)",
+    "Gallons explicitly disclosed: 951M gal for 2014 (24%), 309M gal for 2015 (8%)",
+    "No additional collateral required upon instantaneous 10% fuel price decrease (strong balance sheet)",
+    "Continental subsidiary was fully merged/integrated; no longer disclosed separately in UAL filing"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3947,
+    "throughput_year": 2013,
+    "source_quote": "Total fuel consumption (gallons): 3,947 (2013)"
+  }
+}

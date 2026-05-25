@@ -1,0 +1,75 @@
+{
+  "filing_date": "2019-02-28",
+  "fiscal_year_end": "2018-12-31",
+  "company_name": "Marathon Petroleum Corporation",
+  "ticker": "MPC",
+  "throughput": {
+    "crude_throughput_mmbbl": 759.57,
+    "throughput_year": 2018,
+    "source_quote": "Refinery throughputs (thousands of barrels per day): Crude oil refined     2,081     1,765     1,699"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 18"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2019,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 41137,
+      "volume_unit": "MBbls",
+      "volume_raw": "40,257 exchange-traded + 880 OTC",
+      "notes": "Crude oil long: 40,257 exchange-traded + 880 OTC; 71.5% expire Q1 2019"
+    },
+    {
+      "maturity_year": 2019,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 44709,
+      "volume_unit": "MBbls",
+      "volume_raw": "44,709",
+      "notes": "Exchange-traded crude oil short; 71.5% expire Q1 2019"
+    },
+    {
+      "maturity_year": 2019,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 10210,
+      "volume_unit": "MBbls",
+      "volume_raw": "10,210",
+      "notes": "Exchange-traded refined products long; 75.9% expire Q1 2019"
+    },
+    {
+      "maturity_year": 2019,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 11149,
+      "volume_unit": "MBbls",
+      "volume_raw": "11,149",
+      "notes": "Exchange-traded refined products short; 75.9% expire Q1 2019"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2018-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["Post-Andeavor acquisition; 2018 data includes Andeavor from Oct 1, 2018. Blending products (ethanol) excluded. No hedge accounting designation."]
+}

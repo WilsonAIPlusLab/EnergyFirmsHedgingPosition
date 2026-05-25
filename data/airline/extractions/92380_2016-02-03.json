@@ -1,0 +1,98 @@
+{
+  "filing_date": "2016-02-03",
+  "fiscal_year_end": "2015-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 2000,
+    "fiscal_year": 2016,
+    "source_quote": "The Company expects to consume approximately 2 billion gallons of jet fuel in 2016."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 20,
+    "pct_hedged_next_year": 65,
+    "net_fair_value_mm": -1481.0,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2015,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.15,
+      "commodities": [
+        "WTI crude",
+        "Brent crude",
+        "heating oil",
+        "unleaded gasoline"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2016,
+      "volume_gallons_millions": 1226,
+      "volume_pct_of_consumption": 0.2,
+      "commodities": [
+        "Brent crude oil",
+        "Heating oil",
+        "Gulf Coast jet fuel"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2017,
+      "volume_gallons_millions": 1503,
+      "volume_pct_of_consumption": 0.65,
+      "commodities": [
+        "WTI crude",
+        "Brent crude oil"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2018,
+      "volume_gallons_millions": 731,
+      "volume_pct_of_consumption": 0.35,
+      "commodities": [
+        "Brent crude oil"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": true,
+    "notes": "Per Note 10: primarily uses a mixture of purchased call options, collar structures, call spreads, put spreads, and fixed price swap agreements. Portfolio covers 2016-2018. Net fair value at 12/31/2015 was a net liability of $1.481 billion (2016: -$863M, 2017: -$630M, 2018: +$12M). Cash collateral deposits provided: $835M cash + $250M aircraft collateral. Over 1,200 separate financial derivative instruments."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "2016 pct_hedged (20%) is the average at current Brent prices as of Jan 15, 2016; Note 10 states 'up to 63%' maximum for 2016. MD&A table uses 'Approx. 20%' as average.",
+    "Note 10 gallon volumes are maximum economic hedge and may vary significantly as market prices fluctuate.",
+    "First quarter 2016 shown as effectively unhedged (0%) at current price levels in MD&A table.",
+    "All volume figures are in gallons (millions) as required."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1908.2,
+    "throughput_year": 2015,
+    "source_quote": "Fuel and oil expense table: average cost $3,740 million, average cost per gallon $1.96 (Item 1, 2018 10-K filing, restated)"
+  }
+}

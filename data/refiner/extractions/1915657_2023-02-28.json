@@ -1,0 +1,91 @@
+{
+  "filing_date": "2023-02-28",
+  "fiscal_year_end": "2022-12-31",
+  "company_name": "HF Sinclair Corporation",
+  "ticker": "DINO",
+  "throughput": {
+    "crude_throughput_mmbbl": 221.548,
+    "throughput_year": 2022,
+    "source_quote": "Crude charge (BPD) (1) Consolidated: 606,980 (365 days)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2023,
+      "commodity": "crude_oil_wti",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 845,
+      "volume_unit": "MBbls",
+      "volume_raw": "NYMEX futures (WTI) - short 845,000 Barrels, all maturing in 2023",
+      "notes": "Inventory management hedge"
+    },
+    {
+      "maturity_year": 2023,
+      "commodity": "gasoline_diesel",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 425,
+      "volume_unit": "MBbls",
+      "volume_raw": "Forward gasoline and diesel contracts - long 425,000 Barrels, all maturing in 2023",
+      "notes": "Inventory management hedge"
+    },
+    {
+      "maturity_year": 2023,
+      "commodity": "natural_gas",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": null,
+      "volume_unit": "MMBTU",
+      "volume_raw": "Natural gas price swaps (basis spread) - long 5,110,000 MMBTU, all maturing in 2023",
+      "notes": "Natural gas basis spread swaps; volume in MMBTU not MBbls"
+    },
+    {
+      "maturity_year": 2023,
+      "commodity": "natural_gas",
+      "instrument": "collar",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": null,
+      "volume_unit": "MMBTU",
+      "volume_raw": "Natural gas collar contracts 29,200,000 MMBTU, all maturing in 2023",
+      "notes": "Natural gas collar contracts; volume in MMBTU not MBbls"
+    },
+    {
+      "maturity_year": 2023,
+      "commodity": "platinum",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": null,
+      "volume_unit": "troy_oz",
+      "volume_raw": "Forward commodity contracts (platinum) 36,969 Troy ounces, all maturing in 2023",
+      "notes": "Precious metals catalyst embedded derivative; volume in troy ounces"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 18.65,
+    "total_liability_mm": 12.01,
+    "net_fair_value_mm": 6.64,
+    "as_of_date": "2022-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": "inventory_management_nymex_futures_and_forwards"
+  },
+  "warnings": [
+    "Item 7A is a one-line stub: \"See Risk Management under MD&A.\" Derivative data from Note 14",
+    "FV in thousands: assets $18,650K liabilities $12,012K net +$6,638K",
+    "Commodity price swap contracts asset $342K and collar liability $6,275K also present",
+    "HF Sinclair formed from HollyFrontier rebranding after Sinclair acquisition March 2022"
+  ]
+}

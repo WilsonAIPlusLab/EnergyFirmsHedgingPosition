@@ -1,0 +1,67 @@
+﻿{
+    "filing_date":  "2020-03-05",
+    "fiscal_year_end":  "2019-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  37.815095,
+                       "throughput_year":  2019,
+                       "source_quote":  "Total feedstock runs (2)    103,603 [2019]    94,137 [2018]    128,624 [2017]    (In bpd; feedstock runs = barrels per day of crude oil and other feedstocks processed at our facilities)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 11"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2020,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1707,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,706,500 barrels",
+                                   "notes":  "Gasoline crack spread swaps - sales, all maturities Q1-Q4 2020, avg $13.38/bbl, from Note 11"
+                               },
+                               {
+                                   "maturity_year":  2020,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1616,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,615,500 barrels",
+                                   "notes":  "Diesel crack spread swaps - sales, all maturities Q1-Q4 2020, avg $22.00/bbl, from Note 11"
+                               },
+                               {
+                                   "maturity_year":  2020,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  394,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "394,000 barrels",
+                                   "notes":  "2/1/1 crack spread swaps - sales, Q1-Q2 2020, avg $17.58/bbl, from Note 11"
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  0.9,
+                        "total_liability_mm":  -7.2,
+                        "net_fair_value_mm":  -6.3,
+                        "as_of_date":  "2019-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+                     "Item 7A has no position tables; defers to Note 11 for derivative details. Active hedging policy stated.",
+                     "Notional positions extracted from Note 11 detailed tables: gasoline crack 1,706,500 bbl + diesel crack 1,615,500 bbl + 2/1/1 crack 394,000 bbl, all maturing 2020. Net FV = $0.9M assets - $7.2M liabilities = -$6.3M."
+                 ]
+}

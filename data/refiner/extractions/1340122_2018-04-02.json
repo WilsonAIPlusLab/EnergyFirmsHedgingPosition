@@ -1,0 +1,79 @@
+﻿{
+    "filing_date":  "2018-04-02",
+    "fiscal_year_end":  "2017-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  46.94776,
+                       "throughput_year":  2017,
+                       "source_quote":  "Total feedstock runs (2)    128,624 [2017]    134,163 [2016]    123,051 [2015]    (In bpd; feedstock runs = barrels per day of crude oil and other feedstocks processed at our facilities)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 10"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2018,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  28,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "28,000 barrels",
+                                   "notes":  "Crude oil swaps purchased (non-CFH), Q1 2018 only, 311 BPD. Fuel products segment. Note 10."
+                               },
+                               {
+                                   "maturity_year":  2018,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  826,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "826,000 barrels",
+                                   "notes":  "Gasoline crack spread swaps - sales, Q1 2018 only, 9,178 BPD, avg $12.27/bbl. Fuel products segment. Note 10."
+                               },
+                               {
+                                   "maturity_year":  2018,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  826,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "826,000 barrels",
+                                   "notes":  "Diesel crack spread swaps - sales, Q1 2018 only, 9,178 BPD. Fuel products segment. Note 10."
+                               },
+                               {
+                                   "maturity_year":  2018,
+                                   "commodity":  "diesel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  14,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "14,000 barrels",
+                                   "notes":  "Diesel swaps - sales, Q1 2018 only, 156 BPD, avg $66.35/bbl. Fuel products segment. Note 10."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  0.0,
+                        "total_liability_mm":  -10.4,
+                        "net_fair_value_mm":  -10.4,
+                        "as_of_date":  "2017-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+                     "Original extraction incorrectly aggregated 1,680,000 bbl as a single crack spread position. Corrected to show 4 separate positions: crude oil swap 28K + gasoline crack 826K + diesel crack 826K + diesel swap 14K = 1,694K total bbl. All Q1 2018 maturity.",
+                     "Net fair value -$10.4M from Total derivative instruments table: $(10.7)M gross liabilities, $0.3M netting = $(10.4)M net. No net asset positions at Dec 31, 2017.",
+                     "CFH designation was discontinued prior to 2017; all FY2017 positions are undesignated economic hedges."
+                 ]
+}

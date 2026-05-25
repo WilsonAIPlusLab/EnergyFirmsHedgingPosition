@@ -1,0 +1,42 @@
+{
+  "filing_date": "2004-03-02",
+  "fiscal_year_end": "2003-12-31",
+  "company_name": "UAL Corporation / United Air Lines, Inc.",
+  "ticker": "UALAQ",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2003,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging program during fiscal year 2003. UAL remained in Chapter 11 bankruptcy (filed December 9, 2002). Item 7A discusses only interest rate swaps and foreign currency deposits - no fuel hedge section present. All fuel hedges had been terminated by counterparties upon bankruptcy filing."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "UAL was in Chapter 11 bankruptcy throughout fiscal year 2003 (Debtor and Debtor-In-Possession)",
+    "No fuel hedge disclosures in Item 7A or Notes - consistent with terminated hedging program from bankruptcy",
+    "Accumulated other comprehensive income shows unrealized gains on derivatives of $7M in 2003, likely from prior-period hedge positions that had fully unwound"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2202,
+    "throughput_year": 2003,
+    "source_quote": "Gallons consumed (in millions): 2,202 (2003)"
+  }
+}

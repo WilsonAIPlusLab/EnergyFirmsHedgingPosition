@@ -1,0 +1,38 @@
+{
+  "filing_date": "2015-07-14",
+  "fiscal_year_end": "2015-05-31",
+  "company_name": "FedEx Corporation",
+  "ticker": "FDX",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": 0,
+    "note_reference": null
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "FedEx manages fuel price risk primarily through fuel surcharge programs linked to prevailing market prices, not financial derivatives. All jet fuel hedging contracts were closed out as of May 31, 2001. FX derivatives exist for currency risk but not fuel."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2001,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [],
+  "throughput": {
+    "fuel_consumption_gallons_mm": null,
+    "throughput_year": 2015,
+    "source_quote": "Item 7 incorporated by reference. FedEx does not disclose aircraft fuel consumed in gallons in SEC filings."
+  }
+}

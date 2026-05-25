@@ -1,0 +1,44 @@
+{
+  "filing_date": "2006-03-15",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Alon USA Energy, Inc.",
+  "ticker": "ALJ",
+  "throughput": {
+    "crude_throughput_mmbbl": 22.161,
+    "throughput_year": 2005,
+    "source_quote": "Big Spring Refinery crude: 60,715 BPD (sweet 5,072 + sour 55,643) x 365 days"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": null
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2006,
+      "commodity": "refined_products",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 25,
+      "volume_unit": "MBbls",
+      "volume_raw": "25,000 bbl forwards long (refined products) @ purchase $63.62/bbl, sale $71.84/bbl",
+      "notes": "No futures open at Dec 31, 2005. All positions are physical forward contracts."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 0.206,
+    "as_of_date": "2005-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "heating_oil_crack_spread_and_3_2_1"
+  },
+  "warnings": [
+    "Very small position: 25,000 bbl refined products forward long. Primarily inventory management, no crack spread contracts."
+  ]
+}

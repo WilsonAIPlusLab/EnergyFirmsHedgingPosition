@@ -1,0 +1,54 @@
+{
+  "filing_date": "2005-03-15",
+  "fiscal_year_end": "2004-12-31",
+  "company_name": "AirTran Holdings, Inc.",
+  "ticker": "AAI",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2004,
+    "source_quote": "Fuel consumption not explicitly stated; item7a notes 23% of 2005 fuel needs covered by fixed-price and cap contracts."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 23.0,
+    "net_fair_value_mm": null,
+    "note_reference": "Item 7A; Item 8 Notes"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2005,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.23,
+      "commodities": [
+        "jet fuel"
+      ],
+      "instrument_types": [
+        "fixed_price_supply_contract"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Fixed-price fuel supply contracts and cap arrangements only, treated as normal purchases under SFAS 133. Item 8 notes confirm accounting: historically swaps/collars, currently physical supply contracts with no balance-sheet fair value."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Fuel hedging via fixed-price/cap physical supply contracts (normal purchase exception under SFAS 133) \u00e2\u20ac\u201d no balance sheet fair value; net_fair_value_mm set to null.",
+    "23% of 2005 fuel requirements covered by fixed-price and fuel cap supply contracts as of filing date."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 206,
+    "throughput_year": 2004,
+    "source_quote": "Derived: Aircraft fuel expense $247,980K / $1.2042/gal average = ~206M gallons (2004); from income statement and Selected Financial Data in 10-K"
+  }
+}

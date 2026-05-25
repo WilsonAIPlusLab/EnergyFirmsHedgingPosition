@@ -1,0 +1,69 @@
+{
+  "filing_date": "2009-02-26",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "Hawaiian Holdings, Inc.",
+  "ticker": "HA",
+  "fuel_consumption": {
+    "expected_gallons_millions": 134.14,
+    "fiscal_year": 2008,
+    "source_quote": "Based on gallons expected to be consumed in 2009, for every one-cent increase in the cost of jet fuel, our annual fuel expense increases by approximately $1.4 million."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": -10.0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2009,
+      "volume_gallons_millions": 40.74,
+      "volume_pct_of_consumption": 0.2961,
+      "commodities": [
+        "crude oil",
+        "heating oil"
+      ],
+      "instrument_types": [
+        "futures",
+        "swaps",
+        "call options",
+        "collars"
+      ],
+      "fair_value_mm": -10.0
+    },
+    {
+      "coverage_year": 2010,
+      "volume_gallons_millions": 0.252,
+      "volume_pct_of_consumption": 0.0018,
+      "commodities": [
+        "crude oil"
+      ],
+      "instrument_types": [
+        "collars"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Fuel hedge program includes heating oil futures, swaps, crude oil caps (call options), and synthetic collars. Not designated as SFAS 133 hedges. FV liability $10.0M at Dec 31 2008, with $17.5M cash collateral posted. As of Feb 13, 2009 required $13.0M collateral. Ceiling volumes: Q1 2009 17,304k gal (53%), Q2 13,272k gal (40%), Q3 7,686k gal (23%), Q4 2,478k gal (8%), Q1 2010 252k gal (1%). Floor volumes for collars also shown. Total ceiling 2009 ~40.74M gallons."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Volume table as of Feb 13, 2009; ceiling and floor volumes shown separately for collar positions; FV -$10.0M is combined for all contracts at Dec 31 2008; 2009 volume uses ceiling (call) side of collars; not designated as SFAS 133 cash flow hedges"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 134.14,
+    "throughput_year": 2008,
+    "source_quote": "Fuel gallons consumed 134,140 (in thousands)"
+  }
+}

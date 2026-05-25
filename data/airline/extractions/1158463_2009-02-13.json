@@ -1,0 +1,47 @@
+{
+  "filing_date": "2009-02-13",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "JetBlue Airways Corporation",
+  "ticker": "JBLU",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2009,
+    "source_quote": "Based on projected 2009 fuel consumption, such an increase would result in an increase to aircraft fuel expense of approximately $75 million in 2009"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 8,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": -128.0,
+    "note_reference": "Note 13"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2009,
+      "volume_gallons_millions": 36.54,
+      "volume_pct_of_consumption": 0.08,
+      "commodities": ["heating oil"],
+      "instrument_types": ["swap", "collar"],
+      "fair_value_mm": -128.0
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "870 thousand barrels at Dec 31 2008 (870k x 42 = 36.54M gallons). Heating oil swaps and heating oil collars. Company effectively exited all open swap contracts by entering into reverse swap sales with same counterparties. $93M in losses expected to be realized in 2009 from OCI. Fair value is net liability of $128M. Actual 2008 consumption hedged was 38%."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 453.0,
+    "throughput_year": 2008,
+    "source_quote": "Fuel gallons consumed (millions): 117 / 116 / 115 / 105 (quarterly, from operating statistics table in Item 7; sum = 453M annual)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": ["Volume converted from 870 thousand barrels x 42 = 36.54M gallons; fair value is liability = -$128M; hedging program significantly unwound in 2008 with reverse swaps"]
+}

@@ -1,0 +1,66 @@
+{
+  "filing_date": "2016-02-25",
+  "fiscal_year_end": "2015-12-31",
+  "company_name": "Tesoro Corporation",
+  "ticker": "TSO",
+  "throughput": {
+    "crude_throughput_mmbbl": 266.8,
+    "throughput_year": 2015,
+    "source_quote": "Throughput Heavy crude: 151; Light crude: 580; Other feedstocks: 56; Total: 787 (Mbpd)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note J"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2016,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 12848,
+      "volume_unit": "MBbls",
+      "volume_raw": "(12,848) MBbls futures - short (2016)",
+      "notes": "Non-hedging, mark-to-market"
+    },
+    {
+      "maturity_year": 2016,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "undesignated",
+      "volume_mbbl": 1192,
+      "volume_unit": "MBbls",
+      "volume_raw": "1,192 MBbls swaps - long (2016)",
+      "notes": "Non-hedging, mark-to-market"
+    },
+    {
+      "maturity_year": 2016,
+      "commodity": "crude_oil",
+      "instrument": "forward",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 1346,
+      "volume_unit": "MBbls",
+      "volume_raw": "(1,346) MBbls forwards - short (2016)",
+      "notes": "Non-hedging, mark-to-market"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 44.0,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 44.0,
+    "as_of_date": "2015-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All derivatives undesignated (non-hedging, mark-to-market). Environmental credits and corn futures also present in filing but excluded as non-barrel commodities."
+  ]
+}

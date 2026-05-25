@@ -1,0 +1,47 @@
+{
+  "filing_date": "2012-02-28",
+  "fiscal_year_end": "2011-12-31",
+  "company_name": "JetBlue Airways Corporation",
+  "ticker": "JBLU",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2012,
+    "source_quote": "Based on projected 2012 fuel consumption, such an increase would result in an increase to aircraft fuel expense of approximately $175 million in 2012"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 27,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": -4.0,
+    "note_reference": "Note 13"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2012,
+      "volume_gallons_millions": 148.68,
+      "volume_pct_of_consumption": 0.27,
+      "commodities": ["WTI crude", "heating oil", "jet fuel"],
+      "instrument_types": ["call_option", "swap"],
+      "fair_value_mm": -4.0
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "3,540 thousand barrels at Dec 31 2011 (3,540k x 42 = 148.68M gallons). Contracts settle by December 31 2012. Net liability ~$10M current, $0 LT. $6M loss expected from OCI. Actual 2011 consumption hedged was 40%."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 525.0,
+    "throughput_year": 2011,
+    "source_quote": "Fuel gallons consumed (millions): 120 / 133 / 139 / 133 (quarterly, from operating statistics table in Item 7; sum = 525M annual)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": ["Volume converted from 3,540 thousand barrels x 42 = 148.68M gallons; net fair value is approx -$4M (current liability $10M less current asset $6M)"]
+}

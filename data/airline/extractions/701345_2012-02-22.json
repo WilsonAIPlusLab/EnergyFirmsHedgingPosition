@@ -1,0 +1,40 @@
+{
+  "filing_date": "2012-02-22",
+  "fiscal_year_end": "2011-12-31",
+  "company_name": "US Airways Group, Inc.",
+  "ticker": "LCC",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": null,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging. No new transactions since Q3 2008; no fuel hedging contracts outstanding since Q3 2009."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2008,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Stopped entering new fuel hedge transactions in Q3 2008. No fuel hedging contracts outstanding since Q3 2009. Company fully exposed to fuel price volatility."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1433,
+    "throughput_year": 2011,
+    "source_quote": "Fuel consumption (gallons in millions): 1,433 (2011 Total Mainline and Express)"
+  }
+}

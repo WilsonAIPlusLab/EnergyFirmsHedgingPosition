@@ -1,0 +1,36 @@
+﻿{
+    "filing_date":  "2025-03-03",
+    "fiscal_year_end":  "2024-12-31",
+    "company_name":  "Calumet, Inc.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  29.319528,
+                       "throughput_year":  2024,
+                       "source_quote":  "Total facility production    80,108 [2024]    75,804 [2023]    78,778 [2022]    (In bpd; total facility production = barrels per day of specialty products and fuel products yielded from processing crude oil and other feedstocks at our facilities; \u0027Total feedstock runs\u0027 not reported company-wide in this filing)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 9"
+                      },
+    "notional_positions":  [
+
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  null,
+                        "total_liability_mm":  null,
+                        "net_fair_value_mm":  null,
+                        "as_of_date":  "2024-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "crack_spread_and_renewable_feedstock"
+                             },
+    "warnings":  [
+                     "Item 7A defers to Note 9 Derivatives; no notional position tables in Item 7A",
+                     "Active crack spread hedging program plus precious metals catalyst and renewable feedstock hedging",
+                     "Calumet LP converted to Calumet Inc on July 10, 2024; this is the first filing under CIK 2013745"
+                 ]
+}

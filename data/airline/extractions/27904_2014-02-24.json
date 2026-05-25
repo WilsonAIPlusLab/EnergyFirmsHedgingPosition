@@ -1,0 +1,54 @@
+{
+  "filing_date": "2014-02-24",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 3900,
+    "fiscal_year": 2014,
+    "source_quote": "estimated fuel consumption of 3.9 billion gallons for the year ending December 31, 2014"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 314,
+    "note_reference": "Note 4"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2014,
+      "volume_gallons_millions": 4077,
+      "volume_pct_of_consumption": 1.045,
+      "commodities": ["WTI crude", "GC Jet Fuel", "diesel"],
+      "instrument_types": ["call_option", "put_option", "collar", "swap", "futures"],
+      "fair_value_mm": 314
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": true,
+    "notes": "Portfolio consists of call options, put options, combinations of two or more call and put options (collars and spreads), swap contracts, and futures. Underlying commodities: crude oil, diesel fuel, and jet fuel. Heating oil no longer mentioned as underlying commodity (replaced by diesel). All fuel contracts not-designated (mark-to-market through earnings) since June 2011."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3828.0,
+    "throughput_year": 2013,
+    "source_quote": "Total fuel consumption (gallons) 3,828 [millions] (from fuel expense table comparing 2013 vs 2012 in Item 7 MD&A)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": true,
+    "refinery_name": "Monroe Energy (Trainer refinery)"
+  },
+  "warnings": [
+    "volume_gallons_millions=4077 covers January 2014 through March 2015 (15 months); no separate per-year breakdown disclosed. Percentage of 2014 consumption not explicitly stated.",
+    "net_fair_value_mm=314 is the net fair value of all 4,077M gallons of fuel hedge contracts at December 31, 2013: $428M current assets + $29M noncurrent assets - $127M current liabilities - $16M noncurrent liabilities.",
+    "FY2013 net fuel hedge gains were $493M (including $276M mark-to-market gains on contracts settling in future periods).",
+    "Sensitivity at Dec 31, 2013: hedge gain of $170M at +20% fuel price and $10M at -20%, indicating heavily call-option weighted portfolio.",
+    "Monroe Energy (Trainer refinery) owned since June 2012; refinery segment reported separately.",
+    "Commodity mix shifted: heating oil no longer listed as underlying (replaced by diesel fuel)."
+  ]
+}

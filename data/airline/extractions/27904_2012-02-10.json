@@ -1,0 +1,54 @@
+{
+  "filing_date": "2012-02-10",
+  "fiscal_year_end": "2011-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 3800,
+    "fiscal_year": 2012,
+    "source_quote": "estimated fuel consumption of 3.8 billion gallons for the year ending December 31, 2012"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 32,
+    "net_fair_value_mm": 70,
+    "note_reference": "Note 3"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2012,
+      "volume_gallons_millions": 1225,
+      "volume_pct_of_consumption": 0.32,
+      "commodities": ["heating oil", "WTI crude", "GC Jet Fuel", "low sulfur diesel"],
+      "instrument_types": ["call_option", "put_option", "collar", "swap", "futures"],
+      "fair_value_mm": 70
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": true,
+    "notes": "Effective June 2011, Delta stopped designating fuel derivatives as accounting hedges; all fuel contracts are now not-designated and marked to market through earnings. Portfolio consists of call options, put options, combinations of two or more call and put options (collars and call spreads), swap contracts, and futures contracts. Underlying commodities: heating oil, crude oil, and low sulfur diesel."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3856.0,
+    "throughput_year": 2011,
+    "source_quote": "Total fuel consumption (gallons) 3,856 [millions] (from fuel expense table comparing 2011 vs 2010 in Item 7 MD&A)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Effective June 2011, Delta discontinued hedge accounting for all fuel derivatives; all fuel contracts are not-designated (marked to market through earnings). This is a significant structural change from prior years.",
+    "volume_pct_of_consumption=32 is computed: 1,225M gallons / 3,800M gallons (full-year 2012 consumption estimate); not explicitly stated as a percentage in the filing.",
+    "net_fair_value_mm=70 is the net fair value of all fuel hedge contracts at December 31, 2011: $570M current assets minus $500M current liabilities.",
+    "FY2011 net fuel hedge gains were $420M ($233M from AOCI reclassification of previously designated contracts + $187M mark-to-market adjustments), recorded in aircraft fuel and related taxes.",
+    "Delta paid $30M in net hedge margin to counterparties at December 31, 2011 (vs. received $119M in 2010); reflects near-neutral fair value position.",
+    "Monroe Energy refinery acquisition (mid-2012) not yet reflected in this filing."
+  ]
+}

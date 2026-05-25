@@ -1,0 +1,40 @@
+{
+  "filing_date": "2006-02-28",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Continental Airlines, Inc.",
+  "ticker": "CAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2005,
+    "source_quote": "Based on gallons expected to be consumed in 2006, for every one dollar increase in the price of crude oil, our annual fuel expense would increase by approximately $42 million (implies ~1,764 million projected gallons for 2006)."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedges outstanding at December 31, 2005 or at any time during 2005. In February 2006, entered into petroleum swap contracts to hedge a minimal portion of projected 2006 fuel usage."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No fuel hedges at any time during 2005. Entered minimal swaps for 2006 in February 2006 (after fiscal year end)."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1376.0,
+    "throughput_year": 2005,
+    "source_quote": "Fuel gallons consumed (millions) 1,376 [2005] 1,333 [2004] 1,257 [2003] (Item 6 selected operating data; Continental Airlines standalone)"
+  }
+}

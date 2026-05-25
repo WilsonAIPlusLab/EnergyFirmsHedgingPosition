@@ -1,0 +1,60 @@
+{
+  "filing_date": "2010-02-26",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "UAL Corporation / United Air Lines, Inc.",
+  "ticker": "UAUA",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2009,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.36,
+    "net_fair_value_mm": 133,
+    "note_reference": "Item 7A - Commodity Price Risk (Jet Fuel)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2010,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.36,
+      "commodities": [
+        "crude oil",
+        "heating oil",
+        "jet fuel"
+      ],
+      "instrument_types": [
+        "call_option",
+        "swap"
+      ],
+      "fair_value_mm": 133
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "2010 hedge portfolio: 9.7M barrels purchased call options at avg $76/bbl crude equivalent + 9.9M barrels swaps at avg $77/bbl. Total ~36% of 2010 consolidated fuel consumption. Implied volumes in gallons: ~407M (calls, 9.7M bbls \u00c3\u2014 42) + ~416M (swaps, 9.9M bbls \u00c3\u2014 42) = ~823M gallons total at ~36% of consumption. Prior year (2008) portfolio had severe losses from collar structures that required payments when crude dropped below ~$100/bbl. Company shifted to cleaner call options + swaps strategy for 2010."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Net fair value calculated as: receivable $138M minus payable $5M = +$133M net; plus $15M in pending settlements for expired contracts",
+    "All 2010 hedge instruments mature within 12 months of Dec 31, 2009",
+    "Volumes disclosed in barrels (millions); gallons conversion: 9.7M bbls calls \u00c3\u2014 42 = 407M gal; 9.9M bbls swaps \u00c3\u2014 42 = 416M gal",
+    "Company also posted only $10M cash collateral to counterparties at Dec 31, 2009 (down from $965M at Dec 31, 2008)",
+    "2009 full-year hedge portfolio was a major loss year (approx $297M cash losses in non-operating expense from 2008 position)"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2338,
+    "throughput_year": 2009,
+    "source_quote": "Total fuel consumption (gallons): 2,338 (2009)"
+  }
+}

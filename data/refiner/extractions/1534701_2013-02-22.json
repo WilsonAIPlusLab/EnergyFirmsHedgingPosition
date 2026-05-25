@@ -1,0 +1,42 @@
+{
+  "filing_date": "2013-02-22",
+  "fiscal_year_end": "2012-12-31",
+  "company_name": "Phillips 66",
+  "ticker": "PSX",
+  "throughput": {
+    "crude_throughput_mmbbl": 755.42,
+    "throughput_year": 2012,
+    "source_quote": "Worldwide Crude oil processed 2,064 [Thousands of Barrels Daily, Year Ended December 31, 2012]"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "mixed",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 16"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2013,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 8000,
+      "volume_unit": "MBbls",
+      "volume_raw": "(8) million barrels net",
+      "notes": "Net short position combining crude oil, refined products and NGL; 99% expire within 12 months. Only net exposure disclosed; gross long/short positions not reported separately."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 770,
+    "total_liability_mm": 769,
+    "net_fair_value_mm": 1,
+    "as_of_date": "2012-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["PSX reports only net notional exposure (not gross long/short). Net position = (8) million barrels short (crude oil, refined products and NGL combined). No hedge accounting. Derivatives used for commercial optimization (balancing physical systems, capturing market opportunities), not solely inventory hedging."]
+}

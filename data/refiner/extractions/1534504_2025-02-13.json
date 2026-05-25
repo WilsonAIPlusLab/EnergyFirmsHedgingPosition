@@ -1,0 +1,55 @@
+{
+  "filing_date": "2025-02-13",
+  "fiscal_year_end": "2024-12-31",
+  "company_name": "PBF Energy Inc.",
+  "ticker": "PBF",
+  "throughput": {
+    "crude_throughput_mmbbl": 330.9,
+    "throughput_year": 2024,
+    "source_quote": "Total crude oil and feedstocks throughput (millions of barrels) 330.9 [Year Ended December 31, 2024]"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 22"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2025,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 13911,
+      "volume_unit": "MBbls",
+      "volume_raw": "13,911,000 barrels",
+      "notes": "Crude oil economic hedges (not designated). Inventory Intermediation Agreement terminated July 2023 \u00e2\u20ac\u201d no FVH outstanding. Direction not specified; assumed net short for inventory hedging."
+    },
+    {
+      "maturity_year": 2025,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 4704,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,704,000 barrels",
+      "notes": "Refined products economic hedges (not designated). Direction not specified; assumed net short for inventory hedging."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 2,
+    "total_liability_mm": 0,
+    "net_fair_value_mm": 2,
+    "as_of_date": "2024-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "PBF does not disclose gross long/short positions for economic hedges. Economic hedge direction assumed net short for inventory hedging. No fair value hedges since Inventory Intermediation Agreement terminated July 31, 2023. Economic $2.0M total asset."
+  ]
+}

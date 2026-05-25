@@ -1,0 +1,40 @@
+{
+  "filing_date": "2014-02-28",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "US Airways Group, Inc.",
+  "ticker": "LCC",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1540.0,
+    "fiscal_year": 2014,
+    "source_quote": "Our 2014 forecasted mainline and regional fuel consumption is presently approximately 1.54 billion gallons, and based on this forecast, a one cent per gallon increase in jet fuel price results in a $15 million increase in annual expense."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": null,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging. We have not entered into any transactions to hedge our fuel consumption. As a result, we fully realize the effects of any increase or decrease in fuel prices."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2008,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "US Airways Group merged with American Airlines Group (AAL) effective December 9, 2013. This is the final standalone filing. Assets acquired/liabilities assumed recorded at fair value as of merger date. No fuel hedging as of December 31, 2013."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1489,
+    "throughput_year": 2013,
+    "source_quote": "Fuel consumption (gallons in millions): 1,489 (2013 Total Mainline and Express)"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "filing_date": "2024-02-14",
+  "fiscal_year_end": "2023-12-31",
+  "company_name": "Alaska Air Group, Inc.",
+  "ticker": "ALK",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 11.0,
+    "note_reference": "Note 4 (Derivative Instruments and Risk Management)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2024,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2025,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Portfolio consists of crude oil call options only. Approximately 324 million gallons hedged from January 2024 to March 2025 (run-off portfolio). HEDGE PROGRAM SUSPENDED in Q4 2023; existing positions entered before suspension will settle through Q1 2025. Company cited refining margin volatility and West Coast concentration as reasons for suspending program. In 2023, hedges generated $62M of losses. Fair value = $10M (current) + $1M (noncurrent) = $11M, confirmed by fair value measurement table."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2023,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "CRITICAL: Fuel hedge program suspended in Q4 2023. Existing positions settle through Q1 2025; no new positions being entered.",
+    "No per-year volume or percentage breakdown disclosed; only aggregate ~324M gallons for Jan 2024 to Mar 2025.",
+    "Fair value $11M confirmed by Level 2 fair value measurement table.",
+    "In 2023, hedges recognized $62M of losses in aircraft fuel expense (out-of-money as oil fell while hedge strikes were elevated).",
+    "Company exploring alternative strategies to mitigate West Coast refinery concentration risk.",
+    "Horizon Air fuel hedges included in consolidated figures."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 824.0,
+    "throughput_year": 2023,
+    "source_quote": "Fuel gallons (000,000)\t824\t\t758\t\t9% (Item 7 operating statistics)"
+  }
+}

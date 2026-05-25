@@ -1,0 +1,42 @@
+{
+  "filing_date": "2020-02-21",
+  "fiscal_year_end": "2019-12-31",
+  "company_name": "Phillips 66",
+  "ticker": "PSX",
+  "throughput": {
+    "crude_throughput_mmbbl": 745.70,
+    "throughput_year": 2019,
+    "source_quote": "Worldwide Crude oil processed 2,043 [Thousands of Barrels Daily, Year Ended December 31, 2019]"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "mixed",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 15"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2020,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 16000,
+      "volume_unit": "MBbls",
+      "volume_raw": "(16) million barrels net",
+      "notes": "Net short position combining crude oil, refined petroleum products and NGL; over 99% expire within 12 months. Only net exposure disclosed; gross long/short positions not reported separately."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 1214,
+    "total_liability_mm": 1282,
+    "net_fair_value_mm": -68,
+    "as_of_date": "2019-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["PSX reports only net notional exposure (not gross long/short). Net position = (16) million barrels short (crude oil, refined products and NGL combined). No hedge accounting for commodity derivatives. Interest rate swaps designated as cash flow hedges for headquarters lease are excluded."]
+}

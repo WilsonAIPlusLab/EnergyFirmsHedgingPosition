@@ -1,0 +1,87 @@
+{
+  "filing_date": "2007-02-23",
+  "fiscal_year_end": "2006-12-31",
+  "company_name": "Alaska Air Group, Inc.",
+  "ticker": "ALK",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.44,
+    "net_fair_value_mm": 68.6,
+    "note_reference": "Note 4"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2007,
+      "volume_gallons_millions": 193.7,
+      "volume_pct_of_consumption": 0.44,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2008,
+      "volume_gallons_millions": 85.3,
+      "volume_pct_of_consumption": 0.19,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2009,
+      "volume_gallons_millions": 11.4,
+      "volume_pct_of_consumption": 0.05,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Portfolio consists almost exclusively of crude oil call options, with some collar structures. Annual volumes computed by summing quarterly data from Note 4. Also entered into fuel purchase contracts fixing refining margin for ~50% of Alaska fuel in Q1 2007 (not counted here). Fair value $68.6M includes $39.3M capitalized premiums."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Annual volumes computed by summing quarterly disclosure: 2007=52.3+49.4+53.7+38.3=193.7M gal; 2008=27.9+22.7+17.4+17.3=85.3M gal; 2009=5.6+5.8=11.4M gal (only Q1-Q2 2009 disclosed).",
+    "Annual pct approximated as average of quarterly percentages: 2007=(50+45+45+36)/4=44%; 2008=(26+20+14+16)/4=19%; 2009=5%.",
+    "Fair value of $68.6M includes $39.3M capitalized premiums paid to counterparties.",
+    "Horizon Air fuel hedges included in consolidated figures.",
+    "Fuel purchase contracts fixing refining margin excluded (not crude oil derivative)."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 408.6,
+    "throughput_year": 2006,
+    "source_quote": "Fuel gallons (000,000) 354.3 [Alaska 2006] + 54.3 [Horizon 2006] = 408.6 million gallons combined (Item 6 operating statistics)"
+  }
+}

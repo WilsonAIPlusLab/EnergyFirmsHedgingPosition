@@ -1,0 +1,44 @@
+{
+  "filing_date": "2006-03-24",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Western Refining, Inc.",
+  "ticker": "WNR",
+  "throughput": {
+    "crude_throughput_mmbbl": 36.87,
+    "throughput_year": 2005,
+    "source_quote": "Total refinery throughput (bpd): 101,002"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2006,
+      "commodity": "refined_products",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 350,
+      "volume_unit": "MBbls",
+      "volume_raw": "350,000 barrels refined products price swaps (2006)",
+      "notes": "Non-hedging, mark-to-market; to fix margins on Q1 2006 refined product sales; unrealized net gain ~$0.19M; net realized+unrealized loss $8.1M in 2005"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 0.19,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 0.19,
+    "as_of_date": "2005-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All derivatives undesignated (no hedge accounting). Small refined product price swap position to fix margins on Q1 2006 sales. Western Refining went public via IPO in 2005 (El Paso, Texas refiner)."
+  ]
+}

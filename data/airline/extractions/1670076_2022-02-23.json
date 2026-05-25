@@ -1,0 +1,38 @@
+{
+  "filing_date": "2022-02-23",
+  "fiscal_year_end": "2021-12-31",
+  "company_name": "Frontier Airlines Holdings, Inc.",
+  "ticker": "ULCC",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2021,
+    "source_quote": "Based on our annual fuel consumption over the last 12 months, a hypothetical 10% increase in the average price per gallon of aircraft fuel would have increased aircraft fuel expense by approximately $58 million."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A Aircraft Fuel"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel derivative contracts outstanding as of December 31, 2021. Company historically used out-of-the-money call options; entered collars in 2019 that resulted in losses when fuel fell in 2020. Program appears to have been discontinued."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2020,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 265.6,
+    "throughput_year": 2021,
+    "source_quote": "Fuel gallons consumed (thousands) 265,558 162,241 288,510 64% (8)% [from 2021 Annual Report operating statistics table]"
+  },
+  "warnings": ["Frontier used fuel collars in 2019 that resulted in significant payment obligations in 2020 when fuel prices fell; no hedging since then"]
+}

@@ -1,0 +1,41 @@
+{
+  "filing_date": "2015-02-27",
+  "fiscal_year_end": "2014-12-31",
+  "company_name": "Republic Airways Holdings, Inc.",
+  "ticker": "RJET",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2014,
+    "source_quote": "No fuel hedging disclosures in item7a for FY2014. Item 7A covers only interest rate risk. A 100 bps change in LIBOR = $0.5M impact."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging program for FY2014. Item 7A covers only interest rate risk. Republic operates under fixed-fee CPAs where fuel is a pass-through cost."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No fuel hedging disclosures in item7a for FY2014.",
+    "Republic operating under fixed-fee CPAs with fuel pass-through."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 6.108054,
+    "throughput_year": 2014,
+    "source_quote": "Gallons consumed: 6,108,054 (fiscal year ended December 31, 2014) from Item 7 table. 51.1% decrease due to elimination of pro-rate operations for Frontier."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "filing_date": "2025-02-18",
+  "fiscal_year_end": "2024-12-31",
+  "company_name": "Frontier Airlines Holdings, Inc.",
+  "ticker": "ULCC",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2024,
+    "source_quote": "Based on our annual fuel consumption over the last 12 months, a hypothetical 10% increase in the average price per gallon of aircraft fuel would have increased aircraft fuel expense by approximately $104 million."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A Aircraft Fuel"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging. Item 7A does not mention fuel derivatives."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2020,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 381.4,
+    "throughput_year": 2024,
+    "source_quote": "Fuel gallons consumed (thousands) 381,444 364,606 16,838 5% [from 2024 Annual Report operating statistics table]"
+  },
+  "warnings": []
+}

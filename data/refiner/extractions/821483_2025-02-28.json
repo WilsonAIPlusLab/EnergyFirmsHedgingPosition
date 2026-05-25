@@ -1,0 +1,88 @@
+{
+  "filing_date": "2025-02-28",
+  "fiscal_year_end": "2024-12-31",
+  "company_name": "Par Pacific Holdings, Inc.",
+  "ticker": "PARR",
+  "throughput": {
+    "crude_throughput_mmbbl": 29.6,
+    "throughput_year": 2024,
+    "source_quote": "Hawaii Refinery Feedstocks Throughput (Mbpd): 81.1"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 15"
+  },
+  "notional_positions": [
+    {
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "volume_mbbl": 88901,
+      "maturity_year": 2025,
+      "designation": "economic_hedge",
+      "notes": "Exchange-traded crude oil futures purchases (long). From Note 15 table: Futures Long 88,901K bbl.",
+      "volume_unit": "MBbls",
+      "volume_raw": "88901 MBbls long crude_oil"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "volume_mbbl": 94018,
+      "maturity_year": 2025,
+      "designation": "economic_hedge",
+      "notes": "Exchange-traded crude oil futures sales (short). From Note 15 table: Futures Short (94,018K) bbl. Net futures position: (5,117K) bbl.",
+      "volume_unit": "MBbls",
+      "volume_raw": "94018 MBbls short crude_oil"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "volume_mbbl": 5249,
+      "maturity_year": 2025,
+      "designation": "economic_hedge",
+      "notes": "OTC crude oil swap purchases (long). From Note 15 table: Swaps Long 5,249K bbl.",
+      "volume_unit": "MBbls",
+      "volume_raw": "5249 MBbls long crude_oil"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "volume_mbbl": 5899,
+      "maturity_year": 2025,
+      "designation": "economic_hedge",
+      "notes": "OTC crude oil swap sales (short). From Note 15 table: Swaps Short (5,899K) bbl. Net swap position: (650K) bbl.",
+      "volume_unit": "MBbls",
+      "volume_raw": "5899 MBbls short crude_oil"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "options",
+      "direction": "long",
+      "volume_mbbl": null,
+      "maturity_year": 2025,
+      "designation": "economic_hedge",
+      "notes": "Option collars: 2,430 total open contracts noted in Note 15 (commencement Jan 2025, expiry Dec 2025; floor $58.15/bbl, ceiling $83.68/bbl). MBbl volume per contract not specified in filing \u00e2\u20ac\u201d volume_mbbl cannot be determined.",
+      "volume_unit": "MBbls",
+      "volume_raw": "2,430 contracts (MBbl volume unknown)"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 10.591,
+    "total_liability_mm": -13.456,
+    "net_fair_value_mm": -2.865,
+    "as_of_date": "2024-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Volumes from Note 15 (item7a did not provide specific volumes; $6.6M sensitivity noted in item7a). Note 15 table at Dec 31, 2024: Futures Long 88,901K / Short (94,018K) net (5,117K) bbl; Swaps Long 5,249K / Short (5,899K) net (650K) bbl; Total Long 94,150K / Short (99,917K) net (5,767K) bbl. Fair value: commodity asset $10,591K (current) / liability $13,456K; net liability $2,865K. Option collars: 2,430 total open contracts (Jan-Dec 2025; floor $58.15, ceiling $83.68); MBbl volume per contract not specified in filing. All derivatives undesignated economic hedges. Very high gross futures volumes reflect active rolling hedge program across three refineries."
+  ]
+}

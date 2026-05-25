@@ -1,0 +1,42 @@
+{
+  "filing_date": "2002-06-06",
+  "fiscal_year_end": "2002-03-31",
+  "company_name": "Frontier Airlines, Inc.",
+  "ticker": "FRNT",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2002,
+    "source_quote": "Item 7A section content does not isolate fuel hedging quantitative disclosures. No fuel hedging program disclosed for FY ended March 31, 2002; hedging program established November 2002 per subsequent filing."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging program for FY ended March 31, 2002. Per the FY2003 filing, Frontier implemented a fuel hedging program in November 2002 (after this fiscal year end). Item 7A section was very large combined file but fuel hedging disclosures not found via keyword search."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 70.5,
+    "throughput_year": 2002,
+    "source_quote": "Aircraft fuel costs of $61,226,000 for 70,530,000 gallons used and $71,083,000 for 66,724,000 gallons used resulted in an average fuel cost of 87¢ and $1.07 per gallon for the years ended March 31, 2002 and 2001."
+  },
+  "warnings": [
+    "Fuel hedging program was established in November 2002, after the March 31, 2002 fiscal year end.",
+    "No fuel hedges outstanding at March 31, 2002.",
+    "Frontier Airlines Inc. has a March 31 fiscal year end."
+  ]
+}

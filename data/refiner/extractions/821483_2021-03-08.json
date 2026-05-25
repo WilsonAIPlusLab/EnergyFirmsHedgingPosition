@@ -1,0 +1,66 @@
+{
+  "filing_date": "2021-03-08",
+  "fiscal_year_end": "2020-12-31",
+  "company_name": "Par Pacific Holdings, Inc.",
+  "ticker": "PARR",
+  "throughput": {
+    "crude_throughput_mmbbl": 26.54,
+    "throughput_year": 2020,
+    "source_quote": "Hawaii Refineries Combined Feedstocks Throughput (Mbpd): 72.7 (Par East 66.5 + Par West 6.2)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A / Note 14"
+  },
+  "notional_positions": [
+    {
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "volume_mbbl": 360,
+      "maturity_year": 2021,
+      "designation": "economic_hedge",
+      "notes": "Exchange-traded crude oil futures purchases (long). From item7a table: Futures Long 360K bbl.",
+      "volume_unit": "MBbls",
+      "volume_raw": "360 MBbls long crude_oil"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "volume_mbbl": 1190,
+      "maturity_year": 2021,
+      "designation": "economic_hedge",
+      "notes": "OTC crude oil swap purchases (long). From item7a table: Swaps Long 1,190K bbl.",
+      "volume_unit": "MBbls",
+      "volume_raw": "1190 MBbls long crude_oil"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "volume_mbbl": 1000,
+      "maturity_year": 2021,
+      "designation": "economic_hedge",
+      "notes": "OTC crude oil swap sales (short). From item7a table: Swaps Short (1,000K) bbl.",
+      "volume_unit": "MBbls",
+      "volume_raw": "1000 MBbls short crude_oil"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 1.346,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 1.346,
+    "as_of_date": "2020-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A provides tabular data at Dec 31, 2020: Futures Long 360K / Short 0 net 360K bbl; Swaps Long 1,190K / Short (1,000K) net 190K bbl; Total Long 1,550K / Short (1,000K) net 550K bbl. Fair value: net asset $1,346K (current portion; long-term breakdown not separately stated in parsed section). Option collars on internally consumed refinery fuel: 25K bbl/month noted \u00e2\u20ac\u201d excluded from notional_positions as total volume not specified. All derivatives undesignated economic hedges. COVID-19 year: reduced refinery runs and hedging activity. J.Aron Supply and Offtake Agreement embedded derivative not included."
+  ]
+}

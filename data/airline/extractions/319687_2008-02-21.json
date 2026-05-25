@@ -1,0 +1,51 @@
+{
+  "filing_date": "2008-02-21",
+  "fiscal_year_end": "2007-12-31",
+  "company_name": "Continental Airlines, Inc.",
+  "ticker": "CAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2007,
+    "source_quote": "Based on our expected fuel consumption in 2008, a one dollar increase in the price of crude oil will increase our annual fuel expense by approximately $45 million (implies ~1,890 million projected gallons for 2008)."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 24,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2008,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "heating oil"
+      ],
+      "instrument_types": [
+        "collar"
+      ],
+      "fair_value_mm": 24
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "At Dec 31, 2007: hedged approximately 20% of Q1 2008 and 5% of Q2 2008 projected fuel requirements using heating oil zero-cost collars (avg call $2.44/gallon, avg put $2.28/gallon). Fair value $24 million asset. Fuel hedges contributed gains of $31 million in 2007."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1542.0,
+    "throughput_year": 2007,
+    "source_quote": "Fuel gallons consumed (millions) 1,542 [2007] 1,471 [2006] 1,376 [2005] (Item 6 selected operating data; Continental Airlines standalone)"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "filing_date": "2000-03-28",
+  "fiscal_year_end": "1999-12-31",
+  "company_name": "Northwest Airlines Corp",
+  "ticker": "NWA",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 1999,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 0.24,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 19,
+    "note_reference": "Note 14"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2000,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.24,
+      "commodities": [],
+      "instrument_types": [
+        "futures",
+        "swaps"
+      ],
+      "fair_value_mm": 19
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Futures contracts traded on regulated exchanges and fuel swap agreements. Unrealized gains of $19M recorded in OCI as of December 31, 1999."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2039,
+    "throughput_year": 1999,
+    "source_quote": "Gallons consumed (in millions): 2,039 (1999)"
+  }
+}

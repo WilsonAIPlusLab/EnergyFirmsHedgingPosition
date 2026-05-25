@@ -1,0 +1,78 @@
+{
+  "filing_date": "2014-02-28",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "American Airlines Group Inc.",
+  "ticker": "AAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 4400,
+    "fiscal_year": 2014,
+    "source_quote": "AAG's consolidated fuel requirements in 2014 are expected to increase significantly to approximately 4.4 billion gallons as a result of a full year of US Airways operations."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 19,
+    "net_fair_value_mm": 107,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2014,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.19,
+      "commodities": [
+        "heating oil",
+        "jet fuel",
+        "WTI crude"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "call_spread"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2015,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "heating oil",
+        "jet fuel",
+        "WTI crude"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "call_spread"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": false,
+    "notes": "Legacy AMR pre-merger contracts only. 22 million barrels outstanding at Dec 31, 2013, to be settled over next 18 months (2014 and partial 2015). 2014: 19% hedged \u00e2\u20ac\u201d collars 18% (floor $2.62/gal), call spreads 1% (capped $3.18/gal); total cap ~$2.91/gal. Net fair value: $107M at Dec 31, 2013. FY2013 American-only net losses: $(12)M; FY2012: $4M; FY2011: $341M."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2013,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "program_exists=false: Item 7A states: 'We have not entered into any fuel hedges since the Effective Date and our current policy is not to do so.' Effective Date = December 9, 2013 (merger completion date).",
+    "stopped_hedging_year=2013: AAL adopted a no-hedge policy upon emergence from Chapter 11 and merger with US Airways on December 9, 2013.",
+    "pct_hedged_next_year=19: Legacy AMR-era contracts covering 19% of estimated consolidated 2014 fuel requirements (4.4B gallons combined AAL + US Airways) as of January 2014. No new hedges will be entered.",
+    "volume_gallons_millions=null: Note 10 discloses 22 million barrels across next 18 months (equivalent to approximately 924 million gallons over 2014-2015).",
+    "FY2013 fuel consumption: 2,806M gallons (American mainline only, per fuel table); 2014 expected ~4.4B gallons consolidated (AAL + US Airways).",
+    "This is the first 10-K filed as American Airlines Group Inc. (AAL ticker); prior filings were under AMR Corporation (AMR ticker). Merger with US Airways Group completed December 9, 2013."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2806.0,
+    "throughput_year": 2013,
+    "source_quote": "Fuel consumption (gallons, in millions) 2,806 [2013] 2,723 [2012] 2,756 [2011] (Item 7 Total Mainline and Regional; AMR only, excl. 23-day US Airways post-merger)"
+  }
+}

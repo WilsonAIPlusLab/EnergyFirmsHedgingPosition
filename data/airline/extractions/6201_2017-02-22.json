@@ -1,0 +1,42 @@
+{
+  "filing_date": "2017-02-22",
+  "fiscal_year_end": "2016-12-31",
+  "company_name": "American Airlines Group Inc.",
+  "ticker": "AAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 4300,
+    "fiscal_year": 2017,
+    "source_quote": "Our 2017 forecasted mainline and regional fuel consumption is approximately 4.3 billion gallons, and based on this forecast, a one cent per gallon increase in aviation fuel price would result in a $43 million increase in annual expense."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": 0,
+    "note_reference": null
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging contracts outstanding at December 31, 2016. No hedging activity in FY2016."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2013,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "program_exists=false: 'As of December 31, 2016, we did not have any fuel hedging contracts outstanding to hedge our fuel consumption.'",
+    "stopped_hedging_year=2013: 'Our current policy is not to enter into transactions to hedge our fuel consumption, although we review that policy from time to time based on market conditions and other factors.'",
+    "2017 forecast: ~4.3 billion gallons; $0.01/gal increase = $43M annual expense."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 4347.0,
+    "throughput_year": 2016,
+    "source_quote": "Fuel consumption (gallons in millions) 4,347 [2016] 4,323 [2015] 4,332 [2014] (Item 7 Total Mainline and Regional)"
+  }
+}

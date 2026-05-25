@@ -1,0 +1,43 @@
+{
+  "filing_date": "2020-02-25",
+  "fiscal_year_end": "2019-12-31",
+  "company_name": "United Airlines Holdings, Inc.",
+  "ticker": "UAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 4500,
+    "fiscal_year": 2020,
+    "source_quote": "The Company's 2020 forecasted fuel consumption is presently approximately 4.5 billion gallons"
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A - Commodity Price Risk (Aircraft Fuel)"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging. Company states: 'The Company's current strategy is to not enter into transactions to hedge fuel price volatility, although the Company regularly reviews its policy based on market conditions and other factors.' 2020 expected fuel consumption: ~4.5 billion gallons. $1/bbl change \u00e2\u2020\u2019 $108M annual fuel expense change."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2016,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No fuel hedging since 2016 - consistent with policy decision",
+    "2020 forecasted fuel consumption: ~4.5 billion gallons (pre-COVID estimate as of Feb 25, 2020)",
+    "$1/bbl change \u00e2\u2020\u2019 ~$108M annual fuel expense impact",
+    "Note: filing dated Feb 25, 2020 - just before COVID-19 pandemic severely impacted airline demand"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 4292,
+    "throughput_year": 2019,
+    "source_quote": "Total fuel consumption (gallons): 4,292 (2019)"
+  }
+}

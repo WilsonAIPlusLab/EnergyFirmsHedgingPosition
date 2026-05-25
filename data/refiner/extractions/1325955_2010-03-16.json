@@ -1,0 +1,64 @@
+{
+  "filing_date": "2010-03-16",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "Alon USA Energy, Inc.",
+  "ticker": "ALJ",
+  "throughput": {
+    "crude_throughput_mmbbl": 48.766,
+    "throughput_year": 2009,
+    "source_quote": "Big Spring crude 57,578 BPD x 365 days + California crude 30,828 BPD x 365 days + Krotz Springs crude 45,200 BPD x 365 days"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": null
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 240,
+      "volume_unit": "MBbls",
+      "volume_raw": "240,000 bbl crude oil futures long @ $71.95/bbl",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 240,
+      "volume_unit": "MBbls",
+      "volume_raw": "240,000 bbl crude oil futures short @ $80.63/bbl",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2010,
+      "commodity": "heating_oil",
+      "instrument": "crack_spread_swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 364.8,
+      "volume_unit": "MBbls",
+      "volume_raw": "364,800 bbl heating oil crack spread futures @ $11.38/bbl crack; FV $4,239K",
+      "notes": "Also SPR swaps: 278,322 bbl long and short offsetting pair (FV nets to zero, G/L ($9,983K))."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": -9.572,
+    "as_of_date": "2009-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "heating_oil_crack_spread_and_3_2_1"
+  },
+  "warnings": []
+}

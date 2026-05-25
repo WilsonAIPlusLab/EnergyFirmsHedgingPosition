@@ -1,0 +1,40 @@
+{
+  "filing_date": "2006-03-16",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Air Transport Services Group, Inc.",
+  "ticker": "ATSG",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": null,
+    "note_reference": null
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging program. ATSG is a cargo ACMI/CMI carrier - fuel risk is largely mitigated by reimbursement through ACMI/CMI agreements with customers (DHL, Amazon, etc.). Company does have interest rate swap instruments (required by credit agreement) but these are interest rate hedges, not fuel hedges."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "ATSG is a cargo air carrier (ACMI/CMI operations via ABX Air, Air Transport International). Fuel cost is primarily pass-through to customers via ACMI/CMI agreements. Fuel risk largely mitigated by reimbursement through ACMI agreement with DHL. Has interest rate derivatives (treasury locks for aircraft financing). No fuel hedging."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 142.0,
+    "throughput_year": 2005,
+    "source_quote": "We consumed 142 million gallons and 148 million gallons of aviation fuel in 2005 and 2004, respectively. We do not hedge fuel prices or purchase fuel derivatives."
+  }
+}

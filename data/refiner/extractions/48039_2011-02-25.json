@@ -1,0 +1,55 @@
+{
+  "filing_date": "2011-02-25",
+  "fiscal_year_end": "2010-12-31",
+  "company_name": "Holly Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 80.826,
+    "throughput_year": 2010,
+    "source_quote": "Crude charge (BPD)(1): 221,440"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Note 13"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2011,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 120,
+      "volume_unit": "MBbls",
+      "volume_raw": "120,000 barrels",
+      "notes": "Commodity price swaps to protect temporary crude oil inventory build against price volatility; measured at fair value with gains/losses to cost of products sold"
+    },
+    {
+      "maturity_year": 2011,
+      "commodity": "natural_gas",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": null,
+      "volume_unit": "MMBTU",
+      "volume_raw": "1,500,000 MMBTUs (ratably Jan-Mar 2011, $4.20/MMBTU)",
+      "notes": "Natural gas purchase hedges; excluded from volume_mbbl as non-barrel commodity"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": 0.497,
+    "net_fair_value_mm": -0.497,
+    "as_of_date": "2010-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Crude oil swap is economic hedge (not designated) protecting temporary inventory build of 120,000 bbls. Natural gas swap (1.5M MMBTU) is designated cash flow hedge. Fair value of commodity swaps (accrued liability) = $0.497mm at Dec 31, 2010 per prior year disclosure."
+  ]
+}

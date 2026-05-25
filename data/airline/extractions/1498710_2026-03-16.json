@@ -1,0 +1,38 @@
+{
+  "filing_date": "2026-03-16",
+  "fiscal_year_end": "2025-12-31",
+  "company_name": "Spirit Airlines, Inc.",
+  "ticker": "SAVE",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2025,
+    "source_quote": "Based on our annual fuel consumption, a hypothetical 10% increase in the average price per gallon of aircraft fuel would have increased into-plane aircraft fuel cost for 2025 by $100.0 million."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A Aircraft Fuel"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Filing states 'from time to time' uses derivatives but no active positions. No fuel derivative activity since 2015. Company in bankruptcy proceedings (liabilities subject to compromise noted in filing)."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2015,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 409.4,
+    "throughput_year": 2025,
+    "source_quote": "Fuel gallons consumed (thousands) 409,418 [2025] 551,819 [2024] (25.8)% [from 2025 Annual Report operating statistics table, in thousands]; Aircraft fuel expense decreased by 32.2% from $1,478.8 million in 2024 to $1,003.0 million in 2025 due to 25.8% decrease in fuel gallons consumed during bankruptcy proceedings."
+  },
+  "warnings": ["Spirit Airlines filed for bankruptcy; filing references liabilities subject to compromise; 10% sensitivity of $100.0M reflects reduced fleet/operations vs prior years"]
+}

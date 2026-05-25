@@ -1,0 +1,77 @@
+﻿{
+    "filing_date":  "2018-02-26",
+    "fiscal_year_end":  "2017-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  74.73302,
+                       "throughput_year":  2017,
+                       "source_quote":  "Total crude oil throughput    204,748    94.5 [2017]    198,042    94.7 [2016]    (Refining Throughput and Production Data, bpd)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "mixed",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Item 7A"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2018,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  7100,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "7.1 million barrels of 2-1-1 crack spreads",
+                                   "notes":  "Commodity swap contracts (OTC, cash-settled) fixing 2-1-1 crack spread margin on future production. Not designated as hedge for accounting purposes. Part of $64.3M net unrealized loss."
+                               },
+                               {
+                                   "maturity_year":  2018,
+                                   "commodity":  "heating_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  3600,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "3.6 million barrels of distillate crack spreads",
+                                   "notes":  "Commodity swap contracts (OTC, cash-settled) fixing distillate crack spread margin on future production. Not designated as hedge for accounting purposes. Part of $64.3M net unrealized loss."
+                               },
+                               {
+                                   "maturity_year":  2018,
+                                   "commodity":  "gasoline",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  3600,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "3.6 million barrels of gasoline crack spreads",
+                                   "notes":  "Commodity swap contracts (OTC, cash-settled) fixing gasoline crack spread margin on future production. Not designated as hedge for accounting purposes. Part of $64.3M net unrealized loss."
+                               },
+                               {
+                                   "maturity_year":  2018,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "forward",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  5800,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "5.8 million barrels of Canadian crude oil at fixed differentials",
+                                   "notes":  "Forward purchase and sale commitments for Canadian crude oil priced at fixed differentials, not probable of physical settlement â€” accounted as derivatives. Not designated as hedge for accounting purposes. Part of $64.3M net unrealized loss."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  0,
+                        "total_liability_mm":  64,
+                        "net_fair_value_mm":  -64,
+                        "as_of_date":  "2017-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2-1-1"
+                             },
+    "warnings":  [
+                     "Item 8 notes is empty; data from Item 7A. No open NYMEX positions at Dec 31, 2017. Crack spread swaps: 7.1M bbl (2-1-1) + 3.6M bbl distillate + 3.6M bbl gasoline = 14.3M bbl total. Canadian crude forwards: 5.8M bbl accounted as derivatives. $1/bbl sensitivity = $17.7M (combined). Net unrealized loss $64.3M. CVR Partners nitrogen fertilizer derivatives excluded. No interest rate swaps outstanding."
+                 ]
+}

@@ -1,0 +1,66 @@
+﻿{
+    "filing_date":  "2011-03-07",
+    "fiscal_year_end":  "2010-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  41.378225,
+                       "throughput_year":  2010,
+                       "source_quote":  "Total crude oil throughput    113,365    91.6 [2010]    108,226    90.0 [2009]    (Refining Throughput and Production Data, bpd)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "inventory",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Item 7A"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2011,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "futures",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  1361,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,361 WTI crude oil contracts (net long)",
+                                   "notes":  "NYMEX WTI crude oil futures, 1,361 contracts Ã— 1,000 bbl/contract = 1,361,000 barrels = 1,361 MBbls. Net long position as of Dec 31, 2010. Not designated as hedge for accounting purposes."
+                               },
+                               {
+                                   "maturity_year":  2011,
+                                   "commodity":  "heating_oil",
+                                   "instrument":  "futures",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  741,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "741 heating oil contracts (short)",
+                                   "notes":  "NYMEX heating oil futures, 741 contracts Ã— 1,000 bbl/contract = 741,000 barrels = 741 MBbls. Short position as of Dec 31, 2010. Not designated as hedge for accounting purposes."
+                               },
+                               {
+                                   "maturity_year":  2011,
+                                   "commodity":  "gasoline",
+                                   "instrument":  "futures",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  765,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "765 unleaded gasoline contracts (short)",
+                                   "notes":  "NYMEX unleaded gasoline futures, 765 contracts Ã— 1,000 bbl/contract = 765,000 barrels = 765 MBbls. Short position as of Dec 31, 2010. Not designated as hedge for accounting purposes."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  0,
+                        "total_liability_mm":  4,
+                        "net_fair_value_mm":  -4,
+                        "as_of_date":  "2010-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  false,
+                                 "crack_spread_type":  null
+                             },
+    "warnings":  [
+                     "Cash Flow Swap (crack spread swap with J. Aron) was terminated October 8, 2009 â€” not applicable for FY2010. NYMEX positions: net long 1,361 crude contracts, short 741 HO contracts, short 765 UG contracts at Dec 31, 2010. Unrealized loss ~$4.0M. Item 8 notes is empty; data from Item 7A. CVR Partners nitrogen fertilizer derivatives excluded. No interest rate swap outstanding (fixed rate debt)."
+                 ]
+}

@@ -1,0 +1,44 @@
+﻿{
+    "filing_date":  "2019-02-21",
+    "fiscal_year_end":  "2018-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  72.69267,
+                       "throughput_year":  2018,
+                       "source_quote":  "Total crude throughput  Coffeyville 124,489  Wynnewood 74,669  Total 199,158  (Throughput by Refinery, in bpd, Year Ended December 31, 2018)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "inventory",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 7"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2019,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "futures",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  2000,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "2 million barrels of Canadian crude oil",
+                                   "notes":  "Forward purchase and sale commitments in Canadian crude oil (futures contracts), 2 million barrels at Dec 31, 2018. Not designated as hedge for accounting purposes. No outstanding commodity swap positions at Dec 31, 2018 (all crack spread swaps closed/expired)."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  7,
+                        "total_liability_mm":  0,
+                        "net_fair_value_mm":  7,
+                        "as_of_date":  "2018-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  false,
+                                 "crack_spread_type":  null
+                             },
+    "warnings":  [
+                     "Item 7A is sparse; data from Note 7 in full_text.txt. No outstanding commodity swap positions (crack spread swaps) at Dec 31, 2018. Only open position: 2 million barrels Canadian crude oil futures. Net fair value: derivatives assets $7M net of $1M counterparty netting. Crack spread swaps from FY2017 were fully closed/realized by Dec 31, 2018. Total derivative gain for FY2018 = $146M (realized). CVR Partners nitrogen fertilizer derivatives excluded. RINs forward purchase commitments excluded (compliance, not petroleum commodity hedge)."
+                 ]
+}

@@ -1,0 +1,44 @@
+﻿{
+    "filing_date":  "2020-02-20",
+    "fiscal_year_end":  "2019-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  74.11617,
+                       "throughput_year":  2019,
+                       "source_quote":  "Total crude throughput  Coffeyville 129,878  Wynnewood 73,180  Total 203,058  (Throughput by Refinery, in bpd, Year Ended December 31, 2019)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "inventory",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 8"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2020,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "forward",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  5000,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "5 million barrels of Canadian crude oil (forward purchase and sale commitments)",
+                                   "notes":  "Forward purchase and sale commitments for Canadian crude oil (approximately 3 million barrels purchases and 1 million barrels sales), combined ~5 million barrels disclosed in open positions table. Not designated as hedge for accounting purposes. No outstanding commodity swap positions at Dec 31, 2019."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  3,
+                        "total_liability_mm":  11,
+                        "net_fair_value_mm":  -8,
+                        "as_of_date":  "2019-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  false,
+                                 "crack_spread_type":  null
+                             },
+    "warnings":  [
+                     "Item 7A is sparse; data from Note 8 in full_text.txt. No outstanding commodity swap positions (crack spread swaps) at Dec 31, 2019. Canadian crude oil forward purchase/sale commitments: ~5 million barrels combined. Fair value: gross assets $3M, gross liabilities $(11M), counterparty netting $(8M), total net liability $(8M). CVR Refining acquired by CVR Energy as wholly-owned subsidiary Jan 2019. CVR Partners nitrogen fertilizer derivatives excluded. RINs purchase commitments excluded."
+                 ]
+}

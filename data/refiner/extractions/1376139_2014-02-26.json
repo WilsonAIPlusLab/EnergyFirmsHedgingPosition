@@ -1,0 +1,55 @@
+﻿{
+    "filing_date":  "2014-02-26",
+    "fiscal_year_end":  "2013-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  68.46232,
+                       "throughput_year":  2013,
+                       "source_quote":  "Total crude oil throughput    187,568    94.9 [2013]    169,356    94.0 [2012]    103,702    95.2 [2011]    (Refining Throughput and Production Data, bpd)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "mixed",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Item 7A"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2014,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "futures",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  1,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1 WTI crude oil contract (short)",
+                                   "notes":  "NYMEX WTI crude oil futures, 1 contract Ã— 1,000 bbl/contract = 1,000 barrels = 1 MBbl. Short position as of Dec 31, 2013. Not designated as hedge for accounting purposes. Inventory hedging. Essentially negligible."
+                               },
+                               {
+                                   "maturity_year":  2014,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  23300,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "23.3 million barrels of crack spreads",
+                                   "notes":  "Commodity swap contracts (OTC, cash-settled) to fix margin on future gasoline and distillate production. 23.3 million barrels confirmed by $1/bbl sensitivity = $23.3M. Net unrealized loss $16.1M at Dec 31, 2013. Contracts had both short-term and long-term maturities. Not designated as hedge for accounting purposes."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  0,
+                        "total_liability_mm":  16,
+                        "net_fair_value_mm":  -16,
+                        "as_of_date":  "2013-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  null
+                             },
+    "warnings":  [
+                     "Item 8 notes is empty; data from Item 7A. Crack spread swaps: 23.3 million barrels (23,300 MBbls), net unrealized loss $16.1M. NYMEX: short 1 WTI crude contract (negligible). Total fair value liability ~$16.1M (~$16M). CRNF interest rate swap (nitrogen fertilizer subsidiary) excluded as non-commodity. CVR Partners nitrogen fertilizer commodity derivatives excluded."
+                 ]
+}

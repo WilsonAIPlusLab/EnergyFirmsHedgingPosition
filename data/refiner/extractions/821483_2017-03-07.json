@@ -1,0 +1,77 @@
+{
+  "filing_date": "2017-03-07",
+  "fiscal_year_end": "2016-12-31",
+  "company_name": "Par Pacific Holdings, Inc.",
+  "ticker": "PARR",
+  "throughput": {
+    "crude_throughput_mmbbl": 25.62,
+    "throughput_year": 2016,
+    "source_quote": "Hawaii Refinery Feedstocks Throughput (Mbpd): 70.2"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A / Note 11"
+  },
+  "notional_positions": [
+    {
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "volume_mbbl": 100,
+      "maturity_year": 2017,
+      "designation": "economic_hedge",
+      "notes": "OTC swap purchases of 100 thousand barrels that economically hedge crude oil and refined products inventory (per Item 7A; labeled crude_oil as primary commodity).",
+      "volume_unit": "MBbls",
+      "volume_raw": "100 MBbls long crude_oil"
+    },
+    {
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "long",
+      "volume_mbbl": 315,
+      "maturity_year": 2017,
+      "designation": "economic_hedge",
+      "notes": "Futures purchases of 315 thousand barrels that economically hedge sales of refined products (per Item 7A).",
+      "volume_unit": "MBbls",
+      "volume_raw": "315 MBbls long refined_products"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "options",
+      "direction": "long",
+      "volume_mbbl": 624,
+      "maturity_year": 2017,
+      "designation": "economic_hedge",
+      "notes": "Option collars on internally consumed refinery fuel at Hawaii refinery: 52,000 bbl/month through December 2017 (12 months remaining Jan-Dec 2017 = 624K bbl). Floor $53.00/bbl, ceiling $60.84/bbl (per Item 7A).",
+      "volume_unit": "MBbls",
+      "volume_raw": "624 MBbls long crude_oil"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "options",
+      "direction": "long",
+      "volume_mbbl": 240,
+      "maturity_year": 2018,
+      "designation": "economic_hedge",
+      "notes": "Option collars on internally consumed refinery fuel at Hawaii refinery: 20,000 bbl/month through December 2018 (12 months Jan-Dec 2018 = 240K bbl). OTC swaps at $46.45 weighted-average also noted in Item 7A.",
+      "volume_unit": "MBbls",
+      "volume_raw": "240 MBbls long crude_oil"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 2.748,
+    "total_liability_mm": -0.595,
+    "net_fair_value_mm": 2.153,
+    "as_of_date": "2016-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A not required (smaller reporting company). Item 7A describes at Dec 31, 2016: OTC swap purchases 100K bbl hedging crude oil and refined products inventory; futures purchases 315K bbl hedging sales of refined products. Option collars 52K bbl/month through Dec 2017 and 20K bbl/month through Dec 2018 on internally consumed refinery fuel (Hawaii only). Fair value: commodity derivative asset $2,748K (long-term) / liability $595K (current); net asset $2,153K at Dec 31, 2016. J.Aron Supply and Offtake Agreement embedded derivative and MLC Washington Refinery Intermediation Agreement embedded derivative not included in notional_positions. Washington refinery (Billings, MT) acquired June 2016 \u2014 first full year with both Hawaii and Washington refineries."
+  ]
+}

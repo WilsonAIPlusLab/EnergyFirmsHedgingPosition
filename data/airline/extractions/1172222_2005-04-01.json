@@ -1,0 +1,40 @@
+{
+  "filing_date": "2005-04-01",
+  "fiscal_year_end": "2003-12-31",
+  "company_name": "Hawaiian Holdings, Inc.",
+  "ticker": "HA",
+  "fuel_consumption": {
+    "expected_gallons_millions": 104.127,
+    "fiscal_year": 2003,
+    "source_quote": "As a holding company with no operations, Hawaiian is not subject to any material market risk. Market risk information is not provided for Hawaiian, the business of which has been operated under the jurisdiction of the Trustee since May 2003."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": null,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Company was under bankruptcy trustee jurisdiction since May 2003. No market risk disclosures provided. No hedging program disclosed."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2003,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Company in Chapter 11 bankruptcy under trustee control; no hedging program information available"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 104.127,
+    "throughput_year": 2003,
+    "source_quote": "Gallons of jet fuel consumed 104,127 (in thousands) [from 2005 10-K three-year operating statistics table]"
+  }
+}

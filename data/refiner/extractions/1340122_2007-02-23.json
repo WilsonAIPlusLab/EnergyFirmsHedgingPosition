@@ -1,0 +1,66 @@
+﻿{
+    "filing_date":  "2007-02-23",
+    "fiscal_year_end":  "2006-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  18.83327,
+                       "throughput_year":  2006,
+                       "source_quote":  "Total feedstock runs (bpd)(2)    51,598 [2006]    50,213 [2005]    26,205 [2004]    (Feedstock runs represents the barrels per day of crude oil and other feedstocks processed at our refineries)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 7"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  28751,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "28,751,000 bbl crude oil swaps purchased 2007-2011 at avg $66.49/bbl",
+                                   "notes":  "Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "diesel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  17803,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "17,802,500 bbl diesel swaps sold 2007-2011 at avg $81.07/bbl",
+                                   "notes":  ""
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "gasoline",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  10949,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "10,948,500 bbl gasoline swaps sold 2007-2011 at avg $74.30/bbl",
+                                   "notes":  "Also specialty products crude and nat gas swaps."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  null,
+                        "total_liability_mm":  null,
+                        "net_fair_value_mm":  null,
+                        "as_of_date":  "2006-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+
+                 ]
+}

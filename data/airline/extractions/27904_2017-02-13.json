@@ -1,0 +1,55 @@
+{
+  "filing_date": "2017-02-13",
+  "fiscal_year_end": "2016-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": -324,
+    "note_reference": "Note 4"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2017,
+      "volume_gallons_millions": 197,
+      "volume_pct_of_consumption": 0,
+      "commodities": ["WTI crude", "GC Jet Fuel", "diesel"],
+      "instrument_types": ["call_option", "put_option", "collar", "swap", "futures"],
+      "fair_value_mm": -324
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": true,
+    "notes": "197M gallons (through January 2018) primarily represent offsetting derivatives used to neutralize the 2016 and 2017 airline segment hedge portfolio. Effective price sensitivity for 2017 is approximately 0%. Delta has not entered new fuel hedge contracts and has effectively paused its hedging program."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 4016.0,
+    "throughput_year": 2016,
+    "source_quote": "2016  4,016 gallons consumed (millions) (from fuel consumption table in Item 1)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": true,
+    "refinery_name": "Monroe Energy (Trainer refinery)"
+  },
+  "warnings": [
+    "pct_hedged_next_year=0: Delta entered into offsetting derivatives to neutralize its 2017 hedge portfolio; effective price sensitivity is approximately 0%.",
+    "Item 7A states: 'Assuming we do not enter into new derivative contracts, we are exposed to changes in the market price of jet fuel.' This marks an effective pause in Delta's fuel hedging program.",
+    "volume_gallons_millions=197 (through January 2018) primarily represents offsetting/neutralizing contracts, not new hedge positions.",
+    "net_fair_value_mm=-324 represents the net fair value of the residual fuel hedge position: $360M assets minus $684M liabilities at December 31, 2016.",
+    "FY2016 net fuel hedge losses were $366M; during Q2 2016, Delta early settled $455M of 2016 positions.",
+    "FY2016 fuel consumption was approximately 4 billion gallons; one cent increase = $40M additional annual expense (consistent with unhedged position).",
+    "Monroe Energy (Trainer refinery) owned since June 2012; refinery provides some natural hedge through jet fuel production."
+  ]
+}

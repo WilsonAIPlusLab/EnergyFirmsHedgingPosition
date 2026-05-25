@@ -1,0 +1,62 @@
+{
+  "filing_date": "2011-02-16",
+  "fiscal_year_end": "2010-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 3600,
+    "fiscal_year": 2011,
+    "source_quote": "estimated aircraft fuel consumption of 3.6 billion gallons for the 11 months ending December 31, 2011"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 38,
+    "net_fair_value_mm": 352,
+    "note_reference": "Note 3"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2011,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.38,
+      "commodities": ["WTI crude"],
+      "instrument_types": ["call_option", "collar", "swap"],
+      "fair_value_mm": 381
+    },
+    {
+      "coverage_year": 2012,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.02,
+      "commodities": ["WTI crude"],
+      "instrument_types": ["call_option", "swap"],
+      "fair_value_mm": 32
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "As of Jan 31, 2011: crude oil call options (19%) + crude oil collars cap/floor (10%) + crude oil swaps (9%) = 38% for 2011; crude oil call options (1%) + crude oil swaps (1%) = 2% for 2012. All crude oil-based; no heating oil or jet fuel contracts unlike prior years. Not-designated fuel hedges: 192M gallons crude oil and crude oil products, Jan-Dec 2011."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3823.0,
+    "throughput_year": 2010,
+    "source_quote": "2010  3,823 (Gallons Consumed (Millions) from fuel consumption table in Item 1)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "pct_hedged_next_year=38 is as of January 31, 2011; Note 3 table states 36% as of December 31, 2010.",
+    "annual_hedge_positions fair values ($381M for 2011, $32M for 2012) are at $92/barrel crude oil assumption as of January 31, 2011; December 31, 2010 values per Note 3 table are $328M (2011) and $24M (2012).",
+    "net_fair_value_mm=352 covers designated fuel hedge contracts only at December 31, 2010 per Note 3 'open fuel hedge position' table; not-designated fuel hedges (192M gallons crude oil, net approximately $14M fair value) are excluded.",
+    "fuel_consumption=3600M gallons covers 11 months (February-December 2011); full-year 2011 estimate is approximately 3,927M gallons.",
+    "FY2010 fuel expense was $8.9 billion (30% of total operating expense), including $89 million of net fuel hedge costs.",
+    "Delta received $119 million in net fuel hedge margin from counterparties at December 31, 2010 reflecting gain position."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "filing_date": "2007-02-23",
+  "fiscal_year_end": "2006-12-31",
+  "company_name": "Continental Airlines, Inc.",
+  "ticker": "CAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2006,
+    "source_quote": "Based on our expected fuel consumption in 2007, a hypothetical one dollar increase in the price of crude oil will increase our annual fuel expense by approximately $44 million (implies ~1,848 million projected gallons for 2007)."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": -18,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2007,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil",
+        "heating oil"
+      ],
+      "instrument_types": [
+        "swap",
+        "collar"
+      ],
+      "fair_value_mm": -18
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "At Dec 31, 2006: hedged approximately 30% of Q1 2007 and 10% of Q2 2007 projected fuel requirements using petroleum swap contracts (weighted average swap price $67.34/barrel) and heating oil zero-cost collar options (avg call $1.90/gallon, avg put $1.77/gallon). Fair value obligation $18 million (liability). Fuel hedges had negative impact of $40 million to fuel expense in 2006."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1471.0,
+    "throughput_year": 2006,
+    "source_quote": "Fuel gallons consumed (millions) 1,471 [2006] 1,376 [2005] 1,333 [2004] (Item 6 selected operating data; Continental Airlines standalone)"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "filing_date": "2002-02-22",
+  "fiscal_year_end": "2001-12-31",
+  "company_name": "Tesoro Corporation",
+  "ticker": "TSO",
+  "throughput": {
+    "crude_throughput_mmbbl": 105.9,
+    "throughput_year": 2001,
+    "source_quote": "TOTAL REFINERY SYSTEM THROUGHPUT (thousand bpd): 290.1"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2002,
+      "commodity": "gasoline",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 200,
+      "volume_unit": "MBbls",
+      "volume_raw": "200,000 barrels of gasoline price swap positions, settling Q1 2002",
+      "notes": "Non-hedging derivative, mark-to-market with $39,000 loss in 2001"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": 0.039,
+    "net_fair_value_mm": -0.039,
+    "as_of_date": "2001-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All derivatives are non-designated (economic hedges). Small gasoline swap position for inventory management. Tesoro is a large refiner with 290 MBPD throughput across Pacific Northwest, Mid-Pacific, and Mid-Continent refineries."
+  ]
+}

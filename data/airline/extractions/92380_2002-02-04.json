@@ -1,0 +1,99 @@
+{
+  "filing_date": "2002-02-04",
+  "fiscal_year_end": "2001-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 60,
+    "net_fair_value_mm": -19.4,
+    "note_reference": "Note 9"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2002,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.6,
+      "commodities": [
+        "heating oil",
+        "WTI crude"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2003,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.47,
+      "commodities": [
+        "heating oil",
+        "WTI crude"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2004,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2005,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Mixture of purchased call options, collar structures, and fixed price swap agreements. Majority of 2002 hedges are heating oil-based option contracts; remaining hedge positions are crude oil-based. SFAS 133 adopted January 1, 2001; hedges accounted for as cash flow hedges."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No gallon volumes provided; only percentage of anticipated fuel requirements disclosed.",
+    "2004-2005 positions described as 'small portion'; no percentage given.",
+    "Net fair value of -$19.4 million is a net liability classified in accrued liabilities.",
+    "Per-year fair value breakdown not available; -$19.4 million is total portfolio fair value at December 31, 2001.",
+    "Unrealized losses of $31.1 million (net of tax) in AOCI at December 31, 2001; ~$22.2 million expected to be reclassified to earnings during 2002."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1086.9,
+    "throughput_year": 2001,
+    "source_quote": "Fuel and oil expense table: average cost $771 million, average cost per gallon $0.7086 (Item 1, 2002 10-K filing)"
+  }
+}

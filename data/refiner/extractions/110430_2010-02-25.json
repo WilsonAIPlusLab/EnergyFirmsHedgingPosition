@@ -1,0 +1,55 @@
+{
+  "filing_date": "2010-02-25",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "Frontier Oil Corporation",
+  "ticker": "FTO",
+  "throughput": {
+    "crude_throughput_mmbbl": 56.13,
+    "throughput_year": 2009,
+    "source_quote": "Average crude oil charges were 153,786 bpd for the year ended December 31, 2009"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Notes 2 and 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "forward",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 527,
+      "volume_unit": "MBbls",
+      "volume_raw": "527,000 barrels crude oil - in-transit purchases (2010)",
+      "notes": "Non-hedging, mark-to-market; crude purchase in-transit positions"
+    },
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 1628,
+      "volume_unit": "MBbls",
+      "volume_raw": "1,628,000 barrels crude oil - inventory hedge (Cheyenne + El Dorado)",
+      "notes": "Non-hedging, mark-to-market; to hedge excess intermediate, finished product and crude oil inventory"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 0.124,
+    "total_liability_mm": 6.551,
+    "net_fair_value_mm": -6.427,
+    "as_of_date": "2009-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All commodity derivatives undesignated (no hedge accounting) in FY2009. Also had NYMEX calendar spread options (Level 1, asset) and interest rate swaps ($150M notional, excluded) and NYMEX crude call options related to lease crude purchases (Level 3, $0 value at year end). Commodity contracts: asset $0 / liability $6,551K. Other contracts (options): asset $124K."
+  ]
+}

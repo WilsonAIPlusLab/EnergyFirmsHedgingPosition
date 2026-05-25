@@ -1,0 +1,75 @@
+{
+  "filing_date": "2018-02-28",
+  "fiscal_year_end": "2017-12-31",
+  "company_name": "Marathon Petroleum Corporation",
+  "ticker": "MPC",
+  "throughput": {
+    "crude_throughput_mmbbl": 644.23,
+    "throughput_year": 2017,
+    "source_quote": "Refinery throughputs (thousands of barrels per day): Crude oil refined     1,765     1,699     1,711"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2018,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 23299,
+      "volume_unit": "MBbls",
+      "volume_raw": "23,299",
+      "notes": "Exchange-traded crude oil long CME and ICE, 99.8% expire Q1 2018"
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 25199,
+      "volume_unit": "MBbls",
+      "volume_raw": "25,199",
+      "notes": "Exchange-traded crude oil short CME and ICE, 99.8% expire Q1 2018"
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 6130,
+      "volume_unit": "MBbls",
+      "volume_raw": "257,460 thousand gallons / 42",
+      "notes": "Exchange-traded refined products long 257,460 thousand gallons converted to MBbls, 100% expire Q1 2018"
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 5858,
+      "volume_unit": "MBbls",
+      "volume_raw": "(236,460 + 9,587) thousand gallons / 42",
+      "notes": "Exchange-traded short 236,460 + OTC short 9,587 thousand gallons converted to MBbls, 100% expire Q1 2018"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2017-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["Refined products volumes originally in thousands of gallons; converted to MBbls (divide by 42). Natural gas OTC long 928,003 MMBtu excluded. All positions expire Q1 2018."]
+}

@@ -1,0 +1,84 @@
+{
+  "filing_date": "2006-02-01",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1400,
+    "fiscal_year": 2006,
+    "source_quote": "The Company expects to consume approximately 1.4 billion gallons of jet fuel in 2006."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 70,
+    "pct_hedged_next_year": 60,
+    "net_fair_value_mm": 1700,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.7,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2007,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.6,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2008,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.35,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2009,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.3,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Mixture of purchased call options, collar structures, and fixed price swap agreements. Hedging via crude oil, heating oil, and unleaded gasoline contracts."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Prices reported in crude oil equivalent per barrel, not per gallon. Volume percentages apply to total anticipated jet fuel requirements.",
+    "pct_hedged for 2006 reported as 'over 70 percent' \u2014 recorded as 70 (floor). For 2007 'over 60 percent' \u2014 recorded as 60. For 2008 'over 35 percent' \u2014 recorded as 35.",
+    "Net fair value reported as approximately $1.7 billion in item7a; Note 10 fair value table shows Fuel Contracts carrying/fair value of $1,678 million. Used $1,700 as rounded figure consistent with text.",
+    "Note 10 mentions $1.1 billion long-term portion but item7a states $1.0 billion \u2014 minor discrepancy in rounding."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1301.9,
+    "throughput_year": 2005,
+    "source_quote": "Fuel and oil expense table: average cost $1,341 million, average cost per gallon $1.03 (Item 1, 2007 10-K filing)"
+  }
+}

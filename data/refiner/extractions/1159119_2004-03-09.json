@@ -1,0 +1,44 @@
+{
+  "filing_date": "2004-03-09",
+  "fiscal_year_end": "2003-12-31",
+  "company_name": "Premcor Inc.",
+  "ticker": null,
+  "throughput": {
+    "crude_throughput_mmbbl": 183.2,
+    "throughput_year": 2003,
+    "source_quote": "Port Arthur 234,700 bpd; Lima 139,500 bpd (full year); Memphis 152,500 bpd (306 days from March 3)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A Commodity Risk"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2004,
+      "commodity": "crude_oil_and_refined_products",
+      "instrument": "futures_options_swaps",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 8000,
+      "volume_unit": "MBbls",
+      "volume_raw": "Net long ~8 million barrels fixed-price commitments (with Memphis refinery)",
+      "notes": "$1/bbl change in futures = ~$10M change. Uses crack spread swaps, crude oil options, exchange-traded futures/options."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2003-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "refining_margin"
+  },
+  "warnings": [
+    "Volume estimates based on sensitivity analysis disclosure; exact positions not disclosed"
+  ]
+}

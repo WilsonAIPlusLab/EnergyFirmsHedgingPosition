@@ -1,0 +1,55 @@
+﻿{
+    "filing_date":  "2016-02-19",
+    "fiscal_year_end":  "2015-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  70.473105,
+                       "throughput_year":  2015,
+                       "source_quote":  "Total crude oil throughput    193,077    94.3 [2015]    196,545    94.6 [2014]    187,568    94.9 [2013]    (Refining Throughput and Production Data, bpd)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "mixed",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Item 7A"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2016,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  2500,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "2.5 million barrels of crack spreads",
+                                   "notes":  "Commodity swap contracts (OTC, cash-settled) to fix margin on future distillate production. 2.5 million barrels confirmed by $1/bbl sensitivity = $2.5M. Not designated as hedge for accounting purposes."
+                               },
+                               {
+                                   "maturity_year":  2016,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  1400,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1.4 million barrels for crude oil price and basis hedging",
+                                   "notes":  "Price and basis swaps to fix the price on a portion of future crude oil purchases and basis on future product sales. 1.4 million barrels confirmed by $1/bbl sensitivity = $1.4M. Not designated as hedge for accounting purposes. Direction assumed long (fixing purchase price of crude oil)."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  45,
+                        "total_liability_mm":  0,
+                        "net_fair_value_mm":  45,
+                        "as_of_date":  "2015-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  null
+                             },
+    "warnings":  [
+                     "Item 8 notes is empty; data from Item 7A. No open NYMEX positions at Dec 31, 2015. Crack spread swaps: 2.5 million barrels (2,500 MBbls) for distillate margin. Price/basis swaps: 1.4 million barrels (1,400 MBbls) for crude oil price and product basis. Combined fair value net unrealized gain $44.6M (~$45M). Direction for price/basis swap assumed long (fixing crude purchase price). CRNF interest rate swap excluded (expired Feb 12, 2016). CVR Partners nitrogen fertilizer derivatives excluded."
+                 ]
+}

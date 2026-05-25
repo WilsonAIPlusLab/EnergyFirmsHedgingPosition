@@ -1,0 +1,88 @@
+{
+  "filing_date": "2020-02-28",
+  "fiscal_year_end": "2019-12-31",
+  "company_name": "Delek US Holdings, Inc.",
+  "ticker": "DK",
+  "throughput": {
+    "crude_throughput_mmbbl": 96.695,
+    "throughput_year": 2019,
+    "source_quote": "Tyler Refinery: Throughput (average barrels per day): Crude Oil 70,516 (365 days). El Dorado Refinery: Crude Oil 54,420 (365 days). Big Spring Refinery: Crude oil 72,039 (365 days). Krotz Springs Refinery: Crude Oil 67,943 (365 days)."
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "mixed",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": null
+  },
+  "notional_positions": [
+    {
+      "maturity_year": null,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 26542,
+      "volume_unit": "MBbls",
+      "volume_raw": "26,542,000 bbl crude oil price swaps long (non-designated, 2020-2021); FV $7.4M",
+      "notes": ""
+    },
+    {
+      "maturity_year": null,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 26471,
+      "volume_unit": "MBbls",
+      "volume_raw": "26,471,000 bbl crude oil price swaps short (non-designated, 2020-2021); FV ($19.3M)",
+      "notes": ""
+    },
+    {
+      "maturity_year": null,
+      "commodity": "crack_spread",
+      "instrument": "crack_spread_swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 13484,
+      "volume_unit": "MBbls",
+      "volume_raw": "13,484,000 bbl inv/product/crack swaps long (non-designated, 2020-2021); FV $3.0M",
+      "notes": ""
+    },
+    {
+      "maturity_year": null,
+      "commodity": "crack_spread",
+      "instrument": "crack_spread_swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 16907,
+      "volume_unit": "MBbls",
+      "volume_raw": "16,907,000 bbl inv/product/crack swaps short (non-designated, 2020-2021); FV ($20.7M)",
+      "notes": "Also nat gas: long 26,347,500 MMBtu FV ($2.7M); short 13,702,500 MMBtu FV $0.2M."
+    },
+    {
+      "maturity_year": null,
+      "commodity": "crack_spread",
+      "instrument": "crack_spread_swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 300,
+      "volume_unit": "MBbls",
+      "volume_raw": "300,000 bbl inv/product/crack swaps long (CFH, 2020); FV ($2.1M)",
+      "notes": "Also 300,000 bbl short CFH FV $3.6M. Canadian trading: sales 1,293,474 bbl; purchases 1,186,591 bbl."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": -19.7,
+    "as_of_date": "2019-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "inventory_refined_product_and_crack_spread_swaps"
+  },
+  "warnings": [
+    "Trading activities disclosed separately: Canadian forward contracts approx 1.3M bbl each side."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "filing_date": "2015-02-25",
+  "fiscal_year_end": "2014-12-31",
+  "company_name": "HollyFrontier Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 148.256,
+    "throughput_year": 2014,
+    "source_quote": "Crude charge (BPD) (1): 406,180"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "crack_spread",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2015,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 4380,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,380,000 barrels WTI crude oil (2015)",
+      "notes": "Cash flow hedge against price risk on forecasted crude oil purchases"
+    },
+    {
+      "maturity_year": 2015,
+      "commodity": "heating_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 4380,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,380,000 barrels ultra-low sulfur diesel (2015)",
+      "notes": "Cash flow hedge on forecasted diesel sales"
+    },
+    {
+      "maturity_year": 2015,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 4015,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,015,000 barrels commodity price swap (WTI basis spread) - long (all maturing 2015)",
+      "notes": "WTI basis spread economic hedge on crude purchases"
+    },
+    {
+      "maturity_year": 2015,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 1095,
+      "volume_unit": "MBbls",
+      "volume_raw": "1,095,000 barrels commodity price swap (WTI) - long (all maturing 2015)",
+      "notes": "WTI crude oil economic hedge"
+    },
+    {
+      "maturity_year": 2015,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 2058,
+      "volume_unit": "MBbls",
+      "volume_raw": "2,058,000 barrels NYMEX futures (WTI) - short (all maturing 2015)",
+      "notes": "NYMEX inventory hedge"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 54.869,
+    "total_liability_mm": 25.897,
+    "net_fair_value_mm": 28.972,
+    "as_of_date": "2014-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "diesel crack spread (long WTI crude / short ULSD)"
+  },
+  "warnings": [
+    "Natural gas cash flow hedges (28.8M MMBTU through 2017) excluded as non-barrel. Economic hedge positions (WTI basis, grade differentials) also present but specific volumes not available in notes text."
+  ]
+}

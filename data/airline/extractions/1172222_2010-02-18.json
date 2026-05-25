@@ -1,0 +1,54 @@
+{
+  "filing_date": "2010-02-18",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "Hawaiian Holdings, Inc.",
+  "ticker": "HA",
+  "fuel_consumption": {
+    "expected_gallons_millions": 137.589,
+    "fiscal_year": 2009,
+    "source_quote": "Based on gallons expected to be consumed in 2010, for every one-cent increase in the cost of jet fuel, our annual fuel expense increases by approximately $1.4 million."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 3.6,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2010,
+      "volume_gallons_millions": 42.168,
+      "volume_pct_of_consumption": 0.2991,
+      "commodities": [
+        "crude oil"
+      ],
+      "instrument_types": [
+        "call options",
+        "collars"
+      ],
+      "fair_value_mm": 3.6
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Crude oil caps (call options) and collars (including synthetic collars with different underlying commodities). Not designated as SFAS 133 hedges. FV asset $3.6M at Dec 31 2009. As of Jan 29, 2010: Q1 ceiling 17,598k gal (56%), Q2 ceiling 13,104k gal (42%), Q3 ceiling 8,190k gal (26%), Q4 ceiling 3,276k gal (10%). Total ceiling 2010 ~42.168M gallons."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Volume table as of Jan 29, 2010; ceiling and floor volumes shown separately for collar positions; volume uses ceiling (call) side; not designated as SFAS 133 cash flow hedges"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 137.589,
+    "throughput_year": 2009,
+    "source_quote": "Fuel gallons consumed 137,589 (in thousands)"
+  }
+}

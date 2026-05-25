@@ -1,0 +1,43 @@
+{
+  "filing_date": "2004-03-15",
+  "fiscal_year_end": "2003-12-31",
+  "company_name": "Midwest Air Group, Inc.",
+  "ticker": "MEH",
+  "fuel_consumption": {
+    "expected_gallons_millions": 86.0,
+    "fiscal_year": 2003,
+    "source_quote": "Estimated 2004 fuel consumption ~86 million gallons per item7a sensitivity disclosure."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "At December 31, 2003: NO options in place for any period. Company stopped hedging entirely in 2003 — no call options purchased for any future quarter. Estimated 2004 fuel consumption ~86M gal. Item8_notes notes $1.1M reclassified from OCI to income in 2003 as offset to fuel expense (from expiring 2002 options). Company resumed hedging in 2004 (collars for 2005)."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2003,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 80.3,
+    "throughput_year": 2003,
+    "source_quote": "Aircraft fuel and oil and associated taxes increased $2.4 million, or 3.1%, from 2002 to $81.1 million in 2003. Into-plane fuel prices increased 21.5% in 2003, averaging $1.01 per gallon in 2003 versus $0.83 per gallon in 2002. Fuel consumption decreased 15.1% in 2003. [Derived: $81.1M / $1.01 = 80.3M gallons]"
+  },
+  "warnings": [
+    "No fuel options outstanding at December 31, 2003 — company stopped hedging entirely.",
+    "$1.1M reclassified from AOCI to fuel expense in FY2003 (from 2002 options expiring).",
+    "Company subsequently resumed hedging in 2004 (collar strategy for 2005).",
+    "Estimated 2004 fuel consumption ~86 million gallons."
+  ]
+}

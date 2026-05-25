@@ -1,0 +1,42 @@
+{
+  "filing_date": "2010-02-24",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "Sunoco Inc",
+  "ticker": "SUN",
+  "throughput": {
+    "crude_throughput_mmbbl": 228.3,
+    "throughput_year": 2009,
+    "source_quote": "Throughputs (thousands of barrels daily): Crude oil 625.4"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Note 18"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2010,
+      "commodity": "refined_products",
+      "instrument": "forwards_futures_swaps_options",
+      "direction": "mixed",
+      "designation": "mixed",
+      "volume_mbbl": 472,
+      "volume_unit": "MBbls",
+      "volume_raw": "472 thousand barrels of refined products",
+      "notes": "Open derivative positions not extending beyond Dec 31, 2010"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 4.0,
+    "total_liability_mm": 4.0,
+    "net_fair_value_mm": 0.0,
+    "as_of_date": "2009-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": []
+}

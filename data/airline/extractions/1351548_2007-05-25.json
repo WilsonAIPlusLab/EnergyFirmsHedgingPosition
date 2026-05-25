@@ -1,0 +1,53 @@
+{
+  "filing_date": "2007-05-25",
+  "fiscal_year_end": "2007-03-31",
+  "company_name": "Frontier Airlines Holdings, Inc.",
+  "ticker": "FRNT",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2007,
+    "source_quote": "Cash settlements from fuel derivatives for FY2007 = net payments of $3,925,000; non-cash MTM gains = $12,753,000. Fair value of fuel hedge agreements at March 31, 2007 = $13,729,000 (asset)."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 13.729,
+    "note_reference": "Item 7A; Item 8 Notes"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2008,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": ["crude oil", "jet fuel"],
+      "instrument_types": ["swap", "collar", "call_option"],
+      "fair_value_mm": 13.729
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Crude oil options and swap/collar agreements for fuel hedging. Fair value = $13,729,000 (asset) at March 31, 2007 vs. $976,000 at March 31, 2006. FY2007 results: unrealized MTM gains of $12,753,000 (decrease to fuel expense); cash settlements = net payments of $3,925,000 (increase to fuel expense). Interest rate swap (notional $27M) expired March 2007. These fuel hedges did not qualify for hedge accounting under SFAS 133; MTM adjustments included in aircraft fuel expense. Percentage of consumption hedged not disclosed in item7a."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 161.6,
+    "throughput_year": 2007,
+    "source_quote": "fuel costs of $343,082,000 for 161,616,000 gallons used and $281,906,000 [for] 141,474,000 gallons used resulted in an average fuel cost of $2.12 and [FY2007 and FY2006 respectively]"
+  },
+  "warnings": [
+    "March 31 fiscal year end.",
+    "Net fair value $13.729M (asset) at March 31, 2007.",
+    "FY2007: MTM gains $12.753M; cash settlement payments $3.925M.",
+    "Percentage of fuel consumption hedged not disclosed for FY2007.",
+    "Frontier Airlines Holdings filed for Chapter 11 bankruptcy on April 10, 2008 (subsequent to this filing)."
+  ]
+}

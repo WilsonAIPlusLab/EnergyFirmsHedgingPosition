@@ -1,0 +1,69 @@
+{
+  "filing_date": "2021-02-26",
+  "fiscal_year_end": "2020-12-31",
+  "company_name": "Alaska Air Group, Inc.",
+  "ticker": "ALK",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 15.0,
+    "note_reference": "Note 4 (Derivative Instruments and Risk Management)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2021,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2022,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Portfolio consists of crude oil call options only. Approximately 300 million gallons hedged from January 2021 to June 2022 (reduced from prior years due to COVID-19 reduced demand). Fair value = $11M (current) + $4M (noncurrent) = $15M, confirmed by fair value measurement table. COVID-19 year: significantly reduced fuel consumption; hedges may represent higher % of actual reduced consumption."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No per-year volume or percentage breakdown disclosed; only aggregate ~300M gallons for Jan 2021 to Jun 2022.",
+    "pct_hedged_next_year not determinable from disclosure.",
+    "COVID-19 impacted year: actual 2020 fuel consumption significantly below historical levels, hedges may represent abnormally high % of reduced consumption.",
+    "Fair value $15M confirmed by Level 2 fair value measurement table.",
+    "Horizon Air fuel hedges included in consolidated figures."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 461.0,
+    "throughput_year": 2020,
+    "source_quote": "Fuel gallons (000,000)\t461\t\t862\t\t(46.5)%\t\t839\t\t2.7% (Item 7 operating statistics; COVID-19 impact)"
+  }
+}

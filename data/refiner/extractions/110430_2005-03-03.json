@@ -1,0 +1,32 @@
+{
+  "filing_date": "2005-03-03",
+  "fiscal_year_end": "2004-12-31",
+  "company_name": "Frontier Oil Corporation",
+  "ticker": "FTO",
+  "throughput": {
+    "crude_throughput_mmbbl": 54.22,
+    "throughput_year": 2004,
+    "source_quote": "Consolidated Charges (bpd) 2004: Light crude 37,486 + Heavy crude 110,662 = 148,148 bpd crude oil charged (leap year 366 days)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Notes 2 and 12"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": 0.354,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 0.354,
+    "as_of_date": "2004-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "During FY2004, all derivatives undesignated (no hedge accounting). Open inventory hedges at Dec 31, 2004 had unrealized gain of $354,000 \u00e2\u20ac\u201d no barrels disclosed. Also had Baytex heavy crude differential contracts (losses $2.5M). Realized losses $8.1M on inventory hedges in 2004."
+  ]
+}

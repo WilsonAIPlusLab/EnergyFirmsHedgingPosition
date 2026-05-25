@@ -1,0 +1,54 @@
+{
+  "filing_date": "2018-02-23",
+  "fiscal_year_end": "2017-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": -66,
+    "note_reference": "Note 4"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2018,
+      "volume_gallons_millions": 249,
+      "volume_pct_of_consumption": 0,
+      "commodities": ["WTI crude", "refined products"],
+      "instrument_types": ["call_option", "put_option", "collar", "swap", "futures"],
+      "fair_value_mm": -66
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": true,
+    "notes": "249M gallons (through May 2019) are residual offsetting/deferral contracts from the 2015-2016 hedge wind-down, not new fuel hedges. Delta has not entered new airline fuel hedge contracts. Note: Delta may enter into derivatives to hedge financial risk related to Monroe's refining margins separately."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 4032.0,
+    "throughput_year": 2017,
+    "source_quote": "2017  4,032 gallons consumed (millions) (from fuel consumption table in Item 1)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": true,
+    "refinery_name": "Monroe Energy (Trainer refinery)"
+  },
+  "warnings": [
+    "volume_gallons_millions=249 (through May 2019) are residual deferral/neutralizing contracts from the 2015-2016 wind-down; effective price-sensitive coverage is approximately 0%.",
+    "net_fair_value_mm=-66 represents the net position of the residual contracts: $646M assets minus $712M liabilities at December 31, 2017.",
+    "FY2017 fuel hedge losses were $81M from residual deferral transactions. FY2016 losses were $366M and FY2015 losses were $741M.",
+    "Item 7A states: 'We have recently managed our fuel price risk through a hedging program' (past tense). A one cent increase in jet fuel = $40M additional expense, implying approximately 4 billion gallons consumed annually with no new hedges.",
+    "No forward fuel hedge sensitivity table appears in item7a (unlike all prior years with active hedging), confirming 0% effective coverage.",
+    "Monroe Energy (Trainer refinery) may separately hedge refining margins."
+  ]
+}

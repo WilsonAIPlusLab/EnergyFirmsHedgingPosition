@@ -1,0 +1,94 @@
+{
+  "filing_date": "2009-02-02",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1500,
+    "fiscal_year": 2009,
+    "source_quote": "The Company expects to consume approximately 1.5 billion gallons of jet fuel in 2009."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 10,
+    "pct_hedged_next_year": 10,
+    "net_fair_value_mm": -992,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2009,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.1,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2010,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.1,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2011,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.1,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2012,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.1,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2013,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.1,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Portfolio includes purchased call options, collar structures, and fixed-price swap agreements; additional contracts added in Q4 2008 \u2014 zero-cost collars and fixed-price swap derivatives (sold) \u2014 to reduce net hedge position; underlying commodities include crude oil, unleaded gasoline, and heating oil-based derivatives; net fair value at Dec 31 2008 was a net liability of $992 million ($246M current liability + $746M noncurrent liability)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "pct_hedged reported uniformly as 'approximately ten percent' for all years 2009-2013 \u2014 no per-year breakdown given; 10 recorded for each year",
+    "avg_price_per_bbl not disclosed for FY2008 filing \u2014 prior hedges were entered at varying prices; reduced hedge through sold derivatives offsets existing purchased positions",
+    "Net fair value is negative ($-992 million) \u2014 Company has net liability position due to Q4 2008 oil price collapse",
+    "Company posted $240 million cash collateral with counterparty as of Dec 31 2008 (shown in Prepaid expenses, not Accrued liabilities)"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1521.7,
+    "throughput_year": 2008,
+    "source_quote": "Fuel and oil expense table: average cost $3,713 million, average cost per gallon $2.44 (Item 1, 2009 10-K filing)"
+  }
+}

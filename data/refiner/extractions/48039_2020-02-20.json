@@ -1,0 +1,77 @@
+{
+  "filing_date": "2020-02-20",
+  "fiscal_year_end": "2019-12-31",
+  "company_name": "HollyFrontier Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 156.074,
+    "throughput_year": 2019,
+    "source_quote": "Crude charge (BPD) (1): 427,600"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2020,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 4758,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,758,000 barrels crude oil price swaps (basis spread) - long (2020)",
+      "notes": "Designated cash flow hedge locking in crude basis spread differentials"
+    },
+    {
+      "maturity_year": 2020,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 1365,
+      "volume_unit": "MBbls",
+      "volume_raw": "1,365,000 barrels NYMEX futures (WTI) - short (all maturing 2020)",
+      "notes": "Economic hedge on inventory"
+    },
+    {
+      "maturity_year": 2020,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 1464,
+      "volume_unit": "MBbls",
+      "volume_raw": "1,464,000 barrels crude oil price swaps (basis spread) - long (2020), economic hedge",
+      "notes": "Basis spread economic hedge"
+    },
+    {
+      "maturity_year": 2020,
+      "commodity": "refined_products",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 1251.2,
+      "volume_unit": "MBbls",
+      "volume_raw": "1,251,200 barrels forward gasoline and diesel contracts - long (all maturing 2020)",
+      "notes": "Economic hedge on refined product purchases; inventory management"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 17.588,
+    "total_liability_mm": 14.215,
+    "net_fair_value_mm": 3.373,
+    "as_of_date": "2019-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "WTI vs gasoline crack spread (economic hedge)"
+  },
+  "warnings": [
+    "Natural gas price swaps (3.6M MMBTU through 2021) excluded as non-barrel. Crack spread swaps (WTI vs gasoline) mentioned as economic hedges but volume not explicitly stated in note. Fair values from Dec 31, 2019 balance sheet table: designated swap contracts = $5.742mm asset/$1.23mm liability; economic = $11.846mm asset/$12.985mm liability."
+  ]
+}

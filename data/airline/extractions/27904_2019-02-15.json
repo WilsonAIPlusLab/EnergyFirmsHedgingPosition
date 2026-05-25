@@ -1,0 +1,44 @@
+{
+  "filing_date": "2019-02-15",
+  "fiscal_year_end": "2018-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": null,
+    "note_reference": "Note 4"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "219M gallons (through December 2019) are Monroe Energy's refinery margin hedges, not airline fuel hedges. Item 7A explicitly states: 'Our derivative contracts to hedge the financial risk from changing fuel prices are primarily related to Monroe's refining margins.' No airline fuel hedging program exists."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 4113.0,
+    "throughput_year": 2018,
+    "source_quote": "2018  4,113 gallons consumed (millions) (from fuel consumption table in Item 1)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": true,
+    "refinery_name": "Monroe Energy (Trainer refinery)"
+  },
+  "warnings": [
+    "program_exists=false: Delta Air Lines has no airline fuel hedging program. Item 7A states derivatives related to fuel are 'primarily related to Monroe's refining margins.'",
+    "volume_gallons_millions=219 and fair_value_mm=15 represent Monroe Energy's refinery margin hedges, NOT airline jet fuel consumption hedges.",
+    "FY2018: 'fuel hedges did not have a material impact on our income statement.' FY2017 losses $81M, FY2016 losses $366M (all from legacy wind-down).",
+    "A one cent increase in jet fuel = $40M additional annual expense, implying approximately 4 billion gallons consumed with no airline hedging.",
+    "Monroe Energy (Trainer refinery) continues to operate; refinery margin hedges are disclosed but economically separate from airline operations."
+  ]
+}

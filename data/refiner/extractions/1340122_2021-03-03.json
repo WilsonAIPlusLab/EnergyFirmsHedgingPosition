@@ -1,0 +1,45 @@
+﻿{
+    "filing_date":  "2021-03-03",
+    "fiscal_year_end":  "2020-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  31.047414,
+                       "throughput_year":  2020,
+                       "source_quote":  "Total feedstock runs (2)    84,829 [2020]    103,603 [2019]    (In bpd; feedstock runs = barrels per day of crude oil and other feedstocks processed at our facilities)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  null
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2021,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "basis_swap",
+                                   "direction":  "long",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1350,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,350,000 barrels",
+                                   "notes":  "WCS crude oil basis swaps - purchases, 2021 maturity, from Note 11 derivative positions table. Includes 217,000 bbl that settled in Q4 2020."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  0.0,
+                        "total_liability_mm":  -3.5,
+                        "net_fair_value_mm":  -3.5,
+                        "as_of_date":  "2020-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+                     "Smaller reporting company exemption - Item 7A not required; no commodity positions disclosed in 10-K Item 7A.",
+                     "Notional positions extracted from Note 11 derivative positions table: WCS crude oil basis swaps purchases 1,350,000 bbl (2021 maturity). Net FV = $0 assets - $3.5M liabilities (WCS basis $(1.3)M + inventory financing $(2.2)M) = -$3.5M."
+                 ]
+}

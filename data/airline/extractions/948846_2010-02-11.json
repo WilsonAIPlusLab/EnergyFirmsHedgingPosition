@@ -1,0 +1,75 @@
+{
+  "filing_date": "2010-02-11",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "AirTran Holdings, Inc.",
+  "ticker": "AAI",
+  "fuel_consumption": {
+    "expected_gallons_millions": 363.2,
+    "fiscal_year": 2009,
+    "source_quote": "2009 gallons burned = 363,215 thousand gallons per item7a disclosure."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 41.0,
+    "net_fair_value_mm": 49.3,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2010,
+      "volume_gallons_millions": 153.0,
+      "volume_pct_of_consumption": 0.41,
+      "commodities": [
+        "jet fuel",
+        "heating oil",
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap",
+        "collar",
+        "call_option"
+      ],
+      "fair_value_mm": 49.3
+    },
+    {
+      "coverage_year": 2011,
+      "volume_gallons_millions": 10.0,
+      "volume_pct_of_consumption": 0.03,
+      "commodities": [
+        "jet fuel",
+        "heating oil",
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap",
+        "collar",
+        "call_option"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "At Dec 31, 2009: 153M gal (41% of 2010 projected requirements) + 10M gal (3% of 2011 requirements) in fuel derivative instruments. Net fair value = $49.3M (asset). FY2009 gallons burned: 363,215 thousand. All fuel derivatives mark-to-market through earnings (no hedge accounting since Jan 1, 2009). Instruments include swaps, collars, purchased calls, sold calls on jet fuel, heating oil, or crude oil."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Net fair value $49.3M (asset) at Dec 31, 2009.",
+    "153M gal (41%) for 2010 + 10M gal (3%) for 2011 hedged at year-end 2009.",
+    "2009 gallons burned: 363.2 million."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 363,
+    "throughput_year": 2009,
+    "source_quote": "Gallons of fuel burned: 363,215 thousand (2009) = ~363M gallons; from Item 7 operating statistics table"
+  }
+}

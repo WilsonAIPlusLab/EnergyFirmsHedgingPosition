@@ -1,0 +1,51 @@
+cik,era_start_fy,era_end_fy,canonical_ticker,company_name,group,entity_id,lineage,business_model
+6201,1999,2012,AMR,AMR Corporation / American Airlines,airline,aal_family,AMR Corporation; renamed American Airlines Group Inc. 2013 after US Airways merger,standard
+6201,2013,2025,AAL,American Airlines Group Inc.,airline,aal_family,Emerged from bankruptcy; merged with US Airways 2013,standard
+27904,2002,2025,DAL,Delta Air Lines Inc.,airline,dal_family,Emerged from bankruptcy 2007; acquired Northwest 2008; owns Monroe Energy refinery,standard
+92380,2000,2025,LUV,Southwest Airlines Co.,airline,luv_family,,standard
+100517,2000,2010,UAUA,UAL Corporation / United Air Lines,airline,ual_family,UAL Corporation is holding company; United Air Lines is operating subsidiary; bankrupt 2002-2006,standard
+100517,2011,2012,UAL,United Continental Holdings Inc.,airline,ual_family,Merged with Continental Airlines October 2010; renamed UCH,standard
+100517,2013,2025,UAL,United Airlines Holdings Inc.,airline,ual_family,Renamed from United Continental Holdings 2019,standard
+319687,2000,2010,CAL,Continental Airlines Inc.,airline,ual_family,Continental merged into United/UCH October 2010,standard
+701345,2002,2013,LCC,US Airways Group Inc.,airline,aal_family,America West reverse-merged into US Airways 2005; merged into American Airlines 2013,standard
+706270,2002,2005,AWA,America West Airlines Inc.,airline,aal_family,America West reverse-merged into US Airways 2005; legacy entity,standard
+766421,2002,2025,ALK,Alaska Air Group Inc.,airline,alk_family,,standard
+793733,2000,2025,SKYW,SkyWest Inc.,airline,skyw_family,,pass_through
+810332,2000,2025,MESA,Mesa Air Group Inc.,airline,mesa_family,,pass_through
+894081,2003,2025,ATSG,Air Transport Services Group Inc.,airline,atsg_family,,pass_through
+921929,2001,2008,FRNT,Frontier Airlines Inc.,airline,frontier_family_pre,Original Frontier Airlines; bankrupt 2008,standard
+948845,2001,2006,MEH,Midwest Air Group Inc.,airline,mew_family,,standard
+948846,2001,2010,AAI,AirTran Holdings Inc.,airline,airtran_family,Acquired by Southwest Airlines 2011,standard
+1048911,2002,2025,FDX,FedEx Corporation,airline,fdx_family,Air cargo carrier; jet fuel consumer; does not disclose fuel-specific gallons,standard
+1058033,1999,2008,NWA,Northwest Airlines Corp,airline,dal_family,Acquired by Delta Air Lines 2008,standard
+1090727,2000,2025,UPS,United Parcel Service Inc.,airline,ups_family,Air cargo carrier; combined air+ground fleet; no aircraft-specific fuel disclosed,standard
+1158463,2002,2025,JBLU,JetBlue Airways Corporation,airline,jblu_family,,standard
+1159154,2004,2025,RJET,Republic Airways Holdings Inc.,airline,republic_family,,pass_through
+1172222,2002,2025,HA,Hawaiian Holdings Inc.,airline,ha_family,,standard
+1351548,2006,2013,FRNT,Frontier Airlines Holdings Inc.,airline,frontier_family_mid,Successor to original Frontier; acquired by Republic 2009; bankrupt 2013,standard
+1362468,2006,2025,ALGT,Allegiant Travel Company,airline,algt_family,,standard
+1498710,2011,2025,SAVE,Spirit Airlines Inc.,airline,save_family,,standard
+1614436,2014,2015,VA,Virgin America Inc.,airline,va_family,Acquired by Alaska Air Group 2016,standard
+1670076,2021,2025,ULCC,Frontier Group Holdings Inc.,airline,frontier_family_new,New Frontier Airlines post-2013 bankruptcy; rebranded Frontier Group Holdings 2021,standard
+1743907,2021,2025,SNCY,Sun Country Airlines Holdings Inc.,airline,sncy_family,,standard
+48039,2002,2011,HOC,Holly Corporation,refiner,holly_family,Holly merged with Frontier Oil to form HollyFrontier 2011,standard
+48039,2012,2021,HFC,HollyFrontier Corporation,refiner,holly_family,Formed from Holly + Frontier Oil merger 2011,standard
+48039,2022,2025,DINO,HF Sinclair Corporation,refiner,holly_family,Renamed HF Sinclair after Sinclair acquisition 2022,standard
+50104,2001,2017,TSO,Tesoro Corporation / Andeavor,refiner,andeavor_family,Tesoro rebranded as Andeavor 2017; acquired by MPC 2018,standard
+95304,2001,2011,SUN,Sunoco Inc,refiner,sunoco_family,Acquired by Energy Transfer 2012,standard
+110430,2001,2010,FTO,Frontier Oil Corporation,refiner,holly_family,Merged with Holly Corp to form HollyFrontier 2011,standard
+821483,2002,2012,DPTR,Delta Petroleum Corporation,ep,delta_petroleum_family,E&P company; no refining throughput,standard
+821483,2014,2025,PARR,Par Pacific Holdings Inc.,refiner,par_family,Delta Petroleum CIK reassigned to Par Petroleum / Par Pacific; refiner from 2014,standard
+856465,2002,2006,GI,Giant Industries Inc.,refiner,giant_family,Acquired by Frontier Oil 2007,standard
+1035002,2002,2025,VLO,Valero Energy Corporation,refiner,vlo_family,,standard
+1159119,2002,2004,,Premcor Inc.,refiner,premcor_family,Acquired by Valero 2005,standard
+1325955,2005,2016,ALJ,Alon USA Energy Inc.,refiner,alon_family,,standard
+1339048,2005,2016,WNR,Western Refining Inc.,refiner,western_family,Acquired by Tesoro/Andeavor 2017,standard
+1340122,2005,2025,CLMT,Calumet Specialty Products Partners L.P.,refiner,calumet_family,,standard
+1376139,2007,2025,CVI,CVR Energy Inc.,refiner,cvr_family,,standard
+1510295,2011,2025,MPC,Marathon Petroleum Corporation,refiner,mpc_family,Spun off from Marathon Oil 2011; acquired Andeavor 2018,standard
+1534504,2012,2025,PBF,PBF Energy Inc.,refiner,pbf_family,,standard
+1534701,2012,2025,PSX,Phillips 66,refiner,psx_family,Spun off from ConocoPhillips 2012,standard
+1694426,2017,2025,DK,Delek US Holdings Inc.,refiner,delek_family,,standard
+1915657,2022,2025,DINO,HF Sinclair Corporation,refiner,holly_family,New CIK for HF Sinclair post-Sinclair acquisition 2022,standard
+2013745,2024,2025,CLMT,Calumet Inc.,refiner,calumet_family,Converted from MLP to C-corp 2024,standard

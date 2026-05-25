@@ -1,0 +1,79 @@
+{
+  "filing_date": "2004-03-11",
+  "fiscal_year_end": "2003-12-31",
+  "company_name": "Alaska Air Group, Inc.",
+  "ticker": "ALK",
+  "fuel_consumption": {
+    "expected_gallons_millions": 390.0,
+    "fiscal_year": 2004,
+    "source_quote": "a one-cent change in the fuel price per gallon affects annual fuel costs by approximately $3.9 million"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.33,
+    "net_fair_value_mm": 18.4,
+    "note_reference": "Note 9 (Financial Instruments)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2004,
+      "volume_gallons_millions": 132.1,
+      "volume_pct_of_consumption": 0.33,
+      "commodities": [
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2005,
+      "volume_gallons_millions": 116.1,
+      "volume_pct_of_consumption": 0.28,
+      "commodities": [
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": 10.2,
+      "volume_pct_of_consumption": 0.02,
+      "commodities": [
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Prices of agreements range from $26 to $28 per barrel. Classified as cash flow hedges under SFAS 133. All fair value as of Dec 31, 2003 is $18.4M total."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Fair value breakdown by coverage year not disclosed; $18.4M is aggregate fair value for all years.",
+    "Expected gallons for 2004 inferred from $3.9M/cent sensitivity: ~390M gallons.",
+    "Horizon Air is a subsidiary; combined reporting."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 391.0,
+    "throughput_year": 2003,
+    "source_quote": "Fuel gallons (000,000) 337.3 [Alaska 2003] + 53.7 [Horizon 2003] = 391.0 million gallons combined (Item 6 operating statistics)"
+  }
+}

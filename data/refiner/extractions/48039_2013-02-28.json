@@ -1,0 +1,143 @@
+{
+  "filing_date": "2013-02-28",
+  "fiscal_year_end": "2012-12-31",
+  "company_name": "HollyFrontier Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 151.967,
+    "throughput_year": 2012,
+    "source_quote": "Crude charge (BPD) (1): 415,210"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "crack_spread",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2013,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 12565,
+      "volume_unit": "MBbls",
+      "volume_raw": "12,565,000 barrels WTI crude oil (2013)",
+      "notes": "Cash flow hedge against price risk on forecasted crude oil purchases"
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 365,
+      "volume_unit": "MBbls",
+      "volume_raw": "365,000 barrels WTI crude oil (2014)",
+      "notes": "Cash flow hedge against price risk on forecasted crude oil purchases"
+    },
+    {
+      "maturity_year": 2013,
+      "commodity": "heating_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 11125,
+      "volume_unit": "MBbls",
+      "volume_raw": "11,125,000 barrels ultra-low sulfur diesel (2013)",
+      "notes": "Cash flow hedge on forecasted diesel sales"
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "heating_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 365,
+      "volume_unit": "MBbls",
+      "volume_raw": "365,000 barrels ultra-low sulfur diesel (2014)",
+      "notes": "Cash flow hedge on forecasted diesel sales"
+    },
+    {
+      "maturity_year": 2013,
+      "commodity": "gasoline",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 1440,
+      "volume_unit": "MBbls",
+      "volume_raw": "1,440,000 barrels unleaded gasoline (2013)",
+      "notes": "Cash flow hedge on forecasted gasoline sales"
+    },
+    {
+      "maturity_year": 2013,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 6022.5,
+      "volume_unit": "MBbls",
+      "volume_raw": "6,022,500 barrels (WCS spread swap - long)",
+      "notes": "Economic hedge locking in WCS-WTI spread on forecasted WCS crude purchases"
+    },
+    {
+      "maturity_year": 2013,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 150,
+      "volume_unit": "MBbls",
+      "volume_raw": "150,000 barrels WTI swap - short",
+      "notes": "Economic hedge on crude oil"
+    },
+    {
+      "maturity_year": 2013,
+      "commodity": "gasoline",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 192,
+      "volume_unit": "MBbls",
+      "volume_raw": "192,000 barrels gasoline swap - short",
+      "notes": "Economic hedge on gasoline sales"
+    },
+    {
+      "maturity_year": 2013,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 234,
+      "volume_unit": "MBbls",
+      "volume_raw": "234,000 barrels NYMEX futures WTI - long",
+      "notes": "NYMEX futures for inventory purchases"
+    },
+    {
+      "maturity_year": 2013,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 1091,
+      "volume_unit": "MBbls",
+      "volume_raw": "1,091,000 barrels NYMEX futures WTI - short",
+      "notes": "NYMEX futures for inventory"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 17.383,
+    "total_liability_mm": 89.545,
+    "net_fair_value_mm": -72.162,
+    "as_of_date": "2012-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "diesel and gasoline crack spreads (long WTI crude / short ULSD + unleaded gasoline)"
+  },
+  "warnings": [
+    "Natural gas cash flow hedges (96,000,000 MMBTU total, 19.2M MMBTU/yr through 2017) excluded from notional positions as non-barrel commodity. Physical contracts (540K bbl long + 540K bbl short) offset each other. Cash flow hedge positions are large: 12.93M bbl crude long vs 12.93M bbl diesel+gasoline short for 2013 primarily."
+  ]
+}

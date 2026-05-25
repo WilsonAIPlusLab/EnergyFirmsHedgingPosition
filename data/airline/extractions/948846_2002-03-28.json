@@ -1,0 +1,68 @@
+{
+  "filing_date": "2002-03-28",
+  "fiscal_year_end": "2001-12-31",
+  "company_name": "AirTran Holdings, Inc.",
+  "ticker": "AAI",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2001,
+    "source_quote": "Fuel consumption not explicitly stated in millions of gallons in item7a. Swap agreements covered ~30% of 2002 projected fuel requirements."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 30.0,
+    "net_fair_value_mm": -8.7,
+    "note_reference": "Item 7A; Item 8 Notes"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2002,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.3,
+      "commodities": [
+        "jet fuel"
+      ],
+      "instrument_types": [
+        "swap"
+      ],
+      "fair_value_mm": -8.7
+    },
+    {
+      "coverage_year": 2003,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.1,
+      "commodities": [
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Swap agreements with Enron as counterparty. Enron filed for bankruptcy December 2001 making counterparty collection uncertain. Also had fixed-price fuel supply contracts treated as normal purchases under SFAS 133 (not financial derivatives) covering ~32% of consumption through March 2002 at ~$0.69/gal."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Enron (swap counterparty) filed for bankruptcy December 2001; collectability of swap positions uncertain.",
+    "Fixed-price supply contracts (~32% of fuel through March 2002 at \u00e2\u2030\u00a4$0.69/gal) treated as normal purchases under SFAS 133 \u00e2\u20ac\u201d not reflected as financial derivatives on balance sheet.",
+    "Net fair value -$8.7M reflects $7.9M current + $0.8M long-term liability on ALL swap agreements (both 2002 and 2003-2004 positions).",
+    "Additional ~10% of Jan 2003 through Sep 2004 fuel needs hedged via crude oil swaps at price below $22/barrel; represented as coverage_year 2003 in annual_hedge_positions (multi-year position)."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 148,
+    "throughput_year": 2001,
+    "source_quote": "Derived: Aircraft fuel expense $139,355K / $0.9385/gal average = ~148M gallons (2001); from Selected Financial Data table in 10-K (FY2002 filing)"
+  }
+}

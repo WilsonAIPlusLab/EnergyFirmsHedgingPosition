@@ -1,0 +1,100 @@
+﻿{
+    "filing_date":  "2019-03-07",
+    "fiscal_year_end":  "2018-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  34.360005,
+                       "throughput_year":  2018,
+                       "source_quote":  "Total feedstock runs (2)    94,137 [2018]    128,624 [2017]    134,163 [2016]    (In bpd; feedstock runs = barrels per day of crude oil and other feedstocks processed at our facilities)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 11"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2019,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "basis_swap",
+                                   "direction":  "long",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1794,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,794,000 barrels",
+                                   "notes":  "WCS crude oil basis swaps - purchases, Q1-Q4 2019, avg differential -$28.19/bbl vs NYMEX WTI, from Note 11"
+                               },
+                               {
+                                   "maturity_year":  2019,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "basis_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1763,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,763,000 barrels",
+                                   "notes":  "WCS crude oil basis swaps - sales, Q1-Q4 2019, avg differential -$19.84/bbl vs NYMEX WTI, from Note 11"
+                               },
+                               {
+                                   "maturity_year":  2019,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "percentage_basis_swap",
+                                   "direction":  "long",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1825,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,825,000 barrels",
+                                   "notes":  "WCS crude oil percentage basis swaps - purchases, Q1-Q4 2019, avg 66.32% of NYMEX WTI, from Note 11"
+                               },
+                               {
+                                   "maturity_year":  2019,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "basis_swap",
+                                   "direction":  "long",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1275,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,275,000 barrels",
+                                   "notes":  "Midland crude oil basis swaps - purchases, Q1-Q2 2019, avg -$12.27/bbl vs NYMEX WTI, from Note 11"
+                               },
+                               {
+                                   "maturity_year":  2019,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1825,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,825,000 barrels",
+                                   "notes":  "Diesel crack spread swaps - sales, Q1-Q4 2019, avg $25.58/bbl, from Note 11"
+                               },
+                               {
+                                   "maturity_year":  2019,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "percentage_basis_crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1825,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,825,000 barrels",
+                                   "notes":  "Diesel percentage basis crack spread swaps - sales, Q1-Q4 2019, avg 138.38% of NYMEX WTI, from Note 11"
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  19.8,
+                        "total_liability_mm":  0.0,
+                        "net_fair_value_mm":  19.8,
+                        "as_of_date":  "2018-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+                     "Item 7A has no position tables; defers to Note 11 for derivative details. Active hedging policy stated.",
+                     "Notional positions extracted from Note 11 detailed tables: 6 positions totaling WCS basis purchases 1,794K + WCS basis sales 1,763K + WCS pct basis 1,825K + Midland basis 1,275K + diesel crack 1,825K + diesel pct basis crack 1,825K bbl, all 2019 maturity. Net FV = $19.8M (all assets, no liabilities net)."
+                 ]
+}

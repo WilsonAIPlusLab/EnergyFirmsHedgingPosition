@@ -1,0 +1,56 @@
+{
+  "filing_date": "2006-03-31",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "UAL Corporation / United Air Lines, Inc.",
+  "ticker": "UALAQ",
+  "fuel_consumption": {
+    "expected_gallons_millions": 2250,
+    "fiscal_year": 2005,
+    "source_quote": "Fuel gallons consumed - mainline: 2,250 [million]"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.32,
+    "net_fair_value_mm": null,
+    "note_reference": "Item 7A - Price Risk (Aircraft Fuel); Outlook section"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.32,
+      "commodities": null,
+      "instrument_types": [
+        "call_option",
+        "futures"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Item 7A states United uses fuel option contracts and futures contracts. Outlook section discloses 32% of expected mainline fuel consumption for Q1 2006 hedged at average $1.91/gal. No hedges in place beyond Q1 2006 as of filing date. No quantitative table of outstanding positions provided as of Dec 31, 2005. UAL emerged from Chapter 11 bankruptcy on February 1, 2006."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "UAL was in Chapter 11 bankruptcy throughout fiscal 2005 (emerged February 1, 2006 - the Effective Date)",
+    "No quantitative table of fuel hedge positions as of Dec 31, 2005 balance sheet date in Item 7A",
+    "Outlook section (forward-looking) states 32% of Q1 2006 mainline fuel consumption hedged at $1.91/gal avg; no hedges beyond Q1 2006 as of filing date",
+    "The pct_hedged_next_year of 32% refers only to Q1 2006, not full year 2006",
+    "2005 mainline fuel consumption was 2,250 million gallons (from operating statistics table)"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2603,
+    "throughput_year": 2005,
+    "source_quote": "Gallons consumed (in millions): 2,250 / 353 = 2,603 total mainline+express (2005)"
+  }
+}

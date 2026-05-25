@@ -1,0 +1,168 @@
+﻿{
+    "filing_date":  "2014-03-03",
+    "fiscal_year_end":  "2013-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  40.236505,
+                       "throughput_year":  2013,
+                       "source_quote":  "Total feedstock runs (2)    110,237 [2013]    97,600 [2012]    69,295 [2011]    (In bpd; feedstock runs = barrels per day of crude oil and other feedstocks processed at our facilities)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 8"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "cash_flow_hedge",
+                                   "volume_mbbl":  16872,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "16,872,000 barrels",
+                                   "notes":  "Crude oil swaps purchased (CFH), maturing Q1 2014 through calendar year 2016, avg $89.97/bbl NYMEX WTI. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  3464,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "3,463,500 barrels",
+                                   "notes":  "Crude oil swaps purchased (non-CFH), maturing Q1 2014 through calendar year 2015, avg $92.59/bbl. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  2014,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  183,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "182,500 barrels",
+                                   "notes":  "Crude oil swaps sold (non-CFH), Q1-Q4 2014, avg $96.90/bbl. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  2014,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "basis_swap",
+                                   "direction":  "long",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  486,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "486,000 barrels",
+                                   "notes":  "Crude oil basis swaps purchased (non-CFH), Q1/Q3/Q4 2014, avg -$23.29/bbl differential to NYMEX WTI. Canadian heavy/LLS/MSW basis. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "diesel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "cash_flow_hedge",
+                                   "volume_mbbl":  11496,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "11,495,500 barrels",
+                                   "notes":  "Diesel swaps sold (CFH), maturing Q1 2014 through calendar year 2016, avg $115.72/bbl. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "diesel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1870,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,870,000 barrels",
+                                   "notes":  "Diesel swaps sold (non-CFH), maturing Q1 2014 through calendar year 2015, avg $119.54/bbl. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  2014,
+                                   "commodity":  "diesel",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  183,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "182,500 barrels",
+                                   "notes":  "Diesel swaps purchased (non-CFH), Q1-Q4 2014, avg $121.80/bbl. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "jet_fuel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "cash_flow_hedge",
+                                   "volume_mbbl":  2050,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "2,050,000 barrels",
+                                   "notes":  "Jet fuel swaps sold (CFH), maturing Q1 2014 through calendar year 2015, avg $115.66/bbl. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  2014,
+                                   "commodity":  "jet_fuel",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  90,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "90,000 barrels",
+                                   "notes":  "Jet fuel swaps purchased (non-CFH), Q1 2014, avg $116.71/bbl. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  2014,
+                                   "commodity":  "gasoline",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "cash_flow_hedge",
+                                   "volume_mbbl":  3327,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "3,326,500 barrels",
+                                   "notes":  "Gasoline swaps sold (CFH), Q1-Q4 2014, avg $106.61/bbl. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  2014,
+                                   "commodity":  "gasoline",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  1684,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "1,683,500 barrels",
+                                   "notes":  "Gasoline swaps sold (non-CFH), Q1-Q3 2014, avg $107.82/bbl. Fuel products segment."
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "natural_gas",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  null,
+                                   "volume_unit":  "MMBTU",
+                                   "volume_raw":  "10,300,000 MMBtu",
+                                   "notes":  "Natural gas swaps purchased (non-CFH), 2014-2017, avg $4.28/MMBtu. Specialty products segment."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  null,
+                        "total_liability_mm":  -54.8,
+                        "net_fair_value_mm":  -54.8,
+                        "as_of_date":  "2013-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+                     "Complex multi-instrument crack spread hedge program: crude oil swaps purchased (long) paired with diesel, jet fuel, and gasoline swaps sold (short). CFH designation applies to most fuel products positions.",
+                     "Original extraction incorrectly reported implied net crack spread volumes rather than actual swap barrel totals. Corrected to show all individual swap positions from Note 8 tables.",
+                     "Net fair value -$54.8M from Total derivative instruments table (both CFH and non-CFH combined): $(114.4)M gross liabilities, $59.6M netting = $(54.8)M net.",
+                     "Also includes crude oil basis swaps (486,000 bbl + ~248,000 bbl Brent net basis), diesel crack spread collars, and Brent/WTI basis swaps. Natural gas 10.3 MMBTU swaps (specialty segment)."
+                 ]
+}

@@ -1,0 +1,75 @@
+{
+  "filing_date": "2025-02-26",
+  "fiscal_year_end": "2024-12-31",
+  "company_name": "Delek US Holdings, Inc.",
+  "ticker": "DK",
+  "throughput": {
+    "crude_throughput_mmbbl": 102.945,
+    "throughput_year": 2024,
+    "source_quote": "Tyler Refinery: Throughput (average barrels per day): Crude Oil 70,009 (366 days). El Dorado Refinery: Crude Oil 77,993 (366 days). Big Spring Refinery: Crude oil 66,123 (366 days). Krotz Springs Refinery: Crude Oil 67,146 (366 days)."
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": null
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2025,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 4590,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,590,000 bbl crude oil price swaps long (non-designated, 2025); FV $9.4M",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2025,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 4230,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,230,000 bbl crude oil price swaps short (non-designated, 2025); FV ($9.8M)",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2025,
+      "commodity": "crack_spread",
+      "instrument": "crack_spread_swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 4593,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,593,350 bbl inv/product/crack swaps long (non-designated, 2025); FV $6.8M",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2025,
+      "commodity": "crack_spread",
+      "instrument": "crack_spread_swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 5058,
+      "volume_unit": "MBbls",
+      "volume_raw": "5,058,350 bbl inv/product/crack swaps short (non-designated, 2025); FV ($8.9M)",
+      "notes": "Nat gas swaps: 747,500 MMBtu each side at FV ~$0. RIN commitments long 36M FV ($5.3M). No trading derivatives outstanding."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": -7.8,
+    "as_of_date": "2024-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "inventory_refined_product_and_crack_spread_swaps"
+  },
+  "warnings": []
+}

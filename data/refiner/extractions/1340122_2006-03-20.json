@@ -1,0 +1,55 @@
+﻿{
+    "filing_date":  "2006-03-20",
+    "fiscal_year_end":  "2005-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  18.327745,
+                       "throughput_year":  2005,
+                       "source_quote":  "Total feedstock runs (bpd)(2)    50,213 [2005]    26,205 [2004]    25,007 [2003]    (Feedstock runs represents the barrels per day of crude oil and other feedstocks processed at our refineries)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 7"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2006,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "put_call_spread",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  960,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "960,000 bbl crude oil put/call spreads for 2006 (specialty products segment)",
+                                   "notes":  "Lower put avg $45.90, upper put $55.56, call floor $65.56, ceiling $75.56/bbl"
+                               },
+                               {
+                                   "maturity_year":  2006,
+                                   "commodity":  "gasoline_diesel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  4160,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "4,160,000 bbl 2/1/1 crack spread swaps 2006 at avg $8.73/bbl",
+                                   "notes":  "Fuel products segment. Also nat gas and crude collar/swap."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  null,
+                        "total_liability_mm":  null,
+                        "net_fair_value_mm":  null,
+                        "as_of_date":  "2005-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+
+                 ]
+}

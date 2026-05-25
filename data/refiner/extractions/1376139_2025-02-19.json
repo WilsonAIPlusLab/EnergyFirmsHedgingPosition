@@ -1,0 +1,66 @@
+﻿{
+    "filing_date":  "2025-02-19",
+    "fiscal_year_end":  "2024-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  65.916234,
+                       "throughput_year":  2024,
+                       "source_quote":  "Total crude throughput  Coffeyville 123,769  Wynnewood 56,330  Total 180,099  (Refining Throughput and Production Data by Refinery, in bpd, Year Ended December 31, 2024)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "inventory",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 10 (Derivative Financial Instruments)"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2025,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "forward",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  11,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "(11) thousand barrels crude oil forwards (net sell position)",
+                                   "notes":  "Net notional sell position in crude oil forward contracts. Very small position. Not designated as hedge for accounting purposes."
+                               },
+                               {
+                                   "maturity_year":  2025,
+                                   "commodity":  "heating_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  63,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "(63) thousand barrels NYMEX Diesel Crack swaps (net sell; company held offsetting buy and sell of ~2.5M bbl each)",
+                                   "notes":  "Net notional short position in NYMEX Diesel Crack spread swaps after offsetting buy and sell positions (~2.5M bbl each side). Net position is only (63) MBbls. Not designated as hedge for accounting purposes."
+                               },
+                               {
+                                   "maturity_year":  2025,
+                                   "commodity":  "heating_oil",
+                                   "instrument":  "futures",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  80,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "(80) thousand barrels ULSD futures (net sell position)",
+                                   "notes":  "Net notional short position in ULSD futures contracts. Not designated as hedge for accounting purposes."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  4,
+                        "total_liability_mm":  0,
+                        "net_fair_value_mm":  4,
+                        "as_of_date":  "2024-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  null
+                             },
+    "warnings":  [
+                     "Data from Note 10 and Note 11 in full_text.txt. Net notional positions at Dec 31, 2024 (in thousands of barrels): crude forwards -(11) (short); NYMEX Diesel Crack swaps -(63) (short, with ~2.5M bbl offsetting buy/sell positions); ULSD futures -(80) (short). NYMEX RBOB and 2-1-1 crack positions fully closed. Soybean futures +79 MBbls excluded (non-petroleum). Net fair value: gross assets $17M - $13M netting = $4M net asset. Total derivative gain FY2024 = $13M. CVR Partners nitrogen fertilizer derivatives excluded. RINs ($323M RFS obligation) excluded."
+                 ]
+}

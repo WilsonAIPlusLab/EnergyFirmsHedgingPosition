@@ -1,0 +1,66 @@
+{
+  "filing_date": "2018-02-23",
+  "fiscal_year_end": "2017-12-31",
+  "company_name": "PBF Energy Inc.",
+  "ticker": "PBF",
+  "throughput": {
+    "crude_throughput_mmbbl": 294.7,
+    "throughput_year": 2017,
+    "source_quote": "Total crude oil and feedstocks throughput (millions of barrels) 294.7 [Year Ended December 31, 2017]"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 23"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2018,
+      "commodity": "refined_products",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 3000,
+      "volume_unit": "MBbls",
+      "volume_raw": "3,000,142 barrels",
+      "notes": "Intermediates and refined products purchase obligation derivatives designated as fair value hedges (A&R Intermediation Agreements). No crude FVH outstanding."
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 22348,
+      "volume_unit": "MBbls",
+      "volume_raw": "22,348,000 barrels",
+      "notes": "Crude oil economic hedges (not designated). Direction not specified; assumed net short for inventory hedging."
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 1989,
+      "volume_unit": "MBbls",
+      "volume_raw": "1,989,000 barrels",
+      "notes": "Refined products economic hedges (not designated). Direction not specified; assumed net short for inventory hedging."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 0,
+    "total_liability_mm": 82,
+    "net_fair_value_mm": -82,
+    "as_of_date": "2017-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "PBF does not disclose gross long/short positions for economic hedges. Economic hedge direction assumed net short for inventory hedging. Fair values in thousands: FVH intermediation ($7,721K) liability + economic ($74,320K) liability = approx ($82M) net liability."
+  ]
+}

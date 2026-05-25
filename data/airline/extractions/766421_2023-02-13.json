@@ -1,0 +1,68 @@
+{
+  "filing_date": "2023-02-13",
+  "fiscal_year_end": "2022-12-31",
+  "company_name": "Alaska Air Group, Inc.",
+  "ticker": "ALK",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 44.0,
+    "note_reference": "Note 4 (Derivative Instruments and Risk Management)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2023,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2024,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "call_option"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Portfolio consists of crude oil call options only. Approximately 421 million gallons hedged from January 2023 to June 2024. Fair value = $33M (current) + $11M (noncurrent) = $44M, confirmed by fair value measurement table. In 2022, hedges generated $93M of gains as crude oil prices were elevated."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No per-year volume or percentage breakdown disclosed; only aggregate ~421M gallons for Jan 2023 to Jun 2024.",
+    "pct_hedged_next_year not determinable from disclosure.",
+    "Fair value $44M confirmed by Level 2 fair value measurement table.",
+    "Horizon Air fuel hedges included in consolidated figures."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 758.0,
+    "throughput_year": 2022,
+    "source_quote": "Fuel gallons (000,000)\t758\t\t656\t\t15.5% (Item 7 operating statistics)"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "filing_date": "2005-03-04",
+  "fiscal_year_end": "2004-12-31",
+  "company_name": "Tesoro Corporation",
+  "ticker": "TSO",
+  "throughput": {
+    "crude_throughput_mmbbl": 189.8,
+    "throughput_year": 2004,
+    "source_quote": "Total Refining Throughput (thousand barrels per day): 520"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2005,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 529,
+      "volume_unit": "MBbls",
+      "volume_raw": "529,000 barrels net open futures contracts (various times during 2005)",
+      "notes": "Non-hedging derivatives; 42 million barrels settled in 2004 resulting in $53M losses"
+    },
+    {
+      "maturity_year": 2005,
+      "commodity": "refined_products",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "undesignated",
+      "volume_mbbl": 587,
+      "volume_unit": "MBbls",
+      "volume_raw": "587,000 barrels swap positions (various times during 2005)",
+      "notes": "Mark-to-market gain of $1.6 million at Dec 31, 2004"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 1.6,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 1.6,
+    "as_of_date": "2004-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All derivatives undesignated. No hedge accounting during 2004, 2003, or 2002. During 2004, settled ~42M bbls futures/options/OTC resulting in $53M losses."
+  ]
+}

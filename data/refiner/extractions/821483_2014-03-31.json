@@ -1,0 +1,32 @@
+{
+  "filing_date": "2014-03-31",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "Par Petroleum Corporation",
+  "ticker": "PARR",
+  "throughput": {
+    "crude_throughput_mmbbl": 6.23,
+    "throughput_year": 2013,
+    "source_quote": "Total Crude Oil Throughput (Mbpd): 64.2 (97 days from acquisition on Sep 25, 2013)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 10 / Note 11"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2013-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A not required (smaller reporting company). Hawaii refinery (HIE) acquired September 25, 2013 \u00e2\u20ac\u201d first year of refinery operations covers only Q4 2013. Exchange-traded futures recognized as derivative: recognized $104K gain in cost of revenues in 2013. Commodity forward contracts elected NPNS \u00e2\u20ac\u201d not in fair value. No specific barrel volumes in parsed notes. Net unrealized commodity derivatives loss $1.1M in FY2013."
+  ]
+}

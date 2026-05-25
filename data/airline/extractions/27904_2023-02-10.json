@@ -1,0 +1,45 @@
+{
+  "filing_date": "2023-02-10",
+  "fiscal_year_end": "2022-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": null,
+    "note_reference": "Note 3"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Monroe Energy inventory hedges only. Fuel hedge portfolio may consist of a combination of options, swaps or futures. Gallon volume not disclosed in filing. Net fair value: $(47)M at December 31, 2022."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3412.0,
+    "throughput_year": 2022,
+    "source_quote": "Fuel gallons consumed (in millions)  3,412  2,778  4,214 (from operating statistics table in Item 7 MD&A; FY2022 = 3,412)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": true,
+    "refinery_name": "Monroe Energy (Trainer refinery)"
+  },
+  "warnings": [
+    "program_exists=false: No airline fuel hedging program. Item 7A states: 'Our derivative contracts to hedge the financial risk from changing fuel prices are primarily related to Monroe's inventory.'",
+    "volume_gallons_millions=null: Specific gallon notional for Monroe inventory hedges not disclosed in the filing.",
+    "net_fair_value_mm=-47: Fuel hedge contracts fair value at December 31, 2022 (Note 3 fair value table).",
+    "FY2022 losses on fuel hedge contracts: $394M (composed of $365M of settlements on contracts and $29M of mark-to-market adjustments). Settlement losses offset by higher operating profits at Monroe from higher pricing.",
+    "FY2022 jet fuel consumption: 3.4 billion gallons (Item 7A), lower than historical expected level of ~4 billion gallons.",
+    "Note 3 narrative: 'Our derivative contracts are recognized at fair value on our balance sheets and had net balances of $47 million and $17 million at December 31, 2022 and 2021, respectively.'"
+  ]
+}

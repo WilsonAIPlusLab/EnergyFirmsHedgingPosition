@@ -1,0 +1,76 @@
+{
+  "filing_date": "2006-02-28",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Midwest Air Group, Inc.",
+  "ticker": "MEH",
+  "fuel_consumption": {
+    "expected_gallons_millions": 96.0,
+    "fiscal_year": 2005,
+    "source_quote": "Estimated 2005 fuel consumption ~96 million gallons per item7a (implied from item7a coverage percentages and item8 notes disclosures)."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.194,
+    "net_fair_value_mm": -0.2,
+    "note_reference": "Item 7A; Item 8 Notes"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.296,
+      "commodities": ["jet fuel"],
+      "instrument_types": ["collar"],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.211,
+      "commodities": ["jet fuel"],
+      "instrument_types": ["collar"],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.168,
+      "commodities": ["jet fuel"],
+      "instrument_types": ["collar"],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2006,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.099,
+      "commodities": ["jet fuel"],
+      "instrument_types": ["collar"],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Fuel hedge collars on jet fuel as cash flow hedges under SFAS 133. Coverage for 2006: Q1=29.6% (floor $1.71/ceiling $1.85/gal Gulf Coast Mean +~$0.20 into-plane); Q2=21.1% (floor $1.83/ceiling $1.98/gal); Q3=16.8% (floor $1.87/ceiling $2.01/gal); Q4=9.9% (floor $1.87/ceiling $2.02/gal). Weighted avg ~19.4% of 2006 estimated fuel consumption. In 2005 realized $5.1M income from fuel above ceiling. At Dec 31, 2005: $0.2M liability recorded in accrued liabilities. Effective FV changes in OCI."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 95.8,
+    "throughput_year": 2005,
+    "source_quote": "Aircraft fuel, oil and associated taxes increased $69.7 million, or 64.3%, from 2004 to $178.1 million in 2005. Into-plane fuel prices increased 37.7% in 2005, averaging $1.86 per gallon in 2005 versus $1.35 per gallon in 2004. [Derived: $178.1M / $1.86 = 95.8M gallons; fuel consumption increase = $20.9M unfavorable]"
+  },
+  "warnings": [
+    "Net fair value at Dec 31, 2005 = -$0.2M (liability) recorded in current accrued liabilities.",
+    "2005 realized $5.1M income from fuel prices exceeding collar ceiling.",
+    "Coverage: Q1 29.6%, Q2 21.1%, Q3 16.8%, Q4 9.9% of 2006 estimated fuel consumption.",
+    "Prices on Gulf Coast Mean basis including ~$0.20/gal into-plane costs."
+  ]
+}

@@ -1,0 +1,44 @@
+﻿{
+    "filing_date":  "2009-03-13",
+    "fiscal_year_end":  "2008-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  38.736342,
+                       "throughput_year":  2008,
+                       "source_quote":  "Total crude oil throughput    105,837    90.0 [2008]    76,317    93.0 [2007]    94,557    92.1 [2006]    (Refining Throughput and Production Data, bpd)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Item 7A"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2010,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  17696,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "17,696,250 barrels crude oil; 371,621,250 gallons heating oil; 371,621,250 gallons unleaded gasoline",
+                                   "notes":  "Cash Flow Swap with J. Aron (Goldman Sachs affiliate), period Jul 1, 2005 to Jun 30, 2010. Net notional at Dec 31, 2008: 17,696,250 barrels crude oil; 371,621,250 gallons HO (= 8,848,125 bbl) + 371,621,250 gallons UG (= 8,848,125 bbl). Economically hedges 8,848,125 bbl heating oil crack spreads and 8,848,125 bbl unleaded gasoline crack spreads. CVR receives fixed price on HO/UG and pays fixed price on crude (net short crack spread). NOT designated as hedge under SFAS 133. Unrealized net gain $40.9M at Dec 31, 2008. Volume reported as crude oil barrels = 17,696 MBbls (crude leg of crack spread). No open NYMEX contracts at year-end."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  41,
+                        "total_liability_mm":  0,
+                        "net_fair_value_mm":  41,
+                        "as_of_date":  "2008-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2-1-1"
+                             },
+    "warnings":  [
+                     "Cash Flow Swap with J. Aron is NOT designated as accounting hedge (SFAS 133) â€” classified as economic hedge. Net notional volume reported as crude oil leg (17,696 MBbls); crack spread legs are 8,848 MBbls HO + 8,848 MBbls UG. No open NYMEX futures/options at Dec 31, 2008. Interest rate swaps excluded (non-commodity). CVR Partners nitrogen fertilizer derivatives excluded."
+                 ]
+}

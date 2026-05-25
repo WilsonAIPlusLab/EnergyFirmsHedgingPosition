@@ -1,0 +1,99 @@
+{
+  "filing_date": "2017-02-22",
+  "fiscal_year_end": "2016-12-31",
+  "company_name": "HollyFrontier Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 155.151,
+    "throughput_year": 2016,
+    "source_quote": "Crude charge (BPD) (1): 423,910"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "crack_spread",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2017,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 519,
+      "volume_unit": "MBbls",
+      "volume_raw": "519,000 barrels WTI crude oil price swaps - long (all maturing 2017)",
+      "notes": "Cash flow hedge against price risk on forecasted crude oil purchases"
+    },
+    {
+      "maturity_year": 2017,
+      "commodity": "gasoline",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 519,
+      "volume_unit": "MBbls",
+      "volume_raw": "519,000 barrels sub-octane gasoline price swaps - short (all maturing 2017)",
+      "notes": "Cash flow hedge on forecasted gasoline sales; combined with WTI long forms crack spread hedge"
+    },
+    {
+      "maturity_year": 2017,
+      "commodity": "refined_products",
+      "instrument": "forward",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 175,
+      "volume_unit": "MBbls",
+      "volume_raw": "175,000 barrels forward gasoline and diesel contracts - short (2017)",
+      "notes": "Forward sell contracts on refined products"
+    },
+    {
+      "maturity_year": 2017,
+      "commodity": "crude_oil",
+      "instrument": "physical",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 150,
+      "volume_unit": "MBbls",
+      "volume_raw": "150,000 barrels physical crude contracts - short (2017)",
+      "notes": "Physical crude oil forward contracts"
+    },
+    {
+      "maturity_year": 2017,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 3645,
+      "volume_unit": "MBbls",
+      "volume_raw": "3,645,000 barrels crude price swaps (basis spread) - long (all maturing 2017)",
+      "notes": "Crude oil basis spread economic hedge"
+    },
+    {
+      "maturity_year": 2017,
+      "commodity": "natural_gas",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": null,
+      "volume_unit": "MMBTU",
+      "volume_raw": "10,308,000 MMBTU natural gas price swaps (basis spread) - long (all maturing 2017)",
+      "notes": "Natural gas basis spread economic hedge; volume in MMBTU not MBbls"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 20.468,
+    "total_liability_mm": 43.655,
+    "net_fair_value_mm": -23.187,
+    "as_of_date": "2016-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "gasoline crack spread (long WTI / short sub-octane gasoline)"
+  },
+  "warnings": [
+    "Natural gas price swaps (9.6M MMBTU in 2017, economic hedge dedesignated in 2013) excluded as non-barrel. All positions mature in 2017. Economic hedges also include WTI basis spread and crude differentials."
+  ]
+}

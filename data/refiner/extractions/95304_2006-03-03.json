@@ -1,0 +1,32 @@
+{
+  "filing_date": "2006-03-03",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Sunoco Inc",
+  "ticker": "SUN",
+  "throughput": {
+    "crude_throughput_mmbbl": 321.56,
+    "throughput_year": 2005,
+    "source_quote": "Crude Oil Throughputs 2005: 650.6 (Northeast) + 230.4 (MidContinent) = 881.0 thousand barrels daily"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": null,
+    "has_economic_hedges": null,
+    "note_reference": null
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2005-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A references Annual Report for 2001-2007 filings; limited detail in 10-K text"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "filing_date": "2010-03-12",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "Delta Petroleum Corporation",
+  "ticker": "DPTR",
+  "throughput": {
+    "crude_throughput_mmbbl": null,
+    "throughput_year": 2009,
+    "source_quote": "Delta Petroleum Corporation is an E&P company; no crude refining throughput"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "production",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": false,
+    "note_reference": "Item 7A / Notes"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": -26.972,
+    "net_fair_value_mm": -26.972,
+    "as_of_date": "2009-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "CAUTION: This CIK (821483) was Delta Petroleum Corporation (E&P company) in this period, not a petroleum refiner. E&P production hedging (oil and gas output) \u00e2\u20ac\u201d not refinery hedging. Item 7A table shows 7 open contracts at Dec 31, 2009: crude oil swaps (1,000 bbl/day through 2010 at $52.25; 500 bbl/day through 2011 at $57.70) and natural gas swaps (6,000 MMBtu/day CIG through 2010, 15,000 MMBtu/day CIG through 2010, 5,367 MMBtu/day CIG through 2010, 12,000 MMBtu/day CIG through 2011, 3,253 MMBtu/day CIG through 2011). Net fair value = total liability of $26,972K = -$26.972M."
+  ]
+}

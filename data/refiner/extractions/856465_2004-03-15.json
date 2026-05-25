@@ -1,0 +1,44 @@
+{
+  "filing_date": "2004-03-15",
+  "fiscal_year_end": "2003-12-31",
+  "company_name": "Giant Industries, Inc.",
+  "ticker": "GI",
+  "throughput": {
+    "crude_throughput_mmbbl": 32.2,
+    "throughput_year": 2003,
+    "source_quote": "Crude Oil/NGL Throughput (BPD): Four Corners 30,552; Yorktown 57,672; Total 88,224"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": null
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2003,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "mixed",
+      "designation": "economic_hedge",
+      "volume_mbbl": null,
+      "volume_unit": "MBbls",
+      "volume_raw": "crude oil futures - expired during 2003",
+      "notes": "Entered in 2003 to hedge Yorktown refinery crude oil inventories and purchases for Yorktown operations. Recognized losses of $1.594M. No open positions at Dec 31, 2003."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2003-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "No open derivative contracts at fiscal year-end; historical activity noted in risk management section"
+  ]
+}

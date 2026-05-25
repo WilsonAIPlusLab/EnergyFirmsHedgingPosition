@@ -1,0 +1,55 @@
+{
+  "filing_date": "2016-02-05",
+  "fiscal_year_end": "2015-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 3700,
+    "fiscal_year": 2016,
+    "source_quote": "estimated fuel consumption of 3.7 billion gallons for the period from February 1, 2016 to December 31, 2016"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": -672,
+    "note_reference": "Note 4"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2016,
+      "volume_gallons_millions": 887,
+      "volume_pct_of_consumption": 0,
+      "commodities": ["WTI crude", "GC Jet Fuel", "diesel"],
+      "instrument_types": ["call_option", "put_option", "collar", "swap", "futures"],
+      "fair_value_mm": -672
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": true,
+    "notes": "Portfolio of 887M gallons (through Nov 2017) includes both original hedges and offsetting contracts entered in Dec 2015 (for Q1 2016) and January 2016 (for substantially all 2016 positions). Effective price sensitivity for 2016 is near zero. Locked-in cash payments of approximately $725M due in 2016 from the net loss position."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3988.0,
+    "throughput_year": 2015,
+    "source_quote": "2015  3,988 gallons consumed (millions) (from fuel consumption table in Item 1, FY2016 10-K)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": true,
+    "refinery_name": "Monroe Energy (Trainer refinery)"
+  },
+  "warnings": [
+    "pct_hedged_next_year=0: Delta effectively neutralized its 2016 hedge portfolio by entering offsetting contracts in December 2015 (Q1 2016) and January 2016 (through December 2016). As stated: 'the impact of our hedge portfolio due to changes in fuel prices during 2016 is not significant.'",
+    "volume_gallons_millions=887 is the gross volume including both original and offsetting contracts; net price-sensitive coverage for 2016 is approximately 0%.",
+    "net_fair_value_mm=-672: $1,911M assets minus $2,583M liabilities at December 31, 2015; represents locked-in losses to be paid out.",
+    "Delta locked in approximately $725M in cash payments in 2016 from settling the net hedge position.",
+    "FY2015 net fuel hedge losses were $741M (unfavorable MTM adjustments); fuel expense was $7.6 billion (23% of operating expense).",
+    "Delta posted $119M in net hedge margin to counterparties at December 31, 2015 (down from $925M at Dec 31, 2014 as losses were recognized and positions unwound).",
+    "fuel_consumption=3700M gallons is for February 1 - December 31, 2016 (11 months); sensitivity as of January 31, 2016 at $1.01/gallon jet fuel."
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "filing_date": "2009-02-27",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "Valero Energy Corporation",
+  "ticker": "VLO",
+  "throughput": {
+    "crude_throughput_mmbbl": 967.34,
+    "throughput_year": 2008,
+    "source_quote": "Total throughput volumes     2,643     2,798     (155)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "mixed",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 6904,
+      "volume_unit": "MBbls",
+      "volume_raw": "6,904",
+      "notes": "Fair value hedges futures short 2009 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 60162,
+      "volume_unit": "MBbls",
+      "volume_raw": "60,162",
+      "notes": "Cash flow hedges swaps long 2009 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 4680,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,680",
+      "notes": "Cash flow hedges swaps long 2010 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 60162,
+      "volume_unit": "MBbls",
+      "volume_raw": "60,162",
+      "notes": "Cash flow hedges swaps short 2009 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 4680,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,680",
+      "notes": "Cash flow hedges swaps short 2010 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 780,
+      "volume_unit": "MBbls",
+      "volume_raw": "780",
+      "notes": "Cash flow hedges futures long 2009 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 25987,
+      "volume_unit": "MBbls",
+      "volume_raw": "25,987",
+      "notes": "Economic hedges swaps long 2009 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 19734,
+      "volume_unit": "MBbls",
+      "volume_raw": "19,734",
+      "notes": "Economic hedges swaps long 2010 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2011,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 3900,
+      "volume_unit": "MBbls",
+      "volume_raw": "3,900",
+      "notes": "Economic hedges swaps long 2011 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 25931,
+      "volume_unit": "MBbls",
+      "volume_raw": "25,931",
+      "notes": "Economic hedges swaps short 2009 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 19734,
+      "volume_unit": "MBbls",
+      "volume_raw": "19,734",
+      "notes": "Economic hedges swaps short 2010 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2011,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 3900,
+      "volume_unit": "MBbls",
+      "volume_raw": "3,900",
+      "notes": "Economic hedges swaps short 2011 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 135882,
+      "volume_unit": "MBbls",
+      "volume_raw": "135,882",
+      "notes": "Economic hedges futures long 2009 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2010,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 3466,
+      "volume_unit": "MBbls",
+      "volume_raw": "3,466",
+      "notes": "Economic hedges futures long 2010 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 135091,
+      "volume_unit": "MBbls",
+      "volume_raw": "135,091",
+      "notes": "Economic hedges futures short 2009 crude oil and refined products"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 816.0,
+    "as_of_date": "2008-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["Fair value hedges categorized under cash_flow_hedge designation. Trading activities excluded. Natural gas futures excluded. 2010 futures short also reported but data cut off."]
+}

@@ -1,0 +1,55 @@
+{
+  "filing_date": "2016-02-29",
+  "fiscal_year_end": "2015-12-31",
+  "company_name": "Western Refining, Inc.",
+  "ticker": "WNR",
+  "throughput": {
+    "crude_throughput_mmbbl": 59.06,
+    "throughput_year": 2015,
+    "source_quote": "Total refinery throughput (bpd): 161,807"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "crack_spread",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2016,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "undesignated",
+      "volume_mbbl": 4593,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,593,000 barrels crude futures - long (2016)",
+      "notes": "Non-hedging, mark-to-market; net long crude position (per table showing positive 4,593)"
+    },
+    {
+      "maturity_year": 2016,
+      "commodity": "crack_spread",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 5645,
+      "volume_unit": "MBbls",
+      "volume_raw": "(5,645,000) barrels refined product price and crack spread swaps - short (2016)",
+      "notes": "Non-hedging, mark-to-market; to fix margin on future gasoline and distillate production. Total hedging gain $43.5M in 2015."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 90.006,
+    "total_liability_mm": 10.273,
+    "net_fair_value_mm": 79.733,
+    "as_of_date": "2015-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "gasoline_distillate"
+  },
+  "warnings": [
+    "All derivatives undesignated (no hedge accounting). Net crude position flipped to long (4,593K bbl) while refined product swaps remain short, consistent with crack spread strategy. Fair value: assets $90.006M (current $78.125M + LT $11.881M) / liabilities $10.273M (current). Net unrealized gain $79.733M."
+  ]
+}

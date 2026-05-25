@@ -1,0 +1,43 @@
+{
+  "filing_date": "2021-02-12",
+  "fiscal_year_end": "2020-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": null,
+    "note_reference": "Note 6"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "157M gallons (through April 2021) are Monroe Energy's inventory hedges, not airline fuel hedges. Item 7A states: 'Our derivative contracts to hedge the financial risk from changing fuel prices are primarily related to Monroe's inventory.' No airline fuel hedging program exists."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1935.0,
+    "throughput_year": 2020,
+    "source_quote": "Fuel gallons consumed (in millions)  1,935  4,214  4,113 (from operating statistics table in Item 7 MD&A; FY2020 = 1,935 due to COVID-19 pandemic)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": true,
+    "refinery_name": "Monroe Energy (Trainer refinery)"
+  },
+  "warnings": [
+    "program_exists=false: No airline fuel hedging program. Volume of 157M gallons represents Monroe Energy's inventory hedges only.",
+    "net_fair_value_mm=-9 is the net fair value of Monroe's fuel inventory hedges: $(9)M liabilities at December 31, 2020.",
+    "COVID-19 impact: FY2020 jet fuel consumption was 1.9 billion gallons, significantly below pre-pandemic level of approximately 4 billion gallons.",
+    "Item 7A references 'approximately four billion gallons of jet fuel' as pre-COVID baseline with no hedging: 'A one cent increase in cost of jet fuel would result in approximately $40 million of additional annual fuel expense based on annual pre-COVID-19 pandemic consumption.'"
+  ]
+}

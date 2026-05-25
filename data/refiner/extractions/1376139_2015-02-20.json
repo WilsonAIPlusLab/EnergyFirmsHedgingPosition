@@ -1,0 +1,44 @@
+﻿{
+    "filing_date":  "2015-02-20",
+    "fiscal_year_end":  "2014-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  71.738925,
+                       "throughput_year":  2014,
+                       "source_quote":  "Total crude oil throughput    196,545    94.6 [2014]    187,568    94.9 [2013]    169,356    94.0 [2012]    (Refining Throughput and Production Data, bpd)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Item 7A"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2015,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  9100,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "9.1 million barrels of crack spreads",
+                                   "notes":  "Commodity swap contracts (OTC, cash-settled) to fix margin on future gasoline and distillate production. 9.1 million barrels confirmed by $1/bbl sensitivity = $9.1M. Net unrealized gain $47.3M at Dec 31, 2014. Contracts had both short-term and long-term maturities. Not designated as hedge for accounting purposes."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  47,
+                        "total_liability_mm":  0,
+                        "net_fair_value_mm":  47,
+                        "as_of_date":  "2014-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  null
+                             },
+    "warnings":  [
+                     "Item 8 notes is empty; data from Item 7A. No open NYMEX positions at Dec 31, 2014. Crack spread swaps: 9.1 million barrels (9,100 MBbls), net unrealized gain $47.3M. CRNF interest rate swap (nitrogen fertilizer subsidiary) excluded as non-commodity. CVR Partners nitrogen fertilizer commodity derivatives excluded."
+                 ]
+}

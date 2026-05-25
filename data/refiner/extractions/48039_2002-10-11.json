@@ -1,0 +1,32 @@
+{
+  "filing_date": "2002-10-11",
+  "fiscal_year_end": "2002-07-31",
+  "company_name": "Holly Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 21.973,
+    "throughput_year": 2002,
+    "source_quote": "Crude charge (BPD)(1) 60,200 (fiscal year ended July 31, 2002)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": false,
+    "note_reference": "Note 11"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2002-07-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "No contracts outstanding at July 31, 2002. Company periodically uses futures/swaps but all positions were closed. Note: fiscal year ended July 31, 2002 (not December 31)."
+  ]
+}

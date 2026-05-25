@@ -1,0 +1,41 @@
+{
+  "filing_date": "2009-03-16",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "Republic Airways Holdings, Inc.",
+  "ticker": "RJET",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2008,
+    "source_quote": "No fuel consumption stated. Branded operations (Midwest Airlines, acquired 2009) were not yet consolidated. Fixed-fee CPA operations: fuel pass-through."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging for FY2008. Republic operates under fixed-fee CPAs where fuel is a pass-through cost. Item 7A covers only interest rate risk. Republic acquired Midwest Airlines in 2009 and Frontier Airlines Holdings out of bankruptcy in 2009; fuel hedging began for branded operations in subsequent years."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Regional carrier operating under CPAs — fuel is pass-through; no fuel hedging program.",
+    "Republic subsequently acquired Midwest Airlines (2009) and Frontier Airlines (out of bankruptcy, 2009), beginning fuel hedging for branded operations."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 101.998657,
+    "throughput_year": 2008,
+    "source_quote": "Fuel gallons consumed: 101,998,657 (fiscal year ended December 31, 2008) from Item 7 operating statistics table. Average price per gallon $3.21 in 2008 vs $2.40 in 2007."
+  }
+}

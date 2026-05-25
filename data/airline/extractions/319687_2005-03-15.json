@@ -1,0 +1,40 @@
+{
+  "filing_date": "2005-03-15",
+  "fiscal_year_end": "2004-12-31",
+  "company_name": "Continental Airlines, Inc.",
+  "ticker": "CAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2004,
+    "source_quote": "Based on gallons expected to be consumed in 2005, for every one dollar increase in the price of crude oil, our annual fuel expense would increase by approximately $40 million (implies ~1,680 million projected gallons for 2005)."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "As of December 31, 2004, did not have any fuel price hedges in place. However, in prior year 2004, the company had fuel hedging activities that resulted in $74 million of gains. The Q1 2003 hedges from Dec 31, 2002 appear to have settled and no new hedges were entered."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No fuel hedges in place at December 31, 2004. Hedging gains of $74 million recognized in FY2004 from prior positions."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1333.0,
+    "throughput_year": 2004,
+    "source_quote": "Fuel gallons consumed (millions) 1,333 [2004] 1,257 [2003] 1,296 [2002] (Item 6 selected operating data; Continental Airlines standalone)"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "filing_date": "2021-02-26",
+  "fiscal_year_end": "2020-12-31",
+  "company_name": "Marathon Petroleum Corporation",
+  "ticker": "MPC",
+  "throughput": {
+    "crude_throughput_mmbbl": 884.99,
+    "throughput_year": 2020,
+    "source_quote": "Refinery throughputs (mbpd): Crude oil refined     2,418     2,902     2,081"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 8 Notes"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2021,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 17474,
+      "volume_unit": "MBbls",
+      "volume_raw": "17,474",
+      "notes": "Exchange-traded crude oil long; 81.9% expire Q1 2021"
+    },
+    {
+      "maturity_year": 2021,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 11197,
+      "volume_unit": "MBbls",
+      "volume_raw": "11,197",
+      "notes": "Exchange-traded crude oil short; 81.9% expire Q1 2021"
+    },
+    {
+      "maturity_year": 2021,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 13923,
+      "volume_unit": "MBbls",
+      "volume_raw": "13,923",
+      "notes": "Exchange-traded refined products long; 89.0% expire Q1 2021"
+    },
+    {
+      "maturity_year": 2021,
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 9354,
+      "volume_unit": "MBbls",
+      "volume_raw": "9,354",
+      "notes": "Exchange-traded refined products short; 89.0% expire Q1 2021"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2020-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["Blending products (ethanol) excluded. No hedge accounting designation. Short-duration positions."]
+}

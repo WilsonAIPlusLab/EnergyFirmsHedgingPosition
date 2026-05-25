@@ -1,0 +1,47 @@
+﻿{
+    "filing_date":  "2026-02-27",
+    "fiscal_year_end":  "2025-12-31",
+    "company_name":  "Calumet, Inc.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  30.621675,
+                       "throughput_year":  2025,
+                       "source_quote":  "Total facility production    83,895 [2025]    79,654 [2024]    75,804 [2023]    (In bpd; total facility production = barrels per day of specialty products and fuel products; \u0027Total feedstock runs\u0027 not reported company-wide in this filing)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 9"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2026,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "crack_spread_swap",
+                                   "direction":  "short",
+                                   "designation":  "undesignated",
+                                   "volume_mbbl":  3650,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "3,650,000 barrels",
+                                   "notes":  "Crack spread swaps - sales, 2026 maturity, from Note 9 derivative positions table"
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  6.7,
+                        "total_liability_mm":  -23.1,
+                        "net_fair_value_mm":  -16.4,
+                        "as_of_date":  "2025-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "crack_spread_and_renewable_feedstock"
+                             },
+    "warnings":  [
+                     "Item 7A defers to Note 9 Derivatives; no notional position tables in Item 7A",
+                     "Active crack spread hedging program plus precious metals catalyst and renewable feedstock hedging",
+                     "Renewable feedstock hedging explicitly added to program description in FY2025",
+                     "Notional positions extracted from Note 9 derivative positions table: crack spread swaps sales 3,650,000 bbl (2026 maturity). Net FV: crack spread asset $6.7M - inventory financing obligation $(23.1)M = -$16.4M net."
+                 ]
+}

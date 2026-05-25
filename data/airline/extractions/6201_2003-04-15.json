@@ -1,0 +1,74 @@
+{
+  "filing_date": "2003-04-15",
+  "fiscal_year_end": "2002-12-31",
+  "company_name": "American Airlines, Inc. (AMR Corporation)",
+  "ticker": "AAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2003,
+    "source_quote": "Based on projected 2003 fuel usage, such an increase would result in an increase to aircraft fuel expense of approximately $205 million in 2003, net of fuel hedge instruments outstanding at December 31, 2002"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 32,
+    "pct_hedged_next_year": 15,
+    "net_fair_value_mm": 212.0,
+    "note_reference": "Note 9"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2003,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.32,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2004,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.15,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2005,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.04,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "American enters into jet fuel, heating oil and crude swap and option contracts. Note 9 reports 1.7 billion gallons of fuel products hedged at December 31, 2002 across 2003-2005 coverage years. Fair value of agreements totaled $212 million (amount company would receive to terminate)."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Total fuel consumption in gallons not explicitly stated; only dollar-based market risk sensitivity provided.",
+    "The 1.7 billion gallons mentioned in Note 9 is the total notional volume across all hedge contracts outstanding (2003-2005), not annual consumption.",
+    "This filing covers AMR Corporation (parent); American Airlines, Inc. (CIK 6201) is the principal operating subsidiary.",
+    "Credit rating constraints noted: 'The Company's credit rating has limited its ability to enter into certain types of fuel hedge contracts.'"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3163.0,
+    "throughput_year": 2002,
+    "source_quote": "Fuel consumption (gallons, in millions) 3,163 [2002] 3,294 [2001] 3,045 [2000] (Item 7 operating statistics; mainline incl. TWA LLC)"
+  }
+}

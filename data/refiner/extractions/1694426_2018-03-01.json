@@ -1,0 +1,86 @@
+{
+  "filing_date": "2018-03-01",
+  "fiscal_year_end": "2017-12-31",
+  "company_name": "Delek US Holdings, Inc.",
+  "ticker": "DK",
+  "throughput": {
+    "crude_throughput_mmbbl": 77.273,
+    "throughput_year": 2017,
+    "source_quote": "Tyler Refinery Crude Oil: 69,088 BPD (365 days); El Dorado Refinery Crude Oil: 73,577 BPD (365 days); Big Spring Refinery Crude Oil: 69,549 BPD (184 days, H2 2017 post-merger); Krotz Springs Refinery Crude Oil: 67,407 BPD (184 days, H2 2017 post-merger)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "mixed",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": null
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2018,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 4085,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,085,000 bbl crude oil price swaps long (non-designated); FV $3.1M",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 4810,
+      "volume_unit": "MBbls",
+      "volume_raw": "4,810,000 bbl crude oil price swaps short (non-designated); FV ($12.5M)",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "crack_spread",
+      "instrument": "crack_spread_swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 15308,
+      "volume_unit": "MBbls",
+      "volume_raw": "15,308,000 bbl inventory/refined product/crack spread swaps long (non-designated); FV $16.4M",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "crack_spread",
+      "instrument": "crack_spread_swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 11200,
+      "volume_unit": "MBbls",
+      "volume_raw": "11,200,000 bbl inventory/refined product/crack spread swaps short (non-designated); FV ($19.3M)",
+      "notes": ""
+    },
+    {
+      "maturity_year": 2018,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 575,
+      "volume_unit": "MBbls",
+      "volume_raw": "575,000 bbl crude oil price swaps long (CFH); FV ($13.6M)",
+      "notes": "Cash flow hedge. Also RIN commitments: long 144.9M RINs FV ($23.8M); short 18.5M RINs FV $1.2M."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": -48.5,
+    "as_of_date": "2017-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "inventory_refined_product_and_crack_spread_swaps"
+  },
+  "warnings": []
+}

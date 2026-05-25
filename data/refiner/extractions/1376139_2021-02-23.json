@@ -1,0 +1,55 @@
+﻿{
+    "filing_date":  "2021-02-23",
+    "fiscal_year_end":  "2020-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  62.717028,
+                       "throughput_year":  2020,
+                       "source_quote":  "Total crude throughput  Coffeyville 100,722  Wynnewood 70,636  Total 171,358  (Throughput by Refinery, in bpd, Year Ended December 31, 2020)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "mixed",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 7 (Derivative Financial Instruments)"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2021,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  7000,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "7 million outstanding commodity swap positions",
+                                   "notes":  "Commodity swap positions (OTC, cash-settled) at Dec 31, 2020. Commodity type not separately specified but consistent with company\u0027s crack spread margin hedging strategy. Not designated as hedge for accounting purposes. No comparable positions existed at Dec 31, 2019."
+                               },
+                               {
+                                   "maturity_year":  2021,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "forward",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  2000,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "~4 million forward purchase commitments less ~2 million forward sale commitments = ~2 million net barrels",
+                                   "notes":  "Forward purchase and sale commitments for crude oil (likely Canadian). Approximately 4 million barrels purchases and 2 million barrels sales at Dec 31, 2020. Not designated as hedge for accounting purposes."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  1,
+                        "total_liability_mm":  5,
+                        "net_fair_value_mm":  -4,
+                        "as_of_date":  "2020-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  null
+                             },
+    "warnings":  [
+                     "Item 7A is sparse; data from derivative note in full_text.txt. 7 million barrels of commodity swaps outstanding at Dec 31, 2020 (type not specified in note â€” assumed crack spread based on prior year pattern and company policy). Forward purchase/sale commitments: ~4M bbl purchases, ~2M bbl sales. Net fair value: gross assets $1M - $5M gross liabilities = $(4M) net liability after netting. CVR Partners nitrogen fertilizer derivatives excluded. RINs purchase commitments excluded."
+                 ]
+}

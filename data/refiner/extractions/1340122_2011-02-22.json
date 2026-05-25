@@ -1,0 +1,77 @@
+﻿{
+    "filing_date":  "2011-02-22",
+    "fiscal_year_end":  "2010-12-31",
+    "company_name":  "Calumet Specialty Products Partners, L.P.",
+    "ticker":  "CLMT",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  20.424305,
+                       "throughput_year":  2010,
+                       "source_quote":  "Total feedstock runs (2)    55,957 [2010]    60,081 [2009]    56,243 [2008]    (In bpd; feedstock runs = barrels per day of crude oil and other feedstocks processed at our facilities)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "crack_spread",
+                          "has_cash_flow_hedges":  true,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 7"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  11423,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "11,423,000 bbl crude oil swaps purchased 2011-2012",
+                                   "notes":  ""
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "diesel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  3931,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "3,931,000 bbl diesel swaps sold 2011-2012",
+                                   "notes":  ""
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "gasoline",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  6627,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "6,626,500 bbl gasoline swaps sold 2011-2012",
+                                   "notes":  ""
+                               },
+                               {
+                                   "maturity_year":  null,
+                                   "commodity":  "jet_fuel",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  866,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "865,500 bbl jet fuel swaps sold 2011",
+                                   "notes":  "Also interest rate swaps and specialty crude swaps."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  null,
+                        "total_liability_mm":  null,
+                        "net_fair_value_mm":  null,
+                        "as_of_date":  "2010-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2/1/1_and_custom_crack_spread"
+                             },
+    "warnings":  [
+
+                 ]
+}

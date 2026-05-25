@@ -1,0 +1,77 @@
+{
+  "filing_date": "2022-02-25",
+  "fiscal_year_end": "2021-12-31",
+  "company_name": "Delek US Holdings, Inc.",
+  "ticker": "DK",
+  "throughput": {
+    "crude_throughput_mmbbl": 91.48,
+    "throughput_year": 2021,
+    "source_quote": "Tyler Refinery: Throughput (average barrels per day): Crude Oil 65,205 (365 days). El Dorado Refinery: Crude Oil 62,067 (365 days). Big Spring Refinery: Crude oil 68,038 (365 days). Krotz Springs Refinery: Crude Oil 55,321 (365 days)."
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": null
+  },
+  "notional_positions": [
+    {
+      "maturity_year": null,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 22529,
+      "volume_unit": "MBbls",
+      "volume_raw": "22,529,000 bbl crude oil price swaps long (non-designated, 2022); FV $21.0M",
+      "notes": ""
+    },
+    {
+      "maturity_year": null,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 16488,
+      "volume_unit": "MBbls",
+      "volume_raw": "16,488,000 bbl crude oil price swaps short (non-designated, 2022); FV ($27.2M)",
+      "notes": ""
+    },
+    {
+      "maturity_year": null,
+      "commodity": "crack_spread",
+      "instrument": "crack_spread_swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 67591,
+      "volume_unit": "MBbls",
+      "volume_raw": "67,591,000 bbl inv/product/crack swaps long (non-designated, 2022-2023); FV $51.6M",
+      "notes": ""
+    },
+    {
+      "maturity_year": null,
+      "commodity": "crack_spread",
+      "instrument": "crack_spread_swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 69393,
+      "volume_unit": "MBbls",
+      "volume_raw": "69,393,000 bbl inv/product/crack swaps short (non-designated, 2022-2023); FV ($50.2M)",
+      "notes": "Trading (CFH designation none): crude swaps L 3.4M + fwds L 2.4M / short 3.6M + 2.5M bbl. Total trading FV $15.0M."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": -3.9,
+    "as_of_date": "2021-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "inventory_refined_product_and_crack_spread_swaps"
+  },
+  "warnings": [
+    "FY2021 trading segment (separate table): crude swaps and forwards FV $15.0M net."
+  ]
+}

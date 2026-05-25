@@ -1,0 +1,95 @@
+{
+  "filing_date": "2008-02-04",
+  "fiscal_year_end": "2007-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1500,
+    "fiscal_year": 2008,
+    "source_quote": "The Company expects to consume approximately 1.5 billion gallons of jet fuel in 2008."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 70,
+    "pct_hedged_next_year": 55,
+    "net_fair_value_mm": 2387,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2008,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.7,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2009,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.55,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2010,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.3,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2011,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.15,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2012,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.15,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Instruments primarily consist of purchased call options, collar structures, and fixed-price swap agreements; underlying commodities include crude oil, unleaded gasoline, and heating oil-based derivatives; refinery margins added on most 2008 positions; fair value at Dec 31 2007 was net asset of $2.387 billion ($1.069B current + $1.318B noncurrent)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "pct_hedged for 2008 reported as 'over 70 percent' \u2014 recorded as 70 (floor)",
+    "pct_hedged for 2009 reported as 'over 55 percent' \u2014 recorded as 55 (floor)",
+    "pct_hedged for 2010 reported as 'nearly 30 percent' \u2014 recorded as 30 (approximate)",
+    "pct_hedged for 2011 and 2012 reported as 'over 15 percent' \u2014 recorded as 15 (floor)",
+    "avg_price_per_bbl values are crude oil equivalent prices, not jet fuel prices"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1491.8,
+    "throughput_year": 2007,
+    "source_quote": "Fuel and oil expense table: average cost $2,536 million, average cost per gallon $1.70 (Item 1, 2008 10-K filing)"
+  }
+}

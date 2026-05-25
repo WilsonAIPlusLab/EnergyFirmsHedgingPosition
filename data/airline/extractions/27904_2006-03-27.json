@@ -1,0 +1,52 @@
+{
+  "filing_date": "2006-03-27",
+  "fiscal_year_end": "2005-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 2100.0,
+    "fiscal_year": 2006,
+    "source_quote": "Our business plan assumes that in 2006 our aircraft fuel consumption will be approximately 2.1 billion gallons and that our average annual jet fuel price per gallon will be approximately $1.74."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0.0,
+    "note_reference": "Note 5 (Risk Management) and Note 6 (Derivative Instruments)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2005,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.0,
+      "commodities": [],
+      "instrument_types": [],
+      "fair_value_mm": 0.0
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": null,
+    "has_collars": null,
+    "has_call_spreads": null,
+    "has_swaps": null,
+    "notes": "No fuel hedge contracts at December 31, 2005 or 2004. Delta was in Chapter 11 bankruptcy (filed September 14, 2005). Bankruptcy Court authorized fuel hedging up to 30% of monthly consumption in December 2005; Creditors Committee approved up to 50% of 2006 aggregate consumption in February 2006, but no contracts were outstanding at Dec 31, 2005. Note 6 confirms: 'We did not have any fuel hedge contracts at December 31, 2005 or 2004.' For February 2006, approximately 26% of fuel needs were hedged (subsequent event)."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2492.0,
+    "throughput_year": 2005,
+    "source_quote": "2005  2,492  $4,271  171.44¢  23% (Gallons Consumed (Millions) from fuel consumption table in Item 1)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2004,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Delta filed for Chapter 11 bankruptcy on September 14, 2005; this filing covers that bankruptcy period",
+    "No fuel hedges at December 31, 2005 \u2014 hedging program was suspended; Bankruptcy Court approval was required to resume",
+    "In December 2005 Bankruptcy Court authorized hedging up to 30% monthly; in February 2006 Creditors Committee approved up to 50% of 2006 aggregate consumption \u2014 these are post-balance-sheet events",
+    "Hedging activity noted for Feb 2006 (26% hedged, $1.2M gain) but no contracts were outstanding at Dec 31, 2005"
+  ]
+}

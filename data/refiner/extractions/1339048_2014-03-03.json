@@ -1,0 +1,55 @@
+{
+  "filing_date": "2014-03-03",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "Western Refining, Inc.",
+  "ticker": "WNR",
+  "throughput": {
+    "crude_throughput_mmbbl": 54.91,
+    "throughput_year": 2013,
+    "source_quote": "Total refinery throughput (bpd): 150,429"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "crack_spread",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 768,
+      "volume_unit": "MBbls",
+      "volume_raw": "(768,000) barrels crude futures - short (2014)",
+      "notes": "Non-hedging, mark-to-market; inventory protection leg"
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "crack_spread",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 25721,
+      "volume_unit": "MBbls",
+      "volume_raw": "(25,721,000) barrels refined product price and crack spread swaps - short (2014)",
+      "notes": "Non-hedging, mark-to-market; to fix margin on future gasoline and distillate production. Net total hedging loss $(1.0M) in 2013 ($15.9M realized gain + $16.9M unrealized loss)."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 8.798,
+    "total_liability_mm": 73.255,
+    "net_fair_value_mm": -64.457,
+    "as_of_date": "2013-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "gasoline_distillate"
+  },
+  "warnings": [
+    "All derivatives undesignated (no hedge accounting). Crack spread program continued. Fair value: assets $8.798M (current $8.791M + LT $0.007M) / liabilities $73.255M (current $17.386M + LT $55.869M). Net unrealized loss $(64.457M)."
+  ]
+}

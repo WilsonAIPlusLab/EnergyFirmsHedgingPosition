@@ -1,0 +1,47 @@
+{
+  "filing_date": "2003-02-18",
+  "fiscal_year_end": "2002-12-31",
+  "company_name": "JetBlue Airways Corporation",
+  "ticker": "JBLU",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2003,
+    "source_quote": "Based on projected 2003 fuel consumption, such an increase would result in an increase to aircraft fuel expense of approximately $7 million in 2003"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 45,
+    "pct_hedged_next_year": 18,
+    "net_fair_value_mm": 2.013,
+    "note_reference": "Note 12"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2003,
+      "volume_gallons_millions": 86.436,
+      "volume_pct_of_consumption": 0.45,
+      "commodities": ["WTI crude"],
+      "instrument_types": ["call_option"],
+      "fair_value_mm": 2.013
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "2,058 thousand barrels hedged at Dec 31 2002 (=2,058k bbl x 42 = 86.436M gallons). Crude oil option contracts. Not yet designated as cash flow hedges (designated Dec 2002). Contracts for 2003 and partial 2004 (through Q1 2004, ~18%)."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 105.5,
+    "throughput_year": 2002,
+    "source_quote": "Fuel gallons consumed (000): 20,934 / 24,641 / 28,301 / 31,639 (quarterly, from operating statistics table in Item 7 MD&A; sum = 105,515 thousand = 105.5M annual)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": ["Volume in gallons converted from 2,058 thousand barrels x 42 = 86.436M gallons; percentage hedged 45% is for 2003; 18% for 2004 through March 31 2004 only"]
+}

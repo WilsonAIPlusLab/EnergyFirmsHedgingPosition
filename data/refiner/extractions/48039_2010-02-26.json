@@ -1,0 +1,32 @@
+{
+  "filing_date": "2010-02-26",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "Holly Corporation",
+  "ticker": "HFC",
+  "throughput": {
+    "crude_throughput_mmbbl": 51.987,
+    "throughput_year": 2009,
+    "source_quote": "Crude charge (BPD)(1): 142,430"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": false,
+    "note_reference": "Note 4"
+  },
+  "notional_positions": [],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2009-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "No commodity derivative positions outstanding at December 31, 2009. Financial instruments are limited to interest rate swaps (HEP) and debt instruments."
+  ]
+}

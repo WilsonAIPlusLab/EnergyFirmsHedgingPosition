@@ -1,0 +1,86 @@
+{
+  "filing_date": "2001-01-26",
+  "fiscal_year_end": "2000-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 80,
+    "net_fair_value_mm": 98.3,
+    "note_reference": "Note 7"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2001,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.8,
+      "commodities": [
+        "heating oil",
+        "WTI crude"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2002,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.32,
+      "commodities": [
+        "heating oil",
+        "WTI crude"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar",
+        "swap"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2005,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "WTI crude"
+      ],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Mixture of purchased call options, collar structures, and fixed price swap agreements. Nearly all 2001 hedges and majority of 2002 hedges are heating oil-based; remaining are crude oil-based."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "No gallon volumes provided; only percentage of anticipated fuel requirements disclosed.",
+    "2005 position described as 'small portion'; no percentage given.",
+    "Fair value of $98.3 million is total portfolio fair value; per-year breakdown not available.",
+    "Balance sheet amount of $22.5 million represents aggregate net premium cost paid for option/collar agreements (prepaid expense), not fair value."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1018.0,
+    "throughput_year": 2000,
+    "source_quote": "Fuel and oil expense table: average cost $804 million, average cost per gallon $0.79 (Item 1, 2001 10-K filing)"
+  }
+}

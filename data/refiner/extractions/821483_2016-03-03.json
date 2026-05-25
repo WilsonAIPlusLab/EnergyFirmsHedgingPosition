@@ -1,0 +1,77 @@
+{
+  "filing_date": "2016-03-03",
+  "fiscal_year_end": "2015-12-31",
+  "company_name": "Par Pacific Holdings, Inc.",
+  "ticker": "PARR",
+  "throughput": {
+    "crude_throughput_mmbbl": 28.21,
+    "throughput_year": 2015,
+    "source_quote": "Total Crude Oil Throughput (Mbpd): 77.3"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A / Note 10"
+  },
+  "notional_positions": [
+    {
+      "commodity": "refined_products",
+      "instrument": "futures",
+      "direction": "long",
+      "volume_mbbl": 403,
+      "maturity_year": 2016,
+      "designation": "economic_hedge",
+      "notes": "Futures and OTC swaps purchases of 403 thousand barrels that economically hedge forecasted sales of refined products (per Item 7A).",
+      "volume_unit": "MBbls",
+      "volume_raw": "403 MBbls long refined_products"
+    },
+    {
+      "commodity": "refined_products",
+      "instrument": "swap",
+      "direction": "short",
+      "volume_mbbl": 95,
+      "maturity_year": 2016,
+      "designation": "economic_hedge",
+      "notes": "Sold OTC swaps of 95 thousand barrels that economically hedge refined products inventory (per Item 7A).",
+      "volume_unit": "MBbls",
+      "volume_raw": "95 MBbls short refined_products"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "volume_mbbl": 239,
+      "maturity_year": 2016,
+      "designation": "economic_hedge",
+      "notes": "Futures sales of 239 thousand barrels that economically hedge physical inventory for Texadian segment (crude oil marketing/logistics per Item 7A).",
+      "volume_unit": "MBbls",
+      "volume_raw": "239 MBbls short crude_oil"
+    },
+    {
+      "commodity": "crude_oil",
+      "instrument": "options",
+      "direction": "long",
+      "volume_mbbl": 624,
+      "maturity_year": 2016,
+      "designation": "economic_hedge",
+      "notes": "Option collars on internally consumed refinery fuel: 52,000 bbl/month through December 2017; annualized 2016 volume = 52K x 12 = 624K bbl.",
+      "volume_unit": "MBbls",
+      "volume_raw": "624 MBbls long crude_oil"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 4.577,
+    "total_liability_mm": -14.459,
+    "net_fair_value_mm": -9.882,
+    "as_of_date": "2015-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "Item 7A provides notional volumes at Dec 31, 2015: 403K bbl futures/OTC swaps purchases hedging forecasted sales of refined products (long refined_products); 95K bbl sold OTC swaps hedging refined products inventory (short refined_products); 239K bbl futures sales hedging Texadian segment crude oil physical inventory (short crude_oil); option collars 52,000 bbl/month through December 2017 on internally consumed refinery fuel. Fair value: commodity derivative asset $4,577K (current) / liability $9,534K (current) + $4,925K (long-term) = $14,459K total; net liability $9,882K. J.Aron Supply and Offtake Agreement embedded derivative: $9,810K asset (not in notional_positions). Company renamed Par Pacific Holdings, Inc. in 2015. All exchange-traded derivatives are undesignated economic hedges."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "filing_date": "2014-02-27",
+  "fiscal_year_end": "2013-12-31",
+  "company_name": "Valero Energy Corporation",
+  "ticker": "VLO",
+  "throughput": {
+    "crude_throughput_mmbbl": 978.93,
+    "throughput_year": 2013,
+    "source_quote": "Total throughput volumes     2,682     2,613     69"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "mixed",
+    "has_cash_flow_hedges": true,
+    "has_economic_hedges": true,
+    "note_reference": "Item 8 Notes"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 11857,
+      "volume_unit": "MBbls",
+      "volume_raw": "11,857",
+      "notes": "Fair value hedges futures long 2014 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 12169,
+      "volume_unit": "MBbls",
+      "volume_raw": "12,169",
+      "notes": "Fair value hedges futures short 2014 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 7629,
+      "volume_unit": "MBbls",
+      "volume_raw": "7,629",
+      "notes": "Cash flow hedges futures long 2014 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "cash_flow_hedge",
+      "volume_mbbl": 2314,
+      "volume_unit": "MBbls",
+      "volume_raw": "2,314",
+      "notes": "Cash flow hedges futures short 2014 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 7261,
+      "volume_unit": "MBbls",
+      "volume_raw": "7,261",
+      "notes": "Economic hedges swaps long 2014 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 7276,
+      "volume_unit": "MBbls",
+      "volume_raw": "7,276",
+      "notes": "Economic hedges swaps short 2014 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 42205,
+      "volume_unit": "MBbls",
+      "volume_raw": "42,205",
+      "notes": "Economic hedges futures long 2014 crude oil and refined products"
+    },
+    {
+      "maturity_year": 2014,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 52158,
+      "volume_unit": "MBbls",
+      "volume_raw": "52,158",
+      "notes": "Economic hedges futures short 2014 crude oil and refined products"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 537.0,
+    "total_liability_mm": 529.0,
+    "net_fair_value_mm": 8.0,
+    "as_of_date": "2013-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": ["Fair value hedges categorized under cash_flow_hedge designation. Trading activities excluded. Corn, soybean oil contracts excluded. Physical contracts excluded."]
+}

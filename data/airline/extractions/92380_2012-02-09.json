@@ -1,0 +1,82 @@
+{
+  "filing_date": "2012-02-09",
+  "fiscal_year_end": "2011-12-31",
+  "company_name": "Southwest Airlines Co.",
+  "ticker": "LUV",
+  "fuel_consumption": {
+    "expected_gallons_millions": 1900,
+    "fiscal_year": 2012,
+    "source_quote": "Inclusive of the operations of AirTran, the Company expects to consume approximately 1.9 billion gallons of jet fuel in 2012."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 38,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": -44,
+    "note_reference": "Note 10"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2012,
+      "volume_gallons_millions": 111,
+      "volume_pct_of_consumption": 0.06,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2013,
+      "volume_gallons_millions": 1000,
+      "volume_pct_of_consumption": 0.55,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2014,
+      "volume_gallons_millions": 815,
+      "volume_pct_of_consumption": 0.45,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    },
+    {
+      "coverage_year": 2015,
+      "volume_gallons_millions": 395,
+      "volume_pct_of_consumption": 0.21,
+      "commodities": [],
+      "instrument_types": [
+        "mixed"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": true,
+    "has_swaps": true,
+    "notes": "Primarily a mixture of purchased call options, collar structures (purchased call + sold put), call spreads (purchased call + sold call), and fixed-price swap agreements. WTI crude oil, Brent crude oil, and refined products (heating oil, unleaded gasoline) used as hedge underlyings. Includes fuel derivative instruments acquired from AirTran."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Net fair value of -$44M is gross fair value (before cash collateral netting); an additional $226M in cash collateral was provided by the Company to three counterparties. Note 10 labels this as 'gross fair value' explicitly.",
+    "2012 gallons (111M) are very low because coverage for early 2012 is minimal; table is inclusive of AirTran fuel derivatives acquired at acquisition. Percentage of consumption not disclosed for forward years in this filing."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 1768.7,
+    "throughput_year": 2011,
+    "source_quote": "Fuel and oil expense table: average cost $5,644 million, average cost per gallon $3.19 (Item 1, 2012 10-K filing)"
+  }
+}

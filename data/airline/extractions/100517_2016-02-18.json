@@ -1,0 +1,61 @@
+{
+  "filing_date": "2016-02-18",
+  "fiscal_year_end": "2015-12-31",
+  "company_name": "United Continental Holdings, Inc.",
+  "ticker": "UAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 3950,
+    "fiscal_year": 2016,
+    "source_quote": "Projection based on a price of $1.14 per gallon and estimated consumption of 3.95 billion gallons for the year ending December 31, 2016"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.17,
+    "net_fair_value_mm": -124,
+    "note_reference": "Item 7A - Commodity Price Risk (Aircraft Fuel)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2016,
+      "volume_gallons_millions": 652,
+      "volume_pct_of_consumption": 0.17,
+      "commodities": [
+        "aircraft fuel",
+        "crude oil"
+      ],
+      "instrument_types": [
+        "swap",
+        "call_option",
+        "collar"
+      ],
+      "fair_value_mm": -124
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Portfolio: fixed-price swaps, purchased calls, collars, three-ways, four-way collars. Based on aircraft fuel and crude oil. 652M gallons (17%) for 2016. Hedges expiring through December 2016. Sensitivity: +30% fuel prices \u00e2\u2020\u2019 +$95M hedge gain; -30% fuel prices \u00e2\u2020\u2019 -$37M hedge loss (more balanced than 2014 portfolio). Fair value improved dramatically from -$717M (Dec 31, 2014) to -$124M (Dec 31, 2015). Fuel cost fell to 23% of operating expenses in 2015 (from 32% in 2014) due to oil price collapse."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Fuel cost fell to 23% of total operating expenses in 2015 (from 32% in 2014) due to continued oil price decline",
+    "Net fair value improved from -$717M to -$124M as prior year's underwater positions expired or settled",
+    "2016 projected fuel consumption: 3.95 billion gallons at $1.14/gal (much lower price than 2014-2015)",
+    "Gallons explicitly disclosed: 652M gal for 2016 (17%)",
+    "Only $26M cash collateral deposited (down from $577M at Dec 31, 2014) - portfolio much closer to market",
+    "Sensitivity now shows positive payoff for price increases (+30% \u00e2\u2020\u2019 +$95M) and manageable losses for decreases (-30% \u00e2\u2020\u2019 -$37M)"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3886,
+    "throughput_year": 2015,
+    "source_quote": "Total fuel consumption (gallons): 3,886 (2015)"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "filing_date": "2025-02-12",
+  "fiscal_year_end": "2024-12-31",
+  "company_name": "Sun Country Airlines Holdings, Inc.",
+  "ticker": "SNCY",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2025,
+    "source_quote": "a hypothetical $0.01 per gallon increase in the price of aircraft fuel would increase our aircraft fuel expense by approximately $250 thousand for the three months ending March 31, 2025 based on our scheduled service and charter fuel usage (excluding reimbursed cargo fuel)."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A Quantitative and Qualitative Disclosures About Market Risk"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel derivative contracts outstanding at December 31, 2024 or December 31, 2023 (confirmed by financial statement notes). Currently does not expect to enter into fuel hedging contracts prospectively. Sensitivity figure is Q1 2025 only (~25.0M gallons for Q1)."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2021,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 86.2,
+    "throughput_year": 2024,
+    "source_quote": "Fuel Gallons Consumed (in thousands) 86,185 [2024] 79,574 [2023] [from 2024 Annual Report fuel summary table, in thousands; includes scheduled service and charter, excludes cargo]; 8% increase in fuel gallons consumed year-over-year."
+  },
+  "warnings": [
+    "Fuel sensitivity disclosure covers Q1 2025 only (not annual); expected_gallons_millions set to null as annual total cannot be reliably derived from quarterly figure"
+  ]
+}

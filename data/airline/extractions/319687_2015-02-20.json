@@ -1,0 +1,71 @@
+{
+  "filing_date": "2015-02-20",
+  "fiscal_year_end": "2014-12-31",
+  "company_name": "United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",
+  "ticker": "CAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2014,
+    "source_quote": "Impact of $1 increase in price per barrel of aircraft fuel on annual fuel expense (based on 2015 projected fuel consumption): $93 million (implies ~3,906 million projected gallons for 2015)."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": 0.22,
+    "pct_hedged_next_year": 0.01,
+    "net_fair_value_mm": -717,
+    "note_reference": "Item 7A"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2015,
+      "volume_gallons_millions": 859,
+      "volume_pct_of_consumption": 0.22,
+      "commodities": [
+        "aircraft fuel",
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "collar",
+        "call_option",
+        "swap"
+      ],
+      "fair_value_mm": -717
+    },
+    {
+      "coverage_year": 2016,
+      "volume_gallons_millions": 35,
+      "volume_pct_of_consumption": 0.01,
+      "commodities": [
+        "aircraft fuel",
+        "WTI crude oil"
+      ],
+      "instrument_types": [
+        "collar",
+        "call_option",
+        "swap"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "UAL consolidated at Dec 31, 2014: 22% of 2015 fuel (859 million gallons) and 1% of 2016 (35 million gallons) hedged. Instruments based on aircraft fuel or crude oil. Fair value liability $717 million (large liability due to oil price crash in H2 2014). $577 million collateral deposited with counterparties. Hedges expiring through March 2016."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "Large fuel hedge liability of -$717M due to sharp oil price decline in 2014. $577M collateral deposited."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3905.0,
+    "throughput_year": 2014,
+    "source_quote": "Total fuel consumption (gallons) 3,905 [2014] 3,947 [2013] (Item 7 UAL fuel expense table; United Continental Holdings consolidated)"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "filing_date": "2010-02-24",
+  "fiscal_year_end": "2009-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 3600,
+    "fiscal_year": 2010,
+    "source_quote": "estimated aircraft fuel consumption of 3.6 billion gallons for the 11 months ending December 31, 2010"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 24,
+    "net_fair_value_mm": 179,
+    "note_reference": "Note 4"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2010,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": 0.24,
+      "commodities": ["WTI crude", "heating oil", "GC Jet Fuel"],
+      "instrument_types": ["call_option", "collar", "swap"],
+      "fair_value_mm": 56
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "As of Jan 31, 2010: crude oil call options (12%) + crude oil collars cap/floor (5%) + crude oil swaps (3%) + jet fuel swaps (4%) = 24% for 2010. All NWA-assumed fuel hedge contracts (crude oil collars and swaps) settled by June 30, 2009."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 3853.0,
+    "throughput_year": 2009,
+    "source_quote": "2009  3,853  $8,291  $2.15  29% (Gallons Consumed (Millions) from fuel consumption table in Item 1)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "pct_hedged_next_year=24 is as of January 31, 2010; Note 4 states approximately 20% as of December 31, 2009 (795 million gallons notional).",
+    "net_fair_value_mm=179 is the fuel hedge net asset position at December 31, 2009 per Note 4 narrative ('estimated fair value asset position of $179 million, recorded in prepaid expenses and other').",
+    "fair_value_mm=56 in annual_hedge_positions is at $73/barrel crude oil assumption as of January 31, 2010, not the December 31, 2009 balance sheet value.",
+    "fuel_consumption=3600M gallons covers 11 months (February-December 2010) used as denominator for hedge coverage calculation; full-year 2010 would be approximately 3,927M gallons.",
+    "FY2009 fuel expense was $8.3 billion (29% of total operating expense), including $1.4 billion of fuel hedge losses.",
+    "AOCI loss of $324M from 2008 terminated contracts (Lehman Brothers and others) was fully reclassified into P&L by December 2009."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "filing_date": "2015-02-25",
+  "fiscal_year_end": "2014-12-31",
+  "company_name": "American Airlines Group Inc.",
+  "ticker": "AAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 4300,
+    "fiscal_year": 2015,
+    "source_quote": "Our 2015 forecasted mainline and regional fuel consumption is presently approximately 4.3 billion gallons"
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": 0,
+    "note_reference": "Note 11"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "No fuel hedging contracts outstanding at December 31, 2014. During Q2 2014, the Company sold its portfolio of fuel hedging contracts scheduled to settle on or after June 30, 2014 (cash proceeds: $71M). Remaining $9M of OCI gains to be recognized in 2015 as decrease to fuel expense. FY2014 net gains from hedging: $16M."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2013,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "program_exists=false: 'As of December 31, 2014, the Company did not have any fuel hedging contracts outstanding.' All remaining legacy AMR contracts were sold in Q2 2014.",
+    "stopped_hedging_year=2013: No new fuel hedges entered since December 9, 2013 (merger Effective Date). Note 11 states: 'The Company's current policy is not to enter into transactions to hedge its fuel consumption.'",
+    "net_fair_value_mm=0: No contracts outstanding at December 31, 2014.",
+    "FY2014 net gains of $16M came from selling the legacy hedge portfolio (Q2 2014 sale for $71M cash proceeds, exceeding current market value) and OCI reclassification.",
+    "A one cent per gallon increase in fuel price = ~$43M additional annual expense (based on ~4.3B gallons 2015 forecast)."
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 4332.0,
+    "throughput_year": 2014,
+    "source_quote": "Fuel consumption (gallons in millions) 4,332 [2014] 4,295 [2013] 4,170 [2012] (Item 7 Total Mainline and Regional; first full year combined AAL+US Airways)"
+  }
+}

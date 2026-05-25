@@ -1,0 +1,76 @@
+{
+  "filing_date": "2013-02-25",
+  "fiscal_year_end": "2012-12-31",
+  "company_name": "United Continental Holdings, Inc.",
+  "ticker": "UAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": 4000,
+    "fiscal_year": 2013,
+    "source_quote": "Projections based on estimated consumption of four billion gallons and a price of $2.98 per gallon (2013 projected)"
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.31,
+    "net_fair_value_mm": 46,
+    "note_reference": "Item 7A - Commodity Price Risk (Aircraft Fuel)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2013,
+      "volume_gallons_millions": 1200,
+      "volume_pct_of_consumption": 0.31,
+      "commodities": [
+        "heating oil",
+        "diesel fuel",
+        "crude oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar"
+      ],
+      "fair_value_mm": 46
+    },
+    {
+      "coverage_year": 2014,
+      "volume_gallons_millions": 63,
+      "volume_pct_of_consumption": 0.02,
+      "commodities": [
+        "heating oil",
+        "diesel fuel",
+        "crude oil"
+      ],
+      "instrument_types": [
+        "call_option",
+        "collar"
+      ],
+      "fair_value_mm": null
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Portfolio primarily option contracts: fixed price swaps, purchased calls, collars (sold put + purchased call), three-ways (sold put + purchased call + higher-strike sold call). Based on heating oil, diesel fuel, and crude oil. 1.2B gallons for 2013 (31%) and 63M gallons for 2014 (2%) hedged. 2013 sensitivity: at +20% fuel prices, hedge gain ~$0.08/gal; at -20% fuel prices, hedge loss ~$0.06/gal (modest hedge contribution). Fuel cost 36% of total operating expenses in 2012."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "2013 projected fuel consumption: ~4 billion gallons at $2.98/gal (used in sensitivity analysis table)",
+    "UAL fair value $46M = United $28M + Continental $18M",
+    "Gallons figures explicitly disclosed: 1.2B gal for 2013, 63M gal for 2014",
+    "Hedge portfolio provides modest protection: +20% oil prices \u00e2\u2020\u2019 +$0.08/gal hedge gain; -20% oil prices \u00e2\u2020\u2019 -$0.06/gal hedge loss",
+    "A 10% decrease in forward fuel prices \u00e2\u2020\u2019 $148M decrease in UAL hedge fair value",
+    "A 10% decrease in fuel prices \u00e2\u2020\u2019 only $11M additional collateral required (relatively low)"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 4016,
+    "throughput_year": 2012,
+    "source_quote": "Total fuel consumption (gallons): 4,016 (2012)"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "filing_date": "2022-02-11",
+  "fiscal_year_end": "2021-12-31",
+  "company_name": "Delta Air Lines, Inc.",
+  "ticker": "DAL",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": null,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": null,
+    "note_reference": "Note 3"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": true,
+    "notes": "Monroe Energy inventory hedges only. Fuel hedge portfolio may consist of a combination of options, swaps or futures. Gallon volume not disclosed in filing. Net fair value: $(18)M at December 31, 2021."
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2778.0,
+    "throughput_year": 2021,
+    "source_quote": "Fuel gallons consumed (in millions)  2,778  1,935  4,214 (from operating statistics table in Item 7 MD&A; FY2021 = 2,778)"
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": true,
+    "refinery_name": "Monroe Energy (Trainer refinery)"
+  },
+  "warnings": [
+    "program_exists=false: No airline fuel hedging program. Item 7A states: 'Our derivative contracts to hedge the financial risk from changing fuel prices are primarily related to Monroe's inventory.'",
+    "volume_gallons_millions=null: Specific gallon notional for Monroe inventory hedges not disclosed in the filing.",
+    "net_fair_value_mm=-18: Fuel hedge contracts fair value at December 31, 2021 (Note 3 fair value table).",
+    "FY2021 losses on fuel hedge contracts: $146M (vs. FY2020 gains $85M, FY2019 losses $41M).",
+    "FY2021 jet fuel consumption: 2.8 billion gallons (Item 7A), significantly below pre-COVID level of ~4 billion gallons.",
+    "COVID-19 impact: 'As a result of the reduced capacity from the COVID-19 pandemic, our jet fuel consumption during 2021 of 2.8 billion gallons was significantly less than our historical and expected future consumption.'"
+  ]
+}

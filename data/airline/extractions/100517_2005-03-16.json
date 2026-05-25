@@ -1,0 +1,57 @@
+{
+  "filing_date": "2005-03-16",
+  "fiscal_year_end": "2004-12-31",
+  "company_name": "UAL Corporation / United Air Lines, Inc.",
+  "ticker": "UALAQ",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2004,
+    "source_quote": null
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 3,
+    "note_reference": "Item 7A - Price Risk (Aircraft Fuel)"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2004,
+      "volume_gallons_millions": null,
+      "volume_pct_of_consumption": null,
+      "commodities": [
+        "heating oil"
+      ],
+      "instrument_types": [
+        "collar"
+      ],
+      "fair_value_mm": 3
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": true,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Collar structure: Purchased call options on heating oil ($310M notional, $1.27/gal avg strike, +$3M FV) plus sold put options on heating oil ($235M notional, $1.08/gal avg strike, $0 FV). Hedging resumed in Q2 2004 after being suspended since bankruptcy filing in December 2002. Volumes disclosed in notional $ amounts only, not gallons directly - implied ~244M gallons (calls) / ~218M gallons (puts)."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "UAL still in Chapter 11 bankruptcy throughout fiscal 2004 (emerged February 1, 2006)",
+    "Hedging program resumed in Q2 2004 after being suspended since December 2002 bankruptcy filing",
+    "Volume disclosed only as notional dollar amounts ($310M calls, $235M puts) at given average contract rates - no gallons figure provided directly",
+    "Implied gallons (dividing notional by $/gal rate): ~244M gal (calls at $1.27/gal), ~218M gal (puts at $1.08/gal) - not entered due to inference uncertainty",
+    "Notes file (item8_notes.txt) is empty - all fuel hedge data sourced from Item 7A only"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 2349,
+    "throughput_year": 2004,
+    "source_quote": "Gallons consumed: 2,349 2,202 2,458 (2004/2003/2002)"
+  }
+}

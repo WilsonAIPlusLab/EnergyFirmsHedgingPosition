@@ -1,0 +1,42 @@
+{
+  "filing_date": "2001-06-08",
+  "fiscal_year_end": "2001-03-31",
+  "company_name": "Frontier Airlines, Inc.",
+  "ticker": "FRNT",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2001,
+    "source_quote": "Item 7A section is empty (1 line). No fuel hedging disclosures in item7a for FY ended March 31, 2001."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": 0,
+    "pct_hedged_next_year": null,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A (empty)"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Item 7A section was empty (1 line). No fuel hedging program disclosed for FY ended March 31, 2001. Frontier Airlines Inc. is a small regional carrier operating in the Western US; fuel hedging program not yet established."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 66.7,
+    "throughput_year": 2001,
+    "source_quote": "Aircraft fuel costs of $71,083,000 for 66,724,000 gallons used and $44,402,000 for 55,568,000 gallons used resulted in an average fuel cost of $1.07 and 79.9¢ per gallon for the years ended March 31, 2001 and 2000. [From FY2002 full_text; item7 section was empty in FY2001 filing]"
+  },
+  "warnings": [
+    "Item 7A section is empty — no fuel hedging disclosures for FY ended March 31, 2001.",
+    "Frontier Airlines Inc. (CIK 921929) has a March 31 fiscal year end. Fuel hedging program established November 2002 per subsequent filing.",
+    "Note: Frontier Airlines Holdings Inc. (CIK 1351548) is the parent company formed later; this is the operating subsidiary."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "filing_date": "2024-02-15",
+  "fiscal_year_end": "2023-12-31",
+  "company_name": "Hawaiian Holdings, Inc.",
+  "ticker": "HA",
+  "fuel_consumption": {
+    "expected_gallons_millions": 268.491,
+    "fiscal_year": 2023,
+    "source_quote": "As of December 31, 2023, we hedged approximately 30% of our projected fuel requirements for 2024. Based on gallons expected to be consumed in 2023, for every one cent increase in the cost of a gallon of jet fuel, our fuel expense would result in approximately $3.0 million in additional annual fuel expense."
+  },
+  "hedge_summary": {
+    "program_exists": true,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0.3,
+    "net_fair_value_mm": 2.1,
+    "note_reference": "Item 7A / Note on Derivatives"
+  },
+  "annual_hedge_positions": [
+    {
+      "coverage_year": 2024,
+      "volume_gallons_millions": 90.258,
+      "volume_pct_of_consumption": 0.3,
+      "commodities": [
+        "crude oil"
+      ],
+      "instrument_types": [
+        "call options"
+      ],
+      "fair_value_mm": 2.1
+    }
+  ],
+  "instrument_type_details": {
+    "has_call_options": true,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "Fuel derivative contracts (crude oil call options). Not designated as ASC 815 hedges. FV net asset $2.1M at Dec 31 2023. 90,258 thousand gallons (= 90.258M gallons) settling December 2024, covering ~30% of projected 2024 fuel requirements."
+  },
+  "carrier_notes": {
+    "stopped_hedging": false,
+    "stopped_hedging_year": null,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "warnings": [
+    "90,258 gallons (thousands) from position table; 30% pct from item7a text"
+  ],
+  "throughput": {
+    "fuel_consumption_gallons_mm": 268.491,
+    "throughput_year": 2023,
+    "source_quote": "Fuel gallons consumed 268,491 (in thousands)"
+  }
+}

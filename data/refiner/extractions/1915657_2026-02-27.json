@@ -1,0 +1,80 @@
+{
+  "filing_date": "2026-02-27",
+  "fiscal_year_end": "2025-12-31",
+  "company_name": "HF Sinclair Corporation",
+  "ticker": "DINO",
+  "throughput": {
+    "crude_throughput_mmbbl": 220.588,
+    "throughput_year": 2025,
+    "source_quote": "Crude charge (BPD) (1) Consolidated: 604,350 (365 days)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Note 14"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2026,
+      "commodity": "crude_oil_wti",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 979,
+      "volume_unit": "MBbls",
+      "volume_raw": "NYMEX futures (WTI) - short 979,000 Barrels, all maturing in 2026",
+      "notes": "Inventory management hedge"
+    },
+    {
+      "maturity_year": 2026,
+      "commodity": "refined_products",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 1371,
+      "volume_unit": "MBbls",
+      "volume_raw": "Commodity forward contracts - long 1,371,000 Barrels, all maturing in 2026",
+      "notes": "Inventory management hedge; refined products (gasoline/diesel)"
+    },
+    {
+      "maturity_year": 2026,
+      "commodity": "refined_products",
+      "instrument": "forward",
+      "direction": "short",
+      "designation": "economic_hedge",
+      "volume_mbbl": 1191,
+      "volume_unit": "MBbls",
+      "volume_raw": "Commodity forward contracts - short 1,191,000 Barrels, all maturing in 2026",
+      "notes": "Inventory management hedge; refined products (gasoline/diesel)"
+    },
+    {
+      "maturity_year": 2026,
+      "commodity": "platinum",
+      "instrument": "forward",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": null,
+      "volume_unit": "troy_oz",
+      "volume_raw": "Forward platinum contracts 46,549 Troy ounces, all maturing in 2026",
+      "notes": "Embedded derivative within precious metals catalyst financing arrangements (Note 13)"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 5.0,
+    "total_liability_mm": 44.0,
+    "net_fair_value_mm": -39.0,
+    "as_of_date": "2025-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": "inventory_management_nymex_futures_and_forwards"
+  },
+  "warnings": [
+    "Item 7A is a one-line stub: \"See Risk Management under MD&A.\" Derivative data from Note 14",
+    "FV in millions: assets $5M liabilities $44M net -$39M",
+    "Precious metals embedded derivative liability $33M is largest single component of liabilities",
+    "Platinum derivative embedded in catalyst financing arrangements (see Note 13)"
+  ]
+}

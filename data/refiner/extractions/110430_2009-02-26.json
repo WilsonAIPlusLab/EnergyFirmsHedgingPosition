@@ -1,0 +1,44 @@
+{
+  "filing_date": "2009-02-26",
+  "fiscal_year_end": "2008-12-31",
+  "company_name": "Frontier Oil Corporation",
+  "ticker": "FTO",
+  "throughput": {
+    "crude_throughput_mmbbl": 52.17,
+    "throughput_year": 2008,
+    "source_quote": "Average crude oil charges were 142,938 bpd for the year ended December 31, 2008"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Notes 2 and 13"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2009,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 2795,
+      "volume_unit": "MBbls",
+      "volume_raw": "2,795,000 barrels crude oil contracts - inventory hedge (Cheyenne + El Dorado)",
+      "notes": "Non-hedging, mark-to-market; unrealized gains $8.5M at Dec 31, 2008; net gains $127.7M in FY2008 on inventory hedges"
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 8.6,
+    "total_liability_mm": null,
+    "net_fair_value_mm": 8.6,
+    "as_of_date": "2008-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": false,
+    "crack_spread_type": null
+  },
+  "warnings": [
+    "All derivatives undesignated (no hedge accounting) in FY2008. No in-transit crude contracts at Dec 31, 2008 (Utexam contracts ended). Only inventory hedge: 2,795K bbl with $8.5M unrealized gain. Net asset $8.6M (balance sheet 'Other current assets'). Large gains $127.7M on inventory hedges in 2008 as crude prices fell sharply."
+  ]
+}

@@ -1,0 +1,345 @@
+cik,company,ticker,fiscal_year,filing_date,coverage_year,volume_gallons_millions,volume_pct_of_consumption,computed_pct,commodities,instrument_types,fair_value_mm
+100517,"UAL Corporation / United Air Lines, Inc.",UALAQ,2004,2005-03-16,2004,,,,heating oil,collar,3
+100517,"UAL Corporation / United Air Lines, Inc.",UALAQ,2005,2006-03-31,2006,,0.32,0.32,,call_option; futures,
+100517,"UAL Corporation / United Air Lines, Inc.",UAUA,2006,2007-03-16,2007,,,,crude oil,collar; swap,-2
+100517,"UAL Corporation / United Air Lines, Inc.",UAUA,2007,2008-02-29,2007,,,,crude oil,collar,
+100517,"UAL Corporation / United Air Lines, Inc.",UAUA,2007,2008-02-29,2008,,0.13,0.13,crude oil,collar,20
+100517,"UAL Corporation / United Air Lines, Inc.",UAUA,2008,2009-03-02,2009,,0.34,0.34,crude oil; heating oil; jet fuel,call_option; collar; purchased_put,-867
+100517,"UAL Corporation / United Air Lines, Inc.",UAUA,2008,2009-03-02,2010,,0.01,0.01,crude oil,collar,
+100517,"UAL Corporation / United Air Lines, Inc.",UAUA,2009,2010-02-26,2010,,0.36,0.36,crude oil; heating oil; jet fuel,call_option; swap,133
+100517,"United Continental Holdings, Inc.",UAL,2010,2011-02-22,2011,,0.35,0.35,heating oil; WTI crude oil,swap; call_option; collar,375
+100517,"United Continental Holdings, Inc.",UAL,2011,2012-02-22,2012,,0.31,0.31,heating oil; Brent crude oil; diesel fuel; WTI crude oil; aircraft fuel,collar; call_option; swap,73
+100517,"United Continental Holdings, Inc.",UAL,2012,2013-02-25,2013,1200,0.31,0.31,heating oil; diesel fuel; crude oil,call_option; collar,46
+100517,"United Continental Holdings, Inc.",UAL,2012,2013-02-25,2014,63,0.02,0.02,heating oil; diesel fuel; crude oil,call_option; collar,
+100517,"United Continental Holdings, Inc.",UAL,2013,2014-02-20,2014,951,0.24,0.24,diesel fuel; crude oil,swap; call_option; collar,104
+100517,"United Continental Holdings, Inc.",UAL,2013,2014-02-20,2015,309,0.08,0.08,diesel fuel; crude oil,swap; call_option; collar,
+100517,"United Continental Holdings, Inc.",UAL,2014,2015-02-20,2015,859,0.22,0.22,aircraft fuel; crude oil,swap; call_option; collar,-717
+100517,"United Continental Holdings, Inc.",UAL,2014,2015-02-20,2016,35,0.01,0.01,aircraft fuel; crude oil,swap; call_option; collar,
+100517,"United Continental Holdings, Inc.",UAL,2015,2016-02-18,2016,652,0.17,0.17,aircraft fuel; crude oil,swap; call_option; collar,-124
+1058033,Northwest Airlines Corp,NWA,1999,2000-03-28,2000,,0.24,0.24,,futures; swaps,19
+1058033,Northwest Airlines Corp,NWA,2000,2001-04-02,2001,,0.12,0.12,,futures; swaps,0
+1058033,Northwest Airlines Corp,NWA,2002,2003-03-20,2003,,0.6,0.6,,futures; swaps; options,22
+1058033,Northwest Airlines Corp,NWA,2004,2005-03-02,2005,,0.06,0.06,,futures,0
+1058033,Northwest Airlines Corp,NWA,2006,2007-03-16,2007,,0.35,0.35,,collars; swaps,0
+1058033,Northwest Airlines Corp,NWA,2007,2008-02-29,2008,,0.1,0.1,,collars,0
+1058033,Northwest Airlines Corp,NWA,2008,2009-03-02,2009,,0.22,0.22,,collars; swaps,-71
+1158463,JetBlue Airways Corporation,JBLU,2002,2003-02-18,2003,86.436,0.45,0.45,WTI crude,call_option,2.013
+1158463,JetBlue Airways Corporation,JBLU,2003,2004-02-11,2004,100.17,0.4,0.4,WTI crude,call_option; swap,10.992
+1158463,JetBlue Airways Corporation,JBLU,2004,2005-02-14,2005,68.04,0.22,0.22,WTI crude,call_option; swap,20.487
+1158463,JetBlue Airways Corporation,JBLU,2005,2006-02-14,2006,135.45,0.3,0.3,WTI crude; heating oil,call_option; swap,1.0
+1158463,JetBlue Airways Corporation,JBLU,2006,2007-02-14,2007,171.234,0.38,0.38,WTI crude; heating oil,call_option; swap,-15.0
+1158463,JetBlue Airways Corporation,JBLU,2007,2008-02-21,2008,63.252,0.13,0.13,WTI crude; heating oil,call_option; swap,33.0
+1158463,JetBlue Airways Corporation,JBLU,2008,2009-02-13,2009,36.54,0.08,0.08,heating oil,swap; collar,-128.0
+1158463,JetBlue Airways Corporation,JBLU,2009,2010-02-05,2010,212.94,0.4,0.4,WTI crude; heating oil; jet fuel,call_option; swap,28.0
+1158463,JetBlue Airways Corporation,JBLU,2010,2011-02-25,2011,180.18,0.28,0.28,WTI crude; heating oil; jet fuel,call_option; swap,23.0
+1158463,JetBlue Airways Corporation,JBLU,2011,2012-02-28,2012,148.68,0.27,0.27,WTI crude; heating oil; jet fuel,call_option; swap,-4.0
+1158463,JetBlue Airways Corporation,JBLU,2012,2013-02-21,2013,28.35,0.05,0.05,WTI crude; heating oil; jet fuel,call_option; swap,-1.0
+1158463,JetBlue Airways Corporation,JBLU,2013,2014-02-19,2014,55.44,0.09,0.09,WTI crude; heating oil; jet fuel,call_option; swap,6.0
+1158463,JetBlue Airways Corporation,JBLU,2014,2015-02-12,2015,117.936,0.17,0.17,WTI crude; heating oil; jet fuel,call_option; swap,-102.0
+1158463,JetBlue Airways Corporation,JBLU,2015,2016-02-17,2016,37.8,0.05,0.05,WTI crude; heating oil; jet fuel,call_option; swap,-5.0
+1158463,JetBlue Airways Corporation,JBLU,2016,2017-02-17,2017,80.64,0.1,0.1,WTI crude; heating oil; jet fuel,call_option; swap,22.0
+1158463,JetBlue Airways Corporation,JBLU,2018,2019-02-21,2019,31.752,0.04,0.04,WTI crude; heating oil; jet fuel,call_option; swap,0.0
+1158463,JetBlue Airways Corporation,JBLU,2019,2020-02-18,2020,88.704,0.1,0.1,WTI crude; heating oil; jet fuel,call_option; swap,8.0
+1158463,JetBlue Airways Corporation,JBLU,2022,2023-02-27,2023,18.9,0.088,0.088,WTI crude; heating oil; jet fuel,call_spread,3.0
+1158463,JetBlue Airways Corporation,JBLU,2023,2024-02-12,2024,113.652,0.141,0.141,WTI crude; heating oil; jet fuel,call_spread,4.0
+1159154,"Republic Airways Holdings, Inc.",RJET,2009,2010-03-16,2010,,,,crude oil,call_option,2.8
+1159154,"Republic Airways Holdings, Inc.",RJET,2010,2011-03-15,2011,,0.05,0.05,crude oil,call_option; swap; collar,2.7
+1159154,"Republic Airways Holdings, Inc.",RJET,2012,2013-03-15,2013,,0.15,0.15,crude oil,call_option; swap; collar,
+1172222,"Hawaiian Holdings, Inc.",HA,2002,2003-04-15,2002,,,,heating oil,futures,-1.0
+1172222,"Hawaiian Holdings, Inc.",HA,2005,2006-03-23,2006,,0.3,0.3,jet fuel,forward contracts,2.4
+1172222,"Hawaiian Holdings, Inc.",HA,2006,2007-03-16,2007,22.25,0.1713,0.1713,jet fuel,forward contracts,-1.1
+1172222,"Hawaiian Holdings, Inc.",HA,2007,2008-03-03,2008,19.152,0.1428,0.1428,jet fuel; heating oil,forward contracts; futures,3.7
+1172222,"Hawaiian Holdings, Inc.",HA,2008,2009-02-26,2009,40.74,0.2961,0.2961,crude oil; heating oil,futures; swaps; call options; collars,-10.0
+1172222,"Hawaiian Holdings, Inc.",HA,2008,2009-02-26,2010,0.252,0.0018,0.0018,crude oil,collars,
+1172222,"Hawaiian Holdings, Inc.",HA,2009,2010-02-18,2010,42.168,0.2991,0.2991,crude oil,call options; collars,3.6
+1172222,"Hawaiian Holdings, Inc.",HA,2010,2011-02-11,2011,57.624,0.3514,0.3514,crude oil,call options; collars,8.8
+1172222,"Hawaiian Holdings, Inc.",HA,2010,2011-02-11,2012,0.798,0.004,0.004,crude oil,call options,
+1172222,"Hawaiian Holdings, Inc.",HA,2011,2012-02-09,2012,70.056,0.3512,0.3512,crude oil; heating oil,call options; collars,2.0
+1172222,"Hawaiian Holdings, Inc.",HA,2011,2012-02-09,2013,0.672,0.003,0.003,crude oil,call options,
+1172222,"Hawaiian Holdings, Inc.",HA,2012,2013-02-08,2013,113.4,0.5013,0.5013,crude oil,call options,12.7
+1172222,"Hawaiian Holdings, Inc.",HA,2012,2013-02-08,2014,19.656,0.0854,0.0854,crude oil,call options; collars,
+1172222,"Hawaiian Holdings, Inc.",HA,2013,2014-02-10,2014,84.7,0.36,0.36,crude oil; heating oil,call options; collars; swaps; put options,6.1
+1172222,"Hawaiian Holdings, Inc.",HA,2014,2015-02-09,2015,90.994,0.39,0.39,heating oil,swaps; put options,-38.8
+1172222,"Hawaiian Holdings, Inc.",HA,2015,2016-02-08,2016,84.067,0.35,0.35,heating oil,swaps; put options,-39.5
+1172222,"Hawaiian Holdings, Inc.",HA,2016,2017-02-16,2017,17.85,0.5,0.5,crude oil; heating oil,call options; swaps,15.1
+1172222,"Hawaiian Holdings, Inc.",HA,2017,2018-02-13,2018,94.332,0.35,0.35,crude oil; heating oil,call options; swaps,20.6
+1172222,"Hawaiian Holdings, Inc.",HA,2018,2019-02-13,2019,95.256,0.34,0.34,crude oil,call options,1.6
+1172222,"Hawaiian Holdings, Inc.",HA,2019,2020-02-12,2020,97.986,0.35,0.35,crude oil,call options,5.9
+1172222,"Hawaiian Holdings, Inc.",HA,2020,2021-02-12,2021,8.652,0.04,0.04,crude oil,call options,0.043
+1172222,"Hawaiian Holdings, Inc.",HA,2022,2023-02-15,2023,57.288,0.21,0.21,crude oil,call options,5.3
+1172222,"Hawaiian Holdings, Inc.",HA,2023,2024-02-15,2024,90.258,0.3,0.3,crude oil,call options,2.1
+1351548,"Frontier Airlines Holdings, Inc.",FRNT,2006,2006-06-09,2007,,0.16,0.16,jet fuel,collar,0.976
+1351548,"Frontier Airlines Holdings, Inc.",FRNT,2007,2007-05-25,2008,,,,crude oil; jet fuel,swap; collar; call_option,13.729
+1351548,"Frontier Airlines Holdings, Inc.",FRNT,2008,2008-06-30,2009,,,,crude oil; jet fuel,swap; collar; call_option,15.576
+1362468,Allegiant Travel Company,ALGT,2006,2007-04-02,2007,,0.102,0.102,,options; swaps,-1.3
+1362468,Allegiant Travel Company,ALGT,2007,2008-03-11,2008,,0.02,0.02,,forward contracts,0.081
+1498710,"Spirit Airlines, Inc.",SAVE,2011,2012-02-23,2012,13.45,0.09,0.09,,collars,
+1498710,"Spirit Airlines, Inc.",SAVE,2012,2013-02-25,2013,7.8,0.05,0.05,,collars,
+1498710,"Spirit Airlines, Inc.",SAVE,2014,2015-02-18,2015,88.7,0.35,0.35,,options,
+1614436,Virgin America Inc.,VA,2014,2015-03-03,2015,,0.27,0.27,crude oil; heating oil,fixed_forward_price; swap; call_option; collar,-27.1
+1614436,Virgin America Inc.,VA,2015,2016-02-29,2016,,0.35,0.35,crude oil; heating oil,fixed_forward_price; swap; call_option; collar,-27.6
+27904,"Delta Air Lines, Inc.",DAL,2002,2003-03-27,2002,,0.56,0.56,,heating and crude oil derivative contracts (options and forward contracts),73.0
+27904,"Delta Air Lines, Inc.",DAL,2003,2004-03-12,2003,,0.65,0.65,,heating and crude oil derivative contracts,
+27904,"Delta Air Lines, Inc.",DAL,2003,2004-03-12,2004,,0.32,0.32,,heating and crude oil derivative contracts,97.0
+27904,"Delta Air Lines, Inc.",DAL,2004,2005-03-10,2004,,0.08,0.08,,heating and crude oil derivative contracts (settled early Feb 2004; gains recognized via deferred gain),0.0
+27904,"Delta Air Lines, Inc.",DAL,2005,2006-03-27,2005,,0.0,0.0,,,0.0
+27904,"Delta Air Lines, Inc.",DAL,2006,2007-03-02,2007,,0.24,0.24,heating oil; GC Jet Fuel,collar; swap,
+27904,"Delta Air Lines, Inc.",DAL,2007,2008-02-15,2008,,0.24,0.24,heating oil,call_option; swap,93
+27904,"Delta Air Lines, Inc.",DAL,2007,2008-02-15,2009,,0.09,0.09,WTI crude,call_option,61
+27904,"Delta Air Lines, Inc.",DAL,2007,2008-02-15,2010,,0.02,0.02,WTI crude,call_option,16
+27904,"Delta Air Lines, Inc.",DAL,2008,2009-03-02,2009,,0.48,0.48,WTI crude; heating oil; GC Jet Fuel,call_option; collar; swap,-1059
+27904,"Delta Air Lines, Inc.",DAL,2008,2009-03-02,2010,,0.04,0.04,WTI crude; heating oil; GC Jet Fuel,call_option; collar; swap,19
+27904,"Delta Air Lines, Inc.",DAL,2009,2010-02-24,2010,,0.24,0.24,WTI crude; heating oil; GC Jet Fuel,call_option; collar; swap,56
+27904,"Delta Air Lines, Inc.",DAL,2010,2011-02-16,2011,,0.38,0.38,WTI crude,call_option; collar; swap,381
+27904,"Delta Air Lines, Inc.",DAL,2010,2011-02-16,2012,,0.02,0.02,WTI crude,call_option; swap,32
+27904,"Delta Air Lines, Inc.",DAL,2011,2012-02-10,2012,1225,0.32,0.32,heating oil; WTI crude; GC Jet Fuel; low sulfur diesel,call_option; put_option; collar; swap; futures,70
+27904,"Delta Air Lines, Inc.",DAL,2012,2013-02-13,2013,1792,0.47,0.47,heating oil; WTI crude; GC Jet Fuel,call_option; put_option; collar; swap; futures,249
+27904,"Delta Air Lines, Inc.",DAL,2013,2014-02-24,2014,4077,1.045,1.045,WTI crude; GC Jet Fuel; diesel,call_option; put_option; collar; swap; futures,314
+27904,"Delta Air Lines, Inc.",DAL,2014,2015-02-11,2015,8604,2.39,2.39,WTI crude; GC Jet Fuel; diesel,call_option; put_option; collar; swap; futures,-1848
+27904,"Delta Air Lines, Inc.",DAL,2015,2016-02-05,2016,887,0,0.0,WTI crude; GC Jet Fuel; diesel,call_option; put_option; collar; swap; futures,-672
+27904,"Delta Air Lines, Inc.",DAL,2016,2017-02-13,2017,197,0,0.0,WTI crude; GC Jet Fuel; diesel,call_option; put_option; collar; swap; futures,-324
+27904,"Delta Air Lines, Inc.",DAL,2017,2018-02-23,2018,249,0,0.0,WTI crude; refined products,call_option; put_option; collar; swap; futures,-66
+319687,"Continental Airlines, Inc.",CAL,2000,2001-02-06,2001,,0.23,0.23,WTI crude oil,call_option,
+319687,"Continental Airlines, Inc.",CAL,2002,2003-02-13,2003,,0.23,0.23,WTI crude oil,call_option,6
+319687,"Continental Airlines, Inc.",CAL,2006,2007-02-23,2007,,,,WTI crude oil; heating oil,swap; collar,-18
+319687,"Continental Airlines, Inc.",CAL,2007,2008-02-21,2008,,,,heating oil,collar,24
+319687,"Continental Airlines, Inc.",CAL,2008,2009-02-19,2009,,0.23,0.23,WTI crude oil,collar; call_option; swap,-415
+319687,"Continental Airlines, Inc.",CAL,2009,2010-02-17,2010,,0.07,0.07,Gulf Coast jet fuel; WTI crude oil,swap; call_option,14
+319687,"Continental Airlines, Inc. / United Continental Holdings, Inc.",CAL,2010,2011-02-22,2011,,0.28,0.28,WTI crude oil,swap; call_option; collar,98
+319687,"United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",CAL,2011,2012-02-22,2012,,0.31,0.31,heating oil; Brent crude; WTI crude; diesel fuel; aircraft fuel,collar; call_option; swap,29
+319687,"United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",CAL,2012,2013-02-25,2013,1200,0.31,0.31,heating oil; diesel fuel; WTI crude oil; aircraft fuel,collar; call_option; swap,46
+319687,"United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",CAL,2012,2013-02-25,2014,63,0.02,0.02,heating oil; diesel fuel; WTI crude oil; aircraft fuel,collar; call_option; swap,
+319687,"United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",CAL,2013,2014-02-20,2014,951,0.24,0.24,diesel fuel; WTI crude oil; aircraft fuel,collar; call_option; swap,104
+319687,"United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",CAL,2013,2014-02-20,2015,309,0.08,0.08,diesel fuel; WTI crude oil; aircraft fuel,collar; call_option; swap,
+319687,"United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",CAL,2014,2015-02-20,2015,859,0.22,0.22,aircraft fuel; WTI crude oil,collar; call_option; swap,-717
+319687,"United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",CAL,2014,2015-02-20,2016,35,0.01,0.01,aircraft fuel; WTI crude oil,collar; call_option; swap,
+319687,"United Continental Holdings, Inc. (fka Continental Airlines, Inc.)",CAL,2015,2016-02-18,2016,652,0.17,0.17,aircraft fuel; WTI crude oil,collar; call_option; swap,-124
+6201,"American Airlines, Inc. (AMR Corporation)",AAL,2002,2003-04-15,2003,,0.32,0.32,,mixed,
+6201,"American Airlines, Inc. (AMR Corporation)",AAL,2002,2003-04-15,2004,,0.15,0.15,,mixed,
+6201,"American Airlines, Inc. (AMR Corporation)",AAL,2002,2003-04-15,2005,,0.04,0.04,,mixed,
+6201,"American Airlines, Inc. (AMR Corporation)",AAL,2003,2004-02-27,2004,,0.12,0.12,,call_option,
+6201,"American Airlines, Inc. (AMR Corporation)",AAL,2004,2005-02-25,2005,,0.05,0.05,,mixed,
+6201,"AMR Corporation / American Airlines, Inc.",AMR,2005,2006-02-24,2006,,0.17,0.17,,options; collars,
+6201,"AMR Corporation / American Airlines, Inc.",AMR,2006,2007-02-23,2007,,0.14,0.14,,options; collars,
+6201,"AMR Corporation / American Airlines, Inc.",AMR,2007,2008-02-20,2008,,0.24,0.24,,collars; options,
+6201,"AMR Corporation / American Airlines, Inc.",AMR,2008,2009-02-19,2009,,0.35,0.35,,collars; options,
+6201,"AMR Corporation / American Airlines, Inc.",AMR,2009,2010-02-17,2010,,0.24,0.24,,collars; options,
+6201,"AMR Corporation / American Airlines, Inc.",AMR,2010,2011-02-16,2011,,0.35,0.35,heating oil; jet fuel,call_option; collar,
+6201,"AMR Corporation / American Airlines, Inc.",AMR,2010,2011-02-16,2012,,,,heating oil; jet fuel,call_option; collar,
+6201,"AMR Corporation / American Airlines, Inc.",AMR,2011,2012-02-15,2012,,0.21,0.21,heating oil; jet fuel; WTI crude,call_option; collar; call_spread,
+6201,"AMR Corporation / American Airlines, Inc.",AMR,2012,2013-02-20,2013,,0.21,0.21,heating oil; jet fuel; Brent crude,call_option; collar; call_spread,
+6201,American Airlines Group Inc.,AAL,2013,2014-02-28,2014,,0.19,0.19,heating oil; jet fuel; WTI crude,call_option; collar; call_spread,
+6201,American Airlines Group Inc.,AAL,2013,2014-02-28,2015,,,,heating oil; jet fuel; WTI crude,call_option; collar; call_spread,
+701345,"US Airways Group, Inc.",UAIR,2002,2003-03-27,2003,,0.62,0.62,,fixed price swaps and collars,
+701345,"US Airways Group, Inc.",UAIR,2002,2003-03-27,2003,,0.24,0.24,,fixed price swaps and collars,
+701345,"US Airways Group, Inc.",UAIR,2003,2004-03-12,2004,,0.3,0.3,,fixed price swaps and collars,
+701345,"US Airways Group, Inc.",UAIR,2003,2004-03-12,2005,,0.05,0.05,,fixed price swaps and collars,
+701345,"US Airways Group, Inc.",UAIR,2004,2005-03-01,2005,,0.04,0.04,,previously liquidated hedges (recognized over 2005),
+701345,"US Airways Group, Inc.",LCC,2005,2006-03-15,2006,,0.2,0.2,,costless collars (heating oil futures),
+701345,"US Airways Group, Inc.",LCC,2006,2007-02-28,2007,,0.29,0.29,,costless collars (heating oil futures),
+701345,"US Airways Group, Inc.",LCC,2007,2008-02-21,2008,,0.22,0.22,,costless collars (heating oil futures),
+701345,"US Airways Group, Inc.",LCC,2008,2009-02-18,2009,,0.14,0.14,,no premium collars (heating oil futures),
+706270,"America West Airlines, Inc.",AWA,2002,2003-04-01,2003,,0.4,0.4,heating oil,collar,3.6
+706270,"America West Airlines, Inc.",AWA,2003,2004-03-01,2004,,0.11,0.11,heating oil,collar,21.2
+706270,"America West Airlines, Inc.",AWA,2004,2005-03-15,2005,,0.42,0.42,heating oil,collar; swap,0.2
+706270,"America West Airlines, Inc. / US Airways Group (post-merger)",AWA,2005,2006-03-15,2006,,0.2,0.2,heating oil,collar,4.0
+706270,"US Airways Group, Inc. (formerly America West Airlines)",LCC,2006,2007-02-28,2007,,0.29,0.29,heating oil,collar,-66.0
+766421,"Alaska Air Group, Inc.",ALK,2002,2003-03-12,2003,,0.35,0.35,crude oil,swap,17.4
+766421,"Alaska Air Group, Inc.",ALK,2003,2004-03-11,2004,132.1,0.33,0.33,crude oil,swap,
+766421,"Alaska Air Group, Inc.",ALK,2003,2004-03-11,2005,116.1,0.28,0.28,crude oil,swap,
+766421,"Alaska Air Group, Inc.",ALK,2003,2004-03-11,2006,10.2,0.02,0.02,crude oil,swap,
+766421,"Alaska Air Group, Inc.",ALK,2004,2005-02-25,2005,207.3,0.5,0.5,WTI crude oil,swap; call_option,
+766421,"Alaska Air Group, Inc.",ALK,2004,2005-02-25,2006,148.8,0.35,0.35,WTI crude oil,swap; call_option,
+766421,"Alaska Air Group, Inc.",ALK,2004,2005-02-25,2007,38.6,0.09,0.09,WTI crude oil,swap; call_option,
+766421,"Alaska Air Group, Inc.",ALK,2005,2006-02-17,2006,190.4,0.47,0.47,WTI crude oil,call_option; collar; swap,
+766421,"Alaska Air Group, Inc.",ALK,2005,2006-02-17,2007,86.0,0.2,0.2,WTI crude oil,call_option; collar; swap,
+766421,"Alaska Air Group, Inc.",ALK,2005,2006-02-17,2008,31.7,0.07,0.07,WTI crude oil,call_option; collar; swap,
+766421,"Alaska Air Group, Inc.",ALK,2006,2007-02-23,2007,193.7,0.44,0.44,WTI crude oil,call_option; collar; swap,
+766421,"Alaska Air Group, Inc.",ALK,2006,2007-02-23,2008,85.3,0.19,0.19,WTI crude oil,call_option; collar; swap,
+766421,"Alaska Air Group, Inc.",ALK,2006,2007-02-23,2009,11.4,0.05,0.05,WTI crude oil,call_option; collar; swap,
+766421,"Alaska Air Group, Inc.",ALK,2007,2008-02-20,2008,162.4,0.39,0.39,WTI crude oil,call_option; collar; swap,
+766421,"Alaska Air Group, Inc.",ALK,2007,2008-02-20,2009,23.0,0.05,0.05,WTI crude oil,call_option; collar; swap,
+766421,"Alaska Air Group, Inc.",ALK,2008,2009-02-19,2009,179.0,0.5,0.5,WTI crude oil,call_option; collar,
+766421,"Alaska Air Group, Inc.",ALK,2008,2009-02-19,2010,119.7,0.33,0.33,WTI crude oil,call_option; collar,
+766421,"Alaska Air Group, Inc.",ALK,2008,2009-02-19,2011,40.0,0.11,0.11,WTI crude oil,call_option; collar,
+766421,"Alaska Air Group, Inc.",ALK,2009,2010-02-19,2010,182.3,0.5,0.5,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2009,2010-02-19,2011,139.6,0.37,0.37,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2009,2010-02-19,2012,40.2,0.1,0.1,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2010,2011-02-23,2011,196.9,0.5,0.5,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2010,2011-02-23,2012,133.1,0.33,0.33,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2010,2011-02-23,2013,54.7,0.13,0.13,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2011,2012-02-21,2012,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2011,2012-02-21,2013,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2011,2012-02-21,2014,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2012,2013-02-14,2013,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2012,2013-02-14,2014,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2012,2013-02-14,2015,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2013,2014-02-13,2014,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2013,2014-02-13,2015,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2013,2014-02-13,2016,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2014,2015-02-11,2015,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2014,2015-02-11,2016,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2015,2016-02-11,2016,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2015,2016-02-11,2017,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2016,2017-02-28,2017,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2016,2017-02-28,2018,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2017,2018-02-15,2018,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2017,2018-02-15,2019,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2018,2019-02-15,2019,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2018,2019-02-15,2020,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2019,2020-02-12,2020,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2019,2020-02-12,2021,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2020,2021-02-26,2021,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2020,2021-02-26,2022,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2021,2022-02-11,2022,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2021,2022-02-11,2023,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2022,2023-02-13,2023,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2022,2023-02-13,2024,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2023,2024-02-14,2024,,,,WTI crude oil,call_option,
+766421,"Alaska Air Group, Inc.",ALK,2023,2024-02-14,2025,,,,WTI crude oil,call_option,
+921929,"Frontier Airlines, Inc.",FRNT,2003,2003-06-30,2003,,0.1,0.1,jet fuel,swap,
+921929,"Frontier Airlines, Inc.",FRNT,2003,2003-06-30,2003,,0.05,0.05,jet fuel,collar,
+921929,"Frontier Airlines, Inc.",FRNT,2003,2003-06-30,2004,,0.157,0.157,jet fuel,swap,-0.167
+921929,"Frontier Airlines, Inc.",FRNT,2004,2004-06-15,2004,,0.07,0.07,jet fuel,swap,0.469
+921929,"Frontier Airlines, Inc.",FRNT,2004,2004-06-15,2005,,0.25,0.25,crude oil,collar,
+921929,"Frontier Airlines, Inc.",FRNT,2005,2005-06-14,2005,,0.25,0.25,crude oil,collar,2.837
+921929,"Frontier Airlines, Inc.",FRNT,2005,2005-06-14,2006,,0.28,0.28,jet fuel,collar,
+921929,"Frontier Airlines, Inc.",FRNT,2006,2006-05-31,2007,,0.16,0.16,jet fuel,collar,0.976
+92380,Southwest Airlines Co.,LUV,2000,2001-01-26,2001,,0.8,0.8,heating oil; WTI crude,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2000,2001-01-26,2002,,0.32,0.32,heating oil; WTI crude,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2000,2001-01-26,2005,,,,WTI crude,mixed,
+92380,Southwest Airlines Co.,LUV,2001,2002-02-04,2002,,0.6,0.6,heating oil; WTI crude,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2001,2002-02-04,2003,,0.47,0.47,heating oil; WTI crude,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2001,2002-02-04,2004,,,,WTI crude,mixed,
+92380,Southwest Airlines Co.,LUV,2001,2002-02-04,2005,,,,WTI crude,mixed,
+92380,Southwest Airlines Co.,LUV,2002,2003-02-05,2003,,0.83,0.83,crude_oil; heating_oil,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2002,2003-02-05,2004,,0.8,0.8,crude_oil; heating_oil,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2002,2003-02-05,2005,,,,crude_oil; heating_oil,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2002,2003-02-05,2006,,,,crude_oil; heating_oil,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2002,2003-02-05,2007,,,,crude_oil; heating_oil,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2002,2003-02-05,2008,,,,crude_oil; heating_oil,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2003,2004-01-29,2004,,0.82,0.82,crude_oil; heating_oil,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2003,2004-01-29,2005,,0.6,0.6,crude_oil; heating_oil,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2003,2004-01-29,2006,,,,crude_oil; heating_oil,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2003,2004-01-29,2007,,,,crude_oil; heating_oil,call_option; collar; swap,
+92380,Southwest Airlines Co.,LUV,2004,2005-02-04,2005,,0.85,0.85,,mixed,
+92380,Southwest Airlines Co.,LUV,2004,2005-02-04,2006,,0.65,0.65,,mixed,
+92380,Southwest Airlines Co.,LUV,2004,2005-02-04,2007,,0.45,0.45,,mixed,
+92380,Southwest Airlines Co.,LUV,2004,2005-02-04,2008,,0.3,0.3,,mixed,
+92380,Southwest Airlines Co.,LUV,2004,2005-02-04,2009,,0.25,0.25,,mixed,
+92380,Southwest Airlines Co.,LUV,2005,2006-02-01,2006,,0.7,0.7,,mixed,
+92380,Southwest Airlines Co.,LUV,2005,2006-02-01,2007,,0.6,0.6,,mixed,
+92380,Southwest Airlines Co.,LUV,2005,2006-02-01,2008,,0.35,0.35,,mixed,
+92380,Southwest Airlines Co.,LUV,2005,2006-02-01,2009,,0.3,0.3,,mixed,
+92380,Southwest Airlines Co.,LUV,2006,2007-02-01,2007,,0.95,0.95,,mixed,
+92380,Southwest Airlines Co.,LUV,2006,2007-02-01,2008,,0.65,0.65,,mixed,
+92380,Southwest Airlines Co.,LUV,2006,2007-02-01,2009,,0.5,0.5,,mixed,
+92380,Southwest Airlines Co.,LUV,2006,2007-02-01,2010,,0.25,0.25,,mixed,
+92380,Southwest Airlines Co.,LUV,2006,2007-02-01,2011,,0.15,0.15,,mixed,
+92380,Southwest Airlines Co.,LUV,2006,2007-02-01,2012,,0.15,0.15,,mixed,
+92380,Southwest Airlines Co.,LUV,2007,2008-02-04,2008,,0.7,0.7,,mixed,
+92380,Southwest Airlines Co.,LUV,2007,2008-02-04,2009,,0.55,0.55,,mixed,
+92380,Southwest Airlines Co.,LUV,2007,2008-02-04,2010,,0.3,0.3,,mixed,
+92380,Southwest Airlines Co.,LUV,2007,2008-02-04,2011,,0.15,0.15,,mixed,
+92380,Southwest Airlines Co.,LUV,2007,2008-02-04,2012,,0.15,0.15,,mixed,
+92380,Southwest Airlines Co.,LUV,2008,2009-02-02,2009,,0.1,0.1,,mixed,
+92380,Southwest Airlines Co.,LUV,2008,2009-02-02,2010,,0.1,0.1,,mixed,
+92380,Southwest Airlines Co.,LUV,2008,2009-02-02,2011,,0.1,0.1,,mixed,
+92380,Southwest Airlines Co.,LUV,2008,2009-02-02,2012,,0.1,0.1,,mixed,
+92380,Southwest Airlines Co.,LUV,2008,2009-02-02,2013,,0.1,0.1,,mixed,
+92380,Southwest Airlines Co.,LUV,2009,2010-01-29,2010,,,,,mixed,
+92380,Southwest Airlines Co.,LUV,2009,2010-01-29,2011,559,0.39,0.39,,mixed,
+92380,Southwest Airlines Co.,LUV,2009,2010-01-29,2012,232,0.16,0.16,,mixed,
+92380,Southwest Airlines Co.,LUV,2009,2010-01-29,2013,98,0.07,0.07,,mixed,
+92380,Southwest Airlines Co.,LUV,2010,2011-02-08,2011,778,0.44,0.44,,mixed,
+92380,Southwest Airlines Co.,LUV,2010,2011-02-08,2012,887,0.6,0.6,,mixed,
+92380,Southwest Airlines Co.,LUV,2010,2011-02-08,2013,750,0.5,0.5,,mixed,
+92380,Southwest Airlines Co.,LUV,2010,2011-02-08,2014,700,0.45,0.45,,mixed,
+92380,Southwest Airlines Co.,LUV,2011,2012-02-09,2012,111,0.06,0.06,,mixed,
+92380,Southwest Airlines Co.,LUV,2011,2012-02-09,2013,1000,0.55,0.55,,mixed,
+92380,Southwest Airlines Co.,LUV,2011,2012-02-09,2014,815,0.45,0.45,,mixed,
+92380,Southwest Airlines Co.,LUV,2011,2012-02-09,2015,395,0.21,0.21,,mixed,
+92380,Southwest Airlines Co.,LUV,2012,2013-02-07,2013,218,0.12,0.12,Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2012,2013-02-07,2014,1171,0.65,0.65,WTI crude; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2012,2013-02-07,2015,735,0.39,0.39,WTI crude; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2012,2013-02-07,2016,697,0.35,0.35,Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2012,2013-02-07,2017,184,0.09,0.09,WTI crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2013,2014-02-04,2014,764,0.43,0.43,WTI crude; Brent crude; GC Jet Fuel,mixed,
+92380,Southwest Airlines Co.,LUV,2013,2014-02-04,2015,1156,0.61,0.61,WTI crude; Brent crude,mixed,
+92380,Southwest Airlines Co.,LUV,2013,2014-02-04,2016,977,0.49,0.49,Brent crude,mixed,
+92380,Southwest Airlines Co.,LUV,2013,2014-02-04,2017,933,0.46,0.46,WTI crude; Brent crude,mixed,
+92380,Southwest Airlines Co.,LUV,2014,2015-02-06,2015,,,,,mixed,
+92380,Southwest Airlines Co.,LUV,2014,2015-02-06,2016,885,0.44,0.44,Brent crude oil; Heating oil; Gulf Coast jet fuel,mixed,
+92380,Southwest Airlines Co.,LUV,2014,2015-02-06,2017,757,0.37,0.37,WTI crude; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2014,2015-02-06,2018,,,,,mixed,
+92380,Southwest Airlines Co.,LUV,2015,2016-02-03,2015,,0.15,0.15,WTI crude; Brent crude; heating oil; unleaded gasoline,mixed,
+92380,Southwest Airlines Co.,LUV,2015,2016-02-03,2016,1226,0.2,0.2,Brent crude oil; Heating oil; Gulf Coast jet fuel,mixed,
+92380,Southwest Airlines Co.,LUV,2015,2016-02-03,2017,1503,0.65,0.65,WTI crude; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2015,2016-02-03,2018,731,0.35,0.35,Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2016,2017-02-07,2016,,0.46,0.46,WTI crude; Brent crude; heating oil; unleaded gasoline,mixed,
+92380,Southwest Airlines Co.,LUV,2016,2017-02-07,2017,1281,0.63,0.63,WTI crude; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2016,2017-02-07,2018,1185,0.56,0.56,Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2016,2017-02-07,2019,305,0.15,0.15,Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2017,2018-02-07,2017,,0.63,0.63,WTI crude; Brent crude; heating oil; unleaded gasoline,mixed,
+92380,Southwest Airlines Co.,LUV,2017,2018-02-07,2018,1647,0.78,0.78,WTI crude; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2017,2018-02-07,2019,1377,0.63,0.63,WTI crude; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2017,2018-02-07,2020,685,0.31,0.31,WTI crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2017,2018-02-07,2021,315,0.11,0.11,WTI crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2018,2019-02-05,2018,,0.79,0.79,WTI crude; Brent crude; heating oil; unleaded gasoline,mixed,
+92380,Southwest Airlines Co.,LUV,2018,2019-02-05,2019,1519,0.7,0.7,WTI crude; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2018,2019-02-05,2020,1207,0.53,0.53,WTI crude; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2018,2019-02-05,2021,466,0.25,0.25,WTI crude; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2018,2019-02-05,2022,88,0.05,0.05,WTI crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2019,2020-02-04,2019,,0.73,0.73,WTI crude oil; Brent crude oil; heating oil; unleaded gasoline,mixed,
+92380,Southwest Airlines Co.,LUV,2019,2020-02-04,2020,1301,0.59,0.59,WTI crude oil; Brent crude oil; heating oil,mixed,
+92380,Southwest Airlines Co.,LUV,2019,2020-02-04,2021,1169,0.7,0.7,WTI crude oil; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2019,2020-02-04,2022,603,0.31,0.31,WTI crude oil; Brent crude oil,mixed,
+92380,Southwest Airlines Co.,LUV,2020,2021-02-08,2021,1283,0.77,0.77,WTI crude oil; Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2020,2021-02-08,2022,1220,0.63,0.63,WTI crude oil; Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2020,2021-02-08,2023,643,0.3,0.3,WTI crude oil; Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2020,2021-02-08,2024,101,0.05,0.05,WTI crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2021,2022-02-07,2022,1220,0.63,0.63,WTI crude oil; Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2021,2022-02-07,2023,769,0.36,0.36,WTI crude oil; Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2021,2022-02-07,2024,358,0.16,0.16,WTI crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2022,2023-02-07,2023,1084,0.51,0.51,WTI crude oil; Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2022,2023-02-07,2024,748,0.34,0.34,WTI crude oil; Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2023,2024-02-06,2024,1265,0.58,0.58,WTI crude oil; Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2023,2024-02-06,2025,1033,0.48,0.48,Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2023,2024-02-06,2026,358,,0.1627,Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2024,2025-02-07,2025,1033,0.48,0.48,Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2024,2025-02-07,2026,945,,0.4295,Brent crude oil,option contracts,
+92380,Southwest Airlines Co.,LUV,2024,2025-02-07,2027,277,,0.1259,Brent crude oil,option contracts,
+948845,"Midwest Air Group, Inc.",MEH,2001,2002-03-26,2002,,0.5,0.5,jet fuel,call_option,
+948845,"Midwest Air Group, Inc.",MEH,2001,2002-03-26,2002,,0.25,0.25,jet fuel,call_option,
+948845,"Midwest Air Group, Inc.",MEH,2001,2002-03-26,2002,,0.1,0.1,jet fuel,call_option,
+948845,"Midwest Air Group, Inc.",MEH,2002,2003-03-18,2003,,0.2,0.2,jet fuel,call_option,
+948845,"Midwest Air Group, Inc.",MEH,2002,2003-03-18,2003,,0.15,0.15,jet fuel,call_option,
+948845,"Midwest Air Group, Inc.",MEH,2004,2005-02-18,2005,,0.25,0.25,jet fuel,collar,
+948845,"Midwest Air Group, Inc.",MEH,2004,2005-02-18,2005,,0.18,0.18,jet fuel,collar,
+948845,"Midwest Air Group, Inc.",MEH,2004,2005-02-18,2005,,0.136,0.136,jet fuel,collar,
+948845,"Midwest Air Group, Inc.",MEH,2004,2005-02-18,2005,,0.092,0.092,jet fuel,collar,
+948845,"Midwest Air Group, Inc.",MEH,2005,2006-02-28,2006,,0.296,0.296,jet fuel,collar,
+948845,"Midwest Air Group, Inc.",MEH,2005,2006-02-28,2006,,0.211,0.211,jet fuel,collar,
+948845,"Midwest Air Group, Inc.",MEH,2005,2006-02-28,2006,,0.168,0.168,jet fuel,collar,
+948845,"Midwest Air Group, Inc.",MEH,2005,2006-02-28,2006,,0.099,0.099,jet fuel,collar,
+948845,"Midwest Air Group, Inc.",MEH,2006,2007-03-02,2007,,0.26,0.26,jet fuel,collar,
+948845,"Midwest Air Group, Inc.",MEH,2006,2007-03-02,2007,,0.26,0.26,jet fuel,collar,
+948845,"Midwest Air Group, Inc.",MEH,2006,2007-03-02,2007,,0.118,0.118,jet fuel,collar,
+948846,"AirTran Holdings, Inc.",AAI,2001,2002-03-28,2002,,0.3,0.3,jet fuel,swap,-8.7
+948846,"AirTran Holdings, Inc.",AAI,2001,2002-03-28,2003,,0.1,0.1,crude oil,swap,
+948846,"AirTran Holdings, Inc.",AAI,2002,2003-03-26,2003,,0.41,0.41,jet fuel,fixed_price_supply_contract,
+948846,"AirTran Holdings, Inc.",AAI,2003,2004-03-12,2004,,0.29,0.29,jet fuel,fixed_price_supply_contract,
+948846,"AirTran Holdings, Inc.",AAI,2003,2004-03-12,2005,,0.12,0.12,jet fuel,fixed_price_supply_contract,
+948846,"AirTran Holdings, Inc.",AAI,2004,2005-03-15,2005,,0.23,0.23,jet fuel,fixed_price_supply_contract,
+948846,"AirTran Holdings, Inc.",AAI,2005,2006-03-09,2006,,0.31,0.31,jet fuel,fixed_price_supply_contract,
+948846,"AirTran Holdings, Inc.",AAI,2005,2006-03-09,2007,,0.154,0.154,jet fuel,fixed_price_supply_contract,
+948846,"AirTran Holdings, Inc.",AAI,2006,2007-03-01,2007,62.1,0.162,0.162,jet fuel,fixed_price_supply_contract,
+948846,"AirTran Holdings, Inc.",AAI,2006,2007-03-01,2007,36.1,0.098,0.098,jet fuel,swap,
+948846,"AirTran Holdings, Inc.",AAI,2007,2008-02-04,2008,70.6,0.179,0.179,jet fuel,options_and_swaps,13.0
+948846,"AirTran Holdings, Inc.",AAI,2007,2008-02-04,2009,2.0,0.005,0.005,jet fuel,options_and_swaps,
+948846,"AirTran Holdings, Inc.",AAI,2008,2009-02-13,2009,32.2,0.091,0.091,jet fuel; heating oil; crude oil,swap; collar; call_option,-65.5
+948846,"AirTran Holdings, Inc.",AAI,2008,2009-02-13,2010,9.1,0.025,0.025,jet fuel; heating oil; crude oil,swap; collar; call_option,
+948846,"AirTran Holdings, Inc.",AAI,2009,2010-02-11,2010,153.0,0.41,0.41,jet fuel; heating oil; crude oil,swap; collar; call_option,49.3
+948846,"AirTran Holdings, Inc.",AAI,2009,2010-02-11,2011,10.0,0.03,0.03,jet fuel; heating oil; crude oil,swap; collar; call_option,
+948846,"AirTran Holdings, Inc.",AAI,2010,2011-02-04,2011,198.0,0.52,0.52,jet fuel; heating oil; crude oil,call_option,48.2
+948846,"AirTran Holdings, Inc.",AAI,2010,2011-02-04,2012,20.0,0.05,0.05,jet fuel; heating oil; crude oil,call_option,

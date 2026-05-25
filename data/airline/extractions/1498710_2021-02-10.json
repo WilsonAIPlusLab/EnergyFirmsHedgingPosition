@@ -1,0 +1,38 @@
+{
+  "filing_date": "2021-02-10",
+  "fiscal_year_end": "2020-12-31",
+  "company_name": "Spirit Airlines, Inc.",
+  "ticker": "SAVE",
+  "fuel_consumption": {
+    "expected_gallons_millions": null,
+    "fiscal_year": 2020,
+    "source_quote": "Based on our annual fuel consumption, a hypothetical 10% increase in the average price per gallon of aircraft fuel would have increased into-plane aircraft fuel cost for 2020 by $43.1 million."
+  },
+  "hedge_summary": {
+    "program_exists": false,
+    "pct_hedged_current_year": null,
+    "pct_hedged_next_year": 0,
+    "net_fair_value_mm": 0,
+    "note_reference": "Item 7A Aircraft Fuel"
+  },
+  "annual_hedge_positions": [],
+  "instrument_type_details": {
+    "has_call_options": false,
+    "has_collars": false,
+    "has_call_spreads": false,
+    "has_swaps": false,
+    "notes": "States 'do not currently hold any derivative financial instruments'. No fuel derivative activity since 2015."
+  },
+  "carrier_notes": {
+    "stopped_hedging": true,
+    "stopped_hedging_year": 2015,
+    "owns_refinery": false,
+    "refinery_name": null
+  },
+  "throughput": {
+    "fuel_consumption_gallons_mm": 289.4,
+    "throughput_year": 2020,
+    "source_quote": "Fuel gallons consumed 289,401 [2020] 470,939 [2019] (38.5)% [from 2020 Annual Report operating statistics table, in thousands]; Aircraft fuel expense decreased by 61.0% from $804.3 million in 2019 to $314.0 million in 2020 due to 38.5% decrease in fuel gallons consumed from COVID-19 impact."
+  },
+  "warnings": ["COVID-19 significantly reduced FY2020 fuel consumption; 10% sensitivity of $43.1M is substantially lower than prior/subsequent years"]
+}

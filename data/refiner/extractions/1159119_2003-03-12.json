@@ -1,0 +1,44 @@
+{
+  "filing_date": "2003-03-12",
+  "fiscal_year_end": "2002-12-31",
+  "company_name": "Premcor Inc.",
+  "ticker": null,
+  "throughput": {
+    "crude_throughput_mmbbl": 133.7,
+    "throughput_year": 2002,
+    "source_quote": "Average 2002 crude oil throughput: Port Arthur 224,700 bpd; Lima 141,500 bpd"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "inventory",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A Commodity Risk"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2003,
+      "commodity": "crude_oil",
+      "instrument": "futures_and_options",
+      "direction": "long",
+      "designation": "economic_hedge",
+      "volume_mbbl": 5000,
+      "volume_unit": "MBbls",
+      "volume_raw": "Net long ~5 million barrels fixed-price commitments",
+      "notes": "10% change in futures prices = ~$8M change in FV. Also uses crack spreads and crude oil options."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": null,
+    "total_liability_mm": null,
+    "net_fair_value_mm": null,
+    "as_of_date": "2002-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "refining_margin"
+  },
+  "warnings": [
+    "Volume estimates based on sensitivity analysis disclosure; exact positions not disclosed"
+  ]
+}

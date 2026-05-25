@@ -1,0 +1,66 @@
+{
+  "filing_date": "2017-03-01",
+  "fiscal_year_end": "2016-12-31",
+  "company_name": "Western Refining, Inc.",
+  "ticker": "WNR",
+  "throughput": {
+    "crude_throughput_mmbbl": 94.18,
+    "throughput_year": 2016,
+    "source_quote": "Total refinery throughput (bpd): 258,023 (El Paso 139,871 + Gallup 25,751 + St. Paul Park 92,400)"
+  },
+  "hedge_program": {
+    "program_exists": true,
+    "primary_objective": "crack_spread",
+    "has_cash_flow_hedges": false,
+    "has_economic_hedges": true,
+    "note_reference": "Item 7A"
+  },
+  "notional_positions": [
+    {
+      "maturity_year": 2017,
+      "commodity": "crude_oil",
+      "instrument": "swap",
+      "direction": "long",
+      "designation": "undesignated",
+      "volume_mbbl": 2124,
+      "volume_unit": "MBbls",
+      "volume_raw": "2,124,000 barrels crude oil differential swaps - net long (2017)",
+      "notes": "Non-hedging, mark-to-market; crude oil basis/differential swaps (grade differential)"
+    },
+    {
+      "maturity_year": 2017,
+      "commodity": "crude_oil",
+      "instrument": "futures",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 1703,
+      "volume_unit": "MBbls",
+      "volume_raw": "(1,703,000) barrels crude futures - short (2017)",
+      "notes": "Non-hedging, mark-to-market; inventory protection leg"
+    },
+    {
+      "maturity_year": 2017,
+      "commodity": "crack_spread",
+      "instrument": "swap",
+      "direction": "short",
+      "designation": "undesignated",
+      "volume_mbbl": 6632,
+      "volume_unit": "MBbls",
+      "volume_raw": "(6,632,000) barrels refined product price and crack spread swaps - short (2017)",
+      "notes": "Non-hedging, mark-to-market; to fix margin on future gasoline and distillate production. Total hedging loss $(18.9M) in 2016. WNR agreed to be acquired by Tesoro/Andeavor; merger completed June 2017."
+    }
+  ],
+  "fair_values": {
+    "total_asset_mm": 13.657,
+    "total_liability_mm": 11.598,
+    "net_fair_value_mm": 2.059,
+    "as_of_date": "2016-12-31"
+  },
+  "crack_spread_hedging": {
+    "explicitly_hedges_crack_spread": true,
+    "crack_spread_type": "gasoline_distillate"
+  },
+  "warnings": [
+    "All derivatives undesignated (no hedge accounting). Three types of commodity hedges: crude oil differential swaps (long 2,124K bbl), crude futures (short 1,703K bbl), and refined product/crack spread swaps (short 6,632K bbl). Fair value: assets $13.657M / liabilities $11.598M; net gain $2.059M. WNR agreed to be acquired by Tesoro Corporation (later renamed Andeavor); merger completed June 2017 \u00e2\u20ac\u201d last standalone WNR annual filing."
+  ]
+}

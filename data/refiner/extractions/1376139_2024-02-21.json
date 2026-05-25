@@ -1,0 +1,77 @@
+﻿{
+    "filing_date":  "2024-02-21",
+    "fiscal_year_end":  "2023-12-31",
+    "company_name":  "CVR Energy, Inc.",
+    "ticker":  "CVI",
+    "throughput":  {
+                       "crude_throughput_mmbbl":  69.81136,
+                       "throughput_year":  2023,
+                       "source_quote":  "Total crude throughput  Coffeyville 123,024  Wynnewood 68,240  Total 191,264  (Throughput by Refinery, in bpd, Year Ended December 31, 2023)"
+                   },
+    "hedge_program":  {
+                          "program_exists":  true,
+                          "primary_objective":  "mixed",
+                          "has_cash_flow_hedges":  false,
+                          "has_economic_hedges":  true,
+                          "note_reference":  "Note 10 (Derivative Financial Instruments and Investments)"
+                      },
+    "notional_positions":  [
+                               {
+                                   "maturity_year":  2024,
+                                   "commodity":  "crude_oil",
+                                   "instrument":  "forward",
+                                   "direction":  "long",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  247,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "247 thousand barrels crude oil forwards (net buy)",
+                                   "notes":  "Net notional buy position in crude oil forward contracts. Not designated as hedge for accounting purposes."
+                               },
+                               {
+                                   "maturity_year":  2024,
+                                   "commodity":  "heating_oil",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  6780,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "(6,780) thousand barrels NYMEX Diesel Crack swaps (net sell)",
+                                   "notes":  "Net notional short position in NYMEX Diesel Crack spread swaps (crack spread between ULSD and WTI crude). Not designated as hedge for accounting purposes. Used to fix margins on future diesel production."
+                               },
+                               {
+                                   "maturity_year":  2024,
+                                   "commodity":  "gasoline",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  1275,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "(1,275) thousand barrels NYMEX RBOB Crack swaps (net sell)",
+                                   "notes":  "Net notional short position in NYMEX RBOB (gasoline) Crack spread swaps. Not designated as hedge for accounting purposes. Used to fix margins on future gasoline production."
+                               },
+                               {
+                                   "maturity_year":  2024,
+                                   "commodity":  "crack_spread",
+                                   "instrument":  "swap",
+                                   "direction":  "short",
+                                   "designation":  "economic_hedge",
+                                   "volume_mbbl":  3030,
+                                   "volume_unit":  "MBbls",
+                                   "volume_raw":  "(3,030) thousand barrels NYMEX 2-1-1 Crack swaps (net sell)",
+                                   "notes":  "Net notional short position in NYMEX 2-1-1 crack spread swaps. Not designated as hedge for accounting purposes. Used to fix blended refinery margins."
+                               }
+                           ],
+    "fair_values":  {
+                        "total_asset_mm":  25,
+                        "total_liability_mm":  0,
+                        "net_fair_value_mm":  25,
+                        "as_of_date":  "2023-12-31"
+                    },
+    "crack_spread_hedging":  {
+                                 "explicitly_hedges_crack_spread":  true,
+                                 "crack_spread_type":  "2-1-1"
+                             },
+    "warnings":  [
+                     "Data from Note 10 and Note 11 in full_text.txt. Net notional positions at Dec 31, 2023 (in thousands of barrels): crude forwards +247 (long); diesel crack swaps -6,780 (short); RBOB crack swaps -1,275 (short); 2-1-1 crack swaps -3,030 (short). Total crack spread notional: 11,085 MBbls. Net fair value: gross assets $31M - $6M netting = $25M net asset. Gains on crack spread swap positions = $61M in FY2023 per MD\u0026A. CVR Partners nitrogen fertilizer derivatives excluded. RINs obligations excluded ($329M RFS liability). Soybean futures from FY2022 not present in FY2023."
+                 ]
+}
