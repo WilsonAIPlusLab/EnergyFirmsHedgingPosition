@@ -25,12 +25,12 @@ airlines (jet fuel consumers), and petroleum refiners.
 | **Company group** | Upstream exploration & production | Jet fuel consumers | Crude oil / products processors | |
 | **SEC filing type** | 10-K, SIC 1311 | 10-K, various SICs | 10-K, various SICs | |
 | **Unique entities** | 453 | ~26 | 18 | ~497 |
-| **Filings extracted** | 3,446 | 421 | 235 | 4,102 |
+| **Filings extracted** | 3,446 | 603 | 235 | 4,284 |
 | **Filing period** | 2010–2025 | 1999–2025 | 2001–2025 | 1999–2025 |
 | **Fiscal years covered** | 2007–2025 | 1999–2025 | 2001–2025 | 1999–2025 |
 | **Hedging positions extracted** | 14,538 instruments | 344 coverage-year positions | 696 notional positions | 15,578 |
 | **Hedge ratio denominator** | Annual oil/gas production | Expected fuel consumption (gallons) | Crude throughput (MBbl) | — (not unified across groups) |
-| **Master panel rows** | 5,926 (oil + gas axes) | 421 | 235 | 6,582 |
+| **Master panel rows** | 5,936 (oil + gas axes) | 601 | 235 | 6,772 |
 | **Source** | SEC EDGAR, SIC 1311 | SEC EDGAR, individual CIKs | SEC EDGAR, individual CIKs | |
 | **Extraction method** | Claude AI + automated verification | Claude AI + manual verification | Claude AI + manual verification | |
 
@@ -120,10 +120,10 @@ dataset/
 │   │   └── extractions/         <- Per-filing JSON source files (3,446 files)
 │   │
 │   ├── airline/                 <- Airline / air cargo group
-│   │   ├── hedge_ratios.csv     <- Firm-year panel (421 rows)
+│   │   ├── hedge_ratios.csv     <- Firm-year panel (601 rows; airline version 2, see airline/README_AIRLINE_V2.md)
 │   │   ├── positions.csv        <- Coverage-year position detail (344 rows)
-│   │   ├── filings.csv          <- Filing-level summary (421 rows)
-│   │   └── extractions/         <- Per-filing JSON source files (421 files)
+│   │   ├── filings.csv          <- Filing-level summary (603 reports)
+│   │   └── extractions/         <- (v2: replaced by v2_support/ and docs_v2/)
 │   │
 │   ├── refiner/                 <- Petroleum refiner group
 │   │   ├── hedge_ratios.csv     <- Firm-year panel (235 rows)
@@ -390,3 +390,8 @@ output licensed CC-BY-4.0; see `LICENSE`.
 | `docs/CODEBOOK.md` | Per-variable data dictionary for all tables |
 | `docs/QUALITY_AUDIT.md` | E&P hedge ratio audit findings |
 | `docs/VERIFICATION_PROJECT_NOTES.md` | Detailed E&P verification process |
+
+
+---
+## Notice on the airline group (version 2, 2026-10-09)
+The airline group (`data/airline/`) is the audited version 2 built by **The AI Plus Research Lab at the University of Northern Iowa**. It is released under **CC BY-NC 4.0** (attribution required, non-commercial use only), which is stricter than the CC BY 4.0 licence that covers the rest of this repository (see `data/airline/docs_v2/LICENSE.txt`). Anyone using the airline data must credit the Lab. Contact: zhengyang.chen@uni.edu.

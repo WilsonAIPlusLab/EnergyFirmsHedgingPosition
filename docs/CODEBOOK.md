@@ -29,7 +29,7 @@ This codebook documents every column of every delivered CSV file. For each varia
 ## 1. data/master_panel.csv
 
 Grain: one row per `(cik, fiscal_year, hedge_axis)`. Long format across all three groups.
-6,582 rows total (5,926 ep + 421 airline + 235 refiner).
+6,772 rows total (5,936 ep + 601 airline + 235 refiner).
 
 | Column | Type | Units | Allowed values / notes | Missing |
 |---|---|---|---|---|
@@ -219,7 +219,7 @@ vlog = pd.read_csv("data/ep/verification_log.csv",
 
 ## 8. data/airline/hedge_ratios.csv
 
-Grain: one row per `(cik, fiscal_year)`. Airline firm-year panel. 421 rows.
+Grain: one row per `(cik, fiscal_year)`. Airline firm-year panel. 601 rows. **Version 2 schema: see `data/airline/docs_v2/CODEBOOK.md` (the columns below describe version 1).**
 
 | Column | Type | Units | Allowed values / notes | Missing |
 |---|---|---|---|---|
@@ -271,7 +271,7 @@ Grain: one row per `(cik, fiscal_year, coverage_year)`. Full forward coverage sc
 
 ## 10. data/airline/filings.csv
 
-Grain: one row per 10-K filing. Airline per-filing summary. 421 rows.
+Grain: one row per 10-K filing. Airline per-filing summary. 603 rows. **Version 2 schema: see `data/airline/docs_v2/CODEBOOK.md`.**
 
 | Column | Type | Units | Allowed values / notes | Missing |
 |---|---|---|---|---|

@@ -42,10 +42,10 @@ data/
     verification_log.csv  Extraction verdict per filing
     extractions/          3,446 E&P JSON files
   airline/
-    hedge_ratios.csv      Airline firm-year panel (421 rows)
+    hedge_ratios.csv      Airline firm-year panel (601 rows, version 2)
     positions.csv         Forward coverage schedule, one row per coverage-year (344 rows)
-    filings.csv           Airline per-filing summary (421 rows)
-    extractions/          421 airline JSON files
+    filings.csv           Airline per-filing summary (603 reports)
+    extractions/          (v2: see v2_support/ and docs_v2/)
   refiner/
     hedge_ratios.csv      Refiner firm-year panel (235 rows)
     positions.csv         Un-aggregated notional positions (696 rows)

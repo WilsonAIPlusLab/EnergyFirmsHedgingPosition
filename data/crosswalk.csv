@@ -49,3 +49,29 @@ cik,era_start_fy,era_end_fy,canonical_ticker,company_name,group,entity_id,lineag
 1694426,2017,2025,DK,Delek US Holdings Inc.,refiner,delek_family,,standard
 1915657,2022,2025,DINO,HF Sinclair Corporation,refiner,holly_family,New CIK for HF Sinclair post-Sinclair acquisition 2022,standard
 2013745,2024,2025,CLMT,Calumet Inc.,refiner,calumet_family,Converted from MLP to C-corp 2024,standard
+1000578,1999,2001,,VANGUARD AIRLINES INC \DE\,airline,cik1000578_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+1011696,1999,2007,,AIRNET SYSTEMS INC,airline,cik1011696_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+1029863,1999,2004,,AMERICA WEST AIRLINES INC,airline,cik1029863_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+1066048,1999,1999,,FINE AIR SERVICES CORP,airline,cik1066048_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+1092807,2008,2010,,ALPINE AIR EXPRESS INC/DE,airline,cik1092807_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+1135185,2001,2022,,ATLAS AIR WORLDWIDE HOLDINGS INC,airline,cik1135185_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+1144331,2002,2009,,EXPRESSJET HOLDINGS INC,airline,cik1144331_family,Added in airline version 2 (universe completed from SEC industry-code lists).,pass_through
+1166291,2003,2011,,PINNACLE AIRLINES CORP,airline,cik1166291_family,Added in airline version 2 (universe completed from SEC industry-code lists).,pass_through
+1263810,2004,2006,,EVERGREEN HOLDINGS INC,airline,cik1263810_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+1397867,2010,2010,,Global Aviation Holdings Inc.,airline,cik1397867_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+1405419,2007,2009,,GULFSTREAM INTERNATIONAL GROUP INC,airline,cik1405419_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+1846084,2021,2025,,Global Crossing Airlines Group Inc.,airline,cik1846084_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+278327,1999,1999,,TRANS WORLD AIRLINES INC /NEW/,airline,cik278327_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+3000,1999,2002,,AIRBORNE INC /DE/,airline,cik3000_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+353184,2000,2026,,AIR T INC,airline,cik353184_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+46205,1999,2001,,HAWAIIAN AIRLINES INC/HI,airline,cik46205_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+835768,2000,2008,,MAIR HOLDINGS INC,airline,cik835768_family,Added in airline version 2 (universe completed from SEC industry-code lists).,pass_through
+869187,2008,2015,,BALTIA AIR LINES INC,airline,cik869187_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+898904,1999,2004,,ATA HOLDINGS CORP,airline,cik898904_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+899394,2019,2025,,"HARBOR DIVERSIFIED, INC.",airline,cik899394_family,Added in airline version 2 (universe completed from SEC industry-code lists).,pass_through
+904020,1999,2004,,FLYI INC,airline,cik904020_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+914397,1999,2014,,GREAT LAKES AVIATION LTD,airline,cik914397_family,Added in airline version 2 (universe completed from SEC industry-code lists).,pass_through
+932110,2002,2006,,KITTY HAWK INC,airline,cik932110_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+941552,1999,2001,,ATLAS AIR INC,airline,cik941552_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+946323,1999,2000,,MIDWAY AIRLINES CORP,airline,cik946323_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard
+949240,1999,2006,,"WORLD AIR HOLDINGS, INC.",airline,cik949240_family,Added in airline version 2 (universe completed from SEC industry-code lists).,standard

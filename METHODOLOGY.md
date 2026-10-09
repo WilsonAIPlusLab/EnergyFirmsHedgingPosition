@@ -238,7 +238,7 @@ group (Stage 1 deterministic parsing, Stage 2 AI extraction), but with industry-
 prompts and schema definitions.
 
 ### Source data
-- **Airlines:** 421 10-K filings from ~26 airline/air cargo entities. Filing dates 1999–2025.
+- **Airlines:** 603 10-K/10-K405 reports from 51 registrants (audited version 2, October 2026). Fiscal years 1999–2026. See `data/airline/docs_v2/METHODOLOGY.md`.
   Parsed into `parsed_extension/{CIK}_{ticker}/{fiscal_year_end}/sections/`.
 - **Refiners:** 235 10-K filings from 18 refiner entities. Filing dates 2001–2025.
 

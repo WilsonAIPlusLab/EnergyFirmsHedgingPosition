@@ -1,0 +1,946 @@
+id,coverage_year,period,pct,gallons_mm,quote_ok,pct_ok,gal_ok,verified,old_has_year,old_pct,old_gal,match_pct,match_gal,quote
+AL_27904_0000027904-19-000003,2019.0,through December 2019 (final maturity),,219.0,True,True,True,True,False,,,,,Fuel hedge contracts | 219 | gallons - crude oil and refined products | December 2019 | 30 | — | ( 15 | ) | — | 15
+AL_92380_0000092380-21-000033,2021.0,2021,,1283.0,True,True,True,True,True,0.77,1283.0,,True,"2021 | 1,283 | WTI crude oil and Brent crude oil"
+AL_92380_0000092380-21-000033,2022.0,2022,,1220.0,True,True,True,True,True,0.63,1220.0,,True,"2022 | 1,220 | WTI crude oil and Brent crude oil"
+AL_92380_0000092380-21-000033,2023.0,2023,,643.0,True,True,True,True,True,0.3,643.0,,True,2023 | 643 | WTI crude oil and Brent crude oil
+AL_92380_0000092380-21-000033,,Beyond 2023,,101.0,True,True,True,True,False,,,,,Beyond 2023 | 101 | WTI crude oil
+AL_1058033_0000912057-00-014102,2000.0,FY2000,24.0,,True,True,True,True,True,0.24,,True,,"As of December 31, 1999, the Company had hedged approximately 24% of its 2000 fuel requirements."
+AL_766421_0001072613-02-000411,2002.0,2002,24.0,,True,True,True,True,False,,,,,"At December 31, 2001, the Company had swap agreements for crude oil contracts in place to hedge approximately 24% of its 2002 and 20% of its 2003 expected jet fuel requirements."
+AL_766421_0001072613-02-000411,2003.0,2003,20.0,,True,True,True,True,False,,,,,"At December 31, 2001, the Company had swap agreements for crude oil contracts in place to hedge approximately 24% of its 2002 and 20% of its 2003 expected jet fuel requirements."
+AL_92380_0000092380-14-000010,2014.0,2014,43.0,764.0,True,True,True,True,True,0.43,764.0,True,True,"2014 | 764 | WTI crude, Brent crude oil, GC Jet Fuel"
+AL_92380_0000092380-14-000010,2015.0,2015,,1156.0,True,True,True,True,True,0.61,1156.0,,True,"2015 | 1,156 | WTI crude and Brent crude oil"
+AL_92380_0000092380-14-000010,2016.0,2016,,977.0,True,True,True,True,True,0.49,977.0,,True,2016 | 977 | Brent crude oil
+AL_92380_0000092380-14-000010,2017.0,2017,,933.0,True,True,True,True,True,0.46,933.0,,True,2017 | 933 | WTI crude and Brent crude oil
+AL_92380_0000950134-08-001572,2008.0,FY2008,70.0,,True,True,True,True,True,0.7,,True,,in place to protect against over 70 percent of its 2008 total anticipated jet fuel requirements at average crude oil equivalent prices of approximately $51 per barrel
+AL_92380_0000950134-08-001572,2009.0,FY2009,55.0,,True,True,True,True,True,0.55,,True,,over 55 percent of its expected fuel consumption for 2009 at approximately $51 per barrel
+AL_92380_0000950134-08-001572,2010.0,FY2010,30.0,,True,True,True,True,True,0.3,,True,,"nearly
+ 30 percent for 2010 at approximately $63 per barrel"
+AL_92380_0000950134-08-001572,2011.0,FY2011,15.0,,True,True,True,True,True,0.15,,True,,"over
+ 15 percent for 2011 at $64 per barrel"
+AL_92380_0000950134-08-001572,2012.0,FY2012,15.0,,True,True,True,True,True,0.15,,True,,"and
+ over 15 percent in 2012 at $63 per barrel"
+AL_1172222_0001047469-11-000806,2011.0,12 months after year-end,,49.9,True,True,True,True,True,0.3514,57.624,,False,"As of December 31, 2010, the Company had outstanding fuel derivative contracts covering 49.9 million gallons of jet fuel that will be settled over the next
+12 months."
+AL_1172222_0001047469-11-000806,2011.0,Q1,59.0,,True,True,True,True,True,0.3514,57.624,False,,"Total | 59 | % | 511,000"
+AL_1172222_0001047469-11-000806,2011.0,Q2,44.0,,True,True,True,True,True,0.3514,57.624,False,,"Total | 44 | % | 413,000"
+AL_1172222_0001047469-11-000806,2011.0,Q3,31.0,,True,True,True,True,True,0.3514,57.624,False,,"Total | 31 | % | 295,000"
+AL_1172222_0001047469-11-000806,2011.0,Q4,16.0,,True,True,True,True,True,0.3514,57.624,False,,"Total | 16 | % | 153,000"
+AL_1172222_0001047469-11-000806,2012.0,Q1,6.0,,True,True,True,True,True,0.004,0.798,False,,"Total | 6 | % | 19,000"
+AL_1362468_0001047469-08-002507,2008.0,2008,2.0,,True,True,True,True,True,0.02,,True,,"As of December 31, 2007, the Company had derivative instruments on 2% of its projected 2008 fuel consumption."
+AL_1158463_0000950123-10-009322,2010.0,Q1,60.0,,True,True,True,True,True,0.4,212.94,False,,First Quarter 2010 | 14 | % | 5 | % | 41 | % | 60 | %
+AL_1158463_0000950123-10-009322,2010.0,Q2,37.0,,True,True,True,True,True,0.4,212.94,False,,Second Quarter 2010 | 18 | 5 | 14 | 37 | %
+AL_1158463_0000950123-10-009322,2010.0,Q3,31.0,,True,True,True,True,True,0.4,212.94,False,,Third Quarter 2010 | 17 | 14 |  | 31 | %
+AL_1158463_0000950123-10-009322,2010.0,Q4,33.0,,True,True,True,True,True,0.4,212.94,False,,Fourth Quarter 2010 | 19 | 14 |  | 33 | %
+AL_1158463_0000950123-10-009322,2011.0,Q1,7.0,,True,True,True,True,False,,,,,First Quarter 2011 | 7 |  |  | 7 | %
+AL_1158463_0000950123-10-009322,2011.0,Q2,5.0,,True,True,True,True,False,,,,,Second Quarter 2011 | 5 |  |  | 5 | %
+AL_1158463_0000950123-10-009322,2010.0,Full year,40.0,,True,True,True,True,True,0.4,212.94,True,,"we had outstanding fuel hedge contracts covering approximately
+ 60% of our forecasted consumption for the first quarter of 2010,
+ 40% for the full year 2010, and 6% for the first half of 2011."
+AL_1158463_0000950123-10-009322,2011.0,Full year,3.0,,True,True,True,True,False,,,,,"At December 31, 2009, we had
+ hedged approximately 40% of our projected 2010 fuel requirements
+ and 3% of our projected 2011 fuel requirements."
+AL_6201_0000950123-11-014726,2011.0,FY2011,35.0,,True,True,True,True,True,0.35,,True,,"As of January 2011, the Company had cash flow hedges, with collars and options, covering approximately 35 percent of its estimated 2011 fuel requirements."
+AL_6201_0000950123-11-014726,,next 24 months from 12/31/2010,,,True,True,True,True,False,,,,,"As of December 31, 2010,
+ the Company had fuel derivative contracts outstanding covering
+ 31 million barrels of jet fuel that will be settled over
+ the next 24 months."
+AL_701345_0000950124-06-001200,2006.0,FY2006,68.0,,True,True,True,True,True,0.2,,False,,AWA had entered into costless collar transactions hedging approximately 20% of the Companys or 68% of AWAs projected 2006 fuel requirements.
+AL_27904_0000027904-14-000003,,"outstanding at 12/31/2013, final maturity March 2015",,4077.0,True,True,True,True,False,,,,,"Fuel hedge contracts | 4,077 | gallons - crude oil, diesel and jet fuel | March 2015 | 428 | 29 | (127 | ) | (16 | ) | 314"
+AL_100517_0001193125-12-073010,2012.0,FY2012,31.0,,True,True,True,True,True,0.31,,True,,Total | 31 | % | 23 | %
+AL_100517_0001193125-12-073010,2012.0,Q1,47.0,,True,True,True,True,True,0.31,,False,,Represents a hedge of approximately 47% of UALs expected first quarter consumption with decreasing hedge coverage later throughout 2012.
+AL_948846_0000948846-09-000005,2009.0,FY2009,9.1,32.2,True,True,True,True,True,0.091,32.2,True,True,"As of December 31, 2008, we have entered into fuel related swap and option agreements, which pertain to 32.2 million gallons of our projected 2009 fuel purchases, and 9.1 million gallons of our projected 2010 fuel purchases."
+AL_948846_0000948846-09-000005,2010.0,FY2010,2.5,9.1,True,True,True,True,True,0.025,9.1,True,True,"Such agreements pertain to 9.1 percent of our projected 2009 jet fuel requirements, and 2.5 percent of our projected 2010 jet fuel requirements."
+AL_706270_0000950153-02-000607,2002.0,FY2002,3.0,,True,True,True,True,False,,,,,"These transactions are in place with respect to approximately 3% of projected 2002 fuel requirements, including 12% related to the first quarter of 2002."
+AL_706270_0000950153-02-000607,2002.0,Q1,12.0,,True,True,True,True,False,,,,,"These transactions are in place with respect to approximately 3% of projected 2002 fuel requirements, including 12% related to the first quarter of 2002."
+AL_921929_0001047469-05-017260,2005.0,"Q1 FY2006 (April 1 - June 30, 2005)",28.0,,True,True,True,True,True,0.25,,False,,"November 2004 | 225,000 | April 1, 2005 - June 30, 2005 | $1.34, with a floor of $1.20 | 28 | %"
+AL_948845_0000897069-05-000469,2005.0,Q1,25.0,,True,True,True,True,True,0.092,,False,,The collars for first quarter 2005 cover approximately 25% of the total estimated fuel consumption with an average floor price of $1.37 per gallon and average ceiling price of $1.60 per gallon
+AL_948845_0000897069-05-000469,2005.0,Q2,18.0,,True,True,True,True,True,0.092,,False,,"There are collars in place that cover 18.0%, 13.6% and 9.2% of the estimated fuel
+consumption for second, third and fourth quarters of 2005, respectively."
+AL_948845_0000897069-05-000469,2005.0,Q3,13.6,,True,True,True,True,True,0.092,,False,,"There are collars in place that cover 18.0%, 13.6% and 9.2% of the estimated fuel
+consumption for second, third and fourth quarters of 2005, respectively."
+AL_948845_0000897069-05-000469,2005.0,Q4,9.2,,True,True,True,True,True,0.092,,True,,"There are collars in place that cover 18.0%, 13.6% and 9.2% of the estimated fuel
+consumption for second, third and fourth quarters of 2005, respectively."
+AL_1614436_0001193125-15-073939,2015.0,FY2015,23.0,,True,True,True,True,True,0.27,,False,,"As of December 31, 2014, the Company had entered into fuel derivative contracts for approximately 23% of its forecasted aircraft fuel requirements for 2015 at a weighted-average cost per gallon of $2.52."
+AL_1614436_0001193125-15-073939,2015.0,next twelve months,27.0,,True,True,True,True,True,0.27,,True,,"At December 31, 2014, we had entered into derivative hedging instruments and FFPs for approximately 27% of our then expected twelve-month fuel requirements"
+AL_1614436_0001193125-15-073939,2015.0,outstanding notional at 12/31/2014,,68.0,True,True,True,True,True,0.27,,,,Total | 68 | 45
+AL_100517_0000100517-00-000003,2000.0,FY2000,75.0,,True,True,True,True,False,,,,,"Through this approach, at December 31, 1999, United had hedged 75% of the Company's expected 2000 fuel purchases."
+AL_100517_0000100517-00-000003,2000.0,FY2000,6.0,,True,True,True,True,False,,,,,the Company had contracted to purchase approximately 6% of the Company's 2000 fuel requirements at an average fixed price of $0.51 per gallon.
+AL_100517_0000100517-02-000009,,maturities under two years; specific coverage year not stated,,,True,True,True,True,False,,,,,"Purchased forward contracts -
+Crude oil | $ 201 | $ 23.96/bbl | $ (28)"
+AL_100517_0000100517-02-000009,,maturities under two years; specific coverage year not stated,,,True,True,True,True,False,,,,,"Purchased forward contracts -
+Heating oil | $ 120 | $ 27.16/bbl | $ (17)"
+AL_100517_0000100517-05-000006,2005.0,FY2005,11.0,,True,True,True,True,False,,,,,"We have hedged approximately 11% of our 2005 projected fuel requirements at an average price of $1.27 per gallon, excluding taxes."
+AL_100517_0000100517-05-000006,2005.0,Q1,32.0,,True,True,True,True,False,,,,,"The Company has 32% of its expected fuel consumption for the first quarter hedged at an average of $1.38 per gallon, including taxes."
+AL_100517_0001193125-16-468479,2016.0,FY2016,17.0,652.0,True,True,True,True,True,0.17,652.0,True,True,"As of December 31, 2015, the Company had hedged approximately 17% of its projected fuel requirements (652 million gallons) for 2016, with commonly used financial hedge instruments based on aircraft fuel or crude oil."
+AL_100517_0001193125-15-056493,2015.0,FY2015,22.0,859.0,True,True,True,True,True,0.22,859.0,True,True,"As of December 31, 2014, the Company had hedged approximately 22% and 1% of its projected fuel requirements (859 million and 35 million gallons, respectively) for 2015 and 2016, respectively"
+AL_100517_0001193125-15-056493,2016.0,FY2016,1.0,35.0,True,True,True,True,True,0.01,35.0,False,True,"As of December 31, 2014, the Company had hedged approximately 22% and 1% of its projected fuel requirements (859 million and 35 million gallons, respectively) for 2015 and 2016, respectively"
+AL_100517_0001193125-10-041523,2010.0,FY2010,36.0,,True,True,True,True,True,0.36,,True,,"As of December 31, 2009, the Company had hedged approximately 36% of its 2010 consolidated fuel consumption primarily with a combination of swaps and purchased call options."
+AL_100517_0001047469-08-001951,2008.0,Q1,13.0,,True,True,True,True,True,0.13,,True,,"As of December 31, 2007, the Company had hedged 13% of forecasted first quarter 2008 fuel consumption of which 82% is through three-way collars with upside protection"
+AL_100517_0001047469-08-001951,2008.0,FY,13.0,,True,True,True,True,True,0.13,,True,,"As of December 31, 2007, the Company had hedged 13% of forecasted fuel consumption for 2008, of which 67% is through three-way collars with upside protection"
+AL_100517_0001104659-07-019919,2007.0,Q1,32.0,,True,True,True,True,True,,,,,"As of December 31, 2006, the Company had hedged 32% of forecasted first quarter 2007 fuel consumption through crude oil collars and swaps."
+AL_100517_0001104659-07-019919,2007.0,Q2,4.0,,True,True,True,True,True,,,,,"As of December 31,
+2006, the Company had hedged 4% of forecasted fuel consumption for the second
+quarter 2007 predominantly through crude oil three-way collars"
+AL_100517_0001193125-13-074391,2013.0,2013,31.0,1200.0,True,True,True,True,True,0.31,1200.0,True,True,"As of December 31, 2012, the Company had hedged approximately 31% and 2% of its projected fuel requirements (1.2 billion and 63 million gallons, respectively) for 2013 and 2014, respectively"
+AL_100517_0001193125-13-074391,2014.0,2014,2.0,63.0,True,True,True,True,True,0.02,63.0,True,True,"As of December 31, 2012, the Company had hedged approximately 31% and 2% of its projected fuel requirements (1.2 billion and 63 million gallons, respectively) for 2013 and 2014, respectively"
+AL_100517_0000950137-09-001460,2009.0,Q1,50.0,,True,True,True,True,True,0.34,,False,,First Quarter 2009: | % | $ | $ | $ | $
+AL_100517_0000950137-09-001460,2009.0,Full Year,34.0,,True,True,True,True,True,0.34,,True,,"Total | 34 | 900 | 16,875 | 19,375 | 11,250"
+AL_100517_0000950137-09-001460,2010.0,Full Year,,,True,True,True,True,True,0.01,,,,"As of December 31, 2008, the Company had hedged less than
+ 1% of its 2010 forecasted fuel consumption."
+AL_100517_0001193125-14-060695,2014.0,FY2014,24.0,951.0,True,True,True,True,True,0.24,951.0,True,True,"As of December 31, 2013, the Company had hedged approximately 24% and 8% of its projected fuel requirements (951 million and 309 million gallons, respectively) for 2014 and 2015, respectively"
+AL_100517_0001193125-14-060695,2015.0,FY2015,8.0,309.0,True,True,True,True,True,0.08,309.0,True,True,"As of December 31, 2013, the Company had hedged approximately 24% and 8% of its projected fuel requirements (951 million and 309 million gallons, respectively) for 2014 and 2015, respectively"
+AL_1048911_0000912057-00-034322,2001.0,fiscal 2001,,352.822,True,True,True,True,False,,,,,"As of May 31, 2000, contracts in place to fix the price of jet fuel cover a total notional volume of 352,822,000 gallons or approximately one-third of the estimated usage in 2001."
+AL_100517_0001193125-11-042335,2011.0,FY2011,28.0,,True,True,True,True,True,0.28,,True,,Total | 28 | % | 18 | %
+AL_1058033_0000912057-01-506426,2001.0,Q1,12.0,,True,True,True,True,True,0.12,,True,,"As of December 31, 2000, the Company had hedged approximately 12% of its first quarter 2001 fuel requirements in the form of short-term contracts to secure ongoing operating supplies."
+AL_1058033_0000912057-02-013064,2002.0,Q1,9.0,,True,True,True,True,False,,,,,"As of December 31, 2001, the Company had hedged approximately 9% of its first quarter 2002 fuel requirements, compared to 12% of the 2001 first quarter requirements at December 31, 2000."
+AL_1058033_0001104659-05-009167,2005.0,Q1,25.0,,True,True,True,True,True,0.06,,False,,"As of December 31, 2004, the
+Company had hedged approximately 25% and 6% of 2005 first quarter and full year
+mainline fuel requirements, respectively."
+AL_1058033_0001104659-05-009167,2005.0,FY,6.0,,True,True,True,True,True,0.06,,True,,"As of December 31, 2004, the
+Company had hedged approximately 25% and 6% of 2005 first quarter and full year
+mainline fuel requirements, respectively."
+AL_1058033_0001047469-03-009316,2003.0,Q1,71.0,,True,True,True,True,True,0.6,,False,,"As of December 31, 2002, the Company had hedged approximately 71% and 60% of 2003 first quarter and full year fuel requirements, respectively"
+AL_1058033_0001047469-03-009316,2003.0,Full year,60.0,,True,True,True,True,True,0.6,,True,,"As of December 31, 2002, the Company had hedged approximately 71% and 60% of 2003 first quarter and full year fuel requirements, respectively"
+AL_1058033_0001104659-07-020022,2007.0,FY2007,35.0,,True,True,True,True,True,0.35,,True,,"As of December 31, 2006, the Company had economically hedged the price of approximately 35% of its projected fuel requirements for 2007, through a combination of collar options and fixed price swap agreements."
+AL_1058033_0001104659-09-013542,2009.0,FY2009,22.0,,True,True,True,True,True,0.22,,True,,"As of December 31, 2008, the Company had
+economically hedged the price of approximately 
+22
+% of its projected fuel
+requirements for 2009, through a combination of collars, three-way collars and
+swap agreements."
+AL_1058033_0001104659-09-013542,2009.0,Q1,64.0,,True,True,True,True,True,0.22,,False,,"The Company,
+as of January 31, 2009, had hedged the price of approximately 64% and 22%
+of its estimated 2009 first quarter and full year 2009 fuel requirements,
+respectively."
+AL_1058033_0001104659-08-014343,2008.0,FY2008,10.0,,True,True,True,True,True,0.1,,True,,"As of December 31, 2007, the Company had
+economically hedged the price of approximately 
+10
+% of its projected fuel
+requirements for 2008, through collar options."
+AL_1090727_0000950144-02-003133,,up to one year,,,True,True,True,True,False,,,,,These derivative instruments generally cover forecasted fuel and energy consumption for periods up to one year.
+AL_1092807_0001010412-09-000005,2009.0,June 2009,,,True,True,True,True,False,,,,,"In October, 2008, the
+Company purchased two contracts for heating oil due in June 2009."
+AL_1135185_0000950123-07-003924,2007.0,FY2007,,6.5,True,True,True,True,False,,,,,"On December 28, 2006, the Company entered into a fixed forward fuel purchase contract for use in 2007. We have committed to purchase 6.5 million gallons of jet fuel at an average cost of $2.05 per gallon for a total commitment of $13.3 million."
+AL_1135185_0000950123-07-003924,2007.0,FY2007 (as of March 2007),17.0,21.9,True,True,True,True,False,,,,,"Through March, 2007, we have committed to purchase approximately 21.9 million gallons at an average cost of $1.98 per gallon for a total commitment of $43.3 million which represents approximately 17% of our projected 2007 Scheduled Service fuel uplift."
+AL_1158463_0000950136-06-001033,2006.0,FY2006,30.0,,True,True,True,True,True,0.3,135.45,True,,"As of December 31, 2005, we had hedged
+approximately 30% of our projected 2006 fuel requirements. All
+existing hedge contracts settle by the end of 2006."
+AL_1158463_0000950123-09-002805,2009.0,FY2009,8.0,,True,True,True,True,True,0.08,36.54,True,,"At December 31, 2008, we had hedged approximately 8% of our projected 2009 fuel requirements."
+AL_1158463_0000950123-09-002805,2009.0,FY2009,,,True,True,True,True,True,0.08,36.54,,,"Hedged volume (barrels) | 870 | 1,506"
+AL_1158463_0000950136-07-000901,2007.0,FY2007,38.0,,True,True,True,True,True,0.38,171.234,True,,"At December
+31, 2006, we had hedged approximately 38% of our
+projected 2007 fuel requirements."
+AL_1158463_0000950136-08-000821,2008.0,FY2008,13.0,,True,True,True,True,True,0.13,63.252,True,,"As of December 31, 2007, we had hedged approximately 13% of our projected 2008 fuel requirements. All hedge contracts existing at December 31, 2007 settle by the end of 2008."
+AL_1144331_0001144331-08-000019,2008.0,Q1,85.0,15.1,True,True,True,True,False,,,,,"we had committed to purchase 15.1 million gallons, or 85% of our anticipated Branded Flying fuel needs for the first quarter of 2008, at a weighted average price per gallon of $2.40"
+AL_1144331_0001144331-08-000019,2008.0,Q2,,11.9,True,True,True,True,False,,,,,"we have committed to purchase 11.9 million gallons for the second quarter of 2008, 9.0 million gallons for the third quarter of 2008, and 6.0 million gallons for the fourth quarter of 2008."
+AL_1144331_0001144331-08-000019,2008.0,Q3,,9.0,True,True,True,True,False,,,,,"we have committed to purchase 11.9 million gallons for the second quarter of 2008, 9.0 million gallons for the third quarter of 2008, and 6.0 million gallons for the fourth quarter of 2008."
+AL_1144331_0001144331-08-000019,2008.0,Q4,,6.0,True,True,True,True,False,,,,,"we have committed to purchase 11.9 million gallons for the second quarter of 2008, 9.0 million gallons for the third quarter of 2008, and 6.0 million gallons for the fourth quarter of 2008."
+AL_1144331_0001144331-08-000019,2008.0,FY2008,70.0,,True,True,True,True,False,,,,,"This represents approximately 70% and 22% of our anticipated Branded Flying fuel needs for 2008 and the first quarter of 2009, respectively."
+AL_1144331_0001144331-08-000019,2009.0,Q1,22.0,3.0,True,True,True,True,False,,,,,"For the first quarter of 2009, we have contracted to purchase 3.0 million gallons."
+AL_1158463_0000950123-11-018216,2011.0,FY2011,28.0,,True,True,True,True,True,0.28,180.18,True,,"At December 31, 2010, we had hedged approximately 28% of our projected 2011 fuel requirements and 6% of our projected 2012 fuel requirements."
+AL_1158463_0000950123-11-018216,2012.0,FY2012,6.0,,True,True,True,True,False,,,,,"At December 31, 2010, we had hedged approximately 28% of our projected 2011 fuel requirements and 6% of our projected 2012 fuel requirements."
+AL_1158463_0000950123-11-018216,2011.0,Q1,37.0,,True,True,True,True,True,0.28,180.18,False,,First Quarter 2011 | 18 | % | 11 | % | 5 | % | 3 | % | 37 | %
+AL_1158463_0000950123-11-018216,2011.0,Q2,33.0,,True,True,True,True,True,0.28,180.18,False,,Second Quarter 2011 | 21 | 10 |  | 2 | 33 | %
+AL_1158463_0000950123-11-018216,2011.0,Q3,27.0,,True,True,True,True,True,0.28,180.18,True,,Third Quarter 2011 | 18 | 9 |  |  | 27 | %
+AL_1158463_0000950123-11-018216,2011.0,Q4,16.0,,True,True,True,True,True,0.28,180.18,False,,Fourth Quarter 2011 | 7 | 9 |  |  | 16 | %
+AL_1158463_0000950123-11-018216,2012.0,Q1,8.0,,True,True,True,True,False,,,,,First Quarter 2012 | 3 | 5 |  |  | 8 | %
+AL_1158463_0000950123-11-018216,2012.0,Q2,7.0,,True,True,True,True,False,,,,,Second Quarter 2012 | 2 | 5 |  |  | 7 | %
+AL_1158463_0000950123-11-018216,2012.0,Q3,4.0,,True,True,True,True,False,,,,,Third Quarter 2012 |  | 4 |  |  | 4 | %
+AL_1158463_0000950123-11-018216,2012.0,Q4,4.0,,True,True,True,True,False,,,,,Fourth Quarter 2012 |  | 4 |  |  | 4 | %
+AL_1158463_0001047469-03-005952,2003.0,FY2003,45.0,,True,True,True,True,True,0.45,86.436,True,,"As of December 31, 2002, we had hedged approximately 45% of our projected 2003 fuel requirements and approximately 18% of our projected 2004 fuel requirements through March 31, 2004."
+AL_1158463_0001047469-03-005952,2004.0,"through Q1 2004 (March 31, 2004)",18.0,,True,True,True,True,False,,,,,"As of December 31, 2002, we had hedged approximately 45% of our projected 2003 fuel requirements and approximately 18% of our projected 2004 fuel requirements through March 31, 2004."
+AL_1158463_0001047469-04-004064,2004.0,FY2004,40.0,,True,True,True,True,True,0.4,100.17,True,,"As of December 31, 2003, we had hedged approximately 40% of our projected 2004 fuel requirements. All existing hedge contracts settle by the end of 2004."
+AL_1158463_0001047469-05-003748,2005.0,2005,22.0,,True,True,True,True,True,0.22,68.04,True,,Estimated hedged position during the next 12 months | 22 | % | 40 | %
+AL_1158463_0001047469-05-003748,2005.0,2005,20.0,,True,True,True,True,True,0.22,68.04,True,,"As of
+December 31, 2004, we had hedged approximately 20% of our projected 2005 fuel requirements."
+AL_1158463_0001158463-13-000010,2013.0,Q1,8.0,,True,True,True,True,True,0.05,28.35,True,,First Quarter 2013 | 8%
+AL_1158463_0001158463-13-000010,2013.0,Q2,8.0,,True,True,True,True,True,0.05,28.35,True,,Second Quarter 2013 | 8%
+AL_1158463_0001158463-13-000010,2013.0,Q3,4.0,,True,True,True,True,True,0.05,28.35,True,,Third Quarter 2013 | 4%
+AL_1158463_0001158463-13-000010,2013.0,FY,5.0,,True,True,True,True,True,0.05,28.35,True,,"As of December 31, 2012, we had outstanding fuel hedge contracts covering approximately 8% of our forecasted consumption for the first quarter of 2013 and 5% for the full year 2013."
+AL_1158463_0001158463-13-000010,2013.0,FY,6.0,,True,True,True,True,True,0.05,28.35,True,,"As of December 31, 2012, we had 6% of our 2013 fuel consumption requirements covered under FFPs."
+AL_1158463_0001158463-14-000008,2014.0,Q1,16.0,,True,True,True,True,True,0.09,55.44,False,,First Quarter 2014 | 8% | 8% | 16%
+AL_1158463_0001158463-14-000008,2014.0,Q2,15.0,,True,True,True,True,True,0.09,55.44,False,,Second Quarter 2014 | 7% | 8% | 15%
+AL_1158463_0001158463-14-000008,2014.0,Q3,2.0,,True,True,True,True,True,0.09,55.44,False,,Third Quarter 2014 | 2% | —% | 2%
+AL_1158463_0001158463-14-000008,2014.0,Q4,2.0,,True,True,True,True,True,0.09,55.44,False,,Fourth Quarter 2014 | 2% | —% | 2%
+AL_1158463_0001158463-14-000008,2014.0,full year,9.0,,True,True,True,True,True,0.09,55.44,True,,"As of December 31, 2013, we had hedged approximately 
+9%
+ of our projected 2014 fuel requirements."
+AL_1158463_0001158463-14-000008,2014.0,full year,7.0,,True,True,True,True,True,0.09,55.44,True,,We also had 7% of our 2014 fuel consumption requirements covered under FFPs.
+AL_1158463_0001158463-15-000013,2015.0,Q1,20.0,,True,True,True,True,True,0.17,117.936,True,,First Quarter 2015 | 10% | 10% | —% | 20%
+AL_1158463_0001158463-15-000013,2015.0,Q2,20.0,,True,True,True,True,True,0.17,117.936,True,,Second Quarter 2015 | 10% | 10% | —% | 20%
+AL_1158463_0001158463-15-000013,2015.0,Q3,14.0,,True,True,True,True,True,0.17,117.936,True,,Third Quarter 2015 | 5% | —% | 9% | 14%
+AL_1158463_0001158463-15-000013,2015.0,Q4,15.0,,True,True,True,True,True,0.17,117.936,True,,Fourth Quarter 2015 | 5% | —% | 10% | 15%
+AL_1158463_0001158463-15-000013,2015.0,FY,17.0,,True,True,True,True,True,0.17,117.936,True,,"As of December 31, 2014 we had hedged approximately 17% of our projected 2015 fuel requirements."
+AL_1158463_0001158463-17-000016,2017.0,Q1,10.0,,True,True,True,True,True,0.1,80.64,True,,First Quarter 2017 | 10% | —% | —% | 10%
+AL_1158463_0001158463-17-000016,2017.0,Q2,10.0,,True,True,True,True,True,0.1,80.64,True,,Second Quarter 2017 | 10% | —% | —% | 10%
+AL_1158463_0001158463-17-000016,2017.0,Q3,10.0,,True,True,True,True,True,0.1,80.64,True,,Third Quarter 2017 | 10% | —% | —% | 10%
+AL_1158463_0001158463-17-000016,2017.0,Q4,10.0,,True,True,True,True,True,0.1,80.64,True,,Fourth Quarter 2017 | 10% | —% | —% | 10%
+AL_1158463_0001158463-17-000016,2017.0,FY2017,10.0,,True,True,True,True,True,0.1,80.64,True,,"As of December 31, 2016 we had hedged approximately 10% of our projected 2017 fuel requirements."
+AL_1158463_0001158463-16-000102,2016.0,Q1,0.0,,True,True,True,True,True,0.05,37.8,False,,First Quarter 2016 | —% | —% | —% | —%
+AL_1158463_0001158463-16-000102,2016.0,Q2,0.0,,True,True,True,True,True,0.05,37.8,False,,Second Quarter 2016 | —% | —% | —% | —%
+AL_1158463_0001158463-16-000102,2016.0,Q3,10.0,,True,True,True,True,True,0.05,37.8,False,,Third Quarter 2016 | 10% | —% | —% | 10%
+AL_1158463_0001158463-16-000102,2016.0,Q4,10.0,,True,True,True,True,True,0.05,37.8,False,,Fourth Quarter 2016 | 10% | —% | —% | 10%
+AL_1158463_0001158463-16-000102,2016.0,FY,5.0,,True,True,True,True,True,0.05,37.8,True,,"As of 
+December 31, 2015
+ we had hedged approximately 
+5%
+ of our projected 2016 fuel requirements."
+AL_1158463_0001158463-19-000018,2019.0,FY2019,4.0,,True,True,True,True,True,0.04,31.752,True,,"As of December 31, 2018 we had hedged approximately 4% of our projected 2019 fuel requirements."
+AL_1158463_0001158463-19-000018,2019.0,Q1,7.0,,True,True,True,True,True,0.04,31.752,False,,First Quarter 2019 | 7 | % | — | % | 7 | %
+AL_1158463_0001158463-19-000018,2019.0,Q2,7.0,,True,True,True,True,True,0.04,31.752,False,,Second Quarter 2019 | 7 | % | — | % | 7 | %
+AL_1158463_0001158463-19-000018,2019.0,Q3,0.0,,True,True,True,True,True,0.04,31.752,False,,Third Quarter 2019 | — | % | — | % | — | %
+AL_1158463_0001158463-19-000018,2019.0,Q4,0.0,,True,True,True,True,True,0.04,31.752,False,,Fourth Quarter 2019 | — | % | — | % | — | %
+AL_1158463_0001158463-23-000002,2023.0,Q1,8.8,,True,True,True,True,True,0.088,18.9,True,,First Quarter 2023 | 8.8 | % | 8.8 | %
+AL_1158463_0001158463-20-000012,2020.0,Q1,20.0,,True,True,True,True,True,0.1,88.704,False,,First Quarter 2020 | 20 | % | 20 | %
+AL_1158463_0001158463-20-000012,2020.0,Q2,19.0,,True,True,True,True,True,0.1,88.704,False,,Second Quarter 2020 | 19 | % | 19 | %
+AL_1158463_0001158463-20-000012,2020.0,Q3,0.0,,True,True,True,True,True,0.1,88.704,False,,Third Quarter 2020 | — | % | — | %
+AL_1158463_0001158463-20-000012,2020.0,Q4,0.0,,True,True,True,True,True,0.1,88.704,False,,Fourth Quarter 2020 | — | % | — | %
+AL_1158463_0001158463-20-000012,2020.0,FY,10.0,,True,True,True,True,True,0.1,88.704,True,,"As of December 31, 2019, we had hedged approximately 10% of our projected 2020 fuel requirements."
+AL_1158463_0001158463-24-000006,2024.0,Q1,30.0,,True,True,True,True,True,0.141,113.652,False,,First Quarter 2024 | 30 | %
+AL_1158463_0001158463-24-000006,2024.0,Q2,16.0,,True,True,True,True,True,0.141,113.652,True,,Second Quarter 2024 | 16 | %
+AL_1158463_0001158463-24-000006,2024.0,Q3,3.0,,True,True,True,True,True,0.141,113.652,False,,Third Quarter 2024 | 3 | %
+AL_1158463_0001158463-24-000006,2024.0,Q4,5.0,,True,True,True,True,True,0.141,113.652,False,,Fourth Quarter 2024 | 5 | %
+AL_1159154_0001144204-10-013878,2010.0,Q2,14.3,,True,True,True,True,True,,,,,"7-Dec-09 | Gulf
+ Coast Jet A | 2,856,000 | Q2
+ 2010 | $2.34/gallon | 14.3%"
+AL_1159154_0001144204-10-013878,2010.0,Q3,14.3,,True,True,True,True,True,,,,,"7-Dec-09 | Gulf
+ Coast Jet A | 2,940,000 | Q3
+ 2010 | $2.43/gallon | 14.3%"
+AL_1158463_0001193125-12-084229,2012.0,Full year 2012,27.0,,True,True,True,True,True,0.27,148.68,True,,"At December 31, 2011, we had hedged approximately 27% of our projected 2012 fuel requirements."
+AL_1158463_0001193125-12-084229,2012.0,Q1,42.0,,True,True,True,True,True,0.27,148.68,False,,we had outstanding fuel hedge contracts covering approximately 42% of our forecasted consumption for the first quarter of 2012 and 27% for the full year 2012
+AL_1158463_0001193125-12-084229,2012.0,Q1,35.0,,True,True,True,True,True,0.27,148.68,False,,First Quarter 2012 | 7 | % | 2 | % | 26 | % | 35 | %
+AL_1158463_0001193125-12-084229,2012.0,Q2,20.0,,True,True,True,True,True,0.27,148.68,False,,Second Quarter 2012 | 7 | % | 6 | % | 7 | % | 20 | %
+AL_1158463_0001193125-12-084229,2012.0,Q3,15.0,,True,True,True,True,True,0.27,148.68,False,,Third Quarter 2012 | 6 | % | 3 | % | 6 | % | 15 | %
+AL_1158463_0001193125-12-084229,2012.0,Q4,15.0,,True,True,True,True,True,0.27,148.68,False,,Fourth Quarter 2012 | 7 | % | 1 | % | 7 | % | 15 | %
+AL_1159154_0001159154-11-000006,2011.0,Q2,5.0,,True,True,True,True,True,0.05,,True,,"As of December 31, 2010, our Frontier operation had hedged five percent of its anticipated volume in the second, third, and fourth quarters of 2011."
+AL_1159154_0001159154-11-000006,2011.0,Q3,5.0,,True,True,True,True,True,0.05,,True,,"As of December 31, 2010, our Frontier operation had hedged five percent of its anticipated volume in the second, third, and fourth quarters of 2011."
+AL_1159154_0001159154-11-000006,2011.0,Q4,5.0,,True,True,True,True,True,0.05,,True,,"As of December 31, 2010, our Frontier operation had hedged five percent of its anticipated volume in the second, third, and fourth quarters of 2011."
+AL_1159154_0001159154-13-000018,2013.0,through Q2 2013,15.0,,True,True,True,True,True,0.15,,True,,The Company has a hedge position on 15% of its anticipated volume of fuel through the 2nd quarter of 2013.
+AL_1166291_0001166291-11-000008,2011.0,Jan-Jun 2011,20.0,,True,True,True,True,False,,,,,"At December 31, 2010, the Company had outstanding fuel call options covering approximately 20% of its expected fuel requirements from January through June 2011."
+AL_1172222_0000950136-05-001808,2005.0,Jan-May 2005,,,True,True,True,True,False,,,,,"At
+December 31, 2004, Hawaiian held forward contracts to purchase
+barrels of heating oil in the aggregate notional amount of $14.9
+million through May 2005."
+AL_1172222_0001047469-14-000752,2014.0,FY2014,36.0,84.7,True,True,True,True,True,0.36,84.7,True,True,"As of December 31, 2013, the Company hedged approximately 36% of its projected fuel requirements for 2014 with heating oil puts and swaps, and Brent crude oil call options and collars."
+AL_1172222_0000950136-05-001827,2004.0,through March 2004,,,True,True,True,True,False,,,,,"At December 31,
+2003, Hawaiian held forward contracts to purchase barrels of heating oil in the
+aggregate notional amount of $1.6 million through March 2004."
+AL_1172222_0001104659-06-018706,2006.0,FY2006 (as of 12/31/2005),30.0,,True,True,True,True,True,0.3,,True,,"The fair value of Hawaiians jet fuel forward contracts as of December 31, 2005 related to Hawaiians fuel hedging program was $2.4 million, which hedged approximately 30% of its anticipated aircraft fuel needs for 2006."
+AL_1172222_0001047469-08-002138,2008.0,Q1,25.0,,True,True,True,True,True,0.1428,19.152,False,,"As of December 31, 2007, we hedged approximately 25%, 8% and 1% of our anticipated aircraft fuel needs for the first, second and third quarters of 2008, respectively, primarily"
+AL_1172222_0001047469-08-002138,2008.0,Q2,8.0,,True,True,True,True,True,0.1428,19.152,False,,"As of December 31, 2007, we hedged approximately 25%, 8% and 1% of our anticipated aircraft fuel needs for the first, second and third quarters of 2008, respectively, primarily"
+AL_1172222_0001047469-08-002138,2008.0,Q3,1.0,,True,True,True,True,True,0.1428,19.152,False,,"As of December 31, 2007, we hedged approximately 25%, 8% and 1% of our anticipated aircraft fuel needs for the first, second and third quarters of 2008, respectively, primarily"
+AL_1172222_0001047469-10-000984,2010.0,Q1,50.0,,True,True,True,True,True,0.2991,42.168,False,,"At December 31, 2009, we had hedged approximately 50%, 35%, and 20% of our anticipated aircraft fuel needs for the first, second, and third quarters of 2010, respectively"
+AL_1172222_0001047469-10-000984,2010.0,Q2,35.0,,True,True,True,True,True,0.2991,42.168,False,,"At December 31, 2009, we had hedged approximately 50%, 35%, and 20% of our anticipated aircraft fuel needs for the first, second, and third quarters of 2010, respectively"
+AL_1172222_0001047469-10-000984,2010.0,Q3,20.0,,True,True,True,True,True,0.2991,42.168,False,,"At December 31, 2009, we had hedged approximately 50%, 35%, and 20% of our anticipated aircraft fuel needs for the first, second, and third quarters of 2010, respectively"
+AL_1172222_0001047469-10-000984,2010.0,next twelve months,,36.0,True,True,True,True,True,0.2991,42.168,,False,"As of December 31, 2009, the Company had outstanding fuel derivative contracts covering 36 million gallons of jet fuel that will be settled over the next twelve months."
+AL_1172222_0001047469-13-000781,2013.0,Q1,63.0,,True,True,True,True,True,0.5013,113.4,False,,"First Quarter 2013
+Crude Oil (per barrel)
+Brent Call Options | $ | 115.57 | N/A | 63 | % | 814,000"
+AL_1172222_0001047469-13-000781,2013.0,Q2,56.0,,True,True,True,True,True,0.5013,113.4,False,,"Second Quarter 2013
+Crude Oil (per barrel)
+Brent Call Options | $ | 113.84 | N/A | 56 | % | 752,000"
+AL_1172222_0001047469-13-000781,2013.0,Q3,47.0,,True,True,True,True,True,0.5013,113.4,False,,"Third Quarter 2013
+Crude Oil (per barrel)
+Brent Call Options | $ | 114.69 | N/A | 47 | % | 657,000"
+AL_1172222_0001047469-13-000781,2013.0,Q4,34.0,,True,True,True,True,True,0.5013,113.4,False,,"Fourth Quarter 2013
+Crude Oil (per barrel)
+Brent Call Options | $ | 115.22 | N/A | 34 | % | 477,000"
+AL_1172222_0001047469-13-000781,2014.0,Q1,22.0,,True,True,True,True,True,0.0854,19.656,False,,"First Quarter 2014
+Crude Oil (per barrel)
+Brent Call Options | $ | 117.59 | N/A | 19 | % | 273,000
+Brent Collars | $ | 116.10 | $ | 80.00 | 3 | % | 45,000
+Total | 22 | % | 318,000"
+AL_1172222_0001047469-13-000781,2014.0,Q2,10.0,,True,True,True,True,True,0.0854,19.656,True,,"Second Quarter 2014
+Crude Oil (per barrel)
+Brent Call Options | $ | 115.56 | N/A | 5 | % | 80,000
+Brent Collars | $ | 116.41 | $ | 80.00 | 5 | % | 70,000
+Total | 10 | % | 150,000"
+AL_1172222_0001047469-13-000781,,next 18 months (aggregate),,127.0,True,True,True,True,False,,,,,the Company had outstanding fuel derivative contracts covering 127.0 million gallons of jet fuel that will be settled over the next 18 months.
+AL_1172222_0001104659-03-006520,2003.0,through April 2003,,,True,True,True,True,False,,,,,"At December 31, 2002, the Company held forward
+contracts to purchase barrels of heating oil in the aggregate amount of $7.4
+million through April 2003."
+AL_1172222_0001104659-03-006520,2003.0,Q2,,,True,True,True,True,False,,,,,"We have also entered into an agreement to purchase a
+significant amount of fuel at a fixed price during the second quarter of 2003,
+which will mitigate our market risk with respect to fuel prices."
+AL_1172222_0001047469-12-000763,2012.0,Q1,62.0,,True,True,True,True,True,0.3512,70.056,False,,"Total | 62 | % | 599,000"
+AL_1172222_0001047469-12-000763,2012.0,Q2,46.0,,True,True,True,True,True,0.3512,70.056,False,,"Total | 46 | % | 495,000"
+AL_1172222_0001047469-12-000763,2012.0,Q3,27.0,,True,True,True,True,True,0.3512,70.056,False,,"Total | 27 | % | 353,000"
+AL_1172222_0001047469-12-000763,2012.0,Q4,18.0,,True,True,True,True,True,0.3512,70.056,False,,"Total | 18 | % | 221,000"
+AL_1172222_0001047469-12-000763,2013.0,Q1,1.0,,True,True,True,True,True,0.003,0.672,False,,"Brent Options | $ | 123.35 | 1 | % | 16,000"
+AL_1172222_0001047469-12-000763,2012.0,next 12 months,,62.6,True,True,True,True,True,0.3512,70.056,,False,the Company had outstanding fuel derivative contracts covering 62.6 million gallons of jet fuel that will be settled over the next 12 months
+AL_1172222_0001172222-15-000012,2015.0,,39.0,,True,True,True,True,True,0.39,90.994,True,,"As of 
+December 31, 2014
+, we hedged approximately 39% of our projected fuel requirements for 
+2015
+ with heating oil puts and swaps."
+AL_1172222_0001172222-15-000012,2015.0,final maturity December 2015,,90.994,True,True,True,True,True,0.39,90.994,,True,"Fuel derivative contracts | Other accrued liabilities | 90,994 gallons | December 2015 | 32,637 | (71,447 | ) | (38,810 | )"
+AL_1172222_0001104659-07-019751,2007.0,Q1,28.0,,True,True,True,True,True,0.1713,22.25,False,,"As of December 31, 2006, the Company had hedged approximately 28%, 9% and 1% for the first, second and third quarters of 2007, respectively, using jet fuel forward contracts with a weighted average contract price of $1.95 per gallon."
+AL_1172222_0001104659-07-019751,2007.0,Q2,9.0,,True,True,True,True,True,0.1713,22.25,False,,"As of December 31, 2006, the Company had hedged approximately 28%, 9% and 1% for the first, second and third quarters of 2007, respectively, using jet fuel forward contracts with a weighted average contract price of $1.95 per gallon."
+AL_1172222_0001104659-07-019751,2007.0,Q3,1.0,,True,True,True,True,True,0.1713,22.25,False,,"As of December 31, 2006, the Company had hedged approximately 28%, 9% and 1% for the first, second and third quarters of 2007, respectively, using jet fuel forward contracts with a weighted average contract price of $1.95 per gallon."
+AL_1172222_0001172222-17-000018,2017.0,FY2017,50.0,,True,True,True,True,True,0.5,17.85,True,,"As of 
+December 31, 2016
+, we hedged approximately 
+50%
+ of our projected fuel requirements for 
+2017
+ with heating oil swaps and crude oil call options."
+AL_1172222_0001172222-17-000018,2017.0,through Dec 2017,,17.85,True,True,True,True,True,0.5,17.85,,True,"Fuel derivative contracts | Prepaid expenses and other | 17,850 gallons | December 2017 | 15,090 | — | 15,090"
+AL_1172222_0001172222-16-000095,2016.0,2016,35.0,,True,True,True,True,True,0.35,84.067,True,,"As of 
+December 31, 2015
+, we hedged approximately 35% of our projected fuel requirements for 
+2016
+ with heating oil puts and swaps."
+AL_1172222_0001172222-16-000095,2016.0,through December 2016,,84.067,True,True,True,True,True,0.35,84.067,,True,"Fuel derivative contracts | Other accrued liabilities | 84,067 gallons | December 2016 | 1,060 | (40,530 | ) | (39,470 | )"
+AL_1172222_0001172222-18-000017,2018.0,FY2018,35.0,,True,True,True,True,True,0.35,94.332,True,,"As of 
+December 31, 2017
+, we hedged approximately 
+35%
+ of our projected fuel requirements for 
+2018
+ with heating oil swaps and crude oil call options."
+AL_1172222_0001172222-18-000017,2018.0,through December 2018,,94.332,True,True,True,True,True,0.35,94.332,,True,"Fuel derivative contracts | Prepaid expenses and other | 94,332 gallons | December 2018 | 20,608 | — | 20,608"
+AL_1172222_0001047469-09-001839,2009.0,Q1,49.0,,True,True,True,True,True,0.2961,40.74,False,,"At December 31, 2008, we had hedged approximately 49%, 29% and 9% of our"
+AL_1172222_0001047469-09-001839,2009.0,Q2,29.0,,True,True,True,True,True,0.2961,40.74,True,,"At December 31, 2008, we had hedged approximately 49%, 29% and 9% of our"
+AL_1172222_0001047469-09-001839,2009.0,Q3,9.0,,True,True,True,True,True,0.2961,40.74,False,,"At December 31, 2008, we had hedged approximately 49%, 29% and 9% of our"
+AL_1172222_0001172222-19-000012,2019.0,FY2019,34.0,,True,True,True,True,True,0.34,95.256,True,,"As of December 31, 2018, we hedged approximately 34% of our projected fuel requirements for 2019."
+AL_1172222_0001172222-19-000012,2019.0,through December 2019,,95.256,True,True,True,True,True,0.34,95.256,,True,"Fuel derivative contracts | Prepaid expenses and other | 95,256 gallons | December 2019 | 1,572 | — | 1,572"
+AL_1172222_0001172222-20-000008,2020.0,FY2020,35.0,,True,True,True,True,True,0.35,97.986,True,,"As of December 31, 2019, we hedged approximately 35% of our projected fuel requirements for 2020."
+AL_1172222_0001172222-20-000008,2020.0,through December 2020,,97.986,True,True,True,True,True,0.35,97.986,,True,"Fuel derivative contracts | Prepaid expenses and other | 97,986 gallons | December 2020 | 5,878 | — | 5,878"
+AL_1172222_0001172222-21-000027,2021.0,FY2021,4.0,,True,True,True,True,True,0.04,8.652,True,,"As of December 31, 2020, we hedged approximately 
+4% 
+of our projected fuel requirements for 2021."
+AL_1172222_0001172222-21-000027,2021.0,through March 2021,,8.652,True,True,True,True,True,0.04,8.652,,True,"Fuel derivative contracts | Prepaid expenses and other | 8,652 gallons | March 2021 | 43 | — | 43"
+AL_1172222_0001172222-24-000016,2024.0,FY2024,30.0,,True,True,True,True,True,0.3,90.258,True,,"As of December 31, 2023, we hedged approximately 30% of our projected fuel requirements for 2024."
+AL_1172222_0001172222-24-000016,2024.0,through Dec 2024,,90.258,True,True,True,True,True,0.3,90.258,,True,"Fuel derivative contracts | Prepaid expenses and other | 90,258 gallons | December 2024 | $ | 2,069 | $ | — | $ | 2,069"
+AL_1172222_0001172222-23-000013,2023.0,FY2023,21.0,57.288,True,True,True,True,True,0.21,57.288,True,True,"As of December 31, 2022, we hedged approximately 21% of our projected fuel requirements for 2023."
+AL_1172222_0001172222-23-000013,2023.0,through December 2023,,57.288,True,True,True,True,True,0.21,57.288,,True,"Fuel derivative contracts | Prepaid expenses and other | 57,288 gallons | December 2023 | $ | 5,308 | $ | — | $ | 5,308"
+AL_1362468_0001104659-07-024922,2007.0,2007 (contracts settle by end of May 2007),10.2,,True,True,True,True,True,0.102,,True,,"As of December 31, 2006, we had hedged approximately 10.2% of our projected 2007 fuel requirements. As of the same date, all extant fuel hedge contracts were to settle by the end of May 2007."
+AL_1351548_0001068800-07-001305,2007.0,"Q1 (quarter ending June 30, 2007)",46.0,,True,True,True,True,False,,,,,"Approximately
+ 46% for the quarter ending June 30, 2007"
+AL_1351548_0001068800-07-001305,2007.0,"Q2 (quarter ending September 30, 2007)",30.0,,True,True,True,True,False,,,,,"Approximately
+ 30% for the quarter ending September 30, 2007"
+AL_1351548_0001068800-07-001305,2007.0,"Q3 (quarter ending December 31, 2007)",40.0,,True,True,True,True,False,,,,,"Approximately
+ 40% for the quarter ending December 31, 2007"
+AL_1351548_0001068800-07-001305,2008.0,"Q4 (quarter ending March 31, 2008)",19.0,,True,True,True,True,True,,,,,"Approximately
+ 19% for the quarter ending March 31,
+ 2008"
+AL_1351548_0001068800-06-000489,2006.0,"Q1 FY2007 (Apr 1 - Jun 30, 2006)",16.0,,True,True,True,True,False,,,,,"November 2005 | Jet A | 50,000 | April 1, 2006  June 30, 2006 | $1.83 per gallon, with a floor of $1.6925 per gallon | 16%"
+AL_1405419_0001354488-09-000380,2009.0,through February 2009,20.0,0.168,True,True,True,True,False,,,,,"At December 31, 2008, it recognized unrealized losses of $314,000 on outstanding fuel hedge contracts encompassing 168,000 gallons of jet fuel through February 2009 at a fixed price of $3.37 per gallon."
+AL_1498710_0001498710-13-000034,2013.0,FY2013,5.0,7.8,True,True,True,True,True,0.05,7.8,True,True,"As of December 31, 2012, the Company had agreements in place to protect 7.8 million gallons or approximately 5% of its 2013 anticipated fuel consumption at a weighted-average ceiling and floor price of $3.09 and $2.84 per gallon, respectively."
+AL_1498710_0001498710-15-000015,2015.0,FY2015,35.0,88.7,True,True,True,True,True,0.35,88.7,True,True,"As of 
+December 31, 2014
+, we had jet fuel option agreements in place to protect 
+88.7 million
+ gallons, or approximately 
+35%
+ of our 2015 anticipated fuel consumption, at a weighted-average ceiling price of 
+$2.07
+ per gallon"
+AL_1351548_0001104659-08-043162,2008.0,"Q2 2008 (Apr-Jun 2008, calendar)",,,True,True,True,True,False,,,,,"January 2008 | Crude Oil | 106,000 | April 1,
+ 2008 - June, 30,2008 | Three way collar
+ with a call of $90.00 per barrel (capped at $105.00) and a put of $85.50"
+AL_1351548_0001104659-08-043162,2008.0,"Q2 2008 (Apr-Jun 2008, calendar)",,,True,True,True,True,False,,,,,"November 2007 | Jet A Crack
+ Spread Swaps | 176,000 | April 1,
+ 2008 - June, 30,2008 | Swap priced at
+ $17.80 per barrel"
+AL_1351548_0001104659-08-043162,2008.0,"Q3 2008 (Jul-Sep 2008, calendar)",,,True,True,True,True,False,,,,,"January 2008 | Crude Oil | 111,000 | July 1,
+ 2008-September 30, 2008 | Three way collar
+ with a call of $89.00 per barrel (capped at $104.00) and a put of $82.95"
+AL_1351548_0001104659-08-043162,2008.0,"Q3 2008 (Jul-Sep 2008, calendar)",,,True,True,True,True,False,,,,,"November 2007 | Jet A Crack
+ Spread Swaps | 186,000 | July 1,
+ 2008-September 30, 2008 | Swap priced at
+ 18.95 per barrel"
+AL_1351548_0001104659-08-043162,2008.0,"Q4 2008 (Oct-Dec 2008, calendar)",,,True,True,True,True,False,,,,,"January 2008 | Crude Oil | 103,000 | October 1,
+ 2008 - December 31, 2008 | Three way collar
+ with a call of $88.00 per barrel (capped at $103.00) and a put of $80.70"
+AL_1351548_0001104659-08-043162,2009.0,"Q1 2009 (Jan-Mar 2009, calendar)",,,True,True,True,True,True,,,,,"January 2008 | Crude Oil | 102,000 | January 1,
+ 2009 - March 31, 2009 | Three way collar
+ with a call of $87.00 per barrel (capped at $102.00) and a put of $79.05"
+AL_1498710_0001498710-12-000008,2012.0,FY2012,9.0,13.45,True,True,True,True,True,0.09,13.45,True,True,"As of December 31, 2011, the Company had agreements in place to protect 13,450,000 gallons or approximately 9% of its 2012 anticipated fuel consumption at a weighted-average ceiling and floor price of $2.99 and $2.81 per gallon, respectively."
+AL_1614436_0001193125-16-485622,2016.0,next twelve months,35.0,,True,True,True,True,True,0.35,,True,,"As of December 31, 2015, we had entered into fuel derivative contracts and FFPs that fixed or established a floor on the price associated with 35% of our forecasted aircraft fuel requirements for the next twelve months"
+AL_1614436_0001193125-16-485622,2016.0,FY2016,32.0,,True,True,True,True,True,0.35,,True,,"As of December 31, 2015, the Company had entered into fuel derivative contracts for approximately 32% of its forecasted aircraft fuel requirements for 2016 at a weighted-average cost per gallon of $1.60"
+AL_1614436_0001193125-16-485622,2016.0,outstanding at 12/31/2015,,38.0,True,True,True,True,True,0.35,,,,Fuel derivative instrumentsHeating oil swaps (gallons) | 38 | 
+AL_1614436_0001193125-16-485622,2016.0,outstanding at 12/31/2015,,25.0,True,True,True,True,True,0.35,,,,Fuel derivative instrumentsJet fuel swaps (gallons) | 25 | 
+AL_27904_0000027904-18-000006,,"outstanding at 12/31/2017, final maturity May 2019",,249.0,True,True,True,True,False,,,,,Fuel hedge contracts | 249 | gallons - crude oil and refined products | May 2019 | 638 | 8 | ( 694 | ) | ( 18 | ) | ( 66 | )
+AL_27904_0000027904-20-000004,2020.0,Final maturity July 2020,,243.0,True,True,True,True,False,,,,,Fuel hedge contracts | 243 | gallons - crude oil and refined products | July 2020 | 16 | — | ( 15 ) | — | 1
+AL_27904_0000027904-15-000003,,"outstanding at 12/31/2014, final maturity December 2016",,8604.0,True,True,True,True,False,,,,,"Fuel hedge contracts | 8,604 | gallons - crude oil, diesel and jet fuel | December 2016 | 1,048 | 3 | (2,771 | ) | (128 | ) | (1,848 | )"
+AL_27904_0000027904-16-000018,,"outstanding at 12/31/2015, final maturity November 2017",,887.0,True,True,True,True,False,,,,,"Fuel hedge contracts | 887 | gallons - crude oil, diesel and jet fuel | November 2017 | 1,907 | 4 | (2,580 | ) | (3 | ) | (672 | )"
+AL_27904_0000027904-17-000004,,"outstanding at 12/31/2016, final maturity January 2018",,197.0,True,True,True,True,False,,,,,"Fuel hedge contracts (1) | 197 | gallons - crude oil, diesel and jet fuel | January 2018 | 360 | — | ( 684 | ) | — | ( 324 | )"
+AL_27904_0000027904-21-000003,2021.0,final maturity April 2021,,157.0,True,True,True,True,False,,,,,Fuel hedge contracts | 157 | gallons - crude oil and refined products | April 2021 | — | — | ( 9 ) | — | ( 9 )
+AL_27904_0000950144-00-011723,2001.0,"year ending June 30, 2001",51.0,,True,True,True,True,False,,,,,"including approximately 51% of our projected aircraft fuel requirements for the year ending June 30, 2001"
+AL_27904_0000950144-00-011723,,"July 1, 2000 through June 30, 2003",,2800.0,True,True,True,True,False,,,,,"outstanding hedge agreements for a total of 2.8 billion gallons of our projected aircraft fuel requirements for the period July 1, 2000 through June 30, 2003"
+AL_27904_0000950123-10-016275,2010.0,Full year 2010,20.0,795.0,True,True,True,True,True,0.24,,False,,"As of December 31, 2009, we have hedged approximately 20% of our projected fuel consumption for 2010."
+AL_27904_0000950123-10-016275,2010.0,Jan 2010 - Dec 2010 notional,,795.0,True,True,True,True,True,0.24,,,,"Fuel hedge swaps, collars and call options | 795 million gallons
+- - crude oil,
+heating oil,
+jet fuel | January 2010 -
+December 2010"
+AL_27904_0000950123-11-014364,2011.0,2011,36.0,,True,True,True,True,True,0.38,,True,,2011 | 36 | % | $ | 328
+AL_27904_0000950123-11-014364,2012.0,2012,1.0,,True,True,True,True,True,0.02,,False,,2012 | 1 | 24
+AL_27904_0000950123-11-014364,,"All designated hedges, Jan 2011 - Feb 2012 maturities",,1500.0,True,True,True,True,False,,,,,"Fuel hedge swaps,
+collars and call
+options | 1.5 billion gallons  crude oil | January 2011  February 2012 | $328 | $24 | $ | $"
+AL_27904_0000950123-11-014364,2011.0,Jan 2011 - Dec 2011 (not designated),,192.0,True,True,True,True,True,0.38,,,,Fuel hedge swaps | 192 million gallons  crude oil and crude oil products | January 2011  December 2011 | 27 | 14 | (19) | (8)
+AL_27904_0000950144-02-002943,2002.0,2002 full year,46.0,,True,True,True,True,False,,,,,"Based on instruments held at December 31, 2001, we have hedged 46% of our projected annual air-craft fuel requirements for 2002 at an average hedge price of 60.50(cent) per gallon"
+AL_27904_0000950144-02-002943,2003.0,2003,,,True,True,True,True,False,,,,,and a minimal portion of our projected fuel requirements for 2003.
+AL_27904_0000950144-04-002423,2004.0,FY2004,32.0,,True,True,True,True,True,0.32,,True,,"At December 31, 2003, we had hedged 32% of our projected aircraft fuel requirements for 2004 at an average hedge price per gallon of 76.46¢, and none of our projected aircraft fuel requirements for 2005 or thereafter."
+AL_27904_0000950144-04-002423,2005.0,FY2005 and thereafter,0.0,,True,True,True,True,False,,,,,"At December 31, 2003, we had hedged 32% of our projected aircraft fuel requirements for 2004 at an average hedge price per gallon of 76.46¢, and none of our projected aircraft fuel requirements for 2005 or thereafter."
+AL_27904_0000950144-03-003858,2003.0,Q1,77.0,,True,True,True,True,False,,,,,March 2003 Quarter 77% 79.10(cents)
+AL_27904_0000950144-03-003858,2003.0,Q2,78.0,,True,True,True,True,False,,,,,June 2003 Quarter 78% 78.27(cents)
+AL_27904_0000950144-03-003858,2003.0,Q3,52.0,,True,True,True,True,False,,,,,September 2003 Quarter 52% 78.88(cents)
+AL_27904_0000950144-03-003858,2003.0,Q4,36.0,,True,True,True,True,False,,,,,December 2003 Quarter 36% 74.25(cents)
+AL_27904_0000950144-03-003858,2003.0,FY,61.0,,True,True,True,True,False,,,,,"Year Ending December 31, 2003 61% 78.08(cents)"
+AL_27904_0000950144-03-003858,2004.0,FY,10.0,,True,True,True,True,False,,,,,"Year Ending December 31, 2004 10% 68.88(cents)"
+AL_27904_0001188112-07-000582,2007.0,Q1 (March 2007 quarter),36.0,,True,True,True,True,True,0.24,,False,,"As
+ of
+ December 31, 2006, we had hedged 36% of our projected fuel requirements for
+ the
+ March 2007 quarter using heating oil and jet fuel zero-cost collar contracts"
+AL_27904_0001445305-12-000272,2012.0,"outstanding at 12/31/2011, final maturity December 2012",,1225.0,True,True,True,True,True,0.32,1225.0,,True,"Fuel hedge contracts | 1,225 | gallons - heating oil, crude oil, and jet fuel | December 2012 | 570 | — | (500 | ) | — | 70"
+AL_27904_0001193125-09-042726,2009.0,FY2009,48.0,,True,True,True,True,True,0.48,,True,,"2009 | 48 | % | $ | (1,059 | )"
+AL_27904_0001193125-09-042726,2010.0,FY2010,4.0,,True,True,True,True,True,0.04,,True,,2010 | 4 | 19
+AL_3000_0001032210-03-000326,2003.0,through March 2003 (Q1),,,True,True,True,True,False,,,,,"In September 2002, the Company entered into a call option contract on heating oil to hedge a significant portion of its projected jet fuel requirements for a six-month period extending through March 2003"
+AL_319687_0000319687-01-500005,2001.0,FY2001,23.0,,True,True,True,True,True,0.23,,True,,"As of December 31, 2000, the Company had hedged approximately 23% of its projected 2001 fuel requirements using petroleum call options, which represents 95% of projected first quarter fuel requirements"
+AL_319687_0000319687-01-500005,2001.0,Q1,95.0,,True,True,True,True,True,0.23,,False,,"As of December 31, 2000, the Company had hedged approximately 23% of its projected 2001 fuel requirements using petroleum call options, which represents 95% of projected first quarter fuel requirements"
+AL_319687_0000319687-00-000007,2000.0,FY2000,24.0,,True,True,True,True,False,,,,,"As of December 31, 1999, the Company had hedged approximately 24% of its projected 2000 fuel requirements, including 93% related to the first quarter and 8% related to the second quarter using petroleum call options"
+AL_319687_0000319687-00-000007,2000.0,Q1,93.0,,True,True,True,True,False,,,,,"As of December 31, 1999, the Company had hedged approximately 24% of its projected 2000 fuel requirements, including 93% related to the first quarter and 8% related to the second quarter using petroleum call options"
+AL_319687_0000319687-00-000007,2000.0,Q2,8.0,,True,True,True,True,False,,,,,"As of December 31, 1999, the Company had hedged approximately 24% of its projected 2000 fuel requirements, including 93% related to the first quarter and 8% related to the second quarter using petroleum call options"
+AL_27904_0001445305-13-000209,2013.0,"outstanding at 12/31/2012, final maturity December 2013",,1792.0,True,True,True,True,True,0.47,1792.0,,True,"Fuel hedge contracts | 1,792 | gallons - heating oil, crude oil and jet fuel | December 2013 | 511 | — | (262 | ) | — | 249"
+AL_27904_0001193125-08-032611,2008.0,2008,24.0,,True,True,True,True,True,0.24,,True,,Total | 24 | % | $ | 93
+AL_27904_0001193125-08-032611,2009.0,2009,9.0,,True,True,True,True,True,0.09,,True,,Total | 9 | % | $ | 61
+AL_27904_0001193125-08-032611,2010.0,2010,2.0,,True,True,True,True,True,0.02,,True,,Total | 2 | % | $ | 16
+AL_319687_0000319687-03-000006,2003.0,FY2003,23.0,,True,True,True,True,True,0.23,,True,,"As of December 31, 2002, we had approximately 23% of our projected 2003 fuel requirements hedged as compared to no fuel hedges in place as of December 31, 2001."
+AL_319687_0000319687-03-000006,2003.0,Q1,95.0,,True,True,True,True,True,0.23,,False,,We have hedged approximately 95% of our fuel requirements for the first quarter of 2003 with petroleum call options at $33 per barrel
+AL_319687_0000319687-08-000009,2008.0,Q1,20.0,,True,True,True,True,True,,,,,"As of December 31, 2007, we had hedged approximately 20% and 5% of our projected fuel requirements for the first and second quarters of 2008, respectively, using heating oil option contracts forming zero cost collars"
+AL_319687_0000319687-08-000009,2008.0,Q2,5.0,,True,True,True,True,True,,,,,"As of December 31, 2007, we had hedged approximately 20% and 5% of our projected fuel requirements for the first and second quarters of 2008, respectively, using heating oil option contracts forming zero cost collars"
+AL_319687_0000319687-10-000011,2010.0,FY2010,7.0,,True,True,True,True,True,0.07,,True,,Total | 7 % | 3 %
+AL_319687_0000319687-07-000009,2007.0,Q1,30.0,,True,True,True,True,True,,,,,"As of December 31, 2006, we had hedged approximately 30% and 10% of our projected fuel requirements for the first and second quarters of 2007, respectively"
+AL_319687_0000319687-07-000009,2007.0,Q2,10.0,,True,True,True,True,True,,,,,"As of December 31, 2006, we had hedged approximately 30% and 10% of our projected fuel requirements for the first and second quarters of 2007, respectively"
+AL_319687_0000319687-09-000008,2009.0,2009,23.0,,True,True,True,True,True,0.23,,True,,Total | 23 % | 17 %
+AL_319687_0000319687-09-000008,2009.0,2009,14.0,,True,True,True,True,True,0.23,,False,,"crude oil
+ collars | 14% | $3.40 | 14% | $2.53"
+AL_319687_0000319687-09-000008,2009.0,2009,6.0,,True,True,True,True,True,0.23,,False,,crude oil call options | 6 | 2.54 | N/A | N/A
+AL_319687_0000319687-09-000008,2009.0,2009,3.0,,True,True,True,True,True,0.23,,False,,"crude oil
+ swaps | 3 | 1.33 | 3 | 1.33"
+AL_46205_0000912057-00-014627,2000.0,next six months (through July 2000),25.0,,True,True,True,True,False,,,,,"These
+forward contracts represented approximately 25% of the Company's anticipated
+aircraft fuel needs for the next six months."
+AL_46205_0000912057-01-506555,2001.0,through January 2002,19.0,,True,True,True,True,False,,,,,"At December 31, 2000, the Company held forward contracts to purchase 644,000 barrels of heating oil in the aggregate amount of $20.5 million through January 2002. These forward contracts represented approximately 19% of"
+AL_46205_0000912057-02-012933,,through January 2003,,,True,True,True,True,False,,,,,"At December 31, 2001, the Company held forward contracts to purchase barrels of heating oil in the aggregate amount of $22.9 million through January 2003."
+AL_6201_0000004515-08-000014,2008.0,2008,24.0,,True,True,True,True,True,0.24,,True,,"As of January 2008, the Company had hedged, with collars and options, approximately 24 percent of its
+estimated 2008 fuel requirements."
+AL_6201_0000006201-09-000009,2009.0,2009,35.0,,True,True,True,True,True,0.35,,True,,"As of January 2009, the Company had cash flow hedges, with option contracts, primarily heating oil collars and call options, covering approximately 35 percent of its estimated 2009 fuel requirements."
+AL_6201_0000006201-09-000009,,next 24 months (2009-2010),,,True,True,True,True,False,,,,,"As of
+December 31, 2008, the Company had fuel derivative contracts outstanding
+covering 35 million barrels of jet fuel that will be settled over the next 24
+months."
+AL_6201_0000006201-13-000023,2013.0,FY2013,21.0,,True,True,True,True,True,0.21,,True,,"As of January 2013, the Company had cash flow hedges covering approximately 
+21 percent
+ of its estimated 2013 fuel requirements."
+AL_6201_0000006201-14-000004,2014.0,FY2014 (as of January 2014),19.0,,True,True,True,True,True,0.19,,True,,"As of January 2014, we had hedges covering approximately 19% of estimated consolidated AAG (including the estimated fuel requirements of US Airways) 2014 fuel requirements."
+AL_6201_0000006201-14-000004,2014.0,FY2014 (as of January 2014),29.0,,True,True,True,True,True,0.19,,False,,"As of January 2014, American had cash flow hedges covering approximately 29% of its estimated 2014 fuel requirements."
+AL_6201_0000006201-10-000006,2010.0,2010,24.0,,True,True,True,True,True,0.24,,True,,"As of January 2010, the Company had cash flow hedges, with collars and options, covering approximately 24 percent of its estimated 2010 fuel requirements."
+AL_6201_0000006201-10-000006,,"outstanding at 12/31/2009, settling over next 24 months",,,True,True,True,True,False,,,,,"As of December 31, 2009, the Company had fuel derivative contracts outstanding covering 20 million barrels of jet fuel that will be settled over the next 24 months."
+AL_6201_0000950134-00-002454,2000.0,2000,48.0,,True,True,True,True,False,,,,,"approximately two billion gallons of fuel products, which represents approximately 48 percent of its expected 2000 fuel needs and approximately 10 percent of its expected 2001 fuel needs."
+AL_6201_0000950134-00-002454,2001.0,2001,10.0,,True,True,True,True,False,,,,,the Company had hedged approximately 48 percent of its 2000 fuel requirements and approximately 10 percent of its 2001 fuel requirements
+AL_6201_0000950134-01-002483,2001.0,2001,40.0,,True,True,True,True,False,,,,,"approximately 2.3 billion gallons of fuel products, which represented approximately 40 percent of its expected 2001 fuel needs, approximately 15 percent of its expected 2002 fuel needs"
+AL_6201_0000950134-01-002483,2002.0,2002,15.0,,True,True,True,True,False,,,,,"approximately 15 percent of its expected 2002 fuel needs, and approximately seven percent of its expected 2003 fuel needs"
+AL_6201_0000950134-01-002483,2003.0,2003,7.0,,True,True,True,True,False,,,,,"approximately 15 percent of its 2002 fuel requirements, and approximately seven percent of its 2003 fuel requirements"
+AL_6201_0000950134-02-001661,2002.0,,40.0,,True,True,True,True,False,,,,,"As of December 31, 2001, the Company had hedged approximately 40 percent of its estimated 2002 fuel requirements, approximately 21 percent of its estimated 2003 fuel requirements, and approximately five percent of its estimated 2004 fuel requirements"
+AL_6201_0000950134-02-001661,2003.0,,21.0,,True,True,True,True,False,,,,,"As of December 31, 2001, the Company had hedged approximately 40 percent of its estimated 2002 fuel requirements, approximately 21 percent of its estimated 2003 fuel requirements, and approximately five percent of its estimated 2004 fuel requirements"
+AL_6201_0000950134-02-001661,2004.0,,5.0,,True,True,True,True,False,,,,,"As of December 31, 2001, the Company had hedged approximately 40 percent of its estimated 2002 fuel requirements, approximately 21 percent of its estimated 2003 fuel requirements, and approximately five percent of its estimated 2004 fuel requirements"
+AL_6201_0000950134-02-001661,,,,2300.0,True,True,True,True,False,,,,,"American had fuel hedging agreements with broker-dealers on approximately 2.3 billion gallons of fuel products, which represented approximately 40 percent of its expected 2002 fuel needs"
+AL_6201_0000950134-07-003888,2007.0,FY2007,14.0,,True,True,True,True,True,0.14,,True,,"As of December 31, 2006, the Company had hedged, with option contracts, including collars, approximately 14 percent of its estimated 2007 fuel requirements."
+AL_6201_0001193125-12-063516,2012.0,2012,21.0,,True,True,True,True,True,0.21,,True,,"As of January 2012, the Company had cash flow hedges covering approximately 21 percent of its estimated 2012 fuel requirements."
+AL_6201_0001193125-12-063516,2012.0,next 12 months,,,True,True,True,True,True,0.21,,,,"As of
+December 31, 2011, the Company had fuel derivative contracts outstanding covering 16 million barrels of jet fuel that will be settled over the next 12 months."
+AL_6201_0000950134-06-003715,2006.0,FY2006,17.0,,True,True,True,True,True,0.17,,True,,"As of December 31, 2005, the Company had hedged, with option contracts, including collars, approximately 17 percent of its estimated 2006 fuel requirements and insignificant amounts of its estimated fuel requirements thereafter."
+AL_6201_0000950134-06-003715,2007.0,2007 and thereafter,,,True,True,True,True,False,,,,,"As of December 31, 2005, the Company had hedged, with option contracts, including collars, approximately 17 percent of its estimated 2006 fuel requirements and insignificant amounts of its estimated fuel requirements thereafter."
+AL_6201_0000950134-05-003726,2005.0,FY2005,5.0,,True,True,True,True,True,0.05,,True,,"As of December 31, 2004, the Company had hedged, with option contracts, approximately five percent of its estimated 2005 fuel requirements, or approximately 15 percent of its estimated first quarter 2005 fuel requirements"
+AL_6201_0000950134-05-003726,2005.0,Q1,15.0,,True,True,True,True,True,0.05,,False,,"As of December 31, 2004, the Company had hedged, with option contracts, approximately 15 percent of its estimated first quarter 2005 fuel requirements and minimal amounts of its estimated fuel requirements thereafter."
+AL_6201_0000950134-05-003726,2005.0,after Q1,,,True,True,True,True,True,0.05,,,,"approximately 15 percent of its expected first quarter 2005 fuel requirements, and minimal amounts of its expected fuel requirements beyond March 31, 2005."
+AL_6201_0000950134-04-002668,2004.0,Q1,21.0,,True,True,True,True,True,0.12,,False,,"As of December 31, 2003, the Company had hedged, with option contracts, approximately 21 percent of its estimated first quarter 2004 fuel requirements, 16 percent of its second quarter 2004 estimated fuel requirements"
+AL_6201_0000950134-04-002668,2004.0,Q2,16.0,,True,True,True,True,True,0.12,,False,,16 percent of its second quarter 2004 estimated fuel requirements and six percent of its estimated fuel requirements for the remainder of 2004.
+AL_6201_0000950134-04-002668,2004.0,remainder of 2004 (after Q2),6.0,,True,True,True,True,True,0.12,,False,,16 percent of its second quarter 2004 estimated fuel requirements and six percent of its estimated fuel requirements for the remainder of 2004.
+AL_6201_0000950134-04-002668,2004.0,full year,12.0,,True,True,True,True,True,0.12,,True,,"the Company had hedged, with option contracts, approximately 12 percent of its estimated 2004 fuel requirements, or approximately 21 percent of its estimated first quarter 2004 fuel requirements"
+AL_6201_0001047469-03-013301,2003.0,FY2003,32.0,,True,True,True,True,True,0.32,,True,,"As of December 31, 2002, the Company had hedged approximately 32 percent of its estimated 2003 fuel requirements,"
+AL_6201_0001047469-03-013301,2004.0,FY2004,15.0,,True,True,True,True,True,0.15,,True,,"approximately 15 percent of its estimated 2004 fuel requirements, and approximately four percent of its estimated 2005 fuel requirements,"
+AL_6201_0001047469-03-013301,2005.0,FY2005,4.0,,True,True,True,True,True,0.04,,True,,"approximately 15 percent of its estimated 2004 fuel requirements, and approximately four percent of its estimated 2005 fuel requirements,"
+AL_6201_0001047469-03-013301,,total across 2003-2005,,1700.0,True,True,True,True,False,,,,,"American had fuel hedging agreements with broker-dealers on approximately 1.7 billion gallons of fuel products, which represented approximately 32 percent of its expected 2003 fuel"
+AL_701345_0000701345-01-500012,2001.0,Q1,20.0,,True,True,True,True,False,,,,,"In December 2000, US Airways entered into heating oil swap contracts for 1.5 million notional barrels to hedge approximately 20% of its jet fuel requirements for the first quarter of 2001."
+AL_701345_0000701345-02-000007,2002.0,Q1,,,True,True,True,True,False,,,,,"As of December 31, 2001, the Company had open fuel hedge positions in place to hedge substantially all its first quarter 2002 anticipated jet fuel requirements and 20% of its second quarter 2002 anticipated jet fuel requirements."
+AL_701345_0000701345-02-000007,2002.0,Q2,20.0,,True,True,True,True,False,,,,,"As of December 31, 2001, the Company had open fuel hedge positions in place to hedge substantially all its first quarter 2002 anticipated jet fuel requirements and 20% of its second quarter 2002 anticipated jet fuel requirements."
+AL_701345_0000928385-03-000865,2003.0,Q1,62.0,,True,True,True,True,True,0.24,,False,,"As of December 31, 2002, the Company had open fuel hedge positions in place to hedge 62% of its first quarter 2003 anticipated jet fuel requirements and 24% of its second quarter 2003 anticipated jet fuel requirements."
+AL_701345_0000928385-03-000865,2003.0,Q2,24.0,,True,True,True,True,True,0.24,,True,,"As of December 31, 2002, the Company had open fuel hedge positions in place to hedge 62% of its first quarter 2003 anticipated jet fuel requirements and 24% of its second quarter 2003 anticipated jet fuel requirements."
+AL_701345_0000950134-09-003177,2009.0,2009,14.0,,True,True,True,True,True,0.14,,True,,"As of December 31, 2008, the Company had entered into no premium collars to hedge approximately 14% of its projected mainline and Express 2009 jet fuel requirements at a weighted average collar range of $3.41 to $3.61 per gallon of heating oil"
+AL_701345_0000950153-08-000353,2008.0,FY2008,22.0,,True,True,True,True,True,0.22,,True,,These transactions are in place with respect to approximately 22% of our mainline and Express 2008 fuel requirements at a weighted average collar range of $2.05 to $2.25 per gallon of heating oil.
+AL_701345_0001193125-04-040367,2004.0,,30.0,,True,True,True,True,True,0.3,,True,,"As of December 31, 2003, the Company had open fuel hedge positions in place to hedge 30% of its 2004 anticipated jet fuel requirements and 5% of its 2005 anticipated jet fuel requirements."
+AL_701345_0001193125-04-040367,2005.0,,5.0,,True,True,True,True,True,0.05,,True,,"As of December 31, 2003, the Company had open fuel hedge positions in place to hedge 30% of its 2004 anticipated jet fuel requirements and 5% of its 2005 anticipated jet fuel requirements."
+AL_706270_0000950153-00-000447,2000.0,FY2000 total,14.0,,True,True,True,True,False,,,,,hedging approximately 14% of its projected 2000 fuel requirements including 36% related to the first quarter and 23% related to the second quarter.
+AL_706270_0000950153-00-000447,2000.0,Q1,36.0,,True,True,True,True,False,,,,,our hedging program covers only approximately 36% of jet fuel costs in the first quarter of 2000 and 23% of jet fuel costs in the second quarter of 2000.
+AL_706270_0000950153-00-000447,2000.0,Q2,23.0,,True,True,True,True,False,,,,,our hedging program covers only approximately 36% of jet fuel costs in the first quarter of 2000 and 23% of jet fuel costs in the second quarter of 2000.
+AL_701345_0000950153-07-000433,2007.0,2007,29.0,,True,True,True,True,True,0.29,,True,,These transactions are in place with respect to approximately 29% of our 2007 fuel requirements.
+AL_706270_0000950153-01-500200,2001.0,FY2001,12.0,,True,True,True,True,False,,,,,"These transactions are in place with respect to approximately 12% of projected 2001 fuel requirements, including 51% related to the first quarter, as of December 31, 2000."
+AL_706270_0000950153-01-500200,2001.0,Q1,51.0,,True,True,True,True,False,,,,,"These transactions are in place with respect to approximately 12% of projected 2001 fuel requirements, including 51% related to the first quarter, as of December 31, 2000."
+AL_706270_0000950153-03-000613,2003.0,FY2003,40.0,,True,True,True,True,True,0.4,,True,,"Hedging transactions are in place with respect to approximately 40% of projected 2003 fuel requirements, including 63% related to the first quarter of 2003."
+AL_706270_0000950153-03-000613,2003.0,Q1,63.0,,True,True,True,True,True,0.4,,False,,"Hedging transactions are in place with respect to approximately 40% of projected 2003 fuel requirements, including 63% related to the first quarter of 2003."
+AL_706270_0000950153-05-000517,2005.0,FY2005,42.0,,True,True,True,True,True,0.42,,True,,"These transactions are in place with respect to approximately 42% of projected 2005 fuel requirements, including 67% related to the first quarter of 2005, 46% related to the second quarter, 36% related to the third quarter and 20% for the fourth quarter."
+AL_706270_0000950153-05-000517,2005.0,Q1,67.0,,True,True,True,True,True,0.42,,False,,"including 67% related to the first quarter of 2005, 46% related to the second quarter, 36% related to the third quarter and 20% for the fourth quarter."
+AL_706270_0000950153-05-000517,2005.0,Q2,46.0,,True,True,True,True,True,0.42,,False,,"including 67% related to the first quarter of 2005, 46% related to the second quarter, 36% related to the third quarter and 20% for the fourth quarter."
+AL_706270_0000950153-05-000517,2005.0,Q3,36.0,,True,True,True,True,True,0.42,,False,,"including 67% related to the first quarter of 2005, 46% related to the second quarter, 36% related to the third quarter and 20% for the fourth quarter."
+AL_706270_0000950153-05-000517,2005.0,Q4,20.0,,True,True,True,True,True,0.42,,False,,"including 67% related to the first quarter of 2005, 46% related to the second quarter, 36% related to the third quarter and 20% for the fourth quarter."
+AL_706270_0000950153-04-000491,2004.0,FY2004,11.0,,True,True,True,True,True,0.11,,True,,"These transactions are in place with respect to approximately 11% of projected 2004 fuel requirements, including 39% related to the first quarter of 2004."
+AL_706270_0000950153-04-000491,2004.0,Q1,39.0,,True,True,True,True,True,0.11,,False,,"These transactions are in place with respect to approximately 11% of projected 2004 fuel requirements, including 39% related to the first quarter of 2004."
+AL_766421_0000766421-12-000018,2012.0,Q1,50.0,,True,True,True,True,True,,,,,"We have refining margin swaps in place for approximately 
+50%
+ of our 
+first
+ quarter 
+2012
+ estimated jet fuel purchases at an average price of 
+83
+ cents per gallon"
+AL_766421_0000766421-12-000018,2012.0,Q2,11.0,,True,True,True,True,True,,,,,"11% of our 
+second
+ quarter 
+2012
+ estimated purchases at an average price of 76 cents per gallon"
+AL_766421_0000766421-12-000018,2012.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2012 | 50% | $100 | $6
+AL_766421_0000766421-12-000018,2012.0,Full year,50.0,,True,True,True,True,True,,,,,Full Year 2012 | 50% | $100 | $9
+AL_766421_0000766421-12-000018,2013.0,Full year,35.0,,True,True,True,True,True,,,,,Full Year 2013 | 35% | $95 | $14
+AL_766421_0000766421-12-000018,2014.0,Q1,22.0,,True,True,True,True,True,,,,,First Quarter 2014 | 22% | $98 | $14
+AL_766421_0000766421-12-000018,,Jan 2012 - Dec 2014,,421.1,True,True,True,True,False,,,,,"As of 
+December 31, 2011
+, the Company had fuel hedge contracts outstanding covering 
+421.1 million
+ gallons of crude oil that will be settled from 
+January 2012
+ to 
+December 2014"
+AL_766421_0000766421-16-000065,2016.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2016 | 50% | $74 | $2
+AL_766421_0000766421-16-000065,2016.0,Q2,50.0,,True,True,True,True,True,,,,,Second Quarter 2016 | 50% | $66 | $3
+AL_766421_0000766421-16-000065,2016.0,Q3,40.0,,True,True,True,True,True,,,,,Third Quarter 2016 | 40% | $66 | $3
+AL_766421_0000766421-16-000065,2016.0,Q4,30.0,,True,True,True,True,True,,,,,Fourth Quarter 2016 | 30% | $65 | $3
+AL_766421_0000766421-16-000065,2016.0,Full Year,42.0,,True,True,True,True,True,,,,,Full Year 2016 | 42% | $68 | $3
+AL_766421_0000766421-16-000065,2017.0,Q1,20.0,,True,True,True,True,True,,,,,First Quarter 2017 | 20% | $60 | $3
+AL_766421_0000766421-16-000065,2017.0,Q2,10.0,,True,True,True,True,True,,,,,Second Quarter 2017 | 10% | $58 | $3
+AL_766421_0000766421-16-000065,2017.0,Full Year,7.0,,True,True,True,True,True,,,,,Full Year 2017 | 7% | $59 | $3
+AL_766421_0000766421-16-000065,,Total outstanding Jan 2016 to Jun 2017,,273.0,True,True,True,True,False,,,,,"the Company had fuel hedge contracts outstanding covering 
+273 million
+ gallons of crude oil that will be settled from 
+January 2016
+ to 
+June 2017
+."
+AL_766421_0000766421-15-000009,2015.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2015 | 50% | $105 | $4
+AL_766421_0000766421-15-000009,2015.0,Q2,50.0,,True,True,True,True,True,,,,,Second Quarter 2015 | 50% | $97 | $3
+AL_766421_0000766421-15-000009,2015.0,Q3,40.0,,True,True,True,True,True,,,,,Third Quarter 2015 | 40% | $98 | $3
+AL_766421_0000766421-15-000009,2015.0,Q4,30.0,,True,True,True,True,True,,,,,Fourth Quarter 2015 | 30% | $94 | $3
+AL_766421_0000766421-15-000009,2015.0,Full Year,42.0,,True,True,True,True,True,,,,,Full Year 2015 | 42% | $99 | $3
+AL_766421_0000766421-15-000009,2016.0,Q1,20.0,,True,True,True,True,True,,,,,First Quarter 2016 | 20% | $88 | $3
+AL_766421_0000766421-15-000009,2016.0,Q2,10.0,,True,True,True,True,True,,,,,Second Quarter 2016 | 10% | $73 | $4
+AL_766421_0000766421-15-000009,2016.0,Full Year,7.0,,True,True,True,True,True,,,,,Full Year 2016 | 7% | $83 | $3
+AL_766421_0000766421-15-000009,,Jan 2015 to Jun 2016,,246.0,True,True,True,True,False,,,,,"fuel hedge contracts outstanding covering 
+246 million
+ gallons of crude oil that will be settled from 
+January 2015
+ to 
+June 2016"
+AL_766421_0000766421-17-000016,2017.0,Full Year,42.0,,True,True,True,True,True,,,,,Full Year 2017 | 42% | $62 | $2
+AL_766421_0000766421-17-000016,2017.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2017 | 50% | $60 | $2
+AL_766421_0000766421-17-000016,2017.0,Q2,50.0,,True,True,True,True,True,,,,,Second Quarter 2017 | 50% | $62 | $2
+AL_766421_0000766421-17-000016,2017.0,Q3,40.0,,True,True,True,True,True,,,,,Third Quarter 2017 | 40% | $63 | $2
+AL_766421_0000766421-17-000016,2017.0,Q4,30.0,,True,True,True,True,True,,,,,Fourth Quarter 2017 | 30% | $65 | $3
+AL_766421_0000766421-17-000016,2018.0,Full Year,7.0,,True,True,True,True,True,,,,,Full Year 2018 | 7% | $65 | $2
+AL_766421_0000766421-17-000016,2018.0,Q1,20.0,,True,True,True,True,True,,,,,First Quarter 2018 | 20% | $65 | $3
+AL_766421_0000766421-17-000016,2018.0,Q2,10.0,,True,True,True,True,True,,,,,Second Quarter 2018 | 10% | $67 | $2
+AL_766421_0000766421-17-000016,,Jan 2017 to Jun 2018 total,,394.0,True,True,True,True,False,,,,,the Company had fuel hedge contracts outstanding covering 394 million gallons of crude oil that will be settled from January 2017 to June 2018.
+AL_766421_0000766421-19-000008,2019.0,Full Year,42.0,,True,True,True,True,True,,,,,Full Year 2019 | 42% | $75 | $2
+AL_766421_0000766421-19-000008,2019.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2019 | 50% | $72 | $1
+AL_766421_0000766421-19-000008,2019.0,Q2,50.0,,True,True,True,True,True,,,,,Second Quarter 2019 | 50% | $76 | $1
+AL_766421_0000766421-19-000008,2019.0,Q3,40.0,,True,True,True,True,True,,,,,Third Quarter 2019 | 40% | $77 | $2
+AL_766421_0000766421-19-000008,2019.0,Q4,30.0,,True,True,True,True,True,,,,,Fourth Quarter 2019 | 30% | $76 | $2
+AL_766421_0000766421-19-000008,2020.0,Full Year,7.0,,True,True,True,True,True,,,,,Full Year 2020 | 7% | $68 | $3
+AL_766421_0000766421-19-000008,2020.0,Q1,20.0,,True,True,True,True,True,,,,,First Quarter 2020 | 20% | $70 | $3
+AL_766421_0000766421-19-000008,2020.0,Q2,10.0,,True,True,True,True,True,,,,,Second Quarter 2020 | 10% | $64 | $3
+AL_766421_0000766421-19-000008,,Jan 2019 to Jun 2020,,421.0,True,True,True,True,False,,,,,"As of 
+December 31, 2018
+, the Company had outstanding fuel hedge contracts covering 
+421 million
+ gallons of crude oil that will be settled from 
+January 2019
+ to 
+June 2020
+."
+AL_766421_0000766421-11-000020,2011.0,Full Year,50.0,196.9,True,True,True,True,True,0.5,196.9,True,True,Full Year 2011 | 50 | % | 196.9 | $86 | $11
+AL_766421_0000766421-11-000020,2012.0,Full Year,33.0,133.1,True,True,True,True,True,0.33,133.1,True,True,Full Year 2012 | 33 | % | 133.1 | $88 | $13
+AL_766421_0000766421-11-000020,2013.0,Full Year,13.0,54.7,True,True,True,True,True,0.13,54.7,True,True,Full Year 2013 | 13 | % | 54.7 | $88 | $14
+AL_766421_0000766421-18-000015,2018.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2018 | 50% | $62 | $2
+AL_766421_0000766421-18-000015,2018.0,Q2,50.0,,True,True,True,True,True,,,,,Second Quarter 2018 | 50% | $63 | $1
+AL_766421_0000766421-18-000015,2018.0,Q3,40.0,,True,True,True,True,True,,,,,Third Quarter 2018 | 40% | $62 | $2
+AL_766421_0000766421-18-000015,2018.0,Q4,30.0,,True,True,True,True,True,,,,,Fourth Quarter 2018 | 30% | $62 | $2
+AL_766421_0000766421-18-000015,2018.0,Full Year,42.0,,True,True,True,True,True,,,,,Full Year 2018 | 42% | $62 | $2
+AL_766421_0000766421-18-000015,2019.0,Q1,20.0,,True,True,True,True,True,,,,,First Quarter 2019 | 20% | $64 | $1
+AL_766421_0000766421-18-000015,2019.0,Q2,10.0,,True,True,True,True,True,,,,,Second Quarter 2019 | 10% | $65 | $2
+AL_766421_0000766421-18-000015,2019.0,Full Year,7.0,,True,True,True,True,True,,,,,Full Year 2019 | 7% | $65 | $2
+AL_766421_0000766421-18-000015,,Jan 2018 to Jun 2019 (total),,434.0,True,True,True,True,False,,,,,"As of December 31, 2017, the Company had outstanding fuel hedge contracts covering 434 million gallons of crude oil that will be settled from January 2018 to June 2019."
+AL_766421_0000766421-14-000010,2014.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2014 | 50% | $103 | $9
+AL_766421_0000766421-14-000010,2014.0,Q2,50.0,,True,True,True,True,True,,,,,Second Quarter 2014 | 50% | $103 | $8
+AL_766421_0000766421-14-000010,2014.0,Q3,44.0,,True,True,True,True,True,,,,,Third Quarter 2014 | 44% | $103 | $8
+AL_766421_0000766421-14-000010,2014.0,Q4,33.0,,True,True,True,True,True,,,,,Fourth Quarter 2014 | 33% | $104 | $7
+AL_766421_0000766421-14-000010,2014.0,Full Year,44.0,,True,True,True,True,True,,,,,Full Year 2014 | 44% | $103 | $8
+AL_766421_0000766421-14-000010,2015.0,Q1,28.0,,True,True,True,True,True,,,,,First Quarter 2015 | 28% | $104 | $7
+AL_766421_0000766421-14-000010,2015.0,Q2,22.0,,True,True,True,True,True,,,,,Second Quarter 2015 | 22% | $103 | $6
+AL_766421_0000766421-14-000010,2015.0,Q3,17.0,,True,True,True,True,True,,,,,Third Quarter 2015 | 17% | $106 | $5
+AL_766421_0000766421-14-000010,2015.0,Q4,11.0,,True,True,True,True,True,,,,,Fourth Quarter 2015 | 11% | $106 | $5
+AL_766421_0000766421-14-000010,2015.0,Full Year,19.0,,True,True,True,True,True,,,,,Full Year 2015 | 19% | $104 | $6
+AL_766421_0000766421-14-000010,2016.0,Q1,6.0,,True,True,True,True,True,,,,,First Quarter 2016 | 6% | $105 | $4
+AL_766421_0000766421-14-000010,2016.0,Full Year,1.0,,True,True,True,True,True,,,,,Full Year 2016 | 1% | $105 | $4
+AL_766421_0000766421-14-000010,2014.0,Q1,50.0,,True,True,True,True,True,,,,,"We have refining margin swaps in place for approximately 
+50%
+ of our 
+first
+ quarter 
+2014
+ estimated jet fuel purchases at an average price of 
+70 cents
+ per gallon."
+AL_766421_0000766421-14-000010,,Jan 2014 - Mar 2016,,303.0,True,True,True,True,False,,,,,"the Company had fuel hedge contracts outstanding covering 
+303 million
+ gallons of crude oil that will be settled from 
+January 2014
+ to 
+March 2016
+."
+AL_766421_0000766421-22-000009,2022.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2022 | 50% | $69 | $3
+AL_766421_0000766421-22-000009,2022.0,Q2,50.0,,True,True,True,True,True,,,,,Second Quarter 2022 | 50% | $71 | $3
+AL_766421_0000766421-22-000009,2022.0,Q3,40.0,,True,True,True,True,True,,,,,Third Quarter 2022 | 40% | $74 | $3
+AL_766421_0000766421-22-000009,2022.0,Q4,30.0,,True,True,True,True,True,,,,,Fourth Quarter 2022 | 30% | $74 | $4
+AL_766421_0000766421-22-000009,2022.0,Full year,40.0,,True,True,True,True,True,,,,,Total 2022 | 40% | $72 | $3
+AL_766421_0000766421-22-000009,2023.0,Q1,20.0,,True,True,True,True,True,,,,,First Quarter 2023 | 20% | $75 | $5
+AL_766421_0000766421-22-000009,2023.0,Q2,10.0,,True,True,True,True,True,,,,,Second Quarter 2023 | 10% | $80 | $6
+AL_766421_0000766421-22-000009,2023.0,Full year,10.0,,True,True,True,True,True,,,,,Total 2023 | 10% | $76 | $5
+AL_766421_0000766421-22-000009,,Jan 2022 to Jun 2023 (total),,425.0,True,True,True,True,False,,,,,"As of December 31, 2021, the Company had outstanding fuel hedge contracts covering approximately 
+425
+ million gallons of crude oil that will be settled from January 2022 to June 2023."
+AL_766421_0000766421-21-000018,2021.0,Q1,,60.0,True,True,True,True,True,,,,,First Quarter 2021 | 60 | $62 | $2
+AL_766421_0000766421-21-000018,2021.0,Q2,,80.0,True,True,True,True,True,,,,,Second Quarter 2021 | 80 | $59 | $2
+AL_766421_0000766421-21-000018,2021.0,Q3,,70.0,True,True,True,True,True,,,,,Third Quarter 2021 | 70 | $56 | $2
+AL_766421_0000766421-21-000018,2021.0,Q4,,50.0,True,True,True,True,True,,,,,Fourth Quarter 2021 | 50 | $51 | $3
+AL_766421_0000766421-21-000018,2021.0,Full Year,,260.0,True,True,True,True,True,,,,,Full Year 2021 | 260 | $58 | $2
+AL_766421_0000766421-21-000018,2022.0,Q1,,25.0,True,True,True,True,True,,,,,First Quarter 2022 | 25 | $53 | $3
+AL_766421_0000766421-21-000018,2022.0,Q2,,15.0,True,True,True,True,True,,,,,Second Quarter 2022 | 15 | $54 | $3
+AL_766421_0000766421-21-000018,2022.0,Full Year,,40.0,True,True,True,True,True,,,,,Full Year 2022 | 40 | $53 | $3
+AL_766421_0000766421-13-000010,2013.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2013 | 50% | $98 | $12
+AL_766421_0000766421-13-000010,2013.0,Q2,50.0,,True,True,True,True,True,,,,,Second Quarter 2013 | 50% | $99 | $12
+AL_766421_0000766421-13-000010,2013.0,Q3,50.0,,True,True,True,True,True,,,,,Third Quarter 2013 | 50% | $101 | $11
+AL_766421_0000766421-13-000010,2013.0,Q4,50.0,,True,True,True,True,True,,,,,Fourth Quarter 2013 | 50% | $102 | $10
+AL_766421_0000766421-13-000010,2013.0,Full Year,50.0,,True,True,True,True,True,,,,,Full Year 2013 | 50% | $100 | $11
+AL_766421_0000766421-13-000010,2014.0,Q1,44.0,,True,True,True,True,True,,,,,First Quarter 2014 | 44% | $102 | $10
+AL_766421_0000766421-13-000010,2014.0,Q2,39.0,,True,True,True,True,True,,,,,Second Quarter 2014 | 39% | $102 | $10
+AL_766421_0000766421-13-000010,2014.0,Q3,33.0,,True,True,True,True,True,,,,,Third Quarter 2014 | 33% | $101 | $9
+AL_766421_0000766421-13-000010,2014.0,Q4,27.0,,True,True,True,True,True,,,,,Fourth Quarter 2014 | 27% | $103 | $8
+AL_766421_0000766421-13-000010,2014.0,Full Year,35.0,,True,True,True,True,True,,,,,Full Year 2014 | 35% | $102 | $10
+AL_766421_0000766421-13-000010,2015.0,Q1,22.0,,True,True,True,True,True,,,,,First Quarter 2015 | 22% | $103 | $8
+AL_766421_0000766421-13-000010,2015.0,Q2,17.0,,True,True,True,True,True,,,,,Second Quarter 2015 | 17% | $101 | $7
+AL_766421_0000766421-13-000010,2015.0,Q3,11.0,,True,True,True,True,True,,,,,Third Quarter 2015 | 11% | $105 | $7
+AL_766421_0000766421-13-000010,,Total outstanding,,454.0,True,True,True,True,False,,,,,"the Company had fuel hedge contracts outstanding covering 
+454 million
+ gallons of crude oil that will be settled from 
+January 2013
+ to 
+December 2015
+."
+AL_766421_0000766421-23-000009,2023.0,FY,43.0,,True,True,True,True,True,,,,,Total 2023 | 43% | $97 | $7
+AL_766421_0000766421-23-000009,2023.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2023 | 50% | $93 | $6
+AL_766421_0000766421-23-000009,2023.0,Q2,50.0,,True,True,True,True,True,,,,,Second Quarter 2023 | 50% | $97 | $7
+AL_766421_0000766421-23-000009,2023.0,Q3,40.0,,True,True,True,True,True,,,,,Third Quarter 2023 | 40% | $101 | $8
+AL_766421_0000766421-23-000009,2023.0,Q4,30.0,,True,True,True,True,True,,,,,Fourth Quarter 2023 | 30% | $99 | $8
+AL_766421_0000766421-23-000009,2024.0,FY,7.0,,True,True,True,True,True,,,,,Total 2024 | 7% | $88 | $8
+AL_766421_0000766421-23-000009,2024.0,Q1,20.0,,True,True,True,True,True,,,,,First Quarter 2024 | 20% | $89 | $8
+AL_766421_0000766421-23-000009,2024.0,Q2,10.0,,True,True,True,True,True,,,,,Second Quarter 2024 | 10% | $86 | $8
+AL_766421_0000766421-23-000009,,Jan 2023 - Jun 2024 (total),,421.0,True,True,True,True,False,,,,,"As of December 31, 2022, the Company had outstanding fuel hedge contracts covering approximately 421 million gallons of crude oil that will be settled from January 2023 to June 2024."
+AL_766421_0000891020-03-000742,2003.0,FY2003,35.0,140.0,True,True,True,True,True,0.35,,True,,"At December 31, 2002, the Company has fuel hedge contracts for 140 million gallons of projected jet fuel usage in 2003, which represents approximately 35% of projected usage."
+AL_766421_0000766421-24-000012,2024.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2024 | 50% | $90 | $5
+AL_766421_0000766421-24-000012,2024.0,Q2,40.0,,True,True,True,True,True,,,,,Second Quarter 2024 | 40% | $90 | $5
+AL_766421_0000766421-24-000012,2024.0,Q3,30.0,,True,True,True,True,True,,,,,Third Quarter 2024 | 30% | $88 | $5
+AL_766421_0000766421-24-000012,2024.0,Q4,20.0,,True,True,True,True,True,,,,,Fourth Quarter 2024 | 20% | $87 | $5
+AL_766421_0000766421-24-000012,2024.0,Full Year,35.0,,True,True,True,True,True,,,,,Full Year 2024 | 35% | $89 | $5
+AL_766421_0000766421-24-000012,2025.0,Q1,10.0,,True,True,True,True,True,,,,,First Quarter 2025 | 10% | $92 | $5
+AL_766421_0000766421-24-000012,2025.0,Full Year,2.0,,True,True,True,True,True,,,,,Full Year 2025 | 2% | $92 | $5
+AL_766421_0000766421-24-000012,,Jan 2024 - Mar 2025 (total),,324.0,True,True,True,True,False,,,,,"As of December 31, 2023, the Company had outstanding fuel hedge contracts covering approximately 324 million gallons of crude oil that will be settled between January 2024 and March 2025."
+AL_766421_0000766421-10-000009,2010.0,Full Year,50.0,182.3,True,True,True,True,True,0.5,182.3,True,True,Full Year 2010 | 50% | 182.3 | $74
+AL_766421_0000766421-10-000009,2011.0,Full Year,37.0,139.6,True,True,True,True,True,0.37,139.6,True,True,Year 2011 | 37% | 139.6 | $85
+AL_766421_0000766421-10-000009,2012.0,Q1,23.0,21.6,True,True,True,True,True,0.1,40.2,False,False,Quarter 2012 | 23% | 21.6 | $87
+AL_766421_0000766421-10-000009,2012.0,Q2,7.0,7.0,True,True,True,True,True,0.1,40.2,True,False,Second Quarter 2012 | 7% | 7.0 | $86
+AL_766421_0000766421-10-000009,2012.0,Q3,6.0,6.4,True,True,True,True,True,0.1,40.2,False,False,Third Quarter 2012 | 6% | 6.4 | $97
+AL_766421_0000766421-20-000013,2020.0,Q1,50.0,,True,True,True,True,True,,,,,First Quarter 2020 | 50% | $70 | $2
+AL_766421_0000766421-20-000013,2020.0,Q2,50.0,,True,True,True,True,True,,,,,Second Quarter 2020 | 50% | $67 | $2
+AL_766421_0000766421-20-000013,2020.0,Q3,40.0,,True,True,True,True,True,,,,,Third Quarter 2020 | 40% | $67 | $2
+AL_766421_0000766421-20-000013,2020.0,Q4,30.0,,True,True,True,True,True,,,,,Fourth Quarter 2020 | 30% | $65 | $2
+AL_766421_0000766421-20-000013,2020.0,Full Year,42.0,,True,True,True,True,True,,,,,Full Year 2020 | 42% | $68 | $2
+AL_766421_0000766421-20-000013,2021.0,Q1,20.0,,True,True,True,True,True,,,,,First Quarter 2021 | 20% | $63 | $2
+AL_766421_0000766421-20-000013,2021.0,Q2,10.0,,True,True,True,True,True,,,,,Second Quarter 2021 | 10% | $64 | $2
+AL_766421_0000766421-20-000013,2021.0,Full Year,7.0,,True,True,True,True,True,,,,,Full Year 2021 | 7% | $63 | $2
+AL_766421_0000766421-20-000013,,Jan 2020 to Jun 2021 (total),,435.0,True,True,True,True,False,,,,,"As of December 31, 2019, the Company had outstanding fuel hedge contracts covering 
+435
+ million gallons of crude oil that will be settled from January 2020 to June 2021."
+AL_766421_0000912057-01-005493,2001.0,2001,23.0,,True,True,True,True,False,,,,,"At December 31, 2000, the Company had purchased crude oil call options in place to hedge approximately 23% of its 2001 expected jet fuel requirements."
+AL_766421_0000912057-01-005493,,,,94.0,True,True,True,True,False,,,,,"At December 31, 2000, the Company's fuel hedge contracts for 94 million gallons of projected jet fuel usage had an estimated fair value of $2.1 million, with unrealized losses of $1.2 million."
+AL_766421_0000891020-04-000322,2004.0,,33.0,132.1,True,True,True,True,True,0.33,132.1,True,True,"At December 31, 2003, we had fuel hedge contracts in place to hedge 132.1 million gallons of our expected jet fuel usage in 2004, 116.1 million gallons in 2005 and 10.2 million gallons in 2006."
+AL_766421_0000891020-04-000322,2005.0,,28.0,116.1,True,True,True,True,True,0.28,116.1,True,True,"This
+48
+Table of Contents
+represents 33%, 28% and 2% of our anticipated fuel consumption in
+2004, 2005 and 2006, respectively."
+AL_766421_0000891020-04-000322,2006.0,,2.0,10.2,True,True,True,True,True,0.02,10.2,True,True,"This represents 33%, 28% and 2% of the anticipated fuel consumption in 2004, 2005 and 2006, respectively."
+AL_766421_0000766421-25-000009,2025.0,Q1,10.0,,True,True,True,True,False,,,,,First Quarter of 2025 | 10 | % | $92 | $5
+AL_766421_0000766421-25-000009,2025.0,Q1,39.0,,True,True,True,True,False,,,,,First Quarter of 2025 | 39 | % | $94 | $2
+AL_766421_0000766421-25-000009,2025.0,Q2,22.0,,True,True,True,True,False,,,,,Second Quarter of 2025 | 22 | % | $93 | $2
+AL_766421_0000766421-25-000009,2025.0,Q3,6.0,,True,True,True,True,False,,,,,Third Quarter of 2025 | 6 | % | $91 | $2
+AL_766421_0000766421-25-000009,2025.0,through March 2025,,20.0,True,True,True,True,False,,,,,Alaska has open crude oil call option positions covering
+AL_766421_0000766421-25-000009,2025.0,through September 2025,,47.0,True,True,True,True,False,,,,,Hawaiian has open crude oil call option positions covering
+AL_766421_0001193125-06-034170,2006.0,Q1,52.0,50.8,True,True,True,True,True,0.47,190.4,False,False,First Quarter 2006 | 52 | % | 50.8 | $ | 35.70
+AL_766421_0001193125-06-034170,2006.0,Q2,53.0,53.5,True,True,True,True,True,0.47,190.4,False,False,Second Quarter 2006 | 53 | % | 53.5 | $ | 39.76
+AL_766421_0001193125-06-034170,2006.0,Q3,46.0,49.7,True,True,True,True,True,0.47,190.4,True,False,Third Quarter 2006 | 46 | % | 49.7 | $ | 43.41
+AL_766421_0001193125-06-034170,2006.0,Q4,35.0,36.4,True,True,True,True,True,0.47,190.4,False,False,Fourth Quarter 2006 | 35 | % | 36.4 | $ | 46.10
+AL_766421_0001193125-06-034170,2007.0,Q1,20.0,20.9,True,True,True,True,True,0.2,86.0,True,False,First Quarter 2007 | 20 | % | 20.9 | $ | 43.09
+AL_766421_0001193125-06-034170,2007.0,Q2,19.0,21.3,True,True,True,True,True,0.2,86.0,True,False,Second Quarter 2007 | 19 | % | 21.3 | $ | 45.11
+AL_766421_0001193125-06-034170,2007.0,Q3,22.0,26.0,True,True,True,True,True,0.2,86.0,True,False,Third Quarter 2007 | 22 | % | 26.0 | $ | 45.27
+AL_766421_0001193125-06-034170,2007.0,Q4,17.0,17.8,True,True,True,True,True,0.2,86.0,True,False,Fourth Quarter 2007 | 17 | % | 17.8 | $ | 47.89
+AL_766421_0001193125-06-034170,2008.0,Q1,11.0,12.3,True,True,True,True,True,0.07,31.7,False,False,First Quarter 2008 | 11 | % | 12.3 | $ | 50.44
+AL_766421_0001193125-06-034170,2008.0,Q2,6.0,7.1,True,True,True,True,True,0.07,31.7,True,False,Second Quarter 2008 | 6 | % | 7.1 | $ | 49.26
+AL_766421_0001193125-06-034170,2008.0,Q3,6.0,6.8,True,True,True,True,True,0.07,31.7,True,False,Third Quarter 2008 | 6 | % | 6.8 | $ | 48.97
+AL_766421_0001193125-06-034170,2008.0,Q4,5.0,5.5,True,True,True,True,True,0.07,31.7,True,False,Fourth Quarter 2008 | 5 | % | 5.5 | $ | 48.68
+AL_766421_0001193125-07-038398,2007.0,Q1,50.0,52.3,True,True,True,True,True,0.44,193.7,False,False,First Quarter 2007 | 50 | % | 52.3 | $ | 58.78
+AL_766421_0001193125-07-038398,2007.0,Q2,45.0,49.4,True,True,True,True,True,0.44,193.7,True,False,Second Quarter 2007 | 45 | % | 49.4 | $ | 57.70
+AL_766421_0001193125-07-038398,2007.0,Q3,45.0,53.7,True,True,True,True,True,0.44,193.7,True,False,Third Quarter 2007 | 45 | % | 53.7 | $ | 56.98
+AL_766421_0001193125-07-038398,2007.0,Q4,36.0,38.3,True,True,True,True,True,0.44,193.7,False,False,Fourth Quarter 2007 | 36 | % | 38.3 | $ | 58.98
+AL_766421_0001193125-07-038398,2008.0,Q1,26.0,27.9,True,True,True,True,True,0.19,85.3,False,False,First Quarter 2008 | 26 | % | 27.9 | $ | 61.89
+AL_766421_0001193125-07-038398,2008.0,Q2,20.0,22.7,True,True,True,True,True,0.19,85.3,True,False,Second Quarter 2008 | 20 | % | 22.7 | $ | 51.57
+AL_766421_0001193125-07-038398,2008.0,Q3,14.0,17.4,True,True,True,True,True,0.19,85.3,False,False,Third Quarter 2008 | 14 | % | 17.4 | $ | 63.20
+AL_766421_0001193125-07-038398,2008.0,Q4,16.0,17.3,True,True,True,True,True,0.19,85.3,True,False,Fourth Quarter 2008 | 16 | % | 17.3 | $ | 63.56
+AL_766421_0001193125-07-038398,2009.0,Q1,5.0,5.6,True,True,True,True,True,0.05,11.4,True,False,First Quarter 2009 | 5 | % | 5.6 | $ | 67.68
+AL_766421_0001193125-07-038398,2009.0,Q2,5.0,5.8,True,True,True,True,True,0.05,11.4,True,False,Second Quarter 2009 | 5 | % | 5.8 | $ | 67.50
+AL_766421_0001193125-07-038398,2007.0,Q1,50.0,,True,True,True,True,True,0.44,193.7,False,,"fuel purchase contracts that fix the
+refining margin we pay for approximately 50% of Alaskas fuel consumption in the first quarter of 2007."
+AL_766421_0000950124-05-001049,2005.0,FY2005,50.0,207.3,True,True,True,True,True,0.5,207.3,True,True,"This represents 50%, 35% and 9% of our anticipated fuel consumption in 2005, 2006 and 2007, respectively."
+AL_766421_0000950124-05-001049,2006.0,FY2006,35.0,148.8,True,True,True,True,True,0.35,148.8,True,True,"hedge 207.3 million gallons of our expected jet fuel usage during 2005, 148.8 million gallons in 2006 and 38.6 million gallons in 2007."
+AL_766421_0000950124-05-001049,2007.0,FY2007,9.0,38.6,True,True,True,True,True,0.09,38.6,True,True,"At December 31, 2004, we had fuel hedge contracts in place to hedge 50% of our anticipated fuel consumption in 2005 and 35% and 9% of our anticipated fuel consumption in 2006 and 2007, respectively."
+AL_766421_0000950124-05-001049,2005.0,Q1,50.0,49.3,True,True,True,True,True,0.5,207.3,True,False,First Quarter 2005 | 50 | % | 49.3 | $ | 29.86
+AL_766421_0000950124-05-001049,2005.0,Q2,50.0,51.9,True,True,True,True,True,0.5,207.3,True,False,Second Quarter 2005 | 50 | % | 51.9 | $ | 28.97
+AL_766421_0000950124-05-001049,2005.0,Q3,50.0,55.7,True,True,True,True,True,0.5,207.3,True,False,Third Quarter 2005 | 50 | % | 55.7 | $ | 28.81
+AL_766421_0000950124-05-001049,2005.0,Q4,50.0,50.4,True,True,True,True,True,0.5,207.3,True,False,Fourth Quarter 2005 | 50 | % | 50.4 | $ | 31.85
+AL_766421_0000950124-05-001049,2006.0,Q1,50.0,50.8,True,True,True,True,True,0.35,148.8,False,False,First Quarter 2006 | 50 | % | 50.8 | $ | 35.70
+AL_766421_0000950124-05-001049,2006.0,Q2,40.0,42.8,True,True,True,True,True,0.35,148.8,False,False,Second Quarter 2006 | 40 | % | 42.8 | $ | 37.05
+AL_766421_0000950124-05-001049,2006.0,Q3,30.0,34.4,True,True,True,True,True,0.35,148.8,False,False,Third Quarter 2006 | 30 | % | 34.4 | $ | 38.78
+AL_766421_0000950124-05-001049,2006.0,Q4,20.0,20.8,True,True,True,True,True,0.35,148.8,False,False,Fourth Quarter 2006 | 20 | % | 20.8 | $ | 40.60
+AL_766421_0000950124-05-001049,2007.0,Q1,10.0,10.5,True,True,True,True,True,0.09,38.6,True,False,First Quarter 2007 | 10 | % | 10.5 | $ | 39.78
+AL_766421_0000950124-05-001049,2007.0,Q2,10.0,11.0,True,True,True,True,True,0.09,38.6,True,False,Second Quarter 2007 | 10 | % | 11.0 | $ | 39.44
+AL_766421_0000950124-05-001049,2007.0,Q3,10.0,11.8,True,True,True,True,True,0.09,38.6,True,False,Third Quarter 2007 | 10 | % | 11.8 | $ | 39.12
+AL_766421_0000950124-05-001049,2007.0,Q4,5.0,5.3,True,True,True,True,True,0.09,38.6,False,False,Fourth Quarter 2007 | 5 | % | 5.3 | $ | 42.65
+AL_766421_0001193125-09-033073,2009.0,Full Year,50.0,179.0,True,True,True,True,True,0.5,179.0,True,True,Full Year 2009 | 50 | % | 179.0 | $ | 76
+AL_766421_0001193125-09-033073,2009.0,Q1,50.0,42.6,True,True,True,True,True,0.5,179.0,True,False,First Quarter 2009 | 50 | % | 42.6 | $ | 81
+AL_766421_0001193125-09-033073,2009.0,Q2,50.0,44.8,True,True,True,True,True,0.5,179.0,True,False,Second Quarter 2009 | 50 | % | 44.8 | $ | 71
+AL_766421_0001193125-09-033073,2009.0,Q3,50.0,48.1,True,True,True,True,True,0.5,179.0,True,False,Third Quarter 2009 | 50 | % | 48.1 | $ | 76
+AL_766421_0001193125-09-033073,2009.0,Q4,50.0,43.5,True,True,True,True,True,0.5,179.0,True,False,Fourth Quarter 2009 | 50 | % | 43.5 | $ | 76
+AL_766421_0001193125-09-033073,2010.0,Full Year,33.0,119.7,True,True,True,True,True,0.33,119.7,True,True,Full Year 2010 | 33 | % | 119.7 | $ | 67
+AL_766421_0001193125-09-033073,2010.0,Q1,42.0,40.8,True,True,True,True,True,0.33,119.7,False,False,First Quarter 2010 | 42 | % | 40.8 | $ | 60
+AL_766421_0001193125-09-033073,2010.0,Q2,34.0,30.1,True,True,True,True,True,0.33,119.7,True,False,Second Quarter 2010 | 34 | % | 30.1 | $ | 70
+AL_766421_0001193125-09-033073,2010.0,Q3,29.0,28.3,True,True,True,True,True,0.33,119.7,False,False,Third Quarter 2010 | 29 | % | 28.3 | $ | 67
+AL_766421_0001193125-09-033073,2010.0,Q4,24.0,20.5,True,True,True,True,True,0.33,119.7,False,False,Fourth Quarter 2010 | 24 | % | 20.5 | $ | 78
+AL_766421_0001193125-09-033073,2011.0,Full Year,11.0,40.0,True,True,True,True,True,0.11,40.0,True,True,Full Year 2011 | 11 | % | 40.0 | $ | 80
+AL_766421_0001193125-09-033073,2011.0,Q1,17.0,14.9,True,True,True,True,True,0.11,40.0,False,False,First Quarter 2011 | 17 | % | 14.9 | $ | 91
+AL_766421_0001193125-09-033073,2011.0,Q2,15.0,13.8,True,True,True,True,True,0.11,40.0,False,False,Second Quarter 2011 | 15 | % | 13.8 | $ | 73
+AL_766421_0001193125-09-033073,2011.0,Q3,11.0,11.3,True,True,True,True,True,0.11,40.0,True,False,Third Quarter 2011 | 11 | % | 11.3 | $ | 74
+AL_766421_0001193125-09-033073,2009.0,Q1,40.0,,True,True,True,True,True,0.5,179.0,False,,"we have entered into fuel purchase contracts that fix the refining margin we pay for 
+59
+Table of Contents
+approximately 40% of our fuel consumption in the first quarter of 2009."
+AL_766421_0001193125-08-034506,2008.0,Q1,50.0,49.7,True,True,True,True,True,0.39,162.4,False,False,First Quarter 2008 | 50 | % | 49.7 | $ | 66.88
+AL_766421_0001193125-08-034506,2008.0,Q2,38.0,39.7,True,True,True,True,True,0.39,162.4,True,False,Second Quarter 2008 | 38 | % | 39.7 | $ | 66.71
+AL_766421_0001193125-08-034506,2008.0,Q3,33.0,37.7,True,True,True,True,True,0.39,162.4,False,False,Third Quarter 2008 | 33 | % | 37.7 | $ | 68.62
+AL_766421_0001193125-08-034506,2008.0,Q4,34.0,35.3,True,True,True,True,True,0.39,162.4,False,False,Fourth Quarter 2008 | 34 | % | 35.3 | $ | 68.21
+AL_766421_0001193125-08-034506,2008.0,Full Year,39.0,162.4,True,True,True,True,True,0.39,162.4,True,True,Full Year 2008 | 39 | % | 162.4 | $ | 67.53
+AL_766421_0001193125-08-034506,2009.0,Q1,5.0,5.6,True,True,True,True,True,0.05,23.0,True,False,First Quarter 2009 | 5 | % | 5.6 | $ | 67.68
+AL_766421_0001193125-08-034506,2009.0,Q2,5.0,5.8,True,True,True,True,True,0.05,23.0,True,False,Second Quarter 2009 | 5 | % | 5.8 | $ | 67.50
+AL_766421_0001193125-08-034506,2009.0,Q3,6.0,6.3,True,True,True,True,True,0.05,23.0,True,False,Third Quarter 2009 | 6 | % | 6.3 | $ | 68.25
+AL_766421_0001193125-08-034506,2009.0,Q4,5.0,5.3,True,True,True,True,True,0.05,23.0,True,False,Fourth Quarter 2009 | 5 | % | 5.3 | $ | 67.20
+AL_766421_0001193125-08-034506,2009.0,Full Year,5.0,23.0,True,True,True,True,True,0.05,23.0,True,True,Full Year 2009 | 5 | % | 23.0 | $ | 67.68
+AL_898904_0000898904-02-000009,2002.0,January 2002 to June 2002,2.6,6.3,True,True,True,True,False,,,,,"As of December 31, 2001, the Company had entered into swap agreements for approximately 6.3 million gallons of heating oil for future delivery between January 2002 and June 2002, which represented approximately 2.6% of total expected fuel consumption in 2002."
+AL_898904_0000898904-01-000006,2001.0,Jan-Sep 2001,6.3,13.6,True,True,True,True,False,,,,,"As of December 31, 2000, the Company had contracts in place to protect approximately 13.6 million gallons of fuel. The contracts have settlement dates from January 2001 through September 2001 and represent approximately 6.3% of the expected"
+AL_898904_0000898904-01-000006,2001.0,FY2001,4.8,13.6,True,True,True,True,False,,,,,"As of December 31, 2000, the Company had outstanding fuel hedge agreements totaling 13.6 million gallons, or 4.8% of the Company's projected aircraft fuel requirements for 2001."
+AL_904020_0000904020-00-000003,2000.0,FY2000,8.0,,True,True,True,True,False,,,,,"For 2000, the Company is currently
+not exposed to fuel price fluctuations for approximately 16% of its
+estimated fuel requirements, 8% through fuel hedging activity and 8% by
+virtue of the fact that Delta bears the risk"
+AL_904020_0000904020-00-000003,2000.0,Q2,14.0,,True,True,True,True,False,,,,,"the Company has hedged
+approximately 14% of its anticipated jet fuel requirements for the second
+quarter 2000; 27% for the third quarter 2000; and 18%, for the fourth
+quarter of 2000."
+AL_904020_0000904020-00-000003,2000.0,Q3,27.0,,True,True,True,True,False,,,,,"the Company has hedged
+approximately 14% of its anticipated jet fuel requirements for the second
+quarter 2000; 27% for the third quarter 2000; and 18%, for the fourth
+quarter of 2000."
+AL_904020_0000904020-00-000003,2000.0,Q4,18.0,,True,True,True,True,False,,,,,"the Company has hedged
+approximately 14% of its anticipated jet fuel requirements for the second
+quarter 2000; 27% for the third quarter 2000; and 18%, for the fourth
+quarter of 2000."
+AL_921929_0001068800-06-000462,2006.0,"Q2 calendar 2006 (April 1 - June 30, 2006)",16.0,,True,True,True,True,False,,,,,"November 2005 | Jet A | 50,000 | April 1, 2006  June 30, 2006 | $1.83 per gallon, with a floor of $1.6925 per gallon | 16%"
+AL_921929_0000921929-04-000018,2004.0,"Q1 (quarter ending June 30, 2004)",6.0,,True,True,True,True,True,0.07,,True,,"As of March 31, 2004, we had hedged approximately 6.0% of our projected fuel requirements for the quarter ending June 30, 2004."
+AL_921929_0000921929-04-000018,2004.0,"Jan 1 - Jun 30, 2004 (swap)",7.0,,True,True,True,True,True,0.07,,True,,"In September 2003, we entered into a swap agreement with a notional volume of 630,000 gallons per month for the period from January 1, 2004 to June 30, 2004."
+AL_921929_0000921929-03-000018,2004.0,"FY2004 (year ending March 31, 2004)",8.3,,True,True,True,True,True,0.157,,False,,"As of March 31, 2003, we had hedged approximately 8.3% of our projected fiscal 2004 fuel requirements."
+AL_921929_0000921929-03-000018,2003.0,"Apr 1 to Jun 30, 2003 swap",15.0,1.26,True,True,True,True,True,0.05,,False,,"In March 2003, we entered into a second swap agreement with a notional volume of 1,260,000 gallons per month for the period from April 1, 2003 to June 30, 2003."
+AL_921929_0000921929-03-000018,2003.0,"Dec 1, 2002 to Nov 30, 2003 three-way collar",5.0,0.385,True,True,True,True,True,0.05,,True,,"with a notional volume of 385,000 gallons per month for the period December 1, 2002 to November 30, 2003."
+AL_92380_0000092380-25-000024,2025.0,FY2025,47.0,1033.0,True,True,True,True,True,0.48,1033.0,True,True,2025 | 47%
+AL_92380_0000092380-25-000024,2026.0,FY2026,43.0,945.0,True,True,True,True,True,,945.0,,True,2026 | 945 | Brent crude oil
+AL_92380_0000092380-25-000024,2027.0,FY2027,13.0,277.0,True,True,True,True,True,,277.0,,True,2027 | 277 | Brent crude oil
+AL_92380_0000092380-23-000010,2023.0,2023,50.0,1084.0,True,True,True,True,True,0.51,1084.0,True,True,"2023 | 1,084 | WTI crude oil and Brent crude oil"
+AL_92380_0000092380-23-000010,2024.0,2024,39.0,748.0,True,True,True,True,True,0.34,748.0,False,True,2024 | 748 | WTI crude oil and Brent crude oil
+AL_92380_0000092380-18-000031,2018.0,FY2018,78.0,1647.0,True,True,True,True,True,0.78,1647.0,True,True,"2018 | 1,647 | WTI crude and Brent crude oil"
+AL_92380_0000092380-18-000031,2019.0,FY2019,63.0,1377.0,True,True,True,True,True,0.63,1377.0,True,True,"2019 | 1,377 | WTI crude and Brent crude oil"
+AL_92380_0000092380-18-000031,2020.0,FY2020,31.0,685.0,True,True,True,True,True,0.31,685.0,True,True,2020 | 685 | WTI crude oil
+AL_92380_0000092380-18-000031,,Beyond 2020,11.0,315.0,True,True,True,True,False,,,,,Beyond 2020 | 315 | WTI crude oil
+AL_92380_0000092380-15-000027,2016.0,2016,10.0,,True,True,True,True,True,0.44,885.0,False,,2016 | Approx. 10%
+AL_92380_0000092380-15-000027,2017.0,2017,30.0,,True,True,True,True,True,0.37,757.0,False,,2017 | Approx. 30%
+AL_92380_0000092380-15-000027,2016.0,2016,,885.0,True,True,True,True,True,0.44,885.0,,True,"2016 | 885 | (a) | Brent crude oil, Heating oil, and Gulf Coast jet fuel"
+AL_92380_0000092380-15-000027,2017.0,2017,,757.0,True,True,True,True,True,0.37,757.0,,True,2017 | 757 | (a) | WTI crude and Brent crude oil
+AL_92380_0000092380-15-000027,2015.0,2015,,,True,True,True,True,True,,,,,2015 | — | (b)
+AL_92380_0000092380-15-000027,2018.0,2018,,,True,True,True,True,True,,,,,2018 | — | (b)
+AL_92380_0000950134-01-000502,2001.0,,80.0,,True,True,True,True,True,0.8,,True,,"hedge approximately 80 percent of its 2001 total anticipated jet fuel requirements, approximately 32 percent of its 2002 total anticipated jet fuel requirements, and a small portion of its 2005 total anticipated jet fuel requirements"
+AL_92380_0000950134-01-000502,2002.0,,32.0,,True,True,True,True,True,0.32,,True,,approximately 32 percent of its 2002 total anticipated jet fuel requirements
+AL_92380_0000950134-01-000502,2005.0,,,,True,True,True,True,True,,,,,and a small portion of its 2005 total anticipated jet fuel requirements
+AL_92380_0000092380-17-000029,2017.0,FY2017,63.0,1281.0,True,True,True,True,True,0.63,1281.0,True,True,"2017 | 1,281 | WTI crude and Brent crude oil"
+AL_92380_0000092380-17-000029,2018.0,FY2018,57.0,1185.0,True,True,True,True,True,0.56,1185.0,True,True,"2018 | 1,185 | Brent crude oil"
+AL_92380_0000092380-17-000029,2019.0,FY2019,15.0,305.0,True,True,True,True,True,0.15,305.0,True,True,2019 | 305 | Brent crude oil
+AL_92380_0000092380-24-000027,2024.0,2024,57.0,1265.0,True,True,True,True,True,0.58,1265.0,True,True,"2024 | 1,265 | WTI crude oil and Brent crude oil"
+AL_92380_0000092380-24-000027,2025.0,2025,46.0,1033.0,True,True,True,True,True,0.48,1033.0,True,True,"2025 | 1,033 | Brent crude oil"
+AL_92380_0000092380-24-000027,2026.0,2026,18.0,358.0,True,True,True,True,True,,358.0,,True,2026 | 358 | Brent crude oil
+AL_92380_0000092380-16-000175,2016.0,Full year 2016,20.0,1226.0,True,True,True,True,True,0.2,1226.0,True,True,"2016 | 1,226 | Brent crude oil, Heating oil, and Gulf Coast jet fuel"
+AL_92380_0000092380-16-000175,2017.0,Full year 2017,65.0,1503.0,True,True,True,True,True,0.65,1503.0,True,True,"2017 | 1,503 | WTI crude and Brent crude oil"
+AL_92380_0000092380-16-000175,2018.0,Full year 2018,35.0,731.0,True,True,True,True,True,0.35,731.0,True,True,2018 | 731 | Brent crude oil
+AL_92380_0000092380-16-000175,2016.0,Q1,0.0,,True,True,True,True,True,0.2,1226.0,False,,First quarter 2016 (1) | —
+AL_92380_0000092380-19-000022,2019.0,FY2019,70.0,1519.0,True,True,True,True,True,0.7,1519.0,True,True,"2019 | 1,519 | WTI crude and Brent crude oil"
+AL_92380_0000092380-19-000022,2020.0,FY2020,53.0,1207.0,True,True,True,True,True,0.53,1207.0,True,True,"2020 | 1,207 | WTI crude and Brent crude oil"
+AL_92380_0000092380-19-000022,2021.0,FY2021,25.0,466.0,True,True,True,True,True,0.25,466.0,True,True,2021 | 466 | WTI crude and Brent crude oil
+AL_92380_0000092380-19-000022,2022.0,FY2022,,88.0,True,True,True,True,True,0.05,88.0,,True,2022 | 88 | WTI crude oil
+AL_92380_0000950134-00-002530,2000.0,Q1,27.0,63.0,True,True,True,True,False,,,,,First Quarter 2000 27% 63.0 million options
+AL_92380_0000950134-00-002530,2000.0,Q2,,,True,True,True,True,False,,,,,Second Quarter 2000 -- -- --
+AL_92380_0000950134-00-002530,2000.0,Q3,5.0,13.7,True,True,True,True,False,,,,,Third Quarter 2000 5% 13.7 million swaps
+AL_92380_0000950134-00-002530,2000.0,Q4,10.0,26.3,True,True,True,True,False,,,,,Fourth Quarter 2000 10% 26.3 million swaps
+AL_92380_0000950134-00-002530,2001.0,Q1,9.0,23.1,True,True,True,True,False,,,,,First Quarter 2001 9% 23.1 million swaps
+AL_92380_0000950134-00-002530,2000.0,FY,10.1,,True,True,True,True,False,,,,,"At December 31, 1999, the Company had a mixture of purchased crude oil call options and fixed price swap agreements in place to hedge approximately 10.1 percent of its 2000 total anticipated jet fuel requirements."
+AL_92380_0000092380-22-000007,2022.0,FY2022,64.0,1220.0,True,True,True,True,True,0.63,1220.0,True,True,"2022 | 1,220 | WTI crude oil and Brent crude oil"
+AL_92380_0000092380-22-000007,2023.0,FY2023,37.0,769.0,True,True,True,True,True,0.36,769.0,True,True,2023 | 769 | WTI crude oil and Brent crude oil
+AL_92380_0000092380-22-000007,2024.0,FY2024,17.0,358.0,True,True,True,True,True,0.16,358.0,True,True,2024 | 358 | WTI crude oil
+AL_92380_0000092380-20-000024,2020.0,2020,59.0,1301.0,True,True,True,True,True,0.59,1301.0,True,True,"Maximum fuel hedged as of
+December 31, 2019 | Derivative underlying commodity type as of
+Period (by year) | (gallons in millions) (a) | December 31, 2019
+2020 | 1,301 | WTI crude oil, Brent crude oil, and Heating oil"
+AL_92380_0000092380-20-000024,2021.0,2021,54.0,1169.0,True,True,True,True,True,0.7,1169.0,False,True,"2021 | 1,169 | WTI crude and Brent crude oil"
+AL_92380_0000092380-20-000024,2022.0,2022,31.0,603.0,True,True,True,True,True,0.31,603.0,True,True,2022 | 603 | WTI crude and Brent crude oil
+AL_92380_0000092380-20-000024,,Beyond 2022,,32.0,True,True,True,True,False,,,,,Beyond 2022 | 32 | WTI crude oil
+AL_92380_0000950134-02-000776,2002.0,2002,60.0,,True,True,True,True,True,0.6,,True,,approximately 60 percent of its 2002 total anticipated jet fuel requirements
+AL_92380_0000950134-02-000776,2003.0,2003,47.0,,True,True,True,True,True,0.47,,True,,approximately 47 percent of its 2003 total anticipated jet fuel requirements
+AL_92380_0000950134-02-000776,2004.0,2004-2005,,,True,True,True,True,True,,,,,and a small portion of its 2004-2005 total anticipated jet fuel requirements
+AL_92380_0000950134-03-001681,2003.0,FY2003,83.0,,True,True,True,True,True,0.83,,True,,"As of January 22, 2003, the Company had a mixture of purchased call options, collar structures, and fixed price swap agreements in place to hedge approximately 83 percent of its 2003 total anticipated jet fuel requirements"
+AL_92380_0000950134-03-001681,2004.0,FY2004,80.0,,True,True,True,True,True,0.8,,True,,"approximately 80 percent of its 2004 total anticipated jet fuel requirements, and portions of its 2005-2008 total anticipated jet fuel requirements"
+AL_92380_0000950134-04-000842,2004.0,,82.0,,True,True,True,True,True,0.82,,True,,"hedge approximately 82 percent of its 2004 total anticipated jet fuel requirements, approximately 60 percent of its 2005 total anticipated jet fuel requirements, and portions of its 2006-2007 total anticipated jet fuel requirements."
+AL_92380_0000950134-04-000842,2005.0,,60.0,,True,True,True,True,True,0.6,,True,,"hedge approximately 82 percent of its 2004 total anticipated jet fuel requirements, approximately 60 percent of its 2005 total anticipated jet fuel requirements, and portions of its 2006-2007 total anticipated jet fuel requirements."
+AL_92380_0000950134-04-000842,2006.0,,,,True,True,True,True,True,,,,,and portions of its 2006-2007 total anticipated jet fuel requirements.
+AL_92380_0000950134-04-000842,2007.0,,,,True,True,True,True,True,,,,,and portions of its 2006-2007 total anticipated jet fuel requirements.
+AL_92380_0000950134-04-000842,2004.0,Q1,82.0,,True,True,True,True,True,0.82,,True,,including approximately 82 percent of its anticipated requirements for first quarter 2004.
+AL_92380_0000950134-06-001553,2006.0,,70.0,,True,True,True,True,True,0.7,,True,,"The Company currently has
+a mixture of purchased call options, collar structures, and fixed price swap agreements in place to hedge over
+70 percent of its 2006 total anticipated jet fuel
+requirements at average crude oil equivalent prices of
+approximately $36 per barrel"
+AL_92380_0000950134-06-001553,2007.0,,60.0,,True,True,True,True,True,0.6,,True,,"The Company is also
+over 60 percent hedged for 2007 at approximately
+$39 per barrel"
+AL_92380_0000950134-06-001553,2008.0,,35.0,,True,True,True,True,True,0.35,,True,,"over 35 percent hedged for 2008 at
+approximately $38 per barrel"
+AL_92380_0000950134-06-001553,2009.0,,30.0,,True,True,True,True,True,0.3,,True,,"approximately
+30 percent hedged for 2009 at approximately $39 per
+barrel"
+AL_92380_0000950134-07-001724,2007.0,2007,95.0,,True,True,True,True,True,0.95,,True,,"nearly 95 percent of its 2007
+ total anticipated jet fuel requirements at average crude oil
+ equivalent prices of approximately $50 per barrel"
+AL_92380_0000950134-07-001724,2008.0,2008,65.0,,True,True,True,True,True,0.65,,True,,"65 percent of its expected fuel
+ consumption for 2008 at approximately $49 per barrel"
+AL_92380_0000950134-07-001724,2009.0,2009,50.0,,True,True,True,True,True,0.5,,True,,"over
+ 50 percent for 2009 at approximately $51 per barrel"
+AL_92380_0000950134-07-001724,2010.0,2010,25.0,,True,True,True,True,True,0.25,,True,,over 25 percent for 2010 at $63 per barrel
+AL_92380_0000950134-07-001724,2011.0,2011,15.0,,True,True,True,True,True,0.15,,True,,"approximately 15 percent in 2011 at
+ $64 per barrel"
+AL_92380_0000950134-07-001724,2012.0,2012,15.0,,True,True,True,True,True,0.15,,True,,"15 percent in 2012 at $63 per
+ barrel"
+AL_92380_0000950134-05-002093,2005.0,FY2005,85.0,,True,True,True,True,True,0.85,,True,,"85 percent for 2005 at approximately $26 per barrel, 65 percent for 2006 at approximately $32 per barrel, over 45 percent for 2007 at approximately $31 per barrel, 30 percent in 2008 at approximately $33 per barrel, and over 25 percent for 2009 at approximately $35 per barrel"
+AL_92380_0000950134-05-002093,2006.0,FY2006,65.0,,True,True,True,True,True,0.65,,True,,"85 percent for 2005 at approximately $26 per barrel, 65 percent for 2006 at approximately $32 per barrel, over 45 percent for 2007 at approximately $31 per barrel, 30 percent in 2008 at approximately $33 per barrel, and over 25 percent for 2009 at approximately $35 per barrel"
+AL_92380_0000950134-05-002093,2007.0,FY2007,45.0,,True,True,True,True,True,0.45,,True,,"85 percent for 2005 at approximately $26 per barrel, 65 percent for 2006 at approximately $32 per barrel, over 45 percent for 2007 at approximately $31 per barrel, 30 percent in 2008 at approximately $33 per barrel, and over 25 percent for 2009 at approximately $35 per barrel"
+AL_92380_0000950134-05-002093,2008.0,FY2008,30.0,,True,True,True,True,True,0.3,,True,,"85 percent for 2005 at approximately $26 per barrel, 65 percent for 2006 at approximately $32 per barrel, over 45 percent for 2007 at approximately $31 per barrel, 30 percent in 2008 at approximately $33 per barrel, and over 25 percent for 2009 at approximately $35 per barrel"
+AL_92380_0000950134-05-002093,2009.0,FY2009,25.0,,True,True,True,True,True,0.25,,True,,"85 percent for 2005 at approximately $26 per barrel, 65 percent for 2006 at approximately $32 per barrel, over 45 percent for 2007 at approximately $31 per barrel, 30 percent in 2008 at approximately $33 per barrel, and over 25 percent for 2009 at approximately $35 per barrel"
+AL_92380_0001193125-11-026045,2011.0,FY2011,,778.0,True,True,True,True,True,0.44,778.0,,True,2011 | 778
+AL_92380_0001193125-11-026045,2012.0,FY2012,60.0,887.0,True,True,True,True,True,0.6,887.0,True,True,2012 | 887
+AL_92380_0001193125-11-026045,2013.0,FY2013,50.0,750.0,True,True,True,True,True,0.5,750.0,True,True,2013 | 750
+AL_92380_0001193125-11-026045,2014.0,FY2014,45.0,700.0,True,True,True,True,True,0.45,700.0,True,True,2014 | 700
+AL_92380_0001193125-13-041608,2013.0,FY2013,,218.0,True,True,True,True,True,0.12,218.0,,True,2013 | 218 | Brent crude oil
+AL_92380_0001193125-13-041608,2014.0,FY2014,,1171.0,True,True,True,True,True,0.65,1171.0,,True,"2014 | 1,171 | WTI crude and Brent crude oil"
+AL_92380_0001193125-13-041608,2015.0,FY2015,,735.0,True,True,True,True,True,0.39,735.0,,True,2015 | 735 | WTI crude and Brent crude oil
+AL_92380_0001193125-13-041608,2016.0,FY2016,,697.0,True,True,True,True,True,0.35,697.0,,True,2016 | 697 | Brent crude oil
+AL_92380_0001193125-13-041608,2017.0,FY2017,,184.0,True,True,True,True,True,0.09,184.0,,True,2017 | 184 | WTI crude oil
+AL_92380_0001193125-09-015591,2009.0,2009,10.0,,True,True,True,True,True,0.1,,True,,"As of December 31, 2008, the Company held a net position of fuel derivative instruments that effectively represented a hedge of approximately ten
+percent of its anticipated jet fuel purchases for each year from 2009 through 2013."
+AL_92380_0001193125-09-015591,2010.0,2010,10.0,,True,True,True,True,True,0.1,,True,,"approximately 10 percent of its anticipated jet fuel purchases for the years from
+2009 through 2013"
+AL_92380_0001193125-09-015591,2011.0,2011,10.0,,True,True,True,True,True,0.1,,True,,"For each of these years, the Company has a net
+fuel hedge position for approximately ten percent of its currently forecasted fuel consumption for those periods."
+AL_92380_0001193125-09-015591,2012.0,2012,10.0,,True,True,True,True,True,0.1,,True,,"For each of these years, the Company has a net
+fuel hedge position for approximately ten percent of its currently forecasted fuel consumption for those periods."
+AL_92380_0001193125-09-015591,2013.0,2013,10.0,,True,True,True,True,True,0.1,,True,,"For each of these years, the Company has a net
+fuel hedge position for approximately ten percent of its currently forecasted fuel consumption for those periods."
+AL_92380_0001193125-10-017191,2010.0,FY2010,50.0,,True,True,True,True,True,,,,,The Company had derivative contracts in place for approximately 50 percent of its estimated 2010 fuel consumption at prices beginning in the mid-$70 per barrel range up to approximately $100 per barrel of crude oil.
+AL_92380_0001193125-10-017191,2011.0,FY2011,39.0,559.0,True,True,True,True,True,0.39,559.0,True,True,2011 | 559 | 39 | %
+AL_92380_0001193125-10-017191,2012.0,FY2012,16.0,232.0,True,True,True,True,True,0.16,232.0,True,True,2012 | 232 | 16 | %
+AL_92380_0001193125-10-017191,2013.0,FY2013,7.0,98.0,True,True,True,True,True,0.07,98.0,True,True,2013 | 98 | 7 | %
+AL_92380_0001193125-12-049647,2012.0,FY2012,,111.0,True,True,True,True,True,0.06,111.0,,True,2012 | 111
+AL_92380_0001193125-12-049647,2013.0,FY2013,,1000.0,True,True,True,True,True,0.55,1000.0,,True,"2013 | 1,000"
+AL_92380_0001193125-12-049647,2014.0,FY2014,,815.0,True,True,True,True,True,0.45,815.0,,True,2014 | 815
+AL_92380_0001193125-12-049647,2015.0,FY2015,,395.0,True,True,True,True,True,0.21,395.0,,True,2015 | 395
+AL_92380_0001193125-12-049647,2013.0,FY2013,,,True,True,True,True,True,0.55,1000.0,,,2013 | over 50%
+AL_92380_0001193125-12-049647,2014.0,FY2014,,,True,True,True,True,True,0.45,815.0,,,2014 | over 40%
+AL_92380_0001193125-12-049647,2015.0,FY2015,,,True,True,True,True,True,0.21,395.0,,,2015 | over 10%
+AL_948845_0000897069-00-000176,2000.0,Q1,25.0,,True,True,True,True,False,,,,,"As of December 31, 1999 the Company hedged approximately 25% of its first quarter 2000 fuel requirements."
+AL_948845_0000892712-06-000257,2006.0,Q1,29.6,,True,True,True,True,True,0.099,,False,,The collars for first quarter 2006 cover approximately 29.6% of the total estimated fuel consumption with an average floor price of $1.71 per gallon and average ceiling price of $1.85 per gallon
+AL_948845_0000892712-06-000257,2006.0,Q2,21.1,,True,True,True,True,True,0.099,,False,,"There are collars in place that cover 21.1%, 16.8% and 9.9% of the estimated fuel consumption for second, third and fourth quarters of 2006, respectively as of December 31, 2005."
+AL_948845_0000892712-06-000257,2006.0,Q3,16.8,,True,True,True,True,True,0.099,,False,,"There are collars in place that cover 21.1%, 16.8% and 9.9% of the estimated fuel consumption for second, third and fourth quarters of 2006, respectively as of December 31, 2005."
+AL_948845_0000892712-06-000257,2006.0,Q4,9.9,,True,True,True,True,True,0.099,,True,,"There are collars in place that cover 21.1%, 16.8% and 9.9% of the estimated fuel consumption for second, third and fourth quarters of 2006, respectively as of December 31, 2005."
+AL_948845_0000892712-07-000266,2007.0,Q1,26.0,,True,True,True,True,True,0.118,,False,,The collars for first quarter 2007 cover approximately 26.0% of the total estimated fuel consumption with an average floor price of $2.35 per gallon and average ceiling price of $2.51 per gallon
+AL_948845_0000892712-07-000266,2007.0,Q2,26.0,,True,True,True,True,True,0.118,,False,,"There were collars in place that cover 26.0% and 11.8% of the estimated fuel consumption for the second and third quarters of 2007, respectively as of December 31, 2006."
+AL_948845_0000892712-07-000266,2007.0,Q3,12.0,,True,True,True,True,True,0.118,,True,,"As of December 31, 2006, the Company had fuel hedge collars in place covering approximately 26%, 26% and 12% of anticipated fuel consumption for the first, second and third quarters of 2007, respectively."
+AL_948846_0000931763-00-000724,2000.0,first six months of 2000,11.0,7.2,True,True,True,True,False,,,,,"At December 31, 1999, the Company had a fuel hedging agreement with a broker-dealer on approximately 7.2 million gallons of fuel products, which represents 11% of its expected fuel needs for the first six months of 2000."
+AL_948845_0000897069-02-000237,2002.0,Q1,50.0,,True,True,True,True,True,0.1,,False,,"These agreements cover 50% of anticipated first quarter 2002 needs, 25% of anticipated second quarter 2002 needs, and 10% of anticipated third quarter 2002 needs."
+AL_948845_0000897069-02-000237,2002.0,Q2,25.0,,True,True,True,True,True,0.1,,False,,"These agreements cover 50% of anticipated first quarter 2002 needs, 25% of anticipated second quarter 2002 needs, and 10% of anticipated third quarter 2002 needs."
+AL_948845_0000897069-02-000237,2002.0,Q3,10.0,,True,True,True,True,True,0.1,,True,,"These agreements cover 50% of anticipated first quarter 2002 needs, 25% of anticipated second quarter 2002 needs, and 10% of anticipated third quarter 2002 needs."
+AL_948846_0000931763-01-000735,2001.0,Q1,50.0,,True,True,True,True,False,,,,,"As of December 31, 2000, we hedged approximately 50 percent of our projected first quarter 2001 fuel needs at a price no higher than $29 per barrel of crude oil"
+AL_948846_0000931763-01-000735,2001.0,remainder of 2001 (Q2-Q4),30.0,,True,True,True,True,False,,,,,approximately 30 percent of our projected needs for the remainder of 2001 at a price no higher than $24 per barrel of crude oil.
+AL_948845_0000897069-03-000333,2003.0,Q1,20.0,,True,True,True,True,True,0.15,,False,,"At December 31, 2002, the Company had options in place to hedge approximately 20% and 15% of its projected fuel purchases in the first quarter and second quarter of 2003, respectively."
+AL_948845_0000897069-03-000333,2003.0,Q2,15.0,,True,True,True,True,True,0.15,,True,,"At December 31, 2002, the Company had options in place to hedge approximately 20% and 15% of its projected fuel purchases in the first quarter and second quarter of 2003, respectively."
+AL_948846_0000948846-03-000009,2003.0,FY2003,41.0,,True,True,True,True,True,0.41,,True,,"At December 31, 2002, we had hedged approximately 41 percent of our projected fuel requirements for 2003, as compared to approximately 30 percent of our projected fuel requirements for 2002 at December 31, 2001."
+AL_948846_0001193125-05-051083,2005.0,FY2005,23.0,,True,True,True,True,True,0.23,,True,,"At December 31, 2004, we had hedged approximately 23 percent of our projected fuel requirements for 2005, as compared to approximately 29 percent of our projected fuel requirements for 2004 at December 31, 2003."
+AL_948846_0000948846-10-000006,2010.0,FY2010,41.0,153.0,True,True,True,True,True,0.41,153.0,True,True,"As of December 31, 2009, we have entered into fuel-related swap and option agreements, which pertain to 153 million gallons or 41 percent of our projected 2010 fuel requirements, and 10 million gallons or 3 percent of our projected 2011 fuel requirements."
+AL_948846_0000948846-10-000006,2011.0,FY2011,3.0,10.0,True,True,True,True,True,0.03,10.0,True,True,"As of December 31, 2009, we have entered into fuel-related swap and option agreements, which pertain to 153 million gallons or 41 percent of our projected 2010 fuel requirements, and 10 million gallons or 3 percent of our projected 2011 fuel requirements."
+AL_948846_0000948846-02-000006,2002.0,FY2002,30.0,,True,True,True,True,True,0.3,,True,,"As of December 31, 2001, using swap agreements, we hedged approximately 30 percent of our projected 2002 fuel needs at a price no higher than $29 per barrel of heating oil."
+AL_948846_0000948846-02-000006,,January 2003 through September 2004,10.0,,True,True,True,True,False,,,,,"We also hedged approximately 10 percent of our anticipated fuel requirements for January 2003 through September 2004, using swap agreements, at a price below $22 per barrel of crude oil."
+AL_948846_0000948846-02-000006,2002.0,through March 2002,32.0,,True,True,True,True,True,0.3,,True,,"As of December 31, 2001, utilizing fixed price fuel contracts we agreed to purchase approximately 32 percent of our anticipated fuel needs through March 2002 at a price no higher than $0.69 per gallon of aviation fuel"
+AL_948846_0000948846-04-000004,2004.0,2004,29.0,,True,True,True,True,True,0.29,,True,,"As of December 31, 2003, utilizing fixed-price fuel contracts we agreed to purchase approximately 29 percent and 12 percent of our anticipated fuel needs through December 2004 and 2005, respectively"
+AL_948846_0000948846-04-000004,2005.0,2005,12.0,,True,True,True,True,True,0.12,,True,,"As of December 31, 2003, utilizing fixed-price fuel contracts we agreed to purchase approximately 29 percent and 12 percent of our anticipated fuel needs through December 2004 and 2005, respectively"
+AL_948846_0000948846-11-000013,2011.0,2011,52.0,198.0,True,True,True,True,True,0.52,198.0,True,True,"we had entered into fuel-related option agreements which pertain to 198 million gallons or 52 percent of our projected 2011 fuel requirements, and 20 million gallons or 5 percent of our projected 2012 fuel requirements."
+AL_948846_0000948846-11-000013,2012.0,2012,5.0,20.0,True,True,True,True,True,0.05,20.0,True,True,"we had entered into fuel-related option agreements which pertain to 198 million gallons or 52 percent of our projected 2011 fuel requirements, and 20 million gallons or 5 percent of our projected 2012 fuel requirements."
+AL_948846_0001193125-06-049789,2006.0,,31.0,,True,True,True,True,True,0.31,,True,,"As of December 31, 2005, utilizing fixed-price and cap arrangements we agreed to purchase approximately 31.0 percent and
+15.4 percent of our anticipated fuel needs at a weighted average price of $1.65 and 1.54, respectively, per gallon of aviation fuel for 2006 and 2007"
+AL_948846_0001193125-06-049789,2007.0,,15.4,,True,True,True,True,True,0.154,,True,,"As of December 31, 2005, utilizing fixed-price and cap arrangements we agreed to purchase approximately 31.0 percent and
+15.4 percent of our anticipated fuel needs at a weighted average price of $1.65 and 1.54, respectively, per gallon of aviation fuel for 2006 and 2007"
+AL_948846_0001193125-07-044001,2007.0,FY2007,16.2,62.1,True,True,True,True,True,0.098,36.1,False,False,"As of December 31, 2006, utilizing forward fuel purchase contracts, we had committed to purchase 62.1 million gallons of aviation fuel at a weighted average price per gallon, excluding taxes and related fees, of $1.77 for 2007. This represents 16.2 percent of our anticipated fuel needs for 2007"
+AL_948846_0001193125-08-018139,2008.0,2008,17.9,70.6,True,True,True,True,True,0.179,70.6,True,True,these contracts pertain to 70.6 million gallons of our 2008 fuel purchases and 2.0 million gallons of our 2009 fuel purchases and represent 17.9 percent of our anticipated 2008 jet-fuel requirement
+AL_948846_0001193125-08-018139,2009.0,2009,0.5,2.0,True,True,True,True,True,0.005,2.0,False,True,2.0 million gallons of our 2009 fuel purchases and represent 17.9 percent of our anticipated 2008 jet-fuel requirement and 0.5 percent of our 2009 jet fuel requirements

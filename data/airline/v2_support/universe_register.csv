@@ -1,0 +1,97 @@
+cik,name,decision,carrier_type,note,in_original_dataset
+1000578,VANGUARD AIRLINES INC \DE\,include,passenger_scheduled,Vanguard Airlines,False
+1002902,,exclude,,"ground courier (Velocity Express), not an airline",False
+100517,"United Airlines Holdings, Inc.",include,passenger_scheduled,UAL / United Airlines Holdings,True
+101001,,exclude,,"subsidiary: United Air Lines Inc, shares or duplicates the UAL report",False
+1011696,AIRNET SYSTEMS INC,include,cargo,AirNet Systems,False
+1023944,,exclude,,pre-2000 only (ASA Holdings),False
+1029863,AMERICA WEST HOLDINGS CORP,include,passenger_scheduled,America West Holdings (parent),False
+1048911,FEDEX CORP,include,parcel,FedEx Corp,True
+1050715,AIRTRAN AIRWAYS INC,include,passenger_scheduled,AirTran Airways Inc (co-registrant; filings carried under 948846 parent),False
+1058033,NORTHWEST AIRLINES CORP,include,passenger_scheduled,Northwest Airlines,True
+1061129,,exclude,,pre-2000 only (Calair LLC),False
+1066048,FINE AIR SERVICES CORP,include,cargo,Fine Air Services,False
+1088734,,exclude,,one 2003 shell filing (River Hawk Aviation),False
+1090727,UNITED PARCEL SERVICE INC,include,parcel,United Parcel Service,True
+1092807,ALPINE AIR EXPRESS INC/DE,include,cargo,Alpine Air Express,False
+1135185,ATLAS AIR WORLDWIDE HOLDINGS INC,include,cargo,Atlas Air Worldwide Holdings,False
+1144331,EXPRESSJET HOLDINGS INC,include,regional_pass_through,ExpressJet,False
+1158463,JETBLUE AIRWAYS CORP,include,passenger_scheduled,JetBlue,True
+1159154,REPUBLIC AIRWAYS HOLDINGS INC,include,regional_pass_through,Republic Airways Holdings (old CIK),True
+1166291,PINNACLE AIRLINES CORP,include,regional_pass_through,Pinnacle Airlines,False
+1172222,HAWAIIAN HOLDINGS INC,include,passenger_scheduled,Hawaiian Holdings,True
+1263810,EVERGREEN HOLDINGS INC,include,cargo,Evergreen Holdings,False
+1265092,,exclude,,"trust, not an airline",False
+1303849,,exclude,,fractional jet ownership / charter (Avantair),False
+1351548,"Frontier Airlines Holdings, Inc.",include,passenger_scheduled,Frontier Airlines Holdings,True
+1354027,,exclude,,shell logistics (SkyShop),False
+1357671,,exclude,,shell (Creatd),False
+1362468,Allegiant Travel CO,include,passenger_scheduled,Allegiant,True
+1374135,,exclude,,shell (BioCube),False
+1397867,Global Aviation Holdings Inc.,include,passenger_charter,Global Aviation Holdings (World / North American Airlines),False
+1405419,GULFSTREAM INTERNATIONAL GROUP INC,include,passenger_scheduled,Gulfstream International Group,False
+1435615,,exclude,,shell / charter broker (Opera Jet),False
+1498710,"Spirit Aviation Holdings, Inc.",include,passenger_scheduled,Spirit,True
+1525221,,exclude,,helicopter operator (Bristow),False
+1539429,,exclude,,helicopter operator (CHC),False
+1586300,,exclude,,helicopter operator (CHC),False
+1614436,Virgin America Inc.,include,passenger_scheduled,Virgin America,True
+1670076,"Frontier Group Holdings, Inc.",include,passenger_scheduled,Frontier Group Holdings,True
+1743907,"Sun Country Airlines Holdings, LLC",include,passenger_scheduled,Sun Country,True
+1819516,,exclude,,private aviation / charter (Wheels Up),False
+1843973,,exclude,,private aviation / charter (flyExclusive),False
+1846084,Global Crossing Airlines Group Inc.,include,passenger_charter_scheduled,Global Crossing Airlines,False
+1853070,,exclude,,private aviation / charter (Volato),False
+1861622,,exclude,,private aviation / charter (Jet.AI),False
+1874218,,exclude,,SPAC,False
+1936224,,exclude,,private aviation / charter (Surf Air),False
+1947016,,exclude,,"space company (Starfighters), 2026 only",False
+2082247,,exclude,,FedEx Freight (trucking),False
+230211,,exclude,,"subsidiary: Federal Express Corp, separate report of a FedEx subsidiary",False
+27566,,exclude,,pre-2000 only,False
+278327,TRANS WORLD AIRLINES INC /NEW/,include,passenger_scheduled,TWA (FY1999 only),False
+27904,"DELTA AIR LINES, INC.",include,passenger_scheduled,Delta; owns Monroe refinery from 2012,True
+3000,AIRBORNE INC /DE/,include,cargo,Airborne Inc (air express),False
+313522,,exclude,,pre-2000 only,False
+319687,"UNITED AIRLINES, INC.",include,passenger_scheduled,"Continental Airlines Inc, later co-registrant with United",True
+3202,,exclude,,"subsidiary: Alaska Airlines Inc, separate report of an Alaska Air Group subsidiary",False
+350403,,exclude,,helicopter operator,False
+353184,AIR T INC,include,cargo,"Air T (overnight cargo feeder, later diversified)",False
+4515,,exclude,,"subsidiary: American Airlines Inc, shares or duplicates the AMR / AAG report",False
+46205,HAWAIIAN AIRLINES INC/HI,include,passenger_scheduled,Hawaiian Airlines Inc (before holding company),False
+6201,American Airlines Group Inc.,include,passenger_scheduled,AMR / American Airlines Group,True
+701345,US AIRWAYS GROUP INC,include,passenger_scheduled,US Airways Group,True
+702720,,exclude,,pre-2000 only,False
+706270,AMERICA WEST AIRLINES INC,include,passenger_scheduled,America West Airlines Inc (co-registrant; filings carried under 1029863 parent),True
+714560,,exclude,,"subsidiary: US Airways Inc, shares or duplicates the US Airways Group report",False
+732775,,exclude,,"aviation services (Flight International), not an airline",False
+73887,,exclude,,helicopter operator (Bristow),False
+766421,"ALASKA AIR GROUP, INC.",include,passenger_scheduled,Alaska Air Group,True
+778718,,exclude,,pre-2000 only (Tower Air),False
+793733,SKYWEST INC,include,regional_pass_through,SkyWest,True
+804152,,exclude,,pre-2000 only,False
+810328,,exclude,,pre-2000 only,False
+810332,REPUBLIC AIRWAYS HOLDINGS INC.,include,regional_pass_through,Mesa Air Group (EDGAR name now Republic Airways Holdings),True
+811664,,exclude,,pre-2000 only (WorldCorp),False
+816159,,exclude,,air-ambulance / helicopter operator,False
+835344,,exclude,,pre-2000 only,False
+835768,MAIR HOLDINGS INC,include,regional_pass_through,MAIR Holdings (Mesaba),False
+850922,,exclude,,pre-2000 only,False
+869187,BALTIA AIR LINES INC,include,passenger_startup,Baltia Air Lines (development stage),False
+884264,,exclude,,pre-2000 only,False
+894081,"Air Transport Services Group, Inc.",include,cargo,Air Transport Services Group (ABX / ATI),True
+898904,ATA HOLDINGS CORP,include,passenger_scheduled,ATA Holdings,False
+899394,"HARBOR DIVERSIFIED, INC.",include,regional_pass_through,Harbor Diversified (Air Wisconsin),False
+904020,FLYI INC,include,passenger_scheduled,FLYi / Independence Air,False
+914397,GREAT LAKES AVIATION LTD,include,regional_pass_through,Great Lakes Aviation,False
+917678,,exclude,,pre-2000 only (Northwest Airlines Holdings predecessor),False
+921929,FRONTIER AIRLINES INC /CO/,include,passenger_scheduled,Frontier Airlines Inc,True
+92380,SOUTHWEST AIRLINES CO,include,passenger_scheduled,Southwest,True
+930239,,exclude,,pre-2000 only,False
+932110,KITTY HAWK INC,include,cargo,Kitty Hawk,False
+941552,ATLAS AIR INC,include,cargo,Atlas Air Inc (parent until 2001 reorganisation),False
+946323,MIDWAY AIRLINES CORP,include,passenger_scheduled,Midway Airlines,False
+946362,,exclude,,pre-2000 only,False
+948845,MIDWEST AIR GROUP INC,include,passenger_scheduled,Midwest Air Group,True
+948846,AIRTRAN HOLDINGS INC,include,passenger_scheduled,AirTran Holdings,True
+949240,"WORLD AIR HOLDINGS, INC.",include,passenger_cargo_charter,World Air Holdings,False

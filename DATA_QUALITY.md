@@ -312,10 +312,10 @@ All renames were performed using `git mv` inside the `dataset/` git repository, 
 
 | New file | Description |
 |---|---|
-| `data/airline/hedge_ratios.csv` | Airline firm-year panel (421 firm-years) |
+| `data/airline/hedge_ratios.csv` | Airline firm-year panel (601 firm-years, version 2) |
 | `data/airline/positions.csv` | Airline position-level forward schedule |
 | `data/airline/filings.csv` | Airline per-filing summary |
-| `data/airline/extractions/` | 421 airline JSON files |
+| `data/airline/v2_support/` | version 2 audit tables and raw reader output |
 | `data/refiner/hedge_ratios.csv` | Refiner firm-year panel (235 firm-years) |
 | `data/refiner/positions.csv` | Refiner un-aggregated notional positions (696 rows) |
 | `data/refiner/filings.csv` | Refiner per-filing summary |
@@ -329,3 +329,7 @@ All renames were performed using `git mv` inside the `dataset/` git repository, 
 **Downstream code changes required by v2.0:**
 
 Scripts or notebooks that read the v1 paths will need to update path references. No column names were changed in the E&P tables; only the directory structure changed. The new airline and refiner tables follow the same naming conventions (`hedge_ratios.csv`, `positions.csv`, `filings.csv`) to make per-group analysis code easy to generalize.
+
+
+## Airline group replaced by audited version 2 (2026-10-09)
+Sections above that describe the airline group (the unverified v1 extraction, §9-10, the Delta/Monroe note, the Oracle exclusion) refer to **version 1, which has been replaced**. Version 2 was re-read from the SEC source for all 603 reports, with a verbatim quote for every value, 28 automated checks, a 38-report hand audit and an independent second reading of 443 reports. Details, known weak spots and the row-by-row comparison with v1 are in `data/airline/README_AIRLINE_V2.md`, `data/airline/docs_v2/` and `data/airline/v2_support/corrections_vs_original.csv`.
