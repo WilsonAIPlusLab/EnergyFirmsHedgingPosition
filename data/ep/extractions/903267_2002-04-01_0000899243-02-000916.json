@@ -1,0 +1,155 @@
+{
+  "cik": "903267",
+  "company": "3TEC ENERGY CORP",
+  "filing_date": "2002-04-01",
+  "accession_number": "0000899243-02-000916",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 40000,
+        "volume_total": 3600000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.67,
+        "ceiling_price": 3.15,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX contract period; open at 12/31/2001. Counterparties to open contracts are Bank One, NA and Bank of Montreal (not allocated by contract). Combined fair value of the Jan-Mar and Apr-Oct 2002 collars was approx $3.1 million; not designated as hedges, marked-to-market.",
+        "evidence_quote": "the Company has a collar on 40,000 Mmbtu of daily\nnatural gas production for the NYMEX contract period of January through March\nof 2002, with a floor of $2.67/Mmbtu and a ceiling of $3.15/Mmbtu."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 56000,
+        "volume_total": 11984000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.9,
+        "ceiling_price": 3.38,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-04",
+        "period_end": "2002-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Ceiling is an average ceiling. Open at 12/31/2001; unwound in February 2002 for net proceeds of approx $5.8 million ($.48 per Mmbtu). Combined fair value of both open collars approx $3.1 million. Counterparties Bank One, NA and Bank of Montreal (not allocated).",
+        "evidence_quote": "3TEC has placed 56,000 Mmbtu of daily natural gas production\nfrom April through October of 2002 into a collar with a floor of $2.90/Mmbtu\nand an average ceiling of $3.38/Mmbtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 56000,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.56,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered February 2002 after unwinding the April-October 2002 collar; swap period not explicitly stated in text. Subsequent event, not open at 12/31/2001.",
+        "evidence_quote": "During February 2002, the Company unwound the April through October 2002\ncollar for net proceeds of approximately $5.8 million ($.48 per Mmbtu), and\nthen swapped 56,000 Mmbtu of daily natural gas production at $2.56/Mmbtu."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 20000,
+        "volume_total": 3020000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.2,
+        "ceiling_price": 3.53,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-11",
+        "period_end": "2003-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put in place February 2002 (subsequent event); ceiling is a weighted average ceiling.",
+        "evidence_quote": "Also\nduring February 2002, the Company put in place a collar on 20,000 Mmbtu of\ndaily gas production from November 2002 to March 2003 with a floor of\n$3.20/Mmbtu and a weighted average ceiling of $3.53/Mmbtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2000,
+        "volume_total": 490000,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.96,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-03",
+        "period_end": "2000-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical 2000 fixed swap at weighted average NYMEX WTI price; settled by end of 2000 (no open derivatives at 12/31/2000); reduced 2000 oil revenues by $2.1 million.",
+        "evidence_quote": "In February 2000, the Company entered into fixed swap agreements covering\n2,000 barrels of oil per day for the period March through October 2000 at a\nweighted average NYMEX West Texas Intermediate price of $25.96 per barrel."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Natural gas collars/swap entered in Q4 2001 and Feb 2002 were not designated as hedges; marked-to-market through earnings. Counterparties Bank One and Bank of Montreal (credit facility lenders)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 952000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 22352000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5337,
+      "proved_gas_reserves_mmcf": 231266,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 181.599,
+      "pv10_mm": 212.349,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

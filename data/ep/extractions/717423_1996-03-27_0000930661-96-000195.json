@@ -1,0 +1,77 @@
+{
+  "cik": "717423",
+  "company": "MURPHY OIL CORP",
+  "filing_date": "1996-03-27",
+  "accession_number": "0000930661-96-000195",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": -7.965,
+        "notes": "Aggregate of the Company's oil swap and buy/sell agreements; text gives only combined derivative payables (carrying/notional 9,142 thousand dollars, estimated fair value (7,965) thousand dollars at year-end 1995; 1994 fair value (4,828) thousand). No volumes, prices, tenors or counterparties disclosed.",
+        "evidence_quote": "Payables (derivatives) - The amounts relate to the Company's oil swap and buy/sell agreements."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "No policy stated; only a financial-instruments note on oil swap and buy/sell agreements with negative fair value based on broker quotes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:34:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_a53c5192-8ff"
+    ]
+  }
+}

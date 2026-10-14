@@ -1,0 +1,119 @@
+{
+  "cik": "33213",
+  "company": "EQT Corp",
+  "filing_date": "2000-03-17",
+  "accession_number": "0000950128-00-000541",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 1.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap entered into in 1995 as part of a financing transaction; covers about 15% of natural gas production at a NYMEX price of $1.82/Mcf; expires near the end of the year 2000 (exact month not stated). Volume not stated.",
+        "evidence_quote": "This swap, covering about 15% of natural gas production\nat a NYMEX price of $1.82/Mcf, expires near the end of the year 2000."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 0.8,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": -0.3,
+        "notes": "Propane swaps, absolute notional quantity at 12/31/1999 shown under a (MILLIONS) column header; unit of the notional quantity not stated in the loaded text. Deferred loss (0.3) in millions. Period end is the stated general maturity of swap agreements (through March 2001).",
+        "evidence_quote": "Swaps.................................................     0.8         --           (0.3)       --"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 0.1,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Propane options, absolute notional quantity at 12/31/1999 shown under a (MILLIONS) column header; unit not stated in loaded text. Period end is the stated general maturity of open futures and options contracts (through December 2000). Deferred gain/loss shown as '--'.",
+        "evidence_quote": "Options...............................................     0.1         --             --        --"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 2,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Protect earnings from falling commodity prices; price protection for majority of expected 2000 gas production via costless collars, floors and some swaps; swaps used to lock in oil and NGL prices for 2000."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1070000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 66328000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 1146433,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

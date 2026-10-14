@@ -1,0 +1,173 @@
+{
+  "cik": "949061",
+  "company": "UNION PACIFIC RESOURCES GROUP INC",
+  "filing_date": "1997-03-21",
+  "accession_number": "0000950134-97-001996",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 696000,
+        "volume_total": 232464000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.06,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1997-02",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": 23.7,
+        "notes": "Combination of near-term futures contracts and price swaps (reported together); 696 MMcfd converted to 696000 Mcf/d; fair value is unrecognized mark-to-market gain.",
+        "evidence_quote": "the Company had near-term futures contracts and price\nswaps for February through December 1997 with respect to natural gas volumes of\n696 MMcfd at $2.06/Mcf."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.23,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": -19.8,
+        "notes": "Near-term NYMEX-related contracts (type not further specified); 20 MBbld converted to 20000 Bbl/d; fair value is unrecognized mark-to-market loss.",
+        "evidence_quote": "the Company had near-term NYMEX-related contracts for\nJanuary through December 1997 with respect to crude oil volumes of 20 MBbld at\n$20.23/Bbl, with an unrecognized mark-to-market loss of $19.8 million."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 25000,
+        "volume_total": 9125000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 19.17,
+        "ceiling_price": 24.67,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": -1.8,
+        "notes": "Purchased puts (floor) and sold calls (ceiling); strikes include net premium paid; 25.0 MBbld converted to 25000 Bbl/d; fair value is negative, net cost to repurchase options.",
+        "evidence_quote": "the Company had established a floor of\n$19.17/Bbl (including net premium paid) and a ceiling of $24.67/Bbl (including\nnet premium paid) with respect to 25.0 MBbld of crude oil for January through\nDecember 1997."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 37000,
+        "volume_total": 13505000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.21,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": 0.7,
+        "notes": "Near-term futures contracts and price swaps; 37 MMcfd converted to 37000 Mcf/d; fair value is unrecognized mark-to-market gain.",
+        "evidence_quote": "the Company had near-term futures contracts and\nprice swaps for January through December 1998 with respect to natural gas\nvolumes of 37 MMcfd at $2.21/Mcf. The unrecognized mark-to-market gain\nassociated with such contracts was $0.7 million."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 81500000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Long-term fixed price physical sales agreements for natural gas; total outstanding contracts at Dec 31, 1996; not on balance sheet. Of this, 69.8 Bcf had no corresponding financial positions and 11.7 Bcf was offset with financial contracts.",
+        "evidence_quote": "at December 31, 1996, had outstanding\ncontracts relating to 81.5 Bcf of natural gas for periods through December 31,\n2008."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 69800000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": 26.6,
+        "notes": "Subset of the 81.5 Bcf long-term fixed price sales commitments without corresponding financial positions; average price; positive fair value. Overlaps with the 81.5 Bcf entry.",
+        "evidence_quote": "long-term fixed\nprice sales commitments for which corresponding financial positions had not been\nentered into totaled 69.8 Bcf at an average price of $2.95/Mcf, with a positive\nfair value of $26.6 million."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses hydrocarbon-based derivatives (futures, master swap agreements) from time to time to reduce price risk; no trading; does not hedge significant production beyond 24 months."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 18500000,
+      "oil_production_bpd": 50600,
+      "gas_production_mcf": 368600000,
+      "gas_production_mmcf_per_day": 980.3,
+      "ngl_production_bbls": 13500000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 80600,
+      "proved_gas_reserves_mmcf": 2378400,
+      "proved_ngl_reserves_mbbls": 107500,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4239,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:42",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

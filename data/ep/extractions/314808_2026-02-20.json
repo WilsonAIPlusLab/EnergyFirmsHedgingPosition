@@ -1,0 +1,33 @@
+{
+  "cik": "314808",
+  "company": "Valaris Ltd",
+  "filing_date": "2026-02-20",
+  "accession_number": "0000314808-26-000029",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {},
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:02",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

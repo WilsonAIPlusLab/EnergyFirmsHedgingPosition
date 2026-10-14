@@ -1,0 +1,155 @@
+{
+  "cik": "320321",
+  "company": "DEVON OEI OPERATING INC",
+  "filing_date": "2001-03-21",
+  "accession_number": "0000320321-01-500008",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 25,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put options with annual floor price covering portions of 2001 production; period stated as 2001.",
+        "evidence_quote": "The put options place an annual floor price of $25.00 per Bbl on 20,000 Bbl of"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 100000,
+        "volume_total": 36500000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 4,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas put with $4.00 per Mcf average annual floor on 100,000 Mcf/d during 2001.",
+        "evidence_quote": "oil per day and annual floor prices of $4.00 and $5.00 per Mcf each on 100,000"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 100000,
+        "volume_total": 36500000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 5,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas put with $5.00 per Mcf average annual floor on 100,000 Mcf/d during 2001.",
+        "evidence_quote": "floor price on 100,000 Mcf of natural gas per day and a $5.00 per Mcf average"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 15000,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 21.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2001-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil swaps continuing through June 2001; $21.53 is average price of hedged production assuming current strip prices.",
+        "evidence_quote": "an average price of $21.53 per Bbl will continue through June 2001. A related"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 14500,
+        "volume_total": 5292500,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.77,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap held by a related trust (Section 29 tax credit properties); covers additional quantities through 2005 not quantified.",
+        "evidence_quote": "trust has a swap agreement covering 14,500 Mcf of gas per day at a price of"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses swaps, collars or options with major financial institutions on a portion of oil and gas production to achieve more predictable cash flow by reducing exposure to price declines."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 24751000,
+      "oil_production_bpd": 67627,
+      "gas_production_mcf": 148803000,
+      "gas_production_mmcf_per_day": 407,
+      "ngl_production_bbls": null,
+      "total_production_boe": 50000000,
+      "total_production_boepd": 135388,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 221600,
+      "proved_gas_reserves_mmcf": 1430900,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 460100,
+      "proved_developed_reserves_mboe": 247961,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 8500,
+      "oil_price_used": 22.97,
+      "gas_price_used": 8.81,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": 4.28
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "cik": "1287900",
+  "company": "RANCHER ENERGY CORP.",
+  "filing_date": "2009-07-14",
+  "accession_number": "0001144204-09-037281",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 113220,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 65.0,
+        "ceiling_price": 83.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2007-11",
+        "period_end": "2009-10",
+        "counterparty": null,
+        "fair_value_mm": 0.45596,
+        "notes": "Participating costless collar entered October 2007 pursuant to Term Credit Agreement with Lender (unrelated counterparty, not named). Floor/put ($65.00/Bbl WTI NYMEX) covers ~75% of estimated crude oil production: 113,220 Bbls total volume hedged, 31,908 Bbls remaining as of 3/31/09. Ceiling/call ($83.50/Bbl WTI NYMEX) covers ~45% of same production: 67,935 Bbls total volume hedged, 19,146 Bbls remaining as of 3/31/09 (sub-instrument fair value $0). Basis differential between NYMEX and Wyoming Sweet posted price is not hedged. Not designated as a cash flow hedge (changes in fair value recognized in current earnings). Net derivative asset of $455,960 (Level 3 fair value) at 3/31/09 corresponds to the put/floor leg; hedge expires October 2009."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Term Credit Agreement (Oct 2007) required hedging crude oil production via a costless collar; derivatives not designated as cash flow hedges; no speculative derivative use.",
+      "total_instruments": 1
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 65308,
+      "oil_production_bpd": 178.9,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 65308,
+      "total_production_boepd": 178.9,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1166.702,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1166.702,
+      "proved_developed_reserves_mboe": 955.151,
+      "proved_undeveloped_reserves_mboe": 211.551,
+      "reserves_year_end": "2009-03-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 8.724,
+      "pv10_mm": 8.724,
+      "oil_price_used": 44.75,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 37.10,
+      "production_tax_per_boe": 9.92,
+      "total_production_cost_per_boe": 47.02,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 15.45,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-5",
+    "extraction_method": "claude_code_agent",
+    "extraction_timestamp": "2026-10-02T05:37:04Z"
+  }
+}

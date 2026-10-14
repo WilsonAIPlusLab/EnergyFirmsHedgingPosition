@@ -333,3 +333,19 @@ Scripts or notebooks that read the v1 paths will need to update path references.
 
 ## Airline group replaced by audited version 2 (2026-10-09)
 Sections above that describe the airline group (the unverified v1 extraction, §9-10, the Delta/Monroe note, the Oracle exclusion) refer to **version 1, which has been replaced**. Version 2 was re-read from the SEC source for all 603 reports, with a verbatim quote for every value, 28 automated checks, a 38-report hand audit and an independent second reading of 443 reports. Details, known weak spots and the row-by-row comparison with v1 are in `data/airline/README_AIRLINE_V2.md`, `data/airline/docs_v2/` and `data/airline/v2_support/corrections_vs_original.csv`.
+
+---
+
+## 12. E&P extension tiers added 2026-10-13 (pre-2010, FY2025/26 update, tier B-D)
+
+`data/ep/` was extended in place: `source_tier = ep_v2.0` rows are the published sample described in sections 1-10 (3,446 filings, PASS/FIXED/WARN log). The added rows have NOT been through that log:
+
+| source_tier | Filings | Firm-years | Method / check |
+|---|---|---|---|
+| pre2010A | 2,424 | 2,400 | One isolated AI agent per 10-K; every quoted figure checked against the filing text by code; recall guards and stratified samples for filings screened as non-hedgers; cue-ranked excerpts for pre-2010 filings |
+| update_2026 | 221 | 217 | Same method; FY2025 and FY2026 filings |
+| tierBCD (`data/tierBCD/`) | 2,972 | 2,967 | Same method; about 11% of medium-confidence unread filings expected to hold missed positions |
+
+Changes to published rows: 62 v2.0 firm-years changed value (listed field by field in `data/ep/CHANGES_2026-10.csv`). Most are FY2024 production denominators, which use the next year's production and now have the FY2025 filing; the others follow from the same cross-filing production lookup. 9 added firm-years that shared a (cik, fiscal_year) with a published row were left out (`CHANGES_2026-10_dropped_rows.csv`). 5 published hedge-ratio rows that had no row in `filings.csv` were added there.
+
+`production_reserves.csv`: production, reserves and economics fields are copied as extracted, with `flags` for implausible values (30 placeholder zeros, 2 unit errors, 192 filings with a different field layout) and are not verified field by field. Production is the filing's own year, whereas the hedge-ratio denominator uses the next year's production.

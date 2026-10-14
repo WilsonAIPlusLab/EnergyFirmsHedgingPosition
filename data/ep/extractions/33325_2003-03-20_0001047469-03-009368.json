@@ -1,0 +1,119 @@
+{
+  "cik": "33325",
+  "company": "EQUITY OIL CO",
+  "filing_date": "2003-03-20",
+  "accession_number": "0001047469-03-009368",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1100,
+        "volume_total": 401500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 23,
+        "ceiling_price": 27.1,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-05",
+        "period_end": "2003-04",
+        "counterparty": null,
+        "fair_value_mm": -0.505,
+        "notes": "Costless collar; table avg floor/ceiling; fair value (505) thousand liability at 12/31/2002",
+        "evidence_quote": "The oil hedges have a floor of $23.00 and a ceiling of $27.10 and the gas hedges"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 5000,
+        "volume_total": 3655000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3,
+        "ceiling_price": 4.43,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-05",
+        "period_end": "2004-04",
+        "counterparty": null,
+        "fair_value_mm": -1.33,
+        "notes": "Costless collar; table avg floor/ceiling; fair value (1,330) thousand liability at 12/31/2002",
+        "evidence_quote": "costless collars (5,000 MMBTU thru April 30, 2004 and an additional 1,000 MMBTU thru December 31, 2003)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.5,
+        "ceiling_price": 4.915,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -0.083,
+        "notes": "Costless collar; table avg floor/ceiling; fair value (83) thousand liability at 12/31/2002",
+        "evidence_quote": "costless collars (5,000 MMBTU thru April 30, 2004 and an additional 1,000 MMBTU thru December 31, 2003)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Credit facility requires at least 50% of projected monthly production hedged at lender-acceptable terms; costless collars; only investment grade counterparties; designated cash flow hedges under SFAS 133."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 634000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 4198000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 10549,
+      "proved_gas_reserves_mmcf": 36588,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 16648,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 105.271,
+      "pv10_mm": 146.342,
+      "oil_price_used": 27.01,
+      "gas_price_used": 4.09,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.75,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:39",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

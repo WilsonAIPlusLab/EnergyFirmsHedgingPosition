@@ -1,0 +1,83 @@
+{
+  "cik": "836442",
+  "company": "ORYX ENERGY CO",
+  "filing_date": "1994-03-11",
+  "accession_number": "0000912057-94-000884",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2.04,
+        "ceiling_price": 2.28,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1994-01",
+        "period_end": "1994-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Futures-based hedge of about 30 percent of 1994 U.S. gas production at average floor and ceiling; no absolute volume stated. Futures activity decreased oil and gas revenue by $29 million in 1993.",
+        "evidence_quote": "its  1994 U.S.  gas production  at an average  floor of  $2.04 per  mmbtu and an\naverage ceiling of $2.28 per mmbtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time enters into futures contracts to hedge the impact of price fluctuations on crude and natural gas production; at 12/31/93 hedged about 30% of 1994 U.S. gas production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1993
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 1881000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 822000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1993-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

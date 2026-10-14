@@ -1,0 +1,95 @@
+{
+  "cik": "10254",
+  "company": "EARTHSTONE ENERGY INC",
+  "filing_date": "2000-06-29",
+  "accession_number": "0001000096-00-000434",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 22.12,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-09",
+        "period_end": "2000-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Zero-Cost Collar with the Company's bank (not named); 2,000 barrels per month (monthly volume, no daily or total stated); NYMEX floor and cap; forfeited approx. $57,000 in FY ended March 31, 2000.",
+        "evidence_quote": "entered into an agreement to hedge two thousand barrels per month (slightly less\nthan one-third of the Company's anticipated oil production) for a one-year\nperiod from September 1999 through August 2000."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": null,
+        "period_end": "2000-06",
+        "counterparty": "NYMEX",
+        "fair_value_mm": -0.004,
+        "notes": "Two open NYMEX option contracts at March 31, 2000 (put or call, strikes, volumes and commodity not stated in the provided text); cost basis approx. $1,000; unrealized losses approx. $4,000; both mature June 2000.",
+        "evidence_quote": "At March 31, 2000, Basic had two open option contracts to hedge future\ndeliveries with a June 2000 maturity date for both contracts."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Favors NYMEX options over futures to participate if prices rise; hedges to stabilize volatile oil prices; bank encourages hedging; no hedges in place after Aug 2000 collar expires (not a policy change)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-03-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4.551,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "cik": "1070412",
+  "company": "CNX Resources Corp",
+  "filing_date": "2005-02-28",
+  "accession_number": "0001193125-05-038419",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 5.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical 2004 gas swaps (financial cash flow hedges) covering 28% of produced gas sales volumes; no absolute volume stated.",
+        "evidence_quote": "In 2004, these financial cash flow hedges represented 28% of our produced gas sales volumes at an average price of $5.10 per"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Intended coverage of about 17% of estimated 2005 production; no price or absolute volume stated. Filing also says derivatives convert 2005-2006 anticipated gas sales to fixed prices; net fair value loss of $5.7 million (net of $3.6 million deferred tax) for open contracts.",
+        "evidence_quote": "We currently intend to cover approximately 17% of our estimated 2005 production volume with gas swap transactions."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price gas sales contracts with various marketers covering about 63% of total projected 2005 production; the average price is stated in the filing as $4.78/mcf on the next line, so fixed_price is left null here per the line-bound quote. These are physical sales contracts.",
+        "evidence_quote": "CONSOL has entered into fixed price gas sales contracts with various marketers, representing approximately 63% of total projected 2005 production, at an average"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses fixed-price contracts, collar-price contracts and derivative instruments qualifying as SFAS 133 cash-flow hedges to minimize natural gas price volatility; policy strictly prohibits speculative derivative positions."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 49674000,
+      "gas_production_mmcf_per_day": 155.7,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 1042403,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1029.538,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:39",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

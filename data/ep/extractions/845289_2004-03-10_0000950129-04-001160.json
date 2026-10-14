@@ -1,0 +1,101 @@
+{
+  "cik": "845289",
+  "company": "HARVEST NATURAL RESOURCES, INC.",
+  "filing_date": "2004-03-10",
+  "accession_number": "0000950129-04-001160",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 6000,
+        "volume_total": 2190000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 23,
+        "ceiling_price": 30.15,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar on WTI bought by Benton-Vinccler to hedge a portion of 2002 oil sales; hedge accounting discontinued at 12/31/2002 and derivative value of $0.3 million recorded as oil revenue reduction. Period inferred only from the text 'its 2002 oil sales'.",
+        "evidence_quote": "based on a WTI floor price of $23.00 and a ceiling price\nof $30.15 for 6,000 barrels of oil per day."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Benton-Vinccler purchased a WTI crude oil put for 2003 production; strike and volume not in provided text. Amortization of put option cost of $7.7 million reduced oil revenue. Text also mentions a costless collar used through February 14, 2003 with no terms given (not separately listed).",
+        "evidence_quote": "Benton-Vinccler hedged a portion of its 2003 oil\nproduction by purchasing a WTI crude oil \u201cput\u201d to protect its 2003 cash flow."
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "Used a costless collar through Feb 14, 2003 and bought a WTI put for 2003 to stabilize cash flow; no hedges in place for 2004 production.",
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "total_oil_instruments": 2,
+      "uses_derivatives": true
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 2660241,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": 7347399,
+      "oil_production_bpd": null,
+      "production_year": 2003,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": 156400,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": 70298,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2003-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": 4,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": 545.3,
+      "standardized_measure_mm": 366.77,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:24",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "cik": "313395",
+  "company": "TXCO Resources Inc",
+  "filing_date": "2002-03-29",
+  "accession_number": "0000313395-02-000013",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": false,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "No commodity derivatives or hedging disclosed; Item 7A cites unhedged commodity price exposure (10% price change ~ $1.3 million impact on revenues)."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2001,
+      "oil_production_bbls": 50000,
+      "oil_production_bpd": 136,
+      "gas_production_mcf": 2673000,
+      "gas_production_mmcf_per_day": 7.3,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "reserves_year_end": "2001-12-31",
+      "proved_oil_reserves_mbbls": 294,
+      "proved_gas_reserves_mmcf": 10976,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {
+      "standardized_measure_mm": 13.983,
+      "pv10_mm": null,
+      "oil_price_used": 17.7,
+      "gas_price_used": 2.72,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:56",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "cik": "101594",
+  "company": "BIG SKY INDUSTRIAL INC.",
+  "filing_date": "2004-03-30",
+  "accession_number": "0000101594-04-000073",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2000,
+        "volume_total": 732000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.76,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "RMG I's contracts to sell gas at a fixed price; physical fixed-price sales contract described in the PV10 discussion",
+        "evidence_quote": "The PV10 value takes into account RMG I's contracts to sell 2,000 Mmbtu per\nday in 2004 at a fixed price of $4.76 per Mmbtu, and 1,000 Mmbtu per day in 2005"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.14,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "RMG I's contracts to sell gas at a fixed price; physical fixed-price sales contract described in the PV10 discussion",
+        "evidence_quote": "day in 2004 at a fixed price of $4.76 per Mmbtu, and 1,000 Mmbtu per day in 2005\nat  a  fixed  price  of $4.14 per Mmbtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "No formal policy stated; text says RMG I may from time to time sign fixed price contracts for more production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2003
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2003-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 7.0564,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:34:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_a53c5192-8ff"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "cik": "355690",
+  "company": "PARKER & PARSLEY PETROLEUM CO",
+  "filing_date": "1997-03-10",
+  "accession_number": "0000355690-97-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 54794.52,
+        "volume_total": 20000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "1997 gas swaps; quarterly volumes Bcf 8.5/6.0/2.9/2.6; weighted avg index price per MMBtu $1.98 (quarterly 2.04/2.01/1.89/1.86); NYMEX-equivalent price $2.23. Total commodity hedge obligation fair value $13.1 million at Mar 3, 1997 (not split by instrument).",
+        "evidence_quote": "Volume (Bcf)                   8.5      6.0      2.9      2.6     20.0"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 19452.05,
+        "volume_total": 7100000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.86,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "1998 gas swaps; quarterly volumes Bcf 2.5/1.8/1.4/1.4; weighted avg index price per MMBtu $1.86; NYMEX-equivalent price $2.03.",
+        "evidence_quote": "Volume (Bcf)                   2.5      1.8      1.4      1.4      7.1"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 9944.75,
+        "volume_total": 1800000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.86,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "1999 gas swaps; Q1 1.4 Bcf, Q2 0.4 Bcf; weighted avg index price per MMBtu $1.86; NYMEX-equivalent price $2.03.",
+        "evidence_quote": "Volume (Bcf)                   1.4       .4       -        -       1.8"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 14520.55,
+        "volume_total": 5300000,
+        "volume_unit": "Bbls",
+        "fixed_price": 19.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "1997 oil swaps; table volume 5.3 MMBbl total (quarterly 1.9/1.5/1.2/0.7 MMBbl); quarterly prices 20.05/19.56/19.28/18.56.",
+        "evidence_quote": "Volume (MMBbl)            1.9       1.5       1.2        .7       5.3"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2465.75,
+        "volume_total": 900000,
+        "volume_unit": "Bbls",
+        "fixed_price": 18.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "1998 oil swaps; table volume 0.9 MMBbl total (quarterly .2/.2/.3/.2 MMBbl); price $18.53 each quarter.",
+        "evidence_quote": "Volume (MMBbl)             .2        .2        .3        .2        .9"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters commodity swaps, futures and options to reduce price volatility, support capital budgeting, and lock in prices for capital projects; hedges gas on index price to mitigate basis risk."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 11275000,
+      "oil_production_bpd": 30805,
+      "gas_production_mcf": 75851000,
+      "gas_production_mmcf_per_day": 207.244,
+      "ngl_production_bbls": null,
+      "total_production_boe": 23916000,
+      "total_production_boepd": 65346,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 163900,
+      "proved_gas_reserves_mmcf": 829400,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 302200,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 2300,
+      "oil_price_used": 24.55,
+      "gas_price_used": 3.97,
+      "lease_operating_expense_per_boe": 3.43,
+      "production_tax_per_boe": 0.91,
+      "total_production_cost_per_boe": 4.61,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.3,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

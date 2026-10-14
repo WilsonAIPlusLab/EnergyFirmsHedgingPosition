@@ -1,0 +1,58 @@
+{
+  "cik": "882343",
+  "company": "PARKER & PARSLEY 90-B CONV LP",
+  "filing_date": "1997-03-25",
+  "accession_number": "0000882343-97-000002",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 48188,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 130387,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 697.926,
+      "proved_gas_reserves_mmcf": 2165.968,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 12.409,
+      "oil_price_used": 24.75,
+      "gas_price_used": 3.71,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:14:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_896e9900-cb3"
+    ]
+  }
+}

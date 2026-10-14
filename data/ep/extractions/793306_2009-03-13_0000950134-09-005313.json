@@ -1,0 +1,58 @@
+{
+  "cik": "793306",
+  "company": "BLUE DOLPHIN ENERGY CO",
+  "filing_date": "2009-03-13",
+  "accession_number": "0000950134-09-005313",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Our Company does not enter into any hedges or any type of derivatives to offset changes in commodity prices. Item 7A: None."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 117,
+      "oil_production_bpd": 0.3,
+      "gas_production_mcf": 44700,
+      "gas_production_mmcf_per_day": 0.1225,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2008
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 0.8,
+      "proved_gas_reserves_mmcf": 158,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2008-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 0.5102,
+      "pv10_mm": 0.51,
+      "oil_price_used": 44.6,
+      "gas_price_used": 5.26,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

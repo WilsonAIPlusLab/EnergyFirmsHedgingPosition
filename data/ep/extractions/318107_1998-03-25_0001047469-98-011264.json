@@ -1,0 +1,119 @@
+{
+  "cik": "318107",
+  "company": "PRIMA ENERGY CORP",
+  "filing_date": "1998-03-25",
+  "accession_number": "0001047469-98-011264",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.575,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-04",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": -0.155,
+        "notes": "One year commodity swap, 150,000 MMBtu per month, Rocky Mountain Region production hedge. Unrealized loss of $155,000 at 12/31/1997 on remaining open months Jan-Mar 1998. Period end inferred from one-year term beginning April 1 (1997).",
+        "evidence_quote": "commodity swap agreement covering 150,000 MMBtu per month, beginning April 1,"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.5675,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-04",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered subsequent to year end; 100,000 MMBtu per month for seven months beginning April 1, 1998 (monthly volume, not stated as daily or total).",
+        "evidence_quote": "beginning April 1, 1998 for 100,000 MMBtu per month at a fixed price of"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.855,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-03",
+        "period_end": "1999-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered subsequent to year end; 200,000 MMBtu per month for twelve months beginning March 1, 1998 (monthly volume, not stated as daily or total).",
+        "evidence_quote": "beginning March 1, 1998 for 200,000 MMBtu per month at a fixed price"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company from time to time uses futures and energy swaps to hedge gas and oil production and purchases for resale; hedges reviewed by CEO, significant positions by Board."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 255000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5344000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1146000,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3358,
+      "proved_gas_reserves_mmcf": 63490,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 58.149,
+      "pv10_mm": 75.54,
+      "oil_price_used": 17.08,
+      "gas_price_used": 2.4,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 2.68,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.31,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

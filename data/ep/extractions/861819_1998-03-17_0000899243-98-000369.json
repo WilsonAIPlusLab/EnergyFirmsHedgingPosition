@@ -1,0 +1,83 @@
+{
+  "cik": "861819",
+  "company": "NUEVO ENERGY CO",
+  "filing_date": "1998-03-17",
+  "accession_number": "0000899243-98-000369",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 16,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": 0.506,
+        "notes": "Several commodity price and basis swap agreements for 1998, aggregate stated as 16.0 Mmcf of gas (unit as written in text); prices range from $2.13 to $2.41 (no weighted average given). Fair value $506 thousand at 12/31/1997 for natural gas commodity price swaps (carrying value nil).",
+        "evidence_quote": "For 1998, the Company is a party to several commodity price and basis swap agreements, hedging an aggregate of 16.0 Mmcf"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company periodically seeks to reduce exposure to price volatility by hedging production through swaps, options and other commodity derivative instruments."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 17127000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 35625000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 282000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 227264,
+      "proved_gas_reserves_mmcf": 390691,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 764.785,
+      "pv10_mm": null,
+      "oil_price_used": 13.44,
+      "gas_price_used": 2.21,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 5.28,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

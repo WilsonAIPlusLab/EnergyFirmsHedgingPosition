@@ -1,0 +1,30 @@
+{
+  "cik": "16873",
+  "company": "NEXEN INC",
+  "filing_date": "2002-03-01",
+  "accession_number": "9999999997-02-011674",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": null,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {},
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:56",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

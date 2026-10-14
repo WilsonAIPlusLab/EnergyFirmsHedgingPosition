@@ -1,0 +1,58 @@
+{
+  "cik": "81318",
+  "company": "Yuma Energy, Inc.",
+  "filing_date": "1998-03-25",
+  "accession_number": "0000081318-98-000003",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 91000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 35000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 462,
+      "proved_gas_reserves_mmcf": 169,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1.732,
+      "pv10_mm": 1.688,
+      "oil_price_used": 14.5,
+      "gas_price_used": 1.7,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 9.9,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 2.69,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

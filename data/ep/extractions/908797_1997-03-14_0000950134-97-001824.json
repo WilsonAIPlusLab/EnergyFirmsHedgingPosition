@@ -1,0 +1,119 @@
+{
+  "cik": "908797",
+  "company": "COHO ENERGY INC",
+  "filing_date": "1997-03-14",
+  "accession_number": "0000950134-97-001824",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 4000,
+        "volume_total": 724000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 21.3,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Min/max WTI price arrangement; settled against average NYMEX WTI closing price. Quote found in production_text (instrument_text is truncated before it).",
+        "evidence_quote": "arrangements which fix a minimum West Texas Intermediate (\"WTI\") price per\nbarrel of $18.00 and a maximum WTI price of $21.30 for 4,000 barrels of oil\nproduction per day for the period January 1, 1997 through June 30, 1997"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3000,
+        "volume_total": 270000,
+        "volume_unit": "Bbls",
+        "fixed_price": 23.47,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed average WTI price; gain/loss = contract price minus average NYMEX WTI close. Type 'swap' inferred from the settlement description. Quote found in production_text.",
+        "evidence_quote": "arrangements which fix an average WTI price of $23.47 for 3,000 barrels of oil\nproduction per day for the period January 1, 1997 through March 31, 1997"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15000,
+        "volume_total": 1350000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedged at average price; gain/loss = contract price minus average settlement price for last three days of the month. Type 'swap' inferred from settlement description. Quote found in production_text.",
+        "evidence_quote": "Company also has 15,000 Mmbtu per day of natural gas production hedged for the\nmonths January through March 1997, at an average price of $3.07 per Mmbtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company enters, and expects to continue to enter, oil and gas hedging transactions to stabilize cash flow for capital planning; tied to production, not speculative."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2468000,
+      "oil_production_bpd": 6742,
+      "gas_production_mcf": 6646000,
+      "gas_production_mmcf_per_day": 18.16,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 9769,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 34822,
+      "proved_gas_reserves_mmcf": 113132,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 53678,
+      "proved_developed_reserves_mboe": 40579,
+      "proved_undeveloped_reserves_mboe": 13099,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 337.219,
+      "pv10_mm": 417.083,
+      "oil_price_used": 22.02,
+      "gas_price_used": 3.53,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 3.88,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.55,
+      "finding_development_cost_per_boe": 4.89
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:42",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

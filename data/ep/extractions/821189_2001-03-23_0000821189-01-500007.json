@@ -1,0 +1,137 @@
+{
+  "cik": "821189",
+  "company": "EOG RESOURCES INC",
+  "filing_date": "2001-03-23",
+  "accession_number": "0000821189-01-500007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1917.81,
+        "volume_total": 700000,
+        "volume_unit": "Bbls",
+        "fixed_price": 26.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": 0.4,
+        "notes": "Open at Dec 31, 2000; approx 0.7 MMBbl crude oil and condensate for 2001; not designated as hedge, mark-to-market accounting; fair value $0.4 million.",
+        "evidence_quote": "there were open crude oil\ncommodity price swaps for 2001 covering approximately 0.7 MMBbl of crude oil\nat a weighted average price of $26.25 per barrel."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1960.78,
+        "volume_total": 600000,
+        "volume_unit": "Bbls",
+        "fixed_price": 28.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-03",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered February 2001 (after year-end); 0.6 MMBbl of oil; mark-to-market accounting. Direction not stated in text.",
+        "evidence_quote": "price swap agreements covering\nnotional  volumes  of 0.6 MMBbl of oil for the period  March  2001  to\nDecember  2001  at  an average price of $28.09 per  Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 100000,
+        "volume_total": 6100000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-04",
+        "period_end": "2001-05",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered February 2001 (after year-end); 100,000 MMBtu/d; mark-to-market accounting.",
+        "evidence_quote": "volumes  of 100,000 million British thermal units of natural  gas  per\nday (MMBtu/d) for the months of April and May 2001 at an average price\nof  $5.16 per MMBtu."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 47000,
+        "volume_total": 2867000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-04",
+        "period_end": "2001-05",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Canadian subsidiary priced physical natural gas agreements in February 2001 at average NYMEX price of US$5.16 per MMBtu less applicable basis (location) adjustments; physical, not a financial derivative.",
+        "evidence_quote": "priced  certain\nnatural  gas physical agreements for approximately 47,000 MMBtu/d  for\nthe  months of April and May 2001 at an average NYMEX price of US$5.16\nper MMBtu"
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Derivatives (primarily price swaps and costless collars) used for non-trading purposes to hedge natural gas and crude oil price fluctuations on net income and cash flow; EOG remained unhedged on gas early in 2000."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2000,
+      "oil_production_bbls": null,
+      "oil_production_bpd": 27500,
+      "gas_production_mcf": 336100000,
+      "gas_production_mmcf_per_day": 908,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "reserves_year_end": "2000-12-31",
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 3380600,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

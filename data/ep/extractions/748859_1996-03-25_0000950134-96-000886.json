@@ -1,0 +1,77 @@
+{
+  "cik": "748859",
+  "company": "STERLING DRILLING FUND 1984-2",
+  "filing_date": "1996-03-25",
+  "accession_number": "0000950134-96-000886",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1995-12",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical gas sales contract, not a financial derivative. Text says the Partnership locked into a twelve month fixed price contract in Q4 1995 (Note 9: renewed gas purchase contract in December 1995 for a fixed price for one year). Price, volume and counterparty are not stated.",
+        "evidence_quote": "fourth quarter of 1995, the Partnership locked into a twelve month fixed price"
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "No financial derivatives disclosed. Gas was sold at spot prices through most of 1995; a twelve-month fixed price gas sales contract was entered in Q4 1995 (December 1995)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1504,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 34105,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 22.09,
+      "proved_gas_reserves_mmcf": 583.17,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 0.236162,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

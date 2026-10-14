@@ -1,0 +1,101 @@
+{
+  "cik": "312037",
+  "company": "VENUS EXPLORATION INC",
+  "filing_date": "1998-03-31",
+  "accession_number": "0000950134-98-002790",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 44.9,
+        "volume_total": 81996,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.0497,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Financial swap entered Dec 2, 1996 by Venus Development (required by Stratum Facility); volume is quantity hedged as of Dec 31, 1997 (period of that quantity not stated); expires Dec 31, 2001. Net fair value of the combined gas and oil swap positions was a net receivable of approximately $34,000 (0.034 mm), not split by commodity.",
+        "evidence_quote": "negotiated fixed price of $2.0497 per mmbtu for natural gas or $19.045 per"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 15.69,
+        "volume_total": 28656,
+        "volume_unit": "Bbls",
+        "fixed_price": 19.045,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Same financial swap agreement as the gas leg; volume is quantity hedged as of Dec 31, 1997 (period of that quantity not stated); expires Dec 31, 2001. Combined swap fair value net receivable approx $34,000 (0.034 mm), not split by commodity.",
+        "evidence_quote": "natural gas and 28,656 barrels of oil. This financial swap agreement expires"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity derivative contracts (primarily price swaps) for non-trading purposes to protect cash flow, on properties owned by Venus Development and pledged under the Stratum Facility, which requires hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 81000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 410000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 977,
+      "proved_gas_reserves_mmcf": 6491,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 11.397,
+      "pv10_mm": 11.397,
+      "oil_price_used": 17.56,
+      "gas_price_used": 2.49,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

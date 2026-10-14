@@ -1,0 +1,101 @@
+{
+  "cik": "1021010",
+  "company": "EDGE PETROLEUM CORP",
+  "filing_date": "2002-04-01",
+  "accession_number": "0000950129-02-001683",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4000,
+        "volume_total": 1460000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.5,
+        "ceiling_price": 6.7,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered Dec 2000; closed out Jan 3, 2001 for Feb 1-Dec 31, 2001 at a cost of $547,760. Not outstanding at 12/31/2001. Fair value of outstanding hedges was approx $(1.1) million at 12/31/2000 (prior year-end, not this filing's year-end). Settled on Houston Ship Channel basis.",
+        "evidence_quote": "During December 2000, the Company entered into a natural gas collar covering 4,000 MMbtu per day for the period January 1, 2001 to December 31, 2001 with a floor of $4.50 per MMBtu and a ceiling of $6.70 per MMBtu."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 18000,
+        "volume_total": 1638000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.65,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-04",
+        "period_end": "2002-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased floor in March 2002 (subsequent event) at a cost of $163,800; not in place at 12/31/2001.",
+        "evidence_quote": "In March 2002, we purchased a natural gas floor at $2.65 per MMbtu covering 18,000 MMbtus per day for the period April 1, 2002 to June 30, 2002 at a cost of $163,800."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses collars, swaps and floors to mitigate commodity price exposure, not for trading or speculation; may hedge a portion of production for predictable cash flow. No hedges in place at Dec 31, 2001."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 115728,
+      "oil_production_bpd": 317,
+      "gas_production_mcf": 6198871,
+      "gas_production_mmcf_per_day": 17,
+      "ngl_production_bbls": 45701,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 750.5,
+      "proved_gas_reserves_mmcf": 38934,
+      "proved_ngl_reserves_mbbls": 227.9,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 63.282847,
+      "pv10_mm": 70.259187,
+      "oil_price_used": 18.14,
+      "gas_price_used": 2.92,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

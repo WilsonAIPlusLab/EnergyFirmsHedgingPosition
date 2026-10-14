@@ -1,0 +1,101 @@
+{
+  "cik": "821483",
+  "company": "PAR PACIFIC HOLDINGS, INC.",
+  "filing_date": "2003-09-23",
+  "accession_number": "0001263279-03-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 196.72,
+        "volume_total": 72000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 27.32,
+        "ceiling_price": 27.32,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-07",
+        "period_end": "2004-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate for fiscal 2004 of swap and collar agreements; weighted average floor and ceiling both $27.32 per barrel (floor equals ceiling). Derivative liability of approx $468,000 at 6/30/2003 is for all instruments combined, not per instrument.",
+        "evidence_quote": "approximately 72,000 Bbls of oil and 386,000 Mcf of\nnatural gas subject to commodity price risk contracts for fiscal 2004."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 1054.64,
+        "volume_total": 386000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 3,
+        "ceiling_price": 4.5,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-07",
+        "period_end": "2004-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate for fiscal 2004 of swap and collar agreements; weighted average floor $3.00 and ceiling $4.50 per Mmbtu. Volume stated in Mcf, prices in Mmbtu.",
+        "evidence_quote": "fiscal 2004 contracts have weighted average floor prices of $27.32 per barrel\nand $3.00 per Mmbtu, with weighted average ceiling prices of $27.32 per barrel\nand $4.50 per Mmbtu, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Began in fiscal 2003 to hedge a portion of oil and gas production using swap and collar agreements to stabilize cash flow and manage commodity price risk."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2938000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2003
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 55200,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2003-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 107.211,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

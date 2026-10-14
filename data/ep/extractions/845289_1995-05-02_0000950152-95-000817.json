@@ -1,0 +1,113 @@
+{
+  "cik": "845289",
+  "company": "HARVEST NATURAL RESOURCES, INC.",
+  "filing_date": "1995-05-02",
+  "accession_number": "0000950152-95-000817",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 245000,
+        "volume_unit": "Bbls",
+        "fixed_price": 16.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1994-05",
+        "period_end": "1994-12",
+        "counterparty": "Morgan Guaranty",
+        "fair_value_mm": null,
+        "notes": "Company receives fixed $16.82/Bbl and pays average WTI price; hedge effective May 1, 1994; 1,000 Bbl/d applies to 1994. 1994 total exposure under the agreement was $328,868 (Q4 1994 net exposure $76,084).",
+        "evidence_quote": "Such payments will\nbe made with respect to production of 1,000 Bbl of oil per day for\n1994, 1,250 Bbl of oil per day for 1995 and 1,500 Bbl of oil per day\nfor 1996."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1250,
+        "volume_total": 456250,
+        "volume_unit": "Bbls",
+        "fixed_price": 16.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-01",
+        "period_end": "1995-12",
+        "counterparty": "Morgan Guaranty",
+        "fair_value_mm": null,
+        "notes": "Company receives fixed $16.82/Bbl and pays average WTI price; 1,250 Bbl/d applies to 1995.",
+        "evidence_quote": "Such payments will\nbe made with respect to production of 1,000 Bbl of oil per day for\n1994, 1,250 Bbl of oil per day for 1995 and 1,500 Bbl of oil per day\nfor 1996."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1500,
+        "volume_total": 549000,
+        "volume_unit": "Bbls",
+        "fixed_price": 16.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": "Morgan Guaranty",
+        "fair_value_mm": null,
+        "notes": "Company receives fixed $16.82/Bbl and pays average WTI price; 1,500 Bbl/d applies to 1996 (agreement runs through end of 1996).",
+        "evidence_quote": "Such payments will\nbe made with respect to production of 1,000 Bbl of oil per day for\n1994, 1,250 Bbl of oil per day for 1995 and 1,500 Bbl of oil per day\nfor 1996."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Commodity hedge agreement with Morgan Guaranty effective May 1, 1994 designed to reduce a portion of the Company's risk from oil price movements."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2061892,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

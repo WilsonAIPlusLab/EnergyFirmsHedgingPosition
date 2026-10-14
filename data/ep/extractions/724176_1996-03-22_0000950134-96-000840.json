@@ -1,0 +1,173 @@
+{
+  "cik": "724176",
+  "company": "MAXUS ENERGY CORP /DE/",
+  "filing_date": "1996-03-22",
+  "accession_number": "0000950134-96-000840",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 60439.56,
+        "volume_total": 5500000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-01",
+        "period_end": "1996-03",
+        "counterparty": null,
+        "fair_value_mm": -1.4,
+        "notes": "Outstanding at 12/31/1995 with other companies. Company will pay variable prices averaging $2.00 per Mmbtu and receive fixed prices averaging $1.74 per Mmbtu; gross unrealized losses of $1.4 million based on gas sales prices at period end.",
+        "evidence_quote": "with other companies to exchange payments on 5.5 million Mmbtu of gas during the"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 3600000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding at 12/31/1995 with other companies to sell 3.6 million Mmbtu. Company will receive selling prices averaging $2.01 per Mmbtu and pay settlement prices averaging $2.76 per Mmbtu; settlement period not stated; unrealized loss amount cut off in text.",
+        "evidence_quote": "other companies to sell 3.6 million Mmbtu of gas. Under these futures contracts,"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 38909.09,
+        "volume_total": 10700000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-04",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical, settled during nine months ended Dec 31, 1995. Company paid fixed or variable prices averaging $1.68 per Mmbtu and received fixed or variable prices averaging $1.53 per Mmbtu. Net realized loss $1.6 million (losses $2.1 million, gains $0.5 million).",
+        "evidence_quote": "Company had swap agreements with other companies to exchange payments on 10.7"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 17818.18,
+        "volume_total": 4900000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-04",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical, settled during nine months ended Dec 31, 1995. Company received selling prices averaging $1.71 per Mmbtu and paid settlement prices averaging $1.70 per Mmbtu; realized gross gains and losses immaterial.",
+        "evidence_quote": "with other companies on 4.9 million Mmbtu of gas. Under these futures contracts,"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 8888.89,
+        "volume_total": 800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-01",
+        "period_end": "1995-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical, three months ended March 31, 1995 (predecessor period). Company paid fixed or variable prices averaging $1.61 per Mmbtu and received fixed or variable prices averaging $1.58 per Mmbtu; gross gains and losses immaterial.",
+        "evidence_quote": "Company had swap agreements with other companies to exchange payments on 0.8"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 13333.33,
+        "volume_total": 1200000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-01",
+        "period_end": "1995-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical, settled during three months ended March 31, 1995 (predecessor period). Company received selling prices averaging $1.65 per Mmbtu and paid settlement prices averaging $1.46 per Mmbtu; realized gross gains $0.2 million.",
+        "evidence_quote": "contracts with other companies on 1.2 million Mmbtu of gas. Under these futures"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges crude oil and natural gas price fluctuations via swaps and futures; historically hedged no more than 50% of US gas production, may hedge up to 90% during 1996."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": 981,
+      "pv10_mm": 1404.8,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

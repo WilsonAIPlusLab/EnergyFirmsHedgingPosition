@@ -1,0 +1,32 @@
+{
+  "cik": "914144",
+  "company": "HUGOTON ENERGY CORP",
+  "filing_date": "1996-05-23",
+  "accession_number": "0000950129-96-000999",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": null
+    },
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

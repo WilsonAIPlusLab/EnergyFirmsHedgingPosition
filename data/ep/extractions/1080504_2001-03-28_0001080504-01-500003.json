@@ -1,0 +1,95 @@
+{
+  "cik": "1080504",
+  "company": "Eastern 1998D Limited Partnership",
+  "filing_date": "2001-03-28",
+  "accession_number": "0001080504-01-500003",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 376330,
+        "volume_unit": "other",
+        "fixed_price": 3.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": -1.451573,
+        "notes": "NYMEX natural gas futures for the sale of 376,330 dt (dekatherms), maturing in 2001; weighted average price $3.82 per dt; total contract amount $1,121,650. Period inferred only as 'maturing in 2001'.",
+        "evidence_quote": "Open future contracts maturing in 2001 are for the sale of 376,330 dt of natural gas with a weighted average price of $3.82 dt resulting in a total contract amount of $1,121,650, and a fair market value"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 501773,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": 3.68,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": -0.166965,
+        "notes": "NYMEX natural gas option contracts for the sale of 501,773 dt (dekatherms), maturing in 2001; weighted average floor price $3.68 per dt. Option type (put) not explicitly stated; floor strike only.",
+        "evidence_quote": "Open option contracts maturing in 2001 are for the sale of 501,773 dt with a weighted average floor price of $3.68 dt and a fair value of $(166,965)."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Managing General Partner uses NYMEX natural gas futures and options as hedges of anticipated gas sales within ~12 months; no trading or speculative use; hedges only with an underlying physical position."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 873801,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 7304.322,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

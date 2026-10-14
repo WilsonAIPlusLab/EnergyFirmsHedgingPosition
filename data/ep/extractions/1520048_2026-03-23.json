@@ -1,0 +1,61 @@
+{
+  "cik": "1520048",
+  "company": "Permianville Royalty Trust",
+  "filing_date": "2026-03-23",
+  "accession_number": "0001104659-26-033412",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Trust is a smaller reporting company (no Item 7A). Conveyance prohibits Sponsor from new hedging burdening the Trust; all production in which the Trust has an interest is unhedged."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 436669,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 6472288,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1515384,
+      "total_production_boepd": null,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 10433,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 73.246,
+      "pv10_mm": null,
+      "oil_price_used": 65.34,
+      "gas_price_used": 3.39,
+      "lease_operating_expense_per_boe": 15.49,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

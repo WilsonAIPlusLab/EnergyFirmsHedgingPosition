@@ -1,0 +1,173 @@
+{
+  "cik": "832820",
+  "company": "KCS ENERGY INC",
+  "filing_date": "1997-03-31",
+  "accession_number": "0000950123-97-002821",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 23287.67,
+        "volume_total": 8500000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity price swaps acquired via Medallion Acquisition; 8.5 million MMBtu for 1997 (first of three 'respectively' volumes). No prices stated.",
+        "evidence_quote": "covering approximately 8.5 million MMBtu, 4.8 million MMBtu and 17.8 million"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 13150.68,
+        "volume_total": 4800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity price swaps; 4.8 million MMBtu for 1998 (second of three 'respectively' volumes). No prices stated.",
+        "evidence_quote": "covering approximately 8.5 million MMBtu, 4.8 million MMBtu and 17.8 million"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 6961.28,
+        "volume_total": 17800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1999-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity price swaps; 17.8 million MMBtu for the period 1999 through 2005 (third of three 'respectively' volumes). No prices stated.",
+        "evidence_quote": "covering approximately 8.5 million MMBtu, 4.8 million MMBtu and 17.8 million"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 6027.4,
+        "volume_total": 2200000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis swap arrangements acquired via Medallion Acquisition; approximately 2.2 million MMBtu during 1997; fixed differential not stated.",
+        "evidence_quote": "had basis swap arrangements relating to a total of approximately 2.2 million"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "1,500 long contracts at average $2.25 per Mcf at 12/31/1996, maturing through 1999. Text does not separate futures from options; the 21,350 MMcf covers long and short contracts combined, so volume_total not split.",
+        "evidence_quote": "hedging activities consisted of 1,500\nlong contracts at an average price of $2.25 per Mcf"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "635 short contracts at average $2.53 per Mcf at 12/31/1996, maturing through 1999. Combined long and short contracts cover 21,350 MMcf of natural gas (not split by side in the text). Deferred gains net of deferred losses were $1.0 million at 12/31/1996.",
+        "evidence_quote": "635 short contracts at\nan average price of $2.53 per Mcf maturing through 1999, covering 21,350 MMcf of\nnatural gas."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enters into swaps, futures contracts and options to manage risks from price fluctuations of its natural gas and oil production and marketing activities; futures used to hedge a portion of production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 758000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 25581000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 14631,
+      "proved_gas_reserves_mmcf": 268025,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 437.599,
+      "pv10_mm": 557.612,
+      "oil_price_used": 22.45,
+      "gas_price_used": 3.54,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:40",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

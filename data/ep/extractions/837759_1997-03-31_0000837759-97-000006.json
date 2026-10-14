@@ -1,0 +1,119 @@
+{
+  "cik": "837759",
+  "company": "MALLON RESOURCES CORP",
+  "filing_date": "1997-03-31",
+  "accession_number": "0000837759-97-000006",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 9,000 Bbls per month (aggregate). Fixed prices range from $23.36 to $19.99 (no weighted average stated); NYMEX WTI reference.",
+        "evidence_quote": "Oil      9,000 Bbls/month   $23.36-$19.99  1/97-12/97 NYMEX WTI"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 60,000 MMBtu per month. Fixed prices range from $2.54 to $1.62 (no weighted average stated); El Paso Natural Gas (Permian) reference.",
+        "evidence_quote": "Gas      60,000 MMBtu/month $ 2.54-$ 1.62  1/97-12/97 El Paso"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 30,000 MMBtu per month. Fixed prices range from $2.42 to $1.50 (no weighted average stated); El Paso Natural Gas (San Juan) reference.",
+        "evidence_quote": "Gas      30,000 MMBtu/month $ 2.42-$ 1.50  1/97-12/97 El Paso"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses energy swaps and other financial arrangements to hedge oil and gas price volatility; gains/losses matched to product sales; hedging seen as a prudent means of protecting financial interests."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 174000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1286000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 388000,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1707,
+      "proved_gas_reserves_mmcf": 28388,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 6439,
+      "proved_developed_reserves_mboe": 4645,
+      "proved_undeveloped_reserves_mboe": 1784,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 36.011,
+      "pv10_mm": 49.957,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 5.8,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.96,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

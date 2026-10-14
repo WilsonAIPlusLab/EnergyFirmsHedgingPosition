@@ -1,0 +1,173 @@
+{
+  "cik": "754881",
+  "company": "LATEX RESOURCES INC",
+  "filing_date": "1996-12-20",
+  "accession_number": "0000930661-96-001869",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 2605384,
+        "volume_unit": "other",
+        "fixed_price": 1.806,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-08",
+        "period_end": "1996-07",
+        "counterparty": "Bank of America",
+        "fair_value_mm": null,
+        "notes": "Gas pre-sold at fixed $1.806 per MMBTU for three year period beginning April 1, 1995 (until March 31, 1998); fiscal 1996 average dedicated annual volume. Volume unit stated in text as 'MMcf' (as written) while price is per MMBTU. Fiscal year ends July 31. Hedge loss on gas for FY1996 was 1,275,206 dollars.",
+        "evidence_quote": "dedicated annual volumes for gas average 2,605,384 MMcf in fiscal 1996,"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1948592,
+        "volume_unit": "other",
+        "fixed_price": 1.806,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-08",
+        "period_end": "1997-07",
+        "counterparty": "Bank of America",
+        "fair_value_mm": null,
+        "notes": "Fiscal 1997 average dedicated annual gas volume at fixed $1.806 per MMBTU. Volume unit stated in text as 'MMcf' (as written).",
+        "evidence_quote": "1,948,592 MMcf in fiscal 1997 and 1,115,296 MMcf in fiscal 1998.  In addition,"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1115296,
+        "volume_unit": "other",
+        "fixed_price": 1.806,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-08",
+        "period_end": "1998-03",
+        "counterparty": "Bank of America",
+        "fair_value_mm": null,
+        "notes": "Fiscal 1998 average dedicated annual gas volume at fixed $1.806 per MMBTU; hedge program runs until March 31, 1998 per Note 15. Volume unit stated in text as 'MMcf' (as written).",
+        "evidence_quote": "1,948,592 MMcf in fiscal 1997 and 1,115,296 MMcf in fiscal 1998.  In addition,"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 886.03,
+        "volume_total": 324288,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16.5,
+        "ceiling_price": 19.82,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-08",
+        "period_end": "1996-07",
+        "counterparty": "Bank of America",
+        "fair_value_mm": null,
+        "notes": "Oil collar between $16.50 and $19.82 per barrel; fiscal 1996 average dedicated annual volume. Based on projected monthly production fixed by Bank of America. Oil hedge loss FY1996 was 200,447 dollars.",
+        "evidence_quote": "for oil average 324,288 Bbls in fiscal 1996, 279,828 Bbls in fiscal 1997 and"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 766.65,
+        "volume_total": 279828,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16.5,
+        "ceiling_price": 19.82,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-08",
+        "period_end": "1997-07",
+        "counterparty": "Bank of America",
+        "fair_value_mm": null,
+        "notes": "Oil collar between $16.50 and $19.82 per barrel; fiscal 1997 average dedicated annual volume.",
+        "evidence_quote": "for oil average 324,288 Bbls in fiscal 1996, 279,828 Bbls in fiscal 1997 and"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 701.0,
+        "volume_total": 170344,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16.5,
+        "ceiling_price": 19.82,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-08",
+        "period_end": "1998-03",
+        "counterparty": "Bank of America",
+        "fair_value_mm": null,
+        "notes": "Oil collar between $16.50 and $19.82 per barrel; fiscal 1998 average dedicated annual volume; program runs until March 31, 1998 per Note 15.",
+        "evidence_quote": "170,344 Bbls in fiscal 1998.  Interest rate protection was provided based on an"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Required by Bank of America credit agreement to participate in a price protection program (gas fixed swap, oil collar) and interest rate protection; not a discretionary policy."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 405000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3481000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 985000,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6353,
+      "proved_gas_reserves_mmcf": 28172,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 11048,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-07-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 40.448,
+      "pv10_mm": 53.499,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.82,
+      "production_tax_per_boe": 0.89,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.6,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:40",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

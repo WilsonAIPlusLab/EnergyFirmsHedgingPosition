@@ -1,0 +1,155 @@
+{
+  "cik": "717754",
+  "company": "INLAND RESOURCES INC",
+  "filing_date": "2000-03-30",
+  "accession_number": "0000950134-00-002760",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1967.21,
+        "volume_total": 720000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Various cost-free collars on NYMEX Light Sweet Crude; 60,000 barrels per month; floors range $19.00 to $20.00, ceilings range $19.70 to $22.50 (single weighted prices not stated). Combined fair value of 2000 and 2001 collars at 12/31/1999 is a liability of $480,100.",
+        "evidence_quote": "The Company has hedged 720,000 barrels of its projected year 2000 oil production (60,000 barrels per month) under various"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1813.19,
+        "volume_total": 495000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Various cost-free collars; 60,000 barrels per month January through June and 45,000 barrels per month July through September 2001; floors range $19.00 to $20.50, ceilings range $20.80 to $22.15. Combined fair value of 2000 and 2001 collars at 12/31/1999 is a liability of $480,100.",
+        "evidence_quote": "of its projected year 2001 oil production (60,000 barrels per month for January"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 14.28,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-04",
+        "period_end": "1999-12",
+        "counterparty": "Enron Capital and Trade Resources Corp.",
+        "fair_value_mm": null,
+        "notes": "Two swap contracts covering 80,000 barrels per month at an average strike price of $14.28 (NYMEX Light Sweet Crude); expired during 1999; 1999 revenue reduction of $4.9 million under these contracts.",
+        "evidence_quote": "month at an average strike price of $14.28 (based on NYMEX Light Sweet Crude Oil"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4300,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.97,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "2000-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical gas sales contract (not described as a hedge); contract to sell 4,300 Mcf per day through March 2000 at $1.97 per Mcf.",
+        "evidence_quote": "gas production. The Company currently has a contract to sell 4,300 Mcf per day"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2600,
+        "volume_total": 556400,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.41,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2000-04",
+        "period_end": "2000-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical gas sales contract (not described as a hedge); sells 2,600 Mcf per day April 2000 through October 2000 at $2.41 per Mcf.",
+        "evidence_quote": "2000 through October 2000 to sell 2,600 Mcf per day at $2.41 per Mcf. Natural"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Inland hedges a portion of its oil and gas production to reduce exposure to price fluctuations, using swaps or collars settled against NYMEX futures; hedging requires lender consent under the ING Credit Agreement."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1165000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2901000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1649000,
+      "total_production_boepd": 4518,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.34,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.59,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

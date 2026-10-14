@@ -1,0 +1,137 @@
+{
+  "cik": "1089697",
+  "company": "SPINNAKER EXPLORATION CO",
+  "filing_date": "2001-03-02",
+  "accession_number": "0000899243-01-000497",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 50000,
+        "volume_total": 4500000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.95,
+        "ceiling_price": 3.43,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar, NYMEX-based. Counterparties only described as major financial institutions. Fair value of all derivatives at 1 Jan 2001 was a net current liability of about $41.7 million (aggregate, not per instrument).",
+        "evidence_quote": "First Quarter 2001......................... 50,000     $2.95       $3.43"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 53297,
+        "volume_total": 4850027,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.99,
+        "ceiling_price": 4.64,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-04",
+        "period_end": "2001-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar, NYMEX-based average floor and ceiling.",
+        "evidence_quote": "Second Quarter 2001........................ 53,297      2.99        4.64"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 50000,
+        "volume_total": 4600000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3,
+        "ceiling_price": 4.72,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-07",
+        "period_end": "2001-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar, NYMEX-based average floor and ceiling.",
+        "evidence_quote": "Third Quarter 2001......................... 50,000      3.00        4.72"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 50000,
+        "volume_total": 4600000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3,
+        "ceiling_price": 4.72,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-10",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table label reads 'Fourth Quarter 2001 (through November 30, 2001)'; notes elsewhere say the collars mature monthly through November 2001.",
+        "evidence_quote": "Fourth Quarter 2001 (through November 30,\n    2001)..................................... 50,000      3.00        4.72"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Costless collars with major financial institutions; does not hedge more than 50 percent of production without prior approval of the risk management committee."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 225000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 28845000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3098,
+      "proved_gas_reserves_mmcf": 164098,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 899.137,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

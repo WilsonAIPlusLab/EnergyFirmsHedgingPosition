@@ -1,0 +1,137 @@
+{
+  "cik": "1024645",
+  "company": "TITAN EXPLORATION INC",
+  "filing_date": "1999-03-31",
+  "accession_number": "0000930661-99-000668",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 30.5,
+        "volume_total": 11134,
+        "volume_unit": "Mmbtu",
+        "floor_price": 2.724,
+        "ceiling_price": 2.111,
+        "fixed_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "1999 column of the Item 7A table; floor = weighted avg long put strike, ceiling = weighted avg short call strike, both as printed. Table header says volumes are excluded from the 'dollars in thousands' scale, so 11,134 is reported as printed. Total (1999+2000) collar volume 12,499 has fair value $2,729 thousand; not split by year.",
+        "evidence_quote": "Weighted average short call MMBtu strike price (b)              $ 2.111          $2.200"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 3.73,
+        "volume_total": 1365,
+        "volume_unit": "Mmbtu",
+        "floor_price": 2.55,
+        "ceiling_price": 2.2,
+        "fixed_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "2000 column of the Item 7A table; floor = weighted avg long put strike, ceiling = weighted avg short call strike. Total (1999+2000) collar fair value $2,729 thousand; not split by year.",
+        "evidence_quote": "Weighted average long put MMBtu strike price (b)                $ 2.724          $2.550"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 29.7,
+        "volume_total": 10839,
+        "volume_unit": "Mmbtu",
+        "floor_price": null,
+        "ceiling_price": null,
+        "fixed_price": 0.227,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis differential contract (spread between NYMEX and El Paso/Permian price), 1999 column. Total (1999+2000) basis contracts volume 12,204 with fair value $(1,056) thousand; not split by year.",
+        "evidence_quote": "Basis differential contracts (c):\n  Notional volumes (MMBtu)                                         10,839           1,365          12,204         $(1,056)"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 3.73,
+        "volume_total": 1365,
+        "volume_unit": "Mmbtu",
+        "floor_price": null,
+        "ceiling_price": null,
+        "fixed_price": 0.218,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis differential contract (spread between NYMEX and El Paso/Permian price), 2000 column. Total (1999+2000) fair value $(1,056) thousand; not split by year.",
+        "evidence_quote": "Weighted average MMBtu strike price                             $ 0.227          $0.218"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Only enters interest rate and commodity price derivative instruments that qualify as hedges of existing risks; no derivatives for trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2492000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 26731000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 23011,
+      "proved_gas_reserves_mmcf": 331970,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 236.628,
+      "pv10_mm": 242.17,
+      "oil_price_used": 9.49,
+      "gas_price_used": 1.57,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

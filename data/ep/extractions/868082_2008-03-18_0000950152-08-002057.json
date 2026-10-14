@@ -1,0 +1,167 @@
+{
+  "cik": "868082",
+  "company": "EVERFLOW EASTERN PARTNERS LP",
+  "filing_date": "2008-03-18",
+  "accession_number": "0000950152-08-002057",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4207.65,
+        "volume_total": 1540000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 9.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": "Dominion",
+        "fair_value_mm": null,
+        "notes": "Physical gas sales lock-in under annual contract with Dominion; filing states these contracts are not considered derivatives (designated as annual sales contracts under SFAS No. 133). Weighted-average price per Mcf.",
+        "evidence_quote": "2008\n\n    \t1.54\n\n    \t$\n    \t9.45\n\n    \t0.74\n\n    \t$\n    \t9.37\n\n    \t2.28\n\n    \t$\n    \t9.42"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2021.86,
+        "volume_total": 740000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 9.37,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": "IGS",
+        "fair_value_mm": null,
+        "notes": "Physical gas sales lock-in under annual contract with IGS; filing states these contracts are not considered derivatives. Weighted-average price per Mcf.",
+        "evidence_quote": "2008\n\n    \t1.54\n\n    \t$\n    \t9.45\n\n    \t0.74\n\n    \t$\n    \t9.37\n\n    \t2.28\n\n    \t$\n    \t9.42"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3698.63,
+        "volume_total": 1350000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 9.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2009-01",
+        "period_end": "2009-12",
+        "counterparty": "Dominion",
+        "fair_value_mm": null,
+        "notes": "Physical gas sales lock-in under annual contract with Dominion; filing states these contracts are not considered derivatives. Weighted-average price per Mcf.",
+        "evidence_quote": "2009\n\n    \t1.35\n\n    \t9.55\n\n    \t0.70\n\n    \t9.59\n\n    \t2.05\n\n    \t9.56"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1917.81,
+        "volume_total": 700000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 9.59,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2009-01",
+        "period_end": "2009-12",
+        "counterparty": "IGS",
+        "fair_value_mm": null,
+        "notes": "Physical gas sales lock-in under annual contract with IGS; filing states these contracts are not considered derivatives. Weighted-average price per Mcf.",
+        "evidence_quote": "2009\n\n    \t1.35\n\n    \t9.55\n\n    \t0.70\n\n    \t9.59\n\n    \t2.05\n\n    \t9.56"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2960.53,
+        "volume_total": 900000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 9.58,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2010-01",
+        "period_end": "2010-10",
+        "counterparty": "Dominion",
+        "fair_value_mm": null,
+        "notes": "Physical gas sales lock-in under annual contract with Dominion; text says locked quantities run through October 2010; filing states these contracts are not considered derivatives. Weighted-average price per Mcf.",
+        "evidence_quote": "2010\n\n    \t0.90\n\n    \t9.58\n\n    \t0.39\n\n    \t9.58\n\n    \t1.29\n\n    \t9.58"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1282.89,
+        "volume_total": 390000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 9.58,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2010-01",
+        "period_end": "2010-10",
+        "counterparty": "IGS",
+        "fair_value_mm": null,
+        "notes": "Physical gas sales lock-in under annual contract with IGS; text says locked quantities run through October 2010; filing states these contracts are not considered derivatives. Weighted-average price per Mcf.",
+        "evidence_quote": "2010\n\n    \t0.90\n\n    \t9.58\n\n    \t0.39\n\n    \t9.58\n\n    \t1.29\n\n    \t9.58"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Risk management objective is to lock in a range of pricing for no more than 80% to 90% of expected production volumes, via physical gas sales commitments with Dominion and IGS."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 70000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3228000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2007
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 746,
+      "proved_gas_reserves_mmcf": 44910,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2007-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 133.492,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

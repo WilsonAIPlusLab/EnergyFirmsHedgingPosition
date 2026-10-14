@@ -1,0 +1,119 @@
+{
+  "cik": "845289",
+  "company": "HARVEST NATURAL RESOURCES, INC.",
+  "filing_date": "2005-02-23",
+  "accession_number": "0000950129-05-001537",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 10000,
+        "volume_total": 3060000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 30,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-03",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased WTI put by Harvest Vinccler; premium $2.50/bbl ($7.7 million); expired in 2003, economic effect approx 20,800 bpd due to Venezuelan pricing structure.",
+        "evidence_quote": "barrels of oil per day for the period of March 1, 2003 through December 31, 2003. Due to the"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 5000,
+        "volume_total": 1825000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 40,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased WTI put in August 2004 for calendar 2005; premium $4.24/bbl ($7.7 million). Combined with second put, unrealized loss in AOCI $0.7 million at 12/31/2004 (not split by instrument).",
+        "evidence_quote": "for 5,000 barrels of oil per day. The put cost was $4.24 per barrel, or $7.7 million, and has a"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 5000,
+        "volume_total": 1825000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 44.4,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second WTI put purchased September 2004 for calendar 2005; 5,000 bpd per text, strike $44.40, premium $3.95/bbl ($7.2 million). Two puts together have economic effect of hedging approx 20,800 bpd at average $18.29/bbl due to Venezuelan pricing.",
+        "evidence_quote": "barrels of oil per day. The put cost was $3.95 per barrel, or $7.2 million, and has a strike price"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Harvest Vinccler bought WTI oil puts (2003 and two for 2005) as cash flow hedges; no hedging transactions in place for 2004 production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 8152261,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 31059416,
+      "gas_production_mmcf_per_day": 85,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 62514,
+      "proved_gas_reserves_mmcf": 131426,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 84400,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 544.98,
+      "pv10_mm": 802.022,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:24",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

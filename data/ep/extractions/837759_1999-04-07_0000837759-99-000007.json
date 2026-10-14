@@ -1,0 +1,137 @@
+{
+  "cik": "837759",
+  "company": "MALLON RESOURCES CORP",
+  "filing_date": "1999-04-07",
+  "accession_number": "0000837759-99-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6000,
+        "volume_total": 354000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.06,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-02",
+        "counterparty": null,
+        "fair_value_mm": 0.122,
+        "notes": "Item 7A table row for 1999 (354,000 MMBtu, fair value $122,000); Note 11 table gives 6,000 MMBtu/day, 1/99-2/99, market reference El Paso Natural Gas (San Juan). Direction not stated; short assumed from hedge-of-production language.",
+        "evidence_quote": "1999      354,000     $2.06                    $122,000"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 14754.1,
+        "volume_total": 5400000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.02,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": 0.225,
+        "notes": "Item 7A table row for 2000 (5,400,000 MMBtu, fair value $225,000); Note 11 table gives 450,000 MMBtu/month, 1/00-12/00, market reference El Paso Natural Gas (San Juan). Direction not stated; short assumed from hedge-of-production language.",
+        "evidence_quote": "2000    5,400,000     $2.02                    $225,000"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 6000,
+        "volume_total": 354000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.785,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-02",
+        "counterparty": null,
+        "fair_value_mm": -0.025,
+        "notes": "Offsetting energy swap that counteracts the 1999 swap above; floating price based on El Paso Natural Gas - San Juan; Note 11 says 6,000 MMBtu/day for January and February 1999.",
+        "evidence_quote": "the Company must pay the \ncounterparty if the fixed price of $1.785 exceeds the floating price (based on \nEl Paso Natural Gas - San Juan)."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 19726.03,
+        "volume_total": 7200000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": -0.181,
+        "notes": "Two basis swaps combined, fixing the differential between the NYMEX price and the index price; Note 11 states monthly volume of 450,000 MMBTU through December 1999. Differential value not stated.",
+        "evidence_quote": "the Company also had two basis swaps in place to fix the \ndifferential between the NYMEX price and the index price at which the hedged \ngas is to be sold for 7,200,000 MMBtu in 1999 with a fair value of $(181,000)."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses swaps to reduce natural gas price volatility on a portion of gas production; basis swaps fix NYMEX-to-index differential; hedging viewed as prudent in certain circumstances to minimize risk of falling prices."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 230000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5852000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1264,
+      "proved_gas_reserves_mmcf": 84161,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 43.339,
+      "pv10_mm": 43.339,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

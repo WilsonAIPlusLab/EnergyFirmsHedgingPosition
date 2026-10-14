@@ -1,0 +1,155 @@
+{
+  "cik": "797468",
+  "company": "OCCIDENTAL PETROLEUM CORP /DE/",
+  "filing_date": "1995-03-17",
+  "accession_number": "0000950148-95-000114",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 200000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "MidCon price hedge, NYMEX futures purchases, notional at Dec 31, 1994; hedging contracts have terms of one to 18 months; deferred net gains of $3.9 million on firm commitment/forecast transactions (NYMEX column) not allocated by row.",
+        "evidence_quote": "Futures                                Purchases                  0.2            --            0.2"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 97200000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "MidCon price hedge, NYMEX futures sales (hedges of sales), notional at Dec 31, 1994; contracts have terms of one to 18 months; NYMEX futures are not GAAP financial instruments per the filing.",
+        "evidence_quote": "Sales                     97.2            --           97.2"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 8500000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 3.9,
+        "notes": "MidCon over-the-counter price swaps (hedges of purchases), notional at Dec 31, 1994; fair value of $3.9 million is listed under Liabilities for price swaps (book value --); footnote mentions a nine-year swap agreement excluded from the weighted-average term of under 12 months.",
+        "evidence_quote": "Swaps                                  Purchases                   --           8.5            8.5"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 9700000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "MidCon OTC basis swaps (purchases), notional at Dec 31, 1994; basis swaps hedge geographic price differentials. Total basis swap liabilities: book value $0.2 million, fair value $0.8 million (not split between purchases and sales rows).",
+        "evidence_quote": "Basis swaps(c)                         Purchases                   --           9.7            9.7"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 19400000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "MidCon OTC basis swaps (sales), notional at Dec 31, 1994; fair value for all basis swaps combined was $0.8 million (book $0.2 million), not split by row.",
+        "evidence_quote": "Sales                       --          19.4           19.4"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Commodity derivative activity generally limited to hedging; MidCon uses futures, options and swaps to hedge gas storage, fixed sales/purchase contracts and gas production. Does not use highly complex or leveraged instruments."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 59000,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 620,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 3302,
+      "pv10_mm": null,
+      "oil_price_used": 14.21,
+      "gas_price_used": 1.85,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.24,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:40",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

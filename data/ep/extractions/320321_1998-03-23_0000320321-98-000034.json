@@ -1,0 +1,119 @@
+{
+  "cik": "320321",
+  "company": "DEVON OEI OPERATING INC",
+  "filing_date": "1998-03-23",
+  "accession_number": "0000320321-98-000034",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 11,
+        "volume_total": null,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity hedges required by the monetary production payment (1995 sale of Section 29 properties); volume stated as approximately 11 MMcf per day (unit not normalised to Mcf); instrument type and prices not disclosed; period stated as 'through December 1998'.",
+        "evidence_quote": "credit-bearing  properties) for  approximately  11 MMcf per day through December"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 16438.36,
+        "volume_total": 6000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open natural gas futures, swaps and option contracts (types combined) related to third-party marketing, purchases side, at Dec 31, 1997. Company-wide fair value of commodity hedging activities was $1 million of unrealized costs on open contracts (not allocated).",
+        "evidence_quote": "its third-party marketing efforts totaling 6 Bcf and 14 Bcf related to purchases"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 38356.16,
+        "volume_total": 14000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open natural gas futures, swaps and option contracts (types combined) related to third-party marketing, sales side, at Dec 31, 1997. Company-wide fair value of commodity hedging activities was $1 million of unrealized costs on open contracts (not allocated).",
+        "evidence_quote": "its third-party marketing efforts totaling 6 Bcf and 14 Bcf related to purchases"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Closed substantially all equity-production derivatives in early 1997; focus on reducing price and basis risk for third-party marketing; MPP-required gas hedges (~11 MMcf/d) remain through Dec 1998."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 20711,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 357,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 72285,
+      "proved_gas_reserves_mmcf": 867991,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 216950,
+      "proved_developed_reserves_mboe": 173362,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 932.443,
+      "pv10_mm": 1219.363,
+      "oil_price_used": 15.41,
+      "gas_price_used": 2.42,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": 5.73
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

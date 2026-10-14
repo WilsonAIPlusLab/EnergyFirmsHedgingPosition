@@ -1,0 +1,155 @@
+{
+  "cik": "1371782",
+  "company": "MV Oil Trust",
+  "filing_date": "2007-04-02",
+  "accession_number": "0001104659-07-024952",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1882.19,
+        "volume_total": 687000,
+        "volume_unit": "Bbls",
+        "fixed_price": 62.52,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap, weighted average price; MV Partners' contract, trust receives 80% of settlements",
+        "evidence_quote": "2007\n\n687,000\n\n62.52\n\n120,000\n\n$\n\n61.00\n\n$\n\n68.00"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 328.77,
+        "volume_total": 120000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 61,
+        "ceiling_price": 68,
+        "price_unit": "$/Bbl",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar, weighted average floor and ceiling; MV Partners' contract, trust receives 80% of settlements",
+        "evidence_quote": "2007\n\n687,000\n\n62.52\n\n120,000\n\n$\n\n61.00\n\n$\n\n68.00"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2128.42,
+        "volume_total": 779000,
+        "volume_unit": "Bbls",
+        "fixed_price": 58.79,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap, weighted average price; no collars in 2008",
+        "evidence_quote": "2008\n\n779,000\n\n58.79\n\n\u2014\n\n\u2014\n\n\u2014"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1857.53,
+        "volume_total": 678000,
+        "volume_unit": "Bbls",
+        "fixed_price": 66.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2009-01",
+        "period_end": "2009-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap, weighted average price; no collars in 2009",
+        "evidence_quote": "2009\n\n678,000\n\n66.24\n\n\u2014\n\n\u2014\n\n\u2014"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1747.4,
+        "volume_total": 637800,
+        "volume_unit": "Bbls",
+        "fixed_price": 65.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap, weighted average price; no collars in 2010",
+        "evidence_quote": "2010\n\n637,800\n\n65.03\n\n\u2014\n\n\u2014\n\n\u2014"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "MV Partners (not the trust) hedges oil via swaps and costless collars for 2007-2010; trust gets 80% of settlements; conveyance prohibits new hedges for the trust's benefit."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1023875,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 101062,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 6571,
+      "total_production_boe": 1045000,
+      "total_production_boepd": null,
+      "production_year": 2006
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 17789,
+      "proved_gas_reserves_mmcf": 1283,
+      "proved_ngl_reserves_mbbls": 103,
+      "total_proved_reserves_mboe": 18070,
+      "proved_developed_reserves_mboe": 16109,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2006-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 275.108,
+      "pv10_mm": 275.1,
+      "oil_price_used": 56.81,
+      "gas_price_used": 4.74,
+      "lease_operating_expense_per_boe": 11.17,
+      "production_tax_per_boe": 3.31,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

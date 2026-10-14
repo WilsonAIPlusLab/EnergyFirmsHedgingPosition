@@ -1,0 +1,58 @@
+{
+  "cik": "750561",
+  "company": "PARALLEL PETROLEUM CORP",
+  "filing_date": "1999-03-31",
+  "accession_number": "0000750561-99-000003",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "We do not have or trade in derivative financial instruments. We have not entered into hedging arrangements; may elect to hedge in the future."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 185474,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3275882,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 731454,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1724,
+      "proved_gas_reserves_mmcf": 26021,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 6060.534,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 26.823,
+      "pv10_mm": 26.823,
+      "oil_price_used": 10.5,
+      "gas_price_used": 2,
+      "lease_operating_expense_per_boe": 3.33,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 3.33,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 8.16,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

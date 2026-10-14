@@ -1,0 +1,169 @@
+{
+  "cik": "1035002",
+  "company": "VALERO ENERGY CORP/TX",
+  "filing_date": "2026-02-25",
+  "accession_number": "0001628280-26-011499",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "other",
+        "direction": "short",
+        "volume_per_day": 7452.05,
+        "volume_total": 2720000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Refined petroleum products; designated as cash flow hedge; notional 2,720 thousand barrels by year of maturity 2026",
+        "evidence_quote": "Futures \u2013 short\t\t2,720"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "mixed",
+        "direction": "long",
+        "volume_per_day": 255224.66,
+        "volume_total": 93157000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Crude oil and refined petroleum products; economic hedge; notional 93,157 thousand barrels by year of maturity 2026",
+        "evidence_quote": "Futures \u2013 long\t\t93,157"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "mixed",
+        "direction": "short",
+        "volume_per_day": 269813.7,
+        "volume_total": 98482000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Crude oil and refined petroleum products; economic hedge; notional 98,482 thousand barrels by year of maturity 2026",
+        "evidence_quote": "Futures \u2013 short\t\t98,482"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "other",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 54410000,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Corn futures; economic hedge; notional 54,410 thousand bushels (unit is bushels)",
+        "evidence_quote": "Futures \u2013 long\t\t54,410"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "other",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 87530000,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Corn futures; economic hedge; notional 87,530 thousand bushels (unit is bushels)",
+        "evidence_quote": "Futures \u2013 short\t\t87,530"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "other",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 31193000,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Corn physical contracts (physical purchase of corn at a fixed price); notional 31,193 thousand bushels",
+        "evidence_quote": "Physical contracts \u2013 long\t\t31,193"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity derivatives (futures and options) to manage inventory/firm commitment price volatility and lock in forecasted purchases/sales; positions monitored daily by risk control group per Board-reviewed policy."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "production_year": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null,
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "pv10_mm": null,
+      "production_tax_per_boe": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

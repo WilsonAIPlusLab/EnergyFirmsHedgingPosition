@@ -1,0 +1,155 @@
+{
+  "cik": "1040593",
+  "company": "CARRIZO OIL & GAS INC",
+  "filing_date": "2001-03-29",
+  "accession_number": "0000950129-01-001719",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 2958.9,
+        "volume_total": 1080000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4,
+        "ceiling_price": 5.19,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding at Dec 31, 2000. Combined fair market value of all Dec 31, 2000 hedge positions was ($3,025,000); not split by instrument.",
+        "evidence_quote": "These consisted of 1,080,000 MMBtu with a floor of $4.00 and a\nceiling of $5.19 for January through December 2001 production and 630,000 MMBtu"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 7000.0,
+        "volume_total": 630000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding at Dec 31, 2000; described as an average fixed price. Combined fair market value of all Dec 31, 2000 hedge positions was ($3,025,000). Direction inferred from hedging of production.",
+        "evidence_quote": "ceiling of $5.19 for January through December 2001 production and 630,000 MMBtu\nat an average fixed price of $6.60 for January through March 2001 production."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 200.0,
+        "volume_total": 18000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 30,
+        "ceiling_price": 32.28,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding at Dec 31, 2000. Combined fair market value of all Dec 31, 2000 hedge positions was ($3,025,000).",
+        "evidence_quote": "The 18,000 Bbls of oil hedges had a floor of $30.00 and a ceiling of $32.28 for\nJanuary through March 2001 production."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 1648.35,
+        "volume_total": 300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.33,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-06",
+        "counterparty": null,
+        "fair_value_mm": 0.002,
+        "notes": "Prior-year position outstanding at Dec 31, 1999 (average price). Instrument type not stated. Another passage gives $2.23 per MMBtu. Fair market value $2,000 is for all Dec 31, 1999 instruments combined.",
+        "evidence_quote": "At December 31, 1999, the Company had 300,000 MMBtu\nand 30,200 Bbls of outstanding hedge positions (at an average price of $2.33 per\nMMBtu and $25.60 per Bbl for January through June 2000 production.)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 165.93,
+        "volume_total": 30200,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Prior-year position outstanding at Dec 31, 1999 (average price). Instrument type not stated. Combined fair market value of all Dec 31, 1999 instruments was $2,000.",
+        "evidence_quote": "At December 31, 1999, the Company had 300,000 MMBtu\nand 30,200 Bbls of outstanding hedge positions (at an average price of $2.33 per\nMMBtu and $25.60 per Bbl for January through June 2000 production.)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Board sets hedging policy (volumes, types, counterparties) quarterly; Item 7A says limited hedging, only buying protection price floors; no trading derivatives; reduces exposure to short-term price swings."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 198500,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5460600,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6397,
+      "proved_gas_reserves_mmcf": 10992,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 70.106,
+      "pv10_mm": null,
+      "oil_price_used": 24.85,
+      "gas_price_used": 10.34,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

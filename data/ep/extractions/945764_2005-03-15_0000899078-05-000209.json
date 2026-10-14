@@ -1,0 +1,101 @@
+{
+  "cik": "945764",
+  "company": "DENBURY INC",
+  "filing_date": "2005-03-15",
+  "accession_number": "0000899078-05-000209",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 7500,
+        "volume_total": 2737500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 27.5,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": 0.949,
+        "notes": "Listed as Floor Contracts in Note 9 table at December 31, 2004 (NYMEX contract prices per Bbl); MD&A states all 2005 oil hedges are puts or price floors.",
+        "evidence_quote": "For 2005, all of our oil hedges are puts or price floors"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 15000,
+        "volume_total": 5475000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3,
+        "ceiling_price": 5.5,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": -5.815,
+        "notes": "Collar Contracts in Note 9 table at December 31, 2004 (NYMEX contract prices per MMBtu); fair value shown as (5,815) thousand.",
+        "evidence_quote": "Jan. 2005 - Dec. 2005...........       15,000            -   $     3.00   $      5.50   $           (5,815)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges to cover exposure on future oil and gas production; no trading; historically hedged 50-75% of production (up to 100% after acquisitions); for 2005 hedged significantly less, oil only via puts/floors."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 32951,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 101287,
+      "proved_gas_reserves_mmcf": 168484,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 129369,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1129.196,
+      "pv10_mm": 1643.289,
+      "oil_price_used": 43.45,
+      "gas_price_used": 6.15,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 8.09,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

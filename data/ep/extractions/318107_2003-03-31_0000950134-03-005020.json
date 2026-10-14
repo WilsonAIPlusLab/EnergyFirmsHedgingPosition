@@ -1,0 +1,137 @@
+{
+  "cik": "318107",
+  "company": "PRIMA ENERGY CORP",
+  "filing_date": "2003-03-31",
+  "accession_number": "0000950134-03-005020",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2222.22,
+        "volume_total": 200000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.3155,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-03",
+        "counterparty": null,
+        "fair_value_mm": -0.225,
+        "notes": "Open position at Dec 31, 2002 (sold forward, average NYMEX price); unrealized mark-to-market losses of $225,000 included in current liabilities",
+        "evidence_quote": "On December 31, 2002, Prima\u2019s open hedge positions, all of which related\nto the first quarter of 2003, consisted of 200,000 MMBtu of natural gas sold\nforward at an average NYMEX price of $3.3155 per MMBtu."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6666.67,
+        "volume_total": 200000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-04",
+        "period_end": "2003-04",
+        "counterparty": null,
+        "fair_value_mm": 0.184,
+        "notes": "Open at March 18, 2003; CIG index; considered effective hedge; unrealized gain $184,000",
+        "evidence_quote": "200,000 MMBtu of natural gas have been forward-sold for April 2003, at an\naverage CIG price of $4.20 per MMBtu, which represents an effective hedge."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6521.74,
+        "volume_total": 1200000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.813,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-05",
+        "period_end": "2003-10",
+        "counterparty": null,
+        "fair_value_mm": 0.711,
+        "notes": "Open at March 18, 2003; NYMEX index; 200,000 MMBtu per month; do not qualify as effective hedges (basis not locked); unrealized gain $711,000",
+        "evidence_quote": "we had forward-sold 200,000\nMMBtu of natural gas per month for the months of May 2003 through October 2003,\nat an average NYMEX price of $5.81 per MMBtu."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 163.04,
+        "volume_total": 30000,
+        "volume_unit": "Bbls",
+        "fixed_price": 30.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-07",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": 0.097,
+        "notes": "Open at March 18, 2003; NYMEX index; 5,000 barrels per month; effective hedge; unrealized gain $97,000",
+        "evidence_quote": "we had entered into forward-sale\nNYMEX contracts covering 5,000 barrels per month for the contract months of\nJuly 2003 through December 2003, at an average price of $30.75 per barrel."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically uses commodity futures, price and basis swaps, collars and options to mitigate price volatility on a portion of production; CEO approves all transactions; investment-grade counterparties only."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 373000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 8343000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3944,
+      "proved_gas_reserves_mmcf": 87440,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 91.279,
+      "pv10_mm": null,
+      "oil_price_used": 31.3,
+      "gas_price_used": 2.64,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

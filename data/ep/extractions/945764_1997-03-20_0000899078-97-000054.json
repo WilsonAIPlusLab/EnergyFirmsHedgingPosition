@@ -1,0 +1,137 @@
+{
+  "cik": "945764",
+  "company": "DENBURY INC",
+  "filing_date": "1997-03-20",
+  "accession_number": "0000899078-97-000054",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 8000,
+        "volume_total": 2920000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.845,
+        "ceiling_price": 2.095,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-01",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered October 1994; covered calendar year 1995; expired before year-end 1996. Part of 10,000 Mcf/d total hedged.",
+        "evidence_quote": "natural  gas  contract  for 8,000 Mcf/d of natural gas had a floor of $1.845 per\nMMBtu and a ceiling of $2.095 per MMBtu."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 730000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.775,
+        "ceiling_price": 1.885,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-01",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered October 1994; covered calendar year 1995; expired before year-end 1996.",
+        "evidence_quote": "2,000  Mcf/d and had a floor of $1.775  per  MMBtu and a ceiling  of $1.885  per"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 500,
+        "volume_total": 182500,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.79,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-02",
+        "period_end": "1996-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered 1995; February 1, 1995 to January 31, 1996; expired before year-end 1996. Direction not explicitly stated; swap to hedge production.",
+        "evidence_quote": "first oil  contract was for 500 Bbls/d of oil at a price of $17.79 per barrel of\noil  commencing  on February 1, 1995 and ending on January 31, 1996."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 500,
+        "volume_total": 137500,
+        "volume_unit": "Bbls",
+        "fixed_price": 18.83,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-04",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered 1995; April 12, 1995 to December 30, 1995; expired before year-end 1996. Direction not explicitly stated; swap to hedge production.",
+        "evidence_quote": "oil contract was also for 500 Bbls/d of oil at a price of $18.83, for the period\ncommencing on April 12, 1995 and ending on December 30, 1995."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "No oil or gas hedges in place during 1996 or at Dec 31, 1996, due to strong commodity prices and reduced debt levels; collars and swaps were used in 1995."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1500000,
+      "oil_production_bpd": 4099,
+      "gas_production_mcf": 8933000,
+      "gas_production_mmcf_per_day": 24.406,
+      "ngl_production_bbls": null,
+      "total_production_boe": 2989000,
+      "total_production_boepd": 8167,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 15052,
+      "proved_gas_reserves_mmcf": 74102,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 27403,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 241.872,
+      "pv10_mm": 316.098,
+      "oil_price_used": 23.39,
+      "gas_price_used": 3.9,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.51,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": 5.4
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:24",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

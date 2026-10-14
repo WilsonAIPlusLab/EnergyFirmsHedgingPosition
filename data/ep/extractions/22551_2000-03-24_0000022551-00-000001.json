@@ -1,0 +1,83 @@
+{
+  "cik": "22551",
+  "company": "TRI VALLEY CORP",
+  "filing_date": "2000-03-24",
+  "accession_number": "0000022551-00-000001",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical gas sales on a fixed contract price covering 100% of 1999 production; the fixed price and volume are not stated. For 2000 a portion fixed and the balance spot. Not a financial derivative.",
+        "evidence_quote": "Therefore  the  Company  sold  100%  on  a  fixed price contract."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Sells a percentage of production on a fixed contract price and the remainder at monthly spot; sold 100% fixed in 1999; 2000 will be partly fixed, balance spot. No financial derivatives disclosed."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 119,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 210333,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 0.185,
+      "proved_gas_reserves_mmcf": 1540.003,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1.217249,
+      "pv10_mm": 1.308178,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

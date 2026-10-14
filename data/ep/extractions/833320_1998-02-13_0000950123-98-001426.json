@@ -1,0 +1,173 @@
+{
+  "cik": "833320",
+  "company": "BURLINGTON RESOURCES INC",
+  "filing_date": "1998-02-13",
+  "accession_number": "0000950123-98-001426",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 2900000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "1999-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Company is fixed-price payor; converts fixed-price gas contracts to market-sensitive; prices range $2.02 to $2.21 per MMBTU (no weighted average stated); less than 1 percent of 1997 gas production",
+        "evidence_quote": "The Company is a fixed-price payor on approximately 2.9 BCF (which is less"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 18500000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Company is fixed-price receivor; hedge of underlying production; prices range $1.82 to $3.36 per MMBTU (no weighted average stated); approx 3 percent of 1997 gas production; deferred gain on gas swaps approx $7 million at 12/31/1997",
+        "evidence_quote": "Company is a fixed-price receivor on approximately 18.5 BCF (which approximates"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1700000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1998-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX crude oil futures sold, 1.7 MMBbls; NYMEX prices range $20.50 to $22.00 per bbl; approx 5 percent of 1997 oil production",
+        "evidence_quote": "Outstanding crude oil futures contracts as of December 31, 1997 totaled 1.7"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 16400000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX and KBOT natural gas futures sold; prices range $1.95 to $3.73 per MMBTU; approx 3 percent of 1997 gas production; deferred gain on crude oil and gas futures approx $11 million at 12/31/1997",
+        "evidence_quote": "1997 totaled 16.4 BCF (which approximates 3 percent of the Company's"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 156164.38,
+        "volume_total": 57000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.8,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Options and swaps setting a floor with non-participation range in price increases limited to $.24 per MMBTU; ceiling not stated; approx 9 percent of 1997 gas production",
+        "evidence_quote": "gas production) hedged at an average floor price of $1.80 per MMBTU and a"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 104109.59,
+        "volume_total": 38000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.79,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Options and swaps setting a floor with non-participation range in market price increases (range value truncated in text); approx 6 percent of 1997 gas production",
+        "evidence_quote": "average floor price of $1.79 per MMBTU and non-participation range in marke"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses NYMEX/KBOT futures and OTC price and basis swaps and options to hedge price risk on U.S. production; also swaps to convert fixed-price gas contracts to market prices."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 87200,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 1669,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 253700,
+      "proved_gas_reserves_mmcf": 6418000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4845,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

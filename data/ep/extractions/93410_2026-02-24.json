@@ -1,0 +1,50 @@
+{
+  "cik": "93410",
+  "company": "CHEVRON CORP",
+  "filing_date": "2026-02-24",
+  "accession_number": "0000093410-26-000078",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": null,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Text only refers commodity price market risk to MD&A Financial and Derivative Instruments and Note 10; no instrument detail provided."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2025,
+      "total_production_boepd": 3700000,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null
+    },
+    "reserves": {
+      "reserves_year_end": "2025-12-31",
+      "proved_oil_reserves_mbbls": 4369000,
+      "proved_ngl_reserves_mbbls": 1348000,
+      "proved_gas_reserves_mmcf": 29245000,
+      "total_proved_reserves_mboe": 10591000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

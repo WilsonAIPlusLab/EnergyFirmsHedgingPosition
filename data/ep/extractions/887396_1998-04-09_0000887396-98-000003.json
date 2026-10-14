@@ -1,0 +1,30 @@
+{
+  "cik": "887396",
+  "company": "EMPIRE PETROLEUM CORP",
+  "filing_date": "1998-04-09",
+  "accession_number": "0000887396-98-000003",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": false,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {},
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

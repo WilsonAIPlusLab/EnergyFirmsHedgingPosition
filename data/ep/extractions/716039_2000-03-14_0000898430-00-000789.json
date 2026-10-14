@@ -1,0 +1,155 @@
+{
+  "cik": "716039",
+  "company": "UNOCAL CORP",
+  "filing_date": "2000-03-14",
+  "accession_number": "0000898430-00-000789",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 5400000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": 7,
+        "notes": "Futures for purchase of 5.4 million barrels outstanding at year-end 1999; offset fixed price risk of prepaid forward sales. $7 million is pre-tax unrealized gain, approximating unrealized losses on the prepaid forward sales.",
+        "evidence_quote": "The company had futures contracts for the purchase of 5.4 million barrels of"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": -11,
+        "notes": "Crude oil option contracts with several counterparties used to establish floor prices or ranges of collar prices for worldwide 2000 production; no volumes or strikes stated. Pre-tax unrealized losses approx $11 million (about half Northrock).",
+        "evidence_quote": "At December 31, 1999, the company had crude oil option contracts outstanding"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2000-01",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": -7,
+        "notes": "Northrock natural gas option contracts with various counterparties used to establish floor prices or ranges of collar prices for 2000 through 2002 production; no volumes or strikes stated. Pre-tax unrealized losses approx $7 million.",
+        "evidence_quote": "orthrock also had natural gas option contracts"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 20,
+        "notes": "Nine-year natural gas price swap related to a fixed price prepaid forward sale entered late 1998; counterparty pays index-priced amounts, company pays fixed amount on delivered volumes. Pre-tax unrealized gain approx $20 million, offset by loss on the fixed price physical sales contract. No volumes or prices stated.",
+        "evidence_quote": "The company had a nine-year natural gas price swap agreement outstanding at"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 87000,
+        "volume_total": 158949000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2000-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": -18,
+        "notes": "Northrock long-term fixed-price natural gas sales contracts, years 2000 through 2004; daily delivery requirement (net of required purchases) from 87 million cubic feet per day in 2000 declining to approximately 45 million cubic feet per day in 2004. Pre-tax unrealized losses approx $18 million.",
+        "evidence_quote": "natural gas (net of required purchases) range from a high of 87 million cubic"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses futures, swaps and options to mitigate exposure to hydrocarbon price fluctuations; may hedge a portion of future crude oil/natural gas production and firm delivery commitments; also trades derivatives."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

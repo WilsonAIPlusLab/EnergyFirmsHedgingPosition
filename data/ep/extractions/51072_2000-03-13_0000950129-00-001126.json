@@ -1,0 +1,173 @@
+{
+  "cik": "51072",
+  "company": "BARGO ENERGY CO",
+  "filing_date": "2000-03-13",
+  "accession_number": "0000950129-00-001126",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2,
+        "ceiling_price": 2.45,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "South Coles Levee production; 65,000 MMBTU (stated per hedge, apparently monthly); Southern California border pricing; hedge through calendar year 1999, no outstanding gas hedges as of filing.",
+        "evidence_quote": "for 65,000 MMBTU at prices ensuring a floor of $2.00 per MMBTU and a ceiling of\n$2.45 per MMBTU based on Southern California border prices."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2,
+        "ceiling_price": 2.04,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gulf Coast properties; 85,000 MMBTU (stated per hedge, apparently monthly); Houston Ship Channel pricing; hedge through calendar year 1999, no outstanding gas hedges as of filing.",
+        "evidence_quote": "a hedge was in place for 85,000 MMBTU at prices ensuring a\nfloor of $2.00 per MMBTU and a ceiling of $2.04 per MMBTU based on Houston Ship\nChannel pricing."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 20.75,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-10",
+        "period_end": "2000-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "One of two oil collars with $18.00 floors and ceilings of $20.75 and $23.08; per-collar volumes not split. Combined contracted volumes 50,200 bbl/month declining each month to 42,000 bbl.",
+        "evidence_quote": "collars were in place for portions of the\nCompany's oil production for October 1 through September 2000 at floors of\n$18.00 and ceilings of $20.75 and $23.08."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 23.08,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-10",
+        "period_end": "2000-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second of two oil collars with $18.00 floors and ceilings of $20.75 and $23.08; per-collar volumes not split. Combined contracted volumes 50,200 bbl/month declining each month to 42,000 bbl.",
+        "evidence_quote": "collars were in place for portions of the\nCompany's oil production for October 1 through September 2000 at floors of\n$18.00 and ceilings of $20.75 and $23.08."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-10",
+        "period_end": "2001-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "One of two oil swaps at $17.55 and $18.05; per-swap volumes not split. Combined contracted volumes 41,350 bbl/month declining to 34,300 bbl/month, approx 50% of projected oil production.",
+        "evidence_quote": "Beginning October 2000\nthrough September 2001 the Company has two swaps in place at $17.55 and $18.05."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 18.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-10",
+        "period_end": "2001-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second of two oil swaps at $17.55 and $18.05; per-swap volumes not split. Combined contracted volumes 41,350 bbl/month declining to 34,300 bbl/month, approx 50% of projected oil production.",
+        "evidence_quote": "Beginning October 2000\nthrough September 2001 the Company has two swaps in place at $17.55 and $18.05."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Implements oil and gas hedges as deemed appropriate to ensure minimum levels of cash flow or when market conditions create an opportunity to increase cash flows."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 627000,
+      "oil_production_bpd": 1718,
+      "gas_production_mcf": 3762000,
+      "gas_production_mmcf_per_day": 10.307,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1254000,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 16156.3,
+      "proved_gas_reserves_mmcf": 77054,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 28998.6,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 124.444,
+      "pv10_mm": 179.4664,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 6.13,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:36",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

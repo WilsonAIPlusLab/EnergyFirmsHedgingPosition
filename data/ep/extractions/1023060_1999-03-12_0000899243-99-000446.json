@@ -1,0 +1,155 @@
+{
+  "cik": "1023060",
+  "company": "NEWFIELD EXPLORATION GULF COAST INC",
+  "filing_date": "1999-03-12",
+  "accession_number": "0000899243-99-000446",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 102222.22,
+        "volume_total": 9200000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.05,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-01",
+        "period_end": "1999-03",
+        "counterparty": null,
+        "fair_value_mm": 0.539,
+        "notes": "Notional 9,200 million cubic feet; average strike price; filing says outstanding swaps, collars and futures agreements (not split by type); notional is net volumetric hedge position",
+        "evidence_quote": "January 1999-March 1999................   9,200    2.05       $ 539"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 68131.87,
+        "volume_total": 6200000,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-04",
+        "period_end": "1999-06",
+        "counterparty": null,
+        "fair_value_mm": -0.109,
+        "notes": "Notional 6,200 million cubic feet; average strike price; swaps/collars/futures not split by type",
+        "evidence_quote": "April 1999-June 1999...................   6,200    1.98        (109)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 9782.61,
+        "volume_total": 900000,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.86,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-07",
+        "period_end": "1999-09",
+        "counterparty": null,
+        "fair_value_mm": -0.163,
+        "notes": "Notional 900 million cubic feet; average strike price; swaps/collars/futures not split by type",
+        "evidence_quote": "July 1999-September 1999...............     900    1.86        (163)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 9782.61,
+        "volume_total": 900000,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.71,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-10",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": -0.499,
+        "notes": "Notional 900 million cubic feet; average strike price; swaps/collars/futures not split by type",
+        "evidence_quote": "October 1999-December 1999.............     900    1.71        (499)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 31000,
+        "volume_unit": "Bbls",
+        "fixed_price": 11.96,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": 0.008,
+        "notes": "Notional 31 thousand barrels; average strike price; hedges extend through December 31, 1999; swaps/collars/futures not split by type",
+        "evidence_quote": "Crude Oil (thousand barrels).............      31   11.96       $   8"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Derivatives (swaps, collars, futures, options) used only for non-trading purposes to hedge a portion of anticipated oil and gas production; hedge/deferral accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5612000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 58000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 26000,
+      "proved_gas_reserves_mmcf": 203551,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 275.9,
+      "pv10_mm": null,
+      "oil_price_used": 9.5,
+      "gas_price_used": 2.19,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

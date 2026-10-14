@@ -1,0 +1,173 @@
+{
+  "cik": "33213",
+  "company": "EQT Corp",
+  "filing_date": "2005-02-25",
+  "accession_number": "0001104659-05-008241",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 172602.74,
+        "volume_total": 63000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table of approximate volumes and average NYMEX prices for 'hedges and fixed-price contracts' as of Dec 31, 2004; price based on 1.05 MMbtu/Mcf conversion. Instrument type not broken out in the table (text says preponderance are fixed price swaps or NYMEX-traded forwards). Overlaps with the 314.9 Bcf swap total.",
+        "evidence_quote": "Volume (Bcf)\n\n63\n\n62\n\n59\n\nAverage Price (NYMEX)*\n\n$\n\n4.80\n\n$\n\n4.73\n\n$\n\n4.75"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 169863.01,
+        "volume_total": 62000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.73,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table of approximate volumes and average NYMEX prices for 'hedges and fixed-price contracts' as of Dec 31, 2004; price based on 1.05 MMbtu/Mcf conversion. Instrument type not broken out in the table.",
+        "evidence_quote": "Volume (Bcf)\n\n63\n\n62\n\n59\n\nAverage Price (NYMEX)*\n\n$\n\n4.80\n\n$\n\n4.73\n\n$\n\n4.75"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 161643.84,
+        "volume_total": 59000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table of approximate volumes and average NYMEX prices for 'hedges and fixed-price contracts' as of Dec 31, 2004; price based on 1.05 MMbtu/Mcf conversion. Instrument type not broken out in the table.",
+        "evidence_quote": "Volume (Bcf)\n\n63\n\n62\n\n59\n\nAverage Price (NYMEX)*\n\n$\n\n4.80\n\n$\n\n4.73\n\n$\n\n4.75"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 314900000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Non-trading price swaps outstanding at Dec 31, 2004 hedging varying levels of expected equity production through 2011; aggregate, no price disclosed. Likely overlaps with the 2005-2007 annual rows. A 10% price decrease would increase fair value by about $185.8 million.",
+        "evidence_quote": "utilizing price swaps of approximately 314.9 Bcf of natural\ngas."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 46800000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Held for TRADING purposes by the marketing group (absolute notional swaps), not production hedges. Total trading derivative net fair value was $481 thousand at Dec 31, 2004 (futures and fixed price swaps plus basis swaps).",
+        "evidence_quote": "At\nDecember 31, 2004, the absolute notional quantities of the futures and swaps\nheld for trading purposes totaled 6.2 Bcf and 46.8 Bcf, respectively."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 6200000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Held for TRADING purposes by the marketing group (absolute notional futures), not production hedges.",
+        "evidence_quote": "At\nDecember 31, 2004, the absolute notional quantities of the futures and swaps\nheld for trading purposes totaled 6.2 Bcf and 46.8 Bcf, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges natural gas via forwards, swaps, options; policy limits vs expected production; aims for price protection on majority of 2005-2008 production and over 25% of 2009-2011 equity production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 83000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 72226000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1019,
+      "proved_gas_reserves_mmcf": 2102539,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2960.384,
+      "pv10_mm": 4701.262,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

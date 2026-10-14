@@ -1,0 +1,173 @@
+{
+  "cik": "891456",
+  "company": "PLAINS EXPLORATION & PRODUCTION CO",
+  "filing_date": "2004-03-12",
+  "accession_number": "0001193125-04-039484",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 23.89,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table figure for 2004 is 18,500; the text does not state the volume unit or period basis, so volume left null. Position as of Feb 29, 2004 (also Dec 31, 2003 in Note 3). Aggregate fair value of oil swaps and option contracts at 12/31/2003 was (78.8) million, not split by instrument.",
+        "evidence_quote": "Average price $23.89 per Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 24.79,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table figure for 2005 is 17,500; volume unit not stated in text, so volume left null.",
+        "evidence_quote": "Average price $24.79 per Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.28,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table figure for 2006 is 15,000; volume unit not stated in text, so volume left null.",
+        "evidence_quote": "Average price $25.28 per Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table figure for 2004 is 20,000; volume unit not stated in text, so volume left null.",
+        "evidence_quote": "Average price $4.45 per MMBtu"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4,
+        "ceiling_price": 5.15,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar; table figure for 2004 is 20,000; volume unit not stated in text, so volume left null.",
+        "evidence_quote": "Floor price of $4.00 per MMBtu"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.75,
+        "ceiling_price": 5.67,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar; table figure for 2004 is 10,000; volume unit not stated in text, so volume left null.",
+        "evidence_quote": "Floor price of $4.75 per MMBtu"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Typically hedge about 70-75% of current-year production, 40-50% of next year and 25-40% of the following year using swaps, collars and purchased puts and calls; no speculative trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 9267000,
+      "oil_production_bpd": 25389,
+      "gas_production_mcf": 18195000,
+      "gas_production_mmcf_per_day": 49.849,
+      "ngl_production_bbls": null,
+      "total_production_boe": 12300000,
+      "total_production_boepd": 33699,
+      "production_year": 2003
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 227728,
+      "proved_gas_reserves_mmcf": 319177,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 280900,
+      "proved_developed_reserves_mboe": 164000,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2003-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1256.803,
+      "pv10_mm": 1969.3,
+      "oil_price_used": 28.22,
+      "gas_price_used": 5.53,
+      "lease_operating_expense_per_boe": 7.49,
+      "production_tax_per_boe": 0.82,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 0.21,
+      "dd_and_a_per_boe": 3.86,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

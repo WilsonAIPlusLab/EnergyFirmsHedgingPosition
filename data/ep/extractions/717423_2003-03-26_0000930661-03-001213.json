@@ -1,0 +1,149 @@
+{
+  "cik": "717423",
+  "company": "MURPHY OIL CORP",
+  "filing_date": "2003-03-26",
+  "accession_number": "0000930661-03-001213",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 9.2,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.78,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": 12.4,
+        "notes": "Refinery fuel-purchase hedge (Meraux, Louisiana), not production. Company pays fixed $2.78 and receives NYMEX average. Total notional stated as 9.2 MMBTU in Item 7A (Note K says 9.2 million MMBTU); value recorded as stated. Fair value is an asset of $12.4 million (12,398 thousand).",
+        "evidence_quote": "total notional volume of 9.2 MMBTU that are intended to hedge the financial exposure of its Meraux, Louisiana refinery to fluctuations in the future price of a portion of natural gas to be purchased for fuel during 2004 through 2006."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 24200,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.76,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -6.4,
+        "notes": "Hedges a portion of 2003 U.S. and Canadian gas production. Combined notional averaging 24,200 MMBTU per day; Murphy pays index price and receives average fixed $3.76. Fair value of -6.4 is the combined liability for gas swaps and collars.",
+        "evidence_quote": "averages 24,200 MMBTU per day and require Murphy to pay the average relevant index price for each month and receive an average price of $3.76 per MMBTU."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 26700,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.24,
+        "ceiling_price": 4.64,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedges a portion of 2003 U.S. and Canadian gas production. Combined notional of 26,700 MMBTU per day; average floor $3.24 and average ceiling $4.64. Fair value disclosed only jointly with gas swaps (liability of $6.4 million, recorded on the swap row).",
+        "evidence_quote": "the relevant index prices provide Murphy with an average floor price of $3.24 per MMBTU and an average ceiling price of $4.64 per MMBTU."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 22000,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -19.9,
+        "notes": "Light oil swaps hedging a portion of 2003 U.S. and Canadian crude production; Murphy pays NYMEX Nearby Light Crude average and receives average $25.30 per barrel. Fair value of -19.9 is the combined liability for light and heavy oil swaps.",
+        "evidence_quote": "swap agreements cover a notional volume of 22,000 barrels per day of light oil and require Murphy to pay the average of the closing settlement price on the NYMEX for the Nearby Light Crude Futures Contract for each month and receive an average price"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 16.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Heavy oil swaps, notional 10,000 barrels per day; Murphy pays the average posted price at Kerrobert and Hardisty terminals in Canada and receives average $16.74 per barrel. Fair value of $19.9 million liability is the combined light and heavy oil swap figure (recorded on the light oil row).",
+        "evidence_quote": "Canada and receive an average price of $16.74 per barrel. At December 31, 2002, the estimated fair value of these agreements was recorded as a liability of $19.9 million,"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Murphy makes limited use of derivative instruments to manage risks; covered by operating policies, closely monitored by senior management; none held for speculative purposes or with leveraged or complex features."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2780.4,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.29,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:34:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_a53c5192-8ff"
+    ]
+  }
+}

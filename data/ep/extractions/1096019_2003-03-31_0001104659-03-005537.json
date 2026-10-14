@@ -1,0 +1,173 @@
+{
+  "cik": "1096019",
+  "company": "CARBON ENERGY CORP",
+  "filing_date": "2003-03-31",
+  "accession_number": "0001104659-03-005537",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3835.62,
+        "volume_total": 1400000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -0.541,
+        "notes": "Carbon USA contracts, gas swap; derivative liability $(541) thousand; hedge-accounting qualified",
+        "evidence_quote": "01/01/03-12/31/03\n\n1,400,000\n\n$\n\n3.07\n\n$\n\n(541"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 591.78,
+        "volume_total": 216000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.83,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -0.242,
+        "notes": "Carbon Canada contracts, gas swap; derivative liability $(242) thousand; hedge-accounting qualified",
+        "evidence_quote": "01/01/03-12/31/03\n\n216,000\n\n$\n\n2.83\n\n$\n\n(242"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 126.03,
+        "volume_total": 46000,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.42,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -0.076,
+        "notes": "Carbon USA contracts, oil swap; derivative liability $(76) thousand; hedge-accounting qualified",
+        "evidence_quote": "01/01/03-12/31/03\n\n46,000\n\n$\n\n25.42\n\n$\n\n(76"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 101.37,
+        "volume_total": 37000,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.47,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -0.057,
+        "notes": "Carbon Canada contracts, oil swap; derivative liability $(57) thousand; hedge-accounting qualified",
+        "evidence_quote": "01/01/03-12/31/03\n\n37,000\n\n$\n\n25.47\n\n$\n\n(57"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2000.0,
+        "volume_total": 180000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.57,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Carbon USA long-term physical fixed price sales contract for gas",
+        "evidence_quote": "01/01/03-03/31/03\n\n180,000\n\n2.57"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2131.51,
+        "volume_total": 778000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Carbon Canada long-term physical fixed price sales contract for gas",
+        "evidence_quote": "01/01/03-12/31/03\n\n778,000\n\n$\n\n3.16"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives only as a hedging mechanism, no speculative transactions; Risk Management Committee approves all hedging transactions. May use swaps, collars, futures and other contracts."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 141000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5281000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 822,
+      "proved_gas_reserves_mmcf": 62482,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 81.768,
+      "pv10_mm": 106,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:40",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

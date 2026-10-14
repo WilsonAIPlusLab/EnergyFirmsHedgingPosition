@@ -1,0 +1,101 @@
+{
+  "cik": "709355",
+  "company": "CASTLE ENERGY CORP",
+  "filing_date": "1997-12-04",
+  "accession_number": "0000950116-97-002246",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Subsidiary Production entered fixed price contracts to hedge 15% of unhedged gas required to supply Lone Star and MGNG at 9/30/1997. The hedged-volume table is truncated in the text, so volumes, prices and periods are not available.",
+        "evidence_quote": "(\"Production\"), a wholly-owned subsidiary, had entered fixed price contracts to"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6.72,
+        "volume_total": 7356,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1996-06",
+        "period_end": "1999-05",
+        "counterparty": "MGNG",
+        "fair_value_mm": null,
+        "notes": "Physical fixed-price gas sales commitment to MGNG (not a financial hedge); stated as 7,356 MMbtu's in financial statement notes where figures are in 000's; remaining obligations 2,452 (FY1998) and 1,632 (FY1999). Fixed price not stated in text.",
+        "evidence_quote": "The Company also has a commitment to sell 7,356 MMbtu's of natural gas"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Subsidiary entered fixed price contracts to hedge 15% of unhedged gas supply commitments to Lone Star and MGNG; remainder purchased on spot market."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 36000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2454000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 206,
+      "proved_gas_reserves_mmcf": 15692,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-09-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 12.71,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

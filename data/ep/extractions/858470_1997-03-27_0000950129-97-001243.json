@@ -1,0 +1,137 @@
+{
+  "cik": "858470",
+  "company": "Coterra Energy Inc.",
+  "filing_date": "1997-03-27",
+  "accession_number": "0000950129-97-001243",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 12610.17,
+        "volume_total": 744000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-02",
+        "counterparty": null,
+        "fair_value_mm": 0.763,
+        "notes": "Open gas price swaps at 12/31/1996 used to convert fixed price sales contracts to market-sensitive price. Fair value 0.763 is the $763 thousand Gas Price Swaps line in the SFAS 107 table at 12/31/1996 (only open contracts are the 744,000 Mmbtu).",
+        "evidence_quote": "December 31, 1996, the open price swaps (744,000 Mmbtu in notional quantity)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 5000,
+        "volume_total": 765000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-05",
+        "period_end": "1996-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "One small hedge contract, less than 4% of daily production; expired before year-end 1996. Text calls it a hedge contract; company states natural gas price swap is the derivative type used.",
+        "evidence_quote": "of May through September 1996 in a notional quantity equal to 5,000 Mmbtu per"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 48087.43,
+        "volume_total": 17600000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap contracts closed during 1996; company receives fixed price and pays variable index price (e.g. NYMEX). Fixed prices received ranged from 1.02 to 2.54 per Mmbtu (no single weighted average stated). None open at 12/31/1996.",
+        "evidence_quote": "from $1.02 to $2.54 per Mmbtu on total notional quantities of 17,600,000 Mmbtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 2737.7,
+        "volume_total": 1002000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap agreements opened to convert fixed price sales contracts to market-sensitive price contracts; closed during 1996 (separate from the 744,000 Mmbtu open at year-end).",
+        "evidence_quote": "agreements had total notional quantities of 1,002,000 Mmbtu in closed contracts"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Selectively uses natural gas price swaps from time to time to protect certain markets when substantial downside risk is perceived; structured to retain upside potential."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 597000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 58762000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5166,
+      "proved_gas_reserves_mmcf": 915617,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 834.306,
+      "pv10_mm": 1165.637,
+      "oil_price_used": 22.86,
+      "gas_price_used": 3.55,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

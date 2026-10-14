@@ -1,0 +1,58 @@
+{
+  "cik": "845289",
+  "company": "HARVEST NATURAL RESOURCES, INC.",
+  "filing_date": "2000-03-30",
+  "accession_number": "0000950152-00-002549",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Has used hedging from time to time for cash flow predictability but no such transactions since 1996; no commodity hedging agreements in 1998 and 1999; no currency hedging."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 9185000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 148098,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 148098,
+      "proved_developed_reserves_mboe": 68815,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 556.778,
+      "pv10_mm": 744.935,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 1.53,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

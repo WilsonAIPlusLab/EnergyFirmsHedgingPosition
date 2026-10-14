@@ -1,0 +1,83 @@
+{
+  "cik": "320321",
+  "company": "DEVON OEI OPERATING INC",
+  "filing_date": "2000-03-28",
+  "accession_number": "0000320321-00-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Early-1999 collars on a portion of oil production through remainder of 1999. Floors of $12.00 and $15.00/Bbl; ceilings of $15.00, $18.85 and $19.00/Bbl. Text does not pair floors with ceilings and gives no volumes, so floor_price and ceiling_price left null. Derivative contracts decreased 1999 oil and gas revenues by $52 million.",
+        "evidence_quote": "collars  with  floors of $12.00 and $15.00  per barrel and  ceilings  of $15.00,\n$18.85  and  $19.00 per  barrel on a portion  of the  Company's  oil  production\nthrough the remainder of 1999."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges a portion of oil and gas production with swaps or price collars with major financial or commodities trading institutions, for more predictable cash flow and to reduce price exposure; hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 26985000,
+      "oil_production_bpd": 73933,
+      "gas_production_mcf": 154175000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 183799,
+      "proved_gas_reserves_mmcf": 1387200,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 415000,
+      "proved_developed_reserves_mboe": 286824,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2415.418,
+      "pv10_mm": 2951.853,
+      "oil_price_used": 23.33,
+      "gas_price_used": 2.04,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.12,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": 5.13
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:36",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

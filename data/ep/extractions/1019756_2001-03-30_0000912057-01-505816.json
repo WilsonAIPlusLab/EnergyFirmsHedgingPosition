@@ -1,0 +1,173 @@
+{
+  "cik": "1019756",
+  "company": "MARKWEST HYDROCARBON L.L.C.",
+  "filing_date": "2001-03-30",
+  "accession_number": "0000912057-01-505816",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_per_day": 1141.55,
+        "volume_total": 416666.67,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.22,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Appalachia processing margin hedge, $0.22 per gallon processing margin (not an NGL price); instrument form not specified (text cites fixed-price forwards and fixed-for-float swaps generally). Report as of Dec 31, 2000.",
+        "evidence_quote": "the Company had hedged 17,500,000 NGL gallons at a $0.22 per gallon processing"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1780.82,
+        "volume_total": 650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.86,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Appalachia natural gas sales hedge as of Dec 31, 2000; instrument form not specified.",
+        "evidence_quote": "had hedged 650,000 and 54,000 MMBtu at $4.86 and $5.19 per MMBtu for 2001 and"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 147.95,
+        "volume_total": 54000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Appalachia natural gas sales hedge as of Dec 31, 2000; instrument form not specified.",
+        "evidence_quote": "had hedged 650,000 and 54,000 MMBtu at $4.86 and $5.19 per MMBtu for 2001 and"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3358.9,
+        "volume_total": 1226000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.28,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Exploration and production segment natural gas production hedge as of Dec 31, 2000 (prices $3.28, $3.45, $3.92 for 2001, 2002, 2003); instrument form not specified.",
+        "evidence_quote": "2000, the Company had hedged 1,226,000, 530,000 and 273,000 MMBtu of natural gas"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1452.05,
+        "volume_total": 530000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Exploration and production segment natural gas production hedge as of Dec 31, 2000; instrument form not specified.",
+        "evidence_quote": "2000, the Company had hedged 1,226,000, 530,000 and 273,000 MMBtu of natural gas"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 747.95,
+        "volume_total": 273000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.92,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Exploration and production segment natural gas production hedge as of Dec 31, 2000; instrument form not specified.",
+        "evidence_quote": "2000, the Company had hedged 1,226,000, 530,000 and 273,000 MMBtu of natural gas"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduce cash flow volatility using fixed-price forward contracts and fixed-for-float OTC swaps; NYMEX futures authorized but only occasionally used; committee oversees hedging."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1375506,
+      "gas_production_mmcf_per_day": 3.8,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 34585.538,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 65.05,
+      "pv10_mm": 97.953,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

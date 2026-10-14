@@ -1,0 +1,137 @@
+{
+  "cik": "904977",
+  "company": "TRANSTEXAS GAS CORP",
+  "filing_date": "2000-05-01",
+  "accession_number": "0000950129-00-002085",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 17500.0,
+        "volume_total": 3745000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.1,
+        "ceiling_price": 3.4,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-04",
+        "period_end": "2000-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedge entered into by the production payment purchasers (production payment agreement March 2000), effectively hedging a portion of the Company's production; Company had no open hedging transactions at January 31, 2000.",
+        "evidence_quote": "April 2000 -- October 2000............................   3,745,000    $2.10    $3.40"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 12500.0,
+        "volume_total": 1887500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.35,
+        "ceiling_price": 3.95,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-11",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedge entered into by the production payment purchasers (production payment agreement March 2000), effectively hedging a portion of the Company's production.",
+        "evidence_quote": "November 2000 -- March 2001...........................   1,887,500     2.35     3.95"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1250.0,
+        "volume_total": 228750,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18.5,
+        "ceiling_price": 32.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-04",
+        "period_end": "2000-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Condensate collar; hedge entered into by the production payment purchasers (production payment agreement March 2000).",
+        "evidence_quote": "April 2000 -- September 2000..........................     228,750    18.50    32.50"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000.0,
+        "volume_total": 182000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18.5,
+        "ceiling_price": 29.95,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-10",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Condensate collar; hedge entered into by the production payment purchasers (production payment agreement March 2000).",
+        "evidence_quote": "October 2000 -- March 2001............................     182,000    18.50    29.95"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time uses hedging for a portion of gas and oil production for more predictable cash flow; no open hedges at 1/31/2000; production payment purchasers hold collars from March 2000."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1827000,
+      "oil_production_bpd": 5005,
+      "gas_production_mcf": 27800000,
+      "gas_production_mmcf_per_day": 77,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3700,
+      "proved_gas_reserves_mmcf": 95600,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-01-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:25",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

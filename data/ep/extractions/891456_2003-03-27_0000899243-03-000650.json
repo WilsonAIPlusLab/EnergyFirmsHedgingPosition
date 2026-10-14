@@ -1,0 +1,173 @@
+{
+  "cik": "891456",
+  "company": "PLAINS EXPLORATION & PRODUCTION CO",
+  "filing_date": "2003-03-27",
+  "accession_number": "0000899243-03-000650",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 19250,
+        "volume_total": 7026250,
+        "volume_unit": "Bbls",
+        "fixed_price": 23.81,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "fair_value_mm": null,
+        "notes": "Open oil hedge position as of March 1, 2003; monthly cash settlement vs NYMEX. Aggregate fair value of all swaps and options at 12/31/2002 was $(20.9) million (not split by instrument).",
+        "evidence_quote": "Average price $23.81/bbl\n\n19,250"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 17500,
+        "volume_total": 6405000,
+        "volume_unit": "Bbls",
+        "fixed_price": 23.82,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "fair_value_mm": null,
+        "notes": "Open oil hedge position as of March 1, 2003 (Item 7A). The Dec 31, 2002 note table instead shows 12,500 Bbls/d at $23.53 for 2004.",
+        "evidence_quote": "Average price $23.82/bbl\n\n\u2014  \n\n17,500"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 5000,
+        "volume_total": 1825000,
+        "volume_unit": "Bbls",
+        "fixed_price": 23.57,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "fair_value_mm": null,
+        "notes": "Open oil hedge position as of March 1, 2003.",
+        "evidence_quote": "Average price $23.57/bbl\n\n\u2014  \n\n\u2014  \n\n5,000"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 2600,
+        "volume_total": 234000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-01",
+        "period_end": "2003-03",
+        "fair_value_mm": null,
+        "notes": "Basis risk swap fixing location differential on Illinois Basin production; first quarter 2003.",
+        "evidence_quote": "The swaps fix the location differential portion of 2,600 barrels per day at $0.43, $0.57 and $0.39 per barrel for the first, second and third quarters of 2003, respectively."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 2600,
+        "volume_total": 236600,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.57,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-04",
+        "period_end": "2003-06",
+        "fair_value_mm": null,
+        "notes": "Basis risk swap fixing location differential on Illinois Basin production; second quarter 2003.",
+        "evidence_quote": "The swaps fix the location differential portion of 2,600 barrels per day at $0.43, $0.57 and $0.39 per barrel for the first, second and third quarters of 2003, respectively."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 2600,
+        "volume_total": 239200,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.39,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-07",
+        "period_end": "2003-09",
+        "fair_value_mm": null,
+        "notes": "Basis risk swap fixing location differential on Illinois Basin production; third quarter 2003 (through Sept 30, 2003).",
+        "evidence_quote": "The swaps fix the location differential portion of 2,600 barrels per day at $0.43, $0.57 and $0.39 per barrel for the first, second and third quarters of 2003, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Typically hedge ~70-75% of current-year production, 40-50% next year, up to 25% following year, using swaps, collars, purchased puts and calls; oil only, no gas hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 8783000,
+      "oil_production_bpd": 24062,
+      "gas_production_mcf": 3362000,
+      "gas_production_mmcf_per_day": 9.2,
+      "ngl_production_bbls": null,
+      "total_production_boe": 9343000,
+      "total_production_boepd": 25597,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 240161,
+      "proved_gas_reserves_mmcf": 77154,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 253000,
+      "proved_developed_reserves_mboe": 136300,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 883.5,
+      "pv10_mm": 1515,
+      "oil_price_used": 26.91,
+      "gas_price_used": 4.63,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 8.4,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.17,
+      "finding_development_cost_per_boe": 3.71
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

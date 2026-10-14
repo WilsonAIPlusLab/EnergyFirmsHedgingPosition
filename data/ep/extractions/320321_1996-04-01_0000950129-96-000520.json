@@ -1,0 +1,101 @@
+{
+  "cik": "320321",
+  "company": "DEVON OEI OPERATING INC",
+  "filing_date": "1996-04-01",
+  "accession_number": "0000950129-96-000520",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 21644.13,
+        "volume_total": 23051000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1996-02",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open commodity price swaps at 12/31/1995, aggregate volume across Feb 1996 through Dec 1998; no fixed price disclosed; no open oil swaps. Direction assumed hedge of production (short).",
+        "evidence_quote": "had open swap agreements for the Company's production of 23,051,000 million"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 6180000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1996-02",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding NYMEX futures notional at 12/31/1995; period end truncated in text ('June 1...'); no price disclosed.",
+        "evidence_quote": "covering notional volumes of 6,180,000 MMbtu for February 1996 through June"
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "Uses futures, price swaps and options for non-trading hedging of gas and oil prices; as of 3/26/96 contracts for up to 150,000 Mcf/d gas, about 40% of production hedged, terms 1-7 months.",
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "total_oil_instruments": 0,
+      "uses_derivatives": true
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 333.8,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": 3282,
+      "production_year": 1995,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": 986066,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": 21109,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": 2.09,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": 14.51,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

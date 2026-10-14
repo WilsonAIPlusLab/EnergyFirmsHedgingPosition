@@ -1,0 +1,137 @@
+{
+  "cik": "880115",
+  "company": "CLAYTON WILLIAMS ENERGY INC /DE",
+  "filing_date": "2000-03-28",
+  "accession_number": "0000912057-00-014027",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 4419.89,
+        "volume_total": 800000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 10,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Described as a floor on oil production; the only significant hedge in place for 1999. Not open at 12/31/1999.",
+        "evidence_quote": "Except for a floor of $10.00 per barrel on 800,000 barrels of oil\nproduction from January 1999 through June 1999"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15123.97,
+        "volume_total": 1830000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.26,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-02",
+        "period_end": "2000-05",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered January 2000 (after year end); subsequently terminated at an aggregate loss of approximately $800,000.",
+        "evidence_quote": "in January 2000,\nthe Company entered into swap arrangements covering 1,830,000 MMBtu of its gas\nproduction from February 2000 through May 2000 at an average price of $2.26 per\nMMBtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1516.39,
+        "volume_total": 740000,
+        "volume_unit": "Bbls",
+        "fixed_price": 22.49,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-07",
+        "period_end": "2001-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered February 2000 (after year end). Covers July-December 2000 and April-October 2001 (not contiguous); prices range from high $25.00 in July 2000 to low $20.03 in October 2001.",
+        "evidence_quote": "Also in February 2000, the Company entered into swap arrangements covering\n740,000 barrels of its oil production from July 2000 through December 2000 and\nfrom April 2001 through October 2001 at an average price of $22.49 per barrel"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1888.89,
+        "volume_total": 170000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 20.66,
+        "ceiling_price": 23.81,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered February 2000 (after year end); average floor and ceiling prices.",
+        "evidence_quote": "entered into a collar arrangement covering 170,000 barrels of\nits oil production from January 2001 through March 2001 at an average floor\nprice of $20.66 per barrel and an average ceiling price of $23.81 per barrel."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company from time to time uses swaps and collars to mitigate exposure to price fluctuations on a portion of oil and gas production; no open hedge positions at December 31, 1999."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1876000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 4847000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 2684000,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 11904,
+      "proved_gas_reserves_mmcf": 30141,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 16928,
+      "proved_developed_reserves_mboe": 13521,
+      "proved_undeveloped_reserves_mboe": 3407,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 151.642,
+      "pv10_mm": 176.5,
+      "oil_price_used": 25.09,
+      "gas_price_used": 2.36,
+      "lease_operating_expense_per_boe": 4.18,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 7.46,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cik": "318304",
+  "company": "CENTRAL CAPITAL VENTURE CORP",
+  "filing_date": "1997-04-25",
+  "accession_number": "0001017386-97-000019",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": false,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {},
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:14:37",
+    "verification_status": "review",
+    "run_ids": [
+      "wf_896e9900-cb3"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "cik": "717754",
+  "company": "INLAND RESOURCES INC",
+  "filing_date": "1997-02-27",
+  "accession_number": "0000930661-97-000457",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 20.55,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-12",
+        "counterparty": "Enron",
+        "fair_value_mm": null,
+        "notes": "Cost free collar ('Enron Hedge') on NYMEX Light Sweet Crude Oil Futures average monthly price. Text is truncated before the start date and volume ramp; states volume reaches 14,000 Bbls in December 2000. Remaining exposure after Koch offset limited to Jan-Dec 1997 settlements at 10,900 barrels per month. Floor was lowered from $18.00 to $16.50 for Feb-Dec 1996 via restructuring.",
+        "evidence_quote": "monthly price,\nbased on NYMEX Light Sweet Crude Oil Futures Contracts, is between $18.00 and\n$20.55 per barrel, no payment is due under the contract."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "2000-12",
+        "counterparty": "Koch Gas Services Company",
+        "fair_value_mm": null,
+        "notes": "Offsetting contract entered Jan 1, 1997 for $34,170 that exactly offsets the Enron Hedge collar for Jan 1998 through Dec 2000. Terms of the offset not otherwise stated.",
+        "evidence_quote": "On January 1, 1997, the Company paid $34,170 to\nenter into a contract with Koch Gas Services Company (\"Koch\") that exactly\noffsets the effect of the Enron Hedge during the period January 1998 through\nDecember 2000."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1972.6,
+        "volume_total": 720000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 15,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": "Koch",
+        "fair_value_mm": null,
+        "notes": "Purchased July 8, 1996 for $133,200; settles in monthly amounts of 60,000 put options. Text states put options, not explicitly barrels.",
+        "evidence_quote": "the Company purchased from Koch\n720,000 put options for $133,200 with a strike price of $15.00. The contract\nsettles in monthly amounts of 60,000 put options during the period January 1997\nto December 1997."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 767.16,
+        "volume_total": 257000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16.5,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-02",
+        "period_end": "1996-12",
+        "counterparty": "Enron Capital and Trade Resources Corp.",
+        "fair_value_mm": null,
+        "notes": "Settled as of Dec 31, 1996. Purchased for $149,000; monthly amounts escalating from 10,000 to 35,000 barrels. Counterparty per text on the three Enron Capital and Trade Resources contracts.",
+        "evidence_quote": "Under the final contract, the Company purchased for $149,000 an additional\n257,000 put options with a strike price of $16.50 covering the period February\nthrough December 1996 in monthly amounts escalating from 10,000 barrels to\n35,000 barrels during the contract period."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16,
+        "ceiling_price": 18.2,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-12",
+        "period_end": "1996-12",
+        "counterparty": "Koch",
+        "fair_value_mm": null,
+        "notes": "Cost free collar entered Nov 20, 1995; 12,000 barrels each month; settled as of Dec 31, 1996.",
+        "evidence_quote": "entered into a cost free collar with Koch that hedged 12,000 barrels of crude\noil production each month during the period December 1995 to December 1996."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company entered price protection agreements to hedge against volatility in crude oil prices; hedging results are recorded as an adjustment to crude oil revenue. Hedging reduced 1996 oil and gas sales by $535,000."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 501908,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 710436,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 620314,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 7312,
+      "proved_gas_reserves_mmcf": 10188,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 52.983,
+      "pv10_mm": 71.906,
+      "oil_price_used": 22.52,
+      "gas_price_used": 4.5,
+      "lease_operating_expense_per_boe": 2.31,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 2.31,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.17,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

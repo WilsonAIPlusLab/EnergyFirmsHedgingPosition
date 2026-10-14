@@ -1,0 +1,58 @@
+{
+  "cik": "1067662",
+  "company": "ATLAS ENERGY FOR THE NINETIES PUBLIC NO 7 LTD",
+  "filing_date": "2000-04-14",
+  "accession_number": "0000912057-00-018160",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": false,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 0,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 662125,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 110354,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 0,
+      "proved_gas_reserves_mmcf": 4611.849,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 768.642,
+      "proved_developed_reserves_mboe": 768.642,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 3.994981,
+      "pv10_mm": 3.995,
+      "oil_price_used": null,
+      "gas_price_used": 2.92,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 2.36,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:55",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

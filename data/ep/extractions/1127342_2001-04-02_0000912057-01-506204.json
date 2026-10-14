@@ -1,0 +1,119 @@
+{
+  "cik": "1127342",
+  "company": "GMX RESOURCES INC",
+  "filing_date": "2001-04-02",
+  "accession_number": "0000912057-01-506204",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "5,000 Bbls per month; swap expired December 31, 2000; Company received fixed price and paid variable market price. Combined fair value of the financial instrument(s) at 12/31/2000 was a liability of approx. $187,800 (not attributed to a single swap in the text).",
+        "evidence_quote": "The Company had a swap arrangement covering 5,000 barrels of crude oil per"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "20,000 Mmbtu per month; Company receives fixed price and pays counterparty an index price; hedges approx. 34% of estimated monthly gas production. Combined fair value of the financial instrument(s) at 12/31/2000 was a liability of approx. $187,800 (not attributed to a single swap in the text).",
+        "evidence_quote": "relates to 20,000 mmbtu per month whereby the Company will receive a fixed"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil price swap covering first six months of 2001 was settled on December 20 (2000) for a gain of $76,334, amortized into income during 2001. Volume and price not stated.",
+        "evidence_quote": "settled an oil price swap agreement covering the first six months of 2001 on"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Fixed-price financial swaps on a portion of projected oil and gas production; does not expect to hedge more than 50% of total production; hedges when forward market conditions look favorable."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 75000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 710000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3858,
+      "proved_gas_reserves_mmcf": 49070,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 186.281,
+      "pv10_mm": 284.161,
+      "oil_price_used": 26.42,
+      "gas_price_used": 9.9,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

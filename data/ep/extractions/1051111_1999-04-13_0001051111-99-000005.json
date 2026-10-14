@@ -1,0 +1,101 @@
+{
+  "cik": "1051111",
+  "company": "SOUTHWEST ROYALTIES HOLDINGS INC",
+  "filing_date": "1999-04-13",
+  "accession_number": "0001051111-99-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 15000,
+        "volume_total": 2265000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-11",
+        "period_end": "1999-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased put in August 1998 for approximately $374,000 premium; based on El Paso Natural Gas Co. - Permian Basin Index; company states it hedged all of its gas production at Dec 31, 1998 with this floor option.",
+        "evidence_quote": "option  contract on a total notional amount of 15,000 MMBtu of natural  gas\nper  day with a strike price of $2.00 per MMBtu for approximately $374,000."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 91000,
+        "volume_unit": "Bbls",
+        "fixed_price": 14.67,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-04",
+        "period_end": "1999-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered March 15, 1999 (subsequent to year end); approximately 25% of oil production; based on West Texas Intermediate - NYMEX; can be extended to September 30, 1999 at the option of the counter-party.",
+        "evidence_quote": "agreement  whereby the Company is contracted to sell 1,000 barrels  of  oil\nper  day,  approximately 25% of its oil production, with a strike price  of\n$14.67 per Bbl., based on West Texas Intermediate - NYMEX."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time the Company enters into commodity price derivative contracts (options, swaps) to hedge commodity price risks and lock in prices to protect certain capital project economics."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1689000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5556000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 2615000,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 20944,
+      "proved_gas_reserves_mmcf": 58273,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 30656,
+      "proved_developed_reserves_mboe": 18253,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 71.9,
+      "pv10_mm": 71.9,
+      "oil_price_used": 10.25,
+      "gas_price_used": 1.73,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

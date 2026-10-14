@@ -1,0 +1,155 @@
+{
+  "cik": "319459",
+  "company": "MISSION RESOURCES CORP",
+  "filing_date": "1999-03-22",
+  "accession_number": "0000899243-99-000503",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 10000,
+        "volume_total": 3040000,
+        "volume_unit": "Mcf",
+        "fixed_price": -0.02,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-01",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "basis swap contracts to hedge the basis differential on 10,000 million cubic",
+        "notes": "Houston Ship Channel delivery; differential approx $.02 under the NYMEX 3 day average. MD&A garbles the volume as 10,000 million cubic feet per day; the notes to the financial statements state 10,000 Mcf per day, used here."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 5000,
+        "volume_total": 1070000,
+        "volume_unit": "Mcf",
+        "fixed_price": 0,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-04",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Transco Zone 3 for the period April through October 1999 at a zero price",
+        "notes": "Transco Zone 3 delivery; zero price adjustment to the NYMEX 3 day average. 5,000 Mcfpd per the notes; MD&A gives 9,000 mcfpd combined for Transco Zone 3 and ANR Louisiana."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 4000,
+        "volume_total": 856000,
+        "volume_unit": "Mcf",
+        "fixed_price": -0.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-04",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Louisiana for the period April through October 1999 for $.09 under the NYMEX 3",
+        "notes": "ANR-Louisiana delivery; $.09 under the NYMEX 3 day average. 4,000 Mcfpd per the notes; MD&A gives 9,000 mcfpd combined."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 92000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 18.5,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-10",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "company sold call options on 1,000 barrels of oil per day for the months of",
+        "notes": "Sold calls at $18.50 strike for a premium of $1.00 per barrel; not hedge-accounted, marked to market. Expired in 1998, not outstanding at 1998 year end."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 27.34,
+        "volume_total": 9979,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.34,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "aggregate of 9,979 MMBTU of natural gas at an average NYMEX quoted price of",
+        "notes": "Historical fiscal 1998 hedges; text says the company was not a party to any swap at December 31, 1998. Volume stated literally as 9,979 MMBTU (units as printed). Price is average NYMEX quoted price per MMBTU."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges production through swaps, options and other commodity derivatives; uses hedge accounting; separately hedges NYMEX price and basis differential. Also has an $80MM interest rate swap (ignored)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2106000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 21302000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 191000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 8489,
+      "proved_gas_reserves_mmcf": 111585,
+      "proved_ngl_reserves_mbbls": 1573,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "review",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

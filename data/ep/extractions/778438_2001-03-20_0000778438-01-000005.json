@@ -1,0 +1,101 @@
+{
+  "cik": "778438",
+  "company": "Berry Petroleum Company, LLC",
+  "filing_date": "2001-03-20",
+  "accession_number": "0000778438-01-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5000,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "One of two bracketed zero cost collars with two refiners (6,500 BPD combined, maximum $3.00/bbl payment); trigger price $15.50/bbl on 5,000 BPD based on California heavy oil postings. Text does not label trigger as floor or ceiling. Contract expired 12/31/2000; entered in prior years; no hedges in place at filing.",
+        "evidence_quote": "per day (BPD).  Of this 6,500 BPD, Berry participated on 5,000 BPD above"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1500,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second of two bracketed zero cost collars with two refiners (6,500 BPD combined, maximum $3.00/bbl payment); trigger price $17.50/bbl on 1,500 BPD based on California heavy oil postings. Text does not label trigger as floor or ceiling. Contract expired 12/31/2000.",
+        "evidence_quote": "$15.50 per barrel and on 1,500 BPD above $17.50 per barrel.  These price"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time uses options, swaps and collars to manage commodity price risk; two zero cost collars expired 12/31/2000; no crude oil hedges in place at filing; monitors markets to decide on hedging."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5434000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 199000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 5467000,
+      "total_production_boepd": 14937,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 106664,
+      "proved_gas_reserves_mmcf": 4184,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 107361,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 503.582,
+      "pv10_mm": 721.77,
+      "oil_price_used": 20.63,
+      "gas_price_used": 10.94,
+      "lease_operating_expense_per_boe": 8.13,
+      "production_tax_per_boe": 0.43,
+      "total_production_cost_per_boe": 8.56,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 2.57,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

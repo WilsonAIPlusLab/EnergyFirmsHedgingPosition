@@ -1,0 +1,119 @@
+{
+  "cik": "798949",
+  "company": "UNIT CORP",
+  "filing_date": "2001-03-20",
+  "accession_number": "0000798949-01-500024",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-04",
+        "period_end": "2000-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Covers approx 50 percent of daily oil production, Apr 1 2000 to Jul 31 2000; swap prices stated only as a range of $24.42 to $27.01 across swaps (no single weighted average); no volume stated. Hedges reduced 2000 oil revenues by $465,000 combined with collar.",
+        "evidence_quote": "applied to approximately 50 percent of our daily oil production covering"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-08",
+        "period_end": "2000-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Covers approx 25 percent of daily oil production for August and September 2000; swap prices stated only as a range of $24.42 to $27.01 across swaps (no single weighted average); no volume stated.",
+        "evidence_quote": "oil production for August and September of 2000, at prices ranging from"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 26,
+        "ceiling_price": 33,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-11",
+        "period_end": "2001-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Approx 25 percent of daily production, Nov 1 2000 to Feb 28 2001; company receives $0.86 per barrel for entering the collar. Text says 'daily production' without naming oil, but premium is per barrel and the hedging discussion concerns oil.",
+        "evidence_quote": "The collar has a floor of $26.00"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically uses hedging strategies such as futures or swaps to hedge price of a portion of future oil and gas production; arrangements cover only a portion of production. No hedges at Dec 31, 1998 and 1999."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 488000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 19285000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 4183,
+      "proved_gas_reserves_mmcf": 215637,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

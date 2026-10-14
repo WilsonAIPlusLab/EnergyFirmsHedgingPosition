@@ -1,0 +1,149 @@
+{
+  "cik": "1407185",
+  "company": "Quest Energy Partners, L.P.",
+  "filing_date": "2008-03-31",
+  "accession_number": "0000950134-08-005724",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6371.58,
+        "volume_total": 2332000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": 0.6,
+        "notes": "Fixed-price natural gas swap, year ending Dec 31, 2008 column; fixed-price sales $17,141K; counterparties described only as a financial institution and a major energy corporation; mostly Southern Star first-of-month index, some NYMEX",
+        "evidence_quote": "Natural Gas Swaps:"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 34600.0,
+        "volume_total": 12629000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2009-01",
+        "period_end": "2009-12",
+        "counterparty": null,
+        "fair_value_mm": 0.199,
+        "notes": "Fixed-price natural gas swap, year ending Dec 31, 2009 column; fixed-price sales $97,202K",
+        "evidence_quote": "Natural Gas Swaps:"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 28764.38,
+        "volume_total": 10499000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.31,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": null,
+        "fair_value_mm": -4.217,
+        "notes": "Fixed-price natural gas swap, year ending Dec 31, 2010 column; fixed-price sales $76,779K",
+        "evidence_quote": "Natural Gas Swaps:"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 19202.19,
+        "volume_total": 7028000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.54,
+        "ceiling_price": 7.54,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": -2.112,
+        "notes": "Natural gas collars, 2008 only; floor and ceiling volumes each 7,028,000 MMBtu; some older collars (about 2.9 Bcf) are NYMEX-based",
+        "evidence_quote": "Natural Gas Collars:"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis swaps locking basis differential on about 25% of NYMEX volumes at weighted average about $1.09 per Mcf (sign not stated); notional volumes by year truncated in text (2008: 6,276,...); balance-sheet fair value: asset $281K, liability $(856)K",
+        "evidence_quote": "Does not include basis swaps with notional volumes by year,"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Mitigates commodity price volatility using fixed-price contracts (energy swaps and collars); derivatives cover about 80% of net PDP production through Q4 2010; contracts approved by board of Quest Energy GP."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6523,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 17148000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2007
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 36.556,
+      "proved_gas_reserves_mmcf": 210923,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2007-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 322.537,
+      "pv10_mm": 322.5,
+      "oil_price_used": 92.01,
+      "gas_price_used": 6.21,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

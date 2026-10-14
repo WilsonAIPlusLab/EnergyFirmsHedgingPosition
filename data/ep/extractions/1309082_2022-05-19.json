@@ -1,0 +1,98 @@
+{
+  "cik": "1309082",
+  "company": "CAMBER ENERGY, INC.",
+  "filing_date": "2022-05-19",
+  "accession_number": "0001477932-22-003646",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 45,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2020-02",
+        "period_end": "2022-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Elysium (Viking subsidiary) hedge placed Feb 4, 2020: 75% of est. production for 2020, 60% for 2021, 50% for Jan-Jul 2022. Ceiling stated only as a range of $52.70 to $56.00, so ceiling_price left null. No volumes or counterparty stated. Camber assigned its Elysium Holdings interest to Viking on Dec 23, 2020.",
+        "evidence_quote": "Theses hedges have a floor of $45 and a ceiling ranging from $52.70 to $56 for oil, and a floor of $2 and a ceiling of $2.425 for natural gas."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2,
+        "ceiling_price": 2.425,
+        "price_unit": null,
+        "period_start": "2020-02",
+        "period_end": "2022-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Elysium (Viking subsidiary) hedge placed Feb 4, 2020: 75% of est. production for 2020, 60% for 2021, 50% for Jan-Jul 2022. Price unit not stated in text. No volumes or counterparty stated.",
+        "evidence_quote": "Theses hedges have a floor of $45 and a ceiling ranging from $52.70 to $56 for oil, and a floor of $2 and a ceiling of $2.425 for natural gas."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Elysium hedged 75% of est. 2020 production, 60% of 2021 and 50% of Jan-Jul 2022 on acquired assets (floors/ceilings); Item 7A omitted as smaller reporting company."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 35.7,
+      "proved_gas_reserves_mmcf": 20.317,
+      "proved_ngl_reserves_mbbls": 30.2,
+      "total_proved_reserves_mboe": 86.217,
+      "proved_developed_reserves_mboe": 86.217,
+      "proved_undeveloped_reserves_mboe": 0,
+      "reserves_year_end": "2020-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 0.3143,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:02",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

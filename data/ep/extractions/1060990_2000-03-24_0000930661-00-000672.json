@@ -1,0 +1,155 @@
+{
+  "cik": "1060990",
+  "company": "QUICKSILVER RESOURCES INC",
+  "filing_date": "2000-03-24",
+  "accession_number": "0000930661-00-000672",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18.5,
+        "ceiling_price": 20.65,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "First set of zero-cost collars; ceiling is weighted average (approximately $20.65). Start date not stated (in place as of Dec 31, 1999). Text says the company would expect to pay approximately $1.0 million on the oil hedge contracts in aggregate (not per instrument).",
+        "evidence_quote": "As of December 31, 1999, the Company has zero-cost financial contracts\n(\"collars\") in place that hedged a total of 1,000 barrels of oil per day\n(\"MMcf/d\") through July 2000 and 500 barrels of oil per day through November\n2000."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 500,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 21,
+        "ceiling_price": 25.85,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second set of zero-cost collars. Start date not stated (in place as of Dec 31, 1999).",
+        "evidence_quote": "The first set of contracts had a weighted average ceiling price of\napproximately $20.65 per barrel and the second set of contracts had a ceiling\nprice of $25.85 per barrel. These contracts had a floor price of $18.50 and\n$21.00 per barrel, respectively."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 500,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 19.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap. Start date not stated (in place as of Dec 31, 1999).",
+        "evidence_quote": "The Company also has fixed price swaps for 500 barrels per day at $19.35 per\nbarrel through July 2000 and 7,500 mcf per day at $2.40 per mcf through April\n2004."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 7500,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "2004-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap. Start date not stated. Text says the company would expect to pay approximately $1.1 million on the natural gas hedge contract.",
+        "evidence_quote": "The Company also has fixed price swaps for 500 barrels per day at $19.35 per\nbarrel through July 2000 and 7,500 mcf per day at $2.40 per mcf through April\n2004."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "other",
+        "fixed_price": 3.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": null,
+        "period_end": "2004-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "MGV Energy Inc. fixed price swap; volume is an average of 20,852 Giga Joules per month (approximates 20,800 mcf per month); price is $3.09 Canadian (per GJ not stated explicitly). Start date not stated.",
+        "evidence_quote": "MGV Energy Inc. has a fixed price swap for an average of 20,852 Giga\nJoules (which approximates 20,800 mcf) per month at $3.09 Canadian through\nOctober 2004."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Sells ~60% of natural gas under long-term fixed price contracts and swap agreements; hedges oil/gas with price ceilings and floors, no-cost collars and fixed price swaps. Also has interest rate swaps (ignored)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 724000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 16042000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 15281,
+      "proved_gas_reserves_mmcf": 198033,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 204.049,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

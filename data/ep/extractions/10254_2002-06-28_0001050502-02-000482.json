@@ -1,0 +1,84 @@
+{
+  "cik": "10254",
+  "company": "EARTHSTONE ENERGY INC",
+  "filing_date": "2002-06-28",
+  "accession_number": "0001050502-02-000482",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 22.12,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "effectively set a floor price of $18.00 and a ceiling price of $22.12 on\n2,000 barrels per month (slightly less than one-third of the Company's anticipated oil\nproduction).",
+        "notes": "Zero-Cost Collar, 2,000 Bbls per month; in place during a portion of fiscal year ended March 31, 2001; expired August 2000; fiscal 2001 hedging loss approx $72,000. Not open at March 31, 2002 or 2001.",
+        "price_unit_note": null
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically uses futures or options to limit oil price exposure; no open contracts at 3/31/2002 or 2001; zero-cost collar expired Aug 2000; no gas hedged; will monitor market for opportunities."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 97000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 84000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-03-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 3.125,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 2.06,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

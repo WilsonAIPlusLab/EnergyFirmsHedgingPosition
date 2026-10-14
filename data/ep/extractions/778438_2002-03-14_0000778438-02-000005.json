@@ -1,0 +1,173 @@
+{
+  "cik": "778438",
+  "company": "Berry Petroleum Company, LLC",
+  "filing_date": "2002-03-14",
+  "accession_number": "0000778438-02-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5000,
+        "volume_total": 1825000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 20,
+        "ceiling_price": 24,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-04",
+        "period_end": "2003-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered in 2002 (after year-end); one-year period beginning April 1, 2002; WTI-based; prices are approximate; no hedges in place at Dec 31, 2001. Period end 2003-03 follows from the stated one-year term.",
+        "evidence_quote": "Based on WTI pricing, the hedges have a floor of approximately\n$20.00/Bbl and a ceiling of approximately $24.00/Bbl."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3000,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-06",
+        "period_end": null,
+        "counterparty": "Enron",
+        "fair_value_mm": null,
+        "notes": "One-year zero cost bracketed collar (entered May 2001, term beginning June 1). Max company payment $3.62/Bbl, max receipt $5.60/Bbl (not floor/ceiling strikes). Terminated Dec 10, 2001 after Enron bankruptcy; combined Enron contracts settled with $1.3MM liability recorded, $1.5MM pre-tax charge.",
+        "evidence_quote": "Company  entered  into a one-year zero cost bracketed  collar  on\n3,000  barrels/day  (BPD)  of its crude  oil."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 5000,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-08",
+        "period_end": null,
+        "counterparty": "Enron",
+        "fair_value_mm": null,
+        "notes": "Three-year SoCal gas swap (gas purchasing hedge) entered late July 2001, beginning Aug 1; terminated Dec 10, 2001 after Enron bankruptcy.",
+        "evidence_quote": "In late July 2001, Berry entered into a three-year SoCal gas\nswap  with  Enron for a price of $4.20/Mmbtu on 5,000  Mmbtu/day."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 4500,
+        "volume_total": 405000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Series of derivative contracts entered Dec 2000 limiting price paid for natural gas for three months ending March 31, 2001; earned $1.4MM pre-tax in Q1 2001. Instrument type and prices not stated.",
+        "evidence_quote": "paid  for  4,500  Mmbtu/day of natural gas  for  the  three-month"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 5000,
+        "volume_total": 1830000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical 2000 bracketed zero cost collar with a refiner; company participated above $15.50/Bbl price trigger on 5,000 BPD, maximum $3.00/Bbl payment (part of 6,500 BPD program); expired Dec 31, 2000. Strikes not clearly floor/ceiling so left null.",
+        "evidence_quote": "Berry participated on 5,000 BPD above $15.50 per barrel  and\non  1,500 BPD above $17.50 per barrel."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1500,
+        "volume_total": 549000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical 2000 bracketed zero cost collar with a refiner; company participated above $17.50/Bbl price trigger on 1,500 BPD, maximum $3.00/Bbl payment; expired Dec 31, 2000. Strikes not clearly floor/ceiling so left null.",
+        "evidence_quote": "Berry participated on 5,000 BPD above $15.50 per barrel  and\non  1,500 BPD above $17.50 per barrel."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time uses options, swaps and collars to manage commodity price risk; periodically enters oil hedges based on management's view of prices and financial commitments. No oil hedges at 12/31/2001."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4996000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 288000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 5044000,
+      "total_production_boepd": 13820,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 101701,
+      "proved_gas_reserves_mmcf": 6926,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 102855,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 280.341,
+      "pv10_mm": 356.556,
+      "oil_price_used": 14.18,
+      "gas_price_used": 1.98,
+      "lease_operating_expense_per_boe": 7.5,
+      "production_tax_per_boe": 0.49,
+      "total_production_cost_per_boe": 7.99,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.28,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

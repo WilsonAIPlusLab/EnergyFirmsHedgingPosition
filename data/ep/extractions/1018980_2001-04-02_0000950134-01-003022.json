@@ -1,0 +1,173 @@
+{
+  "cik": "1018980",
+  "company": "COSTILLA ENERGY INC",
+  "filing_date": "2001-04-02",
+  "accession_number": "0000950134-01-003022",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 155000,
+        "volume_unit": "Bbls",
+        "fixed_price": 16.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Position at Dec 31, 1998 (prior year-end, not outstanding at Dec 31, 1999). Strike shown as $13.50-$16.40; per footnote (a) the lower price is the buyer's threshold (no hedge below it), the higher is the fixed price. Table in text is described as option contracts.",
+        "evidence_quote": "5,000              --        Jan 99              $13.50 - $16.40(a)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 1670000,
+        "volume_unit": "Bbls",
+        "fixed_price": 15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-02",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Position at Dec 31, 1998 (prior year-end, not outstanding at Dec 31, 1999). Strike shown as $12.00-$15.00; footnote (a): amended Feb 1999 to fixed $15.00 per Bbl on 5,000 Bbls/day with no hedge when WTI closes below $12.00.",
+        "evidence_quote": "5,000              --        Feb 99 - Dec 99     $12.00 - $15.00(a)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 5000,
+        "volume_total": 910000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Position at Dec 31, 1998 (prior year-end, not outstanding at Dec 31, 1999). Strike price range shown in table as $13.50 - $16.40 with no footnote marker; structure not described.",
+        "evidence_quote": "5,000              --        Jan 00 - June 00    $13.50 - $16.40"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 25000,
+        "volume_total": 27400000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Position at Dec 31, 1998 (prior year-end). Footnote (b): three year fixed price swap amended Feb 1999 to Mar 1999-Dec 2000 covering 45,000 Mmbtu/day at $2.20; Mar 1999-Dec 1999 portion liquidated for $3.2 million cash; new contract 20,000 Mmbtu/day at $1.96. Not outstanding at Dec 31, 1999.",
+        "evidence_quote": "Gas: ..............         --          25,000        Jan 99 - Dec 01          $2.40(b)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 6500,
+        "volume_total": 1579500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Position at Dec 31, 1997 (two years prior, expired). Strike price range shown in table as $18.50 - $22.55 with footnote (c) not included in the text.",
+        "evidence_quote": "6,500              --        Jan 98 - Aug 98     $18.50 - $22.55(c)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 5000,
+        "volume_total": 1520000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Position at Dec 31, 1997 (two years prior, expired). Strike price $2.00 with footnote (d) not included in the text; instrument structure not stated.",
+        "evidence_quote": "--           5,000        Jan 98 - Oct 98          $2.00(d)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Utilizes swap agreements to hedge price changes on future oil and gas production for more predictable revenues and cash flows; previously used options. No hedge contracts outstanding at Dec 31, 1999."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 830000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 17218000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3505,
+      "proved_gas_reserves_mmcf": 78036,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-01-01"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 93.248,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

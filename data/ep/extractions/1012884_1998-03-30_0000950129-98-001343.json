@@ -1,0 +1,119 @@
+{
+  "cik": "1012884",
+  "company": "RUTHERFORD-MORAN OIL CORP",
+  "filing_date": "1998-03-30",
+  "accession_number": "0000950129-98-001343",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3636.36,
+        "volume_total": 1000000,
+        "volume_unit": "Bbls",
+        "fixed_price": 15.92,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-04",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered Q1 1996 with an affiliate of the Company's lender (not named). Part of the obligation was considered speculative in 1997 and marked to market.",
+        "evidence_quote": "the Company entered into crude oil price\nswaps with an affiliate of its lender in the amount of 1,000,000 barrels at\n$15.92 per barrel for the period April through December of 1997"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4794.52,
+        "volume_total": 1750000,
+        "volume_unit": "Bbls",
+        "fixed_price": 15.92,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Counterparty is an affiliate of the Company's lender (not named). In Q1 1998 the Company entered an offsetting position for its entire 1998 swap position (no volume or price stated for the offset), leaving no material exposure.",
+        "evidence_quote": "and in the\namount of 1,750,000 barrels at $15.92 per barrel for the year 1998."
+      },
+      {
+        "instrument_type": "swaption",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3424.66,
+        "volume_total": 1250000,
+        "volume_unit": "Bbls",
+        "fixed_price": 18.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": 0.625,
+        "notes": "Swap option sold to an affiliate of the Company's bank lender (not named); described as an option to purchase aggregate oil volumes at $18.30 per barrel. Not accounted for as a hedge. Fair value of $625,000 recorded as a liability at 12/31/1997.",
+        "evidence_quote": "The\nCompany also sold to an affiliate of its bank lender an option to\npurchase 1,250,000 barrels of aggregate oil volumes from January through\nDecember 1999 at a price of $18.30 per barrel."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company has used crude oil price swaps and similar arrangements to hedge against declines in oil prices for future production; swaps may limit gains from price increases."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 820289,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 12764000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 28822.774,
+      "proved_gas_reserves_mmcf": 185307,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 62.94,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

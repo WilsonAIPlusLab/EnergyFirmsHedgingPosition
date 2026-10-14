@@ -1,0 +1,77 @@
+{
+  "cik": "878482",
+  "company": "GOTHIC ENERGY LLC",
+  "filing_date": "1997-03-05",
+  "accession_number": "0000930661-97-000529",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 5000,
+        "volume_total": 920000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.06,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1996-07",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed-for-spot agreement with an unnamed gas purchaser; difference between spot price and fixed price received or paid; settlements recorded in oil and gas sales. Passage found in production_text (Note 1 Hedging Activities), not instrument_text. Text mentions a new hedging arrangement but is truncated.",
+        "evidence_quote": "The Company hedged 5,000 Mcf per day for the period of July 1, 1996 through December 31, 1996 at a price of $2.06 per Mcf."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "During 1996 the Company agreed with a gas purchaser to hedge a portion of monthly gas production at a fixed price; payments recorded in oil and gas sales."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 163978,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3403943,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1157.738,
+      "proved_gas_reserves_mmcf": 64534.158,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 49.083,
+      "pv10_mm": 67.087,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

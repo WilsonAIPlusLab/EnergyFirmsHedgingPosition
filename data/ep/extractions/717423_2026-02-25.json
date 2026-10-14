@@ -1,0 +1,116 @@
+{
+  "cik": "717423",
+  "company": "MURPHY OIL CORP",
+  "filing_date": "2026-02-25",
+  "accession_number": "0001628280-26-011709",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000,
+        "volume_total": 4500000,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2026-01",
+        "period_end": "2026-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Canada fixed price forward physical sales (price in C$/MCF); stated as 50 MMCF/D; as of Feb 23, 2026; accounted for as normal sales, not derivatives",
+        "evidence_quote": "Canada\t\tNatural Gas\t\tFixed price forward sales\t\t50\t\tC$3.03\t\t1/1/2026\t\t3/31/2026"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 78000,
+        "volume_total": 7098000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.94,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2026-04",
+        "period_end": "2026-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Canada fixed price forward physical sales (price in C$/MCF); stated as 78 MMCF/D; as of Feb 23, 2026; accounted for as normal sales, not derivatives",
+        "evidence_quote": "Canada\t\tNatural Gas\t\tFixed price forward sales\t\t78\t\tC$2.94\t\t4/1/2026\t\t6/30/2026"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 78000,
+        "volume_total": 7176000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.94,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2026-07",
+        "period_end": "2026-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Canada fixed price forward physical sales (price in C$/MCF); stated as 78 MMCF/D; as of Feb 23, 2026; accounted for as normal sales, not derivatives",
+        "evidence_quote": "Canada\t\tNatural Gas\t\tFixed price forward sales\t\t78\t\tC$2.94\t\t7/1/2026\t\t9/30/2026"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically uses derivative and commodity instruments to manage risk; may use forward sale fixed financial swaps and long-term fixed-price physical sales. No commodity derivatives in place at 12/31/2025."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 34000000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 185300000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 4000000,
+      "total_production_boe": 68900000,
+      "total_production_boepd": null,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 268700,
+      "proved_gas_reserves_mmcf": 2547700,
+      "proved_ngl_reserves_mbbls": 36700,
+      "total_proved_reserves_mboe": 730000,
+      "proved_developed_reserves_mboe": 418900,
+      "proved_undeveloped_reserves_mboe": 311100,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4624.2,
+      "pv10_mm": null,
+      "oil_price_used": 65.34,
+      "gas_price_used": 3.39,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

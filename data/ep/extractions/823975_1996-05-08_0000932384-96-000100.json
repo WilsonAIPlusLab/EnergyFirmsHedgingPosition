@@ -1,0 +1,173 @@
+{
+  "cik": "823975",
+  "company": "COLUMBUS ENERGY CORP",
+  "filing_date": "1996-05-08",
+  "accession_number": "0000932384-96-000100",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1994-05",
+        "period_end": "1995-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "100,000 Mmbtu per month; settled against NYMEX monthly average; expired April 1995 (historical). Gain of $204,600 May-Nov 1994 and $283,900 in fiscal 1995.",
+        "evidence_quote": "100,000 Mmbtu per month for the twelve month period  from May 1994"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-04",
+        "period_end": "1996-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "60,000 Mmbtu per month; first of two new swaps; together approx 65% of current gas production.",
+        "evidence_quote": "1996 through November 1996 at $1.74 per Mmbtu while the second swap is"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.88,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-04",
+        "period_end": "1996-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "60,000 Mmbtu per month; second swap, same period and quantity as the $1.74 swap.",
+        "evidence_quote": "for the same period and quantity at $1.88 per Mmbtu."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 1935.48,
+        "volume_total": 60000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.805,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-10",
+        "period_end": "1996-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased NYMEX futures contract for October 1996 (first of 'October and November' contracts, respectively) to limit loss on the $1.74 swap; month assignment per 'respectively'.",
+        "evidence_quote": "contracts for two months for 60,000 Mmbtu of natural gas at $1.805 and"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 2000.0,
+        "volume_total": 60000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.875,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-11",
+        "period_end": "1996-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased NYMEX futures contract for November 1996 (second of 'October and November' contracts, respectively).",
+        "evidence_quote": "contracts for two months for 60,000 Mmbtu of natural gas at $1.805 and"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.25,
+        "floor_price": null,
+        "ceiling_price": 19.5,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "10,000 barrels per month sold; swap at average price $17.25 with a $19.50 cap on the upside; approx 50% of current monthly production; settled monthly against NYMEX.",
+        "evidence_quote": "January 1996 through December 1996 at an average daily price of $17.25"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Natural gas and crude oil swaps entered in the normal course of business to reduce exposure to fluctuations in the price of crude oil and natural gas."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "production_year": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-11-30",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

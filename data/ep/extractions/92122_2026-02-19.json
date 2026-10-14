@@ -1,0 +1,86 @@
+{
+  "cik": "92122",
+  "company": "SOUTHERN CO",
+  "filing_date": "2026-02-19",
+  "accession_number": "0000092122-26-000006",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "evidence_quote": "Alabama Power\t126\t\t2028\t\t\u2014",
+        "volume_total": 126000000,
+        "volume_unit": "Mmbtu",
+        "period_end": "2028-12",
+        "notes": "Utility fuel-hedging (regulatory hedge) aggregate net purchased volume, 126 million mmBtu; instrument type not specified; longest hedge date 2028; no non-hedge date. Included in Southern Company total of 431 million mmBtu."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "evidence_quote": "Georgia Power\t128\t\t2028\t\t\u2014",
+        "volume_total": 128000000,
+        "volume_unit": "Mmbtu",
+        "period_end": "2028-12",
+        "notes": "Utility aggregate net purchased volume, 128 million mmBtu; instrument type not specified; longest hedge date 2028. Included in Southern Company total of 431 million mmBtu."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "evidence_quote": "Mississippi Power\t106\t\t2030\t\t\u2014",
+        "volume_total": 106000000,
+        "volume_unit": "Mmbtu",
+        "period_end": "2030-12",
+        "notes": "Utility aggregate net purchased volume, 106 million mmBtu; instrument type not specified; longest hedge date 2030. Included in Southern Company total of 431 million mmBtu."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "evidence_quote": "Southern Power\t8\t\t2030\t\t2026",
+        "volume_total": 8000000,
+        "volume_unit": "Mmbtu",
+        "period_end": "2030-12",
+        "notes": "Aggregate net purchased volume, 8 million mmBtu; longest hedge date 2030, longest non-hedge date 2026. Included in Southern Company total of 431 million mmBtu."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "evidence_quote": "Southern Company Gas(*)\n\t63\t\t2028\t\t2029",
+        "volume_total": 63000000,
+        "volume_unit": "Mmbtu",
+        "period_end": "2028-12",
+        "notes": "Net of long positions of 72 million mmBtu and short positions of 9 million mmBtu; longest hedge date 2028, longest non-hedge date 2029. Included in Southern Company total of 431 million mmBtu."
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Subsidiaries enter into energy-related derivatives to hedge electricity, natural gas and other fuel price changes; utilities run state-PSC-guided fuel-hedging programs with cost recovery."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2025
+    },
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "cik": "793306",
+  "company": "BLUE DOLPHIN ENERGY CO",
+  "filing_date": "2001-04-02",
+  "accession_number": "0000899243-01-000816",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5,
+        "volume_total": 1830,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 3.25,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-10",
+        "period_end": "2000-09",
+        "counterparty": "H & N Gas",
+        "fair_value_mm": null,
+        "notes": "Sold by American Resources (subsidiary); expired September 2000, no contracts in place at 12/31/2000. Average premium received approx $0.12 per Mmbtu. Fidelity Oil assumed 80% (4 Mmbtu/day) of liability. Settlement amounts: Jun 2000 $147,900, Jul $222,580, Aug $79,515, Sep $215,250.",
+        "evidence_quote": "In October 1999, American Resources sold call options for 5\nMmbtu's per day of gas at a call price of $3.25 per Mmbtu to H & N Gas."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Except for the expired sold gas call options, the Company has not used derivative products in the past to manage commodity price risk; no derivative contracts in place at December 31, 2000."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 64707,
+      "oil_production_bpd": 176.8,
+      "gas_production_mcf": 911671,
+      "gas_production_mmcf_per_day": 2.4909,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 185.1,
+      "proved_gas_reserves_mmcf": 4667,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 36.647578,
+      "pv10_mm": 36.889,
+      "oil_price_used": 25.45,
+      "gas_price_used": 9.91,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:39",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

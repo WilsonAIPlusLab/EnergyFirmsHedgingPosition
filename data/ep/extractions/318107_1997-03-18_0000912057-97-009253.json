@@ -1,0 +1,155 @@
+{
+  "cik": "318107",
+  "company": "PRIMA ENERGY CORP",
+  "filing_date": "1997-03-18",
+  "accession_number": "0000912057-97-009253",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 483.87,
+        "volume_total": 15000,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold crude oil futures; unrealized loss $(10,000) at 12/31/96. Item 1 text describes this as 15,000 barrels February 1997 NYMEX; the financial statement note table lists term January 1997.",
+        "evidence_quote": "$ 25.25        15,000      January, 1997      $ (10,000)"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 357.14,
+        "volume_total": 10000,
+        "volume_unit": "Bbls",
+        "fixed_price": 24.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-02",
+        "period_end": "1997-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold crude oil futures; unrealized loss $(7,000) at 12/31/96. Item 1 text describes this as 10,000 barrels March 1997 NYMEX; the financial statement note table lists term February 1997.",
+        "evidence_quote": "24.55        10,000      February, 1997        (7,000)"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 322.58,
+        "volume_total": 10000,
+        "volume_unit": "Bbls",
+        "fixed_price": 23.93,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-03",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold crude oil futures; unrealized loss $(6,000) at 12/31/96. Item 1 text describes this as 10,000 barrels April 1997 NYMEX; the financial statement note table lists term March 1997.",
+        "evidence_quote": "23.93        10,000      March, 1997           (6,000)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 600000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap purchased at 12/31/96, 60,000 MMBtu per month for ten months, to provide a fixed margin on a gas sales agreement; fixed price not stated; settled monthly against Inside FERC first-of-month CIG index. Start/end months not stated.",
+        "evidence_quote": "At December 31, 1996, the Company purchased a swap on 600,000 MMBtu"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical fixed-price gas sales contract; about 5.5% of 1996 and 4.3% of 1995 natural gas production sold under it. Volume and term not stated; this is a physical sales contract, not clearly a hedge.",
+        "evidence_quote": "contract price of $5.90 per MMBtu. The average price for the Company's"
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "Uses futures, options and swaps from time to time to hedge a portion of production and purchase-for-resale margins; hedges reviewed by CEO, significant ones by Board.",
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "total_oil_instruments": 3,
+      "uses_derivatives": true
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 4646000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": 233000,
+      "oil_production_bpd": null,
+      "production_year": 1996,
+      "total_production_boe": 1007000,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": 52112,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": 3037,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": 4.18,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": 3.76,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": 24.69,
+      "production_tax_per_boe": null,
+      "pv10_mm": 91,
+      "standardized_measure_mm": 68.965,
+      "total_production_cost_per_boe": 2.47
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

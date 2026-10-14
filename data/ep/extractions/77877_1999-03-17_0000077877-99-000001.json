@@ -1,0 +1,101 @@
+{
+  "cik": "77877",
+  "company": "PDC ENERGY, INC.",
+  "filing_date": "1999-03-17",
+  "accession_number": "0000077877-99-000001",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "evidence_quote": "Open future contracts maturing in 1999 are for the purchase of 520,000 MMBtu\nof natural gas with a weighted average price of $2.15/MMBtu resulting in a\ntotal contract amount of $1,120,300, with a fair value of $(105,400).",
+        "volume_per_day": 1424.66,
+        "volume_total": 520000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": -0.1054,
+        "notes": "NYMEX-traded natural gas futures; contracts maturing in 1999; total contract amount $1,120,300; direction long inferred from 'purchase'."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "evidence_quote": "Open\noption contracts maturing in 1999 are for the purchase of 210,000 MMBtu of\nnatural gas with a weighted average price of $.15 per MMBtu resulting in a\ntotal contract amount of $31,500 with a fair value of $45,800.",
+        "volume_per_day": 575.34,
+        "volume_total": 210000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": 0.0458,
+        "notes": "NYMEX natural gas option contracts; put/call type and strike not stated. Weighted average price $.15 per MMBtu (total contract amount $31,500) appears to be the option premium, not a strike."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses NYMEX natural gas futures and options to hedge a portion of price exposure from gas sales and marketing; policy prohibits use for speculative purposes; futures hedge 3-12 month forecasted purchases and sales."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 8000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2453000,
+      "gas_production_mmcf_per_day": 7.5,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 80800,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "cik": "1276187",
+  "company": "Energy Transfer LP",
+  "filing_date": "2026-02-19",
+  "accession_number": "0001276187-26-000013",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_total": -233645,
+        "volume_unit": "other",
+        "fair_value_mm": 32,
+        "period_start": "2025-12",
+        "period_end": "2025-12",
+        "evidence_quote": "We use futures, swaps and options to hedge the sales price of natural gas we retain for fees in our intrastate transportation and storage segment and operational gas sales on our interstate transportation and storage segment.",
+        "notes": "Mark-to-market natural gas derivatives; aggregate notional at Dec 31, 2025 of (233,645) BBtu as presented in the summary table; no price or tenor disclosed. 10% hypothetical change effect $9MM."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": -461896,
+        "volume_unit": "other",
+        "fair_value_mm": 2,
+        "period_start": "2025-12",
+        "period_end": "2025-12",
+        "evidence_quote": "We also have trading and marketing activities related to power and natural gas in our all other segment which are also netted in cost of products sold.",
+        "notes": "Mark-to-market power derivatives; aggregate notional (461,896) Megawatt as presented; trading/marketing, not an oil and gas hedge. 10% hypothetical change effect $4MM."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "mixed",
+        "direction": "unknown",
+        "volume_total": -59247,
+        "volume_unit": "other",
+        "fair_value_mm": 106,
+        "period_start": "2025-12",
+        "period_end": "2025-12",
+        "evidence_quote": "We use NGL and crude derivative swap contracts to hedge forecasted sales of NGL and condensate equity volumes we retain for fees in our midstream segment",
+        "notes": "Mark-to-market crude, NGL and refined products derivatives; aggregate notional (59,247) MBbls (thousand barrels) as presented. 10% hypothetical change effect $131MM."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": null,
+        "volume_unit": "other",
+        "fair_value_mm": 3,
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "*Forward contracts consisting of 54 million renewable identification numbers (\u201cRINs\u201d) maturing in 2026 and emission credits of 747,038 metric tons maturing through 2042.",
+        "notes": "Other mark-to-market row; RINs and emission credits, not an oil or gas price hedge. 10% hypothetical change effect $7MM."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_total": -100346,
+        "volume_unit": "other",
+        "fair_value_mm": 22,
+        "period_start": "2025-12",
+        "period_end": "2025-12",
+        "evidence_quote": "We use futures and basis swaps, designated as fair value hedges, to hedge our natural gas inventory stored in our Bammel storage facility.",
+        "notes": "Fair value hedging derivatives (futures and basis swaps) on Bammel storage inventory; aggregate notional (100,346) BBtu as presented. 10% hypothetical change effect $20MM."
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Midstream company; uses exchange-traded and OTC futures, swaps, options to hedge gas inventory, retained gas/NGL/condensate sales, margins, plus trading; overseen by risk oversight committee."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:02",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

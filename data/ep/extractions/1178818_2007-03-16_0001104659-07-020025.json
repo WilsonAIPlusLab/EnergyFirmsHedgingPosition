@@ -1,0 +1,137 @@
+{
+  "cik": "1178818",
+  "company": "Storm Cat Energy CORP",
+  "filing_date": "2007-03-16",
+  "accession_number": "0001104659-07-020025",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1500,
+        "volume_total": 1414500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-01",
+        "period_end": "2009-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity swap cash settlement entered July 21, 2006; CIG pricing; quarterly schedule 135,000-138,000 MMBtu per quarter, 46,500 in 07/2009; established with the Credit Facility",
+        "evidence_quote": "the agreement is $7.16 per MMBtu (CIG pricing)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2000,
+        "volume_total": 1948000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.27,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-01",
+        "period_end": "2009-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second commodity swap entered August 29, 2006; CIG pricing; quarterly schedule 180,000-184,000 MMBtu per quarter, 124,000 in 07/2009-08/2009",
+        "evidence_quote": "quantity is 1,948,000 MMBtu\u2019s.  The fixed"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2400,
+        "volume_total": 876000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Third swap entered December 31, 2006; CIG pricing; quarterly volumes 216,000 / 218,400 / 220,800 / 220,800 MMBtu",
+        "evidence_quote": "The fixed price in the agreement is $5.12 per MMBtu (CIG pricing)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1200,
+        "volume_total": 439200,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.61,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fourth swap entered December 31, 2006; CIG pricing; quarterly volumes 109,200 / 109,200 / 110,400 / 110,400 MMBtu",
+        "evidence_quote": "The fixed price in the agreement is $6.61 per MMBtu (CIG pricing)."
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "Board-approved commodity hedging policy; hedged an estimated 75% of current production as of March 3, 2007; swaps set up to support acquisitions and the credit facility; not for trading.",
+      "total_gas_instruments": 4,
+      "total_oil_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2006,
+      "gas_production_mcf": 1606200,
+      "gas_production_mmcf_per_day": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "reserves_year_end": "2006-12-31",
+      "proved_gas_reserves_mmcf": 25015.3,
+      "proved_oil_reserves_mbbls": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {
+      "standardized_measure_mm": 32.037,
+      "pv10_mm": 32.0364,
+      "oil_price_used": null,
+      "gas_price_used": 4.46,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

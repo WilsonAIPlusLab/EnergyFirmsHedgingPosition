@@ -1,0 +1,101 @@
+{
+  "cik": "353153",
+  "company": "CAIRN ENERGY USA INC",
+  "filing_date": "1996-03-05",
+  "accession_number": "0000899078-96-000027",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 12208.03,
+        "volume_total": 3345000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.935,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-01",
+        "period_end": "1996-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "MD&A aggregate of gas price swaps: Company receives fixed price per MMBtu and pays floating NYMEX Natural Gas futures settlement price. May overlap with the Note 7 swap entry (different volume/price stated).",
+        "evidence_quote": "price of 3,345,000  MMBtu of gas for the period  January to September 1996 at an"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6229.51,
+        "volume_total": 2280000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.962,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": 0.7,
+        "notes": "Note 7, position at December 31, 1995; weighted average NYMEX price; no carrying value; fair value approximately $700,000. Period stated only as 'during 1996'. May overlap with MD&A swap entry.",
+        "evidence_quote": "fix selling  prices for natural gas at a weighted  average NYMEX price of $1.962\nper MMBtu for  2,280,000  MMBtus  during  1996.  While these  contracts  have no"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Policy of hedging oil and gas prices via futures, options, forwards and swaps; max 12-month term; max 50% of budgeted production in any 12 months or 75% in any single month."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 430800,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 10403000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2283,
+      "proved_gas_reserves_mmcf": 66903,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 116.402,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

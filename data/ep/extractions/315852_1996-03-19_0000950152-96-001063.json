@@ -1,0 +1,83 @@
+{
+  "cik": "315852",
+  "company": "RANGE RESOURCES CORP",
+  "filing_date": "1996-03-19",
+  "accession_number": "0000950152-96-001063",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 360000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1996-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open natural gas price swap contracts at Dec 31, 1995 totaling 360,000 MMbtu, expiring monthly through September 1996. Net gains of approx. $221,000 in 1995 on derivatives. Prices and direction not stated.",
+        "evidence_quote": "At December 31, 1995, the Company had open contracts for natural gas price swaps in the amount\nof 360,000 MMbtu's. These contracts expire monthly through September 1996."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "The Company uses futures, option and swap contracts to reduce the effects of fluctuations in crude oil and natural gas prices."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 913000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 12471000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 10863,
+      "proved_gas_reserves_mmcf": 232887,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 174.05,
+      "pv10_mm": 229.238,
+      "oil_price_used": 18.14,
+      "gas_price_used": 2.28,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "cik": "315131",
+  "company": "PHX MINERALS INC.",
+  "filing_date": "2008-12-11",
+  "accession_number": "0000950134-08-022040",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6,
+        "ceiling_price": 9.2,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 100,000 mmbtu covered per month (not daily or total). Ceiling price range stated as $9.20 to $10.20 (lower end reported). Entered into in fiscal 2007. Prices are net prices from Oklahoma pipelines.",
+        "evidence_quote": "January \u2014 December, 2007 (1)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.55,
+        "ceiling_price": 8.8,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-01",
+        "period_end": "2008-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 120,000 mmbtu covered per month. Floor range $6.55 to $6.60; ceiling range $8.80 to $9.10 (lower ends reported). Entered into in fiscal 2008. Oklahoma pipeline net prices.",
+        "evidence_quote": "January \u2014 March, 2008 (2)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.15,
+        "ceiling_price": 8.05,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-04",
+        "period_end": "2008-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 120,000 mmbtu covered per month. Floor range $6.15 to $6.40; ceiling range $8.05 to $8.60 (lower ends reported). Entered into in fiscal 2008. Oklahoma pipeline net prices.",
+        "evidence_quote": "6.15 to $6.40"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.6,
+        "ceiling_price": 7.5,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-04",
+        "period_end": "2008-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 90,000 mmbtu covered per month. Floor range $6.60 to $6.85; ceiling range $7.50 to $7.80 (lower ends reported). Entered into in fiscal 2008. Oklahoma pipeline net prices.",
+        "evidence_quote": "90,000 mmbtu"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 7.2,
+        "ceiling_price": 8.15,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-04",
+        "period_end": "2008-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 30,000 mmbtu covered per month. Floor range $7.20 to $7.45; ceiling range $8.15 to $8.45 (lower ends reported). Entered into in fiscal 2008. Oklahoma pipeline net prices.",
+        "evidence_quote": "30,000 mmbtu"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.5,
+        "ceiling_price": 8.75,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-10",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 120,000 mmbtu covered per month. Floor range $6.50 to $6.90; ceiling range $8.75 to $9.15 (lower ends reported). Entered into in fiscal 2008. Oklahoma pipeline net prices.",
+        "evidence_quote": "October \u2014 December, 2008 (2)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically uses costless collars to reduce exposure to unfavorable natural gas price changes; volumes are a portion of expected production; not designated as cash flow hedges under SFAS 133."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 132402,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 6928038,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2008
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 990,
+      "proved_gas_reserves_mmcf": 48151,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2008-09-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 78.794725,
+      "pv10_mm": 78.012284,
+      "oil_price_used": 97.74,
+      "gas_price_used": 4.51,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:23",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

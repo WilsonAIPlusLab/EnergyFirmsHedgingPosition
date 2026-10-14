@@ -1,0 +1,83 @@
+{
+  "cik": "352871",
+  "company": "GREAT EASTERN ENERGY & DEVELOPMENT CORP",
+  "filing_date": "1997-03-31",
+  "accession_number": "0000938347-97-000003",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 0.33,
+        "volume_total": 30,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.87,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "fair_value_mm": null,
+        "notes": "Text says outstanding contracts to sell 30 thousand cubic feet (Mcf) of natural gas at $1.87 per Mcf in Q1 1997; accounting note refers to futures contracts with deferred gains/losses. Volume reported as stated (30 Mcf).",
+        "evidence_quote": "sell  30 thousand cubic feet (Mcf) of natural gas at $1.87 per Mcf in the first"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "The Company periodically hedges a portion of its natural gas production; gains or losses on futures hedges are deferred and recognized in income as the gas is produced and delivered."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 42278,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 49148,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 521,
+      "proved_gas_reserves_mmcf": 627,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 3.824,
+      "pv10_mm": null,
+      "oil_price_used": 22.72,
+      "gas_price_used": 1.68,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.48,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

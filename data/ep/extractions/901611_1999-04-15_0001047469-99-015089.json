@@ -1,0 +1,155 @@
+{
+  "cik": "901611",
+  "company": "ESENJAY EXPLORATION INC",
+  "filing_date": "1999-04-15",
+  "accession_number": "0001047469-99-015089",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 1040,
+        "volume_total": 1077440,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.566,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-04",
+        "period_end": "1999-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "1996 swap on approximately 1,040 MMBtu/d of Mid-Continent gas production; performance completed in January 1999 (expired).",
+        "evidence_quote": "1996 swap agreement on approximately 1,040 MMBtu's per day of Mid-Continent"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 4000,
+        "volume_total": 1460000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.14,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-11",
+        "period_end": "1999-10",
+        "counterparty": "B of A's Financial Engineering and Risk Management Group",
+        "fair_value_mm": null,
+        "notes": "Entered October 1998; Gulf Coast gas production. Counterparty stated in Item 6A for the 24-month hedging transactions Nov 1998 - Oct 2000.",
+        "evidence_quote": "for 4,000 MMBtu's per day of its Gulf Coast natural gas production for $2.14 per"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 700,
+        "volume_total": 255500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-11",
+        "period_end": "1999-10",
+        "counterparty": "B of A's Financial Engineering and Risk Management Group",
+        "fair_value_mm": null,
+        "notes": "Entered October 1998; Gulf Coast gas production. Counterparty stated in Item 6A for the 24-month hedging transactions Nov 1998 - Oct 2000.",
+        "evidence_quote": "second one on 700 MMBtu's per day of its Gulf Coast natural gas production for $2.13 per"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 4000,
+        "volume_total": 1464000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-11",
+        "period_end": "2000-10",
+        "counterparty": "B of A's Financial Engineering and Risk Management Group",
+        "fair_value_mm": null,
+        "notes": "Entered December 1998 as supplement to the October 1998 swaps; Gulf Coast gas production.",
+        "evidence_quote": "MMBtu's per day of its Gulf Coast natural gas production for $2.07 per MMBtu for"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 700,
+        "volume_total": 256200,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-11",
+        "period_end": "2000-10",
+        "counterparty": "B of A's Financial Engineering and Risk Management Group",
+        "fair_value_mm": null,
+        "notes": "Entered December 1998 as supplement to the October 1998 swaps; Gulf Coast gas production.",
+        "evidence_quote": "one was for 700 MMBtu's per day of its Gulf Coast natural gas production for $2.07 per MMBtu for"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Gas sold on monthly spot; may enter hedges to minimize price fluctuations; periodically reviews projected proved developed gas production to seek to prudently stabilize future cash flows."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 1998,
+      "oil_production_bbls": 8878,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 653325,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "reserves_year_end": "1998-12-31",
+      "proved_oil_reserves_mbbls": 100.195,
+      "proved_gas_reserves_mmcf": 11929.667,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {
+      "standardized_measure_mm": 12.520021,
+      "pv10_mm": null,
+      "oil_price_used": 9.03,
+      "gas_price_used": 2.01,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

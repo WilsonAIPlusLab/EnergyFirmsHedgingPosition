@@ -1,0 +1,58 @@
+{
+  "cik": "66418",
+  "company": "MEXCO ENERGY CORP",
+  "filing_date": "2000-06-14",
+  "accession_number": "0000066418-00-000005",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 19334,
+      "oil_production_bpd": 53,
+      "gas_production_mcf": 540793,
+      "gas_production_mmcf_per_day": 1.478,
+      "ngl_production_bbls": null,
+      "total_production_boe": 109466,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 139,
+      "proved_gas_reserves_mmcf": 4755,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-03-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4.908,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.96,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:34:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_a53c5192-8ff"
+    ]
+  }
+}

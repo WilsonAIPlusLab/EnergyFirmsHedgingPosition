@@ -1,0 +1,155 @@
+{
+  "cik": "353943",
+  "company": "EVERGREEN RESOURCES INC",
+  "filing_date": "2004-02-27",
+  "accession_number": "0001047469-04-005917",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 65000,
+        "volume_total": 19825000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.86,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2004-10",
+        "counterparty": null,
+        "fair_value_mm": -2.044,
+        "notes": "Midcontinent market. Open derivative contract at 12/31/2003; table does not state swap vs collar per row. Weighted average net price adjusted for fuel use and regional differentials. Fair value is unrealized loss of $2,044 thousand.",
+        "evidence_quote": "Jan 04\u2014Oct 04\n\t \n\tMidcontinent\n\t \n\t65,000\n\t \n\t$\n\t4.86\n\t \n\t$\n\t2,044"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50000,
+        "volume_total": 18300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": -14.065,
+        "notes": "Midcontinent market. Open derivative contract at 12/31/2003; instrument type not stated per row. Weighted average net price adjusted for fuel use and regional differentials. Fair value is unrealized loss of $14,065 thousand.",
+        "evidence_quote": "Jan 04\u2014Dec 04\n\t \n\tMidcontinent\n\t \n\t50,000\n\t \n\t$\n\t4.20\n\n\t14,065"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3000,
+        "volume_total": 1098000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.33,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": -0.786,
+        "notes": "Northwest Pipeline-Rockies market. Open derivative contract at 12/31/2003; instrument type not stated per row. Fair value is unrealized loss of $786 thousand.",
+        "evidence_quote": "Jan 04\u2014Dec 04\n\t \n\tNorthwest Pipeline\u2014Rockies\n\t \n\t3,000\n\t \n\t$\n\t4.33\n\n\t786"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4739,
+        "volume_total": 1734474,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.63,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": -0.587,
+        "notes": "AECO-Canada market. Open derivative contract at 12/31/2003; instrument type not stated per row. Fair value is unrealized loss of $587 thousand.",
+        "evidence_quote": "Jan 04\u2014Dec 04\n\t \n\tAECO\u2014Canada\n\t \n\t4,739\n\t \n\t$\n\t4.63\n\n\t587"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 600000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-02",
+        "period_end": "2004-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Midcontinent. Entered into subsequent to December 31, 2003 (commodity swap agreement); net price per MMBtu.",
+        "evidence_quote": "Feb 04\u2014Mar 04\n\t \n\tMidcontinent\n\t \n\t10,000\n\t \n\t$\n\t6.35"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges natural gas production when market conditions are favorable, using fixed-price physical delivery contracts and derivatives (swaps, collars); no trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 16000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 46173000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2003
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1425,
+      "proved_gas_reserves_mmcf": 1486220,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2003-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1784.719,
+      "pv10_mm": null,
+      "oil_price_used": 26.08,
+      "gas_price_used": 5.49,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:42",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

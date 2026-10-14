@@ -1,0 +1,77 @@
+{
+  "cik": "277924",
+  "company": "Forestar Petroleum Corp",
+  "filing_date": "1996-01-29",
+  "accession_number": "0000277924-96-000002",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "evidence_quote": "Hedging gains for fiscal 1995 totaled $161,000, or $.35 per Mcf of gas",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Short futures hedges of a substantial portion of fiscal 1995 gas production, closed by buying offsetting long positions; no volumes or prices stated; hedging gains of $161,000 ($.35/Mcf) in fiscal 1995; no significant hedge positions at Oct 31, 1995."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges gas and oil production by short (forward) selling in the futures market when prices are adequate and downside risk substantial; closes with offsetting long positions; none significant at 10/31/95."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 45000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 458000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 363,
+      "proved_gas_reserves_mmcf": 5364,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-10-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4.173,
+      "pv10_mm": 4.842,
+      "oil_price_used": 16.31,
+      "gas_price_used": 1.34,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 5.13,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.66,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:56",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

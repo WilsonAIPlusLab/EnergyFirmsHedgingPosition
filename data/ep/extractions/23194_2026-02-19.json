@@ -1,0 +1,116 @@
+{
+  "cik": "23194",
+  "company": "COMSTOCK RESOURCES INC",
+  "filing_date": "2026-02-19",
+  "accession_number": "0001193125-26-059001",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 320000.0,
+        "volume_total": 116800000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.51,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Position as of Dec 31, 2025; approximately 116.8 Bcf of 2026 production at average swap price. Fair value not disclosed per instrument.",
+        "evidence_quote": "As of December 31, 2025, we had natural gas price swap agreements to hedge approximately 116.8 Bcf of our 2026  production at an average price of $3.51 per MMBtu."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 167900000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 3.5,
+        "ceiling_price": 4.35,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Position as of Dec 31, 2025; period not explicitly stated in the Item 7A text for the collars (follows 2026 swap sentence). Average floor and ceiling prices.",
+        "evidence_quote": "We have also entered into natural gas collars to hedge approximately 167.9 Bcf of natural gas with an average floor price of $3.50 per MMBtu and an average ceiling price of $4.35 per MMBtu."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 160000.0,
+        "volume_total": 58400000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 3.5,
+        "ceiling_price": 4.37,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2027-01",
+        "period_end": "2027-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered into after December 31, 2025 (subsequent to year-end); additional 58.4 Bcf of 2027 production.",
+        "evidence_quote": "Since December 31, 2025, we entered into natural gas collar contracts to hedge an additional 58.4 Bcf of 2027 natural gas production at an average ceiling price of $4.37 per MMBtu and an average floor price of $3.50 per MMBtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses natural gas derivative financial instruments to manage exposure to gas price changes and protect returns on drilling investment and cash flow; no margin or collateral requirements."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 37000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 450202000,
+      "gas_production_mmcf_per_day": 1200,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 198,
+      "proved_gas_reserves_mmcf": 7004121,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 3867.074,
+      "pv10_mm": 4463.338,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

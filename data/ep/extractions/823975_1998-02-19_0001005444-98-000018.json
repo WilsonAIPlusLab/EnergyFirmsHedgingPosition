@@ -1,0 +1,173 @@
+{
+  "cik": "823975",
+  "company": "COLUMBUS ENERGY CORP",
+  "filing_date": "1998-02-19",
+  "accession_number": "0001005444-98-000018",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-03",
+        "period_end": "1997-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical swap, settled; volume 60,000 Mmbtu per month (stated per month, not total). Revenue effect 1997: $(86,400). No swaps outstanding at Nov 30, 1997.",
+        "evidence_quote": "$2.20/Mmbtu            60,000     3/97-10/97    $(86,400)"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1996-10",
+        "period_end": "1996-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical futures contracts, settled; volume 60,000 per month (Mmbtu or bbl column, gas section). Price not stated. Revenue effect 1996: $42,000.",
+        "evidence_quote": "Futures Contracts      60,000    10/96-11/96                $  42,000"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-04",
+        "period_end": "1996-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical swaps at two prices, $1.74 and $1.88 per Mmbtu (weighted average not stated); volume 120,000 per month. Revenue effect 1996: $(560,000).",
+        "evidence_quote": "$1.74 & $1.88/Mmbtu   120,000     4/96-11/96                $(560,000)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1994-12",
+        "period_end": "1995-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical swap, settled; volume 100,000 per month. Revenue effect 1995: $283,900.",
+        "evidence_quote": "$2.12/Mmbtu           100,000    12/94- 4/95                            $283,900"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 21.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-11",
+        "period_end": "1997-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical swap, settled; volume 10,000 bbl per month. Revenue effect: 1997 $8,900, 1996 $(23,800).",
+        "evidence_quote": "$21.17/bbl             10,000    11/96-10/97    $  8,900   $ (23,800)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.25,
+        "floor_price": null,
+        "ceiling_price": 19.5,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical swap at $17.25/bbl with $19.50/bbl cap; volume 10,000 bbl per month. Revenue effect: 1997 $(22,500), 1996 $(232,300) as shown in table.",
+        "evidence_quote": "$19.50/bbl cap       10,000     1/96-12/96    $(22,500)  $(232,300)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "At present the Company has not hedged oil or gas prices; in prior years it hedged by selling NYMEX-based swaps settled monthly. No swaps outstanding at Nov 30, 1997."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 682,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 9.283,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 2229,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null,
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": 2.27,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

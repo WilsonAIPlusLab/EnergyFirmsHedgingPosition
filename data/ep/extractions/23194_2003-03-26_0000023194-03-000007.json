@@ -1,0 +1,101 @@
+{
+  "cik": "23194",
+  "company": "COMSTOCK RESOURCES INC",
+  "filing_date": "2003-03-26",
+  "accession_number": "0000023194-03-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 6164.38,
+        "volume_total": 2250000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": 0.003,
+        "notes": "Floor outstanding at Dec 31, 2002; fair value stated as net asset of $3,000 for the commodity derivatives.",
+        "evidence_quote": "January 1, 2003     December 31, 2003     2,250,000       Floor         $2.00"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 50,
+        "volume_total": 10700,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.46,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-04",
+        "period_end": "2002-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Expired 2002 swap, not outstanding at year end; text states 50 MMBtus per day; realized gain $1.3 million in 2002.",
+        "evidence_quote": "We entered into price swaps covering 50 MMBtus per day of our natural gas"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges a portion of oil and gas production with swaps, floors and collars to mitigate price exposure; hedged Apr-Oct 2002 to support drilling program."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1303000,
+      "oil_production_bpd": 3600,
+      "gas_production_mcf": 33171000,
+      "gas_production_mmcf_per_day": 91.1,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 20849,
+      "proved_gas_reserves_mmcf": 488784,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 1280.293,
+      "oil_price_used": 30.07,
+      "gas_price_used": 5.04,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:39",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

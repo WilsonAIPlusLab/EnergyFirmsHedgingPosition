@@ -1,0 +1,83 @@
+{
+  "cik": "56868",
+  "company": "PRIMEENERGY RESOURCES CORP",
+  "filing_date": "2009-04-03",
+  "accession_number": "0001193125-09-072467",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 561000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 2.111,
+        "notes": "Aggregate of seven open crude oil collars at 12/31/2008 (cash flow hedges); text gives only ranges: floor $60.00 to $65.00, ceiling $77.40 to $86.50, so individual floor/ceiling left null. Related to anticipated 2009 production per text; exact periods not stated. Fair value is total commodity derivative contracts asset $2,111,000.",
+        "evidence_quote": "the oil price collars covers 561 Mbbl of production at a floor price ranging from $60.00"
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "Company periodically enters into derivative commodity instruments to hedge exposure to price fluctuations on natural gas and crude oil production; seven crude oil collars open at 12/31/2008.",
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "total_oil_instruments": 1,
+      "uses_derivatives": true
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 8899000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": 658000,
+      "oil_production_bpd": null,
+      "production_year": 2008,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": 55338,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": 5317,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2008-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": 116.5337,
+      "total_production_cost_per_boe": 19.92
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

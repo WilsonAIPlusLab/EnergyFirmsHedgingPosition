@@ -1,0 +1,173 @@
+{
+  "cik": "1373485",
+  "company": "CROSS BORDER RESOURCES, INC.",
+  "filing_date": "2009-11-13",
+  "accession_number": "0001062993-09-003939",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 100,
+        "ceiling_price": 131,
+        "price_unit": "$/Bbl",
+        "period_start": "2008-08",
+        "period_end": "2008-12",
+        "counterparty": "Macquarie",
+        "fair_value_mm": null,
+        "notes": "Original costless collar entered Aug 2008 (NYMEX WTI); 1,900 barrels per month; closed out and restructured Dec 2008",
+        "evidence_quote": "Aug 2008 - Dec 2008: 1,900 barrels per"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 100,
+        "ceiling_price": 131,
+        "price_unit": "$/Bbl",
+        "period_start": "2009-01",
+        "period_end": "2009-12",
+        "counterparty": "Macquarie",
+        "fair_value_mm": null,
+        "notes": "Original costless collar; 1,700 barrels per month; position closed out Dec 2008 per text",
+        "evidence_quote": "Jan 2009 - Dec 2009: 1,700 barrels per month "
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 100,
+        "ceiling_price": 131,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-12",
+        "counterparty": "Macquarie",
+        "fair_value_mm": null,
+        "notes": "Original costless collar; 1,600 barrels per month; position closed out Dec 2008 per text",
+        "evidence_quote": "Jan 2010 - Dec 2010:\n1,600 barrels per month"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 100,
+        "ceiling_price": 131,
+        "price_unit": "$/Bbl",
+        "period_start": "2011-01",
+        "period_end": "2011-07",
+        "counterparty": "Macquarie",
+        "fair_value_mm": null,
+        "notes": "Original costless collar; 1,400 barrels per month; position closed out Dec 2008 per text",
+        "evidence_quote": "Jan 2011 - Jul 2011: 1,400 barrels per month "
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 94,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2009-01",
+        "period_end": "2010-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average of first 2,250 barrels of production each month; entered Dec 2008 restructuring. Not designated for hedge accounting; net derivative asset recognized FY2009 $413,879 (combined, not per instrument)",
+        "evidence_quote": "The swap, with a fixed price of $94, covers the period\nfrom January 2009 through June 2010 and effectively guarantees us $94\nper barrel on an average of our first 2,250 barrels of production each month."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60,
+        "ceiling_price": 94,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-07",
+        "period_end": "2011-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar on average of 1,850 barrels per month; entered Dec 2008 restructuring (note 12 text mentions only the $60 minimum)",
+        "evidence_quote": "From July 2010 through December 2011, there is a costless collar in effect on an\naverage of 1,850 barrels per month, guaranteeing a minimum of $60 a barrel and a\nmaximum of $94 a barrel."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Costless collar and swap on crude oil for partial price protection; Dec 2008 restructured to guarantee more near-term income (Macquarie credit agreement collar)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 33701,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 8880,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 35181,
+      "total_production_boepd": 96.4,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3078.307,
+      "proved_gas_reserves_mmcf": 1636.35,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 3351.032,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 2665.426,
+      "reserves_year_end": "2009-07-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 39.609312,
+      "pv10_mm": 56.509505,
+      "oil_price_used": 65.12,
+      "gas_price_used": 3.628,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": 7.55,
+      "total_production_cost_per_boe": 58.16,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

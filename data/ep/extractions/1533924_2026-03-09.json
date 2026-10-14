@@ -1,0 +1,98 @@
+{
+  "cik": "1533924",
+  "company": "Amplify Energy Corp.",
+  "filing_date": "2026-03-09",
+  "accession_number": "0001104659-26-025299",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap, 2026 column: average monthly volume 152,500 Bbls (monthly, not converted). Weighted-average fixed price not attributable because the text is truncated ([...]) between the label and the price row.",
+        "evidence_quote": "Average monthly volume (Bbls)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2027-01",
+        "period_end": "2027-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap, 2027 column: average monthly volume 57,417 Bbls (monthly, not converted). Weighted-average fixed price not attributable because the text is truncated ([...]) between the label and the price row.",
+        "evidence_quote": "Fixed price swap contracts:"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Swaps, puts, costless collars and three-way collars used to manage commodity price volatility; credit agreement requires minimum hedging of 25%-75% of projected PDP production for next 12 months."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3008000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 15948000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1067000,
+      "total_production_boe": 6733000,
+      "total_production_boepd": null,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 35616,
+      "proved_gas_reserves_mmcf": 0,
+      "proved_ngl_reserves_mbbls": 2480,
+      "total_proved_reserves_mboe": 38096,
+      "proved_developed_reserves_mboe": 24621,
+      "proved_undeveloped_reserves_mboe": 13475,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 65.34,
+      "gas_price_used": 3.39,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

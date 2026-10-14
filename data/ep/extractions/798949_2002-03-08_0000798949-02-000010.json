@@ -1,0 +1,173 @@
+{
+  "cik": "798949",
+  "company": "UNIT CORP",
+  "filing_date": "2002-03-08",
+  "accession_number": "0000798949-02-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-04",
+        "period_end": "2000-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swaps entered Q1 2000 covering approx 50 percent of daily oil production; no volume stated. Prices for the swaps (both periods combined) ranged from $24.42 to $27.01; no single weighted price given. Expired; none outstanding at 12/31/2001.",
+        "evidence_quote": "applied to approximately 50 percent of our daily oil production covering"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-08",
+        "period_end": "2000-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap covering approx 25 percent of daily oil production for Aug-Sep 2000; prices ranged $24.42 to $27.01 (combined with Apr-Jul swaps); no volume stated. Expired.",
+        "evidence_quote": "oil production for August and September of 2000 at prices ranging from"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 26,
+        "ceiling_price": 33,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-11",
+        "period_end": "2001-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Approx 25 percent of daily oil production; company received $0.86 per barrel for entering the transaction. Q1 2001 effect: increase in oil revenues of $17,200. Expired.",
+        "evidence_quote": "February 28, 2001.  The collar had a floor of $26.00 per barrel and a"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 4.5,
+        "ceiling_price": 5.95,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-06",
+        "period_end": "2001-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Approx 36 percent of June and July 2001 natural gas production; price unit not stated in text (assumed per-Mcf basis not stated). Expired.",
+        "evidence_quote": "of $4.50 and a ceiling price of $5.95.  We also entered into two natural"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2.5,
+        "ceiling_price": 3.68,
+        "price_unit": null,
+        "period_start": "2001-09",
+        "period_end": "2001-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "One of two collars covering together approx 38 percent of Sep-Nov 2001 natural gas production; floor $2.50, ceiling $3.68. Expired.",
+        "evidence_quote": "$2.50. One contract had a ceiling price of $3.68 and the other contract had"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2.5,
+        "ceiling_price": 4.25,
+        "price_unit": null,
+        "period_start": "2001-09",
+        "period_end": "2001-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second of two collars covering together approx 38 percent of Sep-Nov 2001 natural gas production; floor $2.50, ceiling $4.25. Natural gas collars added $2,030,000 to 2001 gas revenues. Expired.",
+        "evidence_quote": "a ceiling price of $4.25. For the year our natural gas collar contracts"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges a portion of future gas and oil production to reduce the impact of price fluctuations on cash flow; no hedges outstanding at 12/31/2001 or 2/20/2002."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 492000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 18864000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 4343,
+      "proved_gas_reserves_mmcf": 228254,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 17.71,
+      "gas_price_used": 2.51,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

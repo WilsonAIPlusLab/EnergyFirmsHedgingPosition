@@ -1,0 +1,113 @@
+{
+  "cik": "717423",
+  "company": "MURPHY OIL CORP",
+  "filing_date": "2002-03-22",
+  "accession_number": "0000930661-02-000830",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 7700000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.68,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": 4.3,
+        "evidence_quote": "a total notional volume of 7.7 million British Thermal Units (MMBTU) that are",
+        "notes": "Refinery fuel hedge (Meraux, Louisiana): Murphy pays fixed average $2.68/MMBTU and receives average NYMEX price for final three trading days of month. Hedges natural gas purchased as fuel, not production. Period 2004 and 2005 per Note K. Volume stated as '7.7 million' MMBTU total; fair value recorded as asset of $4.3 million."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 32000,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-03",
+        "counterparty": null,
+        "fair_value_mm": 0.8,
+        "evidence_quote": "The swaps are for a notional volume that averages 32,000 MMBTU per day in",
+        "notes": "Hedges a limited portion of U.S. natural gas production through March 2002. Murphy pays average NYMEX price for final trading day of each month and receives a fixed price ranging from $2.54 to $2.94 per MMBTU (no weighted average stated, so fixed_price left null). Fair value recorded as asset of $.8 million."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": 1.9,
+        "evidence_quote": "The fair value of the offsetting crude oil swap contracts is based on the",
+        "notes": "Residual offsetting crude oil swaps (originally refinery crude purchase hedges for 2001 and 2002, settled/offset in April 2000). No volumes or prices disclosed. Carrying/fair value $1,914 thousand at Dec 31, 2001 per fair value table; approx. $5,778,000 of gains to be reclassified from AOCL in 2002."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Murphy makes limited use of derivative financial and commodity instruments to manage risks; no trading derivatives; no leveraged or complex features; covered by operating policies and monitored by senior management."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1426.4,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:34:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_a53c5192-8ff"
+    ]
+  }
+}

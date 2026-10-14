@@ -1,0 +1,58 @@
+{
+  "cik": "778438",
+  "company": "Berry Petroleum Company, LLC",
+  "filing_date": "1995-03-28",
+  "accession_number": "0000778438-95-000002",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Company states it has no involvement with derivative financial instruments; notes California heavy crude price behavior makes it difficult to hedge oil prices."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3250000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 793000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 3400000,
+      "total_production_boepd": 9266,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 75996,
+      "proved_gas_reserves_mmcf": 6530,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 77100,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 180.953,
+      "pv10_mm": null,
+      "oil_price_used": 12.49,
+      "gas_price_used": 1.78,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 6.28,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 1.96,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "cik": "1842556",
+  "company": "EON Resources Inc.",
+  "filing_date": "2026-04-27",
+  "accession_number": "0001213900-26-047665",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 70.21,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open at 2024-12-31 per table; volume stated as 5,000 Bbls/month (no total or daily volume stated). Single unnamed counterparty, secured by the credit facility lender. Net derivative asset of $106,397 is for all commodity derivatives combined.",
+        "evidence_quote": "the weighted-average price of open commodity swap contracts as of December 31, 2024:"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 70.21,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open at 2024-12-31 per table; volume stated as 5,000 Bbls/month (no total or daily volume stated).",
+        "evidence_quote": "the weighted-average price of open commodity swap contracts as of December 31, 2024:"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70,
+        "ceiling_price": 91.9,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Prior-year position: table is as of 2023-12-31 (not open at 2024-12-31; text says no collars in place at 2024-12-31). Volume 9,000 Bbls/month. Ceiling cell is garbled in the source ('91,90'); weighted average sold call column shows 91.90.",
+        "evidence_quote": "volumes by period as of December 31, 2023 for the Company:"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70,
+        "ceiling_price": 85.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-07",
+        "period_end": "2024-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Prior-year position: table is as of 2023-12-31 (not open at 2024-12-31). Volume 9,000 Bbls/month; sold call 85.50.",
+        "evidence_quote": "volumes by period as of December 31, 2023 for the Company:"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 71.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2024-01",
+        "period_end": "2024-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Prior-year position: table is as of 2023-12-31. Volume 3,000 Bbls/month.",
+        "evidence_quote": "the weighted-average price of open commodity swap contracts as of December 31, 2023:"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 67.96,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2025-01",
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Prior-year position: table is as of 2023-12-31. Volume 3,000 Bbls/month.",
+        "evidence_quote": "the weighted-average price of open commodity swap contracts as of December 31, 2023:"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives to mitigate commodity price risk on oil; historically crude diff swaps, fixed price swaps and costless collars; no hedge accounting elected; one counterparty."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 256000,
+      "oil_production_bpd": 700,
+      "gas_production_mcf": 213000,
+      "gas_production_mmcf_per_day": 0.585,
+      "ngl_production_bbls": 0,
+      "total_production_boe": 291000,
+      "total_production_boepd": 798,
+      "production_year": 2024
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 14018,
+      "proved_gas_reserves_mmcf": 2840,
+      "proved_ngl_reserves_mbbls": 0,
+      "total_proved_reserves_mboe": 14492,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": 4346,
+      "reserves_year_end": "2024-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 173.113,
+      "pv10_mm": 207.666,
+      "oil_price_used": 75.48,
+      "gas_price_used": 2.13,
+      "lease_operating_expense_per_boe": 29.59,
+      "production_tax_per_boe": 5.89,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 8.27,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:02",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

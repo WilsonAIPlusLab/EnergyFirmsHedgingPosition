@@ -1,0 +1,173 @@
+{
+  "cik": "1038357",
+  "company": "PIONEER NATURAL RESOURCES CO",
+  "filing_date": "2007-02-20",
+  "accession_number": "0001038357-07-000022",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4512,
+        "volume_total": 1646880,
+        "volume_unit": "Bbls",
+        "fixed_price": 31.44,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open at 12/31/2006; avg daily notional; combined 2007-2008 oil swap liability fair value $130,574 thousand (not split by year). Post year-end the company terminated 4,342 Bbls/d of 2007 swaps at $31.47.",
+        "evidence_quote": "Swap contracts (b)............................        4,512       6,500          --       $  130,574"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 6500,
+        "volume_total": 2379000,
+        "volume_unit": "Bbls",
+        "fixed_price": 31.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open at 12/31/2006; combined 2007-2008 oil swap liability fair value $130,574 thousand (not split by year). Post year-end the company terminated 2,500 Bbls/d of 2008 swaps at $29.90.",
+        "evidence_quote": "Weighted average fixed price per Bbl..........    $   31.44   $   31.19   $      --"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 86194,
+        "volume_total": 31460810,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 8.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open at 12/31/2006; avg daily notional; combined 2007-2008 gas swap asset fair value $54,835 thousand (not split by year). Includes basis swaps presented together with associated swaps.",
+        "evidence_quote": "Swap contracts...................................        86,194         15,000     $   54,835"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15000,
+        "volume_total": 5490000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 8.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open at 12/31/2006; combined 2007-2008 gas swap asset fair value $54,835 thousand (not split by year).",
+        "evidence_quote": "Weighted average fixed price per MMBtu...........     $    8.13      $    8.62"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 6164,
+        "volume_total": 2249860,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 9,
+        "ceiling_price": 11.52,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": 7.511,
+        "notes": "Open at 12/31/2006; 6,164 is the 2007 average daily volume (Note J shows the collar volume only in Q1 2007 at 25,000 MMBtu/d).",
+        "evidence_quote": "Collar contracts.................................         6,164             --     $    7,511"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 102192,
+        "volume_total": 37300080,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 8.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Subsequent event: entered into after 12/31/2006, approximately 102,192 MMBtu per day for 2007 production; not included in the year-end table.",
+        "evidence_quote": "     swap contracts of  approximately  102,192 MMBtu per day at an average price"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity swap and collar contracts to reduce price volatility, support capital budgeting and reduce price risk on capital projects; no trading; no NGL hedges in 2004-2006."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2006,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 904900,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2006-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4688.989,
+      "pv10_mm": null,
+      "oil_price_used": 60.54,
+      "gas_price_used": 5.13,
+      "lease_operating_expense_per_boe": 6.23,
+      "production_tax_per_boe": 1.69,
+      "total_production_cost_per_boe": 11.09,
+      "gathering_transport_per_boe": 1.22,
+      "dd_and_a_per_boe": 10.01,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

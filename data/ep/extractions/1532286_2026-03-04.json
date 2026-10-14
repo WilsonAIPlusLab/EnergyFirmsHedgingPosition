@@ -1,0 +1,61 @@
+{
+  "cik": "1532286",
+  "company": "Nine Energy Service, Inc.",
+  "filing_date": "2026-03-04",
+  "accession_number": "0001532286-26-000005",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Item 7A omitted: smaller reporting company, not required to provide market risk disclosures. No commodity derivatives stated."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "production_year": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null,
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "pv10_mm": null,
+      "production_tax_per_boe": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:02",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "cik": "315852",
+  "company": "RANGE RESOURCES CORP",
+  "filing_date": "2001-03-06",
+  "accession_number": "0000950152-01-001323",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 33700000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate gas hedges open at 12/31/2000; price range $2.84 to $6.78 per Mmbtu, average $4.07. Contracts expire monthly through December 2002 (covering about 64% of 2001 and 7% of 2002 production). Described as financial swaps (Item 7A). Net fair value of all oil and gas hedges was a loss of $72.1 million at 12/31/2000 (not split by commodity).",
+        "evidence_quote": "covering 33.7\nBcf of gas and 1.0 million barrels of oil at prices ranging from $2.84 to $6.78\nper Mmbtu (averaging $4.07 per Mmbtu)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1000000,
+        "volume_unit": "Bbls",
+        "fixed_price": 28.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate oil hedges open at 12/31/2000: 1.0 million barrels; price range $26.96 to $33.71 per barrel, average $28.62. Contracts expire monthly through December 2002. Net fair value of all oil and gas hedges was a loss of $72.1 million (not split by commodity).",
+        "evidence_quote": "and $26.96 to $33.71 per barrel\n(averaging $28.62 per barrel)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 22700,
+        "volume_total": 8285500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-04",
+        "period_end": "2002-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedged in June 2000 in exchange for repricing 4.1 Bcf of existing gas hedges from an average $2.59 to $3.00 per Mmbtu. Text does not state whether this volume is included in the 33.7 Bcf aggregate; instrument type not stated for this specific hedge (generic financial swaps per Item 7A).",
+        "evidence_quote": "hedged an\naverage of 22,700 Mmbtu per day from April 2001 through March 2002 at an\naverage price of $3.20 per Mmbtu"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical fixed-price gas sales contracts covering 2% of gas production; price range $1.25 to $4.73 per Mcf, average $2.98. Volume and term not stated; not a financial derivative.",
+        "evidence_quote": "Only 2% of gas production is currently sold\npursuant to fixed price contracts at prices ranging from $1.25 to $4.73 per Mcf\n(averaging $2.98 per Mcf)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedge between 50% and 75% of production on a rolling twelve to eighteen month basis; contracts entered solely to hedge prices and limit volatility, not for trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2035000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 41039000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 363000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 26002,
+      "proved_gas_reserves_mmcf": 427667,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1506.262,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

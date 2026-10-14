@@ -1,0 +1,119 @@
+{
+  "cik": "33213",
+  "company": "EQT Corp",
+  "filing_date": "2002-03-19",
+  "accession_number": "0000912057-02-010471",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 196400000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": 157.6,
+        "notes": "Aggregate price swaps held for purposes other than trading at 12/31/2001 (cash flow hedges of forecasted equity production); notional table labels it 196.4 Bcfe; open swaps mature through December 2008; fair value is the 157.6 million asset/deferred gain; no prices disclosed.",
+        "evidence_quote": "the Company continued to execute its hedging\nstrategy by utilizing price swaps with volumes of approximately 196.4 Bcf of\nnatural gas.  These derivatives have\nhedged expected equity production through 2008."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 30.3,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Trading-purpose contracts (unregulated marketing group); text states the notional as '30.3 Mcfe' (unit as printed, likely a typo); not a production hedge; no prices or period disclosed.",
+        "evidence_quote": "the absolute notional quantities of the futures, swaps and\nphysical contracts held for trading purposes were 30.3 Mcfe, 66.9 Mcfe, and\n152.4 Mcfe, respectively."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 66.9,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Trading-purpose swaps (unregulated marketing group); text states the notional as '66.9 Mcfe' (unit as printed, likely a typo); not a production hedge; no prices or period disclosed.",
+        "evidence_quote": "the absolute notional quantities of the futures, swaps and\nphysical contracts held for trading purposes were 30.3 Mcfe, 66.9 Mcfe, and\n152.4 Mcfe, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Protect earnings from falling gas prices; relies almost exclusively on fixed price swaps; policy limits tied to expected production and value-at-risk; new drilling volumes not hedgeable."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 64706000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": 451000,
+      "oil_production_bpd": null,
+      "production_year": 2001,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1563,
+      "proved_gas_reserves_mmcf": 2072871,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 850.283,
+      "pv10_mm": 1308.128,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

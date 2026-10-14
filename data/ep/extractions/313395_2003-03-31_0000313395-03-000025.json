@@ -1,0 +1,83 @@
+{
+  "cik": "313395",
+  "company": "TXCO Resources Inc",
+  "filing_date": "2003-03-31",
+  "accession_number": "0000313395-03-000025",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2700,
+        "volume_total": 901800,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-02",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Forward sale entered January 2003; approx 30% of net natural gas sales at year-end 2002. Fixed price is net of transportation and marketing costs. Volume per day is approximate.",
+        "evidence_quote": "During January 2003 the Company entered into a forward sale of approximately 2,700 MMBtu per day of its natural gas production from February 1, 2003, through December 31, 2003, at a fixed price of $4.45 per MMBtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "No formal policy stated; in January 2003 the Company entered a fixed-price forward sale of about 2,700 MMBtu/d of gas (Feb-Dec 2003), roughly 30% of gas sales."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 314000,
+      "oil_production_bpd": 860,
+      "gas_production_mcf": 2487000,
+      "gas_production_mmcf_per_day": 6.8,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1479,
+      "proved_gas_reserves_mmcf": 14675,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 38.147,
+      "pv10_mm": 45.3818,
+      "oil_price_used": 28.71,
+      "gas_price_used": 4.9,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:42",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

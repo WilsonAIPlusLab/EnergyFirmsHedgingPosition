@@ -1,0 +1,101 @@
+{
+  "cik": "313478",
+  "company": "HKN, Inc.",
+  "filing_date": "2006-02-28",
+  "accession_number": "0001193125-06-041151",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2006-01",
+        "period_end": "2006-06",
+        "counterparty": null,
+        "fair_value_mm": 0.021,
+        "notes": "Purchased crude oil floor (Sept 2005) by GEM; notional 6,000 barrels per month; not designated as cash flow hedge under SFAS 133. MD&A elsewhere describes the period as twelve months ending Dec 31, 2006, while Item 7A and the notes say Jan 1 to Jun 30, 2006.",
+        "evidence_quote": "In September 2005, GEM purchased a crude oil floor contract with a strike price of $45.00 per barrel for a notional amount of 6,000 barrels per month"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-06",
+        "counterparty": null,
+        "fair_value_mm": 0.016,
+        "notes": "Purchased natural gas floor (Sept 2005) by GEM; notional 70,000 MMBTUs per month; not designated as cash flow hedge under SFAS 133.",
+        "evidence_quote": "natural gas floor contract with a strike price of $6.00 per MMBTU for a notional amount of 70,000 MMBTUs per month over a period of the contract from January 1, 2006 to June 30, 2006."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives, primarily option floors with maturities of 24 months or less, to mitigate commodity price exposure on a portion of future oil and gas production (GEM)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 578000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1299000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2005
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6282,
+      "proved_gas_reserves_mmcf": 8453,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2005-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 178.009,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

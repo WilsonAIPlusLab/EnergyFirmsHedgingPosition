@@ -1,0 +1,155 @@
+{
+  "cik": "867665",
+  "company": "ABRAXAS PETROLEUM CORP",
+  "filing_date": "2002-04-05",
+  "accession_number": "0000867665-02-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 1000,
+        "volume_total": 304000,
+        "volume_unit": "Bbls",
+        "fixed_price": 18.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-10",
+        "counterparty": "Barrett Resources Corporation",
+        "fair_value_mm": -0.658,
+        "notes": "Year-end 2001 open position. Barrett holds a swap call on EITHER 1,000 Bbl/day crude oil OR 20,000 Mcf/day natural gas at Barrett's option. The -$658,000 fair value is for the single combined swap (reported on this oil row only; not repeated on the gas row). Direction not stated in text.",
+        "evidence_quote": "At year end 2001, Barrett had a swap call on either 1,000 Bbls of crude"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 20000,
+        "volume_total": 6080000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2002-01",
+        "period_end": "2002-10",
+        "counterparty": "Barrett Resources Corporation",
+        "fair_value_mm": null,
+        "notes": "Alternative leg of the same Barrett swap call (either oil or gas, at Barrett's option). Fixed price is a range $2.60 to $2.95 per unit, no weighted average given, so fixed_price is null. Hedge table says Mcf/day; MD&A says MMBtu per day. Fair value of the combined swap (-$658,000) is on the oil row.",
+        "evidence_quote": "or 20,000 MMBtu of natural gas per day at Barrett's option at fixed prices"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 730000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 14,
+        "ceiling_price": 22.3,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-04",
+        "period_end": "1999-03",
+        "counterparty": "Enron Capital and Trade Resources Corp.",
+        "fair_value_mm": null,
+        "notes": "Historical costless collar, expired 1999-03-31 (extended through March 31, 1999); not an open position at year-end 2001. Realized loss of $1.8 million in 1999.",
+        "evidence_quote": "Capital and Trade Resources Corp. for 2,000 Bbls of crude oil per day with a"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 1000,
+        "volume_total": 366000,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-11",
+        "period_end": "2000-10",
+        "counterparty": "Barrett Resources Corporation",
+        "fair_value_mm": null,
+        "notes": "Historical swap leg of Barrett agreement, expired October 2000; company paid NYMEX calendar month average and was paid $20.30. Not an open position at year-end 2001.",
+        "evidence_quote": "agreement was for 1,000 Bbls per day with us being paid $20.30 and an additional 1,000"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 366000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 22,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-11",
+        "period_end": "2000-10",
+        "counterparty": "Barrett Resources Corporation",
+        "fair_value_mm": null,
+        "notes": "Historical collar leg of Barrett agreement, expired October 2000. Not an open position at year-end 2001.",
+        "evidence_quote": "barrels per day with a floor price of $18.00 per barrel and a ceiling of $22.00"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Attempts to manage crude oil and natural gas price volatility through periodic use of commodity price hedging agreements; hedges subject to Board-approved risk management policy; about 42% of 2001 production hedged."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 454100,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 17495600,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 278000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6802,
+      "proved_gas_reserves_mmcf": 188757,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 209.666,
+      "pv10_mm": 209.7,
+      "oil_price_used": 18.26,
+      "gas_price_used": 2.2,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

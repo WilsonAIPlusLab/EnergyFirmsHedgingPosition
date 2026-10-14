@@ -1,0 +1,137 @@
+{
+  "cik": "904080",
+  "company": "TALOS PETROLEUM LLC",
+  "filing_date": "1997-03-28",
+  "accession_number": "0000950129-97-001321",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1827.78,
+        "volume_total": 164500,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.76,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap settled against NYMEX light sweet crude futures; 164.5 MBbls as of March 14, 1997. Combined fair market value of all hedging contracts at 12/31/1996 was ($434) thousand, not allocated by instrument.",
+        "evidence_quote": "First quarter 1997.....................       164.5               20.76               1,645                2.84"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 18277.78,
+        "volume_total": 1645000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.84,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Stated volume 1,645 BBtus, expressed here in Mmbtu; settled on average of last three days of NYMEX trade for each month.",
+        "evidence_quote": "First quarter 1997.....................       164.5               20.76               1,645                2.84"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000.0,
+        "volume_total": 910000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-04",
+        "period_end": "1997-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Stated volume 910 BBtus, expressed here in Mmbtu; no oil hedged this quarter.",
+        "evidence_quote": "Second quarter 1997....................          -                   -                  910                2.19"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3369.57,
+        "volume_total": 310000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.14,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-07",
+        "period_end": "1997-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Stated volume 310 BBtus, expressed here in Mmbtu; no oil hedged this quarter.",
+        "evidence_quote": "Third quarter 1997.....................          -                   -                  310                2.14"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Swaps to reduce exposure to price declines; not more than one-half of production may be hedged without Board consent unless prices change by more than 25%."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1356000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 11331000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 3245000,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 12772,
+      "proved_gas_reserves_mmcf": 144316,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 36825,
+      "proved_developed_reserves_mboe": 27531,
+      "proved_undeveloped_reserves_mboe": 9294,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 448.895,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 2.66,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.93,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

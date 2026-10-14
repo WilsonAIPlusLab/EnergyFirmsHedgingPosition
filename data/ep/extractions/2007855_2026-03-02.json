@@ -1,0 +1,80 @@
+{
+  "cik": "2007855",
+  "company": "Venture Global, Inc.",
+  "filing_date": "2026-03-02",
+  "accession_number": "0002007855-26-000013",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 3613000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2039-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical feed-gas supply contracts recognized as derivatives (not NPNS, not designated as hedges). Total notional 3,613 million MMBtu at Dec 31 2025 (2,048 million at Dec 31 2024); latest maturity 2039. No prices disclosed; fair value reported only as balance-sheet asset/liability lines, not as a single figure.",
+        "evidence_quote": "The following table summarizes outstanding natural gas supply contracts recognized as derivatives (notional amount in millions of MMBtus):"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Interest rate swaps used to mitigate rate risk; no derivatives for trading/speculation; natural gas supply contracts are derivatives but not designated as hedges; commodity risk mitigated via SPA pricing."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "production_year": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null,
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

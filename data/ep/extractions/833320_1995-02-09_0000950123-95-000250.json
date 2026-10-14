@@ -1,0 +1,173 @@
+{
+  "cik": "833320",
+  "company": "BURLINGTON RESOURCES INC",
+  "filing_date": "1995-02-09",
+  "accession_number": "0000950123-95-000250",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 34928000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 25.361,
+        "notes": "Variable priced forward oil purchase contracts; table volume 34,928 MBbls; contracts for periods of up to 5 years; marked-to-market (mark-to-market gain $25,361 thousand at 12/31/1994)",
+        "evidence_quote": "At December 31, 1994, the Company had purchase and sales commitments on oil of"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 40010000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": -11.331,
+        "notes": "Variable priced forward oil sales contracts; table volume (40,010) MBbls; contracts for periods of up to 5 years; marked-to-market (loss $11,331 thousand at 12/31/1994)",
+        "evidence_quote": "35 million and 40 million barrels, respectively. These contracts are for periods"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 35183.75,
+        "volume_total": 18190000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1995-01",
+        "period_end": "1996-05",
+        "counterparty": null,
+        "fair_value_mm": -13.413,
+        "notes": "Oil put options sold (Company receives premiums); table volume 18,190 MBbls; exercise prices based on NYMEX oil prices 12 to 18 months out from settlement; strike not stated; mark-to-market loss $13,413 thousand",
+        "evidence_quote": "Oil Put Options Sold................................................   18,190         (13,413)"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 11414.47,
+        "volume_total": 3470000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1995-01",
+        "period_end": "1995-10",
+        "counterparty": null,
+        "fair_value_mm": -0.867,
+        "notes": "Oil call options sold (Company receives premiums); table volume (3,470) MBbls; exercise prices based on NYMEX oil prices up to 12 months from settlement; strike not stated; mark-to-market loss $867 thousand",
+        "evidence_quote": "Oil Call Options Sold...............................................   (3,470)           (867)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 52000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap agreements where Company is the fixed price payor on 52 BCF; contracts for periods of up to 6 years; volumes matched with physical delivery of Company production",
+        "evidence_quote": "price payor and fixed price receiver on 52 BCF and 38 BCF of gas, respectively."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 38000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas swap agreements where Company is the fixed price receiver on 38 BCF; contracts for periods of up to 6 years; volumes matched with physical delivery of Company production",
+        "evidence_quote": "price payor and fixed price receiver on 52 BCF and 38 BCF of gas, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Futures and options may be entered into as hedges of gas and oil prices; gas swaps convert fixed price gas sales contracts to market-sensitive; price management instruments are marked-to-market."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "production_year": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": 2998,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

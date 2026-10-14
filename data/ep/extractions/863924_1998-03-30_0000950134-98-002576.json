@@ -1,0 +1,101 @@
+{
+  "cik": "863924",
+  "company": "COHO RESOURCES INC",
+  "filing_date": "1998-03-30",
+  "accession_number": "0000950134-98-002576",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 10000,
+        "volume_total": 900000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.7,
+        "ceiling_price": 3.28,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Text describes a minimum and maximum price on 10,000 Mmbtu/day of natural gas production hedged at December 31, 1997.",
+        "evidence_quote": "minimum price of $2.70 per Mmbtu and a maximum price of $3.28 per Mmbtu"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 15000,
+        "volume_total": 2295000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2,
+        "ceiling_price": 2.54,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-04",
+        "period_end": "1998-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedged in March 1998 (after year end), additional 15,000 Mmbtu/day, minimum and maximum price.",
+        "evidence_quote": "minimum price of $2.00 per Mmbtu and a maximum price of $2.54 per Mmbtu"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedging arrangements act as a hedge against price fluctuations in future crude oil and natural gas production; hedging gains (losses) included in operating revenues."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2820000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 7666000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 11227,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 95084,
+      "proved_gas_reserves_mmcf": 147505,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 119668,
+      "proved_developed_reserves_mboe": 84228,
+      "proved_undeveloped_reserves_mboe": 35440,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 468.193,
+      "pv10_mm": 526.277,
+      "oil_price_used": 15.06,
+      "gas_price_used": 2.26,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 3.9,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.69,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

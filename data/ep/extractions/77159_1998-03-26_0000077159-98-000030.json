@@ -1,0 +1,101 @@
+{
+  "cik": "77159",
+  "company": "BAYTEX ENERGY USA, INC.",
+  "filing_date": "1998-03-26",
+  "accession_number": "0000077159-98-000030",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 4570000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.1,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-05",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Participating forward swap executed April 1997; floor $2.10/MMbtu and re-entry price $2.48/MMbtu. Filing states derivatives are swaps with purchased options placed with a major financial institution (not named). Combined fair value of all open derivative contracts at 12/31/1997 was approximately $(1.7) million (not split by instrument).",
+        "evidence_quote": "In April 1997, Penn Virginia executed a contract \nfor a participating forward swap for 5,000 MMbtu's per day \nwith a floor price of $2.10 per MMbtu and a re-entry price of $2.48 per MMbtu for the period of \nMay 1997 through October 1999."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.1,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-11",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second participating forward swap completed September 1997 (additional 5,000 MMbtu/d); floor $2.10/MMbtu and re-entry price $2.35/MMbtu. Combined fair value of all open derivative contracts at 12/31/1997 was approximately $(1.7) million (not split by instrument).",
+        "evidence_quote": "In September 1997, the Company completed a \nsecond participating forward swap for an additional 5,000 MMbtu's per day \nwith a floor price of $2.10 per MMbtu and a re-entry price of $2.35 per MMbtu \nfor the period of November 1997 through October 1999."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company periodically enters derivatives (swaps with purchased options) and fixed-price physical contracts to manage natural gas price risk; hedges when circumstances warrant; ~70% of 1998 production hedged at ~$2.60/Mcf floor."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 38000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 7755000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 424,
+      "proved_gas_reserves_mmcf": 171562,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 119.095,
+      "pv10_mm": 141,
+      "oil_price_used": 15.5,
+      "gas_price_used": 3.11,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

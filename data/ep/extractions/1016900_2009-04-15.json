@@ -1,0 +1,90 @@
+{
+  "cik": "1016900",
+  "company": "PNG VENTURES INC",
+  "filing_date": "2009-04-15",
+  "accession_number": "0001016900-09-000012",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2008-07",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": -0.176,
+        "notes": "Exchange-traded natural gas futures contracts accounted for under SFAS 133 to reduce price risk on fixed-price customer gas contracts; no volume or strike price disclosed. Net effect of realized/unrealized gains and losses on these derivatives for the six-month period ended December 31, 2008 was a $176,000 decrease to pre-tax income (reported as fair_value_mm here as a P&L impact, not a period-end balance-sheet fair value)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2008-01",
+        "period_end": "2008-06",
+        "counterparty": "Former parent company (Earth Biofuels, Inc. / EBOF)",
+        "fair_value_mm": null,
+        "notes": "Predecessor Entity (Earth LNG, Inc.) had a gas-price 'swap' agreement with its former parent whereby the former parent assumed the risk/benefit of procuring gas at spot prices and guaranteed a fixed monthly price to the company. No volume, strike price, or notional disclosed. Former parent sustained a loss under the swap as gas prices trended up; absent the agreement, cost of sales would have been approximately $2 million higher for the six months ended June 30, 2008. Terminated upon the June 30, 2008 Share Exchange."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "May use exchange-traded NG futures (SFAS 133) to offset fixed-price customer contract risk; predecessor had an intercompany gas-price swap with former parent; current major fixed-price contract left unhedged.",
+      "total_instruments": 2
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude-sonnet-5",
+    "extraction_method": "claude_code_agent",
+    "extraction_timestamp": "2026-10-02T05:35:42Z"
+  }
+}

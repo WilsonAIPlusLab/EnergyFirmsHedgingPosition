@@ -1,0 +1,101 @@
+{
+  "cik": "928022",
+  "company": "Callon Petroleum Co",
+  "filing_date": "1997-03-25",
+  "accession_number": "0000928022-97-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 23.33,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average oil volume 15,000 barrels per month; prices are on-average ceiling/floor; 'in effect for 1997'; open at Dec 31, 1996",
+        "evidence_quote": "are for average oil volumes of 15,000 barrels per month at (on average) a \nceiling price of $23.33 and floor of $18.00"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.88,
+        "ceiling_price": 3.36,
+        "price_unit": "$/Mcf",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average gas volume 583,000 MCF per month in first quarter of 1997; prices are on-average ceiling/floor; open at Dec 31, 1996",
+        "evidence_quote": "583,000 MCF per month in the first quarter of 1997 at (on average) a ceiling \nprice of  $3.36 and floor of $2.88."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Part of business strategy is to reduce exposure to oil and gas price volatility by hedging a portion of production; derivatives used for price protection on a limited amount of future production, not for trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 585000,
+      "oil_production_bpd": 1599,
+      "gas_production_mcf": 6269000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3819,
+      "proved_gas_reserves_mmcf": 50424,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 130.169,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

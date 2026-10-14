@@ -1,0 +1,101 @@
+{
+  "cik": "77159",
+  "company": "BAYTEX ENERGY USA, INC.",
+  "filing_date": "2000-03-30",
+  "accession_number": "0000077159-00-000036",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 5000,
+        "volume_total": 4570000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.1,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-05",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Participating forward swap executed April 1997; re-entry price $2.48 per MMbtu. Expired October 1999; no contracts in place at 12/31/1999. Company hedged 34 percent of 1999 production.",
+        "evidence_quote": "of $2.10 per MMbtu and a re-entry price of $2.48 per"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 5000,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.1,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-11",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second participating forward swap (additional 5,000 MMbtu/d); re-entry price $2.35 per MMbtu. Filing gives completion date as September 1998 in Marketing section but September 1997 in MD&A. Expired October 1999.",
+        "evidence_quote": "of $2.10 per MMbtu and a re-entry price of $2.35 per"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Price risk program permits fixed-price contracts and futures, forwards, options and swaps to mitigate natural gas price risk; no contracts in place at 12/31/1999; oil not hedged to date."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 32000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 8679000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 359,
+      "proved_gas_reserves_mmcf": 185198,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 119.263,
+      "pv10_mm": 136,
+      "oil_price_used": 21.78,
+      "gas_price_used": 2.69,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

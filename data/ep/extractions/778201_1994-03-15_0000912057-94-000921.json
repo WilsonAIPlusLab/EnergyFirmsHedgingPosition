@@ -1,0 +1,77 @@
+{
+  "cik": "778201",
+  "company": "SUN ENERGY PARTNERS LP",
+  "filing_date": "1994-03-15",
+  "accession_number": "0000912057-94-000921",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2.04,
+        "ceiling_price": 2.28,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Futures contracts; about 30 percent of gas production hedged at Dec 31, 1993 at average floor and ceiling. Volumes and periods not stated. Futures activity decreased oil and gas revenue by $17 million in 1993 and $7 million in 1992.",
+        "evidence_quote": "percent  of its  gas production at  an average floor  of $2.04 per  mmbtu and an\naverage ceiling of $2.28 per mmbtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time enters into futures contracts to hedge the impact of price fluctuations on crude and natural gas production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 55000,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 517,
+      "ngl_production_bbls": null,
+      "total_production_boe": 54500000,
+      "total_production_boepd": null,
+      "production_year": 1993
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 1417000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 493000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1993-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1136,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": 4.75
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:14:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_896e9900-cb3"
+    ]
+  }
+}

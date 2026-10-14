@@ -1,0 +1,119 @@
+{
+  "cik": "1133494",
+  "company": "FOOTHILLS RESOURCES INC",
+  "filing_date": "2008-03-28",
+  "accession_number": "0000950129-08-001988",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": "Wells Fargo Bank, N.A.",
+        "volume_per_day": 407.09,
+        "volume_total": 148994,
+        "volume_unit": "Bbls",
+        "fixed_price": 71.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "fair_value_mm": -3.228,
+        "notes": "NYMEX swap price; cash flow hedge; fair value $(3,228) thousand",
+        "evidence_quote": "January 2008 \u2014 December 2008\n\n    \t148,994\n\n    \t$\n    \t71.01\n\n    \t$\n    \t(3,228\n    \t)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": "Wells Fargo Bank, N.A.",
+        "volume_per_day": 369.98,
+        "volume_total": 135041,
+        "volume_unit": "Bbls",
+        "fixed_price": 69.39,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2009-01",
+        "period_end": "2009-12",
+        "fair_value_mm": -2.366,
+        "notes": "NYMEX swap price; fair value $(2,366) thousand",
+        "evidence_quote": "January 2009 \u2014 December 2009\n\n    \t135,041\n\n    \t69.39\n\n    \t(2,366\n    \t)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": "Wells Fargo Bank, N.A.",
+        "volume_per_day": 271.82,
+        "volume_total": 74206,
+        "volume_unit": "Bbls",
+        "fixed_price": 68,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2010-01",
+        "period_end": "2010-09",
+        "fair_value_mm": -1.205,
+        "notes": "NYMEX swap price; fair value $(1,205) thousand; total fair value of all swaps $(6,799) thousand",
+        "evidence_quote": "January 2010 \u2014 September 2010\n\n    \t74,206\n\n    \t68.00\n\n    \t(1,205\n    \t)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Credit facility with Wells Fargo Foothill requires hedging at least 50% of projected production from proved developed producing reserves; swaps with Wells Fargo Bank, N.A. through Sept 30, 2010; not for trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 185000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 135000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2007
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 4174,
+      "proved_gas_reserves_mmcf": 21803,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2007-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 136.128,
+      "pv10_mm": null,
+      "oil_price_used": 94.46,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

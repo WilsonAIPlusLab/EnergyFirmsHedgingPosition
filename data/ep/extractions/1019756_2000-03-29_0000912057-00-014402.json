@@ -1,0 +1,155 @@
+{
+  "cik": "1019756",
+  "company": "MARKWEST HYDROCARBON L.L.C.",
+  "filing_date": "2000-03-29",
+  "accession_number": "0000912057-00-014402",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "evidence_quote": "average sales price of $1.97/Mcf on 4,000 Mcfd of production through October",
+        "volume_per_day": 4000,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.97,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "2000-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Text says the Company locked in an average sales price as of Dec 31, 1999; instrument form not stated. Start of period not stated."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "evidence_quote": "2000, an average sales price of $2.29/Mcf on 3,000 Mcfd of November 2000 to",
+        "volume_per_day": 3000,
+        "volume_total": 1095000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.29,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2000-11",
+        "period_end": "2001-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Locked-in average sales price; instrument form not stated."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "evidence_quote": "October 2001 production, and an average sales price of $2.39/Mcf on 1,000 Mcfd",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.39,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-11",
+        "period_end": "2002-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Locked-in average sales price for November 2001 to October 2002 production; instrument form not stated."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "evidence_quote": "locked in an approximate margin of $0.23 per gallon on 7.6 million gallons of",
+        "volume_per_day": null,
+        "volume_total": 180952.38,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.23,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": null,
+        "period_end": "2000-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Margin lock ($/gallon margin, not a price) from purchasing natural gas while simultaneously selling propane; through February 2000."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "mixed",
+        "direction": "unknown",
+        "evidence_quote": "31, 1999, the Company had locked in an approximate margin of $0.15 per gallon on",
+        "volume_per_day": null,
+        "volume_total": 640476.19,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": null,
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Margin lock ($/gallon margin, not a price) from selling crude and purchasing natural gas; 26.9 million gallons of expected production through December 2000."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Typically hedges a portion of commodity price risk using fixed-price forwards, NYMEX futures and OTC fixed/floating swaps; a committee oversees hedging; speculative futures need Board approval."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 11.465,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:25",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

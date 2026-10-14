@@ -1,0 +1,155 @@
+{
+  "cik": "908797",
+  "company": "COHO ENERGY INC",
+  "filing_date": "2002-04-09",
+  "accession_number": "0000950134-02-003473",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 500,
+        "volume_total": 182500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 22,
+        "ceiling_price": 28,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": "JPMorgan Chase Bank",
+        "fair_value_mm": null,
+        "notes": "Costless collar; counterparty from statement that all hedge arrangements are with JPMorgan Chase Bank. Part of 36% of 2002 oil production hedged.",
+        "evidence_quote": "500 barrels per day for the period January 1, 2002 to December 31,\n          2002, with a minimum price of $22.00 and a maximum price of $28.00."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 500,
+        "volume_total": 182500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 22,
+        "ceiling_price": 29.6,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": "JPMorgan Chase Bank",
+        "fair_value_mm": null,
+        "notes": "Costless collar; counterparty from statement that all hedge arrangements are with JPMorgan Chase Bank.",
+        "evidence_quote": "500 barrels per day for the period January 1, 2002 to December 31,\n          2002, with a minimum price of $22.00 and a maximum price of $29.60."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 500,
+        "volume_total": 182500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 24,
+        "ceiling_price": 28.6,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": "JPMorgan Chase Bank",
+        "fair_value_mm": null,
+        "notes": "Costless collar; counterparty from statement that all hedge arrangements are with JPMorgan Chase Bank.",
+        "evidence_quote": "500 barrels per day for the period January 1, 2002 to December 31,\n          2002, with a minimum price of $24.00 and a maximum price of $28.60."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 500,
+        "volume_total": 137500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 22.5,
+        "ceiling_price": 26.45,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-04",
+        "period_end": "2002-12",
+        "counterparty": "JPMorgan Chase Bank",
+        "fair_value_mm": null,
+        "notes": "Costless collar; counterparty from statement that all hedge arrangements are with JPMorgan Chase Bank.",
+        "evidence_quote": "500 barrels per day for the period April 1, 2002 to December 31, 2002,\n          with a minimum price of $22.50 and a maximum price of $26.45."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 500,
+        "volume_total": 137500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 22.5,
+        "ceiling_price": 25.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-04",
+        "period_end": "2002-12",
+        "counterparty": "JPMorgan Chase Bank",
+        "fair_value_mm": null,
+        "notes": "Costless collar; counterparty from statement that all hedge arrangements are with JPMorgan Chase Bank.",
+        "evidence_quote": "500 barrels per day for the period April 1, 2002 to December 31, 2002,\n          with a minimum price of $22.50 and a maximum price of $25.50."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges a portion of oil and gas production via costless collars (floor, no upfront premium); bank facility requires hedging and limits hedging to 85% of oil production; not speculative."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3689000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1616000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 87141,
+      "proved_gas_reserves_mmcf": 20667,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 90584,
+      "proved_developed_reserves_mboe": 63757,
+      "proved_undeveloped_reserves_mboe": 26827,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 324.072,
+      "pv10_mm": 352.5,
+      "oil_price_used": 19.84,
+      "gas_price_used": 2.57,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.5,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:25",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

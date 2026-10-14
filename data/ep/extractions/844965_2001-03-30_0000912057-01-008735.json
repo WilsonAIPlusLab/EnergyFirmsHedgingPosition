@@ -1,0 +1,38 @@
+{
+  "cik": "844965",
+  "company": "TETRA TECHNOLOGIES INC",
+  "filing_date": "2001-03-30",
+  "accession_number": "0000912057-01-008735",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity derivatives. Only interest rate swaps ($40M notional) exist; the Company states it has no financial instruments subject to commodity price risks."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": null
+    },
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

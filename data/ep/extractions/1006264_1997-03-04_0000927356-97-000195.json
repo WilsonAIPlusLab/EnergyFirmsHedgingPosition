@@ -1,0 +1,101 @@
+{
+  "cik": "1006264",
+  "company": "PATINA OIL & GAS CORP",
+  "filing_date": "1997-03-04",
+  "accession_number": "0000927356-97-000195",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1610.17,
+        "volume_total": 95000,
+        "volume_unit": "Bbls",
+        "fixed_price": 22.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-02",
+        "counterparty": null,
+        "fair_value_mm": -0.35,
+        "notes": "Swap sales contracts entered in Q4 1996, NYMEX based; unrecognized loss $350,000 at 12/31/1996 market values; company estimates about $200,000 of losses based on settlements after year end and Feb 25, 1997 market values.",
+        "evidence_quote": "swap sales contracts with a weighted average oil price (NYMEX based) of $22.19 for contract\nvolumes of 95,000 barrels of oil for January 1997 through February 1997."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 25000.0,
+        "volume_total": 2250000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.02,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": -0.01,
+        "notes": "Swap sales contracts entered in Q4 1996 and early 1997, CIG-Inside FERC based; unrecognized loss $10,000 at 12/31/1996 market values; company estimates realizing $1.4 million of income based on settlements after year end and Feb 25, 1997 market values.",
+        "evidence_quote": "swap sales contracts with a weighted average natural gas price (CIG-\nInside FERC based) of $3.02 for contract volumes of 2,250,000 MMBtu's of natural\ngas for January 1997 through March 1997."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time enters into commodity contracts to hedge price risk of a portion of production; gains/losses deferred and recognized in oil and gas sales revenues in the period the contracts relate to."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1688000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 23947000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 5679000,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 22475,
+      "proved_gas_reserves_mmcf": 296659,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 499.936,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 7.89,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

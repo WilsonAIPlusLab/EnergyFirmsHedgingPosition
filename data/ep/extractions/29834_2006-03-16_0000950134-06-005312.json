@@ -1,0 +1,131 @@
+{
+  "cik": "29834",
+  "company": "Escalera Resources Co.",
+  "filing_date": "2006-03-16",
+  "accession_number": "0000950134-06-005312",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 304000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical fixed-price gas sales delivery contract (Cow Creek), not a financial hedge; filing states 304,000 Mcf total volume in MD&A. One of six firm commitment contracts totalling 790,000 MMbtu.",
+        "evidence_quote": "1,000 MMbtu\n\n    \t1/06 - 10/06\n\n    \t5.50"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 500,
+        "volume_total": 15500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical fixed-price gas sales delivery contract (first of two identical 500 MMbtu/d January 2006 rows; Cow Creek/Mesa); MD&A lists 15,500 Mcf volume per row. Not a financial hedge.",
+        "evidence_quote": "500 MMbtu\n\n    \t1/06 - 1/06\n\n    \t5.30"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 500,
+        "volume_total": 15500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical fixed-price gas sales delivery contract (second of two identical 500 MMbtu/d January 2006 rows; Cow Creek/Mesa); MD&A lists 15,500 Mcf volume per row. Not a financial hedge.",
+        "evidence_quote": "500 MMbtu\n\n    \t1/06 - 1/06\n\n    \t5.30"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 455000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2007-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical fixed-price gas sales delivery contract (Cow Creek); filing states 455,000 Mcf total volume in MD&A. Not a financial hedge.",
+        "evidence_quote": "1,000 MMbtu\n\n    \t1/06 - 3/07\n\n    \t6.00"
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "We currently do not enter into hedging agreements; uses open fixed-price physical gas sales delivery contracts (790,000 MMbtu over 15 months from Jan 2006).",
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "total_oil_instruments": 0,
+      "uses_derivatives": false
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 2976094,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": 15470,
+      "oil_production_bpd": null,
+      "production_year": 2005,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": 47234,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": 328.752,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2005-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": 91.293,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:56",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "cik": "19252",
+  "company": "CHAPARRAL RESOURCES INC",
+  "filing_date": "2001-04-16",
+  "accession_number": "0001050502-01-000370",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-10",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": 0.999,
+        "notes": "North Sea Brent puts bought for $4.0 million as part of Shell Capital loan; 62,750 barrels per month; exercise prices of the various puts range from $22.35 to $17.25 (not allocated by period); total program 1,562,250 bbl; $0.999MM fair value at 12/31/2000 is for the whole put program; cannot be sold under loan terms.",
+        "evidence_quote": "between October 2000 to December 2001 (62,750\nbarrels per month)"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "North Sea Brent puts, 51,750 barrels per month; exercise prices of the various puts range from $22.35 to $17.25 (not allocated by period); part of the 1,562,250 bbl program bought for $4.0 million.",
+        "evidence_quote": "between January 2002 to December 2002 (51,750 barrels per\nmonth)"
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Bought Brent put contracts as required hedge agreement under Shell Capital loan to hedge risk of a drop in commodity prices; no other hedging without Shell Capital consent."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 730000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 16523,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 16523,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 70.281,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.81,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.7,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:56",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

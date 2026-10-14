@@ -1,0 +1,101 @@
+{
+  "cik": "750199",
+  "company": "EPL OIL & GAS, INC.",
+  "filing_date": "2001-03-15",
+  "accession_number": "0000950134-01-002157",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 923000,
+        "volume_unit": "Bbls",
+        "fixed_price": 22.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2001-05",
+        "counterparty": null,
+        "fair_value_mm": -2.5,
+        "notes": "Financially settled crude oil forward sales contracts, settled on average NYMEX WTI price each month; contracts maturing monthly through May 2001; start of period not stated. Estimated loss if terminated at Dec 31, 2000 was $2.5 million (shown as negative). Counterparties described only as major financial institutions.",
+        "evidence_quote": "monthly through May 2001 related to the sale of 923,000 barrels of oil at an"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 10000.0,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3,
+        "ceiling_price": 9,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": -1.3,
+        "notes": "Zero-cost collars entered Oct-Nov 2000, financially settled against Henry Hub NYMEX average of last three trading days of each month; net sale of 3,650,000 mmbtu. Estimated loss if terminated at Dec 31, 2000 was $1.3 million (shown as negative). Counterparties described only as major financial institutions.",
+        "evidence_quote": "mmbtu of natural gas with a floor of $3.00 per mmbtu and a cap of $9.00 per"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivative commodity instruments (oil forward sales, gas zero-cost collars) to manage price risk on future production; not for speculative purposes. No interest rate derivatives."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 7622,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 15.781,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 10252,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 27521,
+      "proved_gas_reserves_mmcf": 49150,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 35712,
+      "proved_developed_reserves_mboe": 31611,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 348.102,
+      "pv10_mm": 489.945,
+      "oil_price_used": 25.84,
+      "gas_price_used": 9.97,
+      "lease_operating_expense_per_boe": 6.42,
+      "production_tax_per_boe": 1.69,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 6.82,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:24",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

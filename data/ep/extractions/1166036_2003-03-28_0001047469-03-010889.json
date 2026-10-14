@@ -1,0 +1,102 @@
+{
+  "cik": "1166036",
+  "company": "MARKWEST ENERGY PARTNERS L P",
+  "filing_date": "2003-03-28",
+  "accession_number": "0001047469-03-010889",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 243.38,
+        "volume_total": 88833.33,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.47,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NGL sales hedged using crude oil; price is NGL sales price per gallon ($/gallon); year ending Dec 31, 2003; hedged position as of Dec 31, 2002. Instrument type inferred from stated practice of selling forward propane or crude oil.",
+        "evidence_quote": "NGL Volumes Hedged Using Crude Oil"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 82.19,
+        "volume_total": 30000.0,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NGL sales hedged using propane; price is NGL sales price per gallon ($/gallon); year ending Dec 31, 2003. Total NGL hedged per filing 4,991,000 gallons at $0.45 (not separately listed).",
+        "evidence_quote": "NGL Volumes Hedged Using Propane"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 2,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduce cash flow volatility from NGL price risk; may use fixed-price forwards, fixed-for-float swaps, options (OTC) and NYMEX futures; hedge NGL sales by selling forward propane or crude oil."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "production_year": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null,
+      "total_proved_reserves_mboe": null,
+      "proved_oil_reserves_mbbls_note": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

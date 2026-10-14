@@ -1,0 +1,113 @@
+{
+  "cik": "745113",
+  "company": "HOWELL CORP /DE/",
+  "filing_date": "1995-03-20",
+  "accession_number": "0000745113-95-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3300,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 17,
+        "ceiling_price": 20,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-03",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased put (strike $17) and sold call (strike $20) on oil production, eighteen month period beginning March 1, 1995; monthly settlement, strikes based on average exchange crude price; premium amortized over the period. End month not stated in text.",
+        "evidence_quote": "In 1995, the Company purchased a put option and sold a call option covering\n3,300 barrels per day of oil production for an eighteen month period beginning\nMarch 1, 1995."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1994-07",
+        "period_end": "1994-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put option purchased for second half of 1994 to guarantee a minimum sales price on crude oil production; strike and volume not stated; not exercised because market prices were higher than strike.",
+        "evidence_quote": "for the second half of 1994, the Company\npurchased a put option for its crude oil production to guarantee the Company a\nspecific minimum"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Limited program of hedging crude oil inventories and fixed purchase price commitments (marketing segment); no volumes, prices or periods stated.",
+        "evidence_quote": "The Company has a limited program of hedging its crude oil inventories and fixed\npurchase price commitments.  Crude oil future contracts are being used as the\nhedging tool."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Limited program hedging crude oil inventories and fixed purchase price commitments with futures; put option (and 1995 put/call) used to guarantee a minimum sales price on oil production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 3663,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 8.789,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 7216,
+      "proved_gas_reserves_mmcf": 70939,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.23,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "cik": "833320",
+  "company": "BURLINGTON RESOURCES INC",
+  "filing_date": "1997-02-13",
+  "accession_number": "0000950129-97-000646",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "1993 gas swap offsetting a long-term fixed-price gas contract; no volume, price or term stated; Company expects no gain or loss",
+        "evidence_quote": "In 1993, the Company entered into a gas swap agreement to offset the\neffects of a long-term fixed-price contract for natural gas."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 5600000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Company is fixed-price payor; converts fixed-price contracts to market-sensitive; fixed prices range $1.38 to $2.40 per MMBTU; ~1% of 1996 gas production; combined deferred loss on payor and receivor swaps at 12/31/1996 was $9.8 million",
+        "evidence_quote": "The Company is a fixed-price payor on approximately 5.6 BCF (which\napproximates 1 percent of the Company's 1996 gas production) at prices ranging\nfrom $1.38 to $2.40 per MMBTU for production through December 31, 1997."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 16300000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Company is fixed-price receivor; hedge of underlying production; fixed prices range $1.80 to $3.67 per MMBTU; ~4% of 1996 gas production; combined deferred loss on payor and receivor swaps at 12/31/1996 was $9.8 million",
+        "evidence_quote": "Company is a fixed-price receivor on approximately 16.3 BCF (which approximates\n4 percent of the Company's 1996 gas production) at prices ranging from $1.80 to\n$3.67 per MMBTU for production through December 31, 1997."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 2930000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1997-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold NYMEX crude oil futures outstanding at 12/31/1996 (2,930 MBbls, ~16% of 1996 oil production); NYMEX prices range $20.50 to $25.10 per barrel; deferred loss on oil and gas futures $12.2 million",
+        "evidence_quote": "positions outstanding as of December 31, 1996 totaled 2,930 MBbls (which\napproximates 16 percent of the Company's 1996 oil production) at NYMEX prices\nranging from $20.50 to $25.10 per barrel for production through November 1997."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 11500000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "1997-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold NYMEX and KBOT gas futures outstanding at 12/31/1996 (~3% of 1996 gas production); prices range $2.39 to $3.84 per MMBTU; deferred loss on oil and gas futures $12.2 million",
+        "evidence_quote": "The natural gas positions outstanding as of December 31, 1996 totaled 11.5 BCF\n(which approximates 3 percent of the Company's 1996 gas production) at NYMEX and\nKBOT prices ranging from $2.39 to $3.84 per MMBTU for production through April\n1997."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses NYMEX/KBOT futures, options and OTC price and basis swaps to hedge price risk on production and fixed-price sales commitments; swaps convert fixed-price gas contracts to market-sensitive."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 18700000,
+      "oil_production_bpd": 51100,
+      "gas_production_mcf": 448000000,
+      "gas_production_mmcf_per_day": 1225,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 203600,
+      "proved_gas_reserves_mmcf": 5214000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 5795,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

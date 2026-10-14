@@ -1,0 +1,173 @@
+{
+  "cik": "745113",
+  "company": "HOWELL CORP /DE/",
+  "filing_date": "2002-03-13",
+  "accession_number": "0000745113-02-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1750,
+        "volume_total": 481250,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 15,
+        "ceiling_price": 17,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-04",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical 1999 program 1: purchased put and sold call, no premiums. Strike exceeded; revenue reduced $3.5 million (both 1999 programs).",
+        "evidence_quote": "barrels of oil per day effective April 1, 1999,  through  December 31, 1999. The\nstrike  prices  were  $15.00 per barrel for the put option and $17.00 per barrel"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1750,
+        "volume_total": 428750,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 14.5,
+        "ceiling_price": 18.8,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-05",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical 1999 program 2: purchased put and sold call, no premiums.",
+        "evidence_quote": "May 1, 1999, through December 31, 1999. The strike prices were $14.50 per barrel\nfor the put option and  $18.80  per  barrel for the call  option."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1700,
+        "volume_total": 622200,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 17.25,
+        "ceiling_price": 22,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical 2000 program 1: purchased put and sold call, monthly settlements on monthly averages, no premiums. Strike exceeded; revenue reduced $7.9 million (both 2000 programs).",
+        "evidence_quote": "covering  1,700  barrels  of oil per day  effective  January  1,  2000,  through\nDecember 31, 2000.  The strike  prices were $17.25 per barrel for the put option\nand $22.00 per barrel for the call option."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1800,
+        "volume_total": 658800,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18.5,
+        "ceiling_price": 26,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical 2000 program 2: purchased put and sold call, monthly settlements on monthly averages, no premiums.",
+        "evidence_quote": "a put option and a sale of a call option  covering 1,800 barrels of oil per day\neffective  January 1, 2000, through December 31, 2000.  The strike prices were\n$18.50 per barrel for the put option and $26.00 per barrel for the call  option."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 7500,
+        "volume_total": 3427500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-10",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put purchased in Q4 2000 covering NYMEX contract months March through December 2001; strike price not stated in text. Premium paid $0.3 million; change in market value gave earnings of $0.9 million in 2001. period_start is purchase quarter; coverage began 2001-03.",
+        "evidence_quote": "covering  7,500 MMBTU per day for NYMEX contract  months March through  December\n2001,  allowing it to benefit  should gas prices fall. The premium paid was $0.3"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 4000,
+        "volume_total": 856000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 23.4,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-06",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put purchased in Q2 2001; NYMEX oil price benchmark. Premium paid $0.4 million; change in market value gave earnings of $0.7 million in 2001.",
+        "evidence_quote": "covering 4,000 barrels of oil per day for calendar months June through  December\n2001,  allowing it to benefit  should the NYMEX price for oil fall below  $23.40"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time uses limited programs to hedge production; futures and options are the hedging tools; may on a limited basis enter market-related commodity contracts marked-to-market."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 8706,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 7.676,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 39900,
+      "proved_gas_reserves_mmcf": 32800,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

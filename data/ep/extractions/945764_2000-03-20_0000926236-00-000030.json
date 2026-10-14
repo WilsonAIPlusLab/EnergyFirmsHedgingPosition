@@ -1,0 +1,155 @@
+{
+  "cik": "945764",
+  "company": "DENBURY INC",
+  "filing_date": "2000-03-20",
+  "accession_number": "0000926236-00-000030",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 40000,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.9,
+        "ceiling_price": 2.95,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "1999-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Zero-cost collars in place at 12/31/1998, 40 MMcf/d through August 1999; ceiling is weighted average approx $2.95; start date not stated. Text gives combined expected payment on gas hedge contracts at 12/31/1999 of about $183,000.",
+        "evidence_quote": "had a weighted average ceiling price  of approximately $2.95 per  MMBtu"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 30000,
+        "volume_total": 14640000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.9,
+        "ceiling_price": 2.58,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-09",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "30 MMcf/d thereafter (after August 1999) through December 2000; during 2H 1999 the Company retired 6 MMcf/d of the 30 MMcf/d collar at a cost of about $672,000; remaining contracts hedge approx 90% of gas production.",
+        "evidence_quote": "and the second set of contracts had a ceiling price of $2.58 per MMBtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 3000,
+        "volume_total": 825000,
+        "volume_unit": "Bbls",
+        "fixed_price": 14.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-04",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap entered March/April 1999; text calls both oil contracts 'collars' but describes this one as a fixed price swap.",
+        "evidence_quote": "December 1999 at a price of $14.24 per Bbl.  The second contract was  a"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3000,
+        "volume_total": 1833000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 14,
+        "ceiling_price": 18.05,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-05",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedges just over 20% of current oil production; Company paid about $8.6 million on the two 1999 oil contracts in 1999; at 12/31/1999 expected to pay about $4.5 million on the oil hedge contract based on futures prices.",
+        "evidence_quote": "December 2000 with a floor price of $14.00 per Bbl and a ceiling  price"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Modified oil sales contracts (Q4 1998), about 18 months, approx 45% of oil production had a price floor of between $8.00 and $10.00 per Bbl (NYMEX equivalent $15.00-$16.00), compensated by increasing discount to NYMEX as prices rise; majority expire April 2000. Floor is a range so floor_price left null.",
+        "evidence_quote": "oil production at  that time  had a price  floor of  between $8.00  and"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company enters into financial contracts to hedge commodity price risk on anticipated future oil and natural gas production: price ceilings and floors, no-cost collars and fixed price swaps."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4413000,
+      "oil_production_bpd": 12090,
+      "gas_production_mcf": 10201000,
+      "gas_production_mmcf_per_day": 27.948,
+      "ngl_production_bbls": null,
+      "total_production_boe": 6113000,
+      "total_production_boepd": 16748,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 51832,
+      "proved_gas_reserves_mmcf": 50438,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 60238,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 448.374,
+      "pv10_mm": 462.87,
+      "oil_price_used": 25.6,
+      "gas_price_used": 2.12,
+      "lease_operating_expense_per_boe": 4.25,
+      "production_tax_per_boe": 0.6,
+      "total_production_cost_per_boe": 4.85,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.17,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

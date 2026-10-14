@@ -1,0 +1,119 @@
+{
+  "cik": "1041895",
+  "company": "PETSEC ENERGY INC",
+  "filing_date": "1998-03-31",
+  "accession_number": "0000950129-98-001395",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1600000,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.02,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-05",
+        "counterparty": null,
+        "fair_value_mm": 2.5,
+        "notes": "Position at Dec 31, 1997; net sale of 1.6 million barrels, contracts maturing monthly through May 2000; counterparties described only as major financial institutions; termination value is a gain of $2.5 million for oil",
+        "evidence_quote": "through May 2000 on the net sale of 1.6 million barrels of oil at an average\nprice of $20.02 per barrel and on the net sale of 19.4 million mmbtu of gas at\nan average price of $2.155 per mmbtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 19400000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.155,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2000-05",
+        "counterparty": null,
+        "fair_value_mm": -1.6,
+        "notes": "Position at Dec 31, 1997; net sale of 19.4 million mmbtu, contracts maturing monthly through May 2000; counterparties described only as major financial institutions; termination value is a cost of $1.6 million for gas",
+        "evidence_quote": "through May 2000 on the net sale of 1.6 million barrels of oil at an average\nprice of $20.02 per barrel and on the net sale of 19.4 million mmbtu of gas at\nan average price of $2.155 per mmbtu."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 3480000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.27,
+        "ceiling_price": 3.69,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": 0.4,
+        "notes": "Costless collars at Dec 31, 1997 with average floor and ceiling prices; counterparties described only as third parties; termination value is a gain of $0.4 million",
+        "evidence_quote": "31, 1997, the Company had 3,480,000 mmbtu of gas hedged through December 1998 in\ncostless collars with an average floor price of $2.27 per mmbtu and an average\nceiling price of $3.69 per mmbtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses swaps and collars on a portion of oil and gas production for more predictable cash flow; hedges only against forecasted production and proved reserves; no speculative trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3078000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 27940000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 10641,
+      "proved_gas_reserves_mmcf": 122149,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 204.114,
+      "pv10_mm": 255.839,
+      "oil_price_used": 17,
+      "gas_price_used": 2.39,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

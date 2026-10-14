@@ -1,0 +1,137 @@
+{
+  "cik": "1024645",
+  "company": "TITAN EXPLORATION INC",
+  "filing_date": "2000-03-14",
+  "accession_number": "0000930661-00-000533",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 14959.02,
+        "volume_total": 5475000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.948,
+        "ceiling_price": 2.5,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": 1.342473,
+        "notes": "Item 7A table labels long put strike 2.948 and short call strike 2.500 (NYMEX-based); note 18 instead gives gas collar floor-ceiling as $2.50 - $2.95, so the table labels look swapped. Fair value shown as $1,342,473 under a header saying dollars in thousands (unit ambiguous; converted treating the figure as dollars). Footnote (b): counterparty option to extend Oct 1 2000 to Jun 30 2001 on 15,000 MMBtu/day at 2.60 floor / 3.08 ceiling is NOT included in table.",
+        "evidence_quote": "  Notional volumes (MMBtu)                                     5,475,000           --           5,475,000     $ 1,342,473"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 22445.36,
+        "volume_total": 8215000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 0.132,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": -0.21218,
+        "notes": "Basis differential contracts: spread between NYMEX price and an El Paso/Permian price or Waha West Texas price. Fair value shown as $(212,180) under a header saying dollars in thousands (unit ambiguous; converted treating figure as dollars).",
+        "evidence_quote": "  Notional volumes (MMBtu)                                     8,215,000           --           8,215,000     $  (212,180)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3997.27,
+        "volume_total": 1463000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 21.47,
+        "ceiling_price": 17.06,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": -2.755669,
+        "notes": "2000 column of oil collar table; weighted average long put 21.47 and short call 17.06 as labelled in Item 7A (note 18 gives floor-ceiling as $17.06 - $21.47, so labels look swapped). Fair value $(2,755,669) is the TOTAL for 2000 and 2001 combined and assumes the counterparty extension is exercised; unit ambiguous (header says thousands); converted treating figure as dollars.",
+        "evidence_quote": "Notional volume (Bbls)                                         1,463,000          452,500       1,915,500     $(2,755,669)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2500.0,
+        "volume_total": 452500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 20.48,
+        "ceiling_price": 16.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "2001 column of oil collar table; weighted average long put 20.48 and short call 16.50 as labelled in Item 7A (note 18 gives $16.50 - $20.48). Period end inferred from footnote (e) extension to June 30, 2001 on 2,500 Bbls/day at 16.50 floor and 20.48 ceiling, a counterparty option; fair value assumes exercise. Fair value reported only on the 2000 row (total of both years).",
+        "evidence_quote": "A counterparty has the option to extend a collar option from July 1, 2000\n     to June 30, 2001 on volumes of 2,500 barrels per day at a floor and ceiling\n     price of $16.50 and $20.48 per barrel, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Does not enter derivatives for trading; policy as of 12/31/1999 is to enter only interest rate and commodity price derivatives that qualify as hedges of existing risks."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2272000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 23190000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 31830,
+      "proved_gas_reserves_mmcf": 244705,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 333.363,
+      "pv10_mm": 412.694,
+      "oil_price_used": 24.48,
+      "gas_price_used": 1.73,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

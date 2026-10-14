@@ -1,0 +1,119 @@
+{
+  "cik": "315852",
+  "company": "RANGE RESOURCES CORP",
+  "filing_date": "2003-03-05",
+  "accession_number": "0000950134-03-003363",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 64600000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.96,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate open gas hedges at 12/31/2002 (average price). Contracts expire monthly through December 2005; cover about 90%, 75% and 10% of anticipated production for 2003, 2004, 2005. Combined oil and gas hedge fair value was a net pre-tax loss of $32.9 million (not split by commodity). Text calls them swaps in Item 7A, and also says hedging is through option or swap contracts.",
+        "evidence_quote": "At December 31, 2002, hedges were in place covering 64.6 Bcf\nat prices averaging $3.96 per mcf"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1600000,
+        "volume_unit": "Bbls",
+        "fixed_price": 24.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate open oil hedges at 12/31/2002 (1.6 million barrels, average price). Contracts expire monthly through December 2005. Combined oil and gas fair value was a net pre-tax loss of $32.9 million (not split by commodity).",
+        "evidence_quote": "at prices averaging $3.96 per mcf and 1.6 million barrels of oil at prices\naveraging $24.45 per barrel."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 22700,
+        "volume_total": 2043000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-03",
+        "counterparty": "Enron North America Corp.",
+        "fair_value_mm": null,
+        "notes": "Hedge agreements with Enron covering first three contract months of 2002; last Enron contracts expired March 2002. Instrument type not stated beyond 'hedge agreements'. Direction not stated explicitly.",
+        "evidence_quote": "The Company had hedge agreements with Enron for 22,700 Mmbtus per day,\nat $3.20 per Mmbtu for the first three contract months of 2002."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Policy is to hedge between 50% and 75% of anticipated production, when prices justify it, on a rolling 12 to 24 month basis; hedges are not for trading; generally fixed price swaps."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1873000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 41096000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 407000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 440267,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 499.633,
+      "pv10_mm": null,
+      "oil_price_used": 27.52,
+      "gas_price_used": 4.76,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

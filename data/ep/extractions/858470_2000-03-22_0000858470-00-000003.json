@@ -1,0 +1,193 @@
+{
+  "cik": "858470",
+  "company": "Coterra Energy Inc.",
+  "filing_date": "2000-03-22",
+  "accession_number": "0000858470-00-000003",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_total": 1009800,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.26,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-03",
+        "fair_value_mm": -0.2,
+        "counterparty": null,
+        "notes": "Open at 12/31/1999; natural gas price swap on brokered transactions",
+        "evidence_quote": "First Quarter 2000.............. 1,009,800       $2.26           $(0.2)",
+        "volume_per_day": 11096.7
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_total": 1280000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.03,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "fair_value_mm": -0.3,
+        "counterparty": null,
+        "notes": "Open at 12/31/1998 (prior-year table); natural gas price swap on brokered transactions; Full Year 1999",
+        "evidence_quote": "Full Year 1999.................. 1,280,000        2.03            (0.3)",
+        "volume_per_day": 3506.85
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_total": 450000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.13,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-03",
+        "fair_value_mm": 0.1,
+        "counterparty": null,
+        "notes": "Open at 12/31/1998 (prior-year table); natural gas price swap on brokered transactions",
+        "evidence_quote": "First Quarter 2000..............   450,000        2.13             0.1",
+        "volume_per_day": 4945.05
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_total": 3530000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.64,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "fair_value_mm": null,
+        "counterparty": null,
+        "notes": "Swaps entered during 1999 on production (average fixed price); stated as 5% of natural gas production; not an open-contract table row",
+        "evidence_quote": "quantities   totaling  3,530,000  Mmbtu",
+        "volume_per_day": 9671.23
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_total": 4040800,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "fair_value_mm": null,
+        "counterparty": null,
+        "notes": "Total notional of swaps entered during 1999 related to brokered activities (1998: 2,226,000; 1997: 1,416,000 Mmbtu); no price stated",
+        "evidence_quote": "total notional\nquantities of 4,040,800, 2,226,000 and 1,416,000 Mmbtu",
+        "volume_per_day": 11070.68
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_total": 182000,
+        "volume_unit": "Bbls",
+        "fixed_price": 22.25,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-03",
+        "fair_value_mm": -0.5,
+        "counterparty": null,
+        "notes": "Open at 12/31/1999; oil price swap on our production",
+        "evidence_quote": "First Quarter 2000.............. 182,000         $22.25          $(0.5)",
+        "volume_per_day": 2000.0
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_total": 182000,
+        "volume_unit": "Bbls",
+        "fixed_price": 23.08,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-04",
+        "period_end": "2000-06",
+        "fair_value_mm": -0.1,
+        "counterparty": null,
+        "notes": "Open at 12/31/1999; oil price swap on our production",
+        "evidence_quote": "Second Quarter 2000............. 182,000          23.08           (0.1)",
+        "volume_per_day": 2000.0
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_total": 306000,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.65,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "fair_value_mm": null,
+        "counterparty": null,
+        "notes": "Swaps entered during 1999; approximately one-third of total 1999 oil production; not an open-contract table row",
+        "evidence_quote": "volume of the crude oil swap  transactions was 306,000 Bbls at a price of $20.65",
+        "volume_per_day": 838.36
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Sometimes enters natural gas and crude oil price swaps with counterparties to hedge a portion of production, plus swaps on brokered gas; not held for trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 929000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 65502000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 929602,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 587.557,
+      "pv10_mm": 737.818,
+      "oil_price_used": 24.15,
+      "gas_price_used": 2.36,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:24",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

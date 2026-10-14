@@ -1,0 +1,34 @@
+{
+  "cik": "1086319",
+  "company": "GASCO ENERGY INC",
+  "filing_date": "2000-04-14",
+  "accession_number": "0000949353-00-000048",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": null
+    },
+    "reserves": {
+      "reserves_year_end": null
+    },
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:55",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

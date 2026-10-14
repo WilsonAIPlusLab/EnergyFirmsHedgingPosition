@@ -1,0 +1,137 @@
+{
+  "cik": "277595",
+  "company": "ENERGEN CORP",
+  "filing_date": "1996-12-23",
+  "accession_number": "0000950144-96-009293",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 31506.85,
+        "volume_total": 11500000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.12,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1996-10",
+        "period_end": "1997-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Futures contracts for the sale of fiscal 1997 gas production (fiscal year ends Sept 30); average contract price excludes basis differential.",
+        "evidence_quote": "Taurus has entered into futures contracts for the sale of 11.5 Bcf of its\nfiscal 1997 gas production at an average contract price of $2.12 per Mcf"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1528.77,
+        "volume_total": 558000,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-10",
+        "period_end": "1997-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Stated as 558 MBbl of fiscal 1997 oil production; average contract price excludes basis differential.",
+        "evidence_quote": "for the sale of 558 MBbl of its fiscal 1997 oil production at an average\ncontract price of $20.98 per barrel."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10958.9,
+        "volume_total": 4000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.37,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1996-10",
+        "period_end": "1997-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed-price component of a coalbed methane sales contract (contract also has variable prices); net production subject to fixed prices estimated at 4 Bcf per year.",
+        "evidence_quote": "fixed prices of $2.37 per Mcf and\n$2.02 per Mcf for fiscal years 1997 and 1998, respectively."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10958.9,
+        "volume_total": 4000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.02,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1997-10",
+        "period_end": "1998-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed-price component of a coalbed methane sales contract for fiscal 1998; net production subject to fixed prices estimated at 4 Bcf per year.",
+        "evidence_quote": "Taurus's net production\nsubject to the fixed prices is estimated at 4 Bcf per year."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Taurus periodically enters into futures contracts to hedge its exposure to price reductions on oil and gas production; also uses fixed-price contracts to mitigate price volatility."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 635000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 12308000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6315,
+      "proved_gas_reserves_mmcf": 212977,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-09-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 170.839,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

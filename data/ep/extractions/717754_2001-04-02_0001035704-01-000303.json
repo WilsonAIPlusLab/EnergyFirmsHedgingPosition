@@ -1,0 +1,101 @@
+{
+  "cik": "717754",
+  "company": "INLAND RESOURCES INC",
+  "filing_date": "2001-04-02",
+  "accession_number": "0001035704-01-000303",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2054.79,
+        "volume_total": 750000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": "Enron Capital and Trade Resources Corp",
+        "fair_value_mm": null,
+        "notes": "Cost-free collars based on NYMEX Light Sweet Crude. Approximately 60,000 barrels per month. Floors range $19.00 to $24.00 and ceilings range $20.80 to $26.75 (various collars, no single strike stated). Combined fair value of 2001 and 2002 contracts at 12/31/2000 is a liability of $1,927,000.",
+        "evidence_quote": "The Company has hedged 750,000 barrels of its\nprojected year 2001 oil production (approximately 60,000 barrels per\nmonth)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000.0,
+        "volume_total": 180000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 23,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-03",
+        "counterparty": "Enron Capital and Trade Resources Corp",
+        "fair_value_mm": null,
+        "notes": "60,000 barrels per month for January through March 2002. Floors at $23.00; ceilings range $24.77 to $26.35 (no single ceiling stated). Combined fair value of 2001 and 2002 contracts at 12/31/2000 is a liability of $1,927,000.",
+        "evidence_quote": "180,000 barrels of its projected year 2002 oil production (60,000 barrels per\nmonth for January through March)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Inland hedges a portion of its oil production to reduce exposure to market price fluctuations, using swaps or collars settled against NYMEX futures; may add 2001 and 2002 oil hedges depending on market conditions."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1071752,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2289059,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1454000,
+      "total_production_boepd": 3973,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 47159,
+      "proved_gas_reserves_mmcf": 66187,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 324.426,
+      "pv10_mm": null,
+      "oil_price_used": 23.78,
+      "gas_price_used": 7.73,
+      "lease_operating_expense_per_boe": 5.23,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.95,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

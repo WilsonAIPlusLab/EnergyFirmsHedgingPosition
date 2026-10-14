@@ -1,0 +1,116 @@
+{
+  "cik": "34088",
+  "company": "EXXON MOBIL CORP",
+  "filing_date": "2026-02-18",
+  "accession_number": "0000034088-26-000045",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 6000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Crude oil (barrels)\t6 \t\t13",
+        "notes": "Net notional long position of derivative instruments at Dec 31, 2025 (6 million barrels; 13 million at Dec 31, 2024). Aggregate position, not individual contracts; commodity derivatives not under hedge accounting; used to manage price risk and for trading."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": -27000000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Petroleum products (barrels)\t(27)\t\t(32)",
+        "notes": "Petroleum products (not crude oil/NGL). Net notional short position at Dec 31, 2025 of (27) million barrels; (32) million at Dec 31, 2024. Aggregate position."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": -449000000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Natural gas (MMBTUs)\t(449)\t\t(675)",
+        "notes": "Net notional short position at Dec 31, 2025 of (449) million MMBtu; (675) million at Dec 31, 2024. Aggregate position, not individual contracts."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses commodity-based contracts, including derivatives, to manage commodity price risk and to generate returns from trading; commodity derivatives are not accounted for under hedge accounting; credit risk mitigated via clearing exchanges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1800000000,
+      "total_production_boepd": null,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 8187000,
+      "proved_gas_reserves_mmcf": 36408000,
+      "proved_ngl_reserves_mbbls": 2437000,
+      "total_proved_reserves_mboe": 19311000,
+      "proved_developed_reserves_mboe": 12304000,
+      "proved_undeveloped_reserves_mboe": 7007000,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 149129,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:04",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

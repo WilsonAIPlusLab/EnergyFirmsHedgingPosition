@@ -1,0 +1,137 @@
+{
+  "cik": "77159",
+  "company": "BAYTEX ENERGY USA, INC.",
+  "filing_date": "2002-03-22",
+  "accession_number": "0000928385-02-000917",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 11855,
+        "volume_total": 4327075,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.14,
+        "ceiling_price": 4.2,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open position as of March 14, 2002 (average daily volume). Note 7 lists 11,258 MMbtus at floor $3.22 / ceiling $4.14 as of Feb 18, 2002 (earlier snapshot, not extracted separately). Start month not stated; Note 7 refers to full year 2002.",
+        "evidence_quote": "11,855 MMbtus at a weighted average floor price of $3.14 per MMbtu and ceiling price of $4.20 per MMbtu through December 2002"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 5400,
+        "volume_total": 1971000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 4.48,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open position as of March 14, 2002 (average daily volume), for calendar 2003.",
+        "evidence_quote": "5,400 MMbtus at a weight average floor price of $2.75 per MMbtu and ceiling price of $4.48 per MMbtu for 2003"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 13000,
+        "volume_total": 3952000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas swap at a NYMEX price, expiring October 2002; also listed in Note 7 (Feb 18, 2002) for the full year 2002. Direction not explicitly stated; hedge of production implies fixed-price seller.",
+        "evidence_quote": "13,000 MMbtus at a NYMEX price of $2.74 per MMbtu expiring October 2002"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 764,
+        "volume_total": 278860,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 21.31,
+        "ceiling_price": 25.72,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open position as of March 14, 2002 and Feb 18, 2002 (same terms). Business section separately cites approximately 750 barrels per day for 2002 at same floor/ceiling.",
+        "evidence_quote": "764 Bbls at a weighted average floor price of $21.31 per Bbl and ceiling price of $25.72 per Bbl through December 2002"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Price risk management program permits fixed-price contracts and financial instruments (futures, forwards, options, swaps) to mitigate natural gas price risk on anticipated production; designated cash flow hedges under SFAS 133."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 164000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 13130000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3920,
+      "proved_gas_reserves_mmcf": 229253,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 188.943,
+      "pv10_mm": 242,
+      "oil_price_used": 20.4,
+      "gas_price_used": 2.65,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

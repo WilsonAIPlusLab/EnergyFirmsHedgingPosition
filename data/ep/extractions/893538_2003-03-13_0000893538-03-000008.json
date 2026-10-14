@@ -1,0 +1,155 @@
+{
+  "cik": "893538",
+  "company": "SM Energy Co",
+  "filing_date": "2003-03-13",
+  "accession_number": "0000893538-03-000008",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average volumes/month 1,599,000 MMBtu; includes hedges entered since Dec 31, 2002",
+        "evidence_quote": "Natural Gas           1,599,000            MMBtu             $4.35        01/03 - 12/03"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.04,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average volumes/month 844,000 MMBtu; includes hedges entered since Dec 31, 2002",
+        "evidence_quote": "Natural Gas             844,000            MMBtu             $4.04        01/04 - 12/04"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.94,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average volumes/month 206,200 Bbls; includes hedges entered since Dec 31, 2002",
+        "evidence_quote": "Oil                 206,200            Bbls             $25.94        01/03 - 12/03"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 23.71,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2004-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average volumes/month 144,500 Bbls; includes hedges entered since Dec 31, 2002",
+        "evidence_quote": "Oil                 144,500            Bbls             $23.71        01/04 - 12/04"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.5,
+        "ceiling_price": 5.96,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-02",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average volumes/month 152,000 MMbtu; includes hedges entered since Dec 31, 2002",
+        "evidence_quote": "Natural Gas             152,000 MMbtu      $2.50             $5.96        02/03 - 12/03"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Board policy: every derivative must relate to offsetting positions, anticipated transactions or firm commitments; no speculative or leveraged derivatives. Generally hedge no more than 50% of production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2815000,
+      "oil_production_bpd": 7713,
+      "gas_production_mcf": 38164000,
+      "gas_production_mmcf_per_day": 104.558,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 36119,
+      "proved_gas_reserves_mmcf": 274172,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 581.862,
+      "pv10_mm": 824.808,
+      "oil_price_used": 29.311,
+      "gas_price_used": 4.211,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:24",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

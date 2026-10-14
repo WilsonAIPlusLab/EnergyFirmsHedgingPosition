@@ -1,0 +1,83 @@
+{
+  "cik": "892986",
+  "company": "WARREN RESOURCES INC",
+  "filing_date": "2008-03-04",
+  "accession_number": "0001047469-08-002215",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 700,
+        "volume_total": 214200,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2008-03",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": 0.138616,
+        "notes": "Floor price put agreement entered in 2007; not designated as a hedge; fair value $138,616 at Dec 31, 2007; net loss of $300,767 recorded in oil and gas revenue for 2007",
+        "evidence_quote": "In 2007 we entered into a financial derivative put contract to hedge our exposure to commodity price risk associated with anticipated future crude oil production."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "In 2007 entered a financial put contract (floor price put) to hedge ~700 Bbl/d of crude oil for more predictable oil revenues; not designated as a hedge under SFAS 133."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 824500,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1255400,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2007
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 53110,
+      "proved_gas_reserves_mmcf": 37768,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2007-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 819.151,
+      "pv10_mm": 1047.968,
+      "oil_price_used": 86.21,
+      "gas_price_used": 5.02,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

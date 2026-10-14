@@ -1,0 +1,58 @@
+{
+  "cik": "894627",
+  "company": "VAALCO ENERGY INC /DE/",
+  "filing_date": "2009-03-16",
+  "accession_number": "0001193125-09-055533",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": false,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "The Company had no derivatives in place as of the date of this report, or in 2008, 2007 or 2006."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1824000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 15000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2008
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 7422,
+      "proved_gas_reserves_mmcf": 30,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2008-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 64.953,
+      "pv10_mm": null,
+      "oil_price_used": 35.3,
+      "gas_price_used": 6.07,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:34:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_a53c5192-8ff"
+    ]
+  }
+}

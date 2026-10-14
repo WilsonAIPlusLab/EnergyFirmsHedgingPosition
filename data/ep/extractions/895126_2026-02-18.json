@@ -1,0 +1,170 @@
+{
+  "cik": "895126",
+  "company": "EXPAND ENERGY Corp",
+  "filing_date": "2026-02-18",
+  "accession_number": "0000895126-26-000011",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 756000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 128,
+        "notes": "Open at Dec 31, 2025; table row 'Fixed-price swaps' notional 756 Bcf, fair value $128 million. No prices or periods disclosed.",
+        "evidence_quote": "Swaps: We receive a fixed price and pay a floating market price to the counterparty for the hedged commodity."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 1143000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 212,
+        "notes": "Open at Dec 31, 2025; table row 'Two-way collars' notional 1,143 Bcf, fair value $212 million. No strikes or periods disclosed.",
+        "evidence_quote": "Collars: These instruments contain a fixed floor price (put) and ceiling price (call)."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 175000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 32,
+        "notes": "Open at Dec 31, 2025; table row 'Three-way collars' notional 175 Bcf, fair value $32 million. No strikes or periods disclosed.",
+        "evidence_quote": "Three-way collars include the sale by us of an additional put option in exchange for a more favorable strike price on the call option."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 73000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": -1,
+        "notes": "Open at Dec 31, 2025; table row 'Call options (sold)' notional 73 Bcf, fair value $(1) million. Purchased calls shown as nil at Dec 31, 2025. No strikes or periods disclosed.",
+        "evidence_quote": "We have bought and sold call options in exchange for a premium."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 337000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": -66,
+        "notes": "Open at Dec 31, 2025; table row 'Basis protection swaps' notional 337 Bcf, fair value $(66) million. No differentials or periods disclosed.",
+        "evidence_quote": "Basis Protection Swaps: These instruments are arrangements that guarantee a fixed price differential to NYMEX from a specified delivery point."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 2,
+        "notes": "Oil three-way collars: notional volume shown as a dash at Dec 31, 2025 (2 MMBbls at Dec 31, 2024); fair value $2 million at Dec 31, 2025. Total oil fair value net asset of $2 million per Item 7A.",
+        "evidence_quote": "Three-way collars include the sale by us of an additional put option in exchange for a more favorable strike price on the call option."
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Derivatives used to reduce exposure to commodity price fluctuations and protect expected operating cash flow; all net settled; none designated for hedge accounting at Dec 31, 2025 and 2024."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5900000,
+      "oil_production_bpd": 16000,
+      "gas_production_mcf": 2409000000,
+      "gas_production_mmcf_per_day": 6600,
+      "ngl_production_bbls": 29600000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 58800,
+      "proved_gas_reserves_mmcf": 22575000,
+      "proved_ngl_reserves_mbbls": 491900,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 17126,
+      "pv10_mm": 19374,
+      "oil_price_used": 65.34,
+      "gas_price_used": 3.39,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

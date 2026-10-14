@@ -1,0 +1,155 @@
+{
+  "cik": "904977",
+  "company": "TRANSTEXAS GAS CORP",
+  "filing_date": "2001-05-01",
+  "accession_number": "0000950129-01-500273",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 17500.0,
+        "volume_total": 3745000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.1,
+        "ceiling_price": 3.4,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-04",
+        "period_end": "2000-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedge entered into by the production payment purchasers under the March 2000 production payment agreement; effectively hedges a portion of the Company's production. NYMEX-based settlement.",
+        "evidence_quote": "  April 2000 -- October 2000.........................    3,745,000      $ 2.10   $ 3.40"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 12500.0,
+        "volume_total": 1887500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.35,
+        "ceiling_price": 3.95,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-11",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedge entered into by the production payment purchasers under the March 2000 production payment agreement; effectively hedges a portion of the Company's production. NYMEX-based settlement.",
+        "evidence_quote": "  November 2000 -- March 2001........................    1,887,500        2.35     3.95"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1250.0,
+        "volume_total": 228750,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18.5,
+        "ceiling_price": 32.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-04",
+        "period_end": "2000-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Condensate collar entered into by the production payment purchasers under the March 2000 production payment agreement. NYMEX-based settlement.",
+        "evidence_quote": "  April 2000 -- September 2000.......................      228,750       18.50    32.50"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000.0,
+        "volume_total": 182000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18.5,
+        "ceiling_price": 29.25,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-10",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Condensate collar entered into by the production payment purchasers under the March 2000 production payment agreement. NYMEX-based settlement.",
+        "evidence_quote": "  October 2000 -- March 2001.........................    182,000       18.50    29.25"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 20000.0,
+        "volume_total": 7300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.5,
+        "ceiling_price": 6,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-12",
+        "period_end": "2001-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered into by the Company in November 2000; settlement based on Houston Ship Channel index; supported by letter of credit up to $6.5 million.",
+        "evidence_quote": "  December 2000 -- November 2001........................    7,300,000     $3.50    $6.00"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time uses hedging on a portion of gas and oil production to achieve more predictable cash flow and reduce price exposure; gains/losses included in revenues when hedged volumes are delivered."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1559000,
+      "oil_production_bpd": 4259,
+      "gas_production_mcf": 26800000,
+      "gas_production_mmcf_per_day": 73,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3154,
+      "proved_gas_reserves_mmcf": 112900,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-01-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 410.168,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "cik": "793306",
+  "company": "BLUE DOLPHIN ENERGY CO",
+  "filing_date": "1995-03-31",
+  "accession_number": "0000793306-95-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1994-11",
+        "period_end": "1995-06",
+        "counterparty": "Dow Chemical Company",
+        "fair_value_mm": null,
+        "notes": "Physical gas sales contract (Dow Contract) with agreed fixed monthly rate schedule averaging $1.90/MMBtu per month; not described as a hedge or derivative. No contract volume stated (about 1,100 MMBtu/day were delivered in Feb 1995).",
+        "evidence_quote": "From November 1994 through June 1995,\nthe Company will receive a variable monthly price based on an agreed\nfixed monthly rate schedule which averages $1.90/MMBtu per month."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No hedging policy or commodity derivatives stated; only a physical gas sales contract with Dow at a fixed monthly price schedule through June 1995."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3791,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 490587,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 195,
+      "proved_gas_reserves_mmcf": 33475,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 15.208688,
+      "pv10_mm": 18.311,
+      "oil_price_used": 16,
+      "gas_price_used": 1.75,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

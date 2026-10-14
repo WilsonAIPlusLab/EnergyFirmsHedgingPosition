@@ -1,0 +1,137 @@
+{
+  "cik": "823975",
+  "company": "COLUMBUS ENERGY CORP",
+  "filing_date": "2000-02-23",
+  "accession_number": "0001005444-00-000039",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-03",
+        "period_end": "1997-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume 60,000 Mmbtu per month (table 'Volume per mo.'). Historical swap, settled; 1997 revenue effect $(86,400).",
+        "evidence_quote": "$2.20/Mmbtu               60,000        3/97-10/97                   $(86,400)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 17.5,
+        "ceiling_price": 22.25,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-09",
+        "period_end": "2000-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar, 7,500 barrels per month, settled monthly against NYMEX calendar monthly average; outstanding at Nov 30, 1999. 1999 revenue effect $(34,000). Text states settlement value Company would owe for Feb-Aug 2000 using Jan 31, 2000 prices is $158,000.",
+        "evidence_quote": "using a costless  \"collar\"  on 7,500  barrels  per month for the 12 months  from"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 21.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-11",
+        "period_end": "1997-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume 10,000 bbl per month (table 'Volume per mo.'). Historical swap, settled; 1997 revenue effect $8,900.",
+        "evidence_quote": "$21.17/bbl                10,000       11/96-10/97                   $  8,900"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.25,
+        "floor_price": null,
+        "ceiling_price": 19.5,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Described in table as '$17.25/bbl with $19.50/bbl cap'; 10,000 bbl per month. Historical, settled; revenue effect $(22,500) shown in 1997 column position.",
+        "evidence_quote": "  $19.50/bbl cap          10,000        1/96-12/96                   $(22,500)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Columbus periodically hedges both natural gas and crude oil prices by entering into swaps, settled monthly against NYMEX monthly average; partially hedged crude oil, gas fully exposed."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 456,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 8.751,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 1915,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null,
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": 2.72,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:36",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

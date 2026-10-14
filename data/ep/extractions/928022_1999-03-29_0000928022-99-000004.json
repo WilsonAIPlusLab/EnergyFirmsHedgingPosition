@@ -1,0 +1,155 @@
+{
+  "cik": "928022",
+  "company": "Callon Petroleum Co",
+  "filing_date": "1999-03-29",
+  "accession_number": "0000928022-99-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.21,
+        "ceiling_price": 2.68,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "380,000 Mcf per month (average), January through August 1999; open collar contracts with third parties; prices stated per MMBtu (NYMEX) in Item 1",
+        "evidence_quote": "(on average) at a ceiling price of $2.68 and floor of $2.21."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 14.5,
+        "ceiling_price": 18,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "12,500 barrels per month, January 1999 through June 1999; oil open collar contracts",
+        "evidence_quote": "at a ceiling price of $18.00 and a floor of $14.50 and 12,500"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 15,
+        "ceiling_price": 18.54,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-07",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "12,500 barrels per month, July 1999 through December 1999; oil open collar contracts",
+        "evidence_quote": "ceiling price of $18.54 and a floor of $15.00."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6451.61,
+        "volume_total": 200000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-03",
+        "period_end": "1999-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open forward sales position natural gas contracts, 200,000 Mcf for the month of March 1999 at fixed contract average price; price unit not stated in text (assumed per Mcf of the volume unit)",
+        "evidence_quote": "of March 1999 at a fixed contract average price of $2.45 and"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-04",
+        "period_end": "1999-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open forward sales position natural gas contracts, 200,000 Mcf per month April 1999 through September 1999 at fixed contract price; price unit not stated in text",
+        "evidence_quote": "at a fixed contract price of $2.35."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivative financial instruments for price protection on a limited amount of future production; not for trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 310000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 14036000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6898,
+      "proved_gas_reserves_mmcf": 88030,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 99.751,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 7.16,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

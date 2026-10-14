@@ -1,0 +1,101 @@
+{
+  "cik": "931006",
+  "company": "ENSERCH EXPLORATION INC",
+  "filing_date": "1996-03-27",
+  "accession_number": "0000931006-96-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 39000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate of outstanding swaps, collars and futures at 12/31/1995 (types not broken out); 2.01 is weighted average strike price per Mcf (market price 2.10). Combined gas, oil swaps/collars/futures termination cost was $1.3 million (not split by commodity).",
+        "evidence_quote": "EEX had outstanding swaps, collars and futures agreements that were entered into as hedges extending through December 31,\n1996 to exchange payments on 39 Bcf of natural gas and 655 MBbls of oil."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 655000,
+        "volume_unit": "Bbls",
+        "fixed_price": 18.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate of outstanding swaps, collars and futures at 12/31/1995 (types not broken out); volume stated as 655 MBbls; 18.43 is weighted average strike price per barrel (market price 19.03). Combined gas, oil swaps/collars/futures termination cost was $1.3 million (not split by commodity).",
+        "evidence_quote": "the weighted average strike price and market price per barrel of oil was $18.43 and $19.03, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses swaps, collars, futures and other derivative contracts to hedge price risk on a portion of anticipated future gas and oil production; defers gains/losses until the hedged transaction occurs."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-01-01"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

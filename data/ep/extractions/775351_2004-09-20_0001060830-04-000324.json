@@ -1,0 +1,149 @@
+{
+  "cik": "775351",
+  "company": "QUEST RESOURCE CORP",
+  "filing_date": "2004-09-20",
+  "accession_number": "0001060830-04-000324",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15728.77,
+        "volume_total": 5741000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.96,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-06",
+        "period_end": "2005-05",
+        "counterparty": null,
+        "fair_value_mm": -8.779,
+        "notes": "Fiscal year ending May 31, 2005; weighted-avg fixed price; fixed-price sales $28,468 thousand; fair value liability",
+        "evidence_quote": "Natural Gas Swaps:\n\nContract vols (MMBtu)\n\n5,741,000\n\n5,633,000\n\n3,292,000\n\n14,666,000"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15432.88,
+        "volume_total": 5633000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-06",
+        "period_end": "2006-05",
+        "counterparty": null,
+        "fair_value_mm": -7.01,
+        "notes": "Fiscal year ending May 31, 2006; weighted-avg fixed price; fixed-price sales $26,030 thousand; fair value liability",
+        "evidence_quote": "Natural Gas Swaps:\n\nContract vols (MMBtu)\n\n5,741,000\n\n5,633,000\n\n3,292,000\n\n14,666,000"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 9019.18,
+        "volume_total": 3292000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-06",
+        "period_end": "2007-05",
+        "counterparty": null,
+        "fair_value_mm": -2.355,
+        "notes": "Fiscal year ending May 31, 2007; weighted-avg fixed price; fixed-price sales $14,912 thousand; fair value liability",
+        "evidence_quote": "Natural Gas Swaps:\n\nContract vols (MMBtu)\n\n5,741,000\n\n5,633,000\n\n3,292,000\n\n14,666,000"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 3580.82,
+        "volume_total": 1307000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.22,
+        "ceiling_price": 5.38,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-06",
+        "period_end": "2005-05",
+        "counterparty": null,
+        "fair_value_mm": -1.308,
+        "notes": "Fiscal year ending May 31, 2005; floor and ceiling volumes both 1,307,000 MMBtu; fixed-price sales $7,034 thousand",
+        "evidence_quote": "Natural Gas Collars:\n\nContract vols (MMBtu):\n\nFloor\n\n1,307,000\n\n612,000\n\n-- \n\n1,919,000\n\nCeiling\n\n1,307,000\n\n612,000"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 1676.71,
+        "volume_total": 612000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.25,
+        "ceiling_price": 5.3,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-06",
+        "period_end": "2006-05",
+        "counterparty": null,
+        "fair_value_mm": -0.336,
+        "notes": "Fiscal year ending May 31, 2006; floor and ceiling volumes both 612,000 MMBtu; fixed-price sales $3,244 thousand",
+        "evidence_quote": "Natural Gas Collars:\n\nContract vols (MMBtu):\n\nFloor\n\n1,307,000\n\n612,000\n\n-- \n\n1,919,000\n\nCeiling\n\n1,307,000\n\n612,000"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Seeks to reduce exposure to unfavorable natural gas price changes using fixed-price contracts (energy swaps and collars); hedged ~83.0% of FY2004 gas production; 16.6 Bcf hedged as of May 31, 2004."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 8549,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5530208,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 57.105,
+      "proved_gas_reserves_mmcf": 133576.2,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-05-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 284.748,
+      "pv10_mm": null,
+      "oil_price_used": 35.25,
+      "gas_price_used": 5.95,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "cik": "750561",
+  "company": "PARALLEL PETROLEUM CORP",
+  "filing_date": "2001-04-02",
+  "accession_number": "0000750561-01-000003",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Held by equity affiliate First Permian, LLC (Parallel owns 30.675%), not by Parallel directly; table is 100% of First Permian. Volume stated as 91,000 barrels per month; index WTI NYMEX.",
+        "evidence_quote": "Swap           91,000 barrels      1/1/01 - 6/30/01    $17.70              WTI NYMEX"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 28.75,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-07",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Held by equity affiliate First Permian, LLC (Parallel owns 30.675%), not by Parallel directly; table is 100% of First Permian. Volume stated as 40,000 barrels per month; index WTI NYMEX.",
+        "evidence_quote": "Collar         40,000 barrels        7/01 - 12/02      $18.00 - $28.75     WTI NYMEX"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 19,
+        "ceiling_price": 24.8,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-07",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Held by equity affiliate First Permian, LLC (Parallel owns 30.675%), not by Parallel directly; table is 100% of First Permian. Volume stated as 40,000 barrels per month; index WTI NYMEX.",
+        "evidence_quote": "Collar         40,000 barrels        7/01 - 12/02      $19.00 - $24.80     WTI NYMEX"
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "Parallel states it does not have or trade in derivative instruments and has no hedging arrangements; only equity affiliate First Permian, LLC hedges oil with swaps and collars.",
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 165137,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2821815,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 635440,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 973.007,
+      "proved_gas_reserves_mmcf": 15685.968,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 3600,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 81.288,
+      "pv10_mm": 90.950591,
+      "oil_price_used": 25,
+      "gas_price_used": 10.18,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.88,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 8.18,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

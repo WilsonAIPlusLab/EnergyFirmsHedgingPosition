@@ -1,0 +1,83 @@
+{
+  "cik": "311471",
+  "company": "APCO OIL & GAS INTERNATIONAL INC",
+  "filing_date": "2006-03-10",
+  "accession_number": "0000950134-06-004691",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 910.75,
+        "volume_total": 500000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 26,
+        "ceiling_price": 53,
+        "price_unit": "$/Bbl",
+        "period_start": "2004-08",
+        "period_end": "2006-01",
+        "counterparty": "a foreign international bank",
+        "fair_value_mm": null,
+        "notes": "Historical 2004 collar on WTI (approx. 500,000 bbl, Aug 2, 2004 to Jan 31, 2006); entered July 15, 2004; hedge accounting discontinued and collar unwound in Oct/Q4 2004 with a $1.1 million payment to counterparty recognized as a loss. No hedging contracts entered in 2005.",
+        "evidence_quote": "Company entered into a collar for approximately 500,000 barrels of oil that extended"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company has historically not used derivatives to hedge price volatility; entered one WTI oil collar in 2004 (unwound Oct 2004); no hedging contracts entered in 2005."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2183983,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 6346019,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2005
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2005-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": 3.58,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": 4.29
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "cik": "101594",
+  "company": "BIG SKY INDUSTRIAL INC.",
+  "filing_date": "2005-04-15",
+  "accession_number": "0000101594-05-000093",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.14,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "RMG I fixed-price swap (cash flow hedge), Hi-Pro CBM gas. Text also says approx 30,000 mmbtu per month at $4.14 through Dec 2005. Combined fair value liability of both swaps is $435,900 at 12/31/2004 (not split by instrument).",
+        "evidence_quote": "The PV10 value takes into account RMG I's contracts to sell 1,000 Mmbtu per day in 2005 at a fixed price of $4.14 per Mmbtu and 500 Mmbtu per day for January 1, 2005 through March 31, 2005 at a fixed price of $8.10 per Mmbtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 500,
+        "volume_total": 45000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 8.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-01",
+        "period_end": "2005-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "RMG I fixed-price swap (cash flow hedge). Text also says 15,000 mmbtu per month at $8.10 from Jan 1 2005 through Mar 31 2005. Combined fair value liability of both swaps is $435,900 at 12/31/2004 (not split by instrument).",
+        "evidence_quote": "Approximately 30,000 mmbtu per month are hedged at $4.14 per mmbtu through December 2005 and 15,000 mmbtu per month are hedged at $8.10 per mmbtu from January 1, 2005 through March 31, 2005, resulting in an estimated fair value liability of $435,900"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "RMG I uses fixed-price gas swaps designated as cash flow hedges; receives fixed, pays floating; hedged transactions expected to occur by December 2005. No formal policy stated."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 728051,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 3055.941,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 6.5146,
+      "pv10_mm": 6.5146,
+      "oil_price_used": null,
+      "gas_price_used": 5.515,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:34:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_a53c5192-8ff"
+    ]
+  }
+}

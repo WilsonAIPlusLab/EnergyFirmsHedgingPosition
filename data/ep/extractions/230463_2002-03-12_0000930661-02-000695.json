@@ -1,0 +1,101 @@
+{
+  "cik": "230463",
+  "company": "PXP PRODUCING CO LLC",
+  "filing_date": "2002-03-12",
+  "accession_number": "0000930661-02-000695",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 70000,
+        "volume_total": 6300,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 4.25,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-03",
+        "counterparty": null,
+        "fair_value_mm": 10.135,
+        "notes": "Floor contract (NYMEX-settled options to sell). Daily volume of 70 million cubic feet per day is stated for the whole position through Dec 2002; table volume 6,300 is labelled 'Volume in MMBtu' with no scale stated (volume_total reported as printed, in Mmbtu not Mcf).",
+        "evidence_quote": "natural gas at a sales price of $4.25 per million British Thermal Units (\u201cMMBtu\u201d) for the period from January 2002 through March 2002 and $4.00 per MMBtu for the period from April 2002 through December 2002."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 70000,
+        "volume_total": 19250,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 4,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-04",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": 24.14,
+        "notes": "Floor contract (NYMEX-settled options to sell). Daily volume of 70 million cubic feet per day is stated for the whole position through Dec 2002; table volume 19,250 is labelled 'Volume in MMBtu' with no scale stated (volume_total reported as printed, in Mmbtu not Mcf).",
+        "evidence_quote": "natural gas at a sales price of $4.25 per million British Thermal Units (\u201cMMBtu\u201d) for the period from January 2002 through March 2002 and $4.00 per MMBtu for the period from April 2002 through December 2002."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses hedging on a portion of oil and gas production for more predictable cash flow; OTC with investment grade counterparties; ~16% of 2001 production (29% of gas) hedged; no crude oil hedges as of March 1, 2002."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 29836,
+      "gas_production_mcf": 86758000,
+      "gas_production_mmcf_per_day": 237.9,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 119280,
+      "proved_gas_reserves_mmcf": 818792,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1138.048,
+      "pv10_mm": 1540.66,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

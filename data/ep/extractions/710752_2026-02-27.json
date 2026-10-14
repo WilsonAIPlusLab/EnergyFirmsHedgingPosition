@@ -1,0 +1,61 @@
+{
+  "cik": "710752",
+  "company": "SABINE ROYALTY TRUST",
+  "filing_date": "2026-02-27",
+  "accession_number": "0001193125-26-081251",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "The Trust invests in no derivative financial instruments and has no foreign operations or long-term debt instruments; passive royalty trust."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 786192,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 13685401,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 3080000,
+      "total_production_boepd": null,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6631,
+      "proved_gas_reserves_mmcf": 60658,
+      "proved_ngl_reserves_mbbls": 2692,
+      "total_proved_reserves_mboe": 19433,
+      "proved_developed_reserves_mboe": 19433,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 301.151,
+      "pv10_mm": 301.151,
+      "oil_price_used": 66.01,
+      "gas_price_used": 3.4,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:04",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

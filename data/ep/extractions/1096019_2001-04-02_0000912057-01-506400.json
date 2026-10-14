@@ -1,0 +1,119 @@
+{
+  "cik": "1096019",
+  "company": "CARBON ENERGY CORP",
+  "filing_date": "2001-04-02",
+  "accession_number": "0000912057-01-506400",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3857.53,
+        "volume_total": 1408000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": -5.7,
+        "notes": "BFC contracts (Bonneville Fuels); table gives weighted average fixed price per MMBtu for 2001; instrument type not explicitly named (classified swap from fixed-price table). Company would be required to pay $5.7 million to exit BFC contracts (liability, sign negative).",
+        "evidence_quote": " 2001      1,408,000      $      2.35             2001      391,000     $     2.72"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1071.23,
+        "volume_total": 391000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.72,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": -1.6,
+        "notes": "CEC contracts (CEC Resources, Canada); weighted average fixed price per MMBtu for 2001; instrument type not explicitly named. Company would be required to pay $1.6 million to exit CEC contracts (liability, sign negative).",
+        "evidence_quote": " 2001      1,408,000      $      2.35             2001      391,000     $     2.72"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 232.88,
+        "volume_total": 85000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.51,
+        "ceiling_price": 4.89,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": -0.378,
+        "notes": "Average floor and ceiling per MMBtu for 2001 natural gas collars. Company would be required to pay $378,000 to exit these contracts (liability, sign negative).",
+        "evidence_quote": "   2001        85,000         $  3.51        $  4.89"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses swap, collar, futures, floor and ceiling arrangements to hedge price and location risk on a portion of production; hedging only; Risk Management Committee approves all production hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 122000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5053000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1136,
+      "proved_gas_reserves_mmcf": 55705,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 265,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

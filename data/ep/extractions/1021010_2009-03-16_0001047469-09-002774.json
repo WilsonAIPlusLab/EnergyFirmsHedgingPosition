@@ -1,0 +1,119 @@
+{
+  "cik": "1021010",
+  "company": "EDGE PETROLEUM CORP",
+  "filing_date": "2009-03-16",
+  "accession_number": "0001047469-09-002774",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 10000,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 7.75,
+        "ceiling_price": 10,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2009-01",
+        "period_end": "2009-12",
+        "counterparty": null,
+        "fair_value_mm": 6.688,
+        "notes": "Transaction date 04/07; NYMEX Natural Gas Index; mark-to-market; fair value $6,688 thousand at 12/31/2008",
+        "evidence_quote": "Collar\n\n\t01/01/09\n\n\t12/31/09\n\t \n\t  $7.75-$10.00\n\t \n\t10,000 MMBtu\n\n\t6,688"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 10000,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 7.75,
+        "ceiling_price": 10.08,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2009-01",
+        "period_end": "2009-12",
+        "counterparty": null,
+        "fair_value_mm": 6.702,
+        "notes": "Transaction date 10/07; NYMEX Natural Gas Index; mark-to-market; fair value $6,702 thousand at 12/31/2008",
+        "evidence_quote": "Collar\n\n\t01/01/09\n\n\t12/31/09\n\t \n\t  $7.75-$10.08\n\t \n\t10,000 MMBtu\n\n\t6,702"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 300,
+        "volume_total": 109500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 70,
+        "ceiling_price": 93.55,
+        "price_unit": "$/Bbl",
+        "period_start": "2009-01",
+        "period_end": "2009-12",
+        "counterparty": null,
+        "fair_value_mm": 2.017,
+        "notes": "Transaction date 10/07; WTI Light Sweet Crude Oil Index; mark-to-market; fair value $2,017 thousand at 12/31/2008. Total of three contracts $15,407 thousand",
+        "evidence_quote": "Collar\n\n\t01/01/09\n\n\t12/31/09\n\t \n\t$70.00-$93.55\n\t \n\t300 Bbl\n\n\t2,017"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enters commodity price collars, swaps and floors on a portion of expected oil and gas production for more predictable cash flow; not for trading; mark-to-market accounting; no NGL derivatives in the past."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 294000,
+      "oil_production_bpd": 800,
+      "gas_production_mcf": 12059000,
+      "gas_production_mmcf_per_day": 32.9,
+      "ngl_production_bbls": 559000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2008
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2273,
+      "proved_gas_reserves_mmcf": 89621,
+      "proved_ngl_reserves_mbbls": 3479,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2008-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 277.205,
+      "pv10_mm": null,
+      "oil_price_used": 44.6,
+      "gas_price_used": 5.71,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:23",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "cik": "904080",
+  "company": "TALOS PETROLEUM LLC",
+  "filing_date": "1999-03-24",
+  "accession_number": "0000904080-99-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 3600,
+        "volume_unit": "other",
+        "fixed_price": 2.535,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "First quarter 1999...................            3,600                 $2.535",
+        "notes": "Volume stated in BBtus (3,600 BBtu); hedged position as of March 15, 1999; text describes swap agreements settled against NYMEX near-month futures"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 3640,
+        "volume_unit": "other",
+        "fixed_price": 2.195,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-04",
+        "period_end": "1999-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Second quarter 1999..................            3,640                  2.195",
+        "notes": "Volume stated in BBtus (3,640 BBtu); hedged position as of March 15, 1999; text describes swap agreements settled against NYMEX near-month futures"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 3680,
+        "volume_unit": "other",
+        "fixed_price": 2.177,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-07",
+        "period_end": "1999-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Third quarter 1999...................            3,680                  2.177",
+        "notes": "Volume stated in BBtus (3,680 BBtu); hedged position as of March 15, 1999; text describes swap agreements settled against NYMEX near-month futures. Note 7 states a 1999 forward sales position of 10,920 BBtu at $2.30 average (aggregate of the quarterly rows)."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduce exposure to price declines; unless prices change >25%, no more than one-half of production hedged without Board consent; swaps settle vs NYMEX near-month futures."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2876000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 33281000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 18476,
+      "proved_gas_reserves_mmcf": 243270,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 286.098,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

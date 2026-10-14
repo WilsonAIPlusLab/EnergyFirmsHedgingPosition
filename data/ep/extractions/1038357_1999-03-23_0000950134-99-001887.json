@@ -1,0 +1,173 @@
+{
+  "cik": "1038357",
+  "company": "PIONEER NATURAL RESOURCES CO",
+  "filing_date": "1999-03-23",
+  "accession_number": "0000950134-99-001887",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 137044,
+        "volume_total": 50021060,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.21,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedge swap contracts, 1999 average daily notional. Fair value of $17,827 thousand is reported only for the combined 1999+2000 swap total (172,044 MMBtu/d), so not assigned to this row. Certain counterparties may extend 35,000 MMBtu/d one year at $2.40.",
+        "evidence_quote": "Swap contracts(3).............   137,044    35,000"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 35000,
+        "volume_total": 12810000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedge swap contracts, 2000 average daily notional. Fair value of $17,827 thousand is for combined 1999+2000 swaps only. Certain counterparties may extend 35,000 MMBtu/d one year at $2.41.",
+        "evidence_quote": "Swap contracts(3).............   137,044    35,000"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 33400,
+        "volume_total": 12191000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 1.91,
+        "ceiling_price": 2.56,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": 0.323,
+        "notes": "Hedge collar option contracts (long put floor, short call ceiling), 1999 only; total fair value $323 thousand.",
+        "evidence_quote": "Collar option contracts.......    33,400"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 114286,
+        "volume_total": 41714390,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.12,
+        "ceiling_price": 2.64,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Collar with short puts, 1999: sold put at $1.82 per MMBtu, below which floor becomes variable (realized price exceeds market by approx $.30). Fair value $8,398 thousand reported only for combined 1999+2000 total (207,360). 65,000 MMBtu/d extendable one year at $2.79/$2.18/$1.88.",
+        "evidence_quote": "short puts(4)...............   114,286    93,074"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 93074,
+        "volume_total": 34065084,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.14,
+        "ceiling_price": 2.75,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Collar with short puts, 2000: sold put at $1.84 per MMBtu, below which floor becomes variable. Fair value $8,398 thousand reported only for combined 1999+2000 total. 75,000 MMBtu/d extendable at $2.90/$2.20/$1.90.",
+        "evidence_quote": "short puts(4)...............   114,286    93,074"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "mixed",
+        "direction": "unknown",
+        "volume_per_day": 13036,
+        "volume_total": 28574912,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "1999-01",
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": -15.172,
+        "notes": "Non-hedge BTU Swap inherited from Mesa: Company receives 10 percent of NYMEX oil price and pays NYMEX gas price on 13,036 MMBtu/d, six-year period Jan 1 1999 to Dec 31 2004. No fixed price; average forward gas $1.97 (1999) to $2.45 (thereafter), forward oil $13.00 to $17.88. Fair value $(15,172) thousand.",
+        "evidence_quote": "the Company receives 10 percent of the NYMEX oil price and pays the NYMEX"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges portion of gas production; policy to enter only derivatives qualifying as hedges; no trading. No crude oil or NGL hedges at 12/31/98 (1999 oil hedges terminated Q4 1998)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 21554000,
+      "oil_production_bpd": 59052,
+      "gas_production_mcf": 183913000,
+      "gas_production_mmcf_per_day": 503.872,
+      "ngl_production_bbls": 10669000,
+      "total_production_boe": 62875000,
+      "total_production_boepd": 172261,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 2223208,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 676839,
+      "proved_developed_reserves_mboe": 608582,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 1648.808,
+      "oil_price_used": 10.09,
+      "gas_price_used": 1.64,
+      "lease_operating_expense_per_boe": 3.04,
+      "production_tax_per_boe": 0.4,
+      "total_production_cost_per_boe": 3.56,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.13,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

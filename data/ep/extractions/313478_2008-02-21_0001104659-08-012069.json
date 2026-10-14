@@ -1,0 +1,173 @@
+{
+  "cik": "313478",
+  "company": "HKN, Inc.",
+  "filing_date": "2008-02-21",
+  "accession_number": "0001104659-08-012069",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 9000,
+        "volume_total": 540000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 80,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2008-02",
+        "period_end": "2008-03",
+        "counterparty": null,
+        "fair_value_mm": 0.003,
+        "notes": "Purchased floor, open at Dec 31, 2007; fair value $3 thousand. Not designated as hedge under SFAS 133.",
+        "evidence_quote": "Crude Oil\n\n   Long\n\n   Floor\n\n  9,000 bbls\n\nFeb 08 - Mar 08\n\n$\n\n80.00"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 9000,
+        "volume_total": 549000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 100,
+        "price_unit": "$/Bbl",
+        "period_start": "2008-04",
+        "period_end": "2008-05",
+        "counterparty": null,
+        "fair_value_mm": 0.061,
+        "notes": "Written (short) ceiling, open at Dec 31, 2007; shown as derivative liability of $61 thousand. Not designated as hedge under SFAS 133.",
+        "evidence_quote": "Crude Oil\n\n   Short\n\n   Ceiling\n\n  9,000 bbls\n\nApr 08 - May 08\n\n$\n\n100.00"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 70000,
+        "volume_total": 12670000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-06",
+        "counterparty": null,
+        "fair_value_mm": 0.017,
+        "notes": "Historical purchased floor listed in fair value table; open at Dec 31, 2005 (fair value $17 thousand), already expired by the FY2007 year end.",
+        "evidence_quote": "Natural Gas\n\nFloor\n\n70,000 mmbtu\n\nJan 06 - Jun 06\n\n$\n\n6.00"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 70000,
+        "volume_total": 16940000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-02",
+        "period_end": "2007-09",
+        "counterparty": null,
+        "fair_value_mm": 0.087,
+        "notes": "Historical purchased floor listed in fair value table; open at Dec 31, 2006 (fair value $87 thousand), already expired by the FY2007 year end.",
+        "evidence_quote": "Natural Gas\n\nFloor\n\n70,000 mmbtu\n\nFeb 07 - Sep 07\n\n$\n\n5.00"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 6000,
+        "volume_total": 1086000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 45,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2006-01",
+        "period_end": "2006-06",
+        "counterparty": null,
+        "fair_value_mm": 0.021,
+        "notes": "Historical purchased floor listed in fair value table; open at Dec 31, 2005 (fair value $21 thousand), already expired by the FY2007 year end.",
+        "evidence_quote": "Crude Oil\n\nFloor\n\n6,000 bbls\n\nJan 06 - Jun 06\n\n$\n\n45.00"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 6000,
+        "volume_total": 1086000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2007-01",
+        "period_end": "2007-06",
+        "counterparty": null,
+        "fair_value_mm": 0.009,
+        "notes": "Historical purchased floor listed in fair value table; open at Dec 31, 2006 (fair value $9 thousand), already expired by the FY2007 year end.",
+        "evidence_quote": "Crude Oil\n\nFloor\n\n6,000 bbls\n\nJan 07 - Jun 07\n\n$\n\n50.00"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Commodity derivatives (purchased puts and calls) used to mitigate price risk; managed by Investment Committee; not designated as SFAS 133 hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 172000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 986000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2007
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2369,
+      "proved_gas_reserves_mmcf": 5020,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2007-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 95.98,
+      "gas_price_used": 7.48,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

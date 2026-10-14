@@ -1,0 +1,101 @@
+{
+  "cik": "904977",
+  "company": "TRANSTEXAS GAS CORP",
+  "filing_date": "1997-05-01",
+  "accession_number": "0000950129-97-001808",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 229213.48,
+        "volume_total": 20400000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-02",
+        "period_end": "1997-04",
+        "counterparty": null,
+        "fair_value_mm": -13,
+        "notes": "Capped swaps (Hedge Agreements). Fixed Prices range $1.70-$1.78/MMBtu and Maximum Floating Prices range $2.00-$2.20/MMBtu; no single weighted average stated so price fields are null. Company pays counterparty when NYMEX-based Floating Price exceeds Fixed Price up to the Maximum Floating Price, counterparty pays when below. The 20.4 TBtu (stated as TBtu, entered as 20,400,000 MMBtu) is the total Base Quantity for ALL Hedge Agreements as of 1997-01-31, including the $2.48 agreement. The estimated cost to settle all Hedge Agreements was about $13 million (entered as -13 here, covers all agreements). Net settlement payments of about $37 million made in FY ended 1997-01-31.",
+        "evidence_quote": "involving total Base Quantities for all monthly periods aggregating\napproximately 20.4 TBtu of natural gas. Fixed Prices for these agreements range\nfrom $1.70 to $1.78 per MMBtu ($1.76 to $1.84 per Mcf) up to Maximum Floating\nPrices ranging from $2.00 to $2.20 per MMBtu ($2.07 to $2.28 per Mcf)."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-02",
+        "period_end": "1997-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "One agreement with Fixed Price $2.48/MMBtu ($2.57/Mcf) and no Maximum Floating Price. Counterparty advanced $5 million to the Company under this agreement. Volume not separately stated (included in the 20.4 TBtu aggregate). Period taken from the stated range of Settlement Dates for all Hedge Agreements (Feb 1997 through Apr 1997).",
+        "evidence_quote": "addition, one agreement has a Fixed Price of $2.48 per MMBtu ($2.57 per Mcf)\nwith no Maximum Floating Price."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Since April 1995, enters natural gas commodity price swap agreements (Hedge Agreements) to reduce exposure to spot-market gas price risk; accounted for as hedges with gains/losses deferred."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 604000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 153600000,
+      "gas_production_mmcf_per_day": 420,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5700,
+      "proved_gas_reserves_mmcf": 919700,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-01-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1057.256,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:42",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

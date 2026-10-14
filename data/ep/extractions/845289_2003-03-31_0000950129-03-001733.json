@@ -1,0 +1,95 @@
+{
+  "cik": "845289",
+  "company": "HARVEST NATURAL RESOURCES, INC.",
+  "filing_date": "2003-03-31",
+  "accession_number": "0000950129-03-001733",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 6000,
+        "volume_total": 1272000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 23,
+        "ceiling_price": 30.15,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-08",
+        "period_end": "2003-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Benton-Vinccler WTI costless collar covering Tucupita development drilling; six months beginning mid-August 2002; text says economic effect approx 12,000 Bopd; used through February 14, 2003; designated cash flow hedge.",
+        "evidence_quote": "$23.00 and a ceiling price of $30.15 for 6,000 barrels of oil per day."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 10000,
+        "volume_total": 3060000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 30,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-03",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased WTI put by Benton-Vinccler, March 1 2003 through December 31 2003; cost $2.50 per barrel, approx $7.7 million; economic effect approx 20,000 Bopd given Venezuela pricing structure.",
+        "evidence_quote": "approximately $7.7 million, has a strike price of $30.00 per barrel."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges a portion of oil production (WTI costless collar for Tucupita drilling program; purchased WTI put for 2003) to make cash flow more predictable and protect return and cash flow."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2002,
+      "oil_production_bbls": 9708000,
+      "oil_production_bpd": 26598,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 76135,
+      "proved_gas_reserves_mmcf": 158400,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 127300,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 317.799,
+      "pv10_mm": 526.7,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 2.57,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "cik": "821189",
+  "company": "EOG RESOURCES INC",
+  "filing_date": "2005-02-25",
+  "accession_number": "0000821189-05-000054",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 75000,
+        "volume_total": 2325000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 7.77,
+        "ceiling_price": 9.1,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-01",
+        "period_end": "2005-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Weighted-average floor (range 7.65-8.00) and ceiling (range 8.90-9.50). Notional volumes of 25,000 MMBtud of the January 2005 collars purchased at a premium of $0.10/MMBtu. January settlement price $6.35. Total fair value of all natural gas collars at 12/31/2004 was $11 million (not split by month). Mark-to-market accounting.",
+        "evidence_quote": "Jan(1)   75,000   $7.65 - 8.00     $7.77      $8.90 - 9.50     $9.10        $6.35"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 75000,
+        "volume_total": 2100000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 7.77,
+        "ceiling_price": 9.32,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-02",
+        "period_end": "2005-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Weighted-average floor (range 7.65-8.00) and ceiling (range 9.19-9.50). February 2005 collars purchased at a premium of $0.10/MMBtu. February settlement price $6.36. Total fair value of all natural gas collars at 12/31/2004 was $11 million (not split by month). Mark-to-market accounting.",
+        "evidence_quote": "Feb(2)   75,000    7.65 - 8.00      7.77       9.19 - 9.50      9.32         6.36"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 75000,
+        "volume_total": 2325000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 7.77,
+        "ceiling_price": 9.32,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-03",
+        "period_end": "2005-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Weighted-average floor (range 7.65-8.00) and ceiling (range 9.19-9.50). March 2005 collars purchased at a premium of $0.10/MMBtu. March settlement price $6.24. Total fair value of all natural gas collars at 12/31/2004 was $11 million (not split by month). Mark-to-market accounting.",
+        "evidence_quote": "Mar(2)   75,000    7.65 - 8.00      7.77       9.19 - 9.50      9.32         6.24"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "EOG engages in price risk management from time to time to manage exposure to natural gas and crude oil prices, using derivative financial instruments, primarily price swaps and collars; not designated as accounting hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 27400,
+      "gas_production_mcf": 385200000,
+      "gas_production_mmcf_per_day": 1036,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 5047000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 7317.978,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

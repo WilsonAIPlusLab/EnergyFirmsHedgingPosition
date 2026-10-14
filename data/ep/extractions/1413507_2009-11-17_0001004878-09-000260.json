@@ -1,0 +1,58 @@
+{
+  "cik": "1413507",
+  "company": "SRC Energy Inc.",
+  "filing_date": "2009-11-17",
+  "accession_number": "0001004878-09-000260",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "We do not currently engage in any commodity hedging activities, although we may do so in the future. Item 7A not applicable."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1730,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 4386,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 2461,
+      "total_production_boepd": null,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6.43,
+      "proved_gas_reserves_mmcf": 25.68,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 10.71,
+      "proved_developed_reserves_mboe": 10.71,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2009-08-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 0.232957,
+      "pv10_mm": 0.232957,
+      "oil_price_used": 61.24,
+      "gas_price_used": 2.05,
+      "lease_operating_expense_per_boe": 4.7,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.7,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 13.86,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:56",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "cik": "1109348",
+  "company": "PETROL OIL & GAS INC",
+  "filing_date": "2007-04-17",
+  "accession_number": "0001077048-07-000196",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 460500,
+        "volume_unit": null,
+        "fixed_price": 7.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": 0.974752,
+        "notes": "Gas fixed price contracts (energy swaps) outstanding at 12/31/2006, year ending 12/31/2007 column. Volume unit and price unit not stated in the table. Fair value $974,752 labelled 'asset' in MD&A table and 'liability' in Note 9.",
+        "evidence_quote": "Contract volume\n\n460,500\n\n91,500\n\nWeighted-average price\n\n$7.95\n\n$7.32"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 91500,
+        "volume_unit": null,
+        "fixed_price": 7.32,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": -0.058133,
+        "notes": "Gas fixed price contracts outstanding at 12/31/2006, year ending 12/31/2008 column. Volume unit and price unit not stated in the table. Fair value shown as ($58,133).",
+        "evidence_quote": "Contract volume\n\n460,500\n\n91,500\n\nWeighted-average price\n\n$7.95\n\n$7.32"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": null,
+        "volume_unit": "other",
+        "fixed_price": 7.32,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2007-04",
+        "period_end": "2008-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered Oct 9, 2006. Volume stated as 1,000.0 DTH per day, price $7.32 per DTH (unit DTH, reported as other). Business section also says approx 30,500 mmbtu at average $7.32 for April 2007 through March 2008. Likely overlaps with the 2007/2008 table rows, so do not double count.",
+        "evidence_quote": "On October 9, 2006, we entered into a \u201cFixed Price Contract\u201d to sell 1,000.0 DTH per day of our natural gas productions at a fixed price of $7.32 per DTH."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.99,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2005-03",
+        "period_end": "2006-02",
+        "counterparty": "Seminole Energy Services LLC",
+        "fair_value_mm": null,
+        "notes": "60,000 mmbtu per month (monthly volume, no total stated). Overall average price $5.99, price unit not stated. Contract period ended Feb 2006, before the 12/31/2006 balance sheet date.",
+        "evidence_quote": "In 2005, Petrol entered into contracts with Seminole Energy Services LLC to sell 60,000 mmbtu per month for the period of March 2005 to February 2006 at various fixed prices with the overall average price of $5.99."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 8.13,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": null,
+        "period_end": "2007-03",
+        "counterparty": "Virginia Power",
+        "fair_value_mm": null,
+        "notes": "Volume not stated ('certain of its gas production'); start date not stated; overall average fixed price $8.13, price unit not stated.",
+        "evidence_quote": "Additionally, Petrol had contracts with Virginia Power to sell certain of its gas production through March 2007 at various fixed prices with the overall average price of $8.13."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "To reduce exposure to unfavorable changes in natural gas prices, the company utilizes energy swaps in order to have a fixed-price contract (cash flow hedges)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 17954,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 831009,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2006
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 229.39,
+      "proved_gas_reserves_mmcf": 12833.903,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2006-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 30.872,
+      "pv10_mm": null,
+      "oil_price_used": 54,
+      "gas_price_used": 7.5,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

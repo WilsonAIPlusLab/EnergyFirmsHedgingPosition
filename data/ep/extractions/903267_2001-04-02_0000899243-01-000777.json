@@ -1,0 +1,101 @@
+{
+  "cik": "903267",
+  "company": "3TEC ENERGY CORP",
+  "filing_date": "2001-04-02",
+  "accession_number": "0000899243-01-000777",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 2000,
+        "volume_total": 490000,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.96,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-03",
+        "period_end": "2000-10",
+        "fair_value_mm": null,
+        "notes": "Fixed swap, NYMEX WTI weighted average price. Expired by year-end 2000; oil revenues reduced by $2,131,253 in 2000 from the hedge. Direction inferred as short from fixed-price swap on produced oil; text does not state it.",
+        "evidence_quote": "In February 2000, the Company entered into fixed swap agreements covering\n2,000 barrels of oil per day for the period March through October 2000 at a\nweighted average NYMEX West Texas Intermediate price of $25.96 per barrel."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "counterparty": null,
+        "volume_per_day": 3650,
+        "volume_total": 671600,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.06,
+        "ceiling_price": 2.2,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-05",
+        "period_end": "1999-10",
+        "fair_value_mm": null,
+        "notes": "Costless collar, approximate volume. Expired in 1999; hedging losses of approximately $164,000 in 1999.",
+        "evidence_quote": "In April 1999, the Company entered into costless collar hedges for\napproximately 3,650 Mcf per day with a weighted average floor and ceiling of\n$2.06 and $2.20, respectively, for the months of May through October of 1999."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company hedged oil (2000 swap) and gas (1999 collar) historically; at Dec 31, 2000 had no open derivative instruments and had not entered into any derivative instruments."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1139000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 17764000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 10672,
+      "proved_gas_reserves_mmcf": 237693,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 1047.364,
+      "oil_price_used": 25.31,
+      "gas_price_used": 9.4,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

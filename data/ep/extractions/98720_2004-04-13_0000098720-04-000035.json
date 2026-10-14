@@ -1,0 +1,119 @@
+{
+  "cik": "98720",
+  "company": "TOREADOR RESOURCES CORP",
+  "filing_date": "2004-04-13",
+  "accession_number": "0000098720-04-000035",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1641.79,
+        "volume_total": 550000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.92,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-02",
+        "period_end": "2004-12",
+        "counterparty": "Coral Energy Holdings, L.P.",
+        "fair_value_mm": -0.7968,
+        "notes": "Notional volume per month 50,000 MMBtu; NYMEX-based; open at 12/31/2003. Direction short based on text stating a swap has the effect of an outright sale at a specific price.",
+        "evidence_quote": "$   3.920"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 1641.79,
+        "volume_total": 550000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.25,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-02",
+        "period_end": "2004-12",
+        "counterparty": "Coral Energy Holdings, L.P.",
+        "fair_value_mm": 0.013157,
+        "notes": "Listed as separate Put Option row; notional volume per month 50,000 MMBtu; NYMEX-based. Same volume and period as the call option row (text refers to an 'option agreement'), but table lists put and call separately.",
+        "evidence_quote": "$     13,157"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 1641.79,
+        "volume_total": 550000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 5.275,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-02",
+        "period_end": "2004-12",
+        "counterparty": "Coral Energy Holdings, L.P.",
+        "fair_value_mm": -0.375832,
+        "notes": "Listed as separate Call Option row; notional volume per month 50,000 MMBtu; NYMEX-based. Same volume and period as the put option row.",
+        "evidence_quote": "$   (375,832)"
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "Uses swaps and collars as part of risk management to reduce price fluctuation and support capital budget; derivatives not designated as hedges; not for trading; no leveraged derivatives.",
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "total_oil_instruments": 0,
+      "uses_derivatives": true
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 1561000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": 656000,
+      "oil_production_bpd": null,
+      "production_year": 2003,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": 10723,
+      "proved_gas_reserves_mmcf": 11282,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": 13705,
+      "proved_undeveloped_reserves_mboe": 4863,
+      "reserves_year_end": "2003-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": 4.28,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": 5.9,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": 8.4,
+      "oil_price_used": 27.87,
+      "production_tax_per_boe": null,
+      "pv10_mm": 116.071,
+      "standardized_measure_mm": 84.729,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:40",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

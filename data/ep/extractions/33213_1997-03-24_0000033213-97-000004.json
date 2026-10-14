@@ -1,0 +1,167 @@
+{
+  "cik": "33213",
+  "company": "EQT Corp",
+  "filing_date": "1997-03-24",
+  "accession_number": "0000033213-97-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 5300000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 1.7,
+        "notes": "Exchange traded futures outstanding at Dec 31, 1996; purchase notional in Bcf equivalent. Unrealized deferred gain $1.7MM is reported for the combined purchase and sale row.",
+        "evidence_quote": "   Futures....................           5.3             8.7        $    1.7"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 8700000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Exchange traded futures outstanding at Dec 31, 1996; sale notional in Bcf equivalent. Unrealized gain for the row is recorded on the purchase entry.",
+        "evidence_quote": "   Futures....................           5.3             8.7        $    1.7"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 45000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": -11.1,
+        "notes": "OTC swaps outstanding at Dec 31, 1996; purchase notional in Bcf equivalent. Unrealized deferred loss $(11.1)MM is reported for the combined purchase and sale row.",
+        "evidence_quote": "   Swaps......................          45.0            91.2        $  (11.1)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 91200000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "OTC swaps outstanding at Dec 31, 1996; sale notional in Bcf equivalent. Unrealized loss for the row is recorded on the purchase entry.",
+        "evidence_quote": "   Swaps......................          45.0            91.2        $  (11.1)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 1500000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": -1.5,
+        "notes": "OTC options (type of option not specified) outstanding at Dec 31, 1996; purchase notional in Bcf equivalent. Unrealized deferred loss $(1.5)MM is reported for the combined purchase and sale row.",
+        "evidence_quote": "   Options....................           1.5             1.1            (1.5)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1100000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "OTC options (type of option not specified) outstanding at Dec 31, 1996; sale notional in Bcf equivalent. Unrealized loss for the row is recorded on the purchase entry.",
+        "evidence_quote": "   Options....................           1.5             1.1            (1.5)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1727000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 57295000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 19500,
+      "proved_gas_reserves_mmcf": 849530,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

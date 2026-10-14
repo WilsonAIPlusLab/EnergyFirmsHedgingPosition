@@ -1,0 +1,137 @@
+{
+  "cik": "937568",
+  "company": "ALLIANCE RESOURCES PLC",
+  "filing_date": "1999-08-13",
+  "accession_number": "0000930661-99-001909",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 1.6,
+        "ceiling_price": 2.07,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-02",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedges approximately 65% of existing monthly gas production; NYMEX Natural Gas; expires October 31, 1999. As of July 1, 1999 aggregate remaining commodity hedges covered 40,000 barrels of oil and 320,000 MMbtu of gas through October 1999 (combined across instruments). Net fair value of all commodity derivatives at April 30, 1999 was a net payable of $128,479 (not allocated per instrument).",
+        "evidence_quote": "floor of $1.60/MMBTU and a cap of $2.07/MMBTU (NYMEX Natural Gas)."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 12,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-04",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Floor only, hedging approximately 40% of existing monthly oil production; NYMEX WTI; expires October 31, 1999. Text describes it as installing a floor (no ceiling stated).",
+        "evidence_quote": "$12.00/barrel (NYMEX WTI)."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18.5,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-10",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Expired October 31, 1998. Purchased put options (floors) entered October 23, 1997 covering 32,000 bbls per month (monthly volume, not daily); floor approximately $18.50/bbl Nymex WTI; covered in excess of 90% of monthly sales volumes; premium funded by credit agreement drawdowns.",
+        "evidence_quote": "equated to approximately $18.50/bbl Nymex WTI contract and $2.20/MMBTU"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.2,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-10",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Expired October 31, 1998. Purchased put options (floors) entered October 23, 1997 covering 100,000 MMBTUs per month (monthly volume, not daily); floor approximately $2.20/MMBTU Nymex Natural Gas; covered in excess of 90% of monthly sales volumes.",
+        "evidence_quote": "equated to approximately $18.50/bbl Nymex WTI contract and $2.20/MMBTU"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company hedges a portion of oil and gas production price risk using collars and participating hedges to receive a fixed price or a price between a floor and ceiling; also hedges variable-rate debt with interest rate swaps."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 278000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1402000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 512000,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 8708,
+      "proved_gas_reserves_mmcf": 32584,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-04-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 37.663,
+      "pv10_mm": 46.642,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.41,
+      "production_tax_per_boe": 0.64,
+      "total_production_cost_per_boe": 6.05,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.27,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

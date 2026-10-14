@@ -1,0 +1,119 @@
+{
+  "cik": "945764",
+  "company": "DENBURY INC",
+  "filing_date": "2006-03-08",
+  "accession_number": "0000950134-06-004437",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2200,
+        "volume_total": 803000,
+        "volume_unit": "Bbls",
+        "fixed_price": 59.65,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": -2.759,
+        "notes": "NYMEX-based swap put in place to hedge production from the $248 million acquisition closed January 2006. Direction not stated; swap on production assumed short by convention.",
+        "evidence_quote": "swaps cover 2,200 Bbls/d for 2006 at a price of $59.65 per Bbl; 2,000 Bbls/d for 2007 at a price"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2000,
+        "volume_total": 730000,
+        "volume_unit": "Bbls",
+        "fixed_price": 58.93,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": -3.353,
+        "notes": "NYMEX-based swap related to the $248 million acquisition closed January 2006. Direction not stated; assumed short by convention.",
+        "evidence_quote": "swaps cover 2,200 Bbls/d for 2006 at a price of $59.65 per Bbl; 2,000 Bbls/d for 2007 at a price"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 2000,
+        "volume_total": 732000,
+        "volume_unit": "Bbls",
+        "fixed_price": 57.34,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": -3.271,
+        "notes": "NYMEX-based swap related to the $248 million acquisition closed January 2006. Direction not stated; assumed short by convention.",
+        "evidence_quote": "of $58.93 per Bbl; and 2,000 Bbls/d for 2008 at a price of $57.34 per Bbl."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Historically hedged up to 75% of production with floors, collars and swaps; fewer contracts since 2005; hedges up to 100% of acquired proved production after significant acquisitions. No trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 7305000,
+      "oil_production_bpd": 20013,
+      "gas_production_mcf": 21424000,
+      "gas_production_mmcf_per_day": 58.696,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 29795,
+      "production_year": 2005
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 106173,
+      "proved_gas_reserves_mmcf": 278367,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 152568,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2005-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2084.449,
+      "pv10_mm": 3215.478,
+      "oil_price_used": 61.04,
+      "gas_price_used": 10.08,
+      "lease_operating_expense_per_boe": 9.98,
+      "production_tax_per_boe": 2.54,
+      "total_production_cost_per_boe": 12.52,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 9.09,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

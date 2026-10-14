@@ -1,0 +1,155 @@
+{
+  "cik": "882074",
+  "company": "PANACO INC",
+  "filing_date": "2000-03-28",
+  "accession_number": "0000882074-00-000005",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 10000,
+        "volume_total": 3660000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.04,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased put for year 2000, NYMEX price; premium paid $366,000 amortized over fiscal year 2000. Fair value of all hedges combined at 12/31/1999 was a loss of $800,000 (not per instrument).",
+        "evidence_quote": "is for 10,000  MMbtu per day at a NYMEX  price of $2.04 per MMbtu."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1000,
+        "volume_total": 306000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 20,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-03",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased put beginning March 1 through December 31 (2000), NYMEX price; premium cost $275,000 amortized over fiscal year 2000.",
+        "evidence_quote": "barrels of oil per day beginning March 1 and continuing through December 31 at a"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 232,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Described as a small swap in place on an average of 232 barrels per day; period not explicitly stated in the text.",
+        "evidence_quote": "Company  also has a small swap in place on an average of 232  barrels of oil for"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 671.23,
+        "volume_total": 245000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 15,
+        "ceiling_price": 19.12,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical 1999 cost free collars (already settled); part of 540,000 bbls hedged in 1999 at average NYMEX equivalent flow price of $15.34.",
+        "evidence_quote": "cost free collars,  with 245,000  barrels  having a floor of $15.00 and a cap of"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 586.3,
+        "volume_total": 214000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 15,
+        "ceiling_price": 17.5,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical 1999 cost free collars (already settled); part of 540,000 bbls hedged in 1999.",
+        "evidence_quote": "$19.12  per  barrel and  214,000  barrels  having a floor of $15.00 and a cap of"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedging strategy to protect against severe price declines; hedges to assure payout of a specific acquisition/development project or exploit unusual market strength; also required by Credit Facilities."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1170000,
+      "oil_production_bpd": 3204,
+      "gas_production_mcf": 11114000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 8700,
+      "proved_gas_reserves_mmcf": 82800,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 181.266,
+      "pv10_mm": 181.266,
+      "oil_price_used": 24.99,
+      "gas_price_used": 2.43,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

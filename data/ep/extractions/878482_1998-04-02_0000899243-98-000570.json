@@ -1,0 +1,173 @@
+{
+  "cik": "878482",
+  "company": "GOTHIC ENERGY LLC",
+  "filing_date": "1998-04-02",
+  "accession_number": "0000899243-98-000570",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 450000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-01",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap in place at Dec 31, 1997, expiring March 31, 1998. The text gives one estimated fair value for all swaps in effect (about $747,000 receivable) and not per instrument.",
+        "evidence_quote": "day at a price of $2.55 per Mcf and expiring on March 31, 1998 and 15,000 Mcf"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15000,
+        "volume_total": 1350000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-01",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap in place at Dec 31, 1997. The text gives one estimated fair value for all swaps in effect (about $747,000 receivable) and not per instrument.",
+        "evidence_quote": "per day at a price of $2.45 per Mcf during the period January 1, 1998 through"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000,
+        "volume_total": 930000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-03",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered into in February 1998, after year end. Covers about 55% of current natural gas production.",
+        "evidence_quote": "sale of 30,000 Mcf per day for the month of March 1998 at $2.16 per Mcf and"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 62000,
+        "volume_total": 13268000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.09,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-04",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered into in February 1998, after year end. Price is an average. Covers about 69% of current natural gas production. 25,000 Mcf/d of the 62,000 is also subject to a call spread (listed separately); do not add the volumes together.",
+        "evidence_quote": "62,000 Mcf per day during the period April 1, 1998 through October 31, 1998 at"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 25000,
+        "volume_total": 5350000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.3,
+        "ceiling_price": 2.7,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-04",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Call spread. The Company receives additional payments if the actual sales price of natural gas is between $2.30 and $2.70 per Mcf. It is part of the 62,000 Mcf/d swap, so its volume overlaps that swap. The $2.30 and $2.70 are the lower and upper bounds of the payment band as stated.",
+        "evidence_quote": "is subject to a \"call spread\" agreement which provides that the Company will"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 60000,
+        "volume_total": 9060000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.1,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-11",
+        "period_end": "1999-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "The text calls this a swap agreement at a floor price and elsewhere a floor agreement. It is recorded as a floor (put-type) instrument. Entered into after year end.",
+        "evidence_quote": "per day at a \"floor\" price of $2.10 per Mcf during the period November 1998"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges natural gas with commodity swaps, and sometimes basis swaps, to reduce price volatility; no trading purposes. The Bank One credit facility requires hedging agreements satisfactory to the bank."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 176000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 6583000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 4941,
+      "proved_gas_reserves_mmcf": 357131,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 94.102,
+      "pv10_mm": 351.144,
+      "oil_price_used": 17.3,
+      "gas_price_used": 2.3,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

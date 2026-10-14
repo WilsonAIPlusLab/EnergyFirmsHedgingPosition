@@ -1,0 +1,137 @@
+{
+  "cik": "319459",
+  "company": "MISSION RESOURCES CORP",
+  "filing_date": "2001-04-02",
+  "accession_number": "0000899243-01-000812",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1500,
+        "volume_total": 547500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 24,
+        "ceiling_price": 30,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX floor/ceiling; oil hedge transacted August 2000. Aggregate fair value of all commodity swap/collar agreements at 12/31/2000 was a loss of $33.1 million (not allocated per instrument).",
+        "evidence_quote": "Jan. 2001-Dec. 2001.................  1,500  547,500 Collar $24.00 $30.00"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 25000,
+        "volume_total": 2250000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.3,
+        "ceiling_price": 3.37,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX floor/ceiling; gas hedges entered before March 2000. Aggregate fair value of all commodity agreements at 12/31/2000 was a loss of $33.1 million.",
+        "evidence_quote": "Jan. 2001-March 2001............... 25,000  2,250,000 Collar $2.30  $3.37"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 35000,
+        "volume_total": 7490000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.3,
+        "ceiling_price": 2.92,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-04",
+        "period_end": "2001-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX floor/ceiling; gas hedges entered before March 2000. Item 7A table shows total 7,490,000 Mcf; one note table prints 97,490,000 (apparent typo). Aggregate fair value of all commodity agreements at 12/31/2000 was a loss of $33.1 million.",
+        "evidence_quote": "April 2001-Oct. 2001............... 35,000  7,490,000 Collar $2.30  $2.92"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 15000,
+        "volume_total": 5475000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2000-11",
+        "period_end": "2001-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Offsets previously existing hedges on forecast production sold in late 2000; $8.7 million non-cash loss recognized in Q4 2000; related liability reduced to $7.5 million by 12/31/2000. Direction not explicitly stated.",
+        "evidence_quote": "Bellwether entered into a gas swap for $4.60 per mcf on 15,000 mcf per day\nof production from November 2000 through October 2001."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company periodically seeks to reduce exposure to price volatility by hedging production through swaps, options and other commodity derivative instruments; uses hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2380000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 20478000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 5793000,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 17500,
+      "proved_gas_reserves_mmcf": 74729,
+      "proved_ngl_reserves_mbbls": 1655,
+      "total_proved_reserves_mboe": 31592,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 423.092,
+      "pv10_mm": null,
+      "oil_price_used": 26.8,
+      "gas_price_used": 9.52,
+      "lease_operating_expense_per_boe": 4.93,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.46,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "cik": "1041635",
+  "company": "FORMAN PETROLEUM CORP",
+  "filing_date": "1998-03-31",
+  "accession_number": "0000899243-98-000543",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 3.18,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1997-01",
+        "period_end": "1997-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Forward sales arrangements covering approximately 40% of estimated net gas production in the Lake Enfermer Field; absolute volume not stated; price is approximate weighted average.",
+        "evidence_quote": "In January 1997, the\nCompany entered into forward sales arrangements with respect to approximately\n40% of its estimated net natural gas production in the Lake Enfermer Field\nthrough April 1997, at a weighted average price of approximately $3.18 per Mcf."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 23.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Described only as hedging approximately 30% of estimated net oil production, entered at the same time as the January 1997 gas forwards; instrument form not specified (financial statement note mentions swap agreements generally); absolute volume not stated.",
+        "evidence_quote": "At the same time, the Company hedged approximately 30% of its estimated net oil\nproduction through June 1997 at a weighted average price of $23.75 per Bbl."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 3.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1997-10",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Forward sales arrangements covering approximately 25% of estimated net gas production in the Lake Enfermer Field; absolute volume not stated; price is approximate weighted average.",
+        "evidence_quote": "In October 1997, the Company entered into forward sales arrangements with respect\nto approximately 25% of its estimated net natural gas production in the Lake\nEnfermer Field through March 1998, at a weighted average price of approximately $3.19 per Mcf."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges to achieve more predictable revenues and cash flows and reduce price exposure; limited portion of production; reevaluated continuously; not used for trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 334662,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2613323,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 770000,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2259.567,
+      "proved_gas_reserves_mmcf": 22105,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 5944,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 47.542,
+      "pv10_mm": 52.256,
+      "oil_price_used": 16.98,
+      "gas_price_used": 2.65,
+      "lease_operating_expense_per_boe": 3.52,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 12.2,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:23",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

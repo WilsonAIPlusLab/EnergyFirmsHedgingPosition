@@ -1,0 +1,173 @@
+{
+  "cik": "867665",
+  "company": "ABRAXAS PETROLEUM CORP",
+  "filing_date": "2000-04-06",
+  "accession_number": "0000867665-00-000006",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 730000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 14,
+        "ceiling_price": 22.3,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-04",
+        "period_end": "1999-03",
+        "counterparty": "Enron Capital and Trade Resources Corp.",
+        "fair_value_mm": null,
+        "notes": "Costless collar on NYMEX crude; effective April 1, 1998 through March 31, 1999 (expired before the 1999 year end).",
+        "evidence_quote": "In March 1998, we entered into a costless collar hedge agreement with Enron\nCapital and Trade Resources Corp. for 2,000 Bbls of crude oil per day with a\nfloor price of $14.00 per Bbl and a ceiling price of $22.30 per Bbl"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 366000,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-11",
+        "period_end": "2000-10",
+        "counterparty": "Barrett Resources Corporation",
+        "fair_value_mm": null,
+        "notes": "Swap leg of the Barrett agreement: Company is paid $20.30 and pays NYMEX calendar month average. Combined fair value of all hedge agreements about $(6.5) million at 12/31/1999 (not split by instrument).",
+        "evidence_quote": "This agreement\nconsist of a swap for 1,000 Bbls per day with the Company being paid $20.30 and\npaying NYMEX calendar month average"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 366000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 22,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-11",
+        "period_end": "2000-10",
+        "counterparty": "Barrett Resources Corporation",
+        "fair_value_mm": null,
+        "notes": "Collar leg of the Barrett agreement for November 1999 through October 2000.",
+        "evidence_quote": "and 1,000 barrels per day with a floor\nprice of $18.00 per Bbl and a ceiling of $22.00 per Bbl."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "mixed",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2002-10",
+        "counterparty": "Barrett Resources Corporation",
+        "fair_value_mm": null,
+        "notes": "Barrett holds a call on either 1,000 Bbls of crude oil OR 20,000 MMBtu of natural gas per day at Barrett's option, at fixed prices (not stated), through October 31, 2002. Start date and strike not stated.",
+        "evidence_quote": "Additionally, Barrett\nhas a call on either 1,000 Bbls of crude oil or 20,000 MMBtu of natural gas per\nday at Barrett's option at fixed prices through October 31, 2002."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2.5,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2000-10",
+        "counterparty": "Barrett Resources",
+        "fair_value_mm": null,
+        "notes": "Volume stated in the text as 2.5 MMBtupd (as written). Priced at average NYMEX price less $0.83 (approximately $1.75 per MMBtu as of February 2000); hedged through October 31, 2000. Start date not stated.",
+        "evidence_quote": "2.5 MMBtupd is hedged at an average NYMEX price less $0.83\n(approximately $1.75 per MMBtu as of February 2000)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 20,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.07,
+        "ceiling_price": 2.39,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2000-10",
+        "counterparty": "Barrett Resources",
+        "fair_value_mm": null,
+        "notes": "Volume stated in the text as 20.0 MMBtupd (as written); AECO index; hedged through October 31, 2000; realized loss of $2.5 million in 1999 on this hedge. Start date not stated.",
+        "evidence_quote": "and 20.0 MMBtupd with a\nceiling of $2.39 and a floor of $2.07 based on an AECO index."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "We manage crude oil and natural gas prices through the periodic use of commodity price hedging agreements."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 777900,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 25697900,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 376500,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 12642,
+      "proved_gas_reserves_mmcf": 190115,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 250.785,
+      "pv10_mm": 257.1,
+      "oil_price_used": 24.88,
+      "gas_price_used": 2.11,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 6.34,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

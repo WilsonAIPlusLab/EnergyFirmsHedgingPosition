@@ -1,0 +1,80 @@
+{
+  "cik": "1733998",
+  "company": "Northwest Natural Holding Co",
+  "filing_date": "2026-02-27",
+  "accession_number": "0001733998-26-000012",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 757895000,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2028-11",
+        "counterparty": null,
+        "fair_value_mm": -71.1,
+        "evidence_quote": "The fair value of financial swaps, based on market prices at December 31, 2025, was an unrealized loss of $71.1 million, which would result in cash outflows of $61.0 million in 2026, $7.2 million in 2027, and $2.9 million in 2028.",
+        "notes": "Aggregate gas utility financial derivative position, not a per-period schedule. Notional of financial natural gas derivatives at 12/31/2025 is 757,895 thousand therms (table in thousands; volume_total scaled to therms, unit 'other' = therms). Dollar notional $279.9 million. Outstanding financial derivatives mature by November 1, 2028. Hedges recovered via PGA regulatory deferral. No strike prices, per-period volumes or named counterparties disclosed."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Policies guide derivative use for prudent risk management; speculative use prohibited. Financial swaps, options and option combinations hedge most natural gas sales requirements; costs recovered via PGA."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "production_year": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null,
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

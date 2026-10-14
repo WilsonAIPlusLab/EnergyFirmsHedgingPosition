@@ -1,0 +1,101 @@
+{
+  "cik": "1040593",
+  "company": "CARRIZO OIL & GAS INC",
+  "filing_date": "2000-03-30",
+  "accession_number": "0000950129-00-001543",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 1648.35,
+        "volume_total": 300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.33,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding hedge position at 12/31/1999 at an average price of $2.33 per MMBtu (one passage says $2.23). Text calls these 'swap arrangements' but Item 7A says hedging is only buying price floors/put options; type not clearly stated. Combined fair market value of the instruments was $2,000 at 12/31/1999.",
+        "evidence_quote": "Company had 300,000 MMBtu and 30,200 Bbls of outstanding hedge positions (at an"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 165.93,
+        "volume_total": 30200,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding hedge position at 12/31/1999 at an average price of $25.60 per Bbl (one passage says 30,250 Bbls). Text calls these 'swap arrangements' but Item 7A says hedging is only buying price floors/put options; type not clearly stated. Combined fair market value of the instruments was $2,000 at 12/31/1999.",
+        "evidence_quote": "Company had 300,000 MMBtu and 30,200 Bbls of outstanding hedge positions (at an"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters limited hedging to reduce price risk on a portion of production; Item 7A says only buying protection price floors; no trading derivatives."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 179300,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3235000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 4877,
+      "proved_gas_reserves_mmcf": 11323,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 42.73,
+      "pv10_mm": null,
+      "oil_price_used": 23.4,
+      "gas_price_used": 2.35,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:36",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

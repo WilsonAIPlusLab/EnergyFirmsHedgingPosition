@@ -1,0 +1,30 @@
+{
+  "cik": "888388",
+  "company": "SWIFT ENERGY PENSION PARTNERS 1992-A LTD",
+  "filing_date": "2002-03-28",
+  "accession_number": "9999999997-02-018481",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {},
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:14:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_896e9900-cb3"
+    ]
+  }
+}

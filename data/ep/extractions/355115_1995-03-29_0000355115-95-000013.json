@@ -1,0 +1,58 @@
+{
+  "cik": "355115",
+  "company": "ALAMCO INC",
+  "filing_date": "1995-03-29",
+  "accession_number": "0000355115-95-000013",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity derivatives stated; gas and oil sold under sales contracts at market-sensitive prices, including a CNG gas prepayment recoupment arrangement."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 68000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 4404000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1399,
+      "proved_gas_reserves_mmcf": 119625,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 47.405,
+      "pv10_mm": 68.211,
+      "oil_price_used": 15.13,
+      "gas_price_used": 2.2,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

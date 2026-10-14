@@ -1,0 +1,120 @@
+=== HEDGE RATIO CALCULATION SUMMARY ===
+
+Total extraction files processed: 2418
+  - With instruments: 904
+  - Without instruments (non-hedger): 1514
+  - With production data: 1763
+
+Instrument processing:
+  - Total instruments: 9722
+  - Included in hedge ratios: 7385
+  - Excluded (basis_swap): 476
+  - Excluded (swaption): 9
+  - Excluded (missing volume): 1225
+  - Excluded (unknown commodity): 178
+  - Excluded (unconvertible unit): 449
+  - Excluded (other): 0
+
+Delta method: linear
+
+=== OIL HEDGE RATIOS (Notional) ===
+  Firm-years with oil hedging: 496
+  Mean: 60.4%  Median: 41.6%  Std: 240.8%
+  Min: 0.0%  Max: 5213.4%
+  P25: 20.1%  P75: 65.0%
+
+=== GAS HEDGE RATIOS (Notional) ===
+  Firm-years with gas hedging: 651
+  Mean: 69.0%  Median: 41.8%  Std: 505.8%
+  Min: 0.0%  Max: 12885.3%
+  P25: 17.6%  P75: 66.3%
+
+=== OIL HEDGE RATIOS (Delta-adjusted) ===
+  Firm-years with oil hedging: 496
+  Mean: 51.3%  Median: 33.4%  Std: 238.1%
+  Min: 0.0%  Max: 5213.4%
+  P25: 15.8%  P75: 54.7%
+
+=== GAS HEDGE RATIOS (Delta-adjusted) ===
+  Firm-years with gas hedging: 651
+  Mean: 60.9%  Median: 32.3%  Std: 505.6%
+  Min: 0.0%  Max: 12885.3%
+  P25: 13.6%  P75: 57.0%
+
+=== QUALITY FLAGS ===
+  Firm-years with oil hedge ratio > 100%: 26
+    719209 ISRAMCO INC FY2006: 5213.4%
+    869295 KERR MCGEE ROCKY MOUNTAIN CORP FY1999: 772.5%
+    313478 HKN, Inc. FY2007: 633.1%
+    833320 BURLINGTON RESOURCES INC FY1994: 521.4%
+    1326428 Pressburg, LLC FY2006: 486.5%
+  Firm-years with gas hedge ratio > 100%: 53
+    719209 ISRAMCO INC FY2006: 12885.3%
+    33213 EQT Corp FY2004: 551.7%
+    33213 EQT Corp FY2002: 431.0%
+    746834 NGAS Resources Inc FY1998: 402.9%
+    33213 EQT Corp FY2003: 380.1%
+  Firm-years with oil hedge ratio > 150% (likely errors): 12
+    719209 ISRAMCO INC FY2006: 5213.4%
+    869295 KERR MCGEE ROCKY MOUNTAIN CORP FY1999: 772.5%
+    313478 HKN, Inc. FY2007: 633.1%
+    833320 BURLINGTON RESOURCES INC FY1994: 521.4%
+    1326428 Pressburg, LLC FY2006: 486.5%
+    1018980 COSTILLA ENERGY INC FY1998: 421.1%
+    1357371 Breitburn Energy Partners LP FY2006: 345.9%
+    99830 TRITON ENERGY CORP FY1995: 337.9%
+    1012884 RUTHERFORD-MORAN OIL CORP FY1997: 213.3%
+    1021010 EDGE PETROLEUM CORP FY2007: 186.7%
+    889005 Kerr-McGee (Nevada) LLC FY1999: 173.0%
+    1006264 PATINA OIL & GAS CORP FY1999: 164.7%
+  Firm-years with gas hedge ratio > 150% (likely errors): 18
+    719209 ISRAMCO INC FY2006: 12885.3%
+    33213 EQT Corp FY2004: 551.7%
+    33213 EQT Corp FY2002: 431.0%
+    746834 NGAS Resources Inc FY1998: 402.9%
+    33213 EQT Corp FY2003: 380.1%
+    33213 EQT Corp FY2001: 292.4%
+    912264 LOUIS DREYFUS NATURAL GAS CORP FY1996: 290.7%
+    98720 TOREADOR RESOURCES CORP FY2003: 290.7%
+    899717 AMERICAN RESOURCES OFFSHORE INC FY1998: 277.2%
+    33213 EQT Corp FY1996: 269.5%
+    889005 Kerr-McGee (Nevada) LLC FY1997: 250.8%
+    1253710 CANO PETROLEUM, INC FY2008: 217.7%
+    77877 PDC ENERGY, INC. FY2005: 212.5%
+    1041895 PETSEC ENERGY INC FY1998: 173.4%
+    1018980 COSTILLA ENERGY INC FY1998: 168.4%
+    77877 PDC ENERGY, INC. FY2006: 168.0%
+    903267 3TEC ENERGY CORP FY2001: 166.6%
+    1357361 Atlas America Public #15-2006 (B) L.P. FY2006: 160.1%
+  Firm-years with net long oil position: 5
+    1011746 CITGO PETROLEUM CORP FY2001
+    1022345 MARINER ENERGY INC FY1999
+    716039 UNOCAL CORP FY1998
+    861819 NUEVO ENERGY CO FY1996
+    906422 PDV AMERICA INC FY2001
+  Firm-years with net long gas position: 20
+    1019756 MARKWEST HYDROCARBON L.L.C. FY1996
+    1019756 MARKWEST HYDROCARBON L.L.C. FY1997
+    1019756 MARKWEST HYDROCARBON L.L.C. FY2005
+    1019756 MARKWEST HYDROCARBON L.L.C. FY2006
+    1022345 MARINER ENERGY INC FY1999
+    14803 BROWN TOM INC /DE FY1998
+    717423 MURPHY OIL CORP FY2003
+    717423 MURPHY OIL CORP FY2004
+    717423 MURPHY OIL CORP FY2005
+    778438 Berry Petroleum Company, LLC FY2001
+    ... and 10 more
+  Firm-years with instruments but no production data: 107
+  Instruments with missing strike prices (options/collars): 77
+  Year-over-year hedge ratio changes > 50pp: 212
+    1006264 PATINA OIL & GAS CORP FY1998->1999 oil_notional: 0.0%->164.7% (Δ164.7%)
+    1006264 PATINA OIL & GAS CORP FY1999->2000 oil_notional: 164.7%->63.9% (Δ100.8%)
+    1012884 RUTHERFORD-MORAN OIL CORP FY1996->1997 oil_notional: 121.9%->213.3% (Δ91.4%)
+    1018980 COSTILLA ENERGY INC FY1996->1997 gas_notional: 0.0%->58.8% (Δ58.8%)
+    1018980 COSTILLA ENERGY INC FY1997->1998 oil_notional: 81.5%->421.1% (Δ339.6%)
+    1018980 COSTILLA ENERGY INC FY1997->1998 gas_notional: 58.8%->168.4% (Δ109.6%)
+    1018980 COSTILLA ENERGY INC FY1998->1999 oil_notional: 421.1%->109.6% (Δ311.4%)
+    1018980 COSTILLA ENERGY INC FY1998->1999 gas_notional: 168.4%->53.0% (Δ115.4%)
+    1019756 MARKWEST HYDROCARBON L.L.C. FY1999->2000 gas_notional: 119.4%->38.2% (Δ81.2%)
+    1019756 MARKWEST HYDROCARBON L.L.C. FY2000->2001 gas_notional: 38.2%->106.7% (Δ68.5%)
+    ... and 202 more

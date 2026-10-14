@@ -1,0 +1,137 @@
+{
+  "cik": "904080",
+  "company": "TALOS PETROLEUM LLC",
+  "filing_date": "1998-03-20",
+  "accession_number": "0000904080-98-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1200.0,
+        "volume_total": 108000,
+        "volume_unit": "Bbls",
+        "fixed_price": 21.58,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 108 MBbls; swap settled against near-month NYMEX; position as of March 11, 1998",
+        "evidence_quote": "First quarter 1998.....................        108               $21.58               1,800                $2.940"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 395.6,
+        "volume_total": 36000,
+        "volume_unit": "Bbls",
+        "fixed_price": 21.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-04",
+        "period_end": "1998-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 36 MBbls; position as of March 11, 1998",
+        "evidence_quote": "Second quarter 1998....................         36                21.15                 300                 2.427"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000.0,
+        "volume_total": 1800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.94,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 1,800 BBtus (billion Btu = 1,000 MMBtu each); position as of March 11, 1998",
+        "evidence_quote": "First quarter 1998.....................        108               $21.58               1,800                $2.940"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3296.7,
+        "volume_total": 300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.427,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-04",
+        "period_end": "1998-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Volume stated as 300 BBtus; position as of March 11, 1998",
+        "evidence_quote": "Second quarter 1998....................         36                21.15                 300                 2.427"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Swaps to reduce exposure to oil and gas price declines; not more than one-half of production hedged without Board consent unless prices change by more than 25%."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1585000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 14183000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 3949000,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 17763,
+      "proved_gas_reserves_mmcf": 189239,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 49303,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 367.916,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 2.56,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 7.12,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

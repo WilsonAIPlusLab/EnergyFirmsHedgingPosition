@@ -1,0 +1,173 @@
+{
+  "cik": "946140",
+  "company": "FORCENERGY INC",
+  "filing_date": "1998-03-25",
+  "accession_number": "0000950144-98-003234",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 2.36,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "1998-05",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Forward sales and swap arrangements combined; approx. 9% of estimated natural gas production (MD&A) vs approx. 19% (financial statement note); weighted average price; no absolute volume stated; fair value of all contracts described as insignificant",
+        "evidence_quote": "The Company has entered into forward sales and swap arrangements with respect to approximately 9% of its estimated natural gas production through May 1998 at a weighted average price of $2.36 per Mcf."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2.25,
+        "ceiling_price": 3,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Additional 26% of estimated natural gas production through March 1998; no absolute volume stated",
+        "evidence_quote": "The Company has also hedged an additional 26% of its estimated natural gas production through March 1998 using a collar arrangement with a floor of $2.25 per Mcf and a ceiling of $3.00 per Mcf."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2.71,
+        "ceiling_price": 3.93,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-01",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way options covering 9% of estimated first quarter 1998 gas production; maximum benefit of $.30 per Mcf if prices decline below average floor of $2.71; no exposure if prices remain below average ceiling of $3.93; sold put strike not stated explicitly",
+        "evidence_quote": "Forcenergy has hedged, through three-way options, 9% of its estimated first quarter 1998 natural gas production, and 23% of second and third quarter 1998 natural gas production"
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2.71,
+        "ceiling_price": 3.93,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-04",
+        "period_end": "1998-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Three-way options covering 23% of estimated second and third quarter 1998 gas production; maximum benefit of $.30 per Mcf if prices decline below average floor of $2.71; no exposure if prices remain below average ceiling of $3.93; sold put strike not stated explicitly",
+        "evidence_quote": "with a maximum benefit of $.30 per Mcf if prices decline below an average floor of $2.71 per Mcf, and with no exposure if prices remain below an average ceiling of $3.93 per Mcf."
+      },
+      {
+        "instrument_type": "three_way_collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2.33,
+        "ceiling_price": 2.58,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-04",
+        "period_end": "1998-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "No-cost three-way options covering 33% of gas production April through September 1998; if prices fall below an average of $2.03 per Mcf in any month the floor for that month resets to that lower price (sold put strike approx. $2.03)",
+        "evidence_quote": "If prices fall below an average of $2.03 per Mcf in any month, the floor for that month resets to that lower price."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 18.21,
+        "ceiling_price": 23.08,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Approximately 17% of estimated oil production through December 1998; weighted average floors and ceilings; no absolute volume stated",
+        "evidence_quote": "Forcenergy has also hedged approximately 17% of its estimated oil production through December 1998 using collar arrangements with weighted average floors of $18.21 per Bbl and weighted average ceilings of $23.08 per Bbl."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses forward sales, commodity swaps, collars and three-way options on portions of production for more predictable cash flows; remaining production left unhedged to benefit from price increases."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 57737000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 17833000,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 380761,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 121503,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 595.198,
+      "pv10_mm": 636.419,
+      "oil_price_used": 14.72,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.33,
+      "production_tax_per_boe": 0.27,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 6.36,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

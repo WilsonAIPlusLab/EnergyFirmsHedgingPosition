@@ -1,0 +1,137 @@
+{
+  "cik": "1059324",
+  "company": "PETROHAWK ENERGY CORP",
+  "filing_date": "2002-04-01",
+  "accession_number": "0001059324-02-000002",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 2000.0,
+        "volume_total": 362000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.5,
+        "ceiling_price": 3.85,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-09",
+        "period_end": "2002-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding at Dec 31, 2001; NYMEX-based costless collar. Combined gas contract fair market value stated as $35,631 net of $23,755 income tax (not pre-tax, so not reported).",
+        "evidence_quote": "         Sept 01 - Feb 02           362,000           $3.50             $3.85"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 164.84,
+        "volume_total": 30000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 25,
+        "ceiling_price": 27.9,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-10",
+        "period_end": "2002-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding at Dec 31, 2001; WTI NYMEX-settled costless collar. Fair market value stated as $32,877 net of $21,919 income tax (not pre-tax, so not reported).",
+        "evidence_quote": "         Oct 01- Mar 02             30,000            $25.00            $27.90"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4000.0,
+        "volume_total": 1460000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.3,
+        "ceiling_price": 2.91,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-03",
+        "period_end": "2003-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered subsequent to Dec 31, 2001 (subsequent events note); text says this represents approximately 53% of natural gas production at the Dec 31, 2001 production rate.",
+        "evidence_quote": "            March 02 - Feb 03         1,460,000       $2.30            $2.91"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 164.38,
+        "volume_total": 60000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 20.5,
+        "ceiling_price": 21.75,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-04",
+        "period_end": "2003-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered subsequent to Dec 31, 2001 (subsequent events note); WTI NYMEX-settled.",
+        "evidence_quote": "           April 02- Mar 03            60,000         $20.50           $21.75"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives in a limited manner to protect against commodity price volatility; costless collars (NYMEX floor and ceiling) on a portion of gas and oil production, designated as cash flow hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 114271,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2512484,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 836.828,
+      "proved_gas_reserves_mmcf": 24710,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 31.295012,
+      "pv10_mm": 31.295012,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

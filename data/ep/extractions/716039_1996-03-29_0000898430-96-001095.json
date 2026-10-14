@@ -1,0 +1,119 @@
+{
+  "cik": "716039",
+  "company": "UNOCAL CORP",
+  "filing_date": "1996-03-29",
+  "accession_number": "0000898430-96-001095",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 225000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding at 12/31/1995; maturities one year or less; notional amount $4 million; fair value stated as insignificant. Prior year (12/31/1994): 419 thousand barrels, notional $7 million.",
+        "evidence_quote": "December 31, 1995, contracts covering 225 thousand barrels of crude oil, 4.2"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 100000.0,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Heating oil (refined product) futures outstanding at 12/31/1995; notional amount $3 million; fair value stated as insignificant.",
+        "evidence_quote": "million gallons of heating oil and 1.02 billion cubic feet of natural gas with"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 1020000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Outstanding at 12/31/1995; notional amount $2 million; fair value stated as insignificant. Prior year (12/31/1994): 9 Bcf, notional $16 million.",
+        "evidence_quote": "million gallons of heating oil and 1.02 billion cubic feet of natural gas with"
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Limited use of derivatives, not for trading; commodity futures (maturities one year or less) hedge crude oil, gas, refined product prices; Board approval needed to hedge >15% of production."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 1995,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 2.94,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

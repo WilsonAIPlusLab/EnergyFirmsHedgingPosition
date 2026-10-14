@@ -1,0 +1,58 @@
+{
+  "cik": "870732",
+  "company": "American Natural Energy Corp",
+  "filing_date": "2009-04-28",
+  "accession_number": "0001204459-09-000739",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 20200,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1100,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 20400,
+      "total_production_boepd": null,
+      "production_year": 2008
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 360.07,
+      "proved_gas_reserves_mmcf": 268.84,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 404.88,
+      "proved_developed_reserves_mboe": 31.76,
+      "proved_undeveloped_reserves_mboe": 373.12,
+      "reserves_year_end": "2008-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 3.999971,
+      "pv10_mm": 3.999971,
+      "oil_price_used": 37,
+      "gas_price_used": 5.35,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 91.05,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

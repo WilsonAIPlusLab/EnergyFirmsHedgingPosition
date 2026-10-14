@@ -1,0 +1,155 @@
+{
+  "cik": "895126",
+  "company": "EXPAND ENERGY Corp",
+  "filing_date": "1996-09-30",
+  "accession_number": "0000950134-96-005132",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 62000,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.85,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-07",
+        "period_end": "1996-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX-based crude oil swap; actual July and August settlements resulted in a $0.5 million payment to the counter-party",
+        "evidence_quote": "As of June 30, 1996, the Company had NYMEX-based crude oil swap agreements\nfor 1,000 Bbl per day for July 1, 1996 through August 31, 1996 at an average\nprice of $17.85 per Bbl."
+      },
+      {
+        "instrument_type": "swaption",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 184000,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-07",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Counter-party option exercisable monthly for an additional 1,000 Bbl per day to cause a swap if the price exceeds an average $17.74 per Bbl; company estimates Sept-Dec hedges would be a $0.4 million payment to the counter-party",
+        "evidence_quote": "The counter-party has the option exercisable monthly\nfor an additional 1,000 Bbl per day for the period July 1, 1996 through December\n31, 1996 to cause a swap if the price exceeds an average $17.74 per Bbl."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 20000,
+        "volume_total": 2400000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.21,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-11",
+        "period_end": "1997-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Houston Ship Channel put options purchased; average cost of the puts was $0.14 per Mmbtu",
+        "evidence_quote": "The Company has purchased Houston Ship Channel put options which guarantee\nthe Company an average floor price of $2.21/Mmbtu for 20,000 Mmbtu per day for\nthe period of November 1, 1996 through February 28, 1997."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1996-07",
+        "period_end": "1996-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX-based natural gas swaps; volumes and prices not stated; payments to counter-party of approx $2 million for July 1996 and $1.5 million for August 1996; Sept-Oct hedges estimated $0.2 million payment to counter-party",
+        "evidence_quote": "As of June 30, 1996, the Company had NYMEX-based natural gas swaps and\nNYMEX/Houston Ship Channel Basis swaps for the months of July through October\n1996."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1996-07",
+        "period_end": "1996-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX/Houston Ship Channel basis swaps; volumes and basis differential not stated",
+        "evidence_quote": "As of June 30, 1996, the Company had NYMEX-based natural gas swaps and\nNYMEX/Houston Ship Channel Basis swaps for the months of July through October\n1996."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Limited involvement with derivatives (SFAS 119); not for trading; objective is to hedge a portion of exposure to price volatility from producing crude oil and natural gas; uses swaps, index-related puts, basis swaps."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1413000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 51710000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 12258,
+      "proved_gas_reserves_mmcf": 351224,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 450.188,
+      "pv10_mm": 547,
+      "oil_price_used": 20.9,
+      "gas_price_used": 2.41,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

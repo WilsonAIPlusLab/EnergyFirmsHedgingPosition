@@ -1,0 +1,77 @@
+{
+  "cik": "277924",
+  "company": "Forestar Petroleum Corp",
+  "filing_date": "1999-01-29",
+  "accession_number": "0000277924-99-000001",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 250000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.59,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "1999-03",
+        "counterparty": null,
+        "fair_value_mm": 0.052,
+        "notes": "NYMEX futures forward (short) sales; approx 83% of expected Mid-Continent gas production through March 1999 hedged as of 10/31/1998; volume stated as approximately 250,000 Mcfg; average hedge price $2.59; unrealized gain on open hedge positions $52,000.",
+        "evidence_quote": "At October 31, 1998, the company had hedged approximately 83% of\nits expected Mid-Continent natural gas production through March,\n1999 (approximately 250,000 Mcfg) at an average hedge price of\n$2.59."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges oil and gas production by short-selling in NYMEX futures when downside price risk is substantial; hedges do not exceed expected production, are Board-authorized, closed with offsetting long positions."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 40000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 781000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 314,
+      "proved_gas_reserves_mmcf": 6676,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-10-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 6.25,
+      "pv10_mm": 7.415,
+      "oil_price_used": 12.59,
+      "gas_price_used": 2.03,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 5,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.09,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:56",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

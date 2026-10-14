@@ -1,0 +1,119 @@
+{
+  "cik": "901611",
+  "company": "ESENJAY EXPLORATION INC",
+  "filing_date": "1997-04-15",
+  "accession_number": "0001026700-97-000066",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.566,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-04",
+        "period_end": "1999-01",
+        "counterparty": "Bank of America Illinois",
+        "fair_value_mm": -0.312,
+        "notes": "Mid-Continent gas swap, 62,500 MMBTU per month, reduced to 31,250 MMBTU per month on Sept 25, 1996 after sale of N.E. Cedardale field ($212,000 loss on reduction). Unrealized loss of $312,000 on amended swap at Dec 31, 1996. Direction inferred from fixed-price swap on production; text does not state it explicitly.",
+        "evidence_quote": "natural gas  production for $1.566 per MMBTU for the period  beginning  April 1,"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Mobile Bay gas swap, 45,000 MMBTU per month, period Jan 24, 1996 through Dec 24, 1996; expired.",
+        "evidence_quote": "agreement on 45,000 MMBTU of natural gas per month at $2.03 per MMBTU for Mobile"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4661.85,
+        "volume_total": 7100000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.5,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1991-12",
+        "period_end": "1996-01",
+        "counterparty": "Waldorf Corporation",
+        "fair_value_mm": null,
+        "notes": "Long-term physical fixed-price gas sale agreement with end user, 7,100,000 MMBTU over seven years; terminated by agreement effective Jan 31, 1996. Not outstanding during 1996.",
+        "evidence_quote": "The purchase price under the contract was fixed at $1.50 per MMBTU over the"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company may enter hedging agreements to minimize gas price fluctuations; seeks to minimize gas price volatility via long-term end-user contracts and short-term futures; gas swap required by Bank of America financing."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 9276,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1406016,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": 4.13,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": 24.42,
+      "production_tax_per_boe": null,
+      "pv10_mm": 21.69632,
+      "standardized_measure_mm": 16.758544,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:25",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

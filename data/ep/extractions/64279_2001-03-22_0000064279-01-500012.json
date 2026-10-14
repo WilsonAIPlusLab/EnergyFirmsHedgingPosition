@@ -1,0 +1,83 @@
+{
+  "cik": "64279",
+  "company": "MCMORAN EXPLORATION CO /DE/",
+  "filing_date": "2001-03-22",
+  "accession_number": "0000064279-01-500012",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 100000,
+        "volume_unit": "Bbls",
+        "fixed_price": 19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": -0.6,
+        "notes": "Main Pass oil forward sales (oil price protection) contracts held by Freeport Sulphur; 0.1 million barrels at average $19.00/Bbl through Dec 2001; designated cash flow hedges under SFAS 133 adopted 1/1/2001. Settled 0.3 million bbl at a $2.8 million cost in 2000.",
+        "evidence_quote": "At December 31, 2000, Freeport Sulphur had\ncontracts to sell 0.1 million barrels of oil at an average price\nof $19.00 per barrel through December 31, 2001."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedging limited to forward oil sales contracts for Main Pass oil operations; no other price protection contracts; no interest rate hedges; may enter other hedges in future."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1151600,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 8291000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5507,
+      "proved_gas_reserves_mmcf": 56842,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 429.5,
+      "oil_price_used": 23.67,
+      "gas_price_used": 10.39,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "cik": "846871",
+  "company": "CHIEFTAIN INTERNATIONAL INC",
+  "filing_date": "1999-03-30",
+  "accession_number": "0000950150-99-000357",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Sells most gas under short term contractual arrangements; does not engage in speculative forward selling of volumes that cannot be physically delivered."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1271000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 24504000,
+      "gas_production_mmcf_per_day": 67.1,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 12.35,
+      "gas_price_used": 2.15,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:14:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_896e9900-cb3"
+    ]
+  }
+}

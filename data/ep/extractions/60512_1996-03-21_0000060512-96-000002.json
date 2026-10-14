@@ -1,0 +1,137 @@
+{
+  "cik": "60512",
+  "company": "LOUISIANA LAND & EXPLORATION CO",
+  "filing_date": "1996-03-21",
+  "accession_number": "0000060512-96-000002",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 223.14,
+        "volume_total": 27000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 1.78,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-01",
+        "period_end": "1996-04",
+        "counterparty": null,
+        "fair_value_mm": -2.4,
+        "notes": "Series of futures/forwards/options/swap transactions setting an average floor price while allowing participation in price increases more than $0.20/MMBtu above the floor (no ceiling stated). Volume stated as approximately 27 billion BTU (=27,000 MMBtu). Fair value is a net cost of $2.4 million at 12/31/1995.",
+        "evidence_quote": "transactions designed to set an average floor price of $1.78 per"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 38333.33,
+        "volume_total": 2300000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18.81,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "1996-02",
+        "counterparty": null,
+        "fair_value_mm": -0.9,
+        "notes": "Series of futures/forwards/options/swap transactions setting an average floor price while allowing participation in price increases more than $1.34/Bbl above the floor (no ceiling stated). Fair value is a net cost of $0.9 million at 12/31/1995.",
+        "evidence_quote": "to set an average floor price of $18.81 per barrel and at the same"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 9600000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1996-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Refinery feedstock hedge: futures, forwards, options and swaps; net purchase of 9.6 million barrels of feedstock totaling $181 million (total dollar value, not a per-barrel price), contracts maturing monthly through June 1996. Not a production hedge.",
+        "evidence_quote": "through June 1996 covering the net purchase of 9.6 million barrels"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 9600000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1996-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Refinery product hedge: futures, forwards, options and swaps; net sale of 9.6 million barrels of refined products totaling $209.8 million (total dollar value, not a per-barrel price), maturing monthly through June 1996. Not a production hedge.",
+        "evidence_quote": "barrels of refined products totaling $209.8 million."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives to manage well-defined interest rate, foreign currency and commodity price risks, not for speculation; 1995 program sets floors on future gas and oil production while keeping upside."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

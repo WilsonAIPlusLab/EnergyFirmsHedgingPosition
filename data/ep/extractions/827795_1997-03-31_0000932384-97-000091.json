@@ -1,0 +1,101 @@
+{
+  "cik": "827795",
+  "company": "BASIN EXPLORATION INC",
+  "filing_date": "1997-03-31",
+  "accession_number": "0000932384-97-000091",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 18.32,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-07",
+        "period_end": "1997-12",
+        "fair_value_mm": null,
+        "notes": "Contract volume 10,000 barrels per month; settled against average monthly closing NYMEX crude oil price. Fair value (combined swap and collar) estimated termination cost approx $525,000 payable at 12/31/1996 and approx $325,000 at 2/12/1997; not split by instrument.",
+        "evidence_quote": "Effective July\n1, 1996, the Company entered into a crude oil swap agreement with a\ncontract volume of 10,000 barrels per month through December 31, 1997."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "counterparty": null,
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 19.5,
+        "ceiling_price": 24.35,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "fair_value_mm": null,
+        "notes": "Contract volume 10,000 barrels per month (additional to swap); settled against monthly average closing NYMEX price. Fair value combined with swap, see swap note.",
+        "evidence_quote": "The Company has also\nentered\ninto a crude oil collar arrangement effective for calendar 1997 on an\nadditional 10,000 barrels per month."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into product swap agreements to hedge against volatility of product prices; limits exposure to price decreases but also limits benefit from price increases. Gains/losses deferred and recognized in oil and gas revenue."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 564000,
+      "oil_production_bpd": 1540,
+      "gas_production_mcf": 4776000,
+      "gas_production_mmcf_per_day": 13.05,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 7870,
+      "proved_gas_reserves_mmcf": 29713,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 83.656,
+      "oil_price_used": 25.35,
+      "gas_price_used": 3.02,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:36",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

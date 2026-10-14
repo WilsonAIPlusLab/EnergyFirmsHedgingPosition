@@ -1,0 +1,101 @@
+{
+  "cik": "313478",
+  "company": "HKN, Inc.",
+  "filing_date": "2000-03-30",
+  "accession_number": "0000950134-00-002751",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 1800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": 0.428,
+        "notes": "Swaps inherited from XPLOR via Aug 1999 merger; fixed price approximate; remaining deferred obligation approx $679,000, market value approx $428,000 (stated as obligation in accrued liabilities).",
+        "evidence_quote": "result in XPLOR receiving fixed prices of approximately $2.20 per MMBTU covering\na total of 1,800,000 MMBTUs over the life of the swaps, through December 2001."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 185000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 15,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put option held at Dec 31, 1999; remaining unamortized premium approx $75,000 (in other current assets); strike stated as fixed price of $15 per barrel.",
+        "evidence_quote": "also held a put option for crude oil with a fixed price of $15 per barrel\ncovering 185,000 barrels over the life of the option, through October 31, 2000."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses oil and gas swaps and options with maturities of 24 months or less to mitigate price risk on future oil and gas production; no derivatives other than those effective as hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 760000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2847000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 33497,
+      "proved_gas_reserves_mmcf": 97218,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 304.413,
+      "pv10_mm": 304.413,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

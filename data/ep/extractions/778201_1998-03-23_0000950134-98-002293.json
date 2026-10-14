@@ -1,0 +1,167 @@
+{
+  "cik": "778201",
+  "company": "SUN ENERGY PARTNERS LP",
+  "filing_date": "1998-03-23",
+  "accession_number": "0000950134-98-002293",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 19.87,
+        "ceiling_price": 21.15,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedges approximately 10 percent of 1998 crude production; WTI-based average floor and ceiling. Volume not stated.",
+        "evidence_quote": "The Partnership has entered into collar agreements to hedge\napproximately 10 percent of its 1998 crude production at an average floor price\nof $19.87 WTI per barrel and an average ceiling price of $21.15 WTI per barrel."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2.21,
+        "ceiling_price": 2.42,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Approximately 25 percent of estimated 1998 gas production; Henry Hub-based average floor and ceiling. Volume not stated.",
+        "evidence_quote": "Approximately 25 percent of its estimated 1998 gas production is under hedging\nagreements using collars at an average floor price of $2.21 HH per mmbtu and an\naverage ceiling price of $2.42 HH per mmbtu."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 20.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Note 2 (financial instruments) description at Dec 31, 1997: crude oil contracts hedging about 9 percent of estimated 1998 production at an average price; instrument type not stated and may overlap with the collars described in MD&A. Aggregate fair value of derivative assets approx $5 million (not split by instrument).",
+        "evidence_quote": "At December 31, 1997, the Partnership was a party to crude oil contracts to\nhedge about 9 percent of its estimated 1998 crude oil production at an average\nprice of $20.17 per barrel."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 2.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Note 2 description at Dec 31, 1997: approximately 20 percent of estimated 1998 natural gas production hedged; instrument type not stated and may overlap with the gas collars described in MD&A.",
+        "evidence_quote": "Approximately 20 percent of its estimated 1998\nnatural gas production was hedged at $2.19 per mmbtu."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 20.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Prior-year position at Dec 31, 1996: contracts hedging about 20 percent of estimated 1997 crude oil production at $20.30 per barrel; instrument type not stated.",
+        "evidence_quote": "At December 31, 1996, the\nPartnership was a party to crude oil and natural gas contracts to hedge about 20\npercent of its estimated 1997 crude oil production at $20.30 per barrel and 31\npercent of its estimated 1997 natural gas production at $2.24 per mmbtu."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 2.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Prior-year position at Dec 31, 1996: contracts hedging 31 percent of estimated 1997 natural gas production at $2.24 per mmbtu; instrument type not stated.",
+        "evidence_quote": "At December 31, 1996, the\nPartnership was a party to crude oil and natural gas contracts to hedge about 20\npercent of its estimated 1997 crude oil production at $20.30 per barrel and 31\npercent of its estimated 1997 natural gas production at $2.24 per mmbtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enters into commodity futures contracts/hedging arrangements with major financial institutions to manage crude oil and natural gas price risk and maintain specified margins; not for trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 46000,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 485,
+      "ngl_production_bbls": null,
+      "total_production_boe": 50000000,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 1193000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 420000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2476,
+      "pv10_mm": null,
+      "oil_price_used": 17.16,
+      "gas_price_used": 2.29,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": 5.99
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

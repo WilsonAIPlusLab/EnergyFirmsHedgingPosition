@@ -1,0 +1,119 @@
+{
+  "cik": "1071993",
+  "company": "CONTANGO OIL & GAS CO",
+  "filing_date": "2003-09-22",
+  "accession_number": "0001193125-03-052435",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 10000,
+        "volume_total": 920000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.5,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-08",
+        "period_end": "2003-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Puts owned; open at June 30, 2003. Total mark-to-market of all open contracts was a loss of $58,171 (not split by instrument).",
+        "evidence_quote": "Natural gas puts owned\n\n\t08/2003 \u2013 10/2003\n\t  \n\t$\n\t4.50\n\t  \n\t10,000/day"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 10000,
+        "volume_total": 610000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-11",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Puts owned; open at June 30, 2003. Total mark-to-market of all open contracts was a loss of $58,171 (not split by instrument).",
+        "evidence_quote": "Natural gas puts owned\n\n\t11/2003 \u2013 12/2003\n\t  \n\t$\n\t4.00\n\t  \n\t10,000/day"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 8000,
+        "volume_total": 736000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 6,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-08",
+        "period_end": "2003-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Calls sold; open at June 30, 2003. Total mark-to-market of all open contracts was a loss of $58,171 (not split by instrument).",
+        "evidence_quote": "Natural gas calls sold\n\n\t08/2003 \u2013 10/2003\n\t  \n\t$\n\t6.00\n\t  \n\t8,000/day"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Policy is to hedge only through the purchase of puts, due to natural gas price volatility and the risk of large losses if NYMEX prices spike when options settle."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 138569,
+      "oil_production_bpd": 380,
+      "gas_production_mcf": 6016395,
+      "gas_production_mmcf_per_day": 16.5,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2003
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 395,
+      "proved_gas_reserves_mmcf": 21222,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2003-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 52.55959,
+      "pv10_mm": 69.62715,
+      "oil_price_used": 30.19,
+      "gas_price_used": 5.235,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:25",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

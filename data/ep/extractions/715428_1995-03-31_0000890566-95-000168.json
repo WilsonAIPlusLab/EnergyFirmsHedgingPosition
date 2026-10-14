@@ -1,0 +1,101 @@
+{
+  "cik": "715428",
+  "company": "AMERICAN EXPLORATION CO",
+  "filing_date": "1995-03-31",
+  "accession_number": "0000890566-95-000168",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15000,
+        "volume_total": 1350000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-01",
+        "period_end": "1995-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Two swap transactions combined; weighted average fixed price. Company pays 50% of the difference if market is above $2.15 and receives 100% if below. Market price based on Inside F.E.R.C.'s Gas Market Report (Henry Hub or Houston Ship Channel). Fair value of all price swap agreements combined was $806 thousand (carrying value $57 thousand), not split by instrument.",
+        "evidence_quote": "For the period January 1995 through March 1995, American has two swap transactions\ncovering 15,000 MMBtu of gas per day hedged at a weighted average fixed price of\n$2.15 per MMBtu."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 2000.0,
+        "volume_total": 362000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 17.96,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-01",
+        "period_end": "1995-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Text describes 362,000 barrels hedged at a floor of $17.96 per Bbl NYMEX WTI Light Crude Oil, disclosed within the swap agreements note; carrying value reflects a premium paid. Floor classified as put_option based on the word floor only.",
+        "evidence_quote": "the period January 1995 through June 1995, the Company has 362,000 barrels of oil\nhedged at a floor of $17.96 per Bbl NYMEX WTI Light Crude Oil."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Swap agreements used to mitigate impact of oil and gas price declines; about 41% of Dec 1994 oil production hedged through June 1995 and 23% of gas through March 1995."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1241000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 16241000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 3948000,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 40800,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.4,
+      "production_tax_per_boe": 0.72,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 7.5,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

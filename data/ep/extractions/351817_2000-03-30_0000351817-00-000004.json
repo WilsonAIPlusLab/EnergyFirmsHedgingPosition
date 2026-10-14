@@ -1,0 +1,119 @@
+{
+  "cik": "351817",
+  "company": "SILVERBOW RESOURCES, INC.",
+  "filing_date": "2000-03-30",
+  "accession_number": "0000351817-00-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "mixed",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 0.1125,
+        "notes": "Price floors (purchased puts) on oil and natural gas; open contracts at 12/31/1999 cost approx $98,000, fair market value $112,500. Volumes, strikes and periods not stated.",
+        "evidence_quote": "approximately  $98,000 and had a fair market value of $112,500."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 19,
+        "ceiling_price": 23.6,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-06",
+        "counterparty": null,
+        "fair_value_mm": 0.095,
+        "notes": "Participating collar; 100,000 Bbls per month Jan-Jun 2000; participate in 75% of any amount above the $23.60 ceiling. Fair value approx $95,000 at 12/31/1999 as quoted by dealers. January 2000 collar expired at a loss of $62,550.",
+        "evidence_quote": "We  hedged  100,000  Bbls of oil per  month  for the  months"
+      },
+      {
+        "instrument_type": "volumetric_production_payment",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3058.6,
+        "volume_total": 9500000,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.115,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1992-05",
+        "period_end": "2000-10",
+        "counterparty": "Enron",
+        "fair_value_mm": null,
+        "notes": "Volumetric production payment sold May 1992; approx 9.5 Bcf over eight years at average price of $1.115 per MMBtu; approx 0.4 Bcf remained to be delivered through October 2000 at 12/31/1999.",
+        "evidence_quote": "deliver to Enron  approximately  9.5 Bcf over an eight-year  period, or for such"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Price risk program permits futures, forwards, options and swaps to mitigate oil and gas price risk; periodically buys price floors and enters participating collars."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2565000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 27500000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 20806.263,
+      "proved_gas_reserves_mmcf": 329959.749,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 438.943834,
+      "pv10_mm": 564.1,
+      "oil_price_used": 23.69,
+      "gas_price_used": 2.58,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

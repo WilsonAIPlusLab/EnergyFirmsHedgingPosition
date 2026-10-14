@@ -1,0 +1,137 @@
+{
+  "cik": "63528",
+  "company": "MAYNARD OIL CO",
+  "filing_date": "2001-03-30",
+  "accession_number": "0000914760-01-000054",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2500,
+        "volume_total": 607500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 14,
+        "ceiling_price": 23.9,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-11",
+        "period_end": "2000-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Settled monthly against average WTI. Revenues reduced by $2,173,225 in 2000 and $234,673 in 1999.",
+        "evidence_quote": "hedged 2,500 barrels of daily  production  from November 1,\n1999 through June 30, 2000 with a ceiling price of $23.90/bbl  and a floor price\nof $14.00/bbl."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 25,
+        "ceiling_price": 28.3,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-03",
+        "period_end": "2000-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Text says it mirrored the first instrument except for the ceiling and floor; volume not restated. Cancelled by the Company effective April 1, 2000. Q1 2000 revenues reduced by $145,525.",
+        "evidence_quote": "A second derivative instrument was entered into effective March 1, 2000\nthrough  June 30,  2000 which  mirrored  the first  except the ceiling and floor\namounts were $28.30 and $25.00 per barrel, respectively."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 181000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 24,
+        "ceiling_price": 36.5,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-09",
+        "period_end": "2001-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Effective September 1, 2000 for six months; monthly settlement against average WTI. No monies exchanged September 2000 through February 2001.",
+        "evidence_quote": "Effective  September 1, 2000,  the Company  entered into an  additional\nderivative  financial  instrument  in which the Company  hedged 1,000 barrels of\ndaily  production  for a period of six months with a ceiling price of $36.50/bbl\nand a floor  price of  $24.00/bbl."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 25,
+        "ceiling_price": 37.2,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-10",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Effective October 1, 2000 for a period of six months (end month not stated). Average WTI stayed between floor and ceiling over the contract life, so no monies were exchanged.",
+        "evidence_quote": "another derivative  financial instrument in which an additional 1,000 barrels of\ndaily  production  was hedged for a period of six months with a ceiling price of\n$37.20/bbl  and a floor  price of  $25.00/bbl."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time enters financial market transactions, including collars, with creditworthy counterparties to reduce pricing risk on a portion of oil and gas sold; underpins planned revenues and results."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1369456,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3915325,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 13610.35,
+      "proved_gas_reserves_mmcf": 32077.72,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 191.578,
+      "pv10_mm": null,
+      "oil_price_used": 25.27,
+      "gas_price_used": 9.72,
+      "lease_operating_expense_per_boe": 7.01,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.01,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:36",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

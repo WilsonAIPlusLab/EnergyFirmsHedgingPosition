@@ -1,0 +1,80 @@
+{
+  "cik": "868082",
+  "company": "EVERFLOW EASTERN PARTNERS LP",
+  "filing_date": "2026-03-26",
+  "accession_number": "0001437749-26-009857",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2412.37,
+        "volume_total": 1170000,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2026-01",
+        "period_end": "2027-04",
+        "counterparty": "Major Gas Purchaser",
+        "fair_value_mm": null,
+        "notes": "Physical sales lock-in under contracts with the Major Gas Purchaser, not a financial derivative; various monthly volumes, monthly weighted-average price averaging $3.40/MCF net of regional basis adjustments; no fair value disclosed.",
+        "evidence_quote": "The Company has elected to lock-in various monthly quantities of natural gas which total 1,170,000 MCF from January 2026 through April 2027 at various monthly weighted-average pricing provisions averaging $3.40 per MCF, net of regional basis adjustments."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Item 7A not required for smaller reporting company; no financial derivatives stated; price risk mitigated by shutting in wells in depressed gas markets and physical lock-in of gas volumes with a purchaser."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 30000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1434000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 253,
+      "proved_gas_reserves_mmcf": 11067,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": -4.642,
+      "pv10_mm": null,
+      "oil_price_used": 61.97,
+      "gas_price_used": 2.68,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "cik": "906422",
+  "company": "PDV AMERICA INC",
+  "filing_date": "2002-03-29",
+  "accession_number": "0000950129-02-001612",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "other",
+        "direction": "long",
+        "volume_total": 994000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 25,
+        "notes": "No Lead Gasoline (refined product). Number of contracts 994 in thousands of barrels per footnote (1). Contract value $25.4MM; market value $25.0MM. Open position at 2001-12-31.",
+        "evidence_quote": "No Lead Gasoline (1)       Futures Purchased                              2002           994            $ 25.4      $ 25.0"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "other",
+        "direction": "short",
+        "volume_total": 332000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 8.1,
+        "notes": "No Lead Gasoline (refined product). 332 thousand barrels. Contract value $8.3MM; market value $8.1MM.",
+        "evidence_quote": "Futures Sold                                   2002           332            $  8.3      $  8.1"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "other",
+        "direction": "long",
+        "volume_total": 4095000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 94,
+        "notes": "No Lead Gasoline (refined product) forward purchase contracts. 4,095 thousand barrels. Contract value $95.8MM; market value $94.0MM.",
+        "evidence_quote": "Forward Purchase Contracts                     2002          4,095           $ 95.8      $ 94.0"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "other",
+        "direction": "short",
+        "volume_total": 3148000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 73.2,
+        "notes": "No Lead Gasoline (refined product) forward sale contracts. 3,148 thousand barrels. Contract value $71.2MM; market value $73.2MM.",
+        "evidence_quote": "Forward Sale Contracts                         2002          3,148           $ 71.2      $ 73.2"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "other",
+        "direction": "long",
+        "volume_total": 1483000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 34.6,
+        "notes": "Distillates (refined product). 1,483 thousand barrels. Contract value $43.4MM; market value $34.6MM.",
+        "evidence_quote": "Distillates (1)            Futures Purchased                              2002          1,483           $ 43.4      $ 34.6"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "other",
+        "direction": "long",
+        "volume_total": 94000,
+        "volume_unit": "Bbls",
+        "period_end": "2003-12",
+        "fair_value_mm": 2.3,
+        "notes": "Distillates (refined product), 2003 maturity. 94 thousand barrels. Contract value $2.4MM; market value $2.3MM.",
+        "evidence_quote": "Futures Purchased                              2003           94             $  2.4      $  2.3"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "other",
+        "direction": "short",
+        "volume_total": 943000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 21.8,
+        "notes": "Distillates (refined product). 943 thousand barrels. Contract value $25.3MM; market value $21.8MM.",
+        "evidence_quote": "Futures Sold                                   2002           943            $ 25.3      $ 21.8"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "long",
+        "volume_total": 30000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "notes": "Distillates (refined product) OTC options purchased; call/put type not stated. 30 thousand barrels. Contract value and market value shown as '--'.",
+        "evidence_quote": "OTC Options Purchased                          2002           30             $   --      $   --"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "short",
+        "volume_total": 30000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": -0.1,
+        "notes": "Distillates (refined product) OTC options sold; call/put type not stated. 30 thousand barrels. Contract value $(0.1)MM; market value $(0.1)MM.",
+        "evidence_quote": "OTC Options Sold                               2002           30             $ (0.1)     $ (0.1)"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "other",
+        "direction": "long",
+        "volume_total": 1123000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 24.9,
+        "notes": "Distillates (refined product) forward purchase contracts. 1,123 thousand barrels. Contract value $25.2MM; market value $24.9MM.",
+        "evidence_quote": "Forward Purchase Contracts                     2002          1,123           $ 25.2      $ 24.9"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "other",
+        "direction": "short",
+        "volume_total": 2536000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 56.4,
+        "notes": "Distillates (refined product) forward sale contracts. 2,536 thousand barrels. Contract value $56.3MM; market value $56.4MM.",
+        "evidence_quote": "Forward Sale Contracts                         2002          2,536           $ 56.3      $ 56.4"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_total": 517000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 10.4,
+        "notes": "517 thousand barrels. Contract value $12.6MM; market value $10.4MM.",
+        "evidence_quote": "Crude Oil (1)              Futures Purchased                              2002           517            $ 12.6      $ 10.4"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_total": 649000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 12.9,
+        "notes": "649 thousand barrels. Contract value $12.7MM; market value $12.9MM.",
+        "evidence_quote": "Futures Sold                                   2002           649            $ 12.7      $ 12.9"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_total": 2000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 0.3,
+        "notes": "OTC swap pay float/receive fixed; fixed price agreed at contract date but not stated. Number 2 in thousands of barrels. Contract value '--'; market value $0.3MM.",
+        "evidence_quote": "OTC Swaps (Pay Float/Receive Fixed)(3)         2002            2             $   --      $  0.3"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_total": 1000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "notes": "OTC swap pay fixed/receive float; fixed price not stated. Number 1 in thousands of barrels. Contract value and market value shown as '--'.",
+        "evidence_quote": "OTC Swaps (Pay Fixed/Receive Float)(3)         2002            1             $   --      $   --"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_total": 6652000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 135.2,
+        "notes": "Forward purchase contracts. 6,652 thousand barrels. Contract value $130.3MM; market value $135.2MM.",
+        "evidence_quote": "Forward Purchase Contracts                     2002          6,652           $130.3      $135.2"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_total": 6268000,
+        "volume_unit": "Bbls",
+        "period_end": "2002-12",
+        "fair_value_mm": 137,
+        "notes": "Forward sale contracts. 6,268 thousand barrels. Contract value $135.1MM; market value $137.0MM.",
+        "evidence_quote": "Forward Sale Contracts                         2002          6,268           $135.1      $137.0"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_total": 550000,
+        "volume_unit": "Mmbtu",
+        "period_end": "2002-12",
+        "fair_value_mm": 1.4,
+        "notes": "Number 55 in ten-thousands of mmbtu per footnote (2). Contract value $1.6MM; market value $1.4MM.",
+        "evidence_quote": "Natural Gas (2)            Futures Sold                                   2002           55             $  1.6      $  1.4"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_total": 200000,
+        "volume_unit": "Mmbtu",
+        "period_end": "2002-12",
+        "fair_value_mm": -0.1,
+        "notes": "OTC options sold; call/put type not stated. Number 20 in ten-thousands of mmbtu. Contract value '--'; market value $(0.1)MM.",
+        "evidence_quote": "OTC Options Sold                               2002           20             $   --      $ (0.1)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Refiner/marketer using petroleum futures, options, OTC swaps and forwards to manage inventory and supply/demand price risk; from 2001 hedge accounting only for derivatives of 90+ days and $25MM+ notional."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

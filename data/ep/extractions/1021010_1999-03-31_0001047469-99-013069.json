@@ -1,0 +1,101 @@
+{
+  "cik": "1021010",
+  "company": "EDGE PETROLEUM CORP",
+  "filing_date": "1999-03-31",
+  "accession_number": "0001047469-99-013069",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 13000,
+        "volume_total": 3185000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.96,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-03",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": -0.292,
+        "notes": "Fixed price swap entered December 1998; covers approx 65% of daily production; fair value at 12/31/1998 approx $(292,000); 10% price change changes fair value by approx $79,000 per month. Direction not explicit in text.",
+        "evidence_quote": "During December 1998, the Company\nentered into a fixed price swap for $1.96 per MMbtu. This fixed price swap\ncovers 13,000 MMbtu per day, or approximately 65% of daily production"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": "a financial institution (unnamed)",
+        "fair_value_mm": null,
+        "notes": "Several natural gas collars in place during 1997 and 1998 covering 5,000-20,000 MMbtu per day (30%-60% of daily production); floor and cap prices not disclosed; no active collars at 12/31/1998; net settlement gains approx $33,000 (1997) and $482,000 (1998). Expired, historical.",
+        "evidence_quote": "During 1997 and 1998 the Company had in place several natural gas\ncommodity collars with a financial institution covering 5,000 - 20,000 MMbtus\nper day, or approximately 30%--60% of the Company's daily production."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enters hedging transactions (collars and swaps) on a portion of natural gas production to mitigate price exposure and achieve more predictable cash flow; not for trading or speculative purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 141774,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 6284495,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 445,
+      "proved_gas_reserves_mmcf": 24235,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 22.729754,
+      "pv10_mm": 22.73,
+      "oil_price_used": 11.04,
+      "gas_price_used": 1.84,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

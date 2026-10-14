@@ -1,0 +1,90 @@
+{
+  "cik": "813762",
+  "company": "ICAHN ENTERPRISES L.P.",
+  "filing_date": "2026-02-26",
+  "accession_number": "0001104659-26-019821",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "mixed",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 3120000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "CVR Energy (Energy segment, refining) crack spread swaps, positions as of 2025-12-31 that offset to 3,120 thousand barrels (63 thousand at 2024-12-31). Not designated as hedges. No prices or maturities stated.",
+        "evidence_quote": "CVR Energy had swap positions for crack spreads that offset to 3,120 thousand and 63 thousand barrels at each period, respectively."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 75000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "CVR Energy (refining) futures contracts, 75 thousand barrels at 2025-12-31 (159 thousand at 2024-12-31). Underlying commodity not specified; no prices or maturities stated.",
+        "evidence_quote": "CVR Energy had 75 thousand and 159 thousand barrels of future contracts at each period, respectively."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 736000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2025-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "CVR Energy (refining) forward contracts, 736 thousand barrels at 2025-12-31 (11 thousand at 2024-12-31). Underlying commodity not specified; no prices or maturities stated.",
+        "evidence_quote": "CVR Energy had forward contracts of 736 thousand and 11 thousand barrels of forward contracts at each period, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "CVR Energy (refining subsidiary) uses futures, swaps and forwards as economic hedges (not designated) to fix margins and hedge inventories; Investment Funds hold derivatives for investment."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": null
+    },
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

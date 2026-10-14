@@ -1,0 +1,137 @@
+{
+  "cik": "717754",
+  "company": "INLAND RESOURCES INC",
+  "filing_date": "1998-03-31",
+  "accession_number": "0000930661-98-000681",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 20.55,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "2000-12",
+        "counterparty": "Enron Capital and Trade Resources Corp.",
+        "fair_value_mm": null,
+        "notes": "Enron Hedge: cost free collar on NYMEX Light Sweet Crude Oil Futures average monthly price; monthly amounts escalate from 8,500 Bbls in Jan 1996 to 14,000 Bbls in Dec 2000 (volume_total not stated).",
+        "evidence_quote": "hedges crude oil production over a five year period beginning January 1, 1996 in monthly amounts\nescalating from 8,500 Bbls in January 1996 to 14,000 Bbls in December 2000."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "2000-12",
+        "counterparty": "Koch Gas Services Company",
+        "fair_value_mm": null,
+        "notes": "Contract entered Jan 1, 1997 for a $34,170 payment that exactly offsets the effect of the Enron Hedge during Jan 1998 through Dec 2000; price terms and volumes not stated separately.",
+        "evidence_quote": "On January 1, 1997, the Company paid $34,170 to enter into a\ncontract with Koch Gas Services Company (\"Koch\") that exactly offsets the effect\nof the Enron Hedge during the period January 1998 through December 2000."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-03",
+        "counterparty": "Enron",
+        "fair_value_mm": null,
+        "notes": "100,000 barrels per month; Company paid $33,000 for this contract, amortized over the contract period.",
+        "evidence_quote": "The Company has also entered into a put\ncontract with Enron for 100,000 barrels per month from January 1998 through\nMarch 1998 at a put price of $16.00 per barrel."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 14.5,
+        "ceiling_price": 17.7,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-04",
+        "period_end": "1998-12",
+        "counterparty": "Enron",
+        "fair_value_mm": null,
+        "notes": "Cost free collar entered March 12, 1998 (subsequent event), based on NYMEX Light Sweet Crude Oil Futures; 75,000 barrels per month.",
+        "evidence_quote": "On March 12, 1998, the Company entered into a cost free collar with Enron\nwhereby the average monthly price, based on NYMEX Light Sweet Crude Oil Futures\nContracts, is between $14.50 and $17.70 per barrel."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into commodity contracts to hedge or reduce impact of oil and gas price fluctuations and to help ensure repayment of indebtedness; costs and settlements adjust revenue when sold."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 854945,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1636758,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 1127738,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 37135,
+      "proved_gas_reserves_mmcf": 75483,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 78.622,
+      "pv10_mm": 93.839,
+      "oil_price_used": 13.33,
+      "gas_price_used": 2.63,
+      "lease_operating_expense_per_boe": 3.35,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 3.69,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.52,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

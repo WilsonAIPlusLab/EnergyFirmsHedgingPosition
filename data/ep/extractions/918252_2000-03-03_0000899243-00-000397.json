@@ -1,0 +1,137 @@
+{
+  "cik": "918252",
+  "company": "VASTAR RESOURCES INC",
+  "filing_date": "2000-03-03",
+  "accession_number": "0000899243-00-000397",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 400000,
+        "volume_total": 36400000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.54,
+        "ceiling_price": 3.27,
+        "price_unit": "$/Mcf",
+        "period_start": "2000-01",
+        "period_end": "2000-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Stated as 400 MMcfd; weighted average prices. Combined fair value of 2000 gas hedges (collars and sold puts) is a $6.9 million gain, not split by instrument.",
+        "evidence_quote": "Gas................ Collars    Jan--Mar 2000 400 MMcfd $ 2.54/Mcf-$ 3.27/Mcf"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 400000,
+        "volume_total": 36400000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.12,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2000-01",
+        "period_end": "2000-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Puts sold; stated as 400 MMcfd; strike is weighted average price. Likely paired with the gas collars (sold put below collar floor), but the text does not label it a three-way collar.",
+        "evidence_quote": "Gas................ Puts Sold  Jan--Mar 2000 400 MMcfd       $2.12/Mcf"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 23000,
+        "volume_total": 8418000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18.8,
+        "ceiling_price": 23.31,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Stated as 23 MBbld; weighted average prices. Combined fair value of 2000 oil hedges (collars and sold puts) is a $7.0 million loss, not split by instrument.",
+        "evidence_quote": "Oil................ Collars    Jan--Dec 2000 23 MBbld  $18.80/Bbl-$23.31/Bbl"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 23000,
+        "volume_total": 8418000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 15.8,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Puts sold; stated as 23 MBbld; strike is weighted average price. Likely paired with the oil collars, but the text does not label it a three-way collar.",
+        "evidence_quote": "Oil................ Puts Sold  Jan--Dec 2000 23 MBbld       $15.80/Bbl"
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Hedges gas and crude oil price risk with collars and sold puts (hedged 25% of 1999 gas and 14% of 1999 oil production); interest rate swaps used for interest rate risk."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 1999,
+      "oil_production_bbls": null,
+      "oil_production_bpd": 45000,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 1078,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "reserves_year_end": "1999-12-31",
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 2651000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

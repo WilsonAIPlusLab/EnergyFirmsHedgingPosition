@@ -1,0 +1,119 @@
+{
+  "cik": "316456",
+  "company": "CONOCO CANADA RESOURCES LTD",
+  "filing_date": "1998-03-30",
+  "accession_number": "0000950134-98-002681",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10833,
+        "volume_total": 3954045,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 19.46,
+        "ceiling_price": 22.98,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Text says 'forward' sales of 1998 liquids production at average minimum floor approx US$19.46 and average maximum ceiling US$22.98; prices in US$. Commodity is liquids (oil/NGL not split). Aggregate commodity price contracts fair value of $14 million is not split by instrument.",
+        "evidence_quote": "sold, on a forward basis, approximately 10,833 barrels"
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 95000,
+        "volume_total": 34675000,
+        "volume_unit": "Mcf",
+        "fixed_price": 1.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Approx 95 million cubic feet per day (95,000 Mcf/d) of 1998 gas forward sold at average plant gate price approx Cdn$1.80 per Mcf (FX US$0.72 to Cdn$1.00); achieved via combination of physical sales and financial forward sales and options. Price is Canadian dollars.",
+        "evidence_quote": "The Company also forward sold approximately 95 million cubic"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 115000,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": -0.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis differential Henry Hub to Alberta fixed through gas aggregator sales, direct physical sales and financial transactions on approx 115 million cubic feet per day at approx US$0.80 discount per million BTU. Period not explicitly stated for this item.",
+        "evidence_quote": "average level of approximately US$0.80 discount per million"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company is exposed to price risks on future oil and gas production and to reduce this risk sold forward liquids and gas production, and fixed Henry Hub-Alberta basis; also hedges FX and interest rates."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 104500,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 433,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 153300,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 511000,
+      "proved_gas_reserves_mmcf": 2093000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 783000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:23",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

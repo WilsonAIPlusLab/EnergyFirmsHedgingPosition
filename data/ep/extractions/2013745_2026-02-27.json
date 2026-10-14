@@ -1,0 +1,80 @@
+{
+  "cik": "2013745",
+  "company": "Calumet, Inc. /DE",
+  "filing_date": "2026-02-27",
+  "accession_number": "0002013745-26-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "mixed",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3650000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": 6.7,
+        "notes": "Crack spread swaps (sales), not designated as hedges. Entered in Q4 2025 for 10,000 bpd, ~25% of expected fuels production. Notional outstanding at 12/31/2025: 3,650,000 barrels, all maturing in 2026 (the 2026-01 to 2026-12 period reflects the year of maturity only; no month range stated). Fair value 6.7 is the derivative asset at 12/31/2025. Swap price not disclosed.",
+        "evidence_quote": "During the fourth quarter of 2025, the Company entered into crack spread swaps for 10,000 barrels per day, which is approximately 25% of the Company\u2019s expected fuels production."
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Uses swaps, collars, options, futures and physical forwards to economically hedge crude, product and natural gas exposure; no speculation; risk management committee oversight; quarterly board reporting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:04",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

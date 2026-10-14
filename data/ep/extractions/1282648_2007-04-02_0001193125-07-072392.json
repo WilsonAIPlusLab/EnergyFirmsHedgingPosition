@@ -1,0 +1,155 @@
+{
+  "cik": "1282648",
+  "company": "BATTALION OIL CORP",
+  "filing_date": "2007-04-02",
+  "accession_number": "0001193125-07-072392",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1500,
+        "volume_total": 547500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 52.67,
+        "ceiling_price": 73.24,
+        "price_unit": "$/Bbl",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table: Collars 2007, 1,500 Bbls/day; note K states 45,625 barrels per month through 2007. Crude oil contracts cover each month of 2007. Position as of Dec 31, 2006.",
+        "evidence_quote": "The 45,625 barrels per month in 2007 had a weighted average floor and ceiling of $52.67 and $73.24, respectively."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 950,
+        "volume_total": 347700,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 53.69,
+        "ceiling_price": 86.08,
+        "price_unit": "$/Bbl",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table: Collars 2008, 950 Bbls/day; note K states 28,967 barrels per month through 2008. Position as of Dec 31, 2006.",
+        "evidence_quote": "and ceiling of $53.69 and $86.08, respectively. For natural gas, the"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4177,
+        "volume_total": 1395118,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 7.48,
+        "ceiling_price": 11.58,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-02",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table: Collars 2007, 4,177 Mmbtu/day; note K states 116,250 Mmbtu per month in 2007. Natural gas contracts are for February through December 2007.",
+        "evidence_quote": "The 116,250 Mmbtu per month in 2007 had a weighted average floor and ceiling of $7.48 and $11.58, respectively."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 4000,
+        "volume_total": 1464000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 6.87,
+        "ceiling_price": 13.53,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table: Collars 2008, 4,000 Mmbtu/day; note K states 122,000 Mmbtu per month in 2008. Natural gas contracts for 2008 are for January through December.",
+        "evidence_quote": "month in 2008 had a weighted average floor and ceiling of $6.87 and $13.53, respectively."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 4000,
+        "volume_total": 856000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 12,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-04",
+        "period_end": "2007-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Listed as Secondary Floors 2007 in the table (4,000 per day, $12.00); described as purchased call options establishing a secondary floor above the collar ceiling; note K states 122,000 Mmbtu per month for seven months in 2007. Strike reported in floor_price as the filing calls it a floor price.",
+        "evidence_quote": "The Company purchased call options on 122,000 Mmbtu per month of natural gas for seven months in 2007 at a weighted average floor price of $12.00."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically utilize derivative strategies (puts, collars, secondary-floor call options, swaps) for a portion of future production; notional volumes do not exceed expected production; not designated as hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 752000,
+      "oil_production_bpd": 2061,
+      "gas_production_mcf": 2365000,
+      "gas_production_mmcf_per_day": 6.479,
+      "ngl_production_bbls": 143000,
+      "total_production_boe": 1290000,
+      "total_production_boepd": 3533,
+      "production_year": 2006
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 10796,
+      "proved_gas_reserves_mmcf": 33199,
+      "proved_ngl_reserves_mbbls": 2123,
+      "total_proved_reserves_mboe": 18500,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2006-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 179.741,
+      "pv10_mm": 269.9,
+      "oil_price_used": 58.74,
+      "gas_price_used": 5.51,
+      "lease_operating_expense_per_boe": 14.16,
+      "production_tax_per_boe": 2.58,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 9.77,
+      "finding_development_cost_per_boe": 27.18
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

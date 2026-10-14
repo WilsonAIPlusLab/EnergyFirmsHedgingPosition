@@ -1,0 +1,83 @@
+{
+  "cik": "724176",
+  "company": "MAXUS ENERGY CORP /DE/",
+  "filing_date": "1995-03-22",
+  "accession_number": "0000950131-95-000687",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 16164.38,
+        "volume_total": 5900000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-01",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": -0.6,
+        "notes": "Aggregate of all gas price swaps at 12/31/1994 with other companies; company pays fixed or variable prices averaging $1.70/Mmbtu and receives fixed or variable prices averaging $1.60/Mmbtu; fixed vs variable legs not separable so fixed_price left null. Period is 'over the next year' after 12/31/1994. Fair value of natural gas hedging program (.6) unfavorable per fair value table.",
+        "evidence_quote": "At December 31, 1994, the Company had swap agreements\nwith other companies to exchange payments on 5.9 million Mmbtu of gas over the\nnext year."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges natural gas price via price swap agreements and futures contracts; typically hedges no more than 50% of U.S. gas production; not used for trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 24300000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 74000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 3800000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 229400,
+      "proved_gas_reserves_mmcf": 796000,
+      "proved_ngl_reserves_mbbls": 45900,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 929.8,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

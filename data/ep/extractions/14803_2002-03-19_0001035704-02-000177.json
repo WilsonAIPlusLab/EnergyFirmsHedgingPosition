@@ -1,0 +1,149 @@
+{
+  "cik": "14803",
+  "company": "BROWN TOM INC /DE",
+  "filing_date": "2002-03-19",
+  "accession_number": "0001035704-02-000177",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collars (put and call options) entered Dec 2000 covering approx 40% of expected 2001 U.S. gas production; volumes and strikes not stated. Derivative liability of $7.1 million recognized at SFAS 133 adoption (1 Jan 2001). None outstanding at 31 Dec 2001.",
+        "evidence_quote": "arrangements (put and call options) to hedge approximately 40% of the Company's"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis swaps executed Dec 2000 covering essentially the same period as the costless collars; derivative asset of $3.2 million at SFAS 133 adoption; not hedge accounting; none outstanding at 31 Dec 2001. Volumes and prices not stated.",
+        "evidence_quote": "transactions were executed in December, 2000 with settlement periods in 2001."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2001-09",
+        "period_end": "2001-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX based swaps entered Aug 2001 for Sept and Oct 2001 contract periods; basis swaps purchased on these quantities; cash settlements of $2.0 million received. Volumes and prices not stated.",
+        "evidence_quote": "In August 2001, the Company entered into NYMEX based swaps for the"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2001-11",
+        "period_end": "2001-11",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX based swaps entered Oct 2001 for Nov 2001 contract period; basis swaps purchased on these quantities; cash settlement of $1.5 million paid. Volumes and prices not stated.",
+        "evidence_quote": "In October 2001, the Company entered into NYMEX based swaps for the"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 35000,
+        "volume_total": 12775000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.02,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": "third parties (unnamed)",
+        "fair_value_mm": null,
+        "notes": "Three gas price swap contracts tied to 1998 advance payments from gas purchasers; Company is fixed price payor for 35,000 Mmbtu/day at weighted average $2.02; twelve months commencing January 1999; completely settled as of 31 Dec 1999.",
+        "evidence_quote": "price swap contracts outstanding whereby the Company became a fixed price payor"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "May from time to time enter into non-speculative hedge arrangements, swaps, forward sales, futures, options to protect against commodity price fluctuations. No hedges open at 31 Dec 2001."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 881000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 63824000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1217000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6647,
+      "proved_gas_reserves_mmcf": 641579,
+      "proved_ngl_reserves_mbbls": 8360,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 452.696,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

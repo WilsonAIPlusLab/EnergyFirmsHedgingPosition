@@ -1,0 +1,101 @@
+{
+  "cik": "1070412",
+  "company": "CNX Resources Corp",
+  "filing_date": "2004-03-12",
+  "accession_number": "0001193125-04-039975",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Float-for-fixed gas swaps, cash flow hedges of anticipated 2003-2005 gas sales. Aggregate disclosure only: no per-swap volume or price. Count differs in text: eight (MD&A) vs five (liquidity section, Dec 31 2003). Hedges (swaps and collars together) were 11% of 2003 produced sales volumes at avg $4.10/Mcf and expected 24% of 2004 volumes at avg $5.17/Mcf. Fair value reported only for the combined gas hedge portfolio: loss of $5.4MM net of $3.5MM deferred tax; or OCI loss $3.6MM net of $2.3MM tax.",
+        "evidence_quote": "CONSOL Energy has also entered into five float-for-fixed gas swap transactions and two float-for-collar gas swap transactions that qualify as financial cash flow hedges"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Two float-for-collar gas swap transactions, cash flow hedges. No floor/ceiling strikes or volumes disclosed. Combined hedge averages: 11% of 2003 produced sales volumes at $4.10/Mcf; 24% of expected 2004 volumes at $5.17/Mcf (swaps and collars not split out).",
+        "evidence_quote": "These cash flow hedges are expected to represent 24% of our estimated 2004 produced sales volumes at an average price of $5.17 per thousand cubic feet."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 7,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses fixed-price contracts, collar-price contracts and derivative commodity instruments (cash-flow hedges under SFAS 133) to minimize gas price volatility; policy prohibits speculative derivatives; none held for trading."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 50000000,
+      "gas_production_mmcf_per_day": 139.1,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2003
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 1004381,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2003-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1011.186,
+      "pv10_mm": 1556.866,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

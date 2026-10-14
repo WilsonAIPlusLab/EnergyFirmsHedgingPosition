@@ -1,0 +1,101 @@
+{
+  "cik": "63959",
+  "company": "MCFARLAND ENERGY INC",
+  "filing_date": "1996-03-25",
+  "accession_number": "0000898430-96-000954",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 732000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 11.5,
+        "ceiling_price": 13.25,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-11",
+        "period_end": "1996-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Hedge Agreement with a local refiner (not named), indexed to Midway Sunset field monthly weighted average posted price. Company receives up to $3.00/Bbl below $11.50 and pays up to $3.00/Bbl above $13.25, on 2,000 Bbl/d. Runs through October 1996.",
+        "evidence_quote": "established price range is $11.50 per barrel to $13.25 per barrel and the"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 730000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 11.25,
+        "ceiling_price": 13,
+        "price_unit": "$/Bbl",
+        "period_start": "1994-11",
+        "period_end": "1995-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Earlier price terms of the same Hedge Agreement with a local refiner (not named); Company received up to $2.75/Bbl below $11.25 and paid up to $2.75/Bbl above $13.00 on 2,000 Bbl/d. Expired within fiscal 1995; 1995 hedge program decreased revenues by $482,000.",
+        "evidence_quote": "average posted price was below $11.25 per barrel and paid up to $2.75 per barrel"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedging ensures a relatively stable crude price for a portion of daily production, to forecast cash flow and budget capital commitments; Company intends to extend the hedge at expiry."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1206000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2181000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 9514,
+      "proved_gas_reserves_mmcf": 12104,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 56,
+      "pv10_mm": 60,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.63,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

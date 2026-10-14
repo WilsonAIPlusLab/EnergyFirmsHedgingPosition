@@ -1,0 +1,155 @@
+{
+  "cik": "904080",
+  "company": "TALOS PETROLEUM LLC",
+  "filing_date": "2006-03-13",
+  "accession_number": "0000950129-06-002574",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 10000,
+        "volume_total": 3650000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 8,
+        "ceiling_price": 14.28,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Zero-premium collar; position as of March 1, 2006; period stated only as 2006. Counterparties (Bank of America, Goldman Sachs, JP Morgan) not matched to rows.",
+        "evidence_quote": "2006\n\n    \t10,000\n\n    \t$\n    \t8.00\n\n    \t$\n    \t14.28\n\n    \t3,000\n\n    \t$\n    \t55.00\n\n    \t$\n    \t76.40"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 9,
+        "ceiling_price": 16.55,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Zero-premium collar; position as of March 1, 2006; period stated only as 2006. Counterparties not matched to rows.",
+        "evidence_quote": "2006\n\n    \t20,000\n\n    \t9.00\n\n    \t16.55\n\n    \t2,000\n\n    \t60.00\n\n    \t78.20"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 20000,
+        "volume_total": 7300000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 10,
+        "ceiling_price": 16.4,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Zero-premium collar; position as of March 1, 2006; period stated only as 2006. Counterparties not matched to rows.",
+        "evidence_quote": "2006\n\n    \t20,000\n\n    \t10.00\n\n    \t16.40"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3000,
+        "volume_total": 1095000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55,
+        "ceiling_price": 76.4,
+        "price_unit": "$/Bbl",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Zero-premium collar settled on WTI monthly average; position as of March 1, 2006; period stated only as 2006. Counterparties not matched to rows.",
+        "evidence_quote": "2006\n\n    \t10,000\n\n    \t$\n    \t8.00\n\n    \t$\n    \t14.28\n\n    \t3,000\n\n    \t$\n    \t55.00\n\n    \t$\n    \t76.40"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 730000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 60,
+        "ceiling_price": 78.2,
+        "price_unit": "$/Bbl",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Zero-premium collar settled on WTI monthly average; position as of March 1, 2006; period stated only as 2006. Counterparties not matched to rows.",
+        "evidence_quote": "2006\n\n    \t20,000\n\n    \t9.00\n\n    \t16.55\n\n    \t2,000\n\n    \t60.00\n\n    \t78.20"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Occasionally hedge a portion of expected production; not more than 50% of estimated production hedged without board consent. Positions hedge approx. 35%-45% of estimated 2006 production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4838000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 54129000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2005
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 41509,
+      "proved_gas_reserves_mmcf": 344088,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2005-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1900,
+      "pv10_mm": 2565.082,
+      "oil_price_used": 57.17,
+      "gas_price_used": 9.86,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

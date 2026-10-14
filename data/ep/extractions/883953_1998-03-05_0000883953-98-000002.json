@@ -1,0 +1,173 @@
+{
+  "cik": "883953",
+  "company": "HALLWOOD CONSOLIDATED RESOURCES CORP",
+  "filing_date": "1998-03-05",
+  "accession_number": "0000883953-98-000002",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 224.66,
+        "volume_total": 82000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 14.57,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contract floor price; 14% of direct production hedged. From 1998 all hedged volumes are subject to a collar with cap prices ranging $17.00 to $18.85 per barrel (cap not assigned to a year); 30%-100% of hedged volumes are also in a participating hedge (25% upside share).",
+        "evidence_quote": "1998                             82,000                     14.57"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 63.01,
+        "volume_total": 23000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 15.38,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contract floor price; 5% of direct production hedged. All hedged volumes subject to collar with cap prices ranging $17.00 to $18.85 per barrel (cap not assigned to a year); 30%-100% of hedged volumes also in a participating hedge.",
+        "evidence_quote": "1999                              23,000                     15.38"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.91,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contract floor price; 31% of direct production hedged. Between 0% and 37% of hedged gas volumes each year are subject to a collar with a cap price of $2.93 per mcf. Contract types used: swaps, collars, participating hedges. Volume not stated in the text provided.",
+        "evidence_quote": "1998                                 31%                      $1.91"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.67,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contract floor price; 18% of direct production hedged. Between 0% and 37% of hedged gas volumes subject to collar with cap price of $2.93 per mcf.",
+        "evidence_quote": "1999                                 18%                       1.67"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.86,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contract floor price; 9% of direct production hedged. Between 0% and 37% of hedged gas volumes subject to collar with cap price of $2.93 per mcf.",
+        "evidence_quote": "2000                                  9%                       1.86"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.53,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contract floor price; 5% of direct production hedged. Between 0% and 37% of hedged gas volumes subject to collar with cap price of $2.93 per mcf.",
+        "evidence_quote": "2001                                  5%                       1.53"
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Swaps, collars and participating hedges on oil and gas production, not for trading, to protect against price decreases and give price stability; also interest rate swaps (ignored)."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 1997,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "reserves_year_end": "1997-12-31",
+      "proved_oil_reserves_mbbls": 5500,
+      "proved_gas_reserves_mmcf": 76000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {
+      "standardized_measure_mm": 88,
+      "pv10_mm": null,
+      "oil_price_used": 16.77,
+      "gas_price_used": 2.2,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 5.01,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

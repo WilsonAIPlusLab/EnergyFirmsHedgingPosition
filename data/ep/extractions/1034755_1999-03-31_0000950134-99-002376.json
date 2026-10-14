@@ -1,0 +1,119 @@
+{
+  "cik": "1034755",
+  "company": "BRIGHAM EXPLORATION CO",
+  "filing_date": "1999-03-31",
+  "accession_number": "0000950134-99-002376",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 5790000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.163,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-04",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contract #1, entered Feb 1998. Total volumes hedged stated per year: 2,750,000 Mmbtu in 1998 and 3,040,000 Mmbtu in 1999 (no single total stated). Index: ANR Pipeline Co.-Oklahoma.",
+        "evidence_quote": "Contract #1    10,000    April 1998 - October 1999   2,750,000   3,040,000                             $2.163"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 1070000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.015,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-04",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contract #2, entered Aug 1998. All 1,070,000 Mmbtu fall in 1999. Index: ANR Pipeline Co.-Oklahoma.",
+        "evidence_quote": "Contract #2     5,000    April 1999 - October 1999               1,070,000                             $2.015"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15000,
+        "volume_total": 8205000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.065,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-11",
+        "period_end": "2001-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contract #3, entered Jan 1999 (after year-end). Total volumes stated per year: 915,000 Mmbtu in 1999, 5,490,000 in 2000, 1,800,000 in 2001 (no single total stated). Index: ANR Pipeline Co.-Oklahoma.",
+        "evidence_quote": "Contract #3    15,000   November 1999 - April 2001                 915,000    5,490,000  1,800,000     $2.065"
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Uses commodity price swaps to reduce exposure to price fluctuations and achieve more predictable cash flows; hedges only a portion of production; held for purposes other than trading."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 1998,
+      "oil_production_bbls": 396000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 4269000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "reserves_year_end": "1998-12-31",
+      "proved_oil_reserves_mbbls": 4433,
+      "proved_gas_reserves_mmcf": 71166,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 81.7,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:32",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

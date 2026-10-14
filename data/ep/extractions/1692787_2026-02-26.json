@@ -1,0 +1,134 @@
+{
+  "cik": "1692787",
+  "company": "Kinetik Holdings Inc.",
+  "filing_date": "2026-02-26",
+  "accession_number": "0001692787-26-000048",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 6660000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 2.611,
+        "notes": "Aggregate commodity swaps outstanding at 12/31/2025; strike prices and period not given. Text says contracts are effective over the next 1 to 24 months. Net fair value $2,611 thousand.",
+        "evidence_quote": "Natural Gas\t\t\t\tMMBtus\t\t6,660,000 \t\t\t$\t2,611"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 4246850.0,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 7.933,
+        "notes": "Aggregate NGL commodity swaps outstanding at 12/31/2025 (OPIS Mont Belvieu ethane, propane, butane per narrative); strike prices and period not given. Net fair value $7,933 thousand.",
+        "evidence_quote": "NGL\t\t\t\tGallons\t\t178,367,700 \t\t\t7,933"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 601200,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 3.618,
+        "notes": "Aggregate crude commodity swaps outstanding at 12/31/2025 (NYMEX WTI index per narrative; narrative also mentions crude collars but table lists only Crude); strike prices and period not given. Net fair value $3,618 thousand.",
+        "evidence_quote": "Crude\t\t\t\tBbl\t\t601,200 \t\t\t3,618"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 13220000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": -4.164,
+        "notes": "Natural gas basis spread swaps (Waha Basis / HSC index per narrative); basis differential not given. Fair value digits split by an elision in the source text: '(4' then ',164)'; consistent with stated total $9,998 thousand.",
+        "evidence_quote": "Natural Gas Basis Spread Swaps\t\t\t\tMMBtus\t\t13,220,000 \t\t\t(4"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Management regularly reviews commodity price exposure and uses commodity hedge contracts (swaps, basis spread swaps, crude collars) to protect cash flows; no hedge accounting elected."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "production_year": 2025,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null,
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "pv10_mm": null,
+      "production_tax_per_boe": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:02",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

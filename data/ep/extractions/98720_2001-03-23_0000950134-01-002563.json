@@ -1,0 +1,101 @@
+{
+  "cik": "98720",
+  "company": "TOREADOR RESOURCES CORP",
+  "filing_date": "2001-03-23",
+  "accession_number": "0000950134-01-002563",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.11,
+        "ceiling_price": 7.27,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-03",
+        "period_end": "2001-10",
+        "counterparty": null,
+        "fair_value_mm": 0.173,
+        "notes": "Average 35,000 MMBtu per month over contract life (monthly, not daily). Table column is 2001; Note 7 says option periods began March 2001 and end October 2001. Floor = weighted avg long put, ceiling = weighted avg short call. Fair market value $173,000 at Dec 31, 2000.",
+        "evidence_quote": "Weighted average short call MMBtu ceiling price...            $     7.27"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.88,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-03",
+        "period_end": "2001-10",
+        "counterparty": null,
+        "fair_value_mm": 0.034,
+        "notes": "Non-collar option contracts, average 25,000 MMBtu per month over contract life (monthly, not daily). Weighted average long put floor. Table column is 2001; Note 7 gives March-October 2001 for the options. Fair market value $34,000 at Dec 31, 2000.",
+        "evidence_quote": "Weighted average long put MMBtu floor price.......            $     3.88"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges a portion of gas production to mitigate NYMEX vs. receipt price risk using collar and non-collar (put) contracts; no derivatives for trading purposes; not party to leveraged derivatives."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 273706,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1318714,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2522.868,
+      "proved_gas_reserves_mmcf": 13683.923,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 57.655504,
+      "pv10_mm": null,
+      "oil_price_used": 25.21,
+      "gas_price_used": 9.21,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

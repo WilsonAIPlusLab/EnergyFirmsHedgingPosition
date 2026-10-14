@@ -1,0 +1,119 @@
+{
+  "cik": "101778",
+  "company": "MARATHON OIL CORP",
+  "filing_date": "1995-03-20",
+  "accession_number": "0000950128-95-000059",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "mixed",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "OTC commodity swaps at Dec 31, 1994 in first (USX consolidated) table; fair value shown as '-' with footnote (d); recorded deferred loss 1; aggregate contract value $263 million; duration into early 1997; commodity not specified in the table (hedging text mentions crude oil, natural gas, refined products)",
+        "evidence_quote": "OTC commodity swaps(c)                                 $  -    (d)      $  -          $     1     $  263"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "mixed",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": 10,
+        "notes": "OTC commodity swaps at Dec 31, 1994 in second group table (group label not visible in text); fair value assets $11 million and liabilities $(1) million; aggregate contract value $184 million; duration into early 1997",
+        "evidence_quote": "OTC commodity swaps(c)                                 $   10  (d)     $ -           $     1     $  184"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "mixed",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": -10,
+        "notes": "OTC commodity swaps at Dec 31, 1994 in third group table (group label not visible in text); aggregate contract value $79 million; footnote says contracts extend up to one year",
+        "evidence_quote": "OTC commodity swaps(c)                                 $  (10)         $  -          $   -        $   79"
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Marathon Group hedges to protect against adverse price changes on crude oil, natural gas and refined products using futures, swaps and options; hedging not significant relative to overall business."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 1400000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4576,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

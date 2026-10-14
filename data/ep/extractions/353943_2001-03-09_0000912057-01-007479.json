@@ -1,0 +1,173 @@
+{
+  "cik": "353943",
+  "company": "EVERGREEN RESOURCES INC",
+  "filing_date": "2001-03-09",
+  "accession_number": "0000912057-01-007479",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3040000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.65,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed-price physical delivery contract to sell gas; text states 10 MMcf per day",
+        "evidence_quote": "- 10 MMcf per day January 1, 2001 through October 31, 2001 at a price of\n      $2.65 per Mcf,"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3040000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Priced at NYMEX less $0.20 less fuel and transportation costs (index-linked, no fixed price); physical delivery contract listed among hedging contracts",
+        "evidence_quote": "- 10 MMcf per day from January 1, 2001 through October 31, 2001 at a price\n      of NYMEX less $0.20 less fuel and transportation costs, and"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4000,
+        "volume_total": 3400000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2003-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Maximum of 4 MMcf per day; price of $2.40 per Mcf plus transportation costs; physical delivery contract",
+        "evidence_quote": "- a maximum of 4 MMcf per day from January 1, 2001 through April 30, 2003,\n      at a price of $2.40 per Mcf plus transportation costs, and"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 8200000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 2.45,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2003-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Price is the lesser of then current market price or a gross price of $2.45 per Mcf (price capped at $2.45); contract was extended for consideration of $1,762,000 received over 12 months ended Oct 31, 2000",
+        "evidence_quote": "- 10 MMcf per day from January 1, 2001 through March 31, 2003 for the lesser\n      of then current market price or a gross price of $2.45 per Mcf."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3650000,
+        "volume_unit": "Mcf",
+        "fixed_price": 6.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity price swap in place at Dec 31, 2000; unrealized loss of $442,000 net of taxes (not pre-tax fair value); a 10% improvement in year-end spot prices would reduce its fair value by $71,000",
+        "evidence_quote": "swap contract for 10 MMcf per day from January 1, 2001 through December 31, 2001\nat a price of $6.10 per Mcf."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 3340000,
+        "volume_unit": "Mcf",
+        "fixed_price": 6.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-02",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered into in January 2001 (after year-end)",
+        "evidence_quote": "In January 2001, the Company entered into another\ncommodity price swap contract for 10 MMcf per day from February 1, 2001 through\nDecember 31, 2001 at a price of $6.43 per Mcf."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges a portion of gas production when market conditions are favorable and prices exceed internal targets, to manage price fluctuations and achieve more predictable cash flow; uses swaps and fixed-price physical contracts."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 19521000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 875000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 2900,
+      "oil_price_used": null,
+      "gas_price_used": 9.18,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:39",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

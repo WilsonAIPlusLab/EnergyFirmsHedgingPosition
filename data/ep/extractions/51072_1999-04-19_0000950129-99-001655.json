@@ -1,0 +1,95 @@
+{
+  "cik": "51072",
+  "company": "BARGO ENERGY CO",
+  "filing_date": "1999-04-19",
+  "accession_number": "0000950129-99-001655",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 178.08,
+        "volume_total": 65000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2,
+        "ceiling_price": 2.45,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "South Coles Levee production; based on Southern California border prices; period stated only as 'For 1999'",
+        "evidence_quote": "For the Company's South\nColes Levee production a hedge is in place for 65,000 MMBTU at prices ensuring\na floor of $2.00 per MMBTU and a ceiling of $2.45 per MMBTU based on Southern\nCalifornia border prices."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 232.88,
+        "volume_total": 85000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2,
+        "ceiling_price": 2.04,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gulf Coast properties; based on Houston Ship Channel pricing; period stated only as 'For 1999'",
+        "evidence_quote": "For the Company's Gulf Coast properties a hedge is in\nplace for 85,000 MMBTU at prices ensuring a floor of $2.00 per MMBTU and a\nceiling of $2.04 per MMBTU based on Houston Ship Channel pricing."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Management implements pricing hedges as necessary to guarantee certain cash flow requirements or as market conditions create opportunity. No hedges in place for liquid production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 126000,
+      "oil_production_bpd": 345,
+      "gas_production_mcf": 1109000,
+      "gas_production_mmcf_per_day": 3.038,
+      "ngl_production_bbls": null,
+      "total_production_boe": 310833,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3569.3,
+      "proved_gas_reserves_mmcf": 69453.5,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 41.529,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

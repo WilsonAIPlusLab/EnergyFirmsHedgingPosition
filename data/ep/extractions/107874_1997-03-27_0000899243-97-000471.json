@@ -1,0 +1,173 @@
+{
+  "cik": "107874",
+  "company": "WISER OIL CO",
+  "filing_date": "1997-03-27",
+  "accession_number": "0000899243-97-000471",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16,
+        "ceiling_price": 18.85,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil price collar; part of ~41% of expected 1997 oil production hedged at Dec 31, 1996",
+        "evidence_quote": "January 1, 1997  December 31, 1997     1,000       $16.00        $18.85"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 21.8,
+        "ceiling_price": 25.55,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Prices stated in Canadian dollars (footnote 1)",
+        "evidence_quote": "January 1, 1997  December 31, 1997     1,000        21.80(1)      25.55(1)"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 180000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16,
+        "ceiling_price": 19.41,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil price collar",
+        "evidence_quote": "January 1, 1997  March 31, 1997        2,000        16.00         19.41"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 182000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 17,
+        "ceiling_price": 19,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-04",
+        "period_end": "1997-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil price collar",
+        "evidence_quote": "April 1, 1997    June 30, 1997         2,000        17.00         19.00"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 184000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 17,
+        "ceiling_price": 19,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-07",
+        "period_end": "1997-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil price collar",
+        "evidence_quote": "July 1, 1997     September 30, 1997    2,000        17.00         19.00"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 367,
+        "volume_total": 33030,
+        "volume_unit": "Bbls",
+        "fixed_price": 18.76,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Weighted average swap price; ~40% of expected NGL production Jan 1 - Mar 31, 1997",
+        "evidence_quote": "the Company has hedged 367 barrels per day of natural gas\nliquids production from January 1, 1997 to March 31, 1997 at a weighted\naverage price of $18.76 per barrel."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 1,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time enters crude oil price hedges to reduce price exposure; no financial hedges of 1997 gas production, may consider in future; continuously reevaluates program."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2425000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 12288000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 4824000,
+      "total_production_boepd": 12942,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 31612,
+      "proved_gas_reserves_mmcf": 113377,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 50508,
+      "proved_developed_reserves_mboe": 45305,
+      "proved_undeveloped_reserves_mboe": 5203,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 317.18,
+      "pv10_mm": 414.314,
+      "oil_price_used": 24.63,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 5.07,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.16,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

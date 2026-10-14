@@ -1,0 +1,61 @@
+{
+  "cik": "1377178",
+  "company": "Ridgewood Energy U Fund LLC",
+  "filing_date": "2026-02-26",
+  "accession_number": "0001214659-26-002557",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": false,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2025,
+      "oil_production_bbls": 38200,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 42600,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 5600,
+      "total_production_boe": 50900,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "reserves_year_end": "2025-12-31",
+      "proved_oil_reserves_mbbls": 165.7,
+      "proved_gas_reserves_mmcf": 206.8,
+      "proved_ngl_reserves_mbbls": 27.5,
+      "total_proved_reserves_mboe": 227.7,
+      "proved_developed_reserves_mboe": 193.4,
+      "proved_undeveloped_reserves_mboe": 34.3
+    },
+    "economics": {
+      "standardized_measure_mm": 4.342,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 10.73,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:02",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

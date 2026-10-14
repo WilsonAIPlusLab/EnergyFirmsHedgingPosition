@@ -1,0 +1,119 @@
+{
+  "cik": "933157",
+  "company": "Aurora Oil & Gas CORP",
+  "filing_date": "2007-03-15",
+  "accession_number": "0001144204-07-012881",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 1825000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 8.59,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-04",
+        "period_end": "2007-03",
+        "counterparty": null,
+        "fair_value_mm": 1.055835,
+        "notes": "Financial swap effective April 1, 2006, 12-month period; fair value asset $1,055,835 at Dec 31, 2006; designated cash flow hedge; counterparty only described as a major financial institution",
+        "evidence_quote": "April 1, 2006, we entered into a financial swap contract for 5,000 mmbtu per"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 3205000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 9,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-04",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": 4.164798,
+        "notes": "Entered July 14, 2006; fair value asset $4,164,798 at Dec 31, 2006; designated cash flow hedge",
+        "evidence_quote": "2006, we entered into another financial swap contract for 5,000 mmbtu per day"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 1282000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 7.55,
+        "ceiling_price": 9,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-04",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless (zero cost) collar entered January 29, 2007, after year-end (subsequent event); not in Dec 31, 2006 fair value table",
+        "evidence_quote": "contract for 2,000 mmbtu per day with a ceiling price of $9.00 per mmbtu and"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters financial arrangements with a major financial institution to reduce exposure to natural gas price fluctuations and stabilize cash flow; hedges a portion of production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 23000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2511000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2006
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 81,
+      "proved_gas_reserves_mmcf": 152964,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2006-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 130.461821,
+      "pv10_mm": 158.78281,
+      "oil_price_used": 57.81,
+      "gas_price_used": 5.84,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:36",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "cik": "778201",
+  "company": "SUN ENERGY PARTNERS LP",
+  "filing_date": "1995-03-24",
+  "accession_number": "0000912057-95-001645",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 18.24,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-01",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swaps for approximately 26 percent of estimated 1995 crude oil production; volume not stated. Counterparties described only as major financial institutions.",
+        "evidence_quote": "crude oil  production under  agreements  with an  average  price of  $18.24  per"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 18.56,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-01",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Additional 14 percent of estimated 1995 crude oil production under call option agreements at average price ceiling; volume not stated.",
+        "evidence_quote": "barrel.  An additional 14 percent is under  call option agreements at an average"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 1.88,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-01",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Approximately 44 percent of estimated 1995 gas production under swap agreements; volume not stated.",
+        "evidence_quote": "1995  gas production is under swap agreements with an average price of $1.88 per"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 17.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-01",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Note 2 position at Dec 31, 1994: hedging contracts covering about 11 percent of estimated 1995 crude oil production at $17.80 per barrel; instrument type not specified in this note. Aggregate fair value of all hedging contracts about $13 million (not attributed per instrument). Likely overlaps with MD&A swap/call disclosure.",
+        "evidence_quote": "hedging contracts to hedge about 11 percent of its estimated 1995 crude oil"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 1.95,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-01",
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Note 2 position at Dec 31, 1994: hedging contracts covering 40 percent of estimated 1995 natural gas production at $1.95 per mmbtu; instrument type not specified. Likely overlaps with MD&A gas swap disclosure.",
+        "evidence_quote": "production at $1.95 per mmbtu. At December 31, 1993, the Partnership was a party to"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": 2.04,
+        "ceiling_price": 2.28,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1994-01",
+        "period_end": "1994-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Position at Dec 31, 1993: contracts hedging about 30 percent of 1994 natural gas production at average floor and ceiling; described as natural gas hedging contracts, collar structure inferred from floor and ceiling stated.",
+        "evidence_quote": "production at an average floor of $2.04 per mmbtu and an average ceiling of"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time enters into hedging arrangements for oil and gas prices with major financial institutions; does not enter derivative transactions for trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 47000,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 533,
+      "ngl_production_bbls": null,
+      "total_production_boe": 52000000,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 1320000,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 442000,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1689,
+      "pv10_mm": null,
+      "oil_price_used": 15.3,
+      "gas_price_used": 1.75,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": 4.36
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

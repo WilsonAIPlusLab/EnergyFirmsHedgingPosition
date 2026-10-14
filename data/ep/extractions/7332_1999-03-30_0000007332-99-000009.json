@@ -1,0 +1,173 @@
+{
+  "cik": "7332",
+  "company": "SOUTHWESTERN ENERGY CO",
+  "filing_date": "1999-03-30",
+  "accession_number": "0000007332-99-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 27671.23,
+        "volume_total": 10100000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": 29.4,
+        "evidence_quote": "Contract volume (Bcf)                  10.1",
+        "notes": "Swaps with a fixed price receipt (Company receives fixed, pays NYMEX variable); contract amount $24.3MM, fair value $29.4MM; maturity year 1999. Narrative gives fixed prices ranging $2.20 to $2.71 per MMBtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 3835.62,
+        "volume_total": 1400000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": 2.6,
+        "evidence_quote": "Contract volume (Bcf)                   1.4",
+        "notes": "Swaps with a fixed price payment (Company pays fixed, receives NYMEX variable); contract amount $3.1MM, fair value $2.6MM; maturity year 1999."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 17534.25,
+        "volume_total": 6400000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 0.095,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": 0.4,
+        "evidence_quote": "Contract volume (Bcf)                   6.4",
+        "notes": "Basis swaps; weighted average basis difference $.095 per Mcf; contract amount $.6MM, fair value $.4MM; maturity year 1999."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 1027.4,
+        "volume_total": 375000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": 8.6,
+        "evidence_quote": "Contract volume (MBbls)                 375                350                325",
+        "notes": "Oil price floor, 375 MBbls expected maturity 1999; contract amount $6.8MM, fair value $8.6MM. Narrative: price floor of $18.00/bbl on 1,050,000 barrels for 1999 through 2001."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 956.28,
+        "volume_total": 350000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": 7.5,
+        "evidence_quote": "Contract volume (MBbls)                 375                350                325",
+        "notes": "Oil price floor, 350 MBbls expected maturity 2000; contract amount $6.3MM, fair value $7.5MM."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 890.41,
+        "volume_total": 325000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": 6.7,
+        "evidence_quote": "Contract volume (MBbls)                 375                350                325",
+        "notes": "Oil price floor, 325 MBbls expected maturity 2001; contract amount $5.9MM, fair value $6.7MM."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Swaps and options used to hedge gas and oil sales and reduce earnings/cash flow volatility; Board-approved policies prohibit speculation and limit swaps to creditworthy counterparties."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 703000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 32700000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6850,
+      "proved_gas_reserves_mmcf": 303700,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:36",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "cik": "911359",
+  "company": "PETROCORP INC",
+  "filing_date": "2003-03-20",
+  "accession_number": "0000899243-03-000571",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 8000,
+        "volume_total": 1960000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.755,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-05",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Index NYMEX Henry Hub; entered April 2002; increased 2002 oil and gas revenues by $392,000. No hedges outstanding at 12/31/2002.",
+        "evidence_quote": "In April 2002, the Company entered into a swap transaction covering 8,000\nMMBTU of natural gas per day at a price of $3.755 per MMBTU and covering the\nperiod from May 2002 through December 2002."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar assumed in Southern Mineral merger; volumes and strikes not disclosed; expired in Q4 2002. Combined oil and gas collars had fair value (liability) of $821,000 at acquisition date.",
+        "evidence_quote": "The merger with Southern Mineral resulted in PetroCorp assuming crude oil\nand natural gas costless collars."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collar assumed in Southern Mineral merger; volumes and strikes not disclosed; expired in Q4 2002. Combined oil and gas collars had fair value (liability) of $821,000 at acquisition date.",
+        "evidence_quote": "The merger with Southern Mineral resulted in PetroCorp assuming crude oil\nand natural gas costless collars."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.5,
+        "ceiling_price": 4.96,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-07",
+        "period_end": "2000-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical (2000), expired. 180,000 MMbtu for each of the months July through October 2000 (per-month volume; no total stated).",
+        "evidence_quote": "no-cost\ncollar arrangement for a portion of its natural gas production by which 180,000\nMMbtu for each of the months July through October 2000 were subject to a $4.96\nceiling and a $3.50 floor per Mmbtu."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-04",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical (2000), expired. Swaps on approximately 50 percent of projected oil production at prices ranging from $23.57 to $29.00 per barrel; no single weighted price or volume stated.",
+        "evidence_quote": "These transactions applied\nto approximately 50 percent of the Company's projected oil production from\nApril 2000 through December 2000, at prices ranging from $23.57 to $29.00 per\nbarrel."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "The Company periodically utilizes hedging transactions to manage a portion of its exposure to price fluctuations on its sales of oil and natural gas."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 479000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5089000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2709,
+      "proved_gas_reserves_mmcf": 38760,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 98.356,
+      "pv10_mm": 108,
+      "oil_price_used": 29.73,
+      "gas_price_used": 4.44,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

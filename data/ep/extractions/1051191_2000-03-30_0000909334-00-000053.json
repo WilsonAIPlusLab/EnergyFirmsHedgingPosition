@@ -1,0 +1,83 @@
+{
+  "cik": "1051191",
+  "company": "RAM ENERGY INC/OK",
+  "filing_date": "2000-03-30",
+  "accession_number": "0000909334-00-000053",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 15100,
+        "volume_total": 4605500,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.42,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate 'hedging contracts' in place at Dec 31, 1999; approx 55% of estimated 2000 gas production; stated average price. Text does not specify swap vs other contract type.",
+        "evidence_quote": "hedging contracts in place\ncovering 15,100 MMbtu per day\n(approximately 55% of its estimated gas production for 2000) for\nJanuary through October 2000 at an average price of $2.42 per\nMmbtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Limited involvement with derivatives; not for trading. Hedges a portion of oil and gas production, never in excess of expected production, via futures-referenced contracts, swaps, fixed-price physical contracts, basis swaps, options."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 362000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 8283000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3607,
+      "proved_gas_reserves_mmcf": 101764,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 78.988,
+      "pv10_mm": 92.611,
+      "oil_price_used": 22.76,
+      "gas_price_used": 2.07,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

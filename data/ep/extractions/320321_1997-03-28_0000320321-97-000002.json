@@ -1,0 +1,101 @@
+{
+  "cik": "320321",
+  "company": "DEVON OEI OPERATING INC",
+  "filing_date": "1997-03-28",
+  "accession_number": "0000320321-97-000002",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2,
+        "ceiling_price": 2.5,
+        "price_unit": "$/Mcf",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put price collars on about a third of domestic gas deliverability for first quarter 1997 only; floor stated as minimum realization 'above $2.00'; volume not stated numerically.",
+        "evidence_quote": "These \"collars\" assured a minimum realization above $2.00  per  Mcf  in exchange"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 12000,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Commodity hedges of unspecified type (strike price vs futures price mentioned) on properties associated with the Monetary Production Payment; approximately 12 MMcf per day through December 1998; start date not stated; net unrealized and unrecognized hedging cost of $2.0 million at Dec 31, 1996.",
+        "evidence_quote": "commodity hedges in place for approximately 12\nMMcf  per  day  through December 1998 on properties associated with the Monetary"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Active risk management program begun late 1995 using futures, options and swaps to help ensure more stable cash flow and support third-party marketing; accounted for as hedging, effect recorded in revenues when produced."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 13409,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 391.5,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 257957,
+      "proved_developed_reserves_mboe": 202949,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1544.522,
+      "pv10_mm": 2100,
+      "oil_price_used": 20.99,
+      "gas_price_used": 3.27,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": 6.36
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

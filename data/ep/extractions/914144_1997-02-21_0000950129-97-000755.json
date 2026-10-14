@@ -1,0 +1,137 @@
+{
+  "cik": "914144",
+  "company": "HUGOTON ENERGY CORP",
+  "filing_date": "1997-02-21",
+  "accession_number": "0000950129-97-000755",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 24.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": -0.251,
+        "notes": "70,000 Bbls per month (monthly volume as stated; not converted). Fair value is the Dec 31, 1996 fixed-price crude oil swaps line of (251) thousand.",
+        "evidence_quote": "Bbls per month, for the first three months of its oil production for 1997 at a\nweighted average price of $24.25 per Bbl."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 1800000,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.68,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1997-01",
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Stated as 20 MMcf per day (converted to 20,000 Mcf/d); described as a forward sale / formal sale contract at a net price of $3.68 per Mcf. Fair value table shows no amount for gas at 12/31/96.",
+        "evidence_quote": "formal sale contract for 20 MMcf of natural gas per day for the first three\n     months of 1997 at a net price of $3.68 per Mcf."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 39000,
+        "volume_total": 14274000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1995-11",
+        "period_end": "1996-10",
+        "counterparty": null,
+        "fair_value_mm": -1.349,
+        "notes": "Prior-year position in effect at Dec 31, 1995 (expired Oct 1996); NYMEX natural gas futures contract month. Fair value is the Dec 31, 1995 fixed-price natural gas energy swaps line of (1,349) thousand.",
+        "evidence_quote": "gas futures contract month for a quantity of 39,000 MMBTU per day at an\n     average price of $1.80 per MMBTU."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.28,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": 0.301,
+        "notes": "Prior-year position in effect at Dec 31, 1995 (expired Dec 1996); 40,000 barrels per month (monthly volume as stated); NYMEX WTI crude oil futures contract month. Fair value is the Dec 31, 1995 fixed-price crude oil swaps line of 301 thousand.",
+        "evidence_quote": "futures contract month for a quantity of 40,000 barrels per month at an\n     average price of $17.28 per BBL."
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "Uses commodity swaps and forward sales to achieve more predictable revenues and cash flows and reduce exposure to oil and gas price fluctuations; evaluating additional 1997+ hedges.",
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "total_oil_instruments": 2,
+      "uses_derivatives": true
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 19026000,
+      "gas_production_mmcf_per_day": 51.983,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": 1700000,
+      "oil_production_bpd": 4644,
+      "production_year": 1996,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": 225181,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": 16178,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": 3.79,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": 24.53,
+      "production_tax_per_boe": null,
+      "pv10_mm": 464.44,
+      "standardized_measure_mm": 335.436,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:30",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "cik": "1067662",
+  "company": "ATLAS ENERGY FOR THE NINETIES PUBLIC NO 7 LTD",
+  "filing_date": "2002-04-01",
+  "accession_number": "0000950116-02-000571",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 45000,
+        "volume_unit": "other",
+        "fixed_price": 3.25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2001-04",
+        "period_end": "2003-09",
+        "counterparty": null,
+        "fair_value_mm": 0.0149,
+        "notes": "Aggregate of natural gas futures and option contracts held by Atlas (managing general partner) covering the Partnership's gas production; volume in dekatherms (Dth), price is a combined average of $3.25 per Dth. Net unrealized gain $14,900 at 12/31/2001. Direction not stated explicitly (hedge of production).",
+        "evidence_quote": "At December 31, 2001, Atlas had natural gas futures and option contracts\ncovering approximately 45,000 dekatherms (\"Dth\") of the Partnership's gas\nproduction maturing April 2001 through September 2003 at a combined average\nprice of $3.25 per Dth."
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "Atlas enters into natural gas futures and option contracts (NYMEX and OTC) to hedge gas price exposure; not held for trading; positions must be offsettable with actual production.",
+      "total_gas_instruments": 1,
+      "total_oil_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 353200,
+      "gas_production_mmcf_per_day": 0.968,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "production_year": 2001,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": 2753.4,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": 3.99,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": 3.2125,
+      "standardized_measure_mm": 3.2125,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

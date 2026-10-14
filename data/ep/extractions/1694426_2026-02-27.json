@@ -1,0 +1,170 @@
+{
+  "cik": "1694426",
+  "company": "Delek US Holdings, Inc.",
+  "filing_date": "2026-02-27",
+  "accession_number": "0001628280-26-012664",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 8876.71,
+        "volume_total": 3240000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": -14,
+        "notes": "Open contracts not designated as hedging instruments at 12/31/2025; notional volume matures in 2026 (none 2027); footnote (1) volume in barrels. No strike prices disclosed.",
+        "evidence_quote": "Crude oil price swaps - long (1)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 9723.29,
+        "volume_total": 3549000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": 12.3,
+        "notes": "Open contracts not designated as hedging instruments at 12/31/2025; notional volume matures in 2026 (none 2027); footnote (1) volume in barrels. No strike prices disclosed.",
+        "evidence_quote": "Crude oil price swaps - short (1)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "mixed",
+        "direction": "long",
+        "volume_per_day": 2975.34,
+        "volume_total": 1086000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": -1.4,
+        "notes": "Inventory, refined product and crack spread swaps (refining-related, not upstream); not designated as hedging instruments; volume in barrels; matures 2026.",
+        "evidence_quote": "Inventory, refined product and crack spread swaps - long (1)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "mixed",
+        "direction": "short",
+        "volume_per_day": 2945.21,
+        "volume_total": 1075000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": 1.4,
+        "notes": "Inventory, refined product and crack spread swaps (refining-related, not upstream); not designated as hedging instruments; volume in barrels; matures 2026.",
+        "evidence_quote": "Inventory, refined product and crack spread swaps - short (1)"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "other",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 250000,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": -0.1,
+        "notes": "RINs commitment contracts (commitments to purchase RINs at fixed prices and quantities); volume in RINs; matures 2026; not a crude/gas/NGL instrument.",
+        "evidence_quote": "RINs commitment contracts - long (2)"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "other",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 112000000,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2026-01",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": -2.6,
+        "notes": "RINs commitment contracts (commitments to sell RINs at fixed prices and quantities); volume in RINs; matures 2026; not a crude/gas/NGL instrument.",
+        "evidence_quote": "RINs commitment contracts - short (2)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Derivatives used to manage inventory, crude/product purchase and sale price exposure and fix margins; objective generally to avoid losses from adverse price changes. Most not designated as hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

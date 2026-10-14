@@ -1,0 +1,103 @@
+{
+  "cik": "904977",
+  "company": "TRANSTEXAS GAS CORP",
+  "filing_date": "1998-05-01",
+  "accession_number": "0000950129-98-001826",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 229213.48,
+        "volume_total": 20400000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-02",
+        "period_end": "1997-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "As of January 31, 1997, TransTexas had Hedge Agreements with settlement dates ranging from February 1997 through April 1997 involving total base quantities for all monthly periods aggregating approximately 20.4 TBtu of natural gas.",
+        "notes": "PRIOR-YEAR position (outstanding at Jan 31, 1997), not outstanding at Jan 31, 1998. Aggregate across agreements; 20.4 TBtu stated, shown as 20,400,000 Mmbtu. Fixed prices range $1.70 to $1.78 per MMBtu up to maximum floating prices ranging $2.00 to $2.20 per MMBtu; no weighted average stated, so fixed_price left null. Direction inferred from stated purpose of hedging spot gas price exposure on production.",
+        "period_start_note": null
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-02",
+        "period_end": "1997-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "In addition, one agreement had a\nfixed price of $2.48 per MMBtu ($2.57 per Mcf) with no maximum floating price.",
+        "notes": "PRIOR-YEAR position (outstanding at Jan 31, 1997), not at Jan 31, 1998. Separate volume not stated (likely included in the 20.4 TBtu aggregate). Settlement window Feb-Apr 1997 applies to the Hedge Agreements generally.",
+        "period_start_note": null
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time enters commodity price swap agreements (Hedge Agreements) to reduce exposure to spot market natural gas price risk; no Hedge Agreements outstanding at January 31, 1998. Item 7A: Not applicable."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 619000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 72400000,
+      "gas_production_mmcf_per_day": 198.9,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 15910,
+      "proved_gas_reserves_mmcf": 348688,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-01-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 395.673,
+      "oil_price_used": 13.54,
+      "gas_price_used": 1.96,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:24",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

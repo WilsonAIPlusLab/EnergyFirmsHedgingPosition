@@ -1,0 +1,131 @@
+{
+  "cik": "350685",
+  "company": "GOLDEN OIL CO /DE/",
+  "filing_date": "1997-04-04",
+  "accession_number": "0000890566-97-000741",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 21.17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "At January 1, 1997 approximately 20% of estimated monthly oil production under fixed price arrangement with one purchaser (unnamed); end date not stated for this arrangement alone.",
+        "evidence_quote": "monthly oil production under a fixed price arrangement with one purchaser at an average price of $21.17 per barrel."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 22,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-02",
+        "period_end": "1997-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Effective Feb 1, 1997 combined fixed price arrangements with two purchasers cover approximately 60% of monthly oil production; average price $22.00 (about $22.00 at the wellhead per MD&A).",
+        "evidence_quote": "purchasers provide an average price of $22.00 per barrel through July 1997."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 17.01,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-02",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "In February 1996 company extended fixed price contracts for approximately 50% of its oil production at average net price of $17.01 through December 31, 1996 (historical).",
+        "evidence_quote": "50% of its oil production at an average net price of $17.01 through December 31,"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": 17,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-01",
+        "period_end": "1996-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price contracts entered in Q1 1995 for the majority of oil production through March 1996 at average net price of approximately $17.00 (historical).",
+        "evidence_quote": "first quarter of 1995 at an average net price of approximately $17.00 per barrel"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Company remains alert to opportunities to enter into fixed price oil contracts with purchasers to guard against price downturns; no swaps, collars or other derivatives disclosed."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 60998,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 239512,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1613.995,
+      "proved_gas_reserves_mmcf": 1462.734,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 14.236332,
+      "pv10_mm": 16.75846,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 9.49,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 2.89,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

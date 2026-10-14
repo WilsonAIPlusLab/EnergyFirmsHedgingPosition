@@ -1,0 +1,137 @@
+{
+  "cik": "277595",
+  "company": "ENERGEN CORP",
+  "filing_date": "1999-12-21",
+  "accession_number": "0000950144-99-014174",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 113661.2,
+        "volume_total": 41600000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-10",
+        "period_end": "2000-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contracts and swaps (mix not split) on fiscal 2000 flowing gas production; average contract price before basis differentials. Fiscal year ends September 30.",
+        "evidence_quote": "For fiscal 2000, Energen Resources has entered\n         into contracts and swaps for 41.6 Bcf of its flowing gas production at\n         an average contract price (before basis differentials) of $2.45 per Mcf"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4732.24,
+        "volume_total": 1732000,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.51,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-10",
+        "period_end": "2000-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Stated as 1,732 MBbl (converted to Bbls) of fiscal 2000 oil production under contracts and swaps at average contract price.",
+        "evidence_quote": "and 1,732 MBbl of its oil production at an average contract price of\n         $17.51 per barrel."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 32786.89,
+        "volume_total": 12000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1999-10",
+        "period_end": "2000-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis difference hedged on fiscal 2000 San Juan Basin production; basis price not stated. Text says basis hedges with major energy derivative product specialists.",
+        "evidence_quote": "In addition, the Company has hedged the basis\n         difference on 12 Bcf of its fiscal 2000 San Juan Basin production."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 40000.0,
+        "volume_total": 14600000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2000-10",
+        "period_end": "2001-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Contracts and swaps on fiscal 2001 flowing gas production; average contract price before basis differentials. Fiscal year ends September 30.",
+        "evidence_quote": "For\n         fiscal 2001, Energen Resources entered into contracts and swaps for\n         14.6 Bcf of its flowing gas production at an average contract price\n         (before basis differentials) of $2.55 per Mcf."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges oil and gas price exposure with NYMEX futures, OTC swaps and basis hedges; board-approved risk policy prohibits speculative positions; may hedge up to 80 percent of flowing production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3122000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 53855000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 762000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 24719,
+      "proved_gas_reserves_mmcf": 740001,
+      "proved_ngl_reserves_mbbls": 21937,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-09-30"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

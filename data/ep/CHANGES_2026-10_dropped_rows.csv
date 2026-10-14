@@ -1,0 +1,10 @@
+cik,company,fiscal_year,filing_date,source_tier,note
+1284452,"MONDIAL VENTURES, INC.",2009,2010-05-10,ep_v2.0,not in ep table: same fiscal year as a published v2.0 row with another filing date; filing kept in filings.csv
+1309082,"CAMBER ENERGY, INC.",2021,2022-05-19,update_2026,not in ep table: same fiscal year as a published v2.0 row with another filing date; filing kept in filings.csv
+1384195,"RING ENERGY, INC.",2009,2009-12-29,pre2010A,not in ep table: same fiscal year as a published v2.0 row with another filing date; filing kept in filings.csv
+1395205,MAINLAND RESOURCES INC.,2009,2009-05-29,pre2010A,not in ep table: same fiscal year as a published v2.0 row with another filing date; filing kept in filings.csv
+1437557,"LILIS ENERGY, INC.",2009,2009-07-24,pre2010A,not in ep table: same fiscal year as a published v2.0 row with another filing date; filing kept in filings.csv
+354567,Glen Rose Petroleum CORP,2009,2009-07-13,pre2010A,not in ep table: same fiscal year as a published v2.0 row with another filing date; filing kept in filings.csv
+66418,MEXCO ENERGY CORP,2009,2009-06-25,pre2010A,not in ep table: same fiscal year as a published v2.0 row with another filing date; filing kept in filings.csv
+869495,DEEP WELL OIL & GAS INC,2009,2009-11-24,pre2010A,not in ep table: same fiscal year as a published v2.0 row with another filing date; filing kept in filings.csv
+942650,TN-K ENERGY GROUP INC.,2009,2009-08-14,pre2010A,not in ep table: same fiscal year as a published v2.0 row with another filing date; filing kept in filings.csv

@@ -1,0 +1,173 @@
+{
+  "cik": "1089697",
+  "company": "SPINNAKER EXPLORATION CO",
+  "filing_date": "2005-03-15",
+  "accession_number": "0001193125-05-049742",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 1800000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 7.76,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-01",
+        "period_end": "2005-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap, NYMEX-settled; position as of Dec 31, 2004 and Mar 10, 2005. Estimated revenue effect at current prices of natural gas swaps $2,829 thousand (all gas swaps combined).",
+        "evidence_quote": "First Quarter 2005\n\n\t20,000\n\t  \n\t$\n\t7.76"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 910000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-04",
+        "period_end": "2005-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap; appears only in the Mar 10, 2005 position table (added after year-end).",
+        "evidence_quote": "Second Quarter 2005\n\n\t10,000\n\n\t6.40"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 920000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-07",
+        "period_end": "2005-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap; appears only in the Mar 10, 2005 position table (added after year-end).",
+        "evidence_quote": "Third Quarter 2005\n\n\t10,000\n\n\t6.40"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3370,
+        "volume_total": 310040,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-10",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap; appears only in the Mar 10, 2005 position table (added after year-end).",
+        "evidence_quote": "Fourth Quarter 2005\n\n\t3,370\n\n\t6.40"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": 40.34,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap, calendar 2005; same in Dec 31, 2004 and Mar 10, 2005 tables. Estimated revenue effect at current prices of oil swaps $(822) thousand.",
+        "evidence_quote": "Calendar 2005\n\n\t1,000\n\t  \n\t$\n\t40.34"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3000,
+        "volume_total": 1095000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 38.67,
+        "ceiling_price": 44.73,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-01",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Cashless collar, calendar 2005; same in Dec 31, 2004 and Mar 10, 2005 tables. Estimated revenue effect at current prices of oil collars $(806) thousand.",
+        "evidence_quote": "Calendar 2005\n\n\t1,000\n\t  \n\t$\n\t40.34\n\t  \n\t3,000\n\t  \n\t$\n\t38.67\n\t  \n\t$\n\t44.73"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges from time to time, not for trading; generally no more than 66 2/3% of est. twelve-month production without Risk Management Committee approval; counterparties rated at least BBB+/Baa1."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1743000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 35729000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 26693,
+      "proved_gas_reserves_mmcf": 146566,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 787.589,
+      "pv10_mm": 1046,
+      "oil_price_used": 37.25,
+      "gas_price_used": 6.38,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:25",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "cik": "874499",
+  "company": "GULFPORT ENERGY CORP",
+  "filing_date": "2005-03-31",
+  "accession_number": "0001060830-05-000119",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 181000,
+        "volume_unit": "Bbls",
+        "fixed_price": 33.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-01",
+        "period_end": "2005-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "we have entered into fixed price contracts for the WCBB production as follows:\n\nJanuary - June 2005\n\n1,000 bbls @ day $33.10",
+        "notes": "Physical fixed price sales contract on WCBB production (first barrels of production in a day); counterparty not stated in the contract passage (Shell Trading buys 99% of oil)."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 184000,
+        "volume_unit": "Bbls",
+        "fixed_price": 39.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-07",
+        "period_end": "2005-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "July - December 2005\n\n1,000 bbls @day $39.70",
+        "notes": "Physical fixed price sales contract on WCBB production; counterparty not stated in the contract passage."
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "To mitigate the effects of dramatic commodity price fluctuations, we have entered into fixed price contracts for the WCBB production.",
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 584000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 284000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 631000,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 20905,
+      "proved_gas_reserves_mmcf": 23162,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 24765,
+      "proved_developed_reserves_mboe": 5405,
+      "proved_undeveloped_reserves_mboe": 19360,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 301.047,
+      "pv10_mm": 361.5419,
+      "oil_price_used": 40.25,
+      "gas_price_used": 6.18,
+      "lease_operating_expense_per_boe": 10.44,
+      "production_tax_per_boe": 4.17,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

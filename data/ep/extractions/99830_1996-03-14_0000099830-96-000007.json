@@ -1,0 +1,137 @@
+{
+  "cik": "99830",
+  "company": "TRITON ENERGY CORP",
+  "filing_date": "1996-03-14",
+  "accession_number": "0000099830-96-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 10400000,
+        "volume_unit": "Bbls",
+        "fixed_price": 18.42,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Five-year WTI commodity price agreements entered April-May 1995 with an AAA-rated counterparty (unnamed), hedging Colombian oil to be sold in the forward oil sale; volume approximately 10.4 million barrels; superseded upon completion of the forward oil sale.",
+        "evidence_quote": "rating, fixed a WTI price benchmark of $18.42 per barrel on approximately 10.4"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": 10400000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 20.42,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": 9.3,
+        "notes": "Purchased WTI call options (strike above $20.42) from a credit-worthy counterparty; volumes and expiration dates coincided with the commodity price agreements (approx. 10.4 million barrels); no longer hedge-accounted after forward oil sale, recorded as investment at fair market value $9.3 million. Strike is the purchased call strike.",
+        "evidence_quote": "price  increases above $20.42 per barrel.  The volumes and expiration dates on"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.99,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Financial and commodity market transactions set the WTI price benchmark on approximately 44% of projected 1996 Colombian oil production at a weighted average of $17.99/Bbl; instrument form not stated.",
+        "evidence_quote": "price  of  $17.99 per barrel.  In addition, in order to retain the opportunity"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 2747.25,
+        "volume_total": 500000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "1996-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased WTI benchmark call options for various delivery dates in first half of 1996 at strike prices between $19.68 and $20.28 (no single strike stated).",
+        "evidence_quote": "options  on  a  total of 500,000 barrels for various delivery dates during the"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Policy is to use financial market transactions with credit-worthy counterparties from time to time to reduce pricing risk on a portion of oil and gas sold, underpinning budgeted revenues; not for trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 6303000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5312000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 641.696,
+      "pv10_mm": 815.441,
+      "oil_price_used": 18.6,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 6.28,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:25",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

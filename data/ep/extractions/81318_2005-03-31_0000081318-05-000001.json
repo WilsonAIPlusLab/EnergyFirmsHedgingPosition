@@ -1,0 +1,58 @@
+{
+  "cik": "81318",
+  "company": "Yuma Energy, Inc.",
+  "filing_date": "2005-03-31",
+  "accession_number": "0000081318-05-000001",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No hedging or commodity derivatives disclosed; company sells oil under short-term contracts and states it does not engage in trading activities involving non-exchange traded contracts."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 72000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 8300,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 522,
+      "proved_gas_reserves_mmcf": 83,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 4.636,
+      "pv10_mm": 4.636,
+      "oil_price_used": 32.42,
+      "gas_price_used": 7.88,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 18.2,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 1.5,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

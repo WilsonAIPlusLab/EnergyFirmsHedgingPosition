@@ -1,0 +1,64 @@
+{
+  "cik": "86772",
+  "company": "SANTA FE SNYDER CORP",
+  "filing_date": "1998-03-11",
+  "accession_number": "0000890566-98-000300",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "The Company periodically hedges a portion of its oil and natural gas production to manage exposure to price volatility; no natural gas was hedged in Q4 1997. No instrument detail in text."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 11100000,
+      "oil_production_bpd": 30300,
+      "gas_production_mcf": 63800000,
+      "gas_production_mmcf_per_day": 174.7,
+      "ngl_production_bbls": null,
+      "total_production_boe": 21700000,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 129000,
+      "proved_gas_reserves_mmcf": 252600,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 171100,
+      "proved_developed_reserves_mboe": 141800,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 579.7,
+      "pv10_mm": 759.7,
+      "oil_price_used": 16.06,
+      "gas_price_used": 2.11,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:40",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

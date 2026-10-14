@@ -1,0 +1,119 @@
+{
+  "cik": "1009404",
+  "company": "TRITON ENERGY LTD",
+  "filing_date": "2000-03-10",
+  "accession_number": "0001009404-00-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3260.87,
+        "volume_total": 300000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 22,
+        "ceiling_price": 28.43,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-07",
+        "period_end": "2000-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI-based 2000 hedge; instrument name not visible in text (preceding sentence truncated). Above $28.43 monthly avg WTI Company pays counterparty the excess; at or below $22.00 counterparty pays Company $2.00 per barrel (flat payment, not a standard floor).",
+        "evidence_quote": "average WTI exceeds $28.43 per barrel, the Company will pay the counterparty the\ndifference  between  the  average WTI and $28.43, and to the extent WTI is at or\nbelow  $22.00,  the  counterparty  will  pay  the Company $2.00 per barrel."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 20.42,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI call options purchased in 1995 in anticipation of the forward oil sale; strike is weighted average $20.42 (stored in ceiling_price field as the call strike). Volumes and expirations coincide with forward oil sale deliveries, which complete March 2000; volume not stated. Fair value change recorded as gain of $6.1 million in 1999 (6,150 thousand in other income table). Offset by sold calls in Nov 1999.",
+        "evidence_quote": "purchased  WTI  benchmark call options to retain the ability to benefit from WTI\nprice  increases  above  a  weighted  average  price  of $20.42 per barrel."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 20.42,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-11",
+        "period_end": "2000-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "In November 1999 Company sold WTI call options with same notional quantities, strike and contract period as the remaining purchased calls, for a premium of $4.4 million, eliminating exposure to future value changes. Strike $20.42 inferred only as 'same strike price' as the purchased calls; volume not stated.",
+        "evidence_quote": "the Company sold WTI benchmark call options\nwith  the  same  notional  quantities,  strike  price and contract period as the\nremaining  call  option  contracts outstanding for a premium of $4.4 million"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time uses financial market transactions including swaps, collars and options with creditworthy counterparties to reduce pricing risk on a portion of oil and gas sold; no trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 25.6,
+      "gas_price_used": 2.3,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.5,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

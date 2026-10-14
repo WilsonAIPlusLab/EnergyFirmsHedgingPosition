@@ -1,0 +1,101 @@
+{
+  "cik": "869369",
+  "company": "MERIDIAN RESOURCE CORP",
+  "filing_date": "2004-03-15",
+  "accession_number": "0000950129-04-001286",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6489.95,
+        "volume_total": 3550000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.73,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-01",
+        "period_end": "2005-06",
+        "counterparty": null,
+        "fair_value_mm": -5.63,
+        "notes": "Notional amount is total net volumetric hedge position; weighted average strike price; designated cash flow hedge; hedges approx 11% of proved developed gas production",
+        "evidence_quote": "January 2004 - June 2005         3,550,000       $      3.73                $     (5,630)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1692.04,
+        "volume_total": 978000,
+        "volume_unit": "Bbls",
+        "fixed_price": 23.49,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2004-01",
+        "period_end": "2005-07",
+        "counterparty": null,
+        "fair_value_mm": -5.938,
+        "notes": "Notional amount is total net volumetric hedge position; weighted average strike price; designated cash flow hedge; hedges approx 79% of proved developed oil production",
+        "evidence_quote": "January 2004 - July 2005           978,000       $     23.49                $     (5,938)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enters into swaps, options, collars and other derivative contracts to hedge price risk on a portion of anticipated oil and gas production; not for trading; swaps designated as cash flow hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1403000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 20142000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2003
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 7892,
+      "proved_gas_reserves_mmcf": 98469,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2003-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 455.883,
+      "pv10_mm": 506.937,
+      "oil_price_used": 32.05,
+      "gas_price_used": 6.07,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

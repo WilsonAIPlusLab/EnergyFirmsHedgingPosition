@@ -1,0 +1,155 @@
+{
+  "cik": "313395",
+  "company": "TXCO Resources Inc",
+  "filing_date": "2005-03-16",
+  "accession_number": "0000313395-05-000015",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 39.1,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2004-10",
+        "period_end": "2005-10",
+        "counterparty": "Macquarie Bank Ltd.",
+        "fair_value_mm": null,
+        "notes": "Ratio swap, 15,000 BO per month; floor $39.10 with Company participating in 75% of upside above floor; Houston Ship Channel basis adjusted. Combined fair value of the swaps at 12/31/2004 was a $134,000 receivable (not split by commodity).",
+        "evidence_quote": "In October 2004, the Company entered into financial price hedges with Macquarie Bank Ltd. for 15,000 BO and 140,000 MMBtu of gas, each on a monthly basis for a twelve-month period."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5.37,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2004-10",
+        "period_end": "2005-10",
+        "counterparty": "Macquarie Bank Ltd.",
+        "fair_value_mm": null,
+        "notes": "Ratio swap, 140,000 MMBtu per month; floor $5.37 with Company participating in 75% of upside above floor; Houston Ship Channel basis adjusted. Combined fair value of the swaps at 12/31/2004 was a $134,000 receivable (not split by commodity).",
+        "evidence_quote": "These hedges are in the form of ratio swaps (the Swaps) and provide floor prices of $39.10 per BO and $5.37 per MMBtu on a basis adjusted to Houston Ship Channel prices."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 49.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-11",
+        "period_end": "2006-10",
+        "counterparty": "Coral Energy Holdings, L.P.",
+        "fair_value_mm": null,
+        "notes": "Fixed price swap entered early March 2005 (subsequent to year-end), 15,000 BO per month; Houston Ship Channel basis adjusted.",
+        "evidence_quote": "In early March 2005, the Company entered into additional financial price hedges with Coral Energy Holdings, L.P. (an affiliate of Shell Oil) for 15,000 BO and 140,000 MMBtu of gas, each on a monthly basis for November 2005 through October 2006."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.83,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-11",
+        "period_end": "2006-10",
+        "counterparty": "Coral Energy Holdings, L.P.",
+        "fair_value_mm": null,
+        "notes": "Fixed price swap entered early March 2005 (subsequent to year-end), 140,000 MMBtu per month; Houston Ship Channel basis adjusted.",
+        "evidence_quote": "These new hedges are in the form of fixed price swaps with prices of $49.40 per BO and $6.83 per MMBtu on a basis adjusted to Houston Ship Channel prices."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2700,
+        "volume_total": 901800,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-02",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical forward sale of approximately 2,700 MMbtu/day during 2003 (about 30% of net gas sales at year-end 2002); expired; no such forward sale in place for 2004.",
+        "evidence_quote": "During 2003, the Company was party to a forward sale of approximately 2,700 MMbtu per day of its natural gas production from February 1, 2003, through December 31, 2003, at a fixed price of $4.45 per MMbtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company occasionally enters into derivative contracts, primarily options and swaps, to hedge future gas and oil production to mitigate price risk and comply with revolving credit facility covenants; no hedge accounting elected."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 321000,
+      "oil_production_bpd": 878,
+      "gas_production_mcf": 2975000,
+      "gas_production_mmcf_per_day": 8.1,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 41.15,
+      "gas_price_used": 6.06,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:24",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "cik": "908821",
+  "company": "CHEETAH OIL & GAS LTD.",
+  "filing_date": "2007-04-16",
+  "accession_number": "0001085037-07-000823",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity derivatives stated. Only derivative-related items are the convertible note conversion option, contingent put option and warrants (equity-linked liabilities under EITF 00-19), not commodity hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2006
+    },
+    "reserves": {
+      "reserves_year_end": "2006-12-31"
+    },
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "cik": "56868",
+  "company": "PRIMEENERGY RESOURCES CORP",
+  "filing_date": "2005-04-06",
+  "accession_number": "0000950134-05-006966",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": false,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Did not enter into significant hedging transactions in 2004; no open hedging transactions at 12/31/2004. Sometimes locks in prices via financial instruments; currently none in place."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 371000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5138000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2004
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2932,
+      "proved_gas_reserves_mmcf": 44870,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2004-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 94.411,
+      "pv10_mm": 133.912,
+      "oil_price_used": 43.45,
+      "gas_price_used": 6.18,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 12.17,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:14:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_896e9900-cb3"
+    ]
+  }
+}

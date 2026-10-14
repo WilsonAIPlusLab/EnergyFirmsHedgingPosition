@@ -1,0 +1,58 @@
+{
+  "cik": "1071993",
+  "company": "CONTANGO OIL & GAS CO",
+  "filing_date": "2009-09-11",
+  "accession_number": "0001193125-09-190601",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "The Company has a policy not to hedge its natural gas and oil production (risk factor adds policy is to hedge only through purchase of puts); no derivatives disclosed."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 515000,
+      "oil_production_bpd": 1411,
+      "gas_production_mcf": 20535000,
+      "gas_production_mmcf_per_day": 56.26,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2009
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5004,
+      "proved_gas_reserves_mmcf": 280616,
+      "proved_ngl_reserves_mbbls": 7401,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2009-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 638.091444,
+      "pv10_mm": null,
+      "oil_price_used": 67.98,
+      "gas_price_used": 4.09,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:34:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_a53c5192-8ff"
+    ]
+  }
+}

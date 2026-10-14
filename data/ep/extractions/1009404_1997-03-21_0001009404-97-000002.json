@@ -1,0 +1,119 @@
+{
+  "cik": "1009404",
+  "company": "TRITON ENERGY LTD",
+  "filing_date": "1997-03-21",
+  "accession_number": "0001009404-97-000002",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 8287.29,
+        "volume_total": 1500000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 19.58,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Combination of swaps, options and collars establishing a minimum weighted average WTI benchmark price of $19.58/Bbl on an aggregate 1.5 million barrels; individual instruments not broken out.",
+        "evidence_quote": "weighted  average WTI benchmark price of $19.58 per barrel for an aggregate of"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 20.42,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1997-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased WTI call options, weighted average strike $20.42/Bbl (purchased, not sold); volumes and expiry coincide with forward oil sale delivery of 58,425 barrels per month through March 1997. Company recorded unrealized gain of $11 million in 1996 and loss of $4.2 million in 1995 from change in fair value (not the fair value itself).",
+        "evidence_quote": "barrels  per month through March 1997 and 254,136 barrels per month from April"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 20.42,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-04",
+        "period_end": "2000-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased WTI call options, weighted average strike $20.42/Bbl (purchased, not sold); volumes and expiry coincide with forward oil sale delivery of 254,136 barrels per month from April 1997 through March 2000.",
+        "evidence_quote": "barrels  per month through March 1997 and 254,136 barrels per month from April"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Policy is to use financial market transactions with credit-worthy counterparties from time to time to reduce risk associated with pricing of a portion of oil and gas sold; underpins planned revenues."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.77,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

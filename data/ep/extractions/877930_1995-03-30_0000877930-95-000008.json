@@ -1,0 +1,101 @@
+{
+  "cik": "877930",
+  "company": "MESA INC",
+  "filing_date": "1995-03-30",
+  "accession_number": "0000877930-95-000008",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1995-01",
+        "period_end": "1995-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NYMEX natural gas futures used to hedge market-sensitive production; no volumes or prices disclosed. Positions open at 12/31/1994 were closed by 2/21/1995 with ~$12 million realized gains to be recognized as gas revenues as hedged production occurs. Hedge gains of $895,000 in 1994.",
+        "evidence_quote": "February 21, 1995, Mesa had closed its hedge positions which were open as of"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 38178.08,
+        "volume_total": 13935000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1994-01",
+        "period_end": "1994-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical gas sales under fixed price contracts in 1994 (stated as 13,935 MMcf); average fixed-contract price $2.16 per Mcf. Not a financial derivative.",
+        "evidence_quote": "Sold under fixed price contracts..........  13,935    19,467    19,051"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Mesa will, when circumstances warrant, hedge price of market-sensitive gas production through NYMEX natural gas futures; also sells part of gas under fixed price contracts."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 546000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 82339000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 6911000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5031,
+      "proved_gas_reserves_mmcf": 1303187,
+      "proved_ngl_reserves_mbbls": 84397,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 934.182,
+      "pv10_mm": 988.325,
+      "oil_price_used": null,
+      "gas_price_used": 1.66,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "cik": "33213",
+  "company": "EQT Corp",
+  "filing_date": "2006-02-24",
+  "accession_number": "0001104659-06-011976",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 161643.84,
+        "volume_total": 59000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.77,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Swaps\n\nTotal Volume (Bcf)\n\n59\n\n56\n\n54\n\nAverage Price per Mcf (NYMEX)*\n\n$\n\n4.77\n\n$\n\n4.74\n\n$\n\n4.64",
+        "notes": "Table of approximate hedge volumes and prices for 2006 through 2008; price is NYMEX average per Mcf based on 1.05 MMBtu/Mcf conversion. Year column mapped to calendar year."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 153424.66,
+        "volume_total": 56000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Swaps\n\nTotal Volume (Bcf)\n\n59\n\n56\n\n54\n\nAverage Price per Mcf (NYMEX)*\n\n$\n\n4.77\n\n$\n\n4.74\n\n$\n\n4.64",
+        "notes": "Table of approximate hedge volumes and prices for 2006 through 2008; price is NYMEX average per Mcf based on 1.05 MMBtu/Mcf conversion."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 147540.98,
+        "volume_total": 54000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.64,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Swaps\n\nTotal Volume (Bcf)\n\n59\n\n56\n\n54\n\nAverage Price per Mcf (NYMEX)*\n\n$\n\n4.77\n\n$\n\n4.74\n\n$\n\n4.64",
+        "notes": "Table of approximate hedge volumes and prices for 2006 through 2008; price is NYMEX average per Mcf based on 1.05 MMBtu/Mcf conversion."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 19178.08,
+        "volume_total": 7000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 7.35,
+        "ceiling_price": 10.84,
+        "price_unit": "$/Mcf",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Collars\n\nTotal Volume (Bcf)\n\n7\n\n7\n\n7\n\nAverage Floor Price per Mcf (NYMEX)*\n\n$\n\n7.35\n\n$\n\n7.35\n\n$\n\n7.35\n\nAverage Cap Price per Mcf (NYMEX)*\n\n$\n\n10.84\n\n$\n\n10.84\n\n$\n\n10.84",
+        "notes": "Collars added in Q3 2005 for 2006 through 2012; table covers 2006 through 2008; NYMEX price per Mcf based on 1.05 MMBtu/Mcf conversion."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 19178.08,
+        "volume_total": 7000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 7.35,
+        "ceiling_price": 10.84,
+        "price_unit": "$/Mcf",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Collars\n\nTotal Volume (Bcf)\n\n7\n\n7\n\n7\n\nAverage Floor Price per Mcf (NYMEX)*\n\n$\n\n7.35\n\n$\n\n7.35\n\n$\n\n7.35\n\nAverage Cap Price per Mcf (NYMEX)*\n\n$\n\n10.84\n\n$\n\n10.84\n\n$\n\n10.84",
+        "notes": "Collars added in Q3 2005 for 2006 through 2012; table covers 2006 through 2008; NYMEX price per Mcf based on 1.05 MMBtu/Mcf conversion."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 19125.68,
+        "volume_total": 7000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 7.35,
+        "ceiling_price": 10.84,
+        "price_unit": "$/Mcf",
+        "period_start": "2008-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "Collars\n\nTotal Volume (Bcf)\n\n7\n\n7\n\n7\n\nAverage Floor Price per Mcf (NYMEX)*\n\n$\n\n7.35\n\n$\n\n7.35\n\n$\n\n7.35\n\nAverage Cap Price per Mcf (NYMEX)*\n\n$\n\n10.84\n\n$\n\n10.84\n\n$\n\n10.84",
+        "notes": "Collars added in Q3 2005 for 2006 through 2012; table covers 2006 through 2008; NYMEX price per Mcf based on 1.05 MMBtu/Mcf conversion."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges forecasted gas production with futures, swaps and collars within policy limits set relative to expected production; hedges more when prices are above historical averages; also trades via marketing group."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 108000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 78105000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2005
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 1008,
+      "proved_gas_reserves_mmcf": 2359200,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2005-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 7602.053,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

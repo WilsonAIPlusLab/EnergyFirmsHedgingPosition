@@ -1,0 +1,137 @@
+{
+  "cik": "1080504",
+  "company": "Eastern 1998D Limited Partnership",
+  "filing_date": "2003-03-21",
+  "accession_number": "0001080504-03-000002",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-03",
+        "counterparty": null,
+        "fair_value_mm": -0.064773,
+        "notes": "Costless collars. Floors in a range of $3.45 to $3.80 on 35,222 mmbtu of monthly production; ceilings in a range of $3.75 to $4.40 on 17,611 mmbtu of monthly production. Prices are ranges so single floor/ceiling left null. Fair value of ($64,773) at 12/31/2002 is stated for all floors and ceilings combined (both collar periods).",
+        "evidence_quote": "For the period from January 2003 through March 2003, the Partnership has floors in place in a range from $3.45 to $3.80 on 35,222 mmbtu of monthly production and ceilings in place in a range from $3.75 to $4.40 on 17,611 mmbtu"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 3.8,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-04",
+        "period_end": "2003-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Costless collars. Floors in a range of $3.40 to $3.50 on 17,611 mmbtu of monthly production (floor left null as it is a range); ceilings at $3.80 on 8,805 mmbtu of monthly production. Fair value is stated only combined with the Jan-Mar 2003 collars.",
+        "evidence_quote": "For the period April 2003 through October 2003, the Partnership has floors in place in a range from $3.40 to $3.50 on 17,611 mmbtu of monthly production and ceilings in place at $3.80 on 8,805 mmbtu of monthly production."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 114471,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 3.98,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Option contracts outstanding at 12/31/2002 'for the sale of' natural gas with average ceiling price; delivery period not stated in this sentence (text says hedges are in place through October 2003).",
+        "evidence_quote": "As of December 31, 2002 the Partnership had option contracts for the sale of 114,471 mmbtu of natural gas with an average ceiling price of $3.98"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 228942,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.49,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Option contracts outstanding at 12/31/2002 'for the sale of' natural gas with average floor price; delivery period not stated in this sentence.",
+        "evidence_quote": "and for the sale of 228,942 mmbtu of natural gas with an average floor price of $3.49."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Managing General Partner uses NYMEX costless collars and option contracts to hedge natural gas sales forecast within 12 months; no trading or speculative derivatives; hedges only with an underlying physical position."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 597800,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": 6247.9,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

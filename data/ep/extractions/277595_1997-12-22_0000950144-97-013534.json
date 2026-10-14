@@ -1,0 +1,119 @@
+{
+  "cik": "277595",
+  "company": "ENERGEN CORP",
+  "filing_date": "1997-12-22",
+  "accession_number": "0000950144-97-013534",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 99452.05,
+        "volume_total": 36300000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.26,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate of futures, swaps and fixed-price contracts (text says 'contracts and swaps') for fiscal 1998 flowing gas production; average contract price before basis differences. Direction not stated; short inferred from production hedge purpose only. Period is fiscal 1998 as stated, no months given.",
+        "evidence_quote": "At September 30, 1997, Taurus has entered into contracts and swaps for 36.3 Bcf\nof its 1998 flowing gas production at an average contract price of $2.26 per\nMcf"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1241.1,
+        "volume_total": 453000,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.29,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate of contracts and swaps for fiscal 1998 oil production; stated as 453 MBbl, normalised to 453000 Bbls. Average contract price.",
+        "evidence_quote": "and 453 MBbl of its oil production at an average contract price of $20.29\nper barrel."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15616.44,
+        "volume_total": 5700000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Program extended into fiscal 1999: contracts and swaps for flowing gas production primarily in spring and summer months; average contract price.",
+        "evidence_quote": "The program has been extended into fiscal year 1999 with contracts\nand swaps in place for 5.7 Bcf of flowing gas production primarily in the\nspring and summer months at an average contract price of $2.16 per Mcf."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Taurus hedges with NYMEX futures, OTC swaps, basis hedges and fixed-price contracts; policy approved by Board, no speculative positions; may hedge 18-36 months after acquisition, up to 80% of flowing production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-09-30"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

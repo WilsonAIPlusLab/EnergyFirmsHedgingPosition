@@ -1,0 +1,101 @@
+{
+  "cik": "64279",
+  "company": "MCMORAN EXPLORATION CO /DE/",
+  "filing_date": "2002-04-16",
+  "accession_number": "0000064279-02-000009",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 273.97,
+        "volume_total": 100000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Forward oil sales contracts for Main Pass oil, settled during 2001 at a cost of $0.7 million (reduced oil revenues); no contracts outstanding at filing. Volume stated as 0.1 million barrels.",
+        "evidence_quote": "During 2001 and 2000, McMoRan settled forward sales contracts covering\n0.1 million barrels of oil at a cost of $0.7 million and 0.3 million\nbarrels of oil at a cost of $2.8 million, respectively."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 819.67,
+        "volume_total": 300000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Forward oil sales contracts for Main Pass oil, settled during 2000 at a cost of $2.8 million (reduced oil revenues). Volume stated as 0.3 million barrels. Prior-year, already settled.",
+        "evidence_quote": "During 2001 and 2000, McMoRan settled forward sales contracts covering\n0.1 million barrels of oil at a cost of $0.7 million and 0.3 million\nbarrels of oil at a cost of $2.8 million, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Use of financial contracts has been limited; only 2001 contracts were forward oil sales at Main Pass; currently no forward oil sales or other derivative contracts."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1417200,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 11137000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6373,
+      "proved_gas_reserves_mmcf": 48317,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 68.634,
+      "oil_price_used": 15.96,
+      "gas_price_used": 2.81,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:42",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

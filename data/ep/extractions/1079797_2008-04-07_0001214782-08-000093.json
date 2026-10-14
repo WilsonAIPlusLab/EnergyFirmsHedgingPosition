@@ -1,0 +1,83 @@
+{
+  "cik": "1079797",
+  "company": "New Century Energy Corp.",
+  "filing_date": "2008-04-07",
+  "accession_number": "0001214782-08-000093",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 73.26,
+        "volume_total": 20000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 7.3,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-02",
+        "period_end": "2007-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased Feb 2007; strike $7.30 less $0.70 commission; monthly determination periods Feb-Oct 2007; text says '20,000 thousand British Thermal Units (Mmbtu's)' so unit/scale is ambiguous; did not qualify for hedge accounting; loss of $23,460 recognized in 2007.",
+        "evidence_quote": "In February 2007, our Company invested in a natural gas put option for 20,000\nthousand British Thermal Units (\u201cMmbtu\u2019s\u201d) of gas."
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "No stated policy; a single natural gas put option purchased Feb 2007 that did not qualify for hedge accounting. Other derivatives are Laurus note/warrant related (not commodity).",
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "total_oil_instruments": 0,
+      "uses_derivatives": true
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 452521,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": 146579,
+      "oil_production_bpd": null,
+      "production_year": 2007,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": 3041,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": 1613.224,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2007-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": 48.27
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:25",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "cik": "882074",
+  "company": "PANACO INC",
+  "filing_date": "1999-04-23",
+  "accession_number": "0000882074-99-000011",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 223,
+        "volume_total": 81395,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.27,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Market price reference NYMEX. Aggregate fair value of all hedge agreements at 12/31/1998 was a gain of $1.8 million (not per instrument). Counterparty pays if market below fixed price.",
+        "evidence_quote": "       1999                  223                 $17.27             NYMEX"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 232,
+        "volume_total": 84912,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Market price reference NYMEX. Aggregate fair value of all hedge agreements at 12/31/1998 was a gain of $1.8 million (not per instrument).",
+        "evidence_quote": "       2000                  232                 $17.35             NYMEX"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 7260,
+        "volume_total": 2649900,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.89,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Market price is published pipeline index price. Text elsewhere describes 1999 gas hedges as ranging from 7,301 to 27,301 MMbtu per day by month, averaging about $1.98 pipeline.",
+        "evidence_quote": "       1999                7,260                 $ 1.89           Pipeline"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 3660000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.06,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-04",
+        "period_end": "1999-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table row labelled 1999 (April to September); market price is published pipeline index price.",
+        "evidence_quote": "       September)         20,000                 $ 2.06            Prices"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 218,
+        "volume_total": 79788,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.87,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Described in text as an average pipeline index swap price of $1.87; market price is published pipeline index price.",
+        "evidence_quote": "       2000                  218                 $ 1.87           Pipeline"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Conservative hedging strategy to protect against severe price declines; decisions usually made to assure payout of an acquisition or development project or exploit unusual market strength."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 895000,
+      "oil_production_bpd": 2452,
+      "gas_production_mcf": 18041000,
+      "gas_production_mmcf_per_day": 49.4,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 7454.245,
+      "proved_gas_reserves_mmcf": 81248.699,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 94.58,
+      "pv10_mm": 94.58,
+      "oil_price_used": 10,
+      "gas_price_used": 2.05,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

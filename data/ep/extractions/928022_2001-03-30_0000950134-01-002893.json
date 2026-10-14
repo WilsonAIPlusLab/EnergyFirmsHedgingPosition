@@ -1,0 +1,83 @@
+{
+  "cik": "928022",
+  "company": "Callon Petroleum Co",
+  "filing_date": "2001-03-30",
+  "accession_number": "0000950134-01-002893",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 4.69,
+        "ceiling_price": 5.86,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-10",
+        "counterparty": null,
+        "fair_value_mm": -5.8,
+        "notes": "Average volume of 390,000 Mcf per month (monthly, not daily; total not stated). Prices are on-average/weighted average ceiling and floor. Counterparties described only as third parties. $5.8 million market value liability at 12/31/2000 for outstanding hedging contracts. No open oil hedges at 12/31/2000.",
+        "evidence_quote": "for average gas volumes of 390,000 Mcf per month beginning in January 2001\nthrough October 2001 at (on average) a ceiling price of $5.86 and floor price of\n$4.69."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses derivatives for price protection on a limited amount of future production; not for trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 232000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 13943000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 33382,
+      "proved_gas_reserves_mmcf": 129922,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 671.197,
+      "pv10_mm": null,
+      "oil_price_used": 26.71,
+      "gas_price_used": 9.14,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

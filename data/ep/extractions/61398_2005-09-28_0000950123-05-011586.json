@@ -1,0 +1,58 @@
+{
+  "cik": "61398",
+  "company": "TELLURIAN INC. /DE/",
+  "filing_date": "2005-09-28",
+  "accession_number": "0000950123-05-011586",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity derivatives; Item 7A says only market risk sensitive instruments are marketable securities; FX and oil price sensitivity discussed; gas prices set by long-term CPI-linked contracts."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 151000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5700000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2005
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 487,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2005-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 31.633,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:34:58",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_a53c5192-8ff"
+    ]
+  }
+}

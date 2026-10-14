@@ -1,0 +1,101 @@
+{
+  "cik": "861819",
+  "company": "NUEVO ENERGY CO",
+  "filing_date": "1999-03-31",
+  "accession_number": "0000899243-99-000635",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 4500,
+        "volume_total": 1642500,
+        "volume_unit": "Bbls",
+        "fixed_price": 2.28,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap on Congo production hedging basis differential between No. 6 fuel oil and WTI at average differential of $2.28. Period stated only as 'For 1999'. Fair value of all derivatives combined at 12/31/98 was a loss of $2.4 million (not split by instrument).",
+        "evidence_quote": "For 1999, the Company entered into swap agreements\non 4,500 barrels of oil per day (\"BOPD\") of its Congo production, hedging the\nbasis differential between No. 6 fuel oil and West Texas Intermediate (\"WTI\") at\nan average differential of $2.28."
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 2000,
+        "volume_total": 730000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 16,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased call on Congo production at $16.00 strike to hedge potential liability under a price sharing agreement with a third party. Period stated only as 'For 1999'. Fair value of all derivatives combined at 12/31/98 was a loss of $2.4 million (not split by instrument).",
+        "evidence_quote": "The Company also purchased a call option on\n2,000 BOPD of its Congo production at a strike price of $16.00 per barrel of oil\n(\"BBL\"), to hedge the Company's potential liability under a price sharing\nagreement with a third party."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company periodically seeks to reduce exposure to price volatility by hedging production through swaps, options and other commodity derivatives; uses hedge accounting."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 18583000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 32521000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 223000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 190141,
+      "proved_gas_reserves_mmcf": 403256,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 299.933,
+      "pv10_mm": null,
+      "oil_price_used": 8.03,
+      "gas_price_used": 1.79,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 5.56,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

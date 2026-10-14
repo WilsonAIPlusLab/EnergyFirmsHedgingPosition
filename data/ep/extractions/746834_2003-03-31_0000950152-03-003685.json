@@ -1,0 +1,95 @@
+{
+  "cik": "746834",
+  "company": "NGAS Resources Inc",
+  "filing_date": "2003-03-31",
+  "accession_number": "0000950152-03-003685",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 5.8006,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2004-08",
+        "counterparty": "Stand Energy Corporation",
+        "fair_value_mm": null,
+        "notes": "Physical gas sales contract, 18-month term, price less certain transportation charges; part of approx. 50% of gas production sold on two contracts (with North American Energy). Not described as a derivative or hedge.",
+        "evidence_quote": "terminates August 31, 2004 with a price of $5.8006 per MMBTU less certain"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2003-10",
+        "counterparty": "North American Energy",
+        "fair_value_mm": null,
+        "notes": "Physical gas sales contract, one-year term, price less certain transportation charges; part of approx. 50% of gas production sold on two contracts (with Stand Energy). Not described as a derivative or hedge.",
+        "evidence_quote": "one year and terminates October 31, 2003 with a price of $3.53 per MMBTU less"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 12112,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 248945,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 116.098,
+      "proved_gas_reserves_mmcf": 20820.299,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 20.952046,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": 4.83,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "cik": "1090012",
+  "company": "DEVON ENERGY CORP/DE",
+  "filing_date": "2006-03-03",
+  "accession_number": "0000950134-06-004215",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 38578,
+        "volume_total": 14080970,
+        "volume_unit": "Mcf",
+        "fixed_price": 3.33,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Canada fixed-price physical delivery contract for 2006 gas production; not a financial derivative. Part of the 2% of estimated 2006 gas production under fixed-price physical delivery contracts.",
+        "evidence_quote": "Canada\n\n    \t38,578\n\n    \t$\n    \t3.33\n\n    \tJan - Dec"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 12000,
+        "volume_total": 4380000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "International fixed-price physical delivery contract for 2006 gas production; not a financial derivative.",
+        "evidence_quote": "International\n\n    \t12,000\n\n    \t$\n    \t2.15\n\n    \tJan - Dec"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Largely accepting price volatility; no future oil/gas production subject to swaps or collars at 12/31/2005. Only derivatives outstanding were interest rate swaps; fixed-price physical gas contracts exist."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 64000000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 827000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 24000000,
+      "total_production_boe": 226000000,
+      "total_production_boepd": null,
+      "production_year": 2005
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 649000,
+      "proved_gas_reserves_mmcf": 7296000,
+      "proved_ngl_reserves_mbbls": 246000,
+      "total_proved_reserves_mboe": 2112000,
+      "proved_developed_reserves_mboe": 1599000,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2005-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 23574,
+      "pv10_mm": null,
+      "oil_price_used": 45.5,
+      "gas_price_used": 7.84,
+      "lease_operating_expense_per_boe": 5.95,
+      "production_tax_per_boe": 1.48,
+      "total_production_cost_per_boe": 7.43,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

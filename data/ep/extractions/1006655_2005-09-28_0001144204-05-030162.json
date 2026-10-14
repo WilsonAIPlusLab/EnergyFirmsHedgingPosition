@@ -1,0 +1,155 @@
+{
+  "cik": "1006655",
+  "company": "EVOLUTION PETROLEUM CORP",
+  "filing_date": "2005-09-28",
+  "accession_number": "0001144204-05-030162",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 70,
+        "volume_total": 25550,
+        "volume_unit": "Bbls",
+        "fixed_price": 48.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2005-03",
+        "period_end": "2006-02",
+        "counterparty": "Plains Marketing L.P.",
+        "fair_value_mm": null,
+        "notes": "Fixed sale price based on NYMEX WTI with monthly settlements; before adjustment for basis differential between NYMEX price and contract price. Described as a fixed price contract / forward delivery contract.",
+        "evidence_quote": "wherein Plains Marketing delivers a fixed price of\n$48.35 per barrel to us before adjustment for the basis differential between"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 70,
+        "volume_total": 6440,
+        "volume_unit": "Bbls",
+        "fixed_price": 52.55,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2006-03",
+        "period_end": "2006-05",
+        "counterparty": "Plains Marketing L.P.",
+        "fair_value_mm": null,
+        "notes": "Extension of the Plains Marketing fixed price contract.",
+        "evidence_quote": "March 2006 through May 2006 at a fixed price of $52.55 per barrel of oil for 70\nbarrels of oil per day"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 90,
+        "volume_total": 8280,
+        "volume_unit": "Bbls",
+        "fixed_price": 63.45,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2006-06",
+        "period_end": "2006-08",
+        "counterparty": "Plains Marketing L.P.",
+        "fair_value_mm": null,
+        "notes": "Extension of the Plains Marketing fixed price contract.",
+        "evidence_quote": "for the months of June 2006 through August 2006 at a\nfixed price of $63.45 per barrel of oil for 90 barrels of oil per day."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 38,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2006-03",
+        "period_end": "2007-02",
+        "counterparty": "Wells Fargo Bank, N.A.",
+        "fair_value_mm": 0.013466,
+        "notes": "Series of purchased price floors on NYMEX WTI; volume is 2,000 Bbls per month (monthly, not stated as daily or total). Cost of the hedge $3.00 per barrel. Remaining asset after mark-to-market was $13,466 at June 30, 2005 (used as fair value).",
+        "evidence_quote": "series of price floors, set at a NYMEX WTI price of $38.00 per barrel of crude\noil based upon the arithmetic average of the daily settlement price for the\nfirst nearby month of NYMEX WTI futures, for 2,000 barrels of crude oil per\nmonth for March 2006 through February 2007."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 100,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 6.21,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2005-03",
+        "period_end": null,
+        "counterparty": "Texla Energy Management, Inc.",
+        "fair_value_mm": null,
+        "notes": "Fixed price over a fifteen month period that began March 1, 2005; end date not stated. Fixed price includes basis differential from NYMEX to sales point; before $0.0854 per MMBTU Gulf South gathering charge. Commodity Contracts section oddly says approximately 3 MMBTU each month.",
+        "evidence_quote": "The balance, a fixed volume of 100 MMBTU per day, is sold at a fixed price of\n$6.21 per MMBTU over a fifteen month period that began March 1, 2005 (see"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 4,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Prospect Energy credit agreement requires price risk contracts on more than 50% of estimated PDP production over next two years, extended on a rolling two-year basis through the five-year facility term."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 103,
+      "production_year": 2005
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 771.817,
+      "proved_gas_reserves_mmcf": 732.3,
+      "proved_ngl_reserves_mbbls": 7.3,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2005-07-01"
+    },
+    "economics": {
+      "standardized_measure_mm": 13.241078,
+      "pv10_mm": 17.479486,
+      "oil_price_used": 56.5,
+      "gas_price_used": 6.98,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

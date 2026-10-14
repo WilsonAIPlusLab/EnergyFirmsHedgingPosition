@@ -1,0 +1,83 @@
+{
+  "cik": "23194",
+  "company": "COMSTOCK RESOURCES INC",
+  "filing_date": "2009-02-25",
+  "accession_number": "0000950134-09-003729",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 8,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2008-02",
+        "period_end": "2009-12",
+        "counterparty": null,
+        "fair_value_mm": 14,
+        "notes": "Volume stated as 520,000 Mmbtu per month (not daily or total). Priced at Houston Ship Channel. Designated as cash flow hedges. Fair value of $14.0 million is the aggregate for all outstanding natural gas price swap agreements at 12/31/2008 (derivative financial instruments $13,974 thousand).",
+        "evidence_quote": "In January 2008, Comstock entered into natural gas swaps to fix\n    the price at $8.00 per Mmbtu (at the Houston Ship Channel) for\n    520,000 Mmbtu\u2019s per month of production from certain\n    properties in South Texas for the period February 2008 through\n    December 2009."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Comstock periodically uses swaps, floors and collars to hedge oil and natural gas prices and interest rates; hedged about 10% of expected 2009 natural gas sales via swaps designated as cash flow hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1009000,
+      "oil_production_bpd": 2800,
+      "gas_production_mcf": 53867000,
+      "gas_production_mmcf_per_day": 147.2,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2008
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 9668,
+      "proved_gas_reserves_mmcf": 523643,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2008-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 636.291,
+      "pv10_mm": 820.11,
+      "oil_price_used": 34.49,
+      "gas_price_used": 5.33,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:24",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

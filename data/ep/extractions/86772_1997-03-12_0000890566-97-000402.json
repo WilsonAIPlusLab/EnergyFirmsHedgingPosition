@@ -1,0 +1,101 @@
+{
+  "cik": "86772",
+  "company": "SANTA FE SNYDER CORP",
+  "filing_date": "1997-03-12",
+  "accession_number": "0000890566-97-000402",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 7700,
+        "volume_total": 1632400,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average approx. 7,700 barrels per day of open crude hedges; instruments have floors ranging from $21 to $23 per barrel and ceilings ranging from $24 to $27 per barrel (ranges only, no single strike stated, so floor/ceiling fields left null). Settlement vs NYMEX-based prices.",
+        "evidence_quote": "The Company has open crude hedges on an average of approximately 7,700\nbarrels per day for the period January to July 1997."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 20000,
+        "volume_total": 3640000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1996-01",
+        "period_end": "1996-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Expired hedge of natural gas PURCHASED for steam generation in San Joaquin Valley (20 MMcf per day, first six months of 1996); resulted in $3.2 million increase in production and operating costs. Instrument type not stated. Not open at year-end 1996.",
+        "evidence_quote": "1996 the Company hedged 20 MMcf per day of the natural gas it purchases for use"
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Company hedges a portion of oil and gas sales to reduce exposure to market price declines and maintain cash flow; instruments settle against NYMEX or other indices; no open natural gas sales hedges at 12/31/96."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 27200000,
+      "oil_production_bpd": 74300,
+      "gas_production_mcf": 61100000,
+      "gas_production_mmcf_per_day": 166.9,
+      "ngl_production_bbls": null,
+      "total_production_boe": 37400000,
+      "total_production_boepd": 102100,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 299500,
+      "proved_gas_reserves_mmcf": 259400,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 342700,
+      "proved_developed_reserves_mboe": 275800,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1477.1,
+      "pv10_mm": 2095.5,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 5.02,
+      "production_tax_per_boe": 0.71,
+      "total_production_cost_per_boe": 5.64,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.89,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:39",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

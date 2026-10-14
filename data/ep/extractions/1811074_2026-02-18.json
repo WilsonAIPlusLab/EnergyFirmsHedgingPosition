@@ -1,0 +1,61 @@
+{
+  "cik": "1811074",
+  "company": "Texas Pacific Land Corp",
+  "filing_date": "2026-02-18",
+  "accession_number": "0001811074-26-000018",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "No commodity derivatives disclosed; Item 7A lists only cash equivalents, accounts payable and other liabilities as financial instruments. TPL says it is a royalty/land owner, not a producer."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4936000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 23359000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 3784000,
+      "total_production_boe": 12613000,
+      "total_production_boepd": 34600,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 24191,
+      "proved_gas_reserves_mmcf": 148012,
+      "proved_ngl_reserves_mbbls": 24256,
+      "total_proved_reserves_mboe": 73116,
+      "proved_developed_reserves_mboe": 73116,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1015.534,
+      "pv10_mm": null,
+      "oil_price_used": 65.34,
+      "gas_price_used": 1.93,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:02",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

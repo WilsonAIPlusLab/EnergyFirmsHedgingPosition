@@ -1,0 +1,137 @@
+{
+  "cik": "867665",
+  "company": "ABRAXAS PETROLEUM CORP",
+  "filing_date": "1999-04-13",
+  "accession_number": "0000867665-99-000012",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 730000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 14,
+        "ceiling_price": 22.3,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-04",
+        "period_end": "1999-03",
+        "counterparty": "Enron Capital and Trade Resources Corp.",
+        "fair_value_mm": null,
+        "notes": "Costless collar on NYMEX crude oil; effective April 1, 1998 through March 31, 1999; 1998 realized gain $282,000.",
+        "evidence_quote": "agreement with Enron Capital and Trade  Resources  Corp. for 2,000 Bbls of crude\noil per day with a floor  price of $14.00 per Bbl and a ceiling  price of $22.30"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": 214000,
+        "volume_unit": "Bbls",
+        "fixed_price": 13.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-04",
+        "period_end": "1999-10",
+        "counterparty": "Barrett Resources Corporation",
+        "fair_value_mm": null,
+        "notes": "Hedge agreement under which Company is paid an average NYMEX price of $13.98 per Bbl.",
+        "evidence_quote": "Resources  Corporation  covering 1,000 Bbls per day of crude oil calling for the\nCompany  to be paid an  average  NYMEX price of $13.98  per Bbl over the period\nApril 1, 1999 to October 31, 1999."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 37,
+        "volume_total": 7918,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.93,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-04",
+        "period_end": "1999-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Stated as 37.0 MMBTUpd as of March 1, 1999 at average NYMEX price of approx $1.93; split by counterparty: 20.0 Barrett Resources Corporation, 11.0 Engage Energy Capital Canada LP, 6.0 Amoco.",
+        "evidence_quote": "As of March 1, 1999,  the Company had 37.0 MMBTUpd  hedged at an average\nNYMEX price of  approximately  $1.93 per MMBTU from April 1, 1999 to October 31,"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2.4,
+        "volume_total": 1754.4,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.1,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-11",
+        "period_end": "2000-10",
+        "counterparty": "Engage Energy Capital Canada LP",
+        "fair_value_mm": null,
+        "notes": "Stated as 2.4 MMBTUpd at average NYMEX price of approx $1.10; assumed in connection with the acquisition of New Cache.",
+        "evidence_quote": "2.4 MMBTUpd at an average NYMEX price of approximately  $1.10 per MMBTU\nfrom November 1, 1998 to October 31, 2000."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Manages crude oil and natural gas prices through periodic use of commodity price hedging agreements; from time to time uses fixed price delivery contracts, financial swaps and futures."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 728560,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 24929866,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 867443,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5613,
+      "proved_gas_reserves_mmcf": 197478,
+      "proved_ngl_reserves_mbbls": 2082,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 181.581,
+      "pv10_mm": 182,
+      "oil_price_used": 9.95,
+      "gas_price_used": 1.9,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 2.93,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

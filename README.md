@@ -1,6 +1,6 @@
 # U.S. Commodity Hedging Dataset: E&P, Airlines, and Refiners
 
-*Last updated: 2026-05-24*
+*Last updated: 2026-10-13*
 
 A firm-level panel dataset of commodity hedging instruments and hedge ratios for three groups of U.S.
 energy-sector companies, extracted from SEC 10-K annual filings: upstream E&P producers, commercial
@@ -12,6 +12,7 @@ airlines (jet fuel consumers), and petroleum refiners.
 
 | Date | Change |
 |---|---|
+| 2026-10-13 | v2.1 — E&P tables extended IN PLACE with the pre-2010 filings (FY1992–2009, 2,400 firm-years) and the FY2025/2026 update (217 firm-years): `data/ep/` now has 5,587 firm-years / 857 firms / 25,527 positions / 6,096 filings; new column `source_tier` marks the published v2.0 sample (`ep_v2.0`) vs the added tiers (`pre2010A`, `update_2026`). 62 v2.0 rows changed values (production denominators, FY2024 mostly): `data/ep/CHANGES_2026-10.csv`. New group folder `data/tierBCD/` (utilities, midstream and other energy SICs, 463 firms, 2,967 firm-years) and new table `data/production_reserves.csv` (9,077 filings). `master_panel.csv` ep rows rebuilt (airline and refiner rows unchanged). The added tiers were verified with the quote-check workflow, not the v2.0 PASS/FIXED log: see DATA_QUALITY.md section 12. |
 | 2026-05-24 | v2.0 — Added airline and refiner groups (661 filings); reorganized data/ into per-group subfolders (ep/, airline/, refiner/); added crosswalk.csv and master_panel.csv; E&P instrument_deltas.csv renamed positions.csv, instrument_index.csv renamed filings.csv. See DATA_QUALITY.md for name-migration table. |
 | 2026-03-28 | NGL hedge ratio column count updated to 202 firm-years in schema table |
 | 2026-03-23 | Initial release (E&P only). Added NGL columns to hedge_ratios.csv schema. Updated instrument count to 14,538 |
@@ -24,13 +25,13 @@ airlines (jet fuel consumers), and petroleum refiners.
 |---|---|---|---|---|
 | **Company group** | Upstream exploration & production | Jet fuel consumers | Crude oil / products processors | |
 | **SEC filing type** | 10-K, SIC 1311 | 10-K, various SICs | 10-K, various SICs | |
-| **Unique entities** | 453 | ~26 | 18 | ~497 |
-| **Filings extracted** | 3,446 | 603 | 235 | 4,284 |
-| **Filing period** | 2010–2025 | 1999–2025 | 2001–2025 | 1999–2025 |
-| **Fiscal years covered** | 2007–2025 | 1999–2025 | 2001–2025 | 1999–2025 |
-| **Hedging positions extracted** | 14,538 instruments | 344 coverage-year positions | 696 notional positions | 15,578 |
+| **Unique entities** | 857 (453 in the verified v2.0 core) | ~26 | 18 | ~901 |
+| **Filings extracted** | 6,096 (3,446 verified core + 2,650 added) | 603 | 235 | 6,934 |
+| **Filing period** | 1994–2026 | 1999–2025 | 2001–2025 | 1994–2026 |
+| **Fiscal years covered** | 1992–2026 | 1999–2025 | 2001–2025 | 1992–2026 |
+| **Hedging positions extracted** | 25,527 instruments | 344 coverage-year positions | 696 notional positions | 26,567 |
 | **Hedge ratio denominator** | Annual oil/gas production | Expected fuel consumption (gallons) | Crude throughput (MBbl) | — (not unified across groups) |
-| **Master panel rows** | 5,936 (oil + gas axes) | 601 | 235 | 6,772 |
+| **Master panel rows** | 11,174 (oil + gas axes) | 601 | 235 | 12,010 |
 | **Source** | SEC EDGAR, SIC 1311 | SEC EDGAR, individual CIKs | SEC EDGAR, individual CIKs | |
 | **Extraction method** | Claude AI + automated verification | Claude AI + manual verification | Claude AI + manual verification | |
 
@@ -112,12 +113,14 @@ dataset/
 │
 ├── data/
 │   ├── ep/                      <- E&P producer group
-│   │   ├── hedge_ratios.csv     <- Firm-year panel (2,963 rows)
-│   │   ├── positions.csv        <- Instrument-level detail (14,538 rows)
-│   │   ├── filings.csv          <- Filing-level summary (3,446 rows)
+│   │   ├── hedge_ratios.csv     <- Firm-year panel (5,587 rows; `source_tier` column; v2.0 core = 2,970)
+│   │   ├── positions.csv        <- Instrument-level detail (25,527 rows; v2.0 core = 14,566)
+│   │   ├── filings.csv          <- Filing-level summary (6,096 rows)
+│   │   ├── CHANGES_2026-10.csv  <- v2.0 values that changed in the 2026-10 update (old vs new)
+│   │   ├── CHANGES_2026-10_dropped_rows.csv <- added rows left out because a v2.0 row holds the same cik + fiscal year
 │   │   ├── filing_index.csv     <- Full parse index incl. unextracted filings (4,672 rows) [E&P only]
-│   │   ├── verification_log.csv <- Per-filing verification verdict (3,446 rows) [E&P only]
-│   │   └── extractions/         <- Per-filing JSON source files (3,446 files)
+│   │   ├── verification_log.csv <- Per-filing verification verdict (3,446 rows, v2.0 core only) [E&P only]
+│   │   └── extractions/         <- Per-filing JSON source files (6,096 files)
 │   │
 │   ├── airline/                 <- Airline / air cargo group
 │   │   ├── hedge_ratios.csv     <- Firm-year panel (601 rows; airline version 2, see airline/README_AIRLINE_V2.md)
@@ -131,8 +134,11 @@ dataset/
 │   │   ├── filings.csv          <- Filing-level summary (235 rows)
 │   │   └── extractions/         <- Per-filing JSON source files (235 files)
 │   │
+│   ├── tierBCD/                 <- Utilities, midstream and other energy SICs (hedge_ratios.csv 2,967 rows; instrument_deltas.csv 13,501 rows)
+│   │
+│   ├── production_reserves.csv  <- Production, proved reserves, PV-10 and unit costs per filing (9,077 filings, all tiers; see production_reserves_README.md)
 │   ├── crosswalk.csv            <- CIK to ticker/entity mapping, era-based (50 rows)
-│   └── master_panel.csv         <- Harmonized cross-group panel (6,582 rows)
+│   └── master_panel.csv         <- Harmonized cross-group panel (12,010 rows)
 │
 └── docs/                        <- Supplemental technical documentation
     ├── CODEBOOK.md              <- Per-variable data dictionary (all tables)
@@ -162,6 +168,8 @@ Every group's `positions.csv` contains per-position records linkable back to the
 Every group's `filings.csv` contains one row per filing with filing-level provenance.
 
 ### data/ep/hedge_ratios.csv — E&P firm-year panel
+
+The last column, `source_tier`, is `ep_v2.0` (published, verified sample), `pre2010A` (filings 1994–2010 added 2026-10) or `update_2026` (FY2025/2026 filings added 2026-10). Filter on `source_tier == 'ep_v2.0'` to reproduce the v2.0 sample. The same column is in `positions.csv` and `filings.csv`, and in `tierBCD/` (value `tierBCD`) and `production_reserves.csv`.
 
 | Column | Description |
 |---|---|

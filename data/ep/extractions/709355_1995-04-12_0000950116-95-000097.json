@@ -1,0 +1,113 @@
+{
+  "cik": "709355",
+  "company": "CASTLE ENERGY CORP",
+  "filing_date": "1995-04-12",
+  "accession_number": "0000950116-95-000097",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 20000,
+        "volume_total": 51760000,
+        "volume_unit": "Bbls",
+        "fixed_price": 1.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1993-05",
+        "period_end": "2000-05",
+        "counterparty": "MGRM",
+        "fair_value_mm": null,
+        "notes": "IRLP swap: pays/receives differential of monthly mean WTI minus $1.60 versus monthly mean West Texas sour crude (fixed discount of sweet over sour); expires May 26, 2000; terminated October 14, 1994 under MG Settlement; IRLP received net $3,082 thousand in FY1994.",
+        "evidence_quote": "On May 27, 1993, IRLP entered into a 20,000 barrel per day swap agreement"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": "1999-05",
+        "counterparty": "MG",
+        "fair_value_mm": null,
+        "notes": "Castle Production pays MG the current wellhead market price for Oak Hill Field gas production and MG pays a fixed price (level not stated); term ending May 31, 1999; terminated October 14, 1994 under MG Settlement.",
+        "evidence_quote": "Production a fixed price for the gas produced."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1994-03",
+        "period_end": "1995-07",
+        "counterparty": "Percolin Limited",
+        "fair_value_mm": null,
+        "notes": "IPLP forward sale of specified quantities of crude oil (West Texas Intermediate) to Percolin for a $120 million prepayment; 12-month delivery period commencing March 1994, extended through July 1995; quantities and price not stated; MGRM agreed to supply the crude to meet delivery obligations.",
+        "evidence_quote": "forward sale contract (the \"Forward Sale Contract\") pursuant to which, in"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "IRLP and its senior lender hedged against decreases in the sweet/sour crude price differential; hedging cleared via MG Futures. The swaps were terminated October 14, 1994 under the MG Settlement."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 52000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3606000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 16.03,
+      "gas_price_used": 2.02,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

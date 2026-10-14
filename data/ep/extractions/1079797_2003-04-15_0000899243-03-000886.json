@@ -1,0 +1,30 @@
+{
+  "cik": "1079797",
+  "company": "New Century Energy Corp.",
+  "filing_date": "2003-04-15",
+  "accession_number": "0000899243-03-000886",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": null
+    }
+  },
+  "production": {
+    "production": {},
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:55",
+    "verification_status": "review",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

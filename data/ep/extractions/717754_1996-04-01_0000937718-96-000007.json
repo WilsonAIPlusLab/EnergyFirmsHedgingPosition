@@ -1,0 +1,113 @@
+{
+  "cik": "717754",
+  "company": "INLAND RESOURCES INC",
+  "filing_date": "1996-04-01",
+  "accession_number": "0000937718-96-000007",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 20.55,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "2000-12",
+        "counterparty": "Enron Capital and Trade Resources Corp.",
+        "fair_value_mm": null,
+        "notes": "Enron Hedge, cost free collar on NYMEX Light Sweet Crude. Monthly volumes escalate from 8,500 Bbls (Jan 1996) to 14,000 Bbls (Dec 2000). Floor lowered from $18.00 to $16.50 for Feb-Dec 1996 by Jan 18, 1996 restructuring (company received $52,400). Combined market value of this and the Koch contract at 12/31/95 was $620,000 (positive), not split by contract.",
+        "evidence_quote": "January 1, 1996 in monthly amounts escalating from 8,500\nBbls in January 1996 to 14,000 Bbls in December 2000. The\nhedge is structured as a cost free collar whereby if the\naverage monthly price"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16,
+        "ceiling_price": 18.2,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-12",
+        "period_end": "1996-12",
+        "counterparty": "Koch Gas Services Company",
+        "fair_value_mm": null,
+        "notes": "Cost free collar entered Nov 20, 1995, thirteen month period; volumes not stated in text. Combined market value with the Enron Hedge at 12/31/95 was $620,000 (positive).",
+        "evidence_quote": "This contract hedges crude oil\nproduction over a thirteen month period beginning December\n1, 1995 and ending December 31, 1996. This hedge is also\nstructured as a cost free collar with a floor price of\n$16.00 and a ceiling of $18.20."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": 767.16,
+        "volume_total": 257000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16.5,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-02",
+        "period_end": "1996-12",
+        "counterparty": "Enron Capital and Trade Resources Corp.",
+        "fair_value_mm": null,
+        "notes": "Purchased Jan 18, 1996 for $149,000; aggregate 257,000 barrels in monthly amounts escalating from 10,000 to 35,000 barrels.",
+        "evidence_quote": "contract, the Company purchased for $149,000 a put option\nwith a strike price of $16.50, covering the period February\nthrough December 1996, to put to the purchaser an aggregate\nof 257,000 barrels of oil in monthly amounts escalating from\n10,000 barrels to 35,000"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges crude oil production with cost free collars and a purchased put; gains/losses adjust oil revenue. Company says it can enter commodity contracts to mitigate financial loss."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 104564,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 108927,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 122718,
+      "total_production_boepd": null,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3015.979,
+      "proved_gas_reserves_mmcf": 5662,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 9.431,
+      "pv10_mm": 12.364875,
+      "oil_price_used": 18.14,
+      "gas_price_used": 1.08,
+      "lease_operating_expense_per_boe": 8.23,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 8.23,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

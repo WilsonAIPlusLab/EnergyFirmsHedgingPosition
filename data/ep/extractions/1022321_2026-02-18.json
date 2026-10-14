@@ -1,0 +1,116 @@
+{
+  "cik": "1022321",
+  "company": "GENESIS ENERGY LP",
+  "filing_date": "2026-02-18",
+  "accession_number": "0001022321-26-000008",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 532.93,
+        "volume_total": 178000,
+        "volume_unit": "Bbls",
+        "fixed_price": 58.06,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-02",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sell (short) crude oil futures and swap contracts, designated as fair value hedges of inventory. Contract volumes 178 thousand Bbl; contract value $10,334 thousand; mark-to-market change $(137) thousand; settlement value $10,197 thousand. Settlement window Feb 2026 to Dec 2026 stated for all open derivatives.",
+        "evidence_quote": "Crude Oil\tBbl\t\t178 \t\t\tBbl\t\t$\t58.06 \t\t\t$\t10,334 \t\t\t$\t(137)\t\t\t$\t10,197"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 149.7,
+        "volume_total": 50000,
+        "volume_unit": "Bbls",
+        "fixed_price": 0.49,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-02",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Crude oil spread swap, sell (short), not designated as hedge. Contract volumes 50 thousand Bbl; contract value $25 thousand; mark-to-market change $(51) thousand; settlement value $(26) thousand.",
+        "evidence_quote": "Crude Oil Spread Swap\tBbl\t\t50 \t\t\tBbl\t\t$\t0.49 \t\t\t$\t25 \t\t\t$\t(51)\t\t\t$\t(26)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 119.76,
+        "volume_total": 40000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-02",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Written crude oil option contracts; put/call type and strike not stated. Weighted average premium received/paid $0.05 per Bbl; contract value $22 thousand; mark-to-market change $(8) thousand; settlement value $14 thousand. Not designated as hedge.",
+        "evidence_quote": "Crude Oil\tBbl\t\t40 \t\t\tBbl\t\t$\t0.05 \t\t\t$\t22 \t\t\t$\t(8)\t\t\t$\t14"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses crude oil futures, options and swaps to hedge fixed price purchases/sales, inventory and basis in onshore transportation and services; does not hold derivatives for speculation."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:02",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

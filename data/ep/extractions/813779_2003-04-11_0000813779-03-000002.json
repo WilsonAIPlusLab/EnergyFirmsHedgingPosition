@@ -1,0 +1,137 @@
+{
+  "cik": "813779",
+  "company": "CRIMSON EXPLORATION INC.",
+  "filing_date": "2003-04-11",
+  "accession_number": "0000813779-03-000002",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2000-05",
+        "period_end": "2004-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "First agreement with an energy lender (Aquila Energy Capital per MD&A, later sold to another lender). Initial volume 7,900 barrels of oil per month, declining monthly thereafter. Prices and instrument type not stated; MD&A refers to fixed price hedges and swap agreements.",
+        "evidence_quote": "volumes of 7,900  barrels  of oil and  52,400  Mmbtu of gas per month,"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2000-05",
+        "period_end": "2004-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "First agreement with an energy lender. Initial volume 52,400 Mmbtu of gas per month, declining monthly thereafter. Prices and instrument type not stated.",
+        "evidence_quote": "volumes of 7,900  barrels  of oil and  52,400  Mmbtu of gas per month,"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2001-09",
+        "period_end": "2004-07",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second agreement with the energy lender. Initial volume 15,000 barrels of oil per month, declining; volume at December 31, 2002 had declined to 9,800 barrels (per month). Prices not stated.",
+        "evidence_quote": "barrels of oil and 50,000  Mmbtu of gas per month,  declining  monthly"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2001-09",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second agreement with the energy lender. Initial volume 50,000 Mmbtu of gas per month, declining; volume at December 31, 2002 had declined to 26,500 Mmbtu (per month). Period end of December 2002 follows the 'respectively' wording; text also states the 26,500 Mmbtu volume remained at December 31, 2002. Prices not stated.",
+        "evidence_quote": "through  July,  2004  and  September,   2001  through  December  2002,"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Derivatives only in conjunction with oil and gas hedging; not for trading. Hedges a portion of oil and gas sales under agreements with an energy lender."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 278374,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1487048,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 526215,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5522,
+      "proved_gas_reserves_mmcf": 34159,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 11215,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 77.623835,
+      "pv10_mm": 98.9,
+      "oil_price_used": 28.72,
+      "gas_price_used": 4.43,
+      "lease_operating_expense_per_boe": 10.32,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.13,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "cik": "1338613",
+  "company": "Regency Energy Partners LP",
+  "filing_date": "2007-03-30",
+  "accession_number": "0000950134-07-007003",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 1311.9,
+        "volume_total": 959000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2007-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": -0.792,
+        "notes": "Ethane NGL swap; Partnership pays Index (OPIS Mont Belvieu monthly average), receives fixed price range $0.55-$0.6725 per gallon (no weighted average stated); notional 959 MBbls; fair value (792) thousand",
+        "evidence_quote": "Ethane\n\n    959\n\n    Index\n\n    $0.55-$0.6725\n\n    $\n\n    (792\n\n    )"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 930.23,
+        "volume_total": 680000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2007-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": -0.562,
+        "notes": "Propane NGL swap; pays Index (OPIS Mont Belvieu), receives fixed price range $0.825-$1.0975 per gallon (no weighted average stated); notional 680 MBbls; fair value (562) thousand",
+        "evidence_quote": "Propane\n\n    680\n\n    Index\n\n    $0.825-$1.0975\n\n    (562"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 574.82,
+        "volume_total": 630000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2007-01",
+        "period_end": "2009-12",
+        "counterparty": null,
+        "fair_value_mm": 0.638,
+        "notes": "Butane NGL swap; pays Index (OPIS Mont Belvieu), receives fixed price range $1.025-$1.27 per gallon (no weighted average stated); notional 630 MBbls; fair value 638 thousand",
+        "evidence_quote": "Butane\n\n    630\n\n    Index\n\n    $1.025-$1.27\n\n    638"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "ngl",
+        "direction": "short",
+        "volume_per_day": 285.91,
+        "volume_total": 209000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2007-01",
+        "period_end": "2008-12",
+        "counterparty": null,
+        "fair_value_mm": 0.153,
+        "notes": "Natural gasoline NGL swap; pays Index (OPIS Mont Belvieu), receives fixed price range $1.22-$1.565 per gallon (no weighted average stated); notional 209 MBbls; fair value 153 thousand",
+        "evidence_quote": "Natural Gasoline\n\n    209\n\n    Index\n\n    $1.22-$1.565\n\n    153"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 649.64,
+        "volume_total": 712000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2007-01",
+        "period_end": "2009-12",
+        "counterparty": null,
+        "fair_value_mm": 0.563,
+        "notes": "West Texas Intermediate crude swap in the NGL swap table; pays Index, receives fixed price range $65.60-$68.38 (no weighted average stated; column header says $/gallon but values are clearly per barrel); notional 712 MBbls; fair value 563 thousand",
+        "evidence_quote": "West Texas Intermediate Crude\n\n    712\n\n    Index\n\n    $65.60-$68.38\n\n    563"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 4,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Policy not to take speculative marketing positions; uses financial hedges (swaps vs ethane, propane, butane, natural gasoline, crude oil, gas; crude oil puts) to mitigate commodity price risk."
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "production_year": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null,
+      "total_proved_reserves_mboe": null,
+      "proved_oil_reserves_mbbls": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": null,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

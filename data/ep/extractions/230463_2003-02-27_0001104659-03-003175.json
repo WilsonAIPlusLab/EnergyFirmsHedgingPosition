@@ -1,0 +1,119 @@
+{
+  "cik": "230463",
+  "company": "PXP PRODUCING CO LLC",
+  "filing_date": "2003-02-27",
+  "accession_number": "0001104659-03-003175",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 40.0,
+        "volume_total": 14600,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.85,
+        "ceiling_price": 5,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -2.127192,
+        "notes": "Volume of 14,600 MMBtu is shown in the table without a stated per-day or total basis; fair value is a liability of $(2,127,192). NYMEX-settled; designated cash flow hedge.",
+        "evidence_quote": "January 2003  -  December 2003\n\n14,600\n\n$\n\n3.85\n\n$\n\n5.00\n\n$\n\n(2,127,192"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 10000.0,
+        "volume_total": 3650000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 25,
+        "ceiling_price": 30,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -0.305636,
+        "notes": "Fair value is a liability of $(305,636). Oil hedges settled on NYMEX WTI; designated cash flow hedge.",
+        "evidence_quote": "January 2003  -  December 2003\n\n3,650,000\n\n$\n\n25.00\n\n$\n\n30.00\n\n$\n\n(305,636"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 20.0,
+        "volume_total": 6680,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.25,
+        "ceiling_price": 7,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-02",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered into in January 2003 (after year-end). Volume basis (per day or total) not stated. Item 7A table gives period February 2003 - December 2003; the Note 11 repeat of the table says January 2003 - December 2003.",
+        "evidence_quote": "February 2003  -  December 2003\n\n6,680\n\n$\n\n4.25\n\n$\n\n7.00"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Limited use of derivatives only for non-trading purposes to manage commodity prices on oil and gas sales; 2002 collars designated as cash flow hedges for more predictable cash flow."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 47360,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 279.1,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 118179,
+      "proved_gas_reserves_mmcf": 873510,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2055.215,
+      "pv10_mm": 3098.356,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

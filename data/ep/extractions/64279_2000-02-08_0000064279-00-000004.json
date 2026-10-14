@@ -1,0 +1,101 @@
+{
+  "cik": "64279",
+  "company": "MCMORAN EXPLORATION CO /DE/",
+  "filing_date": "2000-02-08",
+  "accession_number": "0000064279-00-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 9890.11,
+        "volume_total": 900000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-03",
+        "counterparty": null,
+        "fair_value_mm": -0.1,
+        "notes": "Freeport Sulphur gas purchase price protection for Main Pass sulphur mine (about 50% of Q1 2000 gas requirements); text elsewhere calls them natural gas option contracts but gives no strike/option terms; $2.43 is average price.",
+        "evidence_quote": "Freeport Sulphur had contracts to purchase\napproximately 900,000 million British thermal units (mmbtu) of\nnatural gas at an average price of $2.43 per mmbtu."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 400000,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": -0.5,
+        "notes": "Freeport Sulphur forward oil sales related to Main Pass oil production; 0.4 million barrels at average price through December 2001; start date not stated.",
+        "evidence_quote": "As of December\n31, 1999, Freeport Sulphur had contracts to sell 0.4\nmillion barrels of oil at an average price of $20.48 per barrel\nthrough December 2001."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Based on market conditions, McMoRan may enter financial contracts to manage commodity price risk; price protection only for Main Pass oil sales and sulphur gas consumption, none on other properties."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1353600,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 14026000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5245,
+      "proved_gas_reserves_mmcf": 62575,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 113.2,
+      "oil_price_used": 22.64,
+      "gas_price_used": 2.37,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:40",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

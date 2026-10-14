@@ -1,0 +1,173 @@
+{
+  "cik": "1060990",
+  "company": "QUICKSILVER RESOURCES INC",
+  "filing_date": "2001-03-27",
+  "accession_number": "0000930661-01-000770",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 7500,
+        "volume_total": 907500,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.4,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2004-01",
+        "period_end": "2004-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Table labelled Fixed Price (text elsewhere calls these fixed price swap agreements). Fair value shown as $(19,244) with no stated unit, so not converted.",
+        "evidence_quote": "Gas       Fixed Price   Jan-Apr 2004    7,500 Mcfd       $2.40        $(19,244)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 604,
+        "volume_total": 184220,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.14,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2004-01",
+        "period_end": "2004-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fair value shown as $ (1,918) with no stated unit, so not converted.",
+        "evidence_quote": "Gas       Fixed Price   Jan-Oct 2004      604 Mcfd       $2.14        $ (1,918)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 1200000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.79,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2005-01",
+        "period_end": "2005-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "First of three Jan-Apr 2005 rows at 10,000 Mcfd and $2.79. Fair value shown as $(23,532) with no stated unit, so not converted.",
+        "evidence_quote": "Gas       Fixed Price   Jan-Apr 2005   10,000 Mcfd       $2.79        $(23,532)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 1200000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.79,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2005-01",
+        "period_end": "2005-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Second of three Jan-Apr 2005 rows at 10,000 Mcfd and $2.79. Fair value shown as $(23,637) with no stated unit, so not converted.",
+        "evidence_quote": "Gas       Fixed Price   Jan-Apr 2005   10,000 Mcfd       $2.79        $(23,637)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 1200000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.79,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2005-01",
+        "period_end": "2005-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Third of three Jan-Apr 2005 rows at 10,000 Mcfd and $2.79. Its fair value, $(23,637), is identical to the second row. The unit is not stated, so it is not converted.",
+        "evidence_quote": "Gas       Fixed Price   Jan-Apr 2005   10,000 Mcfd       $2.79        $(23,637)"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 35000,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "2009-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical long-term fixed price sales contracts, not a financial swap. About 25% of the volumes are third-party volumes controlled by the Company. The start date is not stated.",
+        "evidence_quote": "of natural gas under long-term fixed price contracts at $2.48/Mcf through"
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": "Hedges anticipated natural gas production with swaps, futures, forwards, price ceilings/floors, no-cost collars and fixed price swaps; also sells gas under long-term fixed price contracts.",
+      "total_gas_instruments": 6,
+      "total_ngl_instruments": 0,
+      "total_oil_instruments": 0,
+      "uses_derivatives": true
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 26655000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 161000,
+      "oil_production_bbls": 1035000,
+      "oil_production_bpd": null,
+      "production_year": 2000,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": 570814,
+      "proved_ngl_reserves_mbbls": 1535,
+      "proved_oil_reserves_mbbls": 14856,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": 1592.761,
+      "standardized_measure_mm": 1069.292,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:39",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

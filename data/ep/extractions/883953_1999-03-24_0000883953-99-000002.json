@@ -1,0 +1,155 @@
+{
+  "cik": "883953",
+  "company": "HALLWOOD CONSOLIDATED RESOURCES CORP",
+  "filing_date": "1999-03-24",
+  "accession_number": "0000883953-99-000002",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 63.01,
+        "volume_total": 23000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 14.88,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Participating hedge plus collar: receives contract (floor) price if spot lower; cap prices range $16.50 to $18.35 per barrel (single ceiling not given); receives 25% of increase over contract price. Contract with 3 counterparties overall (18 contracts total, not allocated).",
+        "evidence_quote": "1999                     23,000                  14.88"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 11608.22,
+        "volume_total": 4237000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.95,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Company uses swaps, collars and participating hedges; gas instrument type per row not stated. Contract floor price. Approx 42% of direct gas production hedged for 1999.",
+        "evidence_quote": "1999                   4,237,000                 1.95"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 7986.34,
+        "volume_total": 2923000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.95,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Instrument type per row not stated (swaps, collars, participating hedges). Approx 33% of direct gas production hedged.",
+        "evidence_quote": "2000                   2,923,000                 1.95"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 6857.53,
+        "volume_total": 2503000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.92,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Instrument type per row not stated (swaps, collars, participating hedges). Approx 33% of direct gas production hedged.",
+        "evidence_quote": "2001                   2,503,000                 1.92"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 5819.18,
+        "volume_total": 2124000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 1.98,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Instrument type per row not stated (swaps, collars, participating hedges). Approx 32% of direct gas production hedged.",
+        "evidence_quote": "2002                   2,124,000                 1.98"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "As part of risk management, HCRC uses swaps, collars and participating hedges to protect against price decreases; did not add new oil hedges for future years in 1998 as acceptable prices were unavailable."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 84,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:41",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

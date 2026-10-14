@@ -1,0 +1,155 @@
+{
+  "cik": "868809",
+  "company": "XTO ENERGY INC",
+  "filing_date": "1998-03-31",
+  "accession_number": "0000930661-98-000678",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 30000,
+        "volume_total": 6420000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.01,
+        "ceiling_price": 2.46,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-03",
+        "period_end": "1998-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered into January 1998 (post year-end). Prices realized will be less than hedged prices due to location, quality and other adjustments.",
+        "evidence_quote": "ceiling prices of $2.01 and $2.46 per Mcf for 30,000 Mcf per day from March\nthrough September 1998."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 1230000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.35,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-05",
+        "period_end": "1998-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Futures contracts to sell, entered into February and March 1998 (post year-end).",
+        "evidence_quote": "futures contracts to sell 10,000 Mcf per day from May through August 1998 at a\nprice of $2.35 per Mcf."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 10000,
+        "volume_total": 310000,
+        "volume_unit": "Mcf",
+        "fixed_price": 0.27,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-01",
+        "period_end": "1998-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis swap fixing San Juan Basin delivery point differential at $0.27 per Mcf; entered January 1998 with three unnamed financial institutions.",
+        "evidence_quote": "(\"basis\") at $0.27 per Mcf on San Juan Basin gas production of 10,000 Mcf per\nday in January 1998, 20,000 Mcf per day from February 1998 through March 1999,"
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 20000,
+        "volume_total": 8480000,
+        "volume_unit": "Mcf",
+        "fixed_price": 0.27,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1998-02",
+        "period_end": "1999-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis swap fixing San Juan Basin delivery point differential at $0.27 per Mcf; entered January 1998 with three unnamed financial institutions.",
+        "evidence_quote": "day in January 1998, 20,000 Mcf per day from February 1998 through March 1999,\nand 10,000 Mcf per day from April 1999 through December 2000."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 10000,
+        "volume_total": 6410000,
+        "volume_unit": "Mcf",
+        "fixed_price": 0.27,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1999-04",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Basis swap fixing San Juan Basin delivery point differential at $0.27 per Mcf; entered January 1998 with three unnamed financial institutions.",
+        "evidence_quote": "20,000 Mcf per day from February 1998 through March 1999,\nand 10,000 Mcf per day from April 1999 through December 2000."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters futures, energy swaps, collars, basis swaps and options to hedge oil and gas price exposure; no significant hedging activity 1994 through 1997; hedges entered Jan-Mar 1998."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 10905,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": 135.855,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 47854,
+      "proved_gas_reserves_mmcf": 815775,
+      "proved_ngl_reserves_mbbls": 13810,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 642.109,
+      "pv10_mm": 782.322,
+      "oil_price_used": 15.5,
+      "gas_price_used": 2.2,
+      "lease_operating_expense_per_boe": 3.54,
+      "production_tax_per_boe": 1.33,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.87,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

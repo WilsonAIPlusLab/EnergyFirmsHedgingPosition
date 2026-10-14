@@ -1,0 +1,101 @@
+{
+  "cik": "778438",
+  "company": "Berry Petroleum Company, LLC",
+  "filing_date": "1997-03-24",
+  "accession_number": "0000778438-97-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 3000,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1997-01",
+        "counterparty": "California independent refiner (unnamed)",
+        "fair_value_mm": null,
+        "notes": "Two bracketed zero cost collar contracts, approx 3,000 Bbl/d combined (31% of 1996 production); floor/ceiling prices not stated; contracts expired Jan 31, 1997; start date not stated",
+        "evidence_quote": "The Company hedged approximately 3,000 \nbarrels per day, or 31% of its 1996 production by entering into two bracketed \nzero cost collar hedge contracts with a California independent refiner."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1997-02",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered late Feb 1997 'similar hedge contract' for approx 25% of current production, term of 18 months; volume in absolute terms, prices and exact structure not stated",
+        "evidence_quote": "In late February 1997, the \nCompany entered into a similar hedge contract for approximately 25% of its \ncurrent production for a term of 18 months."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company may enter into crude oil or natural gas hedge contracts depending on various factors including Management's view of the future crude oil markets."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3491000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 491000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 3573000,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 101336,
+      "proved_gas_reserves_mmcf": 4682,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 102116,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 420.559,
+      "pv10_mm": 634.579,
+      "oil_price_used": 18.37,
+      "gas_price_used": 3.02,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.92,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": 2.84
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:42",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

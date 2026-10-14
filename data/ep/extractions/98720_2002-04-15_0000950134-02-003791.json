@@ -1,0 +1,131 @@
+{
+  "cik": "98720",
+  "company": "TOREADOR RESOURCES CORP",
+  "filing_date": "2002-04-15",
+  "accession_number": "0000950134-02-003791",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 2634.73,
+        "volume_total": 880000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.059,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-02",
+        "period_end": "2002-12",
+        "fair_value_mm": 0.265,
+        "notes": "Notional volume 80,000 MMBtu per month; NYMEX-based; open at Dec 31, 2001; fair value $265,000 (gain)",
+        "evidence_quote": "We estimated the fair value of the swap\nagreement based on the difference between the strike prices and the forward\nNYMEX Henry Hub prices"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "counterparty": null,
+        "volume_per_day": 1355.93,
+        "volume_total": 80000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-02",
+        "period_end": "2002-03",
+        "fair_value_mm": 0.04,
+        "notes": "Notional volume 40,000 MMBtu per month; NYMEX-based; fair value $40,000 from counterparty quotes; direction not explicitly stated",
+        "evidence_quote": "We estimated\nthe fair value of the option agreement at December 31, 2001, from quotes by the\ncounterparty representing"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 165.75,
+        "volume_total": 30000,
+        "volume_unit": "Bbls",
+        "fixed_price": 20.52,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-02",
+        "period_end": "2002-07",
+        "fair_value_mm": 0.007,
+        "notes": "NYMEX WTI swap; notional volume 5,000 Bbls per month; fair value $7,000 (gain)",
+        "evidence_quote": "NYMEX WTI Swap"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "counterparty": null,
+        "volume_per_day": 741.02,
+        "volume_total": 247500,
+        "volume_unit": "Bbls",
+        "fixed_price": 22.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-02",
+        "period_end": "2002-12",
+        "fair_value_mm": 0.682,
+        "notes": "Brent crude swap; notional volume 22,500 Bbls per month; fair value $682,000 (gain)",
+        "evidence_quote": "Brent Crude Swap"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Policy of hedging a portion of gas and oil production to mitigate price risk between NYMEX prices and actual receipt prices using swaps and options; derivatives not designated as hedges; no trading purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 296000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1781000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 11214,
+      "proved_gas_reserves_mmcf": 12923,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 49.574,
+      "pv10_mm": null,
+      "oil_price_used": 16.95,
+      "gas_price_used": 2.71,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:11",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

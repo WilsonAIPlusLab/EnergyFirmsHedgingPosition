@@ -1,0 +1,58 @@
+{
+  "cik": "908797",
+  "company": "COHO ENERGY INC",
+  "filing_date": "1999-03-31",
+  "accession_number": "0000950134-99-002401",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "Has entered and expects to enter forward sales or other arrangements to hedge a portion of oil and gas production; at Dec 31, 1998 not party to any, and unlikely to enter new ones until liquidity problems are remedied."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5069000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 8125000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 17599,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 100004,
+      "proved_gas_reserves_mmcf": 66328,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 111059,
+      "proved_developed_reserves_mboe": 74898,
+      "proved_undeveloped_reserves_mboe": 36161,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 269.298,
+      "pv10_mm": 269.298,
+      "oil_price_used": 9.36,
+      "gas_price_used": 2.1,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 4.18,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.38,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

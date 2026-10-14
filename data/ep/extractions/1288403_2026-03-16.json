@@ -1,0 +1,116 @@
+{
+  "cik": "1288403",
+  "company": "W&T OFFSHORE INC",
+  "filing_date": "2026-03-16",
+  "accession_number": "0001104659-26-028315",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 612000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 55.35,
+        "ceiling_price": 68.6,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-03",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Subsequent event (Note 18): entered January 2026, after the 12/31/2025 balance sheet date; costless collar. No open derivative contracts at December 31, 2025.",
+        "evidence_quote": "2,000 Bbls/d for March 2026 to December 2026, with a floor price of $55.35 per Bbl and a ceiling price of $68.60 per Bbl and"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 2000,
+        "volume_total": 612000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 57,
+        "ceiling_price": 70.2,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-03",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Subsequent event (Note 18): entered January 2026, after the 12/31/2025 balance sheet date; costless collar. No open derivative contracts at December 31, 2025.",
+        "evidence_quote": "2,000 Bbls/d for March 2026 to December 2026, with a floor price of $57.00 per Bbl and a ceiling price of $70.20 per Bbl."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 2000,
+        "volume_total": 550000,
+        "volume_unit": "Bbls",
+        "fixed_price": 64.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2026-04",
+        "period_end": "2026-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Subsequent event (Note 18): entered February 2026, after the 12/31/2025 balance sheet date. No open derivative contracts at December 31, 2025.",
+        "evidence_quote": "In February 2026, the Company entered into an oil swap for 2,000 Bbls/d for April 2026 to December 2026 at $64.53 per Bbl."
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "May enter derivatives to manage market risk, not for speculation; not designated as hedges (fair value changes in earnings); uses swaps, purchased calls and puts. No open contracts at 12/31/2025."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 5115000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 36890000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 1139000,
+      "total_production_boe": 12402000,
+      "total_production_boepd": 33978,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 38700,
+      "proved_gas_reserves_mmcf": 423300,
+      "proved_ngl_reserves_mbbls": 11700,
+      "total_proved_reserves_mboe": 121000,
+      "proved_developed_reserves_mboe": 114300,
+      "proved_undeveloped_reserves_mboe": 6700,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 651.3,
+      "pv10_mm": 1115.3,
+      "oil_price_used": 64.97,
+      "gas_price_used": 3.88,
+      "lease_operating_expense_per_boe": 24.09,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 26.17,
+      "gathering_transport_per_boe": 2.08,
+      "dd_and_a_per_boe": 9.39,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

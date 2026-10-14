@@ -1,0 +1,173 @@
+{
+  "cik": "943861",
+  "company": "GOODRICH PETROLEUM CORP",
+  "filing_date": "2001-03-28",
+  "accession_number": "0000899243-01-000727",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 500,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 20,
+        "ceiling_price": 28.4,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "No cost collar open at Dec 31, 2000, through December 2001. Combined fair value of the oil hedging contracts was a liability of $20,000 (not split by contract). Settled against NYMEX light sweet crude.",
+        "evidence_quote": "(a) 500 barrels of oil per day with a no cost \"collar\" of $20.00 and"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 300,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 23,
+        "ceiling_price": 29.55,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "No cost collar open at Dec 31, 2000, through December 2001. Combined fair value of the oil hedging contracts was a liability of $20,000 (not split by contract).",
+        "evidence_quote": "(b) 300 barrels of oil per day with a no cost \"collar\" of $23.00 and"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 5000,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3.05,
+        "ceiling_price": 4.45,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "No cost collar open at Dec 31, 2000, through December 31, 2001. Combined fair value of natural gas hedging contracts would be a liability of $3,881,000 if not accounted for as hedges (not split by contract).",
+        "evidence_quote": "(a) 5000 Mmbtu per day with a no cost collar of $3.05 and $4.45 per"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 155000,
+        "volume_unit": "Mcf",
+        "fixed_price": 7.75,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-01",
+        "period_end": "2001-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap for January 2001. Company pays the excess if NYMEX exceeds the contract price and receives the difference if contract price exceeds NYMEX.",
+        "evidence_quote": "(b) 5000 Mcf per day \"swap\" at $7.75 per Mcf for January 2001;"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 140000,
+        "volume_unit": "Mcf",
+        "fixed_price": 7.42,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-02",
+        "period_end": "2001-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap for February 2001.",
+        "evidence_quote": "(c) 5000 Mcf per day \"swap\" at $7.42 per Mcf for February 2001; and"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 5000,
+        "volume_total": 155000,
+        "volume_unit": "Mcf",
+        "fixed_price": 7.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2001-03",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap for March 2001.",
+        "evidence_quote": "(d) 5000 Mcf per day \"swap\" at $7.60 per Mcf for March 2001."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedge between 30% and 70% of production, mostly via costless collars (floor and ceiling); formal policy adopted Jan 1, 2001; no speculative activity not supported by production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 571766,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 3394921,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2000
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6789.358,
+      "proved_gas_reserves_mmcf": 29510.679,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 179.78,
+      "pv10_mm": null,
+      "oil_price_used": 26.1,
+      "gas_price_used": 10.06,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:36",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

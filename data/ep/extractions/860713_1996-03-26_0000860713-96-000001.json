@@ -1,0 +1,83 @@
+{
+  "cik": "860713",
+  "company": "SNYDER OIL CORP",
+  "filing_date": "1996-03-26",
+  "accession_number": "0000860713-96-000001",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 20000,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "evidence_quote": "term contract in effect covered 20,000 MMBtu per day through 2004.",
+        "notes": "Gas swap entered in 1994 to lock in the price differential between Rocky Mountain and NYMEX Henry Hub prices; differential level not stated. Balance sheet table shows commodities contracts fair value of 11,623 at Dec 1995 (4,925 at Dec 1994), units not visible in text, so fair_value_mm left null. About 20% of Rocky Mountain gas production in Dec 1995."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "To a limited extent, the Company enters into commodities contracts to hedge the price risk of a portion of its production; gains and losses deferred and recognized in oil and gas sales revenue."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 4278000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 53227000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 13149000,
+      "total_production_boepd": 36024,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 24247,
+      "proved_gas_reserves_mmcf": 395718,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 331.106,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 3.99,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

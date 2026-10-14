@@ -1,0 +1,101 @@
+{
+  "cik": "931006",
+  "company": "ENSERCH EXPLORATION INC",
+  "filing_date": "1995-03-30",
+  "accession_number": "0000931006-95-000003",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 17800000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.06,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate of swaps, collars and futures; $2.06 is the weighted average strike price per Mcf (market price $1.84). $4.1 million net unrealized gains is stated for gas and oil combined. Realized gains of $.9 million deferred.",
+        "evidence_quote": "outstanding swaps, collars and futures agreements extending through December 31, 1995 to exchange payments on 17.8 Bcf of natural gas and 1.2 MMBbls of oil on which the Company had $4.1 million of net unrealized gains"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 1200000,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.98,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1995-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate of swaps, collars and futures; 1.2 MMBbls as stated; $17.98 is the weighted average strike price per barrel (market price $17.82). $4.1 million net unrealized gains is stated for gas and oil combined.",
+        "evidence_quote": "the weighted average strike price and market price per barrel of oil was $17.98 and $17.82, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Gas and oil swaps, collars and futures used to hedge volatile product prices for a portion (normally 30 to 70 percent) of anticipated future gas and oil production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1900000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 67102000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 200000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 46141,
+      "proved_gas_reserves_mmcf": 1041733,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1140.7,
+      "pv10_mm": 1140.7,
+      "oil_price_used": 14.05,
+      "gas_price_used": 2.29,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:27",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

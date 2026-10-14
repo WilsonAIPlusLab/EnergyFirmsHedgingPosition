@@ -1,0 +1,101 @@
+{
+  "cik": "931006",
+  "company": "ENSERCH EXPLORATION INC",
+  "filing_date": "1997-03-21",
+  "accession_number": "0000930661-97-000658",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 32000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.47,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate of outstanding swaps, collars and futures at 12/31/1996 (instrument mix not split by type); 2.47 is the weighted average strike price (market price 2.37). Combined gas and oil fair value stated as $3.0 million (not split by commodity). Start of period not stated.",
+        "evidence_quote": "1997 to exchange payments on 32 Bcf of natural gas and 365 MBbls of oil. The\nweighted average strike price and market price per Mcf of natural gas was\n$2.47 and $2.37, respectively"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 365000,
+        "volume_unit": "Bbls",
+        "fixed_price": 25,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate of outstanding swaps, collars and futures at 12/31/1996 (instrument mix not split by type); stated as 365 MBbls (converted to Bbls); 25.00 is the weighted average strike price (market price 25.32). Combined gas and oil fair value stated as $3.0 million (not split by commodity). Start of period not stated.",
+        "evidence_quote": "agreements that were entered into as hedges extending through December 31,\n1997 to exchange payments on 32 Bcf of natural gas and 365 MBbls of oil."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "EEX manages price fluctuation risk with hedging techniques such as gas and oil swaps, collars and futures agreements; hedges a portion of anticipated future gas and oil production."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 1996,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "reserves_year_end": "1997-01-01",
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": 23.33,
+      "gas_price_used": 3.37,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

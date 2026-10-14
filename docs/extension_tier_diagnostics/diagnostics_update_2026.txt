@@ -1,0 +1,79 @@
+=== HEDGE RATIO CALCULATION SUMMARY ===
+
+Total extraction files processed: 224
+  - With instruments: 81
+  - Without instruments (non-hedger): 143
+  - With production data: 99
+
+Instrument processing:
+  - Total instruments: 1271
+  - Included in hedge ratios: 985
+  - Excluded (basis_swap): 173
+  - Excluded (swaption): 3
+  - Excluded (missing volume): 26
+  - Excluded (unknown commodity): 60
+  - Excluded (unconvertible unit): 24
+  - Excluded (other): 0
+
+Delta method: linear
+
+=== OIL HEDGE RATIOS (Notional) ===
+  Firm-years with oil hedging: 49
+  Mean: 96.1%  Median: 51.6%  Std: 155.4%
+  Min: 0.2%  Max: 1011.3%
+  P25: 30.3%  P75: 94.5%
+
+=== GAS HEDGE RATIOS (Notional) ===
+  Firm-years with gas hedging: 49
+  Mean: 62.3%  Median: 54.1%  Std: 48.3%
+  Min: 0.0%  Max: 247.3%
+  P25: 33.8%  P75: 77.9%
+
+=== OIL HEDGE RATIOS (Delta-adjusted) ===
+  Firm-years with oil hedging: 49
+  Mean: 81.4%  Median: 46.2%  Std: 113.8%
+  Min: 0.2%  Max: 646.0%
+  P25: 22.2%  P75: 87.4%
+
+=== GAS HEDGE RATIOS (Delta-adjusted) ===
+  Firm-years with gas hedging: 49
+  Mean: 57.2%  Median: 50.8%  Std: 48.5%
+  Min: 0.0%  Max: 244.0%
+  P25: 27.7%  P75: 70.1%
+
+=== QUALITY FLAGS ===
+  Firm-years with oil hedge ratio > 100%: 12
+    1347218 Atlas Energy, L.P. FY2011: 1011.3%
+    1170154 GASTAR EXPLORATION LTD FY2011: 459.0%
+    1532750 Atlas Resource Partners, L.P. FY2015: 271.3%
+    1532750 Titan Energy, LLC FY2016: 207.1%
+    1347218 Atlas Energy, L.P. FY2012: 192.7%
+  Firm-years with gas hedge ratio > 100%: 7
+    1532750 Atlas Resource Partners, L.P. FY2015: 247.3%
+    1532750 Titan Energy, LLC FY2016: 232.4%
+    1141197 PEDEVCO CORP FY2025: 133.3%
+    1162896 Prairie Operating Co. FY2025: 130.4%
+    2029118 INFINITY NATURAL RESOURCES, INC. FY2025: 111.3%
+  Firm-years with oil hedge ratio > 150% (likely errors): 7
+    1347218 Atlas Energy, L.P. FY2011: 1011.3%
+    1170154 GASTAR EXPLORATION LTD FY2011: 459.0%
+    1532750 Atlas Resource Partners, L.P. FY2015: 271.3%
+    1532750 Titan Energy, LLC FY2016: 207.1%
+    1347218 Atlas Energy, L.P. FY2012: 192.7%
+    1347218 Atlas Energy, L.P. FY2014: 179.6%
+    1141197 PEDEVCO CORP FY2025: 166.5%
+  Firm-years with gas hedge ratio > 150% (likely errors): 2
+    1532750 Atlas Resource Partners, L.P. FY2015: 247.3%
+    1532750 Titan Energy, LLC FY2016: 232.4%
+  Firm-years with net long oil position: 0
+  Firm-years with net long gas position: 1
+    1609253 California Resources Corp FY2025
+  Firm-years with instruments but no production data: 21
+  Instruments with missing strike prices (options/collars): 12
+  Year-over-year hedge ratio changes > 50pp: 6
+    1347218 Atlas Energy, L.P. FY2011->2012 oil_notional: 1011.3%->192.7% (Δ818.6%)
+    1347218 Atlas Energy, L.P. FY2012->2013 oil_notional: 192.7%->107.9% (Δ84.7%)
+    1347218 Atlas Energy, L.P. FY2013->2014 oil_notional: 107.9%->179.6% (Δ71.6%)
+    1532750 Atlas Resource Partners, L.P. FY2014->2015 oil_notional: 94.5%->271.3% (Δ176.8%)
+    1532750 Atlas Resource Partners, L.P. FY2014->2015 gas_notional: 75.6%->247.3% (Δ171.7%)
+    1532750 Titan Energy, LLC FY2015->2016 oil_notional: 271.3%->207.1% (Δ64.2%)

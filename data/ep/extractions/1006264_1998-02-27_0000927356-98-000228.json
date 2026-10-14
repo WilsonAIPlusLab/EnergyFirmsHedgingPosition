@@ -1,0 +1,155 @@
+{
+  "cik": "1006264",
+  "company": "PATINA OIL & GAS CORP",
+  "filing_date": "1998-02-27",
+  "accession_number": "0000927356-98-000228",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1500.0,
+        "volume_total": 46500,
+        "volume_unit": "Bbls",
+        "fixed_price": 21.85,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-01",
+        "counterparty": null,
+        "fair_value_mm": 0.195,
+        "notes": "Swap sales contracts entered Q4 1997, NYMEX based; unrecognized gain $195,000 at 12/31/1997; $238,000 income realized on settlement after year end",
+        "evidence_quote": "volumes of 46,500 barrels of oil for January 1998."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3688.89,
+        "volume_total": 332000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "CIG index based swap sales contracts entered Q4 1997; unrecognized gain of $701,000 stated combined for CIG and PEPL Q1 1998 contracts, not split",
+        "evidence_quote": "weighted average natural gas price for the CIG index based contracts is $2.19"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 12788.89,
+        "volume_total": 1151000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "PEPL index based swap sales contracts entered Q4 1997; unrecognized gain of $701,000 stated combined for CIG and PEPL Q1 1998 contracts, not split",
+        "evidence_quote": "based contracts is $2.60 for contract volumes of 1,151,000 MMBtu's of"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000.0,
+        "volume_total": 1840000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.7,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-03",
+        "period_end": "1998-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "CIG index based swap sales contracts entered in Q1 1998 (subsequent to year end)",
+        "evidence_quote": "is $1.70 for contract volumes of 1,840,000 MMBtu's of natural gas and for the"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 6603.26,
+        "volume_total": 1215000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-03",
+        "period_end": "1998-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "PEPL index based swap sales contracts entered in Q1 1998 (subsequent to year end)",
+        "evidence_quote": "PEPL index based contracts is $2.19 for contract volumes of 1,215,000 MMBtu's of"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company enters into commodity contracts to hedge price risk of a portion of production; gains/losses deferred and recognized in oil and gas sales revenues when the physical product is sold."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1889000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 26863000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 16976,
+      "proved_gas_reserves_mmcf": 255635,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 276.33,
+      "pv10_mm": 320,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

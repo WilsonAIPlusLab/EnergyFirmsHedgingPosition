@@ -1,0 +1,58 @@
+{
+  "cik": "1022664",
+  "company": "MONTEREY RESOURCES INC",
+  "filing_date": "1997-03-10",
+  "accession_number": "0000890566-97-000379",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time the Company has hedged a portion of its oil and natural gas production to manage price volatility; 1996 hedging transactions expired June 30, 1996."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 17100000,
+      "oil_production_bpd": 46800,
+      "gas_production_mcf": 1300000,
+      "gas_production_mmcf_per_day": 3.5,
+      "ngl_production_bbls": null,
+      "total_production_boe": 17300000,
+      "total_production_boepd": 47400,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 216400,
+      "proved_gas_reserves_mmcf": 12200,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 218400,
+      "proved_developed_reserves_mboe": 172600,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 680.7,
+      "pv10_mm": 1047.8,
+      "oil_price_used": 19.19,
+      "gas_price_used": 1.38,
+      "lease_operating_expense_per_boe": 3.53,
+      "production_tax_per_boe": 0.54,
+      "total_production_cost_per_boe": 6.64,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 2.16,
+      "finding_development_cost_per_boe": 1.53
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:14:37",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_896e9900-cb3"
+    ]
+  }
+}

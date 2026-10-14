@@ -1,0 +1,137 @@
+{
+  "cik": "827795",
+  "company": "BASIN EXPLORATION INC",
+  "filing_date": "2000-03-29",
+  "accession_number": "0001021408-00-001301",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 413,
+        "volume_total": 151158,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.92,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap in place as of Feb 4, 2000. Combined fair value of all open oil and gas hedges at 12/31/1999 was an unrealized loss of approx $3.1 million (not allocated by instrument).",
+        "evidence_quote": "     1/1/00 - 12/31/00        413           25.92          3,306        2.15"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 3306,
+        "volume_total": 1209996,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap in place as of Feb 4, 2000; text states one MMBtu approximates one Mcf. Fair value not allocated by instrument.",
+        "evidence_quote": "     1/1/00 - 12/31/00        413           25.92          3,306        2.15"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 10950000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2001-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fixed price swap in place as of Feb 4, 2000; no oil volume for this period. Fair value not allocated by instrument.",
+        "evidence_quote": "     1/1/01 - 12/31/03                                    10,000        2.15"
+      },
+      {
+        "instrument_type": "call_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 10000,
+        "volume_total": 7310000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": 2.5,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Sold call options at average strike price of $2.50 per MMBtu.",
+        "evidence_quote": "Basin had also sold call options for 10,000 MMBtu of gas"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time, as conditions warrant, enters hedging transactions or fixed price sales contracts for part of production to limit exposure to price declines and achieve more predictable cash flow."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 855000,
+      "oil_production_bpd": 2344,
+      "gas_production_mcf": 27400000,
+      "gas_production_mmcf_per_day": 75.069,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 12577,
+      "proved_gas_reserves_mmcf": 134053,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 269.303,
+      "oil_price_used": 24.39,
+      "gas_price_used": 2.32,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:39",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

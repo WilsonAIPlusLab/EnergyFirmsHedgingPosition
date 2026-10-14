@@ -1,0 +1,173 @@
+{
+  "cik": "1037192",
+  "company": "RANGE ENERGY CORP",
+  "filing_date": "1998-03-27",
+  "accession_number": "0000890566-98-000424",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 15000,
+        "volume_total": 4560000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.14,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Stated as average 15 MMcfd sold Jan 1 - Oct 31 1998. Open-contracts table shows 4,560 under MMBTU for Jan-Dec 1998 at $2.14 (scale not stated). Aggregate deferred pre-tax loss on all hedges approx $0.3 million (not per instrument).",
+        "evidence_quote": "As of December 31, 1997, the Company has sold natural gas futures\ncontracts covering an average of 15 MMcfd of its expected natural gas production\nfrom January 1, 1998 through October 31, 1998."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 532,
+        "volume_total": 194210,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.91,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Price swap with major energy companies; 532 Bbld per text, 194,210 Bbls per open-contracts table.",
+        "evidence_quote": "Jan 1998 -- Dec 1998      194,210         $17.91          4,560        $2.14"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 402,
+        "volume_total": 146730,
+        "volume_unit": "Bbls",
+        "fixed_price": 18.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Terminated subsequent to Dec 31, 1997 (received $47,673 settlement for 1999 and 2000 swaps). Table combines 1999-2000 as 248,340 Bbls at $18.72.",
+        "evidence_quote": "Bbld, 402 Bbld, and 278 Bbld of its expected crude oil production for 1998, 1999\nand 2000, respectively. Under this swap agreement, the Company will receive\nprices per barrel of $17.91, $18.48 and $19.07 for 1998, 1999 and 2000,"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 278,
+        "volume_total": 101748,
+        "volume_unit": "Bbls",
+        "fixed_price": 19.07,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Terminated subsequent to Dec 31, 1997 (received $47,673 settlement for 1999 and 2000 swaps). Table combines 1999-2000 as 248,340 Bbls at $18.72.",
+        "evidence_quote": "Bbld, 402 Bbld, and 278 Bbld of its expected crude oil production for 1998, 1999\nand 2000, respectively. Under this swap agreement, the Company will receive\nprices per barrel of $17.91, $18.48 and $19.07 for 1998, 1999 and 2000,"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000,
+        "volume_total": 930000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-03",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered subsequent to Dec 31, 1997. Average 30 MMcfd for March-June 1998; $2.20 applies to March 1998.",
+        "evidence_quote": "contracts covering an average of 30 MMcfd of its expected natural gas production\nfor March 1998 through June 1998. Under these contracts, the Company will\nreceive an average price of $2.20 per MMbtu for March 1998 and $2.28 per MMbtu"
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 30000,
+        "volume_total": 2730000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.28,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-04",
+        "period_end": "1998-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Entered subsequent to Dec 31, 1997. Average 30 MMcfd for March-June 1998; $2.28 applies to April through June 1998.",
+        "evidence_quote": "contracts covering an average of 30 MMcfd of its expected natural gas production\nfor March 1998 through June 1998. Under these contracts, the Company will\nreceive an average price of $2.20 per MMbtu for March 1998 and $2.28 per MMbtu"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically uses derivative financial instruments (primarily price swaps with major energy companies) to manage price risks on oil and gas sales, not for speculative purposes."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 646394,
+      "oil_production_bpd": 1676,
+      "gas_production_mcf": 15932493,
+      "gas_production_mmcf_per_day": 43.6,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 11350.218,
+      "proved_gas_reserves_mmcf": 104947.917,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 127.671,
+      "pv10_mm": 148.789,
+      "oil_price_used": 18.7,
+      "gas_price_used": 2.55,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:25",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

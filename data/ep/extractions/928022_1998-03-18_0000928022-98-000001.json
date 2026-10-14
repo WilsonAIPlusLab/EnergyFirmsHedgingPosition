@@ -1,0 +1,83 @@
+{
+  "cik": "928022",
+  "company": "Callon Petroleum Co",
+  "filing_date": "1998-03-18",
+  "accession_number": "0000928022-98-000001",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "counterparty": null,
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": 2.24,
+        "ceiling_price": 2.89,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-09",
+        "fair_value_mm": 0.215,
+        "notes": "Average gas volume of 229,000 Mcf per month (monthly, not daily or total; not converted). Hedges approx. 24% of estimated gas production Jan-Sep 1998; prices NYMEX per MMBtu per Item 1. Fair value is the $215,000 market value benefit for all outstanding contracts at 12/31/1997.",
+        "evidence_quote": "These agreements in\neffect for 1998 are for average gas volumes of 229,000 Mcf per month through\nSeptember of 1998 at (on average) a ceiling price of  $2.89 and floor of $2.24."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Part of business strategy is to reduce exposure to oil and gas price volatility by hedging a portion of production; derivatives used for price protection on a limited amount of future production, not for trading."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 462000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 13114000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3402,
+      "proved_gas_reserves_mmcf": 88738,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 128.079,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:33",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

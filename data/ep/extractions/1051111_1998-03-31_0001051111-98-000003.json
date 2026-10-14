@@ -1,0 +1,101 @@
+{
+  "cik": "1051111",
+  "company": "SOUTHWEST ROYALTIES HOLDINGS INC",
+  "filing_date": "1998-03-31",
+  "accession_number": "0001051111-98-000003",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 6500,
+        "volume_total": 1391000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 1.9,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-04",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased March 1998 (subsequent event); part of 13,000 MMBTU/day total put purchase; 6,500 MMBTU/day at $1.90 floor",
+        "evidence_quote": "of  $1.90 for 6,500 MMBTU per day and a floor price of $1.70  for"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "volume_per_day": 6500,
+        "volume_total": 1391000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 1.7,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-04",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased March 1998 (subsequent event); remaining 6,500 MMBTU/day at $1.70 floor",
+        "evidence_quote": "the  remaining 6,500 MMBTU per day, for the period April 1,  1998"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "No formal policy stated; in March 1998 the Company purchased gas put options (13,000 MMBTU/day, floors $1.90 and $1.70) for Apr-Oct 1998. Realized prices reflect results of hedging activities."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1308000,
+      "oil_production_bpd": 3584,
+      "gas_production_mcf": 5639000,
+      "gas_production_mmcf_per_day": 15.449,
+      "ngl_production_bbls": null,
+      "total_production_boe": 2248000,
+      "total_production_boepd": 6159,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 29666,
+      "proved_gas_reserves_mmcf": 64725,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": 40453,
+      "proved_developed_reserves_mboe": 26236,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 139.821,
+      "pv10_mm": 172.304,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 8.23,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.52,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "cik": "64279",
+  "company": "MCMORAN EXPLORATION CO /DE/",
+  "filing_date": "1999-03-25",
+  "accession_number": "0000831259-99-000003",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "long",
+        "evidence_quote": "commencing in May\n1998 MMR began purchasing 450,000 million British thermal units\n(mmbtu) of natural gas per month (representing approximately 75\npercent of Main Pass' natural gas purchases) for $2.175 per\nmmbtu.",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.175,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-05",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": -1.1,
+        "notes": "Gas PURCHASE price protection contract entered by FSC in April 1998 for anticipated 1998 gas purchase requirements; 450,000 mmbtu per month (volume stated per month only, not daily or total). Fair value is for the contract as a whole (est. approx. $1.1 million loss at 12/31/1998). Filing states MMR does not hedge its principal products."
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "evidence_quote": "The contract also granted the\nsupplier the option to put 450,000 mmbtu per month to MMR at a\nprice of $2.175 per mmbtu during 1999.",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.175,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1999-01",
+        "period_end": "1999-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Put granted to the supplier (MMR obligated to buy 450,000 mmbtu per month at strike if exercised); part of the same contract as the fixed-price purchase, whose fair value of approx. -$1.1 million is reported on the other entry."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "MMR does not hedge or enter price protection contracts for principal products; only FSC's 1998 natural gas purchase price protection program (fixed price plus supplier put in 1999)."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 304000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 8634000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1998
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3996,
+      "proved_gas_reserves_mmcf": 58461,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1998-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 67.451,
+      "oil_price_used": 9.04,
+      "gas_price_used": 2.21,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:39",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

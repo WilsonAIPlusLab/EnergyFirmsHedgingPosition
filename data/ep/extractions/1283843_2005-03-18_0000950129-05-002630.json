@@ -1,0 +1,32 @@
+{
+  "cik": "1283843",
+  "company": "Emerald Oil, Inc.",
+  "filing_date": "2005-03-18",
+  "accession_number": "0000950129-05-002630",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": false,
+      "stated_hedging_policy": "The Company does not use derivative instruments for speculative or investment purposes; financial instruments are cash, Treasury/Agency securities and municipal bonds."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": null
+    },
+    "reserves": {},
+    "economics": {}
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:56",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

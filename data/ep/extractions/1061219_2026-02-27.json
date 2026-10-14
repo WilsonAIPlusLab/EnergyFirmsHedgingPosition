@@ -1,0 +1,337 @@
+{
+  "cik": "1061219",
+  "company": "ENTERPRISE PRODUCTS PARTNERS L.P.",
+  "filing_date": "2026-02-27",
+  "accession_number": "0001061219-26-000006",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_total": 45300000.0,
+        "volume_unit": "Mcf",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of natural gas (Bcf)",
+        "notes": "Natural gas processing, Current bucket; designated cash flow hedge; aggregate hedged volume; instrument type and prices not stated per row (company uses futures, forwards, fixed-for-float swaps, basis swaps)"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_total": 18000000,
+        "volume_unit": "Mcf",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of natural gas (Bcf)",
+        "notes": "Natural gas processing, Long-Term bucket; designated cash flow hedge; type and prices not stated"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_total": 0.9,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of NGLs (MMBbls)",
+        "notes": "Unit is MMBbls as stated (0.9 million barrels); natural gas processing, Current bucket, cash flow hedge; Long-Term n/a"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": 2.3,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of octane enhancement products (MMBbls)",
+        "notes": "Unit is MMBbls as stated; octane enhancement, Current bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": 0.2,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of octane enhancement products (MMBbls)",
+        "notes": "Unit is MMBbls as stated; octane enhancement, Long-Term bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_total": 1800000.0,
+        "volume_unit": "Mcf",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Natural gas storage inventory management activities (Bcf)",
+        "notes": "Natural gas marketing, Current bucket, fair value hedge; Long-Term n/a; text says fair value hedge maximum term February 2026"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_total": 208.3,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted purchases of NGLs and related hydrocarbon products (MMBbls)",
+        "notes": "Unit is MMBbls as stated; NGL marketing, Current bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_total": 16.9,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted purchases of NGLs and related hydrocarbon products (MMBbls)",
+        "notes": "Unit is MMBbls as stated; NGL marketing, Long-Term bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_total": 212.9,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of NGLs and related hydrocarbon products (MMBbls)",
+        "notes": "Unit is MMBbls as stated; NGL marketing, Current bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_total": 27,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of NGLs and related hydrocarbon products (MMBbls)",
+        "notes": "Unit is MMBbls as stated; NGL marketing, Long-Term bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": 3,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted purchases of refined products (MMBbls)",
+        "notes": "Unit is MMBbls as stated; refined products marketing, Current bucket, cash flow hedge; Long-Term n/a"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": 6.1,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of refined products (MMBbls)",
+        "notes": "Unit is MMBbls as stated; refined products marketing, Current bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": 0.1,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of refined products (MMBbls)",
+        "notes": "Unit is MMBbls as stated; refined products marketing, Long-Term bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_total": 19.5,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted purchases of crude oil (MMBbls)",
+        "notes": "Unit is MMBbls as stated; crude oil marketing, Current bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_total": 7.3,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted purchases of crude oil (MMBbls)",
+        "notes": "Unit is MMBbls as stated; crude oil marketing, Long-Term bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_total": 28.1,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of crude oil (MMBbls)",
+        "notes": "Unit is MMBbls as stated; crude oil marketing, Current bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_total": 14.1,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of crude oil (MMBbls)",
+        "notes": "Unit is MMBbls as stated; crude oil marketing, Long-Term bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": 0.3,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted sales of petrochemical products (MMBbls)",
+        "notes": "Unit is MMBbls as stated; petrochemical marketing, Current bucket, cash flow hedge; Long-Term n/a"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": 1,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted purchases of power related to asset operations (terawatt hours (\u201cTWh\u201d))",
+        "notes": "Power (not oil/gas/NGL); unit is TWh as stated; commercial energy, Current bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": 0.3,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Forecasted purchases of power related to asset operations (terawatt hours (\u201cTWh\u201d))",
+        "notes": "Power (not oil/gas/NGL); unit is TWh as stated; commercial energy, Long-Term bucket, cash flow hedge"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_total": 39400000.0,
+        "volume_unit": "Mcf",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Natural gas risk management activities (Bcf) (3)",
+        "notes": "Not designated as hedging instruments; mark-to-market; absolute value of notional volumes; Current bucket; Long-Term n/a"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_total": 58.3,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "NGL risk management activities (MMBbls) (3)",
+        "notes": "Unit is MMBbls as stated; not designated; mark-to-market; absolute notional volume; Current bucket"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "ngl",
+        "direction": "unknown",
+        "volume_total": 6.4,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "NGL risk management activities (MMBbls) (3)",
+        "notes": "Unit is MMBbls as stated; not designated; mark-to-market; absolute notional volume; Long-Term bucket"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "other",
+        "direction": "unknown",
+        "volume_total": 7.8,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Refined products risk management activities (MMBbls) (3)",
+        "notes": "Unit is MMBbls as stated; not designated; mark-to-market; absolute notional volume; Current bucket; Long-Term n/a"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_total": 4.6,
+        "volume_unit": "other",
+        "period_start": null,
+        "period_end": null,
+        "evidence_quote": "Crude oil risk management activities (MMBbls) (3)",
+        "notes": "Unit is MMBbls as stated; not designated; mark-to-market; absolute notional volume; Current bucket; Long-Term n/a"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 5,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 7,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses futures, forwards, fixed-for-float swaps and basis swaps to hedge transportation/storage/blending margins, gas processing margins, inventory fair value and Southeast Texas power purchases; non-trading."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2025,
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": null
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "review",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

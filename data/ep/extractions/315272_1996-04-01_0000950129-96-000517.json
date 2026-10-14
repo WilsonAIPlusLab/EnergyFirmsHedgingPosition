@@ -1,0 +1,173 @@
+{
+  "cik": "315272",
+  "company": "HARCOR ENERGY INC",
+  "filing_date": "1996-04-01",
+  "accession_number": "0000950129-96-000517",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 6,
+        "volume_total": 4386,
+        "volume_unit": "Mmbtu",
+        "fixed_price": -0.3675,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Executed Q4 1995; prices California production at $0.3675 off NYMEX (sign inferred from 'off NYMEX' as a discount). Text says '6 MMBtu per day' (possibly thousands omitted in source); reported as stated.",
+        "evidence_quote": "In the fourth quarter of 1995, the Company executed a basis swap contract for"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 10928.96,
+        "volume_total": 4000000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Various gas contracts; prices ranging from $1.68/MMBtu to $2.07/MMBtu (range applies to both 1996 and 1997; instrument type not specified in text).",
+        "evidence_quote": "contracts covering volumes of approximately 4.0 Bcf and 3.4 Bcf for 1996 and"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 9315.07,
+        "volume_total": 3400000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Various gas contracts; prices ranging from $1.68/MMBtu to $2.07/MMBtu (range applies to both 1996 and 1997; instrument type not specified in text).",
+        "evidence_quote": "contracts covering volumes of approximately 4.0 Bcf and 3.4 Bcf for 1996 and"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 663.93,
+        "volume_total": 243000,
+        "volume_unit": "Boe",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1996-01",
+        "period_end": "1996-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil hedges, notional 243 MBOE for 1996; prices ranging from $15.80/Bbl to $18.75/Bbl (range applies to all three years; instrument type not specified).",
+        "evidence_quote": "hedges covering notional volumes of approximately 243 MBOE, 98 MBOE and 29 MBOE"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 268.49,
+        "volume_total": 98000,
+        "volume_unit": "Boe",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil hedges, notional 98 MBOE for 1997; prices ranging from $15.80/Bbl to $18.75/Bbl (range applies to all three years; instrument type not specified).",
+        "evidence_quote": "hedges covering notional volumes of approximately 243 MBOE, 98 MBOE and 29 MBOE"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 79.45,
+        "volume_total": 29000,
+        "volume_unit": "Boe",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil hedges, notional 29 MBOE for 1998; prices ranging from $15.80/Bbl to $18.75/Bbl (range applies to all three years; instrument type not specified).",
+        "evidence_quote": "hedges covering notional volumes of approximately 243 MBOE, 98 MBOE and 29 MBOE"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses futures, swaps, collars or forwards to hedge; on acquisitions usually hedges a substantial portion of acquired production and keeps a substantial portion of production hedged over time."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 463000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5137000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 207000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 12357.724,
+      "proved_gas_reserves_mmcf": 87636.2,
+      "proved_ngl_reserves_mbbls": 2978.607,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 110.905,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 3.99,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 4.26,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "cik": "313478",
+  "company": "HKN, Inc.",
+  "filing_date": "2003-03-27",
+  "accession_number": "0000899243-03-000654",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.2,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2000-01",
+        "period_end": "2001-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Historical swaps held by a wholly-owned subsidiary during 2000 and 2001, terminated December 31, 2001; 75,000 MMBTU per month; fixed price approximately $2.20. Accrued liability of approximately $3,025,000 recorded on SFAS 133 adoption Jan 1, 2001.",
+        "evidence_quote": "approximately $2.20 per MMBTU covering a total of 75,000 MMBTUs per month over"
+      },
+      {
+        "instrument_type": "put_option",
+        "commodity": "crude_oil",
+        "direction": "long",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 25,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Purchased put, 6,000 barrels per month, purchased January 2001, through June 30, 2001.",
+        "evidence_quote": "strike price of $25 per barrel, covering 6,000 barrels per month through June"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.5,
+        "ceiling_price": 3.8225,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Zero-cost collar entered November 2001; 115,000 MMBTU per month; designated as a cash flow hedge. Later modified in March 2002 (see next entry).",
+        "evidence_quote": "$3.8225 per MMBTU, covering 115,000 MMBTUs per month over the period of the"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 3.47,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-03",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "March 2002 modification of the remaining term of the November 2001 zero-cost collar; monthly hedged volume increased to 135,000 MMBTU; not designated as a hedge under SFAS 133.",
+        "evidence_quote": "fixed price cap option of $3.47 per MMBTU and increasing the monthly hedged"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 5.12,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "New zero-cost collar entered March 2002; 60,000 MMBTU per month; designated as hedge. Replaced in December 2002 by the collar in the next entry.",
+        "evidence_quote": "a fixed price cap option of $5.12 per MMBTU, covering 60,000 MMBTUs per month"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 3,
+        "ceiling_price": 4.95,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2004-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Natural gas collar contract replacing the prior collar during December 2002; 70,000 MMBTU per month through June 30, 2004; not designated as a hedge, marked to market at Dec 31, 2002. A 20% gas price increase would raise the liability by approx $582,000.",
+        "evidence_quote": "covering 70,000 MMBTUs per month over the period of the contract through June"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses swaps, collars and options with maturities of 24 months or less to mitigate price risk on future oil and gas production; derivatives must be reviewed and approved by executive management."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": null,
+      "gas_production_mcf": null,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 8779,
+      "proved_gas_reserves_mmcf": 34508,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 160.237,
+      "pv10_mm": 160.237,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

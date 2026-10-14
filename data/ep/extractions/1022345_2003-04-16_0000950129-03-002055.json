@@ -1,0 +1,137 @@
+{
+  "cik": "1022345",
+  "company": "MARINER ENERGY INC",
+  "filing_date": "2003-04-16",
+  "accession_number": "0000950129-03-002055",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1501.37,
+        "volume_total": 548000,
+        "volume_unit": "Bbls",
+        "fixed_price": 24.02,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -1.8,
+        "notes": "Table lists 548 MBbl. Fixed price swap outstanding at 12/31/2002 with an unnamed third party; hedging program began June 28, 2002.",
+        "evidence_quote": "Fixed Price Swap                              548              $24.02                $ (1.8)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 501.37,
+        "volume_total": 183000,
+        "volume_unit": "Bbls",
+        "fixed_price": 24.81,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -0.4,
+        "notes": "Table lists 183 MBbl. Fixed price swap outstanding at 12/31/2002 with an unnamed third party.",
+        "evidence_quote": "Fixed Price Swap                              183              $24.81                  (0.4)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2.0,
+        "volume_total": 730,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.54,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -7.5,
+        "notes": "Table header reads NATURAL GAS (MMbtu) with notional 730; scale (thousands vs units) not stated, reported as printed. In Jan-Feb 2003 the company unwound all gas swaps for Feb-Oct 2003 via counter positions, locking in a $23.2 million loss.",
+        "evidence_quote": "Fixed Price Swap                              730              $ 3.54                  (7.5)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 2.0,
+        "volume_total": 730,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.6,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": null,
+        "fair_value_mm": -7.1,
+        "notes": "Table header reads NATURAL GAS (MMbtu) with notional 730; scale not stated, reported as printed. Subject to the Jan-Feb 2003 unwind of Feb-Oct 2003 gas swaps ($23.2 million locked-in loss).",
+        "evidence_quote": "Fixed Price Swap                              730              $ 3.60                  (7.1)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Management policy of hedging oil and gas prices from time to time, primarily via commodity swap and costless collar agreements; pre-2002 hedges were with Enron (de-designated after bankruptcy); new program with third party from June 2002."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 1700000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 29600000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2002
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 11000,
+      "proved_gas_reserves_mmcf": 136100,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2002-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 515,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

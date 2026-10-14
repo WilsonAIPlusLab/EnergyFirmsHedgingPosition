@@ -1,0 +1,155 @@
+{
+  "cik": "315272",
+  "company": "HARCOR ENERGY INC",
+  "filing_date": "1997-03-31",
+  "accession_number": "0000899243-97-000506",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 7945.21,
+        "volume_total": 2900000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas contracts at fixed prices ranging from $1.68/MMBtu to $2.07/MMBtu or indexed prices (range for 1997 and 1998 combined; no weighted average stated).",
+        "evidence_quote": "covering volumes of approximately 2.9 Bcf and 0.3 Bcf for 1997 and 1998,"
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 821.92,
+        "volume_total": 300000.0,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Gas contracts at fixed prices ranging from $1.68/MMBtu to $2.07/MMBtu or indexed prices (range for 1997 and 1998 combined; no weighted average stated).",
+        "evidence_quote": "respectively, at fixed prices ranging from $1.68/MMBtu to $2.07/MMBtu or"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 789.04,
+        "volume_total": 288000,
+        "volume_unit": "Boe",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-01",
+        "period_end": "1997-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil hedges, notional approx 288 MBOE (stated in MBOE, scaled to Boe). Fixed prices ranging from $17.25/Bbl to $18.51/Bbl or NYMEX-indexed prices (range for 1997 and 1998 combined). Instrument type not specified in text.",
+        "evidence_quote": "MBOE and 29 MBOE for 1997 and 1998, respectively, at fixed prices ranging from"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 79.45,
+        "volume_total": 29000,
+        "volume_unit": "Boe",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1998-01",
+        "period_end": "1998-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Oil hedges, notional approx 29 MBOE (stated in MBOE, scaled to Boe). Fixed prices ranging from $17.25/Bbl to $18.51/Bbl or NYMEX-indexed prices (range for 1997 and 1998 combined). Instrument type not specified in text.",
+        "evidence_quote": "$17.25/Bbl to $18.51/Bbl or NYMEX-indexed prices."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": -0.29,
+        "notes": "Fair value table at Dec 31, 1996 shows NYMEX-related Crude Oil Price Swaps with carrying amount nil and estimated fair value $(290) thousand. Likely overlaps with the oil hedges listed above; no volumes or periods given for this line.",
+        "evidence_quote": "Swaps..............................   $     -    $  (290)"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 3,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Uses financial instruments to protect against volatility in oil and gas prices; after acquisitions usually enters futures, swaps, collars or forwards covering a substantial portion of acquired production."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 522527,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 5795347,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 232222,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 12411.649,
+      "proved_gas_reserves_mmcf": 95525.8,
+      "proved_ngl_reserves_mbbls": 2489.44,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 185.183,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.23,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

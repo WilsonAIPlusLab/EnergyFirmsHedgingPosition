@@ -1,0 +1,95 @@
+{
+  "cik": "230463",
+  "company": "PXP PRODUCING CO LLC",
+  "filing_date": "1995-03-07",
+  "accession_number": "0000950129-95-000142",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.08,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1995-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Swap of floating market price for fixed price on 1,000 Bbls per day of production, ending April 30, 1995; counterparty described only as 'another party'; start date not stated",
+        "evidence_quote": "swapped the floating\nmarket price it receives from purchasers of its crude oil for a fixed price of\n$17.08 per barrel on 1,000 Bbls per day of the Company's production for a period\nending April 30, 1995."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 37000,
+        "volume_total": 10101000,
+        "volume_unit": "Mcf",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "1995-01",
+        "period_end": "1995-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Futures contracts with various parties on a portion of daily gas production through Sept 30, 1995; about 37 MMcf/d in January decreasing quarterly to about 15 MMcf/d; varying prices ranging from approximately $1.92 to $1.83 per Mcf (no single weighted price stated). Volume reported is the January starting level. Direction (sale of production) inferred from hedging language, not explicitly stated.",
+        "evidence_quote": "futures contracts with various parties on a portion of its daily\nnatural gas production through September 30, 1995 (commencing with contracts\ntotaling approximately 37 MMcf per day in January"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time enters contracts on a portion of production to hedge price volatility; historically hedges have not exceeded 50% of total oil and gas production on an energy equivalent basis."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": null,
+      "oil_production_bpd": 11100,
+      "gas_production_mcf": 52618000,
+      "gas_production_mmcf_per_day": 144.8,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1994
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 33862,
+      "proved_gas_reserves_mmcf": 242890,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1994-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 290.069,
+      "pv10_mm": 382.98,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

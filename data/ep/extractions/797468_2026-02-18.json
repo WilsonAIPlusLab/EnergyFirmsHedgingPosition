@@ -1,0 +1,98 @@
+{
+  "cik": "797468",
+  "company": "OCCIDENTAL PETROLEUM CORP /DE/",
+  "filing_date": "2026-02-18",
+  "accession_number": "0001628280-26-009059",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "forward",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 59000000,
+        "volume_unit": "Bbls",
+        "fixed_price": 59.59,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Marketing derivatives NOT designated as hedges (short-duration physical and financial forwards). Net short volume (59) MMbbl at 2025-12-31 converted to Bbls; price is the weighted-average settlement price. Total marketing derivative fair value $36 million (not split by commodity). Not production hedging.",
+        "evidence_quote": "As of December 31, 2025, the weighted-average settlement prices of these forward contracts were $59.59 per barrel and $2.53 per Mcf for crude oil and natural gas, respectively."
+      },
+      {
+        "instrument_type": "forward",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": 189000000,
+        "volume_unit": "Mcf",
+        "fixed_price": 2.53,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": null,
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Marketing derivatives NOT designated as hedges (short-duration physical and financial forwards). Net short volume (189) Bcf at 2025-12-31; price is the weighted-average settlement price. Total marketing derivative fair value $36 million (not split by commodity). Not production hedging.",
+        "evidence_quote": "As of December 31, 2025, the weighted-average settlement prices of these forward contracts were $59.59 per barrel and $2.53 per Mcf for crude oil and natural gas, respectively."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "No production hedges. Derivatives not designated as hedges are marketing derivatives (short-duration forwards) at fair value via earnings; VaR and position/tenor limits control trading risk."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 266000000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 829000000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 119000000,
+      "total_production_boe": 523000000,
+      "total_production_boepd": 1434000,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": 3294000,
+      "proved_gas_reserves_mmcf": 7745000,
+      "proved_ngl_reserves_mbbls": 1150000,
+      "proved_oil_reserves_mbbls": 2162000,
+      "proved_undeveloped_reserves_mboe": 1309000,
+      "reserves_year_end": "2025-12-31",
+      "total_proved_reserves_mboe": 4603000
+    },
+    "economics": {
+      "standardized_measure_mm": 36627,
+      "pv10_mm": null,
+      "oil_price_used": 65.34,
+      "gas_price_used": 3.39,
+      "lease_operating_expense_per_boe": 8.94,
+      "production_tax_per_boe": 1.93,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": 3.11,
+      "dd_and_a_per_boe": 13.59,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:03",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

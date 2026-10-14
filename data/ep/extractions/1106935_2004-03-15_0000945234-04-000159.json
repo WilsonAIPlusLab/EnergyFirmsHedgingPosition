@@ -1,0 +1,101 @@
+{
+  "cik": "1106935",
+  "company": "IVANHOE ENERGY INC",
+  "filing_date": "2004-03-15",
+  "accession_number": "0000945234-04-000159",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 500,
+        "volume_total": 106000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 24,
+        "ceiling_price": 28.95,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-10",
+        "period_end": "2003-04",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "October 2002 six-month costless collar, WTI NYMEX index. Maturity April 2003 per collateral note. Total derivative mark-to-market was a liability of $0.1 million at Dec 31, 2002 (not split by contract). Collateral posted $0.6 million. No contracts outstanding at Dec 31, 2003.",
+        "evidence_quote": "The derivatives had ceiling prices\nof $30.45 and $28.95 per barrel for the June 2003 and October 2002 contracts,\nrespectively, and a floor price of $24.00 per barrel using WTI as the index"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 500,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 24,
+        "ceiling_price": 30.45,
+        "price_unit": "$/Bbl",
+        "period_start": "2003-06",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "June 2003 six-month costless collar, WTI NYMEX index. End date not stated explicitly. No contracts outstanding at Dec 31, 2003.",
+        "evidence_quote": "The derivatives had ceiling prices\nof $30.45 and $28.95 per barrel for the June 2003 and October 2002 contracts,\nrespectively, and a floor price of $24.00 per barrel using WTI as the index"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically engages in derivatives to hedge cash flow from a portion of U.S. oil production; used costless collars on 500 bbl/d; none outstanding at Dec 31, 2003."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 346000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 50000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 357242,
+      "total_production_boepd": 979,
+      "production_year": 2003
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 17262,
+      "proved_gas_reserves_mmcf": 695,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2003-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 98.874,
+      "pv10_mm": null,
+      "oil_price_used": 30.31,
+      "gas_price_used": 6.13,
+      "lease_operating_expense_per_boe": 8.52,
+      "production_tax_per_boe": 0.62,
+      "total_production_cost_per_boe": 12.03,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 10.44,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:26",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

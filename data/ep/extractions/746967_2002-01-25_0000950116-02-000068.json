@@ -1,0 +1,58 @@
+{
+  "cik": "746967",
+  "company": "DALECO RESOURCES CORP",
+  "filing_date": "2002-01-25",
+  "accession_number": "0000950116-02-000068",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": null,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Under the Heller Financing the Company is required to purchase \"hedges\" to guarantee a specified price for gas sales from properties developed with Heller financing; no instruments disclosed."
+    }
+  },
+  "production": {
+    "production": {
+      "production_year": 2001,
+      "oil_production_bbls": 26288,
+      "oil_production_bpd": 73,
+      "gas_production_mcf": 636422,
+      "gas_production_mmcf_per_day": 1.768,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "reserves_year_end": "2001-09-30",
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null
+    },
+    "economics": {
+      "standardized_measure_mm": 9.322351,
+      "pv10_mm": 12.172891,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:14:38",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_896e9900-cb3"
+    ]
+  }
+}

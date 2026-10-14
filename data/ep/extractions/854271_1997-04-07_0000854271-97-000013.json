@@ -1,0 +1,155 @@
+{
+  "cik": "854271",
+  "company": "MAGNUM HUNTER RESOURCES INC",
+  "filing_date": "1997-04-07",
+  "accession_number": "0000854271-97-000013",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 18,
+        "ceiling_price": 22.2,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "1997-02",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "12,000 Bbls per month (monthly volume, not daily); open at 12/31/1996 through February 1997; start month not stated",
+        "evidence_quote": "12,000 barrels of oil per month (with cap and floor prices of $22.20 and $18.00,"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 20,
+        "ceiling_price": 25.1,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-03",
+        "period_end": "1997-08",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "15,000 Bbls per month (monthly volume, not daily); Item 1 says approximately 85% of oil hedged under this collar based on Q4 1996 production",
+        "evidence_quote": "cap and floor prices of $25.10 and $20.00, respectively) from March 1997 through"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.16,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-01",
+        "period_end": "1997-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "302,000 Mmbtu per month during January 1997 (monthly volume, not daily)",
+        "evidence_quote": "prices swaps of 302,000 Mmbtu of gas per month at $2.16 per Mmbtu during January"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.905,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-02",
+        "period_end": "1998-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "100,000 Mmbtu per month (monthly volume, not daily); Item 1 also quotes the two Panoma hedges at $2.00 and $2.15 per Mcf",
+        "evidence_quote": "1997,  100,000  Mmbtu of gas per month at $1.905  per Mmbtu from  February  1997"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.77,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1997-02",
+        "period_end": "1998-01",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Another 100,000 Mmbtu per month (monthly volume, not daily)",
+        "evidence_quote": "through  January  1998 and another  100,000  Mmbtu of gas per month at $1.77 per"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically enters into futures, options and swap contracts to reduce the effects of fluctuations in crude oil and natural gas prices."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 191000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2675000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1996
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5338.255,
+      "proved_gas_reserves_mmcf": 90565.997,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1996-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 164.766459,
+      "oil_price_used": 24.31,
+      "gas_price_used": 4,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:31",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

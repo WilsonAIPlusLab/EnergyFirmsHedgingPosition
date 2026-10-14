@@ -1,0 +1,173 @@
+{
+  "cik": "1022345",
+  "company": "MARINER ENERGY INC",
+  "filing_date": "2002-04-16",
+  "accession_number": "0001022345-02-000004",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 6.02,
+        "volume_total": 1831,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.18,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-10",
+        "counterparty": "ENA",
+        "fair_value_mm": -0.9,
+        "notes": "Open position at 12/31/2001; table header 'NATURAL GAS (MMBTU)', scale (e.g. thousands) not stated; labelled 'Fixed price swap purchased'; contracts de-designated 12/2/2001 after Enron/ENA bankruptcy",
+        "evidence_quote": "Fixed price swap purchased\t 1,831\t $2.18\t $(0.9)"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 33.24,
+        "volume_total": 12134,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 4.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": "ENA",
+        "fair_value_mm": 20.4,
+        "notes": "Open position at 12/31/2001; table header 'NATURAL GAS (MMBTU)', scale not stated; labelled 'Fixed price swap purchased'",
+        "evidence_quote": "Fixed price swap purchased\t 12,134\t 4.43\t 20.4"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 15.0,
+        "volume_total": 4125,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.03,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-04",
+        "period_end": "2002-12",
+        "counterparty": "ENA",
+        "fair_value_mm": 0.9,
+        "notes": "Open position at 12/31/2001; table header 'NATURAL GAS (MMBTU)', scale not stated; labelled 'Fixed price swap purchased'",
+        "evidence_quote": "Fixed price swap purchased\t 4,125\t 3.03\t 0.9"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 10.0,
+        "volume_total": 3650,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 3.74,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2003-01",
+        "period_end": "2003-12",
+        "counterparty": "ENA",
+        "fair_value_mm": 2,
+        "notes": "Open position at 12/31/2001; table header 'NATURAL GAS (MMBTU)', scale not stated; labelled 'Fixed price swap purchased'",
+        "evidence_quote": "Fixed price swap purchased\t 3,650\t 3.74\t 2.0"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 181,
+        "volume_unit": "other",
+        "fixed_price": 25.15,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-06",
+        "counterparty": "ENA",
+        "fair_value_mm": 0.9,
+        "notes": "Open position at 12/31/2001; table header 'CRUDE OIL (MBBL)' so 181 is in MBbl (thousand barrels) as printed; labelled 'Fixed price swap purchased'",
+        "evidence_quote": "Fixed price swap purchased\t 181\t 25.15\t 0.9"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 365,
+        "volume_unit": "other",
+        "fixed_price": 25.48,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-12",
+        "counterparty": "ENA",
+        "fair_value_mm": 1.9,
+        "notes": "Open position at 12/31/2001; table header 'CRUDE OIL (MBBL)' so 365 is in MBbl (thousand barrels) as printed; labelled 'Fixed price swap purchased'",
+        "evidence_quote": "Fixed price swap purchased\t 365\t 25.48\t 1.9"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 4,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Policy of hedging oil and gas prices from time to time via commodity swaps and costless collars; all hedges with Enron/ENA; positions de-designated Dec 2, 2001 after ENA bankruptcy."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 2978000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 18796000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 10101,
+      "proved_gas_reserves_mmcf": 176461,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 232.028,
+      "pv10_mm": 232,
+      "oil_price_used": 16.4,
+      "gas_price_used": 2.6,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:28",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

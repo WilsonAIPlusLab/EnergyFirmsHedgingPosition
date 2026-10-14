@@ -1,0 +1,173 @@
+{
+  "cik": "861819",
+  "company": "NUEVO ENERGY CO",
+  "filing_date": "2000-03-29",
+  "accession_number": "0000899243-00-000655",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 16500,
+        "volume_total": 6039000,
+        "volume_unit": "Bbls",
+        "fixed_price": 17.94,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "WTI-indexed swap contracts for 2000. Combined market value of all 2000 hedge positions (swaps, collars, Congo basis swaps) at 12/31/1999 was a loss of approx $35.7 million (not split by instrument).",
+        "evidence_quote": "contracts on 16,500 barrels of oil per day (\"BOPD\"), at an average West Texas\nIntermediate (\"WTI\") price of $17.94 per barrel."
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 16500,
+        "volume_total": 6039000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16,
+        "ceiling_price": 21.21,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Collars on an additional 16,500 BOPD for 2000, based on fixed NYMEX price. Included in the combined $35.7 million loss for 2000 hedge positions.",
+        "evidence_quote": "into collars on an additional 16,500 BOPD, with a floor of $16.00 per barrel and\nceiling of $21.21 per barrel."
+      },
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": 3000,
+        "volume_total": 1098000,
+        "volume_unit": "Bbls",
+        "fixed_price": 1.88,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Congo production; hedges basis differential between No. 6 fuel oil and WTI at an average differential of $1.88 per barrel. Included in the combined $35.7 million loss for 2000 hedge positions.",
+        "evidence_quote": "the Company has entered into basis swaps on 3,000 BOPD of its\nproduction in the Congo, hedging the basis differential between No. 6 fuel oil\nand WTI at an average differential of $1.88 per barrel."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 26000,
+        "volume_total": 2340000,
+        "volume_unit": "Bbls",
+        "fixed_price": 19.52,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-01",
+        "period_end": "2001-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average WTI price. Market value of all 2001 swaps (Q1-Q3) at 12/31/1999 was a gain of $0.5 million (not split by quarter).",
+        "evidence_quote": "26,000 BOPD for\nthe first quarter at an average WTI price of $19.52"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 25000,
+        "volume_total": 2275000,
+        "volume_unit": "Bbls",
+        "fixed_price": 19.54,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-04",
+        "period_end": "2001-06",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average WTI price. Market value of all 2001 swaps (Q1-Q3) at 12/31/1999 was a gain of $0.5 million (not split by quarter).",
+        "evidence_quote": "for the second quarter on\n25,000 BOPD at an average WTI price of $19.54"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 20000,
+        "volume_total": 1840000,
+        "volume_unit": "Bbls",
+        "fixed_price": 21.22,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2001-07",
+        "period_end": "2001-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Average WTI price. Market value of all 2001 swaps (Q1-Q3) at 12/31/1999 was a gain of $0.5 million (not split by quarter).",
+        "evidence_quote": "for the third quarter on\n20,000 BOPD at an average WTI price of $21.22"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 6,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Reduces price volatility exposure by hedging production through swaps, options and other commodity derivatives; hedge accounting used; oil price risk management policies formalized in 1999."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 17520000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 17620000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 207000,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 265238,
+      "proved_gas_reserves_mmcf": 145125,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1007.173,
+      "pv10_mm": null,
+      "oil_price_used": 18.97,
+      "gas_price_used": 2.31,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 6.15,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:39",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

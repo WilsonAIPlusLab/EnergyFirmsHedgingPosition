@@ -1,0 +1,95 @@
+{
+  "cik": "746834",
+  "company": "NGAS Resources Inc",
+  "filing_date": "2001-04-17",
+  "accession_number": "0000950152-01-500861",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 1000,
+        "volume_total": null,
+        "volume_unit": "other",
+        "fixed_price": 5.11,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2000-11",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical natural gas sales contract (not a described financial derivative); volume 1,000 dekatherms/day at $5.11 per dekatherm; one-year term from Nov 1, 2000 (end date not explicitly stated).",
+        "evidence_quote": "On November 1, 2000, Daugherty Petroleum executed a one year natural\ngas sales contract for 1,000 dekatherms of gas per day at $5.11 per dekatherm."
+      },
+      {
+        "instrument_type": "fixed_price_contract",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 500,
+        "volume_total": null,
+        "volume_unit": "other",
+        "fixed_price": 4.89,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "other",
+        "period_start": "2000-11",
+        "period_end": null,
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Physical natural gas sales contract (not a described financial derivative); volume 500 dekatherms/day at $4.89 per dekatherm; one-year term from Nov 14, 2000 (end date not explicitly stated).",
+        "evidence_quote": "On November 14, 2000, executed a one year natural\ngas sales contract\nfor 500 dekatherms of gas per day at $4.89 per dekatherm."
+      }
+    ],
+    "hedging_summary": {
+      "stated_hedging_policy": null,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "total_oil_instruments": 0,
+      "uses_derivatives": false
+    }
+  },
+  "production": {
+    "production": {
+      "gas_production_mcf": 216503,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "oil_production_bbls": 11621,
+      "oil_production_bpd": null,
+      "production_year": 2000,
+      "total_production_boe": null,
+      "total_production_boepd": null
+    },
+    "reserves": {
+      "proved_developed_reserves_mboe": null,
+      "proved_gas_reserves_mmcf": 13972.304,
+      "proved_ngl_reserves_mbbls": null,
+      "proved_oil_reserves_mbbls": 93.663,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2000-12-31",
+      "total_proved_reserves_mboe": null
+    },
+    "economics": {
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null,
+      "gas_price_used": null,
+      "gathering_transport_per_boe": null,
+      "lease_operating_expense_per_boe": null,
+      "oil_price_used": null,
+      "production_tax_per_boe": null,
+      "pv10_mm": null,
+      "standardized_measure_mm": 15.782,
+      "total_production_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:25:57",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_1c533414-e76"
+    ]
+  }
+}

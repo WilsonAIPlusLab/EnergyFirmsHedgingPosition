@@ -1,0 +1,101 @@
+{
+  "cik": "10254",
+  "company": "EARTHSTONE ENERGY INC",
+  "filing_date": "1997-06-27",
+  "accession_number": "0000010254-97-000010",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-04",
+        "period_end": "1998-02",
+        "counterparty": "NYMEX",
+        "fair_value_mm": null,
+        "notes": "Futures prices ranged $20.26 to $20.42 per barrel (range only, no weighted average). 36 open futures and/or options contracts in total, split not stated; no volumes disclosed. Combined fair value of open contracts stated only as a loss of less than $21,000. Quote is from production_text because instrument_text omits this sentence.",
+        "evidence_quote": "At March 31, 1997, the Company had thirty-six open futures and/or options\ncontracts to hedge future deliveries with maturities ranging from April 1997\nthrough February 1998 at prices ranging from $20.26 to $20.42 per barrel for\nfutures contracts"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": null,
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1997-04",
+        "period_end": "1998-02",
+        "counterparty": "NYMEX",
+        "fair_value_mm": null,
+        "notes": "Options with a strike price of $19.00 per barrel; text does not say whether puts or calls, so no floor or ceiling is assigned. No volumes disclosed. Quote is from production_text because instrument_text omits this sentence.",
+        "evidence_quote": "thirty-six open futures and/or options\ncontracts to hedge future deliveries with maturities ranging from April 1997\nthrough February 1998 at prices ranging from $20.26 to $20.42 per barrel for\nfutures contracts and at a strike price of $19.00 per barrel for options."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Entered into NYMEX futures and/or options to hedge crude oil given bank debt leverage; did not hedge any gas production; favors options over futures in fiscal 1998 and hedges less aggressively."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 133500,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 202000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 613,
+      "proved_gas_reserves_mmcf": 989,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-03-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 3.082,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 12.75,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 3.09,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "cik": "789933",
+  "company": "NACCO INDUSTRIES INC",
+  "filing_date": "2026-03-04",
+  "accession_number": "0000789933-26-000070",
+  "instruments": {
+    "instruments": [],
+    "hedging_summary": {
+      "uses_derivatives": false,
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "No commodity derivatives disclosed. Item 7A omitted as a smaller reporting company. Minerals and Royalties segment holds royalty and mineral interests, with no hedging program stated."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 32077,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1843911,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": 15687,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2025
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 673.693,
+      "proved_gas_reserves_mmcf": 27507.628,
+      "proved_ngl_reserves_mbbls": 584.804,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2025-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 54.862,
+      "pv10_mm": 69.445,
+      "oil_price_used": 65.34,
+      "gas_price_used": 3.39,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-fy2025-update",
+    "extraction_timestamp": "2026-10-08T22:52:04",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_95087dc3-6ed",
+      "wf_83574016-9dd",
+      "wf_597d7e5b-b5f",
+      "wf_7c9bd679-23e"
+    ]
+  }
+}

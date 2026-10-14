@@ -1,0 +1,95 @@
+{
+  "cik": "809428",
+  "company": "VINTAGE PETROLEUM INC",
+  "filing_date": "2000-03-13",
+  "accession_number": "0000930661-00-000532",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "short",
+        "volume_per_day": 4918.03,
+        "volume_total": 1800000,
+        "volume_unit": "Bbls",
+        "fixed_price": 22.43,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2000-01",
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": 0.7,
+        "notes": "Entered during 1999; NYMEX reference price; at 12/31/1999 the Company would have received approx $700,000 to terminate its oil swap agreements. Direction inferred from receive-fixed swap language is not stated; set short as a hedge of production.",
+        "evidence_quote": "for 2000 covering 1.8 MMBbls at a weighted average NYMEX reference price of\n$22.43 per Bbl."
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": 3600000,
+        "volume_unit": "Bbls",
+        "fixed_price": 25.77,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": null,
+        "period_end": "2000-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Additional oil hedging contracts entered during Q1 2000 (after year-end), through December 31, 2000; weighted average NYMEX reference price. Instrument type not specified in the text. Combined quarterly schedule in the filing: Q1 2000 1,310 MBbls at $27.49; Q2 1,365 at $25.19; Q3 1,380 at $23.61; Q4 1,380 at $22.44.",
+        "evidence_quote": "additional oil hedging contracts through December 31, 2000, covering an\nadditional 3.6 MMBbls of oil and a weighted average NYMEX reference price of\n$25.77 per Bbl."
+      }
+    ],
+    "hedging_summary": {
+      "uses_derivatives": true,
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "stated_hedging_policy": "Periodically uses oil swap hedges to reduce price fluctuation impact; no derivatives for speculative or trading purposes; will continue to consider hedging arrangements."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 16877000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 48354000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": 24936000,
+      "total_production_boepd": null,
+      "production_year": 1999
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": null,
+      "proved_gas_reserves_mmcf": null,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1999-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 2247.237,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 4.63,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T00:29:10",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_74bb7539-a02"
+    ]
+  }
+}

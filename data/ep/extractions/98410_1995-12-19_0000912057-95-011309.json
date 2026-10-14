@@ -1,0 +1,101 @@
+{
+  "cik": "98410",
+  "company": "TIPPERARY CORP",
+  "filing_date": "1995-12-19",
+  "accession_number": "0000912057-95-011309",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 16.15,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "1995-12",
+        "period_end": "1996-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Two swap agreements entered after 9/30/1995 covering 10,000 barrels per month (approx. 25% of oil production); average floor price based on NYMEX WTI of $16.15/Bbl with 50% participation in price increases above the floor. Volume is monthly, so volume_per_day and volume_total left null.",
+        "evidence_quote": "covering 10,000 barrels of oil per month from December 1, 1995 through"
+      },
+      {
+        "instrument_type": "other",
+        "commodity": "crude_oil",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1994-10",
+        "period_end": "1995-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Fiscal 1995 hedges (swaps with financial institutions and NYMEX contracts) averaged 14,167 barrels per month (approx. 30% of oil production); all expired by 9/30/1995; net payments approx. $183,000. Prices not stated.",
+        "evidence_quote": "price increases above the \"floor.\"  During fiscal 1995, the Company hedged an"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 0,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company typically uses hedging techniques (swaps with financial institutions, NYMEX contracts) to reduce price risk; floor price with upside participation; no gas hedged in fiscal 1995 but may be in future."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 565000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 2061000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1995
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 3419,
+      "proved_gas_reserves_mmcf": 13061,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1995-09-30"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 24.2,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 6.14,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:29",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

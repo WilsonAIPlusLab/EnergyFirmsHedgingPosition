@@ -1,0 +1,137 @@
+{
+  "cik": "911359",
+  "company": "PETROCORP INC",
+  "filing_date": "2002-03-26",
+  "accession_number": "0000899243-02-000758",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 580.59,
+        "volume_total": 158500,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 22,
+        "ceiling_price": null,
+        "price_unit": "$/Bbl",
+        "period_start": "2002-01",
+        "period_end": "2002-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "US and Canada, NYMEX WTI. Monthly volume 17,611 Bbl. Cap stated as a range '$25.60 to $27.00' so ceiling_price left null. Combined fair value of oil and gas collars at 12/31/2001 was an asset of $644,000 (not split by instrument). Collars assumed in Southern Mineral merger.",
+        "evidence_quote": "Jan-02-Sep-02                 158,500            17,611       $22.00   $25.60 to $27.00"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 2466.67,
+        "volume_total": 222000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 4.85,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-01",
+        "period_end": "2002-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "US and Canada, Houston Ship Channel index. Monthly volume 74,000 Mmbtu. Combined fair value of oil and gas collars at 12/31/2001 was an asset of $644,000 (not split by instrument).",
+        "evidence_quote": "Jan-02-Mar-02                 222,000            74,000        $2.75              $4.85"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 2177.57,
+        "volume_total": 466000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 2.75,
+        "ceiling_price": 3.8,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2002-04",
+        "period_end": "2002-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "US and Canada, Houston Ship Channel index. Monthly volume 66,571 Mmbtu. Combined fair value of oil and gas collars at 12/31/2001 was an asset of $644,000 (not split by instrument).",
+        "evidence_quote": "Apr-02-Oct-02                 466,000            66,571        $2.75              $3.80"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": null,
+        "volume_total": 450000,
+        "volume_unit": "other",
+        "fixed_price": null,
+        "floor_price": 4.05,
+        "ceiling_price": 6.15,
+        "price_unit": "other",
+        "period_start": "2002-01",
+        "period_end": "2002-09",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Canada, CND $ Alberta Spot - AECO. Volume in Gigajoules (total 450,000; monthly 50,000). Prices are Canadian dollars per gigajoule (unit as shown in table headings: CND $). Combined fair value of oil and gas collars at 12/31/2001 was an asset of $644,000 (not split by instrument).",
+        "evidence_quote": "Jan-02-Sep-02                 450,000            50,000        $4.05              $6.15"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 1,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Company utilizes hedging transactions (futures, swaps, collars) to manage price exposure on a portion of oil and gas sales; 2001 collars were assumed in the Southern Mineral merger."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 599000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 9874000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 6449,
+      "proved_gas_reserves_mmcf": 99975,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 104.354,
+      "pv10_mm": 133.2,
+      "oil_price_used": 19.79,
+      "gas_price_used": 2.48,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:34",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

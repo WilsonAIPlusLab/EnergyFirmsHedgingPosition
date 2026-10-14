@@ -1,0 +1,83 @@
+{
+  "cik": "72207",
+  "company": "NOBLE ENERGY INC",
+  "filing_date": "1998-03-18",
+  "accession_number": "0000950134-98-002124",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "other",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": null,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "1998-01",
+        "period_end": "1999-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "NGM (marketing subsidiary) hedges in place at 12/31/1997 for future physical transactions, ranging from approximately 645 to 29,279 MMBTU per day (range only; no single volume or price stated). No hedges of the Company's own oil or gas production were open at 12/31/1997.",
+        "evidence_quote": "At December 31, 1997, NGM had in place hedges ranging from\napproximately 645 MMBTU's to 29,279 MMBTU's of gas per day for January 1998 to\nMarch 1999 for future physical transactions."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time uses fixed price hedges, costless collars and other arrangements on anticipated oil and gas sales; no production hedges open at 12/31/1997; NGM hedges marketing purchases/sales."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 14000000,
+      "oil_production_bpd": 38345,
+      "gas_production_mcf": 206400000,
+      "gas_production_mmcf_per_day": 565.4,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 130863,
+      "proved_gas_reserves_mmcf": 1482215,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 1352,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": 3.93,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 6.33,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:40",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

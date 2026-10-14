@@ -1,0 +1,83 @@
+{
+  "cik": "32880",
+  "company": "ENERGY CORP OF AMERICA",
+  "filing_date": "2001-09-28",
+  "accession_number": "0001015402-01-502865",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 8116.03,
+        "volume_total": 4455700,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": null,
+        "period_start": "2001-07",
+        "period_end": "2002-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Aggregate of all gas swap agreements outstanding at June 30, 2001 (maturing July 2001 through December 2002); designated as cash flow hedges. Item 7A also says swaps cover approx 46.4% of gas production through April 2002. No prices or per-swap detail disclosed. At June 30, 2001 recorded $4.4MM short-term derivative asset, $0.3MM short-term and $0.1MM long-term derivative liability.",
+        "evidence_quote": "December  2002  covering  4,455,700  Mmbtu."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 1,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Hedges a portion of projected gas production via futures, swaps, options and fixed price physical contracts; no trading; swaps cover about 46.4% of gas production through April 2002."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 116000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 9371000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2001
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 2633,
+      "proved_gas_reserves_mmcf": 206456,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2001-06-30"
+    },
+    "economics": {
+      "standardized_measure_mm": 172.281,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:23",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

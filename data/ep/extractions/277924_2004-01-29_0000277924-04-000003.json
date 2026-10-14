@@ -1,0 +1,101 @@
+{
+  "cik": "277924",
+  "company": "Forestar Petroleum Corp",
+  "filing_date": "2004-01-29",
+  "accession_number": "0000277924-04-000003",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 4590.16,
+        "volume_total": 560000,
+        "volume_unit": "Mcf",
+        "fixed_price": 5.19,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2003-12",
+        "period_end": "2004-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open NYMEX futures short (forward-sold) hedge at Oct 31, 2003; $5.19 average price is stated in production_text (not in the instrument_text quote); approx 85% of estimated gas production for those months.",
+        "evidence_quote": "At\nOctober 31, 2003, the company's open hedge positions totaled\n560,000 Mcf covering the production months of December 2003\nthrough March 2004."
+      },
+      {
+        "instrument_type": "futures",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 364.96,
+        "volume_total": 100000,
+        "volume_unit": "Mcf",
+        "fixed_price": 4.92,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mcf",
+        "period_start": "2004-02",
+        "period_end": "2004-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Open hedge positions at Dec 31, 2003 at average NYMEX price; about 85% of est. production for Feb-Mar and 55% to 60% for April-Oct 2004.",
+        "evidence_quote": "At\nDecember 31, 2003, the company had open hedge positions totaling\n100,000 Mcf covering the months of February through October 2004\nat an average NYMEX price of $4.92 per Mcf."
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 2,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Periodically hedges natural gas by forward selling in NYMEX futures when basis is stable and price adequate; closes by buying offsetting long positions; Board authorized; cash flow hedges."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 35000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 1449000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2003
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 385,
+      "proved_gas_reserves_mmcf": 13786,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2003-10-31"
+    },
+    "economics": {
+      "standardized_measure_mm": null,
+      "pv10_mm": 28.024,
+      "oil_price_used": 28.64,
+      "gas_price_used": 3.99,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

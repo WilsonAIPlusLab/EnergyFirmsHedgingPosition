@@ -1,0 +1,155 @@
+{
+  "cik": "860713",
+  "company": "SNYDER OIL CORP",
+  "filing_date": "1998-03-06",
+  "accession_number": "0000860713-98-000001",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "basis_swap",
+        "commodity": "natural_gas",
+        "direction": "unknown",
+        "volume_per_day": 20000,
+        "volume_total": null,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": null,
+        "period_end": "2004-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Long-term gas swap entered in 1994 to lock in the price differential between Rocky Mountain and Henry Hub prices; about 30% of Rocky Mountain gas production at 12/31/1997. Differential price and fair value not stated. Period end given only as 'through 2004'.",
+        "evidence_quote": "20,000  MMBtu's per day  through  2004."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 27847.68,
+        "volume_total": 4205000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.62,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-05",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Various swap sales contracts, NYMEX based, weighted average price, in place at 12/31/1997. Unrecognized gain of $2.4 million is stated jointly for this and the CIG swaps at 12/31/1997.",
+        "evidence_quote": "volumes of  4,205,000  MMBtu's of natural gas for January 1998 through May 1998."
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 25000.0,
+        "volume_total": 2250000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.14,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-01",
+        "period_end": "1998-03",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Various swap sales contracts, CIG-Inside FERC based, weighted average price, in place at 12/31/1997. Unrecognized gain of $2.4 million is stated jointly with the NYMEX swaps.",
+        "evidence_quote": "average price (CIG-Inside FERC based) of $2.14 for contract volumes of 2,250,000"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 80000.0,
+        "volume_total": 17120000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 2.3,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-04",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Additional swap sales contracts entered subsequent to December 31, 1997; NYMEX based, weighted average price.",
+        "evidence_quote": "$2.30 for contract  volumes of 17,120,000  MMBtu's of natural gas for April 1998"
+      },
+      {
+        "instrument_type": "swap",
+        "commodity": "natural_gas",
+        "direction": "short",
+        "volume_per_day": 17000.0,
+        "volume_total": 3638000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": 1.71,
+        "floor_price": null,
+        "ceiling_price": null,
+        "price_unit": "$/Mmbtu",
+        "period_start": "1998-04",
+        "period_end": "1998-10",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Additional swap sales contracts entered subsequent to December 31, 1997; CIG-Inside FERC based, weighted average price.",
+        "evidence_quote": "contract  volumes of  3,638,000  MMBtu's of natural  gas for April 1998  through"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 0,
+      "total_gas_instruments": 5,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "From time to time the Company enters into commodity contracts to hedge price risk of a portion of production; gains and losses are deferred and recognized in oil and gas sales when the contracts relate."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 3490000,
+      "oil_production_bpd": 9561,
+      "gas_production_mcf": 61638000,
+      "gas_production_mmcf_per_day": 168.873,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": 37707,
+      "production_year": 1997
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 16760,
+      "proved_gas_reserves_mmcf": 363168,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "1997-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 291.818,
+      "pv10_mm": null,
+      "oil_price_used": null,
+      "gas_price_used": null,
+      "lease_operating_expense_per_boe": 3.91,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": 5.8,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:35",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}

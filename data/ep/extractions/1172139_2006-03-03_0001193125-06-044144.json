@@ -1,0 +1,155 @@
+{
+  "cik": "1172139",
+  "company": "BILL BARRETT CORP",
+  "filing_date": "2006-03-03",
+  "accession_number": "0001193125-06-044144",
+  "instruments": {
+    "instruments": [
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 35000,
+        "volume_total": 12775000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 4.82,
+        "ceiling_price": 6.72,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Index NORRM (Northwest Pipeline Rocky Mountains). Cashless collar, cash flow hedge. Combined fair value of all collars at 12/31/2005 was a $36.0 million liability (not split by instrument). Table as of Feb 28, 2006.",
+        "evidence_quote": "Natural gas\n\n\t35,000\n\t  \n\tMMBtu\n\t  \n\t$\n\t4.82\n\t  \n\t$\n\t6.72\n\t  \n\tNORRM\n\t  \n\t1/1/2006\u201312/31/2006"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 24000,
+        "volume_total": 8760000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 7.54,
+        "ceiling_price": 13.68,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Index CIG (Colorado Interstate Gas Rocky Mountains). Cashless collar, cash flow hedge. Combined fair value of all collars at 12/31/2005 was a $36.0 million liability (not split by instrument).",
+        "evidence_quote": "Natural gas\n\n\t24,000\n\t  \n\tMMBtu\n\t  \n\t$\n\t7.54\n\t  \n\t$\n\t13.68\n\t  \n\tCIG\n\t  \n\t1/1/2006\u201312/31/2006"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 750,
+        "volume_total": 273750,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 42.53,
+        "ceiling_price": 52.26,
+        "price_unit": "$/Bbl",
+        "period_start": "2006-01",
+        "period_end": "2006-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Index WTI. Cashless collar, cash flow hedge. Combined fair value of all collars at 12/31/2005 was a $36.0 million liability (not split by instrument).",
+        "evidence_quote": "Oil\n\n\t750\n\t  \n\tBbls\n\t  \n\t$\n\t42.53\n\t  \n\t$\n\t52.26\n\t  \n\tWTI\n\t  \n\t1/1/2006\u201312/31/2006"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "natural_gas",
+        "direction": "collar",
+        "volume_per_day": 29000,
+        "volume_total": 10585000,
+        "volume_unit": "Mmbtu",
+        "fixed_price": null,
+        "floor_price": 5.25,
+        "ceiling_price": 10.22,
+        "price_unit": "$/Mmbtu",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Index CIG (Colorado Interstate Gas Rocky Mountains). Cashless collar, cash flow hedge. Combined fair value of all collars at 12/31/2005 was a $36.0 million liability (not split by instrument).",
+        "evidence_quote": "Natural gas\n\n\t29,000\n\t  \n\tMMBtu\n\t  \n\t$\n\t5.25\n\t  \n\t$\n\t10.22\n\t  \n\tCIG\n\t  \n\t1/1/2007\u201312/31/2007"
+      },
+      {
+        "instrument_type": "collar",
+        "commodity": "crude_oil",
+        "direction": "collar",
+        "volume_per_day": 600,
+        "volume_total": 219000,
+        "volume_unit": "Bbls",
+        "fixed_price": null,
+        "floor_price": 50,
+        "ceiling_price": 78.15,
+        "price_unit": "$/Bbl",
+        "period_start": "2007-01",
+        "period_end": "2007-12",
+        "counterparty": null,
+        "fair_value_mm": null,
+        "notes": "Index WTI. Cashless collar, cash flow hedge. Combined fair value of all collars at 12/31/2005 was a $36.0 million liability (not split by instrument).",
+        "evidence_quote": "Oil\n\n\t600\n\t  \n\tBbls\n\t  \n\t$\n\t50.00\n\t  \n\t$\n\t78.15\n\t  \n\tWTI\n\t  \n\t1/1/2007\u201312/31/2007"
+      }
+    ],
+    "hedging_summary": {
+      "total_oil_instruments": 2,
+      "total_gas_instruments": 3,
+      "total_ngl_instruments": 0,
+      "uses_derivatives": true,
+      "stated_hedging_policy": "Enters swaps and collars to receive fixed prices on a portion of gas and oil production to mitigate cash flow impact and comply with credit agreement; no speculative trading; creditworthy counterparties only."
+    }
+  },
+  "production": {
+    "production": {
+      "oil_production_bbls": 523000,
+      "oil_production_bpd": null,
+      "gas_production_mcf": 36287000,
+      "gas_production_mmcf_per_day": null,
+      "ngl_production_bbls": null,
+      "total_production_boe": null,
+      "total_production_boepd": null,
+      "production_year": 2005
+    },
+    "reserves": {
+      "proved_oil_reserves_mbbls": 5834,
+      "proved_gas_reserves_mmcf": 305972,
+      "proved_ngl_reserves_mbbls": null,
+      "total_proved_reserves_mboe": null,
+      "proved_developed_reserves_mboe": null,
+      "proved_undeveloped_reserves_mboe": null,
+      "reserves_year_end": "2005-12-31"
+    },
+    "economics": {
+      "standardized_measure_mm": 782.478,
+      "pv10_mm": null,
+      "oil_price_used": 61.04,
+      "gas_price_used": 7.72,
+      "lease_operating_expense_per_boe": null,
+      "production_tax_per_boe": null,
+      "total_production_cost_per_boe": null,
+      "gathering_transport_per_boe": null,
+      "dd_and_a_per_boe": null,
+      "finding_development_cost_per_boe": null
+    }
+  },
+  "metadata": {
+    "model": "claude (isolated workflow agent)",
+    "extraction_method": "claude-workflow-isolated-agent-pre2010-tierA",
+    "extraction_timestamp": "2026-10-09T01:09:24",
+    "verification_status": "verified",
+    "run_ids": [
+      "wf_59b197e9-4f4",
+      "wf_8a0924d5-e5e",
+      "wf_ab723e08-c6b",
+      "wf_7d6544d6-691",
+      "wf_152dc443-507",
+      "wf_c3a46cd6-477",
+      "wf_e8aba70a-8fb"
+    ]
+  }
+}
