@@ -365,7 +365,18 @@ as "zero hedgers" would confound two economically distinct behaviors.
 
 ---
 
-## 10. References
+## 10. Extension tiers (October 2026)
+
+The v2.0 E&P method (sections 1-6) was extended in October 2026 to (a) E&P annual reports of 1993-2009 (10-K, 10-K405, 10-KSB), (b) FY2025/26 reports filed in 2026, and (c) tier B-D industries. Differences from the v2.0 method:
+- **Parsing:** `stage1_parser_pre2010.py` (older layouts, EX-13, 10-KSB). Filings are screened by keyword scores; filings with no hedging language are not sent to a reader (`screened_not_read` on the spine).
+- **Extraction:** one isolated agent per filing, verbatim quotes checked against the filing text by code, recall guards and stratified samples to estimate what the screens miss; the 6-check pipeline and manual rounds of section 6 were not repeated.
+- **Hedge ratios:** the same calculator over all tiers (`extractions_all_merged`), so a production denominator can be taken from a filing of another tier; 62 published rows changed for that reason.
+- **Fiscal year key:** when two filings map to one (cik, fiscal_year), the published v2.0 row has priority.
+- **Provenance column:** `source_tier` in `data/ep/*`, `data/tierBCD/*` and `production_reserves.csv`.
+- **Production and reserves:** exported from the same extraction JSONs to `production_reserves.csv`, with plausibility flags and no corrections.
+Limits are listed in `DATA_QUALITY.md` sections 12 and 13.
+
+## 11. References
 
 - Adam, T.R., & Fernando, C.S. (2006). Hedging, speculation, and shareholder value. *Journal of Financial Economics*, 81(2), 283–309.
 - Black, F. (1976). The pricing of commodity contracts. *Journal of Financial Economics*, 3(1–2), 167–179.

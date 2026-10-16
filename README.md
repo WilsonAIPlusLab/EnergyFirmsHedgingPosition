@@ -1,6 +1,6 @@
 # U.S. Commodity Hedging Dataset: E&P, Airlines, and Refiners
 
-*Last updated: 2026-10-13*
+*Last updated: 2026-10-16*
 
 A firm-level panel dataset of commodity hedging instruments and hedge ratios for three groups of U.S.
 energy-sector companies, extracted from SEC 10-K annual filings: upstream E&P producers, commercial
@@ -99,6 +99,9 @@ whether `net_short_ratio` or `abs_ratio` (or a crack-spread-specific subset) is 
 their question.
 
 ---
+
+### Extension tiers and additional tables (v2.1, October 2026)
+`data/ep/` now also holds E&P filings of 1994-2009 (`source_tier = pre2010A`) and of 2025-2026 (`update_2026`); `ep_v2.0` marks the verified v2.0 sample. `data/tierBCD/` holds hedge ratios and positions of other energy industries (drilling and field services, royalty vehicles, midstream, refining, utilities, marketing, coal; 463 firms, 2,967 firm-years) with the same schema. `data/production_reserves.csv` holds production, proved reserves, PV-10 and unit costs per filing for all tiers. **The added tiers have not been through the v2.0 PASS/FIXED/WARN verification:** they were read one agent per filing with quotes checked by code and recall guards, and no row has a hand-labelled accuracy check. See `DATA_QUALITY.md` sections 12 and 13.
 
 ## File Structure
 
@@ -291,6 +294,9 @@ errors may remain.
 **Recommendation:** For any firm-year where the extracted ratio appears extreme or economically
 implausible, consult the source `extractions/{cik}_{date}.json` and the underlying 10-K filing.
 The `warnings` column in each panel file records known issues.
+
+### Open issues (2026-10-16)
+Not verified: the added tiers (above); the 62 v2.0 rows whose production denominator changed (`data/ep/CHANGES_2026-10.csv`); production, reserves and economics field by field. Unresolved: some hedge ratios are extreme (57 oil and 62 gas ratios above 150% in absolute value, the largest 229,533 for gas) because of tiny or mismatched production denominators, uncorrected; the airline rows of `master_panel.csv` are not reproducible with the shipped builder and only 60 of its 11,174 E&P rows carry a ticker. The full register is `DATA_QUALITY.md` section 13 and `OPEN_ISSUES.md` in the `hedging-pipeline` repository.
 
 ### Disclosure variation
 Companies disclose hedging positions in widely varying levels of detail. Some provide complete

@@ -81,13 +81,13 @@ Grain: one row per `(cik, era_start_fy, era_end_fy)`. 50 era rows, covering all 
 
 ## 3. data/ep/hedge_ratios.csv
 
-Grain: one row per `(cik, fiscal_year)`. E&P firm-year panel. 2,963 rows.
+Grain: one row per `(cik, fiscal_year)`. E&P firm-year panel. 5,587 rows (2,970 `ep_v2.0`, 2,400 `pre2010A`, 217 `update_2026`). The last column `source_tier` (not listed in the table below) marks the batch; the v2.0 rows are the verified sample.
 
 | Column | Type | Units | Allowed values / notes | Missing |
 |---|---|---|---|---|
 | `cik` | str | — | SEC CIK | never null |
 | `company` | str | — | Company name as of filing | blank if unavailable |
-| `fiscal_year` | int | year | Production year being hedged (FY+1 from filing) | never null |
+| `fiscal_year` | int | year | Fiscal year of the 10-K (calendar year of the period end). The ratios describe hedges for `fiscal_year + 1` against `fiscal_year + 1` production | never null |
 | `filing_date` | str | YYYY-MM-DD | 10-K filing date | never null |
 | `accession_number` | str | — | SEC accession number | never null |
 | `uses_derivatives` | str | — | `True` / `False` | never null |
@@ -366,3 +366,12 @@ Grain: one row per 10-K filing. Refiner per-filing summary. 235 rows.
 | `has_cash_flow_hedges` | str | — | `True` / `False` | never null |
 | `has_economic_hedges` | str | — | `True` / `False` | never null |
 | `hedging_confidence` | str | — | `high` / `medium` / `low` — based on disclosure clarity | never null |
+
+## 14. data/tierBCD/hedge_ratios.csv and instrument_deltas.csv
+Same schema as sections 3 and 4 (`ep/hedge_ratios.csv`, `ep/positions.csv`; the instrument file is named `instrument_deltas.csv`), plus `source_tier = tierBCD`. Industries: drilling and field services, oil and mineral royalty traders, midstream and pipelines, refining and marketing, gas utilities, coal. 2,967 firm-years of 463 firms, 13,501 instruments. Not part of the v2.0 verification.
+
+## 15. data/production_reserves.csv
+Grain: one row per extracted 10-K (9,077 filings). Key `cik` + `accession_number`. Columns: `cik`, `company`, `fiscal_year`, `fiscal_year_source`, `filing_date`, `accession_number`, `production_year`, `reserves_year_end`, `has_production`, `has_reserves`, `has_economics`, `oil_production_bbls`, `gas_production_mcf`, `ngl_production_bbls`, `total_production_boe`, `oil_production_bpd`, `gas_production_mmcf_per_day`, `total_production_boepd`, `proved_oil_reserves_mbbls`, `proved_gas_reserves_mmcf`, `proved_ngl_reserves_mbbls`, `total_proved_reserves_mboe`, `proved_developed_reserves_mboe`, `proved_undeveloped_reserves_mboe`, `standardized_measure_mm`, `pv10_mm`, `oil_price_used`, `gas_price_used`, `lease_operating_expense_per_boe`, `production_tax_per_boe`, `gathering_transport_per_boe`, `total_production_cost_per_boe`, `dd_and_a_per_boe`, `finding_development_cost_per_boe`, `proved_oil_reserves_bbls`, `proved_gas_reserves_mcf`, `total_proved_reserves_boe`, `flags`, `extraction_method`, `verification_status`, `source_file`, `source_tier`. Units: production in bbl / mcf / boe per year (per-day columns as reported); reserves in Mbbl / MMcf / Mboe as extracted with panel-unit copies (`*_bbls`, `*_mcf`, `*_boe`); economics in USD million and USD per bbl / mcf / boe. `flags` lists plausibility flags (nonstandard_schema, sm_zero_placeholder, reserves_sum_vs_total, pd_pu_vs_total, oil_bbls_vs_bpd, gas_mcf_vs_mmcfd, production_scale_outlier); values are never changed. Full notes: `data/production_reserves_README.md`.
+
+## 16. data/ep/CHANGES_2026-10.csv and CHANGES_2026-10_dropped_rows.csv
+`CHANGES_2026-10.csv`: `cik, company, fiscal_year, filing_date, field, old, new` for the 62 v2.0 firm-years whose values changed (335 field changes, mostly production denominators and the ratios built on them). `..._dropped_rows.csv`: 9 added firm-years not included because a v2.0 row holds the same `(cik, fiscal_year)`.

@@ -176,11 +176,11 @@ The year-over-year autocorrelation of hedge ratios was computed as a consistency
 
 The following are not included in this dataset:
 
-**Companies:** Only SIC 1311 (Crude Petroleum and Natural Gas) registrants are included. Integrated majors (SIC 2911), midstream companies (SIC 4922/4924), and gas utilities are excluded even if they disclose commodity hedging.
+**Companies (updated 2026-10-16):** the v2.0 core covers SIC 1311 (Crude Petroleum and Natural Gas) registrants only. Since October 2026 `data/tierBCD/` adds other energy industries (drilling and field services, royalty vehicles, midstream, refining and marketing, gas utilities, coal; 463 firms) and `data/ep/` adds E&P filings of 1994-2009 and 2025-2026; Hess and ConocoPhillips below are therefore partly present through tier B-D (SIC 2911). The added rows are not verified like the v2.0 core (section 12). The paragraph that follows describes the v2.0 core. Integrated majors (SIC 2911), midstream companies (SIC 4922/4924), and gas utilities are excluded even if they disclose commodity hedging.
 
 Two large E&P companies that researchers might expect to find are absent because their SEC EDGAR registrations list SIC 2911 (Petroleum Refining) rather than SIC 1311: **Hess Corporation** (CIK 4447) and **ConocoPhillips** (CIK 1163165). Both divested their downstream refining assets (Hess in 2013; ConocoPhillips via Phillips 66 spinoff in 2012) but retained their historical SIC 2911 classifications with the SEC. As a result, they do not appear in a SIC 1311 filing universe. Researchers interested in these companies should obtain their 10-K filings directly from EDGAR.
 
-**Filing types:** Only annual 10-K filings. Hedges disclosed in 10-Q (quarterly) filings, 8-K (current reports), or proxy statements are not captured.
+**Filing types:** the hedge positions are read from annual 10-K filings only. Hedges in 10-Qs are deliberately not used (their positions are incomplete and not consistent with the 10-K). 8-K hedge actions and financing events, credit-agreement terms and proxy statements are published in the companion repositories EnergyFirmsLenderEvents and EnergyFirmsGovernance, not in this dataset.
 
 **NGL hedge ratios:** `hedge_ratio_ngl_delta` is reported in `hedge_ratios.csv` for 202 firm-years where NGL instruments are present and `ngl_production_bbls` is available from the same filing. NGL production volume uses the filing's own reported year (not the FY+1 cross-lookup used for oil/gas) because the NGL production cross-lookup created measurement errors for midstream entities. 13 of the 202 NGL firm-years are flagged with `ngl_delta_ratio>150%` in the `warnings` column and should be treated with caution. For 39 firm-years with NGL instruments but no reported NGL production, the ratio is null.
 
@@ -349,3 +349,23 @@ Sections above that describe the airline group (the unverified v1 extraction, §
 Changes to published rows: 62 v2.0 firm-years changed value (listed field by field in `data/ep/CHANGES_2026-10.csv`). Most are FY2024 production denominators, which use the next year's production and now have the FY2025 filing; the others follow from the same cross-filing production lookup. 9 added firm-years that shared a (cik, fiscal_year) with a published row were left out (`CHANGES_2026-10_dropped_rows.csv`). 5 published hedge-ratio rows that had no row in `filings.csv` were added there.
 
 `production_reserves.csv`: production, reserves and economics fields are copied as extracted, with `flags` for implausible values (30 placeholder zeros, 2 unit errors, 192 filings with a different field layout) and are not verified field by field. Production is the filing's own year, whereas the hedge-ratio denominator uses the next year's production.
+
+---
+
+## 13. Open issues (2026-10-16): unverified, to do, unresolved
+
+**Unverified**
+- Added tiers (`pre2010A`, `update_2026`, `tierBCD`): no PASS/FIXED/WARN verdict, no manual re-extraction rounds; production, reserves, prices and unit costs were not checked field by field. Pre-2010 filings are a small-company-heavy population (10-K405, 10-KSB) with many physical fixed-price sales; production and reserve numbers were found in the text about 82% of the time.
+- No hand-labelled gold set for any reader output; code checks prove that a quoted value exists in the filing, not that it is in the right field.
+- 62 published rows changed value because the next-year production denominator now comes from a later filing (mostly FY2024); listed in `data/ep/CHANGES_2026-10.csv`, not hand-checked.
+- Years screened out by keywords or confidence scores were never read (see EnergyFirmsUniverse `hedging_status_class`): about 11% of the medium-confidence tier A unread filings were expected to hold a missed position; tier B-D low-confidence sample 1 of 149 (0.7%).
+- `production_reserves.csv`: 30 placeholder zeros, 2 unit errors (ConocoPhillips FY2000 and Hess FY2018 gas), 192 filings with another field layout.
+
+**Unresolved**
+- Extreme hedge ratios (57 oil and 62 gas above 150% in absolute value; 12 oil and 22 gas above 500%; maximum gas 229,533) are published as computed. They need a review and a rule (cap, drop or fix the source).
+- 9 added firm-years that share a (cik, fiscal_year) with a published row were left out (`CHANGES_2026-10_dropped_rows.csv`); 29 hedge-ratio firm-years are not on the EnergyFirmsUniverse spine.
+- `master_panel.csv`: the airline rows are those of version 2 (patched by a separate script) and differ from what `pipeline/build_master_panel.py` produces; tickers are filled for only 60 of 11,174 E&P rows because the SEC ticker cache is missing.
+- The hedge-ratio denominator is next-year production, so a ratio change can come from production alone; ratios are not comparable across groups.
+
+**To do**
+- Gold-set labelling and accuracy rates; review of extreme ratios; sampling of the medium-confidence tier B-D remainder; yearly refresh (FY2026 annual reports).

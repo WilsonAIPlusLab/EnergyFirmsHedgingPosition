@@ -1,6 +1,6 @@
 # How to Use This Dataset
 
-*Last updated: 2026-05-24*
+*Last updated: 2026-10-16*
 
 This guide covers loading the data, understanding the schema, joining files, and common analytical queries. Examples are provided in Python and R.
 
@@ -10,6 +10,7 @@ This guide covers loading the data, understanding the schema, joining files, and
 
 | Date | Change |
 |---|---|
+| 2026-10-16 | v2.1: layout updated (E&P extended with `source_tier`, `tierBCD/`, `production_reserves.csv`); examples for the added columns; open issues |
 | 2026-05-24 | v2.0: rewrote for three-group dataset (E&P, airline, refiner). New layout, master panel, crosswalk, status taxonomy. Old E&P-only examples updated to new file paths |
 | 2026-03-28 | Added NGL hedge ratio columns to schema table. Updated null production count to 66 firm-years. NGL stats: 202 firm-years, 39 without NGL production |
 | 2026-03-23 | Initial release |
@@ -30,29 +31,45 @@ install.packages(c("jsonlite", "dplyr", "readr"))
 
 ---
 
-## Dataset layout (v2.0)
+## Dataset layout (v2.1)
 
 ```
 data/
   ep/
-    hedge_ratios.csv      E&P firm-year panel (2,963 rows)
-    positions.csv         E&P instrument-level delta records (14,538 rows)
-    filings.csv           E&P per-filing summary (3,446 rows)
-    filing_index.csv      E&P parse superset, incl. non-hedgers (4,672 rows)
-    verification_log.csv  Extraction verdict per filing
-    extractions/          3,446 E&P JSON files
+    hedge_ratios.csv      E&P firm-year panel (5,587 rows; column source_tier; ep_v2.0 = verified core, 2,970 rows)
+    positions.csv         E&P instrument-level delta records (25,527 rows; source_tier)
+    filings.csv           E&P per-filing summary (6,096 rows; source_tier)
+    filing_index.csv      E&P parse superset of the v2.0 core, incl. non-hedgers (4,672 rows)
+    verification_log.csv  Extraction verdict per filing (v2.0 core only, 3,446 rows)
+    CHANGES_2026-10.csv   v2.0 values that changed in the October 2026 update (old vs new)
+    CHANGES_2026-10_dropped_rows.csv  added rows left out because a v2.0 row has the same cik + fiscal year
+    extractions/          6,096 E&P JSON files
+  tierBCD/
+    hedge_ratios.csv      other energy industries, firm-year (2,967 rows)
+    instrument_deltas.csv instrument-level (13,501 rows)
+  production_reserves.csv production, proved reserves, PV-10, unit costs per filing, all tiers (9,077 rows; see production_reserves_README.md)
   airline/
     hedge_ratios.csv      Airline firm-year panel (601 rows, version 2)
     positions.csv         Forward coverage schedule, one row per coverage-year (344 rows)
     filings.csv           Airline per-filing summary (603 reports)
-    extractions/          (v2: see v2_support/ and docs_v2/)
   refiner/
     hedge_ratios.csv      Refiner firm-year panel (235 rows)
     positions.csv         Un-aggregated notional positions (696 rows)
     filings.csv           Refiner per-filing summary (235 rows)
     extractions/          235 refiner JSON files
   crosswalk.csv           CIK <-> ticker <-> company crosswalk with era support
-  master_panel.csv        Harmonized long-format cross-group panel (6,582 rows)
+  master_panel.csv        Harmonized long-format cross-group panel (12,010 rows)
+```
+
+**Which E&P rows to use.** For the verified v2.0 sample filter `source_tier == "ep_v2.0"`; the other values (`pre2010A`, `update_2026`) are newer and have not been through the v2.0 verification (see `DATA_QUALITY.md` sections 12-13).
+
+```python
+ep = pd.read_csv("data/ep/hedge_ratios.csv", dtype={"cik": str})
+core = ep[ep.source_tier == "ep_v2.0"]                                   # verified v2.0 sample
+recent = ep[(ep.fiscal_year >= 2010) & ep.source_tier.isin(["ep_v2.0", "update_2026"])]
+# extreme ratios are published as computed; look before you use them
+bad = ep[(ep.hedge_ratio_oil_delta.abs() > 1.5) | (ep.hedge_ratio_gas_delta.abs() > 1.5)]
+pr = pd.read_csv("data/production_reserves.csv", dtype={"cik": str})     # each filing's own year, unlike the ratio denominator
 ```
 
 > **`cik` type note:** Store `cik` as a string in all files. Use `dtype={'cik': str}` in pandas
