@@ -362,10 +362,12 @@ Changes to published rows: 62 v2.0 firm-years changed value (listed field by fie
 - `production_reserves.csv`: 30 placeholder zeros, 2 unit errors (ConocoPhillips FY2000 and Hess FY2018 gas), 192 filings with another field layout.
 
 **Unresolved**
-- Extreme hedge ratios (57 oil and 62 gas above 150% in absolute value; 12 oil and 22 gas above 500%; maximum gas 229,533) are published as computed. They need a review and a rule (cap, drop or fix the source).
+- Extreme hedge ratios (57 oil and 62 gas above 150% in absolute value; 12 oil and 22 gas above 500%; maximum gas 229,533) are still published as computed. Since v2.2 each of the 107 firm-years concerned has a cause class in `ratio_quality` (17 extraction or calculation errors: multi-year totals in one year, duplicate or superseded rows, offsetting positions, option legs, expired rows, non-price swaps, unit errors; 31 where a production denominator does not fit: utilities, midstream, royalty trusts, refinery hedges; 3 real, capped at 1.5; 56 without a decisive cause, 7 of them checked in the filing without result) and cleaned copies `hedge_ratio_oil_delta_clean`, `hedge_ratio_gas_delta_clean` (missing, or capped at 1.5, per the rule). No clean ratio exceeds 150%. The causes were assigned by readers and a filing check, not by hand-labelling; the 56 unresolved firm-years are listed in the research-assistant tables for an optional hand check.
 - 9 added firm-years that share a (cik, fiscal_year) with a published row were left out (`CHANGES_2026-10_dropped_rows.csv`); 29 hedge-ratio firm-years are not on the EnergyFirmsUniverse spine.
 - `master_panel.csv`: the airline rows are those of version 2 (patched by a separate script) and differ from what `pipeline/build_master_panel.py` produces; tickers are filled for only 60 of 11,174 E&P rows because the SEC ticker cache is missing.
 - The hedge-ratio denominator is next-year production, so a ratio change can come from production alone; ratios are not comparable across groups.
 
 **To do**
 - Gold-set labelling and accuracy rates; review of extreme ratios; sampling of the medium-confidence tier B-D remainder; yearly refresh (FY2026 annual reports).
+
+**v2.2 note on denominators.** `denominator_fallback_own_year` is True for 1,576 of the 3,730 firm-years with a hedge position (16% of `ep_v2.0`, 32% `pre2010A`, 77% `tierBCD`, 85% `update_2026`; FY2026 cannot have a next year): the ratio then divides next-year hedged volume by the filing's own-year production. The extreme-ratio rate is not higher among them (1.6% vs 3.8%), so the fallback is not the main driver of the extreme ratios.

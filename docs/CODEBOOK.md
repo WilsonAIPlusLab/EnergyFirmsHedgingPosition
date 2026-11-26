@@ -375,3 +375,11 @@ Grain: one row per extracted 10-K (9,077 filings). Key `cik` + `accession_number
 
 ## 16. data/ep/CHANGES_2026-10.csv and CHANGES_2026-10_dropped_rows.csv
 `CHANGES_2026-10.csv`: `cik, company, fiscal_year, filing_date, field, old, new` for the 62 v2.0 firm-years whose values changed (335 field changes, mostly production denominators and the ratios built on them). `..._dropped_rows.csv`: 9 added firm-years not included because a v2.0 row holds the same `(cik, fiscal_year)`.
+
+## 17. Columns added in v2.2 (data/ep/hedge_ratios.csv and data/tierBCD/hedge_ratios.csv, appended before `source_tier`)
+| Column | Type | Notes |
+|---|---|---|
+| `ratio_quality` | str | `ok`, or for a firm-year with an oil or gas delta ratio above 150% in absolute value: `extreme_error`, `extreme_not_meaningful`, `extreme_real_capped`, `extreme_unresolved` (see `DATA_QUALITY.md` section 13) |
+| `hedge_ratio_oil_delta_clean` | float | oil delta ratio with the B3 rule: missing for the first, second and fourth classes, capped at 1.5 for `extreme_real_capped`, unchanged for `ok` |
+| `hedge_ratio_gas_delta_clean` | float | same for gas |
+| `denominator_fallback_own_year` | bool | True if the firm-year has a position and the ratio uses the filing's own-year production (next-year production missing); False if it uses next-year production; blank if no position or the filing is not on the firm-year spine |

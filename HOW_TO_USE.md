@@ -67,8 +67,10 @@ data/
 ep = pd.read_csv("data/ep/hedge_ratios.csv", dtype={"cik": str})
 core = ep[ep.source_tier == "ep_v2.0"]                                   # verified v2.0 sample
 recent = ep[(ep.fiscal_year >= 2010) & ep.source_tier.isin(["ep_v2.0", "update_2026"])]
-# extreme ratios are published as computed; look before you use them
-bad = ep[(ep.hedge_ratio_oil_delta.abs() > 1.5) | (ep.hedge_ratio_gas_delta.abs() > 1.5)]
+# v2.2: extreme ratios keep their published value; use the cleaned copies or filter on ratio_quality
+bad = ep[ep.ratio_quality != "ok"]
+oil = ep.hedge_ratio_oil_delta_clean              # missing or capped where the ratio was extreme
+same_year_denominator = ep[ep.denominator_fallback_own_year == True]   # ratio uses own-year production
 pr = pd.read_csv("data/production_reserves.csv", dtype={"cik": str})     # each filing's own year, unlike the ratio denominator
 ```
 
